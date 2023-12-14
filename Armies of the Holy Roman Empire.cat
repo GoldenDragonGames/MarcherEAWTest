@@ -25,6 +25,7 @@
       <categoryLinks>
         <categoryLink id="d5ce-d307-de7e-3858" name="Infantry" hidden="false" targetId="59ff-44cb-cb53-760d" primary="false"/>
         <categoryLink id="9538-4d07-77d6-df29" name="Infantry Command" hidden="false" targetId="dcc5-ef7f-27fc-a528" primary="true"/>
+        <categoryLink id="2907-61d7-8621-ad58" name="Command" hidden="false" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="8320-4c92-7ed1-9fd8" name="Imperial Pioneer Squad" hidden="false" collective="false" import="true" targetId="cef1-6e63-8635-a423" type="selectionEntry">
@@ -58,6 +59,52 @@
       <categoryLinks>
         <categoryLink id="d47a-31ba-bd86-3e70" name="Command" hidden="false" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
         <categoryLink id="4fe8-6321-8d84-59fd" name="Zeppelin" hidden="false" targetId="d3e6-9cfb-4ddb-2020" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3b85-5a90-a23f-9ead" name="21cm Morser Battery" hidden="false" collective="false" import="true" targetId="2b90-28f4-5032-a79e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ae22-d197-6fb3-7595" name="Artillery" hidden="false" targetId="27cf-5cae-ad71-1584" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9e74-e6bf-f27b-1971" name="20M Supply Truck" hidden="false" collective="false" import="true" targetId="d807-88e6-8ddb-912b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6eca-961b-9444-9aec" name="Light Transports" hidden="false" targetId="d4be-5aad-8560-5720" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="58be-b27a-eb16-1e49" name="28M Wallenstein Armored Halftrack" hidden="false" collective="false" import="true" targetId="45bb-9f62-bc39-2e51" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="782e-0f0a-9499-12b0" name="Light Transports" hidden="false" targetId="d4be-5aad-8560-5720" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="39a0-c32c-be58-0519" name="28M Wallenstein Armored Halftrack Gun Carrier" hidden="false" collective="false" import="true" targetId="7571-1648-52e0-4709" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8081-acf1-9c34-af85" name="Support" hidden="false" targetId="7110-7fe8-80e2-5e81" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e2ec-010b-b869-fa6f" name="28M Wallenstein Armored Halftrack Gun Carrier Commander" hidden="false" collective="false" import="true" targetId="ddfe-6c1e-040d-cd69" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a0b8-faf5-5d99-2195" name="Support" hidden="false" targetId="7110-7fe8-80e2-5e81" primary="false"/>
+        <categoryLink id="f1ba-4ed7-1b01-10e1" name="Support Command" hidden="false" targetId="ac96-6e42-7e7b-1947" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2e82-e205-3d47-9626" name="32M Hunyadi Armored Personnel Carrier" hidden="false" collective="false" import="true" targetId="5030-3495-b40b-fc19" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b112-989f-75a1-0f3b" name="Armor" hidden="false" targetId="7950-f6f1-38c2-f2dd" primary="false"/>
+        <categoryLink id="880d-c4ac-3c59-4780" name="Heavy Transports" hidden="false" targetId="1dd3-025a-e394-fd6b" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f7bf-9408-6ea1-4199" name="22M Radetzky Armored Car" hidden="false" collective="false" import="true" targetId="96de-d712-d047-637e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0598-2ae3-8c98-a270" name="Recon" hidden="false" targetId="481b-63e9-517b-180b" primary="false"/>
+        <categoryLink id="759b-86fe-e4bd-af9c" name="Recon Vehicles" hidden="false" targetId="cac2-586c-2611-93d2" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4424-0a9c-3a57-1123" name="22M Radetzky Armored Car Commander" hidden="false" collective="false" import="true" targetId="bb7e-43bf-cc04-28e3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6faa-d6ec-b7a2-d0ad" name="Command" hidden="false" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
+        <categoryLink id="6d2e-8ca2-da5d-f70f" name="Recon" hidden="false" targetId="481b-63e9-517b-180b" primary="false"/>
+        <categoryLink id="6423-e9cf-0819-a47f" name="Recon Command" hidden="false" targetId="f787-f73c-7a5b-534c" primary="true"/>
+        <categoryLink id="fc26-1ff6-b252-5be3" name="Recon Vehicles" hidden="false" targetId="cac2-586c-2611-93d2" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -204,6 +251,7 @@
                     <entryLink id="2302-31d3-74c6-8b3a" name="CKF Saber" hidden="false" collective="false" import="true" targetId="116c-4e0a-aadc-0b83" type="selectionEntry"/>
                     <entryLink id="15dc-ebc5-f058-e47f" name="MP33 SMG" hidden="false" collective="false" import="true" targetId="1d72-b2ee-fef5-7d5b" type="selectionEntry"/>
                     <entryLink id="ac88-46e9-9f16-1b01" name="M1931 Mannlicher Rifle" hidden="false" collective="false" import="true" targetId="07f8-196b-cb38-5891" type="selectionEntry"/>
+                    <entryLink id="cd81-1a0a-5d04-31d3" name="VZ. 38 Heavy Rifle" hidden="false" collective="false" import="true" targetId="8da2-f265-a840-eb38" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -236,13 +284,27 @@
                   </characteristics>
                 </profile>
               </profiles>
-              <entryLinks>
-                <entryLink id="a982-0cb4-8680-ab6c" name="M1931 Mannlicher Rifle" hidden="false" collective="false" import="true" targetId="07f8-196b-cb38-5891" type="selectionEntry">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="31a8-35ac-d94b-0dba" name="Rifle" hidden="false" collective="false" import="true" defaultSelectionEntryId="0b67-0ba0-a6c9-ee1a">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fef-8c04-6aa2-8f8a" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0116-046a-44a9-2224" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4168-50e3-c139-c086" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba53-6872-4604-4534" type="min"/>
                   </constraints>
-                </entryLink>
+                  <entryLinks>
+                    <entryLink id="d69e-83dc-8772-50e8" name="VZ. 38 Heavy Rifle" hidden="false" collective="false" import="true" targetId="8da2-f265-a840-eb38" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d52e-0222-d558-9d9d" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="0b67-0ba0-a6c9-ee1a" name="M1931 Mannlicher Rifle" hidden="false" collective="false" import="true" targetId="07f8-196b-cb38-5891" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8791-d704-89ef-ece7" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
                 <entryLink id="cc0a-fc1f-582d-4e48" name="Entrenching Tool" hidden="false" collective="false" import="true" targetId="df01-6d53-3f15-ff7d" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="810c-16b2-4851-b9bd" type="min"/>
@@ -321,7 +383,7 @@
         <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="116c-4e0a-aadc-0b83" name="CKF Saber" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="116c-4e0a-aadc-0b83" name="CKF Saber" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="736f-63e0-a71b-9c84" name="Compact Kinetic Field (CKF) Blade" hidden="false" targetId="ce1a-9c5f-9023-70b8" type="profile"/>
       </infoLinks>
@@ -400,6 +462,7 @@
                     <entryLink id="c67d-4fb9-f5a8-c8d1" name="CKF Saber" hidden="false" collective="false" import="true" targetId="116c-4e0a-aadc-0b83" type="selectionEntry"/>
                     <entryLink id="c5ba-43d3-e2f5-5faf" name="MP33 SMG" hidden="false" collective="false" import="true" targetId="1d72-b2ee-fef5-7d5b" type="selectionEntry"/>
                     <entryLink id="894a-af8f-38b6-fa15" name="M1931 Mannlicher Rifle" hidden="false" collective="false" import="true" targetId="07f8-196b-cb38-5891" type="selectionEntry"/>
+                    <entryLink id="978e-c65e-629f-aa59" name="VZ. 38 Heavy Rifle" hidden="false" collective="false" import="true" targetId="8da2-f265-a840-eb38" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -432,13 +495,27 @@
                   </characteristics>
                 </profile>
               </profiles>
-              <entryLinks>
-                <entryLink id="635a-d58e-f219-237d" name="M1931 Mannlicher Rifle" hidden="false" collective="false" import="true" targetId="07f8-196b-cb38-5891" type="selectionEntry">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="9deb-8efb-56fb-614c" name="Rifle" hidden="false" collective="false" import="true" defaultSelectionEntryId="416f-32a6-c9bf-438f">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a99b-27e5-3787-0265" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8040-6e9e-7c3b-fac3" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c24d-a085-dbcc-d7d7" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3af0-9101-b68f-ff74" type="min"/>
                   </constraints>
-                </entryLink>
+                  <entryLinks>
+                    <entryLink id="4eed-12d9-ec80-ad61" name="VZ. 38 Heavy Rifle" hidden="false" collective="false" import="true" targetId="8da2-f265-a840-eb38" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f4d-1191-d71b-20f0" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="416f-32a6-c9bf-438f" name="M1931 Mannlicher Rifle" hidden="false" collective="false" import="true" targetId="07f8-196b-cb38-5891" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d180-9b6d-d2e2-a763" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
                 <entryLink id="c444-7e15-9db3-33c4" name="Entrenching Tool" hidden="false" collective="false" import="true" targetId="df01-6d53-3f15-ff7d" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d32f-4f09-8feb-2fe3" type="min"/>
@@ -811,7 +888,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="925b-1d0e-fc50-4605" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="7d2a-2a7e-4dac-b3d0" name="MG36" hidden="false" collective="false" import="true" targetId="71b3-782b-df7f-f847" type="selectionEntry"/>
+            <entryLink id="7d2a-2a7e-4dac-b3d0" name="MG36" hidden="false" collective="false" import="true" targetId="71b3-782b-df7f-f847" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a79-2dfa-63d1-600a" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac9d-433c-77f8-e05e" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name=" Munitions" typeId="Points" value="0.0"/>
@@ -839,6 +921,7 @@
           <entryLinks>
             <entryLink id="5622-d777-4455-b61f" name="75mm Battle Cannon" hidden="false" collective="false" import="true" targetId="ff96-0f26-7c16-6d43" type="selectionEntry"/>
             <entryLink id="3523-34ec-edfd-9080" name="88mm High-Velocity Cannon" hidden="false" collective="false" import="true" targetId="9471-ce7f-e82d-5c6f" type="selectionEntry"/>
+            <entryLink id="6168-ffa9-1e8a-d42c" name="Papk. 34 Plasma Cannon" hidden="false" collective="false" import="true" targetId="0f3d-425a-8831-e986" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -848,9 +931,9 @@
         <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="71b3-782b-df7f-f847" name="MG36" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="71b3-782b-df7f-f847" name="MG36 Medium Machine Gun" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="8a56-fdc1-1cf4-b134" name="MG36" hidden="false" targetId="972c-090a-c549-ed13" type="profile"/>
+        <infoLink id="8a56-fdc1-1cf4-b134" name="MG36 Medium Machine Gun" hidden="false" targetId="972c-090a-c549-ed13" type="profile"/>
         <infoLink id="c7c6-aa2d-5a31-03a7" name="Suppressive" hidden="false" targetId="4911-2380-864d-8b44" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="2"/>
@@ -858,12 +941,12 @@
         </infoLink>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="50.0"/>
+        <cost name=" Munitions" typeId="Points" value="20.0"/>
         <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
         <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9f30-5cda-4d37-7fae" name="MG09 Schwarzlose Heavy Machine Gun" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9f30-5cda-4d37-7fae" name="MG09 Schwarzlose Heavy Machine Gun" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="1055-ad0a-2f07-87c3" name="MG09 Schwarzlose Heavy Machine Gun" hidden="false" targetId="4585-4dc9-e69a-cfd1" type="profile"/>
         <infoLink id="f522-d217-bbcc-71d9" name="Suppressive" hidden="false" targetId="4911-2380-864d-8b44" type="rule">
@@ -873,7 +956,7 @@
         </infoLink>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="60.0"/>
+        <cost name=" Munitions" typeId="Points" value="40.0"/>
         <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
         <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
       </costs>
@@ -889,7 +972,7 @@
         <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff96-0f26-7c16-6d43" name="75mm Battle Cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ff96-0f26-7c16-6d43" name="75mm Battle Cannon" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="edbc-41ed-c8f7-5235" name="75mm Battle Cannon" hidden="false" targetId="ebb0-01d8-8d0d-181f" type="profile"/>
       </infoLinks>
@@ -965,7 +1048,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3a5-f0bf-6381-8527" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="4b2f-8ebc-cf27-ddff" name="MG36" hidden="false" collective="false" import="true" targetId="71b3-782b-df7f-f847" type="selectionEntry"/>
+            <entryLink id="4b2f-8ebc-cf27-ddff" name="MG36" hidden="false" collective="false" import="true" targetId="71b3-782b-df7f-f847" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6575-e576-174c-b597" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ad5-2783-2217-71c3" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name=" Munitions" typeId="Points" value="0.0"/>
@@ -981,8 +1069,16 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c22-2eb4-c47f-0150" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="58b0-7d95-27db-9af3" name="MG09 Schwarzlose Heavy Machine Gun" hidden="false" collective="false" import="true" targetId="9f30-5cda-4d37-7fae" type="selectionEntry"/>
-            <entryLink id="6d9f-5735-cdba-8dc1" name="Automatic Grenade Launcher" hidden="false" collective="false" import="true" targetId="56a0-dceb-5d9a-637d" type="selectionEntry"/>
+            <entryLink id="58b0-7d95-27db-9af3" name="MG09 Schwarzlose Heavy Machine Gun" hidden="false" collective="false" import="true" targetId="9f30-5cda-4d37-7fae" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2681-0086-8e0e-6a33" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="6d9f-5735-cdba-8dc1" name="Automatic Grenade Launcher" hidden="false" collective="false" import="true" targetId="56a0-dceb-5d9a-637d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b7b-7729-70f5-6ead" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="1e96-dbbc-3cf7-3d72" name="Main Cannon" hidden="false" collective="false" import="true" defaultSelectionEntryId="1b3b-a676-b0cc-c7bb">
@@ -993,6 +1089,7 @@
           <entryLinks>
             <entryLink id="1b3b-a676-b0cc-c7bb" name="75mm Battle Cannon" hidden="false" collective="false" import="true" targetId="ff96-0f26-7c16-6d43" type="selectionEntry"/>
             <entryLink id="837d-6a1e-ce2e-6ef6" name="88mm High-Velocity Cannon" hidden="false" collective="false" import="true" targetId="9471-ce7f-e82d-5c6f" type="selectionEntry"/>
+            <entryLink id="f6ed-8b26-3e83-40fe" name="Papk. 34 Plasma Cannon" hidden="false" collective="false" import="true" targetId="0f3d-425a-8831-e986" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1164,6 +1261,564 @@
         <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="0f3d-425a-8831-e986" name="Papk. 34 Plasma Cannon" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2a20-66a6-7cbc-0bf3" name="Papk. 34 Plasma Cannon" hidden="false" targetId="f508-4c7e-d326-bb16" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Munitions" typeId="Points" value="36.0"/>
+        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8da2-f265-a840-eb38" name="VZ. 38 Heavy Rifle" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2c2d-0e77-9a67-bde1" name="VZ. 38 Heavy Rifle" hidden="false" targetId="2002-7806-8188-12de" type="profile"/>
+        <infoLink id="6ed5-8611-086e-50a3" name="Adjustable Sights" hidden="false" targetId="4565-e3f5-c290-9d99" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Munitions" typeId="Points" value="10.0"/>
+        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b90-28f4-5032-a79e" name="21cm Morser Battery" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7552-5c72-21aa-97ea" name="21cm Morser Battery" hidden="false" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition">
+          <characteristics>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2 21cm Morser Carriages</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">(CORE) Artillery, Heavy Artillery, Towable, (CORE) Support, HRE</characteristic>
+            <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="50df-2dc7-7e06-971a" name="Deployed Weapon" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
+        <infoLink id="6c13-2fa5-2f8c-7323" name="Front Facing" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
+        <infoLink id="d757-87ad-3113-34ca" name="Towable" hidden="false" targetId="9e88-6c38-3a57-c010" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9c7d-02b8-5dec-37d1" name="Squad Members" hidden="false" collective="false" import="true" defaultSelectionEntryId="5df5-cc83-c2a4-63a8">
+          <selectionEntries>
+            <selectionEntry id="5df5-cc83-c2a4-63a8" name="21cm Morser Carriage" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09b1-39a7-ee9f-0939" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37e0-be7f-5c99-e91f" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="18dd-6c74-c6b9-7c36" name="21cm Morser Carriage" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">4&quot;</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
+                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8/4</characteristic>
+                    <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">7</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink id="bd29-65d2-8cc3-f889" name="21cm Morser M.26" hidden="false" collective="false" import="true" targetId="2519-29f7-86c3-eddc" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e34b-fedb-6673-5d4e" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbca-0ff6-ac26-b27d" type="min"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="7229-a982-12b5-46b2" name="M1931 Mannlicher Rifle" hidden="false" collective="false" import="true" targetId="07f8-196b-cb38-5891" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2721-2c42-d8f2-a9bf" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9cf-6c26-c172-d771" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name=" Munitions" typeId="Points" value="0.0"/>
+                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name=" Munitions" typeId="Points" value="70.0"/>
+        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2519-29f7-86c3-eddc" name="21cm Morser M.26" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="816c-3152-0fd0-9f45" name="21cm Morser M.26" hidden="false" targetId="050d-65d0-57af-3350" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name=" Munitions" typeId="Points" value="72.0"/>
+        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d807-88e6-8ddb-912b" name="20M Supply Truck" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5c74-53ce-ebe5-4486" name="20M Supply Truck" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
+          <characteristics>
+            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">14&quot;</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
+            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
+            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8adb-679f-2104-afb4" name="20M Supply Truck" hidden="false" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition">
+          <characteristics>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 20M Supply Truck</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">Vehicle, (CORE) Support (CORE), Transport, Light Vehicle, HRE</characteristic>
+            <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6fea-e370-7142-88d5" name="Crewed" hidden="false" targetId="e5bd-eff1-79f3-661b" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="2"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="302c-06bd-d7ac-b35c" name="Operator" hidden="false" targetId="b61a-cd3a-75d6-8152" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="1"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="d044-9596-6f4d-f9d1" name="Transport" hidden="false" targetId="73c0-9282-d155-0b35" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="10"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="07ee-13ba-6ca1-ee7c" name="Light Vehicle Actions" hidden="false" targetId="73b4-d2db-5c65-0d10" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Munitions" typeId="Points" value="40.0"/>
+        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="45bb-9f62-bc39-2e51" name="28M Wallenstein Armored Halftrack" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6064-64fb-577c-566f" name="28M Wallenstein Armored Halftrack" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
+          <characteristics>
+            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">12&quot;</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
+            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8/7</characteristic>
+            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bbc6-3161-ca48-4f10" name="28M Wallenstein Armored Halftrack" hidden="false" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition">
+          <characteristics>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 28M Wallenstein Armored Halftrack</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">Vehicle, (CORE)Transport, Light Vehicle, HRE</characteristic>
+            <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b295-4fc9-93b9-1866" name="Crewed" hidden="false" targetId="e5bd-eff1-79f3-661b" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="2"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="7cb0-8100-f84c-328e" name="Operator" hidden="false" targetId="b61a-cd3a-75d6-8152" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="1"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9d8a-905d-fbb6-8e79" name="Transport" hidden="false" targetId="73c0-9282-d155-0b35" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="10"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3cb4-4dff-6a0d-cd52" name="Light Vehicle Actions" hidden="false" targetId="73b4-d2db-5c65-0d10" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="40b4-45e0-c1a3-8eb5" name="Pintle Mount" hidden="false" collective="false" import="true" defaultSelectionEntryId="5aaf-c82e-82e9-3d67">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00fa-5a12-aae5-7e3a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5aaf-c82e-82e9-3d67" name="MG36 Medium Machine Gun" hidden="false" collective="false" import="true" targetId="71b3-782b-df7f-f847" type="selectionEntry"/>
+            <entryLink id="86fe-931f-5312-abba" name="MG09 Schwarzlose Heavy Machine Gun" hidden="false" collective="false" import="true" targetId="9f30-5cda-4d37-7fae" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Munitions" typeId="Points" value="81.0"/>
+        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7571-1648-52e0-4709" name="28M Wallenstein Armored Halftrack Gun Carrier" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="39ed-8e79-6e87-260e" name="28M Wallenstein Armored Halftrack" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
+          <characteristics>
+            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">12&quot;</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
+            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8/7</characteristic>
+            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a70e-c7a3-8588-9031" name="28M Wallenstein Armored Halftrack Gun Carrier" hidden="false" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition">
+          <characteristics>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 28M Wallenstein Armored Halftrack Gun Carrier</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">Vehicle, (CORE) Support, Light Vehicle, HRE</characteristic>
+            <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2953-cb27-6fe7-eafa" name="Crewed" hidden="false" targetId="e5bd-eff1-79f3-661b" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="2"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="660c-e13d-2316-2a46" name="Operator" hidden="false" targetId="b61a-cd3a-75d6-8152" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="1"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3a4d-a71e-d6af-77b4" name="Light Vehicle Actions" hidden="false" targetId="73b4-d2db-5c65-0d10" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ae60-76ba-1751-1572" name="Main Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6a5e-cae0-faf7-ef0a">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b1c-1a9a-ff60-2e3d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8677-3fc9-b05e-e548" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6a5e-cae0-faf7-ef0a" name="Epak. 34 Energy Cannon" hidden="false" collective="false" import="true" targetId="4be2-4855-7d77-5acf" type="selectionEntry"/>
+            <entryLink id="353d-3afc-6de6-21e5" name="75mm Battle Cannon" hidden="false" collective="false" import="true" targetId="ff96-0f26-7c16-6d43" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Munitions" typeId="Points" value="81.0"/>
+        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ddfe-6c1e-040d-cd69" name="28M Wallenstein Armored Halftrack Gun Carrier Commander" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7a60-e8b4-a310-31b2" name="28M Wallenstein Armored Halftrack" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
+          <characteristics>
+            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">12&quot;</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
+            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8/7</characteristic>
+            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7010-d1db-7b87-7a6f" name="28M Wallenstein Armored Halftrack Gun Carrier" hidden="false" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition">
+          <characteristics>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 28M Wallenstein Armored Halftrack Gun Carrier</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">Vehicle, (CORE) Support, Light Vehicle, HRE</characteristic>
+            <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9af0-e1e9-1ecb-8ef7" name="Crewed" hidden="false" targetId="e5bd-eff1-79f3-661b" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="2"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="6ff0-7aa1-878d-5fcb" name="Operator" hidden="false" targetId="b61a-cd3a-75d6-8152" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="1"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5711-0a0c-fc2b-5528" name="Light Vehicle Actions" hidden="false" targetId="73b4-d2db-5c65-0d10" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="dc7d-83cf-c368-6ac9" name="Main Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8b84-9393-6392-ca0f">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed2f-3a27-f6a0-e862" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab4c-a979-b757-be8c" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8b84-9393-6392-ca0f" name="Epak. 34 Energy Cannon" hidden="false" collective="false" import="true" targetId="4be2-4855-7d77-5acf" type="selectionEntry"/>
+            <entryLink id="da7f-a103-b898-0b3e" name="75mm Battle Cannon" hidden="false" collective="false" import="true" targetId="ff96-0f26-7c16-6d43" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5d3b-c8e9-ced6-5fa4" name="Officer Seniority" hidden="false" collective="false" import="true" targetId="f6c7-8ea6-b7ab-64be" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbde-ef60-6846-9875" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1d7-897d-9ca3-2c02" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Munitions" typeId="Points" value="81.0"/>
+        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5030-3495-b40b-fc19" name="32M Hunyadi Armored Personnel Carrier" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4401-a3fe-f7d7-4e08" name="Hunyadi Armored Personnel Carrier" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
+          <characteristics>
+            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">12&quot;</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">3</characteristic>
+            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">11/10</characteristic>
+            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">14</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="22e7-44bb-2232-75b3" name="Armored" hidden="false" targetId="17b7-2b07-3f19-2098" type="rule"/>
+        <infoLink id="9955-6e34-b16b-88c5" name="Crewed" hidden="false" targetId="e5bd-eff1-79f3-661b" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="5"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="2807-8054-a48e-c5c5" name="Crushing Treads" hidden="false" targetId="1fc3-97a8-e24a-a084" type="rule"/>
+        <infoLink id="50d6-505a-b30c-0ef3" name="Operator" hidden="false" targetId="b61a-cd3a-75d6-8152" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="3"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ee51-f845-bbc9-0f5d" name="Armor Actions" hidden="false" targetId="e36c-4baf-54a1-3151" type="profile"/>
+        <infoLink id="fb21-ee11-f559-2b91" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="4"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b0f4-095b-56fe-248c" name="Transport" hidden="false" targetId="73c0-9282-d155-0b35" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="10"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="afd2-df8d-6340-e989" name="Coaxial Machine Gun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f937-0488-e683-128d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5712-c10f-4952-02f5" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8e8c-f786-225f-6c65" name="MG36 Medium Machine Gun" hidden="false" collective="false" import="true" targetId="71b3-782b-df7f-f847" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8cf-6eeb-2e00-b2ad" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cc7-3765-f608-e73a" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" Munitions" typeId="Points" value="0.0"/>
+            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7a02-e3de-9db0-61a4" name="Bow Gun" hidden="false" collective="false" import="true" defaultSelectionEntryId="610d-6d2c-deee-9db2">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e395-0218-6565-77fd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b53-6046-2b55-71b1" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a9d1-9fb8-4e92-7b15" name="MG09 Schwarzlose Heavy Machine Gun" hidden="false" collective="false" import="true" targetId="9f30-5cda-4d37-7fae" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17ac-a89a-f8ea-a72e" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="610d-6d2c-deee-9db2" name="Automatic Grenade Launcher" hidden="false" collective="false" import="true" targetId="56a0-dceb-5d9a-637d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3209-c831-624f-ed8a" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="fc4a-29b6-e468-c4a9" name="Main Cannon" hidden="false" collective="false" import="true" defaultSelectionEntryId="5cdd-427f-d31a-8ae9">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa1a-60b4-01ab-c53b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33d2-b079-8693-9c0a" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3213-ba4e-b599-5fcb" name="40mm Autocannon" hidden="false" collective="false" import="true" targetId="6a2b-198d-743e-54ea" type="selectionEntry"/>
+            <entryLink id="5cdd-427f-d31a-8ae9" name="Mek. 30 Rapid Fire Energy Cannon" hidden="false" collective="false" import="true" targetId="5462-d720-da93-059a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Munitions" typeId="Points" value="126.0"/>
+        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5462-d720-da93-059a" name="Mek. 30 Rapid Fire Energy Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6981-2637-b293-e313" name="Mek. 30 Rapid Fire Energy Cannon" hidden="false" targetId="988f-ff55-5fcc-8308" type="profile"/>
+        <infoLink id="5352-326b-64fb-7311" name="Suppressive" hidden="false" targetId="4911-2380-864d-8b44" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="2"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name=" Munitions" typeId="Points" value="32.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="96de-d712-d047-637e" name="22M Radetzky Armored Car" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9a64-0776-4f1d-3762" name="22M Radetzky Armored Car" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
+          <characteristics>
+            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">14&quot;</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8/7</characteristic>
+            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6915-231b-fac1-7e0d" name="22M Radetzky Armored Car" hidden="false" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition">
+          <characteristics>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 22M Radetzky Armored Car</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">Vehicle, (CORE)Recon Vehicle, Light Vehicle, HRE</characteristic>
+            <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d3bd-0cf5-6df2-49e5" name="Crewed" hidden="false" targetId="e5bd-eff1-79f3-661b" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="3"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b492-cda6-6cc7-6900" name="Operator" hidden="false" targetId="b61a-cd3a-75d6-8152" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="1"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="11a3-fcaa-87ff-31a7" name="Light Vehicle Actions" hidden="false" targetId="73b4-d2db-5c65-0d10" type="profile"/>
+        <infoLink id="fc39-e96b-caa2-ce91" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="4"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="4a53-ed9c-f85f-d47e" name="Coaxial Machine Gun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9abb-6aac-101a-baba" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca4d-4573-432e-b1db" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="bc64-1a8d-6af3-6ce8" name="MG36 Medium Machine Gun" hidden="false" collective="false" import="true" targetId="71b3-782b-df7f-f847" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5085-3d54-cb44-ca68" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5caf-a9dc-c2a1-0e9b" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" Munitions" typeId="Points" value="0.0"/>
+            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="25ef-68b4-183e-9dfb" name="Turret Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="d240-dbfd-c4a6-7de7">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59cd-d8c0-b636-2fe8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f218-683f-47d5-a4b6" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="121b-c3a0-5c9a-8a3a" name="40mm Autocannon" hidden="false" collective="false" import="true" targetId="6a2b-198d-743e-54ea" type="selectionEntry"/>
+            <entryLink id="d240-dbfd-c4a6-7de7" name="Mek. 30 Rapid Fire Energy Cannon" hidden="false" collective="false" import="true" targetId="5462-d720-da93-059a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Munitions" typeId="Points" value="117.0"/>
+        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bb7e-43bf-cc04-28e3" name="22M Radetzky Armored Car Commander" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3f69-02bc-23f7-c609" name="22M Radetzky Armored Car" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
+          <characteristics>
+            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">14&quot;</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8/7</characteristic>
+            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">9</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="00c0-bfc4-62c6-f837" name="22M Radetzky Armored Car" hidden="false" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition">
+          <characteristics>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 22M Radetzky Armored Car Commander</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">Vehicle, (CORE)Recon Vehicle, Light Vehicle, HRE</characteristic>
+            <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bde6-e10c-7bbf-c094" name="Crewed" hidden="false" targetId="e5bd-eff1-79f3-661b" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="3"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="58bb-d730-6cd4-0867" name="Operator" hidden="false" targetId="b61a-cd3a-75d6-8152" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="1"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="c7db-474f-ec4f-a137" name="Light Vehicle Actions" hidden="false" targetId="73b4-d2db-5c65-0d10" type="profile"/>
+        <infoLink id="9e44-ef0b-0236-f954" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="4"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="403f-9d50-5f96-29f4" name="Coaxial Machine Gun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="539f-b33a-a302-0b36" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14aa-f4c0-d1b2-9ec2" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="96ab-e175-8778-46fc" name="MG36 Medium Machine Gun" hidden="false" collective="false" import="true" targetId="71b3-782b-df7f-f847" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d988-1017-6a22-bdf3" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ade-e571-768c-9f72" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" Munitions" typeId="Points" value="0.0"/>
+            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cb9f-94cd-bb2b-1c8e" name="Turret Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="ac7d-f335-bf3d-b960">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8b8-57d9-fd6e-4768" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90de-ba2c-d914-7b77" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d8c6-4af5-e2df-1438" name="40mm Autocannon" hidden="false" collective="false" import="true" targetId="6a2b-198d-743e-54ea" type="selectionEntry"/>
+            <entryLink id="ac7d-f335-bf3d-b960" name="Mek. 30 Rapid Fire Energy Cannon" hidden="false" collective="false" import="true" targetId="5462-d720-da93-059a" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7e6a-1119-796f-875e" name="Officer Seniority" hidden="false" collective="false" import="true" targetId="f6c7-8ea6-b7ab-64be" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ced-a749-8539-bce0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcf0-d22b-03ee-0502" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Munitions" typeId="Points" value="117.0"/>
+        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="4565-e3f5-c290-9d99" name="Adjustable Sights" hidden="false">
@@ -1194,16 +1849,6 @@
     <profile id="73b4-d2db-5c65-0d10" name="Light Vehicle Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
       <characteristics>
         <characteristic name="Available Actions" typeId="71f8-64d2-a32a-0757">Move, Capture, Tow</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="b7c1-43ed-932c-c4e2" name="VZ. 38 Rifle" hidden="false" typeId="Weapon" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">32&quot;</characteristic>
-        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
-        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">2</characteristic>
-        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Adjustable Sights</characteristic>
-        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Rifle, Ranged</characteristic>
       </characteristics>
     </profile>
     <profile id="a377-d534-5c8c-a988" name="MP33 SMG" hidden="false" typeId="Weapon" typeName="Weapon">
@@ -1268,7 +1913,7 @@
     </profile>
     <profile id="4585-4dc9-e69a-cfd1" name="MG09 Schwarzlose Heavy Machine Gun" hidden="false" typeId="Weapon" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">36&quot;</characteristic>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">28&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">10</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">2</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2</characteristic>
@@ -1276,9 +1921,9 @@
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Machine Gun, Heavy, Ranged</characteristic>
       </characteristics>
     </profile>
-    <profile id="972c-090a-c549-ed13" name="MG36" hidden="false" typeId="Weapon" typeName="Weapon">
+    <profile id="972c-090a-c549-ed13" name="MG36 Medium Machine Gun" hidden="false" typeId="Weapon" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">36&quot;</characteristic>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">10</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
@@ -1356,7 +2001,7 @@
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Heavy, Cannon, Ranged</characteristic>
       </characteristics>
     </profile>
-    <profile id="050d-65d0-57af-3350" name="30cm Morser M.26" hidden="false" typeId="Weapon" typeName="Weapon">
+    <profile id="050d-65d0-57af-3350" name="21cm Morser M.26" hidden="false" typeId="Weapon" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">40&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">8</characteristic>
@@ -1461,6 +2106,16 @@
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">
 </characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2002-7806-8188-12de" name="VZ. 38 Heavy Rifle" hidden="false" typeId="Weapon" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">32&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">2</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Adjustable Sights</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Rifle, Ranged</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

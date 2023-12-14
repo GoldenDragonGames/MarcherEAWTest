@@ -144,6 +144,11 @@
         </categoryLink>
         <categoryLink id="e852-1fd2-77ea-6fc3" name="Infantry Configuration" hidden="false" targetId="85c7-9688-a121-1bdc" primary="false"/>
         <categoryLink id="b5c2-124e-68d9-f5ed" name="Infantry Support" hidden="false" targetId="96e8-513f-beca-e624" primary="false"/>
+        <categoryLink id="c071-21d9-2507-9d43" name="Support Infantry" hidden="false" targetId="0463-bfe4-198d-b1a5" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="112c-e017-9496-f0c2" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="29bb-b3e2-3fbb-9ad5" name="Mechanized Platoon" hidden="false">
@@ -612,7 +617,7 @@
       <description>This vehicle has X number of crew who may exit the vehicle through the dismount action. If there are no crew inside the vehicle it cannot be selected for activation. Reduce this Special Rule’s value by each crew who dismounts. Increase it for each crew who remounts.</description>
     </rule>
     <rule id="b61a-cd3a-75d6-8152" name="Operator" hidden="false">
-      <description>This unit requires at least 3 crewmembers to use actions. </description>
+      <description>This unit requires at least X crewmembers to use actions. </description>
     </rule>
     <rule id="a53f-6c4f-8514-7703" name="Critical Shot" hidden="false">
       <description>When rolling to attack with this weapon, if you roll a 10, score an additional hit.</description>

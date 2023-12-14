@@ -1488,7 +1488,6 @@
             <modifier type="append" field="name" value="10"/>
           </modifiers>
         </infoLink>
-        <infoLink id="51dc-e8ff-b4e1-0f1e" name="Logistics" hidden="false" targetId="c1ce-d022-923f-3147" type="rule"/>
         <infoLink id="403a-5b73-3ac4-ea92" name="Light Vehicle Actions" hidden="false" targetId="7574-000c-0bf7-8c6e" type="profile"/>
       </infoLinks>
       <costs>
