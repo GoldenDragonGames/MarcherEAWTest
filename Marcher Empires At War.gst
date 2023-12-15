@@ -165,7 +165,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1ba-ab39-0bcf-0130" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="3547-11af-2868-8593" name="Light Vehicles Command" hidden="false" targetId="f787-f73c-7a5b-534c" primary="false">
+        <categoryLink id="3547-11af-2868-8593" name="Recon Command" hidden="false" targetId="f787-f73c-7a5b-534c" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72b3-c0ad-07ef-dba5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1e7-c8ac-710f-b48b" type="max"/>
@@ -208,6 +208,12 @@
           </constraints>
         </categoryLink>
         <categoryLink id="b044-04a1-2e36-d6f3" name="Mechanized Configuration" hidden="false" targetId="e281-74c9-b00c-1884" primary="false"/>
+        <categoryLink id="a5c1-4147-a698-935a" name="Recon Infantry" hidden="false" targetId="aa05-ee4c-c4d5-7e23" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="371b-74d2-09f6-2fde" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50ba-f828-70c1-6f3d" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="df9c-5241-555f-2018" name="Recon Platoon" hidden="false">
@@ -726,7 +732,7 @@ Until the end of this round all vehicle Units in this platoon increase their Eva
 </description>
     </rule>
     <rule id="06f4-93c5-6f93-d4df" name="Flying" hidden="false">
-      <description>This Unit ignores all terrain. This Unit may not recieve the benefit of Cover. This Unit may move through other Units. This Unit may not be engaged by other Units unless they also have the Flying keyword. Weapons with less than 12&quot; of Range cannot target this unit for an attack.</description>
+      <description>This Unit ignores all terrain. This Unit may not recieve the benefit of Cover. This Unit may move through other Units. This Unit may not be engaged by other Units unless they also have the Flying keyword. Weapons with less than 12&quot; of Range cannot target this unit for an attack. All ranged attacks that target this Unit recieve -1 to hit.</description>
     </rule>
     <rule id="6db2-42c0-b23d-3b14" name="Shielded" hidden="false">
       <description>Ignore the first X damage this Unit takes per round. This Unit may not take the Move action more than once per activation. The Shielded ability cannot prevent damage from weapons with the Flamethrower, Gas, or Melee keyword or from the Burning Condition.
@@ -737,6 +743,9 @@ Until the end of this round all vehicle Units in this platoon increase their Eva
     </rule>
     <rule id="dc7a-f7c9-a54a-9cbc" name="Intel Gathering" hidden="false">
       <description>At the beginning of each set up phase gain an Intel point (IP).</description>
+    </rule>
+    <rule id="3a32-9522-280e-50ce" name="Sniper" hidden="false">
+      <description>When making an attack with this weapon, if this Unit has taken the &quot;Taken Aim&quot; action this turn, the attacked Unit ignores the benefit of Cover. When resolving damage with this weapon, you may select which model to apply the damage to.</description>
     </rule>
   </sharedRules>
 </gameSystem>
