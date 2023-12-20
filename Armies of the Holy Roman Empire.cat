@@ -490,7 +490,6 @@
             <selectionEntry id="be17-9a98-eded-4898" name="Stabsgefreiter" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a52a-6a0f-feaf-6e5e" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53dc-f20b-8574-72d1" type="min"/>
               </constraints>
               <profiles>
                 <profile id="1bc3-589b-83f1-c74f" name="Stabsgefreiter" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
@@ -503,7 +502,7 @@
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="45da-1737-aae2-1a49" name="Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="45da-1737-aae2-1a49" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="b7b9-0dbc-abf6-26ba">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da57-55a5-9ad8-5fab" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8a9-4c3a-307c-3f93" type="min"/>
@@ -755,7 +754,6 @@
             <selectionEntry id="91ca-5d95-de61-feb3" name="Stabsgefreiter" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1843-a7e7-8e8a-01f0" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccf2-d6c9-9b35-23cc" type="min"/>
               </constraints>
               <profiles>
                 <profile id="c262-7dbe-c224-7dd7" name="Stabsgefreiter" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
@@ -768,7 +766,7 @@
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="5584-ceaf-6f87-2a7b" name="Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="5584-ceaf-6f87-2a7b" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="783c-6003-7527-76fa">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5f3-94ae-dfc1-05c7" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96d9-94e2-8310-a573" type="min"/>
@@ -1426,7 +1424,7 @@
         <profile id="e392-e39b-ac3a-b39d" name="Graf Class Panzerzeppelin" hidden="false" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Graf Class Panzerzeppelin</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14"/>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">Flying, Command, Zeppelin, HRE</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">300mm oval</characteristic>
           </characteristics>
         </profile>
@@ -1436,6 +1434,11 @@
             <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
             <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">13</characteristic>
             <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">40</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1199-0e87-6022-9426" name="Graf Class Panzerzeppelin Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
+          <characteristics>
+            <characteristic name="Available Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5070,6 +5073,7 @@
       <costs>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="2.0"/>
         <cost name="Munitions" typeId="Points" value="0.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a566-91a1-5d24-abdc" name="M1920 WS Flammenwerfer" hidden="false" collective="false" import="true" type="upgrade">
