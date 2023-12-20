@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d372-9028-aa84-9c11" name="Armies of the United States of America" revision="1" battleScribeVersion="2.03" authorName="Jackson Jewell" authorContact="goldendragontabletopgames@gmail.com" authorUrl="goldendragongames.net" library="false" gameSystemId="969e-2588-ed56-37c3" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d372-9028-aa84-9c11" name="Armies of the United States of America" revision="1" battleScribeVersion="2.03" authorName="Jackson Jewell" authorContact="goldendragontabletopgames@gmail.com" authorUrl="goldendragongames.net" library="false" gameSystemId="969e-2588-ed56-37c3" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="16a8-0390-ac04-e88a" name="M40A2 Sherman Battle Tank Commander" hidden="false" collective="false" import="true" targetId="760c-1e0c-7390-b03a" type="selectionEntry">
       <categoryLinks>
@@ -316,9 +316,9 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3080-2624-3ac5-26d3" name="Coaxial Machine Gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -335,9 +335,9 @@
             </infoLink>
           </infoLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="aa4f-ab61-9d05-305d" name="Bow Machine Gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -354,9 +354,9 @@
             </infoLink>
           </infoLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -391,9 +391,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="144.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="144.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a1be-a916-a94b-f4e5" name="M1931 Energy Machine Gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -406,9 +406,9 @@
         </infoLink>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="10.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="10.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="59ef-e9be-bbab-1232" name="M2 Heavy Machine Gun" hidden="false" collective="true" import="true" type="upgrade">
@@ -421,9 +421,9 @@
         </infoLink>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="24.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="24.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c43f-fe61-341a-5fc7" name="76mm High-Velocity Cannon" hidden="false" collective="true" import="true" type="upgrade">
@@ -431,9 +431,9 @@
         <infoLink id="bb86-7eba-d8dc-5f6a" name="76mm High-Velocity Cannon" hidden="false" targetId="ec3a-aff7-1655-ff8d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="32.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="32.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1d01-3087-233f-4464" name="75mm Battle Cannon" hidden="false" collective="true" import="true" type="upgrade">
@@ -442,9 +442,9 @@
         <infoLink id="56c8-b38f-4193-d48d" name="High Explosive" hidden="false" targetId="9375-d461-c135-9e66" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="32.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="32.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="55ff-1b0d-6ddd-a28f" name="M40A2 Sherman Medium Tank" hidden="false" collective="false" import="true" type="unit">
@@ -491,9 +491,9 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="66a6-e02b-9d20-11b5" name="Coaxial Machine Gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -510,9 +510,9 @@
             </infoLink>
           </infoLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2cf1-1b04-4d52-be7d" name="Bow Machine Gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -529,9 +529,9 @@
             </infoLink>
           </infoLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -558,9 +558,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="144.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="144.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="550f-1a9e-b56d-c261" name="Infantry Squad" hidden="false" collective="false" import="true" type="unit">
@@ -611,9 +611,9 @@
                     <infoLink id="c032-b42d-fa53-e21b" name="M1932 Energy Pistol" hidden="false" targetId="bab3-2c2f-1727-057c" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name=" Munitions" typeId="Points" value="0.0"/>
-                    <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                    <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                    <cost name="Munitions" typeId="Points" value="0.0"/>
+                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -639,9 +639,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ea7c-c68a-b601-3a44" name="Rifleman" hidden="false" collective="false" import="true" type="model">
@@ -680,9 +680,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9950-6b07-8558-4788" name="Specialist" hidden="false" collective="false" import="true" type="model">
@@ -726,9 +726,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="90bb-dc2d-54b6-3795" name="Radioman" hidden="false" collective="false" import="true" type="model">
@@ -772,18 +772,18 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="60.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="60.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1b17-bf28-08c9-f724" name="M10 Thompson SMG" hidden="false" collective="true" import="true" type="upgrade">
@@ -796,9 +796,9 @@
         </infoLink>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="3.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="3.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7e32-9348-35f1-d530" name="M1X1 Garand" hidden="false" collective="true" import="true" type="upgrade">
@@ -806,9 +806,9 @@
         <infoLink id="1251-955a-2491-eac4" name="M1X1 Garand" hidden="false" targetId="13d8-cddf-c247-6e27" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="4.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="4.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0a39-0114-af7b-36fe" name="CKF Blade" hidden="false" collective="true" import="true" type="upgrade">
@@ -816,9 +816,9 @@
         <infoLink id="ef46-c814-0af2-8cff" name="Compact Kinetic Field (CKF) Blade" hidden="false" targetId="07a8-f625-0a6c-58fa" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="2.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="2.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ffd-5e8b-6e48-8aaa" name="A16 Assault Rifle" hidden="false" collective="true" import="true" type="upgrade">
@@ -826,9 +826,9 @@
         <infoLink id="6212-5e1f-0b11-1fb5" name="A16 Assault Rifle" hidden="false" targetId="1f52-228f-6fc7-5707" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="3.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="3.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0e45-d997-a2ae-b07d" name="M1932 Energy Pistol" hidden="false" collective="true" import="true" type="upgrade">
@@ -837,9 +837,9 @@
         <infoLink id="87b4-b554-6e7f-c637" name="Sidearm" hidden="false" targetId="1e7a-7634-bb2b-1ff9" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="0.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="0.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8057-b9a5-8851-c585" name="Bazooka" hidden="false" collective="true" import="true" type="upgrade">
@@ -852,9 +852,9 @@
         </infoLink>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="12.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="12.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cca8-1dc0-4d28-934a" name="M13 Infantry Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
@@ -864,9 +864,9 @@
         <infoLink id="613a-aa52-feea-d218" name="Close In" hidden="false" targetId="6f53-dabe-1243-14cf" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="8.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="30.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ef1-8d2f-1d71-a878" name="Fragmentation Grenade" hidden="false" collective="true" import="true" type="upgrade">
@@ -875,9 +875,9 @@
         <infoLink id="9465-c1bb-c15b-657f" name="Difficult to Use" hidden="false" targetId="22ca-4520-b3df-c16d" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="1.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="1.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fd19-bdc6-1082-7cea" name="Infantry Command Squad" hidden="false" collective="false" import="true" type="unit">
@@ -929,9 +929,9 @@
                     <infoLink id="b2e7-c366-53c6-8ced" name="M1932 Energy Pistol" hidden="false" targetId="bab3-2c2f-1727-057c" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name=" Munitions" typeId="Points" value="0.0"/>
-                    <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                    <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                    <cost name="Munitions" typeId="Points" value="0.0"/>
+                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -957,9 +957,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2a17-2907-3b67-1bef" name="Rifleman" hidden="false" collective="false" import="true" type="model">
@@ -998,9 +998,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9447-bfa9-a15f-7ce4" name="Specialist" hidden="false" collective="false" import="true" type="model">
@@ -1044,9 +1044,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e2cb-b1b4-7e13-48c4" name="Radioman" hidden="false" collective="false" import="true" type="model">
@@ -1090,9 +1090,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1107,9 +1107,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="60.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="60.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5331-ff38-dee2-f307" name="Medical Bag" hidden="false" collective="false" import="true" type="upgrade">
@@ -1118,9 +1118,9 @@
         <infoLink id="2907-f619-25bf-3322" name="Patch Up" hidden="false" targetId="88ef-773f-6344-04eb" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="0.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="0.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f9e4-81c4-d69b-a56b" name="Battle Flag of the Republic" hidden="false" collective="false" import="true" type="upgrade">
@@ -1129,9 +1129,9 @@
         <infoLink id="54c4-700c-06af-4371" name="Rally &apos;round the Flag" hidden="false" targetId="fa72-2a0f-e8b0-46c0" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="0.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="0.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aab2-c5ce-861d-812e" name="Comms Array" hidden="false" collective="false" import="true" type="upgrade">
@@ -1140,9 +1140,9 @@
         <infoLink id="53d2-e392-4a38-f02b" name="Forward Communications" hidden="false" targetId="2b58-cfa1-16c1-45b0" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="5.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="5.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6542-a2c5-73fb-4926" name="Automatic Grenade Launcher" hidden="false" collective="true" import="true" type="upgrade">
@@ -1151,9 +1151,9 @@
         <infoLink id="6c72-eaa4-704f-8979" name="Explosive" hidden="false" targetId="8dc4-53ff-5b73-403a" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="8.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="8.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="87fb-6564-a821-a3f0" name="M12 Light Energy Cannon" hidden="false" collective="true" import="true" type="upgrade">
@@ -1161,9 +1161,9 @@
         <infoLink id="5ef2-ad85-958c-1464" name="M12 Light Energy Cannon" hidden="false" targetId="4133-b165-b99d-4b6a" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="5.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="5.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3aaa-ae78-4c52-f9c8" name="M48 Caprina Armored Personnel Carrier" hidden="false" collective="false" import="true" type="unit">
@@ -1257,9 +1257,9 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a520-400a-b534-72b9" name="Veteran Caprina Crew" hidden="false" collective="false" import="true" type="upgrade">
@@ -1274,18 +1274,18 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="10.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="10.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="126.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="126.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6157-18d5-7978-5946" name="20mm Autocannon" hidden="false" collective="true" import="true" type="upgrade">
@@ -1293,9 +1293,9 @@
         <infoLink id="d97f-fee5-1bcc-6eb6" name="20mm Autocannon" hidden="false" targetId="c848-d5ea-e490-9c3b" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="35.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="35.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="93c3-6116-2112-0c4b" name="Willys GPV Command Squad" hidden="false" collective="false" import="true" type="unit">
@@ -1339,9 +1339,9 @@
                     <infoLink id="6c33-2c3e-b662-9c51" name="M1X1 Garand" hidden="false" targetId="13d8-cddf-c247-6e27" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name=" Munitions" typeId="Points" value="0.0"/>
-                    <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                    <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                    <cost name="Munitions" typeId="Points" value="0.0"/>
+                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1358,9 +1358,9 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1375,9 +1375,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="80.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="80.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b767-f195-b638-70ba" name="Willys GPV Scout Squad" hidden="false" collective="false" import="true" type="unit">
@@ -1421,9 +1421,9 @@
                     <infoLink id="e63f-1793-a399-d4c9" name="M1X1 Garand" hidden="false" targetId="13d8-cddf-c247-6e27" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name=" Munitions" typeId="Points" value="0.0"/>
-                    <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                    <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                    <cost name="Munitions" typeId="Points" value="0.0"/>
+                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1440,18 +1440,18 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="80.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="80.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2de1-eb8f-0f7b-e991" name="M56 Supply Truck" hidden="false" collective="false" import="true" type="unit">
@@ -1491,9 +1491,9 @@
         <infoLink id="403a-5b73-3ac4-ea92" name="Light Vehicle Actions" hidden="false" targetId="7574-000c-0bf7-8c6e" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="40.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="40.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="602d-09ea-eae2-7cb2" name="X19 Badger Personal Hardsuit Squad" hidden="false" collective="false" import="true" type="unit">
@@ -1550,18 +1550,18 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name=" Munitions" typeId="Points" value="0.0"/>
-                        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                        <cost name="Munitions" typeId="Points" value="0.0"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5d0e-00e1-c78d-4fc4" name="Support Loadout" hidden="false" collective="false" import="true" type="upgrade">
@@ -1592,27 +1592,27 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name=" Munitions" typeId="Points" value="0.0"/>
-                        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                        <cost name="Munitions" typeId="Points" value="0.0"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="72.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="72.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8207-3948-60dd-815b" name="Combat Shield" hidden="false" collective="true" import="true" type="upgrade">
@@ -1622,9 +1622,9 @@
         <infoLink id="967d-40ef-b035-0e82" name="Combat Shield" hidden="false" targetId="26be-2031-2824-242a" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="0.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="0.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e90-89e6-fcce-e905" name="Battle Mace" hidden="false" collective="true" import="true" type="upgrade">
@@ -1632,9 +1632,9 @@
         <infoLink id="eac0-95e1-05db-2901" name="Battle Mace" hidden="false" targetId="a25b-151f-42aa-c452" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="0.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="0.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c680-9326-855f-604f" name="M12 Anti-Tank Gun Squad" hidden="false" collective="false" import="true" type="upgrade">
@@ -1685,18 +1685,18 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="30.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="30.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="063d-f3d3-4147-868a" name="M1X1 Energy Carbine" hidden="false" collective="true" import="true" type="upgrade">
@@ -1704,9 +1704,9 @@
         <infoLink id="b44d-0a6f-572a-0bbd" name="M1X1 Energy Carbine" hidden="false" targetId="1579-ea36-034b-7544" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="2.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="2.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="66f5-1c46-c1f1-502d" name="Heavy Weapon Squad" hidden="false" collective="false" import="true" type="upgrade">
@@ -1759,18 +1759,18 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name=" Munitions" typeId="Points" value="0.0"/>
-                        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                        <cost name="Munitions" typeId="Points" value="0.0"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8937-c395-e3e3-de4d" name="M2 HMG Squad" hidden="false" collective="false" import="true" type="upgrade">
@@ -1807,27 +1807,27 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name=" Munitions" typeId="Points" value="0.0"/>
-                        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                        <cost name="Munitions" typeId="Points" value="0.0"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="20.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="20.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="40e2-65e6-aec2-88da" name="Rear-Echelon Infantry Squad" hidden="false" collective="false" import="true" type="unit">
@@ -1874,9 +1874,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="00e3-a6a4-70cb-26de" name="Rifleman" hidden="false" collective="false" import="true" type="model">
@@ -1903,9 +1903,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a18f-eda8-a1ba-9bec" name="Radioman" hidden="false" collective="false" import="true" type="model">
@@ -1937,18 +1937,18 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="5.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="5.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="50.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="50.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f57-9439-eacd-5df2" name="Rear-Echelon Command Squad" hidden="false" collective="false" import="true" type="unit">
@@ -1995,9 +1995,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a89b-b240-b234-5dc5" name="Rifleman" hidden="false" collective="false" import="true" type="model">
@@ -2024,9 +2024,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7bfa-b868-b466-2de3" name="Radioman" hidden="false" collective="false" import="true" type="model">
@@ -2059,9 +2059,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2076,9 +2076,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="50.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="50.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cf9a-4dde-39f2-b3ff" name="Vehicle Crew Squad" hidden="false" collective="false" import="true" type="unit">
@@ -2128,9 +2128,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="-1.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="-1.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3dc0-3a9f-1f8e-1cd6" name="Crewman" hidden="false" collective="false" import="true" type="model">
@@ -2157,18 +2157,18 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="0.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="0.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c12c-e5f0-f4c4-9f1c" name="M3X1 Grease Gun" hidden="false" collective="true" import="true" type="upgrade">
@@ -2176,9 +2176,9 @@
         <infoLink id="e624-25d7-f8c1-9bf5" name="M3X1 Grease Gun" hidden="false" targetId="56cf-1335-fc13-9def" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="3.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="3.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5673-9aa0-43e8-fb96" name="M6 Autonomous Turret" hidden="false" collective="false" import="true" type="unit">
@@ -2224,9 +2224,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a03a-8d9f-deb9-dd6f" name="Quad .50s" hidden="false" collective="false" import="true" type="upgrade">
@@ -2239,9 +2239,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="-20.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="-20.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7081-93df-5c82-aa61" name="Twin Energy Cannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -2254,9 +2254,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="01e1-adaa-b9a1-a62a" name="Twin Slug Throwers" hidden="false" collective="false" import="true" type="upgrade">
@@ -2269,18 +2269,18 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="30.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="30.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="95d6-805f-cbf6-cdd7" name="Drop-Trooper Infantry Squad" hidden="false" collective="false" import="true" type="unit">
@@ -2332,9 +2332,9 @@
                     <infoLink id="0337-9dec-2031-9ac1" name="M1932 Energy Pistol" hidden="false" targetId="bab3-2c2f-1727-057c" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name=" Munitions" typeId="Points" value="0.0"/>
-                    <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                    <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                    <cost name="Munitions" typeId="Points" value="0.0"/>
+                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2365,9 +2365,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9a54-cc7c-020e-2b00" name="Rifleman" hidden="false" collective="false" import="true" type="model">
@@ -2412,9 +2412,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2e21-2586-0308-0275" name="Specialist" hidden="false" collective="false" import="true" type="model">
@@ -2464,9 +2464,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ed8c-a369-d5d5-ae6e" name="Radioman" hidden="false" collective="false" import="true" type="model">
@@ -2516,18 +2516,18 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="100.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="100.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4857-8265-15c4-eebe" name="M18 Heavy Automatic Energy Rifle" hidden="false" collective="true" import="true" type="upgrade">
@@ -2540,9 +2540,9 @@
         </infoLink>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="15.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="15.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="83d4-ae1f-7aaa-288f" name="Combat Knives" hidden="false" collective="true" import="true" type="upgrade">
@@ -2550,9 +2550,9 @@
         <infoLink id="9948-911f-d9cc-6229" name="Combat Knives" hidden="false" targetId="e8ef-9dad-be3f-952b" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="2.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="2.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cc2a-284c-e58b-fc7a" name="Ranger Infantry Squad" hidden="false" collective="false" import="true" type="unit">
@@ -2604,9 +2604,9 @@
                     <infoLink id="0226-2735-36b9-45e9" name="M1932 Energy Pistol" hidden="false" targetId="bab3-2c2f-1727-057c" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name=" Munitions" typeId="Points" value="0.0"/>
-                    <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                    <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                    <cost name="Munitions" typeId="Points" value="0.0"/>
+                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2637,9 +2637,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="065c-8b8e-2bca-6b14" name="Ranger" hidden="false" collective="false" import="true" type="model">
@@ -2684,9 +2684,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6154-ddc5-04be-df87" name="Ranger Specialist" hidden="false" collective="false" import="true" type="model">
@@ -2731,9 +2731,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d7ff-3528-f8e8-dfb0" name="Radioman" hidden="false" collective="false" import="true" type="model">
@@ -2784,18 +2784,18 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="140.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="140.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="edb6-93ec-4edf-b984" name="Combat Engineer Squad" hidden="false" collective="false" import="true" type="unit">
@@ -2847,9 +2847,9 @@
                     <infoLink id="16fb-888f-5956-3fba" name="M1932 Energy Pistol" hidden="false" targetId="bab3-2c2f-1727-057c" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name=" Munitions" typeId="Points" value="0.0"/>
-                    <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                    <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                    <cost name="Munitions" typeId="Points" value="0.0"/>
+                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2866,9 +2866,9 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dc9e-f9fd-9f54-661d" name="Engineer" hidden="false" collective="false" import="true" type="model">
@@ -2901,9 +2901,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c3fb-60f6-4b4f-dea0" name="Engineer Radioman" hidden="false" collective="false" import="true" type="model">
@@ -2936,18 +2936,18 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="60.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="60.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e326-c4ca-541c-c3bb" name="Bangalores" hidden="false" collective="true" import="true" type="upgrade">
@@ -2961,9 +2961,9 @@
         </infoLink>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="0.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="0.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a59a-c539-cf9a-d236" name="X32 Rhea Battlesuit Squad" hidden="false" collective="false" import="true" type="unit">
@@ -3015,9 +3015,9 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name=" Munitions" typeId="Points" value="-10.0"/>
-                        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                        <cost name="Munitions" typeId="Points" value="-10.0"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="67e0-2486-2415-033d" name="Automatic Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -3030,9 +3030,9 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
-                        <cost name=" Munitions" typeId="Points" value="0.0"/>
-                        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                        <cost name="Munitions" typeId="Points" value="0.0"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="c1c9-acb5-b6a2-0602" name="M12 Light Energy Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3045,9 +3045,9 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
-                        <cost name=" Munitions" typeId="Points" value="0.0"/>
-                        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                        <cost name="Munitions" typeId="Points" value="0.0"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="e192-0fcd-aaf4-e927" name="Sensor Pod" hidden="false" collective="false" import="true" type="upgrade">
@@ -3060,9 +3060,9 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
-                        <cost name=" Munitions" typeId="Points" value="0.0"/>
-                        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                        <cost name="Munitions" typeId="Points" value="0.0"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="0bef-9c5f-9edc-9a96" name="M14 Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
@@ -3075,27 +3075,27 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
-                        <cost name=" Munitions" typeId="Points" value="0.0"/>
-                        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                        <cost name="Munitions" typeId="Points" value="0.0"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="144.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="144.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="607e-984b-ec1b-7fb4" name="Sensor Pod" hidden="false" collective="false" import="true" type="upgrade">
@@ -3104,9 +3104,9 @@
         <infoLink id="e195-f3f2-c27e-f89d" name="Battlefield Scanners" hidden="false" targetId="987d-4b9f-03aa-1235" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="0.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="0.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d390-3371-5d0c-7440" name="X53 Lynx Battle Walker" hidden="false" collective="false" import="true" type="unit">
@@ -3163,9 +3163,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="487f-22c9-ea83-2553" name="Twin Battle Cannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -3178,9 +3178,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1dc2-24fd-fc1f-ee7a" name="Heavy Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
@@ -3193,18 +3193,18 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="156.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="156.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e120-193c-898d-208f" name="57mm Battle Cannon" hidden="false" collective="true" import="true" type="upgrade">
@@ -3212,9 +3212,9 @@
         <infoLink id="6277-a644-e305-816f" name="57mm Cannon" hidden="false" targetId="67ca-c966-4a8f-2ba5" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="42.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="42.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c905-4b27-69d3-1aca" name="Recon Bike Squad" hidden="false" collective="false" import="true" type="unit">
@@ -3269,9 +3269,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1668-f835-d77f-ced0" name="Recon Biker Ssgt" hidden="false" collective="false" import="true" type="model">
@@ -3310,18 +3310,18 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Munitions" typeId="Points" value="140.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="140.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d248-e1d4-1059-6897" name="Shaped Charge Lance" hidden="false" collective="true" import="true" type="upgrade">
@@ -3334,9 +3334,9 @@
         </infoLink>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="1.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="1.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="287a-4b83-58d3-df49" name="Mortar Squad" hidden="false" collective="false" import="true" type="upgrade">
@@ -3387,18 +3387,18 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="20.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="20.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="84c9-ecbb-93b1-77e2" name="M20 Mortar" hidden="false" collective="false" import="true" type="upgrade">
@@ -3414,9 +3414,9 @@
         <infoLink id="0e89-96e4-53bb-54fc" name="High Explosive" hidden="false" targetId="9375-d461-c135-9e66" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="28.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="28.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2a8a-fddf-0126-6a57" name="Officer Seniority" hidden="false" collective="false" import="true" type="upgrade">
@@ -3436,9 +3436,9 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="40.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="40.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5aef-b756-3eec-4a8f" name="Captain" hidden="false" collective="false" import="true" type="upgrade">
@@ -3450,9 +3450,9 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="80.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="80.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b5cb-0386-1728-6cf7" name="Major" hidden="false" collective="false" import="true" type="upgrade">
@@ -3464,9 +3464,9 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="120.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="120.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ea08-e8e3-eeba-4ab1" name="Colonel" hidden="false" collective="false" import="true" type="upgrade">
@@ -3478,18 +3478,18 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="160.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="160.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Munitions" typeId="Points" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9561-ea6c-0a21-7301" name="X32 Rhea Battlesuit Command Squad" hidden="false" collective="false" import="true" type="unit">
@@ -3541,9 +3541,9 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name=" Munitions" typeId="Points" value="-10.0"/>
-                        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                        <cost name="Munitions" typeId="Points" value="-10.0"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="47a9-82e0-6f65-9549" name="Automatic Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -3556,9 +3556,9 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
-                        <cost name=" Munitions" typeId="Points" value="0.0"/>
-                        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                        <cost name="Munitions" typeId="Points" value="0.0"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="0a5a-6964-d4a2-2591" name="M12 Light Energy Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3571,9 +3571,9 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
-                        <cost name=" Munitions" typeId="Points" value="0.0"/>
-                        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                        <cost name="Munitions" typeId="Points" value="0.0"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="8dfc-e203-0309-d49c" name="Sensor Pod" hidden="false" collective="false" import="true" type="upgrade">
@@ -3586,9 +3586,9 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
-                        <cost name=" Munitions" typeId="Points" value="0.0"/>
-                        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                        <cost name="Munitions" typeId="Points" value="0.0"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="d602-6a9b-eebf-93e6" name="M14 Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
@@ -3601,18 +3601,18 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
-                        <cost name=" Munitions" typeId="Points" value="0.0"/>
-                        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                        <cost name="Munitions" typeId="Points" value="0.0"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3627,9 +3627,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="144.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="144.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="17e3-ae55-565a-ee34" name="M333 Heavy Howitzer Battery" hidden="false" collective="false" import="true" type="unit">
@@ -3680,18 +3680,18 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="56.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="56.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2f75-d57b-8089-ed4e" name="M333 Heavy Howitzer" hidden="false" collective="true" import="true" type="upgrade">
@@ -3707,9 +3707,9 @@
         <infoLink id="022d-d57d-975d-ba9f" name="M333 Heavy Howitzer" hidden="false" targetId="8d0c-a18b-5bd5-cc11" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="49.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="49.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9eb2-0603-8006-b4dd" name="M62 Burro Artillery Commander" hidden="false" collective="false" import="true" type="unit">
@@ -3750,9 +3750,9 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3765,9 +3765,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="72.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="72.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9fe5-6f3e-c7f7-7cb2" name="M62 Burro Artillery Tractor" hidden="false" collective="false" import="true" type="unit">
@@ -3807,9 +3807,9 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3826,9 +3826,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="72.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="72.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="003f-41cd-d6a3-4196" name="105mm Howitzer (Direct Fire)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3836,9 +3836,9 @@
         <infoLink id="f065-2efe-ebe6-3338" name="105mm Howitzer (Direct Fire)" hidden="false" targetId="0d72-47e0-e57b-1423" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="20.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="20.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e9e0-e69e-0cbd-5582" name="M10A1 Siege Cannon (Turret)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3846,9 +3846,9 @@
         <infoLink id="55c4-d80e-26d8-2c0f" name="M10A1 Siege Cannon (Direct Fire)" hidden="true" targetId="1047-513c-1e1a-a9ae" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="24.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="24.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0dab-d35a-498c-ad51" name="105mm High-Velocity Cannon" hidden="false" collective="true" import="true" type="upgrade">
@@ -3856,9 +3856,9 @@
         <infoLink id="069f-ea6c-d0df-5216" name="105mm High-Velocity Cannon" hidden="false" targetId="815d-ad09-7d9a-dc82" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="76.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="76.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aced-7e4f-18a3-80bd" name="40mm Autocannon" hidden="false" collective="true" import="true" type="upgrade">
@@ -3866,9 +3866,9 @@
         <infoLink id="94b3-c091-ad39-edeb" name="40mm Autocannon" hidden="false" targetId="d6a3-f251-908c-7461" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="42.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="42.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="541f-5533-8c48-511d" name="M120 75mm Quad-Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3876,9 +3876,9 @@
         <infoLink id="7291-a764-61cb-d6b1" name="M120 75mm Quad-Cannon" hidden="false" targetId="106a-ff0d-e428-da12" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="48.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="48.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="87f0-e50f-a345-2804" name="M21 155mm Long Tom" hidden="false" collective="false" import="true" type="upgrade">
@@ -3886,9 +3886,9 @@
         <infoLink id="90b4-4ce3-203d-9472" name="M21 155mm Long Tom" hidden="false" targetId="9754-8eac-5837-1b15" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="195.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="195.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c7d-826e-a30f-0b86" name="M10A1 Siege Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3896,9 +3896,9 @@
         <infoLink id="13e9-9e27-e13f-b83b" name="M10A1 Siege Cannon" hidden="false" targetId="ffc4-07b6-092d-f713" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="70.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="70.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9d29-abb7-21f1-ca2b" name="Drop-Trooper Command Squad" hidden="false" collective="false" import="true" type="unit">
@@ -3950,9 +3950,9 @@
                     <infoLink id="6adc-5eb5-d23e-28a9" name="M1932 Energy Pistol" hidden="false" targetId="bab3-2c2f-1727-057c" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name=" Munitions" typeId="Points" value="0.0"/>
-                    <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                    <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                    <cost name="Munitions" typeId="Points" value="0.0"/>
+                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -3983,9 +3983,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="642a-6621-84b6-b3fc" name="Rifleman" hidden="false" collective="false" import="true" type="model">
@@ -4030,9 +4030,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="be84-b6c1-dcbb-4b56" name="Specialist" hidden="false" collective="false" import="true" type="model">
@@ -4082,9 +4082,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ee45-0e75-6882-f058" name="Radioman" hidden="false" collective="false" import="true" type="model">
@@ -4134,9 +4134,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4151,9 +4151,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="100.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="100.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b184-487a-1a19-dde5" name="Ranger Command Squad" hidden="false" collective="false" import="true" type="unit">
@@ -4205,9 +4205,9 @@
                     <infoLink id="7e50-3e30-223a-ba4c" name="M1932 Energy Pistol" hidden="false" targetId="bab3-2c2f-1727-057c" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name=" Munitions" typeId="Points" value="0.0"/>
-                    <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                    <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                    <cost name="Munitions" typeId="Points" value="0.0"/>
+                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4238,9 +4238,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7d65-2103-872d-a8aa" name="Ranger" hidden="false" collective="false" import="true" type="model">
@@ -4285,9 +4285,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e6ab-5187-6c90-a9d0" name="Ranger Specialist" hidden="false" collective="false" import="true" type="model">
@@ -4332,9 +4332,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6b3c-4cd9-4954-2307" name="Radioman" hidden="false" collective="false" import="true" type="model">
@@ -4385,9 +4385,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4402,9 +4402,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="140.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="140.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="67e3-d637-4136-e6de" name="M30 Jackrabbit Light Tank" hidden="false" collective="false" import="true" type="upgrade">
@@ -4444,9 +4444,9 @@
             </infoLink>
           </infoLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="711e-12e0-52d3-f399" name="Bow Machine Gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -4463,9 +4463,9 @@
             </infoLink>
           </infoLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4491,9 +4491,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="93.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="93.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="73d2-f535-0613-fe24" name="M45 Heavy Energy AT-Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -4501,9 +4501,9 @@
         <infoLink id="3fe5-4238-d0f0-0510" name="M45 Heavy Energy AT-Gun" hidden="false" targetId="7745-6705-0f87-8c41" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="0.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="0.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="24cc-89e6-5b72-767f" name="M30 Jackrabbit Light Tank Commander" hidden="false" collective="false" import="true" type="upgrade">
@@ -4543,9 +4543,9 @@
             </infoLink>
           </infoLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c83a-94e0-04d1-8bb5" name="Bow Machine Gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -4562,9 +4562,9 @@
             </infoLink>
           </infoLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4598,9 +4598,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="93.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="93.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5576-276e-7720-e223" name="X53 Lynx Battle Walker Commander" hidden="false" collective="false" import="true" type="unit">
@@ -4657,9 +4657,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0792-ad52-c256-95f3" name="Twin Battle Cannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -4672,9 +4672,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c0d1-ec9a-9617-8e04" name="Heavy Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
@@ -4687,9 +4687,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4704,9 +4704,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="156.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="156.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7be1-d408-85f7-efac" name="M50 Percheron Halftrack" hidden="false" collective="false" import="true" type="unit">
@@ -4760,9 +4760,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="40.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="40.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ea6-d5a4-2dc5-72bb" name="M48 Caprina Crocodile" hidden="false" collective="false" import="true" type="unit">
@@ -4834,9 +4834,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="112.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="112.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c9cd-187d-ca1a-f373" name="M15 Heavy Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
@@ -4846,9 +4846,9 @@
         <infoLink id="3066-3c26-ca55-b97b" name="Close In" hidden="false" targetId="6f53-dabe-1243-14cf" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="24.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="63.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0146-5921-9cbd-58b3" name="M133 Towed Gun Carriage Battery" hidden="false" collective="false" import="true" type="unit">
@@ -4905,18 +4905,18 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="56.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="56.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="71f9-ce05-246d-d969" name="M82A1 Kodiak Superheavy Tank" hidden="false" collective="false" import="true" type="unit">
@@ -4951,6 +4951,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="a20d-c8f4-2cbe-44b2" name="Armor Actions" hidden="false" targetId="e893-9948-4c2d-6538" type="profile"/>
+        <infoLink id="0e58-09f1-4801-809f" name="Cumbersome" hidden="false" targetId="4c9f-32f0-9723-17cb" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="f8d5-bd1a-d258-8d3c" name="Coaxial Autocannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -4967,9 +4968,9 @@
             </infoLink>
           </infoLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d9b9-95c5-c910-acb9" name="Bow Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -4981,9 +4982,9 @@
             <infoLink id="3cbd-0ba8-faed-5cb7" name="105mm Howitzer (Direct Fire)" hidden="false" targetId="0d72-47e0-e57b-1423" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="89fc-40c6-fdcb-60a4" name="Track Weapons" hidden="false" collective="false" import="true" type="upgrade">
@@ -5005,9 +5006,9 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c286-0667-7f34-f6d6" name="Bow Guns" hidden="false" collective="false" import="true" type="upgrade">
@@ -5024,9 +5025,9 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5052,9 +5053,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="385.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="385.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7200-c8a4-ac0a-ddf3" name="M82A1 Kodiak Superheavy Tank Commander" hidden="false" collective="false" import="true" type="unit">
@@ -5089,6 +5090,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="1ae0-82df-ac55-4607" name="Armor Actions" hidden="false" targetId="e893-9948-4c2d-6538" type="profile"/>
+        <infoLink id="9dac-1244-856c-1066" name="Cumbersome" hidden="false" targetId="4c9f-32f0-9723-17cb" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="87d5-58de-7425-4a43" name="Coaxial Autocannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -5105,9 +5107,9 @@
             </infoLink>
           </infoLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7788-3513-656c-8aee" name="Bow Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -5119,9 +5121,9 @@
             <infoLink id="4394-672f-0622-57b8" name="105mm Howitzer (Direct Fire)" hidden="false" targetId="0d72-47e0-e57b-1423" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="16f6-1bce-426a-193f" name="Track Weapons" hidden="false" collective="false" import="true" type="upgrade">
@@ -5143,9 +5145,9 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6f33-9e1b-4209-6f3f" name="Bow Guns" hidden="false" collective="false" import="true" type="upgrade">
@@ -5162,9 +5164,9 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5198,9 +5200,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="385.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="385.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b2b7-f528-a15a-6e8b" name="M68 Timberwolf Heavy Tank" hidden="false" collective="false" import="true" type="unit">
@@ -5244,9 +5246,9 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0a4f-4569-cd4b-8647" name="Bow Autocannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -5270,9 +5272,9 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5293,9 +5295,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1818-9a95-399a-cce1" name="Twin High Velocity Cannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -5308,9 +5310,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5326,9 +5328,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="315.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="315.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="738a-6195-9789-75b2" name="M68 Timberwolf Heavy Tank Commander" hidden="false" collective="false" import="true" type="unit">
@@ -5372,9 +5374,9 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="aff1-ba39-f24f-8d15" name="Bow Autocannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -5398,9 +5400,9 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" Munitions" typeId="Points" value="0.0"/>
-            <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-            <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+            <cost name="Munitions" typeId="Points" value="0.0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5421,9 +5423,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="822b-daa3-b415-68bc" name="Twin High Velocity Cannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -5436,9 +5438,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5462,9 +5464,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="315.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="315.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2a3c-dfca-a008-8786" name="Combat Engineer Command Squad" hidden="false" collective="false" import="true" type="unit">
@@ -5516,9 +5518,9 @@
                     <infoLink id="745a-b57d-f6e9-92cf" name="M1932 Energy Pistol" hidden="false" targetId="bab3-2c2f-1727-057c" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name=" Munitions" typeId="Points" value="0.0"/>
-                    <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                    <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                    <cost name="Munitions" typeId="Points" value="0.0"/>
+                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -5535,9 +5537,9 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5923-3fab-8b43-2189" name="Engineer" hidden="false" collective="false" import="true" type="model">
@@ -5570,9 +5572,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="429c-e2f7-5fbe-2a92" name="Engineer Radioman" hidden="false" collective="false" import="true" type="model">
@@ -5605,9 +5607,9 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name=" Munitions" typeId="Points" value="0.0"/>
-                <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-                <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+                <cost name="Munitions" typeId="Points" value="0.0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5622,9 +5624,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="60.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="60.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e7b3-2ad1-0e8c-d4d0" name="M48 Caprina Crocodile Commander" hidden="false" collective="false" import="true" type="unit">
@@ -5704,9 +5706,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="112.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="112.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c916-b9df-1c74-77ed" name="M14 Flamethrower" hidden="false" collective="true" import="true" type="upgrade">
@@ -5716,9 +5718,9 @@
         <infoLink id="e7e8-d55c-01cc-81e2" name="Flames" hidden="false" targetId="7235-63bc-0668-6ac4" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name=" Munitions" typeId="Points" value="18.0"/>
-        <cost name=" Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
-        <cost name=" Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+        <cost name="Munitions" typeId="Points" value="45.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
