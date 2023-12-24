@@ -138,7 +138,7 @@
         <categoryLink id="b5c2-124e-68d9-f5ed" name="Infantry Support" hidden="false" targetId="96e8-513f-beca-e624" primary="false"/>
         <categoryLink id="0151-5b4e-44bb-089e" name="Light Transports" hidden="false" targetId="d4be-5aad-8560-5720" primary="false">
           <modifiers>
-            <modifier type="increment" field="ded4-4360-e4b7-3f07" value="1">
+            <modifier type="increment" field="ded4-4360-e4b7-3f07" value="1.0">
               <repeats>
                 <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="59ff-44cb-cb53-760d" repeats="1" roundUp="false"/>
               </repeats>
@@ -212,6 +212,18 @@
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53a1-79a8-9ad0-4136" type="min"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c77a-83eb-c5a9-5153" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="94ac-b72b-5db8-7676" name="Light Transports" hidden="false" targetId="d4be-5aad-8560-5720" primary="false">
+          <modifiers>
+            <modifier type="increment" field="4cee-1117-5728-9d9c" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="59ff-44cb-cb53-760d" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="4cee-1117-5728-9d9c" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>

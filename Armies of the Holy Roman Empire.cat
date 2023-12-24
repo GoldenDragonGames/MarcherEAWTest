@@ -44,6 +44,7 @@
       <categoryLinks>
         <categoryLink id="f5a0-486d-6801-6232" name="Infantry" hidden="false" targetId="59ff-44cb-cb53-760d" primary="false"/>
         <categoryLink id="93ec-b13e-0860-0823" name="Support Infantry" hidden="false" targetId="0463-bfe4-198d-b1a5" primary="true"/>
+        <categoryLink id="7131-86f1-5f61-4396" name="Support" hidden="false" targetId="7110-7fe8-80e2-5e81" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="eb3c-ab1b-de22-d863" name="Imperial Pioneer Command Squad" hidden="false" collective="false" import="true" targetId="827b-d3d9-fd54-3774" type="selectionEntry">
@@ -5126,6 +5127,8 @@
       </infoLinks>
       <costs>
         <cost name="Munitions" typeId="Points" value="4.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
