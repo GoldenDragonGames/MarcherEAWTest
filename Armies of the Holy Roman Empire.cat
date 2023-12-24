@@ -4644,14 +4644,14 @@
         <infoLink id="de39-42f3-723b-4f0d" name="Infantry Actions" hidden="false" targetId="89e8-eb2a-f528-0ea2" type="profile"/>
         <infoLink id="e793-b6cb-4faf-894b" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
-            <modifier type="append" field="name" value="3">
+            <modifier type="set" field="name" value="Shielded 5">
               <conditions>
-                <condition field="selections" scope="72da-15ed-1a55-d98a" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a336-f2d0-a145-aee2" type="lessThan"/>
+                <condition field="selections" scope="72da-15ed-1a55-d98a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a336-f2d0-a145-aee2" type="greaterThan"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="name" value="5">
+            <modifier type="set" field="name" value="Shielded 3">
               <conditions>
-                <condition field="selections" scope="72da-15ed-1a55-d98a" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a336-f2d0-a145-aee2" type="greaterThan"/>
+                <condition field="selections" scope="72da-15ed-1a55-d98a" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a336-f2d0-a145-aee2" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -4712,6 +4712,14 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="cb32-aaea-345d-3897" name="Mechanical Talons" hidden="false" collective="false" import="true" targetId="0bf1-016a-75f7-f53d" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2b4-c25f-6870-d349" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abb7-be86-c2cf-4091" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Munitions" typeId="Points" value="0.0"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
@@ -4763,6 +4771,14 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="c112-c9d0-bc90-2f0c" name="Mechanical Talons" hidden="false" collective="false" import="true" targetId="0bf1-016a-75f7-f53d" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f770-638e-31ca-ab16" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be4d-82a9-580b-feb8" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Munitions" typeId="Points" value="0.0"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
@@ -4811,16 +4827,16 @@
       </profiles>
       <infoLinks>
         <infoLink id="9cec-fadd-e5fa-4dbc" name="Infantry Actions" hidden="false" targetId="89e8-eb2a-f528-0ea2" type="profile"/>
-        <infoLink id="6053-4aa4-6acb-d3e7" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
+        <infoLink id="3383-c893-0477-39ec" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
-            <modifier type="append" field="name" value="3">
+            <modifier type="set" field="name" value="Shielded 5">
               <conditions>
-                <condition field="selections" scope="a306-dc7f-bcd7-0498" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a336-f2d0-a145-aee2" type="lessThan"/>
+                <condition field="selections" scope="a306-dc7f-bcd7-0498" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a336-f2d0-a145-aee2" type="greaterThan"/>
               </conditions>
             </modifier>
-            <modifier type="append" field="name" value="5">
+            <modifier type="set" field="name" value="Shielded 3">
               <conditions>
-                <condition field="selections" scope="a306-dc7f-bcd7-0498" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a336-f2d0-a145-aee2" type="greaterThan"/>
+                <condition field="selections" scope="a306-dc7f-bcd7-0498" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a336-f2d0-a145-aee2" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -4881,6 +4897,14 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="0b88-dc3c-b73c-405b" name="Mechanical Talons" hidden="false" collective="false" import="true" targetId="0bf1-016a-75f7-f53d" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="986f-73ea-3ff2-bb25" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6af0-5c5c-24ae-68b7" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Munitions" typeId="Points" value="0.0"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
@@ -4932,6 +4956,14 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="ae36-0282-0894-6471" name="Mechanical Talons" hidden="false" collective="false" import="true" targetId="0bf1-016a-75f7-f53d" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a529-7ac9-a844-a509" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d07-fc1b-4692-dae9" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Munitions" typeId="Points" value="0.0"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
@@ -5086,6 +5118,14 @@
         <cost name="Munitions" typeId="Points" value="30.0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0bf1-016a-75f7-f53d" name="Mechanical Talons" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8488-2d8b-bf9c-0bc2" name="Mechanical Talons" hidden="false" targetId="9b13-1085-838a-490b" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="4.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -5529,6 +5569,16 @@
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Flames, Close In</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Flamethrower, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9b13-1085-838a-490b" name="Mechanical Talons" hidden="false" typeId="Weapon" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">E</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">2</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Bladed</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

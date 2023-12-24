@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d372-9028-aa84-9c11" name="Armies of the United States of America" revision="1" battleScribeVersion="2.03" authorName="Jackson Jewell" authorContact="goldendragontabletopgames@gmail.com" authorUrl="goldendragongames.net" library="false" gameSystemId="969e-2588-ed56-37c3" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d372-9028-aa84-9c11" name="Armies of the United States of America" revision="3" battleScribeVersion="2.03" authorName="Jackson Jewell" authorContact="goldendragontabletopgames@gmail.com" authorUrl="goldendragongames.net" library="false" gameSystemId="969e-2588-ed56-37c3" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="16a8-0390-ac04-e88a" name="M40A2 Sherman Battle Tank Commander" hidden="false" collective="false" import="true" targetId="760c-1e0c-7390-b03a" type="selectionEntry">
       <categoryLinks>
@@ -707,7 +707,7 @@
                   </constraints>
                   <entryLinks>
                     <entryLink id="79d3-d974-a33f-823c" name="Bazooka" hidden="false" collective="false" import="true" targetId="8057-b9a5-8851-c585" type="selectionEntry"/>
-                    <entryLink id="b3b4-0285-5e49-0ebe" name="M13 Flamethrower" hidden="false" collective="false" import="true" targetId="cca8-1dc0-4d28-934a" type="selectionEntry"/>
+                    <entryLink id="b3b4-0285-5e49-0ebe" name="M13 Infantry Flamethrower" hidden="false" collective="false" import="true" targetId="cca8-1dc0-4d28-934a" type="selectionEntry"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -1548,6 +1548,12 @@
                             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a244-ce86-1269-74c2" type="max"/>
                           </constraints>
                         </entryLink>
+                        <entryLink id="213c-ef71-4573-41e9" name="Steel Fists" hidden="false" collective="false" import="true" targetId="7331-ef5d-7185-bbb8" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8586-78ff-500c-b8f1" type="min"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="254d-6db2-33a9-3869" type="max"/>
+                          </constraints>
+                        </entryLink>
                       </entryLinks>
                       <costs>
                         <cost name="Munitions" typeId="Points" value="0.0"/>
@@ -1588,6 +1594,12 @@
                           <constraints>
                             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9566-ad24-a577-bab0" type="min"/>
                             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d543-5562-2f27-742d" type="max"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink id="5dd0-13f0-3b3d-4029" name="Steel Fists" hidden="false" collective="false" import="true" targetId="7331-ef5d-7185-bbb8" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db10-9590-99d0-5915" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b594-13e7-78f5-5990" type="min"/>
                           </constraints>
                         </entryLink>
                       </entryLinks>
@@ -5723,6 +5735,16 @@
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7331-ef5d-7185-bbb8" name="Steel Fists" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f173-e04e-190d-1dd9" name="Steel Fists" hidden="false" targetId="ca5f-7842-d773-86ec" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="4.0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="2b58-cfa1-16c1-45b0" name="Forward Communications" hidden="false">
@@ -6182,6 +6204,16 @@
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Flames, Close In</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Flamethrower, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ca5f-7842-d773-86ec" name="Steel Fists" hidden="false" typeId="Weapon" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">E</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">2</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Blunt</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
