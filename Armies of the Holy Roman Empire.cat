@@ -357,7 +357,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6006-27fe-9d09-0a8a" name="Infantry Actions" hidden="false" targetId="89e8-eb2a-f528-0ea2" type="profile"/>
+        <infoLink id="6006-27fe-9d09-0a8a" name="Infantry Actions" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
         <infoLink id="fed4-f11b-6a59-435b" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="3"/>
@@ -383,7 +383,7 @@
                 <profile id="efcf-6142-280e-1dfe" name="Unteroffizier" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">6</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
                   </characteristics>
@@ -442,7 +442,7 @@
                 <profile id="450a-3dff-04e1-cb99" name="Gefreiter" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">6</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
                   </characteristics>
@@ -496,7 +496,7 @@
                 <profile id="1bc3-589b-83f1-c74f" name="Stabsgefreiter" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">6</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
                   </characteristics>
@@ -621,7 +621,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="299d-6ec3-7f0f-782a" name="Infantry Actions" hidden="false" targetId="89e8-eb2a-f528-0ea2" type="profile"/>
+        <infoLink id="299d-6ec3-7f0f-782a" name="Infantry Actions" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
         <infoLink id="d7f4-836f-0606-2a0c" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="3"/>
@@ -647,7 +647,7 @@
                 <profile id="dba0-5728-57c0-7061" name="Offizier" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">6</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
                   </characteristics>
@@ -706,7 +706,7 @@
                 <profile id="4d7d-c727-1d2a-a357" name="Gefreiter" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">6</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
                   </characteristics>
@@ -760,7 +760,7 @@
                 <profile id="c262-7dbe-c224-7dd7" name="Stabsgefreiter" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">6</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
                   </characteristics>
@@ -830,7 +830,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0523-1d8d-7fe2-3626" name="Pioneer Actions" hidden="false" targetId="a822-d17f-2d11-5ad3" type="profile"/>
+        <infoLink id="0523-1d8d-7fe2-3626" name="Support Infantry Actions" hidden="false" targetId="335b-34df-c974-9c3b" type="profile"/>
         <infoLink id="76d5-25b8-b34b-0680" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="4"/>
@@ -856,7 +856,7 @@
                 <profile id="a571-5c0b-f0bb-bc31" name="Pioneer Unteroffizier" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
                   </characteristics>
@@ -903,7 +903,7 @@
                 <profile id="a34e-654e-5e68-a512" name="Pioneer" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
                   </characteristics>
@@ -978,7 +978,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="2e1e-84c3-504d-574c" name="Pioneer Actions" hidden="false" targetId="a822-d17f-2d11-5ad3" type="profile"/>
+        <infoLink id="2e1e-84c3-504d-574c" name="Support Infantry Actions" hidden="false" targetId="335b-34df-c974-9c3b" type="profile"/>
         <infoLink id="c758-ed4d-922c-8862" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="4"/>
@@ -1004,7 +1004,7 @@
                 <profile id="a9f5-57df-ad4d-34a0" name="Pioneer Offizier" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
                   </characteristics>
@@ -1051,7 +1051,7 @@
                 <profile id="3a7c-526f-8199-102f" name="Pioneer" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
                   </characteristics>
@@ -1123,7 +1123,7 @@
           </modifiers>
           <characteristics>
             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">3</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
             <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">13/11</characteristic>
             <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">18</characteristic>
           </characteristics>
@@ -1142,7 +1142,7 @@
             <modifier type="append" field="name" value="3"/>
           </modifiers>
         </infoLink>
-        <infoLink id="0ddd-d16e-42f7-fefb" name="Armor Actions" hidden="false" targetId="e36c-4baf-54a1-3151" type="profile"/>
+        <infoLink id="0ddd-d16e-42f7-fefb" name="Armor Actions" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
         <infoLink id="12c7-ffcb-a0b3-b15a" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="6"/>
@@ -1283,7 +1283,7 @@
         <infoLink id="e3f0-186d-1379-74f6" name="8.8cm High-Velocity Cannon" hidden="false" targetId="61b7-8951-6900-85ae" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="38.0"/>
+        <cost name="Munitions" typeId="Points" value="28.0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
       </costs>
@@ -1300,7 +1300,7 @@
           </modifiers>
           <characteristics>
             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">3</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
             <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">13/11</characteristic>
             <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">18</characteristic>
           </characteristics>
@@ -1319,7 +1319,7 @@
             <modifier type="append" field="name" value="3"/>
           </modifiers>
         </infoLink>
-        <infoLink id="8f5f-8145-df37-838f" name="Armor Actions" hidden="false" targetId="e36c-4baf-54a1-3151" type="profile"/>
+        <infoLink id="8f5f-8145-df37-838f" name="Armor Actions" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
         <infoLink id="efe4-f32c-9f11-2a16" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="6"/>
@@ -1432,14 +1432,17 @@
         <profile id="fc5d-ac90-9949-d482" name="Graf Class Panzerzeppelin" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
           <characteristics>
             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">12&quot;</characteristic>
-            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
             <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">13</characteristic>
             <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">40</characteristic>
           </characteristics>
         </profile>
         <profile id="1199-0e87-6022-9426" name="Graf Class Panzerzeppelin Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
           <characteristics>
-            <characteristic name="Available Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim</characteristic>
+            <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim</characteristic>
+            <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9"/>
+            <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503"/>
+            <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1725,7 +1728,7 @@
         <infoLink id="50df-2dc7-7e06-971a" name="Deployed Weapon" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
         <infoLink id="6c13-2fa5-2f8c-7323" name="Front Facing" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
         <infoLink id="d757-87ad-3113-34ca" name="Towable" hidden="false" targetId="9e88-6c38-3a57-c010" type="rule"/>
-        <infoLink id="6513-e0c5-32c5-e0cf" name="Artillery Actions" hidden="false" targetId="dffd-05bf-5eb9-0e66" type="profile"/>
+        <infoLink id="6513-e0c5-32c5-e0cf" name="Artillery Actions" hidden="false" targetId="8aaf-072f-5000-d2b9" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9c7d-02b8-5dec-37d1" name="Squad Members" hidden="false" collective="false" import="true" defaultSelectionEntryId="5df5-cc83-c2a4-63a8">
@@ -1743,7 +1746,7 @@
                 <profile id="18dd-6c74-c6b9-7c36" name="21cm Morser Carriage" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">4&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8/4</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">7</characteristic>
                   </characteristics>
@@ -1801,7 +1804,7 @@
         <profile id="5c74-53ce-ebe5-4486" name="20M Supply Truck" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
           <characteristics>
             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">14&quot;</characteristic>
-            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
             <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
             <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">5</characteristic>
           </characteristics>
@@ -1830,7 +1833,7 @@
             <modifier type="append" field="name" value="10"/>
           </modifiers>
         </infoLink>
-        <infoLink id="07ee-13ba-6ca1-ee7c" name="Light Vehicle Actions" hidden="false" targetId="73b4-d2db-5c65-0d10" type="profile"/>
+        <infoLink id="07ee-13ba-6ca1-ee7c" name="Transport Actions" hidden="false" targetId="d3bd-9092-41d2-8882" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="Munitions" typeId="Points" value="40.0"/>
@@ -1843,7 +1846,7 @@
         <profile id="6064-64fb-577c-566f" name="28M Wallenstein Armored Halftrack" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
           <characteristics>
             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">12&quot;</characteristic>
-            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
             <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8/7</characteristic>
             <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">9</characteristic>
           </characteristics>
@@ -1872,7 +1875,7 @@
             <modifier type="append" field="name" value="10"/>
           </modifiers>
         </infoLink>
-        <infoLink id="3cb4-4dff-6a0d-cd52" name="Light Vehicle Actions" hidden="false" targetId="73b4-d2db-5c65-0d10" type="profile"/>
+        <infoLink id="3cb4-4dff-6a0d-cd52" name="Transport Actions" hidden="false" targetId="d3bd-9092-41d2-8882" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="40b4-45e0-c1a3-8eb5" name="Pintle Mount" hidden="false" collective="false" import="true" defaultSelectionEntryId="5aaf-c82e-82e9-3d67">
@@ -1896,7 +1899,7 @@
         <profile id="39ed-8e79-6e87-260e" name="28M Wallenstein Armored Halftrack" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
           <characteristics>
             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">12&quot;</characteristic>
-            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
             <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8/7</characteristic>
             <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">9</characteristic>
           </characteristics>
@@ -1920,7 +1923,7 @@
             <modifier type="append" field="name" value="1"/>
           </modifiers>
         </infoLink>
-        <infoLink id="3a4d-a71e-d6af-77b4" name="Light Vehicle Actions" hidden="false" targetId="73b4-d2db-5c65-0d10" type="profile"/>
+        <infoLink id="3a4d-a71e-d6af-77b4" name="Recon Vehicle Actions" hidden="false" targetId="e02c-5a58-9b36-5c37" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="ae60-76ba-1751-1572" name="Main Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6a5e-cae0-faf7-ef0a">
@@ -1945,7 +1948,7 @@
         <profile id="7a60-e8b4-a310-31b2" name="28M Wallenstein Armored Halftrack" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
           <characteristics>
             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">12&quot;</characteristic>
-            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
             <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8/7</characteristic>
             <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">9</characteristic>
           </characteristics>
@@ -1969,7 +1972,7 @@
             <modifier type="append" field="name" value="1"/>
           </modifiers>
         </infoLink>
-        <infoLink id="5711-0a0c-fc2b-5528" name="Light Vehicle Actions" hidden="false" targetId="73b4-d2db-5c65-0d10" type="profile"/>
+        <infoLink id="5711-0a0c-fc2b-5528" name="Recon Vehicle Actions" hidden="false" targetId="e02c-5a58-9b36-5c37" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="dc7d-83cf-c368-6ac9" name="Main Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8b84-9393-6392-ca0f">
@@ -2021,7 +2024,7 @@
             <modifier type="append" field="name" value="3"/>
           </modifiers>
         </infoLink>
-        <infoLink id="ee51-f845-bbc9-0f5d" name="Armor Actions" hidden="false" targetId="e36c-4baf-54a1-3151" type="profile"/>
+        <infoLink id="ee51-f845-bbc9-0f5d" name="Armor Actions" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
         <infoLink id="fb21-ee11-f559-2b91" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="4"/>
@@ -2110,7 +2113,7 @@
         <profile id="9a64-0776-4f1d-3762" name="22M Radetzky Armored Car" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
           <characteristics>
             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">14&quot;</characteristic>
-            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
             <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8/7</characteristic>
             <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">9</characteristic>
           </characteristics>
@@ -2134,7 +2137,7 @@
             <modifier type="append" field="name" value="1"/>
           </modifiers>
         </infoLink>
-        <infoLink id="11a3-fcaa-87ff-31a7" name="Light Vehicle Actions" hidden="false" targetId="73b4-d2db-5c65-0d10" type="profile"/>
+        <infoLink id="11a3-fcaa-87ff-31a7" name="Recon Vehicle Actions" hidden="false" targetId="e02c-5a58-9b36-5c37" type="profile"/>
         <infoLink id="fc39-e96b-caa2-ce91" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="4"/>
@@ -2185,7 +2188,7 @@
         <profile id="3f69-02bc-23f7-c609" name="22M Radetzky Armored Car" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
           <characteristics>
             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">14&quot;</characteristic>
-            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
             <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8/7</characteristic>
             <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">9</characteristic>
           </characteristics>
@@ -2209,7 +2212,7 @@
             <modifier type="append" field="name" value="1"/>
           </modifiers>
         </infoLink>
-        <infoLink id="c7db-474f-ec4f-a137" name="Light Vehicle Actions" hidden="false" targetId="73b4-d2db-5c65-0d10" type="profile"/>
+        <infoLink id="c7db-474f-ec4f-a137" name="Recon Vehicle Actions" hidden="false" targetId="e02c-5a58-9b36-5c37" type="profile"/>
         <infoLink id="9e44-ef0b-0236-f954" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="4"/>
@@ -2274,7 +2277,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="db9e-1992-9c28-f490" name="Infantry Actions" hidden="false" targetId="89e8-eb2a-f528-0ea2" type="profile"/>
+        <infoLink id="db9e-1992-9c28-f490" name="Infantry Actions" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="df74-7138-8611-5d76" name="Infantry" hidden="false" targetId="59ff-44cb-cb53-760d" primary="false"/>
@@ -2295,7 +2298,7 @@
                 <profile id="26c7-d836-287c-9186" name="Tizedes" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">2</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
                   </characteristics>
@@ -2346,7 +2349,7 @@
                 <profile id="4b09-15a3-a6cd-6398" name="Honvéd" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">2</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
                   </characteristics>
@@ -2405,7 +2408,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6b3a-2135-4cb5-b91e" name="Infantry Actions" hidden="false" targetId="89e8-eb2a-f528-0ea2" type="profile"/>
+        <infoLink id="6b3a-2135-4cb5-b91e" name="Infantry Actions" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3159-8cd8-9cbf-b5b7" name="Infantry" hidden="false" targetId="59ff-44cb-cb53-760d" primary="false"/>
@@ -2426,7 +2429,7 @@
                 <profile id="0f50-ac53-f57d-4826" name="Tiszt" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">2</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
                   </characteristics>
@@ -2477,7 +2480,7 @@
                 <profile id="0afd-8c7f-6a84-939c" name="Honvéd" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">2</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
                   </characteristics>
@@ -2601,7 +2604,7 @@
           </modifiers>
           <characteristics>
             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8&quot;</characteristic>
-            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">3</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
             <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">11/10</characteristic>
             <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">15</characteristic>
           </characteristics>
@@ -2620,7 +2623,7 @@
             <modifier type="append" field="name" value="3"/>
           </modifiers>
         </infoLink>
-        <infoLink id="be50-3080-eeea-1616" name="Armor Actions" hidden="false" targetId="e36c-4baf-54a1-3151" type="profile"/>
+        <infoLink id="be50-3080-eeea-1616" name="Armor Actions" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
         <infoLink id="309c-482c-079a-c0dc" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="4"/>
@@ -2699,7 +2702,7 @@
           </modifiers>
           <characteristics>
             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8&quot;</characteristic>
-            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">3</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
             <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">11/10</characteristic>
             <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">15</characteristic>
           </characteristics>
@@ -2718,7 +2721,7 @@
             <modifier type="append" field="name" value="3"/>
           </modifiers>
         </infoLink>
-        <infoLink id="e90b-a947-9cd2-c57f" name="Armor Actions" hidden="false" targetId="e36c-4baf-54a1-3151" type="profile"/>
+        <infoLink id="e90b-a947-9cd2-c57f" name="Armor Actions" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
         <infoLink id="5ed0-f8d0-83f6-fb33" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="4"/>
@@ -2795,7 +2798,7 @@
           </modifiers>
           <characteristics>
             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8&quot;</characteristic>
-            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">3</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
             <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">11/10</characteristic>
             <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">15</characteristic>
           </characteristics>
@@ -2814,7 +2817,7 @@
             <modifier type="append" field="name" value="3"/>
           </modifiers>
         </infoLink>
-        <infoLink id="f211-525d-f96f-3cc2" name="Armor Actions" hidden="false" targetId="e36c-4baf-54a1-3151" type="profile"/>
+        <infoLink id="f211-525d-f96f-3cc2" name="Armor Actions" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
         <infoLink id="5639-1ce1-aee0-01de" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="4"/>
@@ -2896,7 +2899,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="4c4f-5213-6166-3626" name="Infantry Actions" hidden="false" targetId="89e8-eb2a-f528-0ea2" type="profile"/>
+        <infoLink id="4c4f-5213-6166-3626" name="Support Artillery Actions" hidden="false" targetId="1761-68e7-b0e6-e086" type="profile"/>
         <infoLink id="d92d-cd7d-6c45-2f7b" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="3"/>
@@ -2922,7 +2925,7 @@
                 <profile id="5568-59b5-994a-92a7" name="Imperial Landwehr Heavy Weapon Squad" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">4&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">6</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
                   </characteristics>
@@ -3013,7 +3016,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6b00-02fb-f729-faba" name="Infantry Actions" hidden="false" targetId="89e8-eb2a-f528-0ea2" type="profile"/>
+        <infoLink id="6b00-02fb-f729-faba" name="Artillery Actions" hidden="false" targetId="8aaf-072f-5000-d2b9" type="profile"/>
         <infoLink id="b95e-6fb0-a8ae-4027" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="3"/>
@@ -3039,7 +3042,7 @@
                 <profile id="4778-7ac0-b7cd-6ce1" name="Imperial Landwehr Mortar Squad" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">4&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">6</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
                   </characteristics>
@@ -3103,7 +3106,7 @@
         <profile id="760b-4321-02f0-a1a4" name="45M Barbarossa Assault Tank" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
           <characteristics>
             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8&quot;</characteristic>
-            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">3</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
             <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">14/12</characteristic>
             <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">32</characteristic>
           </characteristics>
@@ -3122,7 +3125,7 @@
             <modifier type="append" field="name" value="4"/>
           </modifiers>
         </infoLink>
-        <infoLink id="7c2e-db40-8c38-0f4b" name="Armor Actions" hidden="false" targetId="e36c-4baf-54a1-3151" type="profile"/>
+        <infoLink id="7c2e-db40-8c38-0f4b" name="Armor Actions" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
         <infoLink id="a10f-33c0-78b0-b932" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="6"/>
@@ -3286,7 +3289,7 @@
         <profile id="b157-0538-c4f1-f95c" name="45M Barbarossa Assault Tank" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
           <characteristics>
             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8&quot;</characteristic>
-            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">3</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
             <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">14/12</characteristic>
             <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">32</characteristic>
           </characteristics>
@@ -3305,7 +3308,7 @@
             <modifier type="append" field="name" value="4"/>
           </modifiers>
         </infoLink>
-        <infoLink id="faed-8f55-6f5e-41b2" name="Armor Actions" hidden="false" targetId="e36c-4baf-54a1-3151" type="profile"/>
+        <infoLink id="faed-8f55-6f5e-41b2" name="Armor Actions" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
         <infoLink id="d8f8-aa47-9e97-239b" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="6"/>
@@ -3436,7 +3439,7 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="943f-5cd1-afda-1572" name="7.5cm High-Velocity Cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="943f-5cd1-afda-1572" name="7.5cm High-Velocity Cannon" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e10e-32f6-b6ed-d61d" name="7.5cm High-Velocity Cannon" hidden="false" targetId="ee94-869c-f20c-f273" type="profile"/>
       </infoLinks>
@@ -3462,7 +3465,7 @@
             <modifier type="append" field="name" value="4"/>
           </modifiers>
         </infoLink>
-        <infoLink id="3348-56da-ee98-aea5" name="Artillery Actions" hidden="false" targetId="dffd-05bf-5eb9-0e66" type="profile"/>
+        <infoLink id="3348-56da-ee98-aea5" name="Support Artillery Actions" hidden="false" targetId="1761-68e7-b0e6-e086" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1658-c2ec-a775-f480" name="Infantry" hidden="false" targetId="59ff-44cb-cb53-760d" primary="false"/>
@@ -3483,7 +3486,7 @@
                 <profile id="ca17-26c1-f541-dfaf" name="18M Gun Carriage" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">4&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8/7</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">4</characteristic>
                   </characteristics>
@@ -3554,7 +3557,7 @@
             <modifier type="append" field="name" value="4"/>
           </modifiers>
         </infoLink>
-        <infoLink id="ade6-1467-cd39-240a" name="Artillery Actions" hidden="false" targetId="dffd-05bf-5eb9-0e66" type="profile"/>
+        <infoLink id="ade6-1467-cd39-240a" name="Artillery Actions" hidden="false" targetId="8aaf-072f-5000-d2b9" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="110e-0d25-0eb4-5f72" name="Infantry" hidden="false" targetId="59ff-44cb-cb53-760d" primary="false"/>
@@ -3575,7 +3578,7 @@
                 <profile id="751b-025e-0c89-a43e" name="27m Höllenwerfer Carriage" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">4&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8/7</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">4</characteristic>
                   </characteristics>
@@ -3637,7 +3640,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="16c1-cc69-250f-b74a" name="Infantry Actions" hidden="false" targetId="89e8-eb2a-f528-0ea2" type="profile"/>
+        <infoLink id="16c1-cc69-250f-b74a" name="Infantry Actions" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d7b8-27ac-695e-87a5" name="Squad Members" hidden="false" collective="false" import="true">
@@ -3655,7 +3658,7 @@
                 <profile id="d665-46fe-7dd4-794e" name="Scharfschützer" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">8</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
                   </characteristics>
@@ -3722,7 +3725,7 @@
                 <profile id="3740-32d3-3777-80c4" name="Scharfschützer Spotter" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
                   </characteristics>
@@ -3803,7 +3806,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1f4c-b103-aa4f-8fc6" name="Infantry Actions" hidden="false" targetId="89e8-eb2a-f528-0ea2" type="profile"/>
+        <infoLink id="1f4c-b103-aa4f-8fc6" name="Infantry Actions" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
         <infoLink id="1496-e2ea-d40f-5732" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="5"/>
@@ -3829,7 +3832,7 @@
                 <profile id="bdd8-60cc-7a9d-44d3" name="Panzergrenadier Unteroffizier" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">9</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
                   </characteristics>
@@ -3864,7 +3867,7 @@
                 <profile id="24ec-20d0-95b9-404e" name="Panzergrenadier" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">9</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
                   </characteristics>
@@ -3943,7 +3946,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="792a-ffac-4e70-bdf2" name="Infantry Actions" hidden="false" targetId="89e8-eb2a-f528-0ea2" type="profile"/>
+        <infoLink id="792a-ffac-4e70-bdf2" name="Infantry Actions" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
         <infoLink id="401d-2a1d-817d-3141" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="5"/>
@@ -3969,7 +3972,7 @@
                 <profile id="b7b5-ce2a-e1ed-6425" name="Panzergrenadier Offizier" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">9</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
                   </characteristics>
@@ -4004,7 +4007,7 @@
                 <profile id="6c58-2120-eaa5-0b1c" name="Panzergrenadier" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">9</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
                   </characteristics>
@@ -4063,7 +4066,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="889e-4225-00a5-6d16" name="Infantry Actions" hidden="false" targetId="89e8-eb2a-f528-0ea2" type="profile"/>
+        <infoLink id="889e-4225-00a5-6d16" name="Infantry Actions" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
         <infoLink id="16e0-1389-7250-ca0c" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="3"/>
@@ -4104,7 +4107,7 @@
                 <profile id="405a-6340-b152-c45f" name="Jäger Unteroffizier" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">8</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
                   </characteristics>
@@ -4139,7 +4142,7 @@
                 <profile id="eac6-a678-0cb5-26af" name="Jäger" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">8</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
                   </characteristics>
@@ -4219,7 +4222,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="8329-5a41-8d82-e8ce" name="Infantry Actions" hidden="false" targetId="89e8-eb2a-f528-0ea2" type="profile"/>
+        <infoLink id="8329-5a41-8d82-e8ce" name="Infantry Actions" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
         <infoLink id="5f54-7d67-38d2-ada0" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="3"/>
@@ -4257,7 +4260,7 @@
                 <profile id="97dc-7b05-ae48-4213" name="Jäger Scharfschützer" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">8</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
                   </characteristics>
@@ -4324,7 +4327,7 @@
                 <profile id="6f46-f2f3-9b21-b7d4" name="Jäger Scharfschützer Spotter" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">8</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
                   </characteristics>
@@ -4376,7 +4379,7 @@
         <profile id="cb07-f9f8-6b7d-f47d" name="Ritter Class Sturmzeppelin" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
           <characteristics>
             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">12&quot;</characteristic>
-            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
             <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">9</characteristic>
             <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">16</characteristic>
           </characteristics>
@@ -4507,7 +4510,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d9c5-b178-1909-fe94" name="Infantry Actions" hidden="false" targetId="89e8-eb2a-f528-0ea2" type="profile"/>
+        <infoLink id="d9c5-b178-1909-fe94" name="Infantry Actions" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
         <infoLink id="607d-db09-1ba9-e9c7" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="3"/>
@@ -4548,7 +4551,7 @@
                 <profile id="06b1-4537-43f6-480b" name="Jäger Offizier" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">8</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
                   </characteristics>
@@ -4583,7 +4586,7 @@
                 <profile id="8369-86c9-f350-6583" name="Jäger" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">8</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
                   </characteristics>
@@ -4642,7 +4645,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="de39-42f3-723b-4f0d" name="Infantry Actions" hidden="false" targetId="89e8-eb2a-f528-0ea2" type="profile"/>
+        <infoLink id="de39-42f3-723b-4f0d" name="Infantry Actions" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
         <infoLink id="e793-b6cb-4faf-894b" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Shielded 5">
@@ -4677,7 +4680,7 @@
                 <profile id="7f12-0645-8435-d37c" name="Knecht Battlesuit Offizier" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">10</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">4</characteristic>
                   </characteristics>
@@ -4736,7 +4739,7 @@
                 <profile id="64db-8e62-3318-e0ec" name="Knecht Battlesuit" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">10</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">4</characteristic>
                   </characteristics>
@@ -4827,7 +4830,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9cec-fadd-e5fa-4dbc" name="Infantry Actions" hidden="false" targetId="89e8-eb2a-f528-0ea2" type="profile"/>
+        <infoLink id="9cec-fadd-e5fa-4dbc" name="Infantry Actions" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
         <infoLink id="3383-c893-0477-39ec" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Shielded 5">
@@ -4862,7 +4865,7 @@
                 <profile id="a478-6b03-2e36-68e1" name="Knecht Battlesuit Offizier" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">10</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">4</characteristic>
                   </characteristics>
@@ -4921,7 +4924,7 @@
                 <profile id="04de-c870-5560-ec79" name="Knecht Battlesuit" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
                     <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">10</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">4</characteristic>
                   </characteristics>
@@ -5000,7 +5003,7 @@
           </modifiers>
           <characteristics>
             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8&quot;</characteristic>
-            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">3</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
             <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">11/10</characteristic>
             <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">15</characteristic>
           </characteristics>
@@ -5019,7 +5022,7 @@
             <modifier type="append" field="name" value="3"/>
           </modifiers>
         </infoLink>
-        <infoLink id="62ac-c95a-98e3-d6cf" name="Armor Actions" hidden="false" targetId="e36c-4baf-54a1-3151" type="profile"/>
+        <infoLink id="62ac-c95a-98e3-d6cf" name="Armor Actions" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
         <infoLink id="e9f3-3ac8-e7b9-7ce4" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
             <modifier type="append" field="name" value="4"/>
@@ -5144,31 +5147,6 @@
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="e36c-4baf-54a1-3151" name="Armor Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
-      <characteristics>
-        <characteristic name="Available Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim, Fall Back</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="89e8-eb2a-f528-0ea2" name="Infantry Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
-      <characteristics>
-        <characteristic name="Available Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Fall Back, Go Prone, Dig In, Take Aim, Deploy Item, Capture</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="a822-d17f-2d11-5ad3" name="Pioneer Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
-      <characteristics>
-        <characteristic name="Available Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Fall Back, Go Prone, Dig In, Take Aim, Deploy Item, Capture, Build, Destroy</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="d037-cb86-7503-7064" name="Mech Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
-      <characteristics>
-        <characteristic name="Available Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim, Fall Back, Capture</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="73b4-d2db-5c65-0d10" name="Light Vehicle Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
-      <characteristics>
-        <characteristic name="Available Actions" typeId="71f8-64d2-a32a-0757">Move, Capture, Tow</characteristic>
-      </characteristics>
-    </profile>
     <profile id="a377-d534-5c8c-a988" name="MP33 SMG" hidden="false" typeId="Weapon" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">16&quot;</characteristic>
@@ -5224,7 +5202,7 @@
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">32&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">6</characteristic>
-        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">12</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1D10+4</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
       </characteristics>
@@ -5474,14 +5452,9 @@
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">40&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">8</characteristic>
-        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">18</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1D10+8</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="dffd-05bf-5eb9-0e66" name="Artillery Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
-      <characteristics>
-        <characteristic name="Available Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim, Detach</characteristic>
       </characteristics>
     </profile>
     <profile id="acf3-ab19-454c-c8d4" name="M1931 Mannlicher Rifle (Scoped)" hidden="false" typeId="Weapon" typeName="Weapon">

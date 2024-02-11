@@ -33,7 +33,10 @@
     </profileType>
     <profileType id="5a0c-9677-ca87-9509" name="Action List">
       <characteristicTypes>
-        <characteristicType id="71f8-64d2-a32a-0757" name="Available Actions"/>
+        <characteristicType id="71f8-64d2-a32a-0757" name="Standard Actions"/>
+        <characteristicType id="6cfc-1528-37ea-2ff9" name="Reactions"/>
+        <characteristicType id="cf1b-a84e-f943-d503" name="Difficult Actions"/>
+        <characteristicType id="4c52-f227-0038-1b73" name="Free Actions"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -224,6 +227,18 @@
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="4cee-1117-5728-9d9c" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="aff3-8212-198a-042b" name="Support Infantry" hidden="false" targetId="0463-bfe4-198d-b1a5" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fe9-5e8c-7b90-95f1" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50ec-6b3d-bf34-0109" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3c0d-4b38-91d7-17ba" name="Infantry Support" hidden="false" targetId="96e8-513f-beca-e624" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8584-8344-8e06-9eda" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44db-f2d8-fc4b-d483" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -665,7 +680,7 @@
       <description>At the beginning of each set up phase gain a supply point (SP).</description>
     </rule>
     <rule id="740c-be52-5a59-9265" name="Steel Legs" hidden="false">
-      <description>This Unit ignores the effect of Rough Terrain, and may pass through Light Fortifications.</description>
+      <description> This Unit ignores the effect of Rough Terrain, and may pass through Light Fortifications and other non armored units as if they were not there. They may not end a move action on top of these features. </description>
     </rule>
     <rule id="7325-1a3f-26e7-5f1e" name="Shield Bash" hidden="false">
       <description>When an attack is made with this weapon, you may, instead of dealing damage, choose to move one enemy unit that this unit is engaged with 2&quot; in a direction of your choice.</description>
@@ -753,4 +768,62 @@ Until the end of this round all vehicle Units in this platoon increase their Eva
       <description>This Unit may perform the Build action, but only to construct a Prepared Fighting Position.</description>
     </rule>
   </sharedRules>
+  <sharedProfiles>
+    <profile id="0936-84e8-76d0-501a" name="Infantry Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
+      <characteristics>
+        <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757"> Move, Attack, Take Aim, Fall Back</characteristic>
+        <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Flee, Dig In, Go Prone</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503"/>
+        <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Capture</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ed5a-9492-6407-a9f1" name="Armor Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
+      <characteristics>
+        <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim, Fall Back</characteristic>
+        <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9"/>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Capture</characteristic>
+        <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73"/>
+      </characteristics>
+    </profile>
+    <profile id="e02c-5a58-9b36-5c37" name="Recon Vehicle Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
+      <characteristics>
+        <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim, Capture, Fall Back</characteristic>
+        <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9"/>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503"/>
+        <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73"/>
+      </characteristics>
+    </profile>
+    <profile id="8aaf-072f-5000-d2b9" name="Artillery Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
+      <characteristics>
+        <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim, Fall Back</characteristic>
+        <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9"/>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Capture</characteristic>
+        <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Adjust Coordinates, Detatch</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="335b-34df-c974-9c3b" name="Support Infantry Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
+      <characteristics>
+        <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim, Destroy, Fall Back</characteristic>
+        <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Flee, Dig In, Go Prone, Pop Smoke</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503"/>
+        <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Build</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d3bd-9092-41d2-8882" name="Transport Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
+      <characteristics>
+        <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim, Fall Back</characteristic>
+        <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9"/>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503"/>
+        <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Tow</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1761-68e7-b0e6-e086" name="Support Artillery Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
+      <characteristics>
+        <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Fall Back</characteristic>
+        <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9"/>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Capture</characteristic>
+        <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Take Aim</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </gameSystem>
