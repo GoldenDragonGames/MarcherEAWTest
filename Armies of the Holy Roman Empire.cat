@@ -271,6 +271,14 @@
         <categoryLink id="43bf-5b11-f130-aa41" name="Zeppelin Configuration" hidden="false" targetId="fb3d-fd4e-cbbf-62d7" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="9377-d93b-c74d-0eca" name="Franz Von Trotta" hidden="false" collective="false" import="true" targetId="d6bb-21c6-c241-bfe6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cdc9-08d0-2021-f6c2" name="Command" hidden="false" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
+        <categoryLink id="c183-7fee-d60e-1526" name="Infantry" hidden="false" targetId="59ff-44cb-cb53-760d" primary="false"/>
+        <categoryLink id="9b90-1181-c110-67de" name="Infantry Command" hidden="false" targetId="dcc5-ef7f-27fc-a528" primary="true"/>
+        <categoryLink id="f7cf-d2bb-5a2a-984f" name="Recon Infantry" hidden="false" targetId="aa05-ee4c-c4d5-7e23" primary="false"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="f6c7-8ea6-b7ab-64be" name="Officer Seniority" hidden="false" collective="false" import="true" type="upgrade">
@@ -1420,7 +1428,7 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b550-76d5-fceb-5c41" name="Graf Class Panzerzeppelin" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b550-76d5-fceb-5c41" name="Graf Class Panzerzeppelin" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="e392-e39b-ac3a-b39d" name="Graf Class Panzerzeppelin" hidden="false" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition">
           <characteristics>
@@ -1463,7 +1471,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca52-de5c-d8b0-ecc9" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="c314-bfb1-ae4f-67b5" name="40mm Autocannon" hidden="false" collective="false" import="true" targetId="6a2b-198d-743e-54ea" type="selectionEntry">
+            <entryLink id="c314-bfb1-ae4f-67b5" name="4cm Autocannon" hidden="false" collective="false" import="true" targetId="6a2b-198d-743e-54ea" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="536d-2ca9-bc69-eee8" type="min"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4cc-9fa0-8d15-28cf" type="max"/>
@@ -1685,7 +1693,7 @@
     </selectionEntry>
     <selectionEntry id="6a2b-198d-743e-54ea" name="4cm Autocannon" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="ad2f-b2d3-125e-8ccd" name="40mm Autocannon" hidden="false" targetId="364f-9d78-f5a9-ea45" type="profile"/>
+        <infoLink id="ad2f-b2d3-125e-8ccd" name="4cm Autocannon" hidden="false" targetId="364f-9d78-f5a9-ea45" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="Munitions" typeId="Points" value="42.0"/>
@@ -5132,6 +5140,35 @@
         <cost name="Munitions" typeId="Points" value="4.0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0.0"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d6bb-21c6-c241-bfe6" name="Franz Von Trotta" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8c76-5adf-5c6d-65a8" name="Franz Von Trotta" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
+          <characteristics>
+            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">8</characteristic>
+            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8</characteristic>
+            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2709-2181-6c44-0759" name="Franz Von Trotta" hidden="false" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition">
+          <characteristics>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac"/>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14"/>
+            <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">32mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="587c-145a-36ca-cb34" name="Infantry Actions" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="37b3-092b-88d4-d8ea" name="GKB37 Assault Rifle" hidden="false" collective="false" import="true" targetId="a757-fa09-f338-77e1" type="selectionEntry"/>
+        <entryLink id="afaa-4c28-ec27-73c7" name="SSG 2000 Sniper Rifle" hidden="false" collective="false" import="true" targetId="ce6b-7799-b0df-36ae" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="50.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
