@@ -651,9 +651,6 @@
     <rule id="1fc3-97a8-e24a-a084" name="Crushing Treads" hidden="false">
       <description>This Unit may pass through Light Fortifications when taking the move action, if it does so, remove those objects from the battlefield.</description>
     </rule>
-    <rule id="e5bd-eff1-79f3-661b" name="Crewed" hidden="false">
-      <description>This vehicle has X number of crew who may exit the vehicle through the dismount action. If there are no crew inside the vehicle it cannot be selected for activation. Reduce this Special Rule’s value by each crew who dismounts. Increase it for each crew who remounts. Each time the action to disembark is taken, 5 or more crew members must exit or all crew members must exit the vehicle.</description>
-    </rule>
     <rule id="b61a-cd3a-75d6-8152" name="Operator" hidden="false">
       <description>This unit requires at least X crewmembers to use actions.</description>
     </rule>
@@ -790,6 +787,9 @@ Until the end of this round all vehicle Units in this platoon increase their Eva
     <rule name="Burrowing" id="ed5f-b19a-332-fe86" hidden="false">
       <description>Instead of deploying this unit at the start of the game, you may declare that this model is burrowing. A burrowing model may activate only after all non-burrowing units in your army have activated this turn. The first time a burrowing unit activates, you may deploy it no closer than 8&quot; from an enemy unit.</description>
     </rule>
+    <rule name="Auxilliary Unit" id="824b-bf81-ea20-17d4" hidden="false">
+      <description>This unit may not control objectives</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="0936-84e8-76d0-501a" name="Infantry Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
@@ -804,7 +804,7 @@ Until the end of this round all vehicle Units in this platoon increase their Eva
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim, Fall Back</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9"/>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Capture</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503"/>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73"/>
       </characteristics>
     </profile>

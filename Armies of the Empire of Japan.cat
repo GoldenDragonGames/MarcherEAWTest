@@ -1,0 +1,1923 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="5850-c931-4187-f520" name="Armies of the Empire of Japan" gameSystemId="969e-2588-ed56-37c3" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Heishi Infantry" hidden="false" id="e735-2906-750-5b5b" collective="false">
+      <profiles>
+        <profile name="Heishi Infantry Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="b5e7-492c-1155-d300">
+          <characteristics>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Gunsō &amp; 9 Hohei</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">EJA, (CORE) Infantry</characteristic>
+            <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Infantry Actions" id="dca9-79b6-45f8-ebf4" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad Members" id="ab5e-52c4-933e-d4c" hidden="false" collective="false" import="true" defaultSelectionEntryId="19c-db1c-b8ed-a2e">
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="6a63-1942-72ef-3392-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="6a63-1942-72ef-3392-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Gunsō" hidden="false" id="2149-c2cb-3c34-45d2" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58c2-ff20-eef0-548b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="537a-991d-54c0-6494" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Sergent" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="bb76-46d9-1974-7fa4">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">7&quot;</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
+                    <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Shin-Gunto" hidden="false" id="598d-c3e2-9708-82f7" collective="false" targetId="5c07-dfbc-2346-645e" type="selectionEntry">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f965-4955-f024-54c8-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f965-4955-f024-54c8-max" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="4"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Firearms" id="372e-1491-26c-48a" hidden="false" defaultSelectionEntryId="a1c1-f5cd-9b7c-ecc6">
+                  <entryLinks>
+                    <entryLink import="true" name="Type 92 Pistol" hidden="false" id="a1c1-f5cd-9b7c-ecc6" collective="false" targetId="47a5-a82a-1d4f-e9b6" type="selectionEntry"/>
+                    <entryLink import="true" name="Type 97 Plasma Pistol" hidden="false" id="f16e-6f4a-4223-fcc2" type="selectionEntry" targetId="3db-dc5-c6d1-2218"/>
+                    <entryLink import="true" name="Type 93 “Azusa” Rifle" hidden="false" id="334b-f332-e3a5-f814" type="selectionEntry" targetId="d4fb-139f-7ec1-9d83"/>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ba03-9062-418c-a030" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2f5-2f6d-ee29-213e" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Fragmentation Grenade" hidden="false" id="4990-fddf-6629-3b98" collective="true">
+                  <infoLinks>
+                    <infoLink name="Fragmentation Grenade" id="f93d-797d-1514-d8a9" hidden="false" type="profile" targetId="e561-3e82-360b-ea42"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7846-428f-a300-7f3a-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7846-428f-a300-7f3a-max" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Hōshu with Grenade Launcher" hidden="false" id="e959-4af1-cfaa-a21a" collective="false">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="47e0-ab6-31eb-c968" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Hōshu" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="b8e9-75bc-6aff-8bc">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">7&quot;</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
+                    <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Type 92 Grenade Launcher" hidden="false" id="3e2f-ef53-89fe-f47f" collective="false" targetId="27f0-da89-cb17-6803" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="618e-501c-90b0-ef6b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4089-888b-b329-4ae4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="4"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Fragmentation Grenade" hidden="false" id="ebc9-a64e-8896-1d2" collective="true">
+                  <infoLinks>
+                    <infoLink name="Fragmentation Grenade" id="1d19-c091-3a6c-664b" hidden="false" type="profile" targetId="e561-3e82-360b-ea42"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9186-b712-994b-46dd-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9186-b712-994b-46dd-max" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bayonet" hidden="false" id="cab8-a193-cddf-2d86" collective="true">
+                  <infoLinks>
+                    <infoLink name="Bayonet" id="871-480f-61c1-ce6b" hidden="false" type="profile" targetId="fdad-7d21-8d1-cb89"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="54ef-3b46-321c-86a1-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54ef-3b46-321c-86a1-max" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Hohei" hidden="false" id="19c-db1c-b8ed-a2e" collective="false" defaultAmount="9">
+              <constraints>
+                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="3ee4-310a-1398-3652" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="7" field="selections" scope="parent" shared="true" id="f0b3-436d-947c-b52a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Hohei" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="8813-438-3e9-5868">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">7&quot;</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
+                    <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Type 93 “Azusa” Rifle" hidden="false" id="6348-8d0b-852b-942c" collective="false" targetId="d4fb-139f-7ec1-9d83" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="149b-814d-4bed-cc54" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ed24-4b34-f695-f660" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="4"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Bayonet" hidden="false" id="17ca-ff92-8423-7347" collective="true">
+                  <infoLinks>
+                    <infoLink name="Bayonet" id="c3d5-e82f-a53e-b272" hidden="false" type="profile" targetId="fdad-7d21-8d1-cb89"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="18d-fd3b-1a39-7865-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="18d-fd3b-1a39-7865-max" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Fragmentation Grenade" hidden="false" id="a38b-9a34-6673-6b49" collective="true">
+                  <infoLinks>
+                    <infoLink name="Fragmentation Grenade" id="e1a6-1c64-734e-4842" hidden="false" type="profile" targetId="e561-3e82-360b-ea42"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e3df-4f55-9127-a6f1-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e3df-4f55-9127-a6f1-max" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Hōshu with Marksman Rifle" hidden="false" id="a7f1-3f61-1645-8c81" collective="false">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4008-5b22-47ed-3a20" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Hōshu" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="f330-d506-5e73-394f">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">7&quot;</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
+                    <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Type 93 Marksman Rifle" hidden="false" id="2852-b97b-4279-afa2" collective="true" targetId="e001-184c-595a-bb80" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9fd7-e29e-fd3e-7faf" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cfcc-1571-9264-5a36" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="4"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Fragmentation Grenade" hidden="false" id="7779-54e7-f982-4759" collective="true">
+                  <infoLinks>
+                    <infoLink name="Fragmentation Grenade" id="2a6e-8311-3817-c885" hidden="false" type="profile" targetId="e561-3e82-360b-ea42"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="219b-8383-264f-50ca-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="219b-8383-264f-50ca-max" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bayonet" hidden="false" id="7d7-38ab-4117-e3bd" collective="true">
+                  <infoLinks>
+                    <infoLink name="Bayonet" id="127c-8d58-b30d-c166" hidden="false" type="profile" targetId="fdad-7d21-8d1-cb89"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a104-f408-88c9-6069-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a104-f408-88c9-6069-max" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Hōshu with Plasma Projector" hidden="false" id="92d2-b2bb-4385-ad95" collective="false">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e559-db4a-f6db-b443" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Hōshu" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="cb81-90c3-708a-59ed">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">7&quot;</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
+                    <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Type 98 Plasma Projector" hidden="false" id="3627-4550-d74d-fba1" collective="false" targetId="841-8c4c-e64-921d" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e73d-80fa-2581-6c4b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="42b4-218b-496f-ab97" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="4"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Fragmentation Grenade" hidden="false" id="8bc4-8358-d4e-c171" collective="true">
+                  <infoLinks>
+                    <infoLink name="Fragmentation Grenade" id="b5e8-bad3-9e36-9b53" hidden="false" type="profile" targetId="e561-3e82-360b-ea42"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fa30-573a-1bee-43f6-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa30-573a-1bee-43f6-max" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bayonet" hidden="false" id="dfbb-ae6-abf3-9faa" collective="true">
+                  <infoLinks>
+                    <infoLink name="Bayonet" id="55b6-276-cd93-b4b7" hidden="false" type="profile" targetId="fdad-7d21-8d1-cb89"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="40ed-747a-2963-b922-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40ed-747a-2963-b922-max" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Hōshu with Heat Rifle" hidden="false" id="3376-df24-a492-1597" collective="false">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="81e1-1ea6-696e-d472" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Hōshu" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="ba90-e88d-3521-4f5d">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">7&quot;</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
+                    <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Type 97 Heat Rifle" hidden="false" id="a002-8b38-3d3d-550b" collective="false" targetId="ac80-33fe-24ab-4717" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1283-7b3c-1b2e-dd78" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b2ef-dd7d-b7c4-6164" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="4"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Fragmentation Grenade" hidden="false" id="a305-db55-2233-7235" collective="true">
+                  <infoLinks>
+                    <infoLink name="Fragmentation Grenade" id="f6de-2ac6-6e68-4ef5" hidden="false" type="profile" targetId="e561-3e82-360b-ea42"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bda6-a056-9ad0-e65f-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bda6-a056-9ad0-e65f-max" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bayonet" hidden="false" id="2906-317-6acd-9725" collective="true">
+                  <infoLinks>
+                    <infoLink name="Bayonet" id="ed4b-b228-75d-57e8" hidden="false" type="profile" targetId="fdad-7d21-8d1-cb89"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="75d4-e249-da62-f969-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="75d4-e249-da62-f969-max" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Munitions" typeId="Points" value="0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+      </costs>
+      <rules>
+        <rule name="Kessen" id="aeb-da3e-2e48-8b31" hidden="false">
+          <description>If this unit begins its activation within engagement range of an enemy unit, it may make a free melee attack action. (This does not prevent this unit from attacking again later in its turn.)</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Type 87 Chi-Wo-Kai Battle Tank" hidden="false" id="d9d3-ea3a-dda-8be">
+      <costs>
+        <cost name="Munitions" typeId="Points" value="133"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Turret Weapon" id="1150-c7e3-44c5-e7fa" hidden="false" defaultSelectionEntryId="44e9-d0a9-82b3-3715">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fba6-a5a6-1a5f-ad62" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b529-52fa-b267-9b73" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin 20mm Autocannons" hidden="false" id="c311-38f7-a8c0-17b2" collective="false">
+              <entryLinks>
+                <entryLink import="true" name="20mm Autocannon" hidden="false" id="aeb3-7264-645e-3c7e" collective="false" targetId="7e0a-ca1a-94fa-74b7" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8d26-3bcc-4ccd-efa4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="3962-4e21-57c9-dcdc" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin Type 91 Energy Cannons" hidden="false" id="872c-f052-de89-d27d" collective="false">
+              <entryLinks>
+                <entryLink import="true" name="Type 91 Energy Cannon" hidden="false" id="5379-b443-c427-3587" collective="false" targetId="64bb-13cd-aeb2-566e" type="selectionEntry">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="b292-9fc0-a894-a68a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4f3f-3448-6d7c-67f6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="70mm High-Velocity Cannon" hidden="false" id="f925-bbeb-89a4-6876">
+              <infoLinks>
+                <infoLink name="Critical Shot" id="4810-6d0d-212f-d307" hidden="false" type="rule" targetId="a53f-6c4f-8514-7703"/>
+                <infoLink name="70mm High-Velocity Cannon" id="b1ae-c21e-2ffb-4e65" hidden="false" type="profile" targetId="7519-72ba-7bd3-6673"/>
+              </infoLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="26"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="88mm Howitzer (Direct Fire)" hidden="false" id="25a0-e727-229a-4a84">
+              <infoLinks>
+                <infoLink name="88mm Howitzer (Direct Fire)" id="5b89-1411-a5fc-264b" hidden="false" type="profile" targetId="4550-8ffd-8158-9cc1"/>
+                <infoLink name="High Explosive" id="21f8-6510-737f-402" hidden="false" type="rule" targetId="9375-d461-c135-9e66"/>
+              </infoLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="20"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Type 88 Battle Cannon" hidden="false" id="44e9-d0a9-82b3-3715">
+              <infoLinks>
+                <infoLink name="Type 88 Battle Cannon" id="889f-42fb-8900-34a5" hidden="false" type="profile" targetId="766f-41-e53-f346"/>
+                <infoLink name="High Explosive" id="3580-af71-e85f-8c12" hidden="false" type="rule" targetId="9375-d461-c135-9e66"/>
+              </infoLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="15"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Heavy Plasma Cannon" hidden="false" id="fa39-cedf-c85c-1da8">
+              <infoLinks>
+                <infoLink name="Slag" id="a00-7002-6dd-93a7" hidden="false" type="rule" targetId="aaa4-8ad4-e93e-7ead"/>
+                <infoLink name="Heavy Plasma Cannon" id="f7f5-19af-4054-31a7" hidden="false" type="profile" targetId="4dfc-cc54-877b-15e6"/>
+              </infoLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="23"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Hull Weapon" id="d4f0-c1a7-e38-4d54" hidden="false" defaultSelectionEntryId="4ed4-5b2a-15d0-b56e">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7f4f-8fe9-d8cd-b1dc" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4f87-e3c7-eb3c-a0d4" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Type 91 Energy Cannon" hidden="false" id="968d-7cdc-813c-f3b3" type="selectionEntry" targetId="64bb-13cd-aeb2-566e">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5dd0-8311-ee07-bd7d" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Type 95 “Hyōshigi” Machine Gun" hidden="false" id="4ed4-5b2a-15d0-b56e">
+              <infoLinks>
+                <infoLink name="Type 95 Machine Gun" id="87f8-e479-6450-5790" hidden="false" type="profile" targetId="aede-4765-5cc1-fdb2"/>
+                <infoLink name="Suppressive" id="34b3-71e5-a979-552e" hidden="false" type="rule" targetId="4911-2380-864d-8b44"/>
+              </infoLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="13"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Sponson Weapons" id="be2b-5a2f-1f2f-9a42" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77b4-fe46-f1d4-776d" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Plasma Projector Sponsons" hidden="false" id="31b6-a75c-fe46-f8ce">
+              <entryLinks>
+                <entryLink import="true" name="Type 98 Plasma Projector" hidden="false" id="6112-37f6-1cfd-9f8f" type="selectionEntry" targetId="841-8c4c-e64-921d">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="6b33-2a2-8546-b72d"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="ebc0-5450-7395-c97d"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Type 97 “Kagutsuchi” Heat Rifle Sponsons" hidden="false" id="920d-fd68-c34b-8c8b">
+              <entryLinks>
+                <entryLink import="true" name="Type 97 Heat Rifle" hidden="false" id="f635-ed09-7f08-a53d" type="selectionEntry" targetId="ac80-33fe-24ab-4717">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="5ebf-556d-f5bb-167"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="faf0-2d4c-db3-84a"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Automatic Grenade Launcher Sponsons" hidden="false" id="15ba-6bd3-f8d0-8746">
+              <entryLinks>
+                <entryLink import="true" name="Automatic Grenade Launcher" hidden="false" id="1caa-ceba-7960-4c9e" type="selectionEntry" targetId="1238-af44-11b7-7dc">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="92c2-7314-3440-a900"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f91e-5545-79c2-11e4"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Type 91 Energy Cannon Sponsons" hidden="false" id="27cb-f2cf-338e-139">
+              <entryLinks>
+                <entryLink import="true" name="Type 91 Energy Cannon" hidden="false" id="91e-5188-7180-c1a7" type="selectionEntry" targetId="64bb-13cd-aeb2-566e">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="8999-65c0-e7e4-e13e"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1e52-9678-746b-63bb"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Pintle Mount" id="3b24-b703-e3ae-2cf7" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b718-3ad4-cfc7-931c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Type 95 Machine Gun" hidden="false" id="b531-1315-f6dd-7a4c" collective="false" targetId="7145-8646-a953-7b3d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="Type 87 Chi-Wo-Kai Battle Tank" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="208b-7fcb-9e6f-9aa">
+          <characteristics>
+            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">10</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">3</characteristic>
+            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">11-9</characteristic>
+            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">14</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Type 87 Chi-Wo-Kai Battle Tank" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="a5f6-3482-f6d2-176b">
+          <characteristics>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Type 87 Chi-Wo-Kai Battle Tank</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">EJA, (CORE) Armor, Vehicle, Heavy Vehicle</characteristic>
+            <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armor Actions" id="8771-ea56-1075-d351" hidden="false" type="profile" targetId="ed5a-9492-6407-a9f1"/>
+        <infoLink name="Armored" id="5c5f-7471-c83c-416c" hidden="false" type="rule" targetId="17b7-2b07-3f19-2098"/>
+      </infoLinks>
+      <rules>
+        <rule name="Flanking" id="9fd9-5059-26de-c9a7" hidden="false">
+          <description>Attacks made by this unit get +1 to hit as long as there are no friendly infantry within 6&quot;.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Type 90 O-Ni Heavy Tank" hidden="false" id="6ba6-22ae-2c07-1df">
+      <costs>
+        <cost name="Munitions" typeId="Points" value="330"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Turret Weapon" id="cf59-7d40-4db1-23a1" hidden="false" defaultSelectionEntryId="573c-99a8-e592-ab57">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bf4a-c892-5f52-cd77" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a0a-8098-6770-10a8" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="O-Ni Plasma Cannon" hidden="false" id="4b78-f6fe-eed5-4e0c" type="selectionEntry" targetId="7e78-bb80-7ed8-48e8">
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7dde-64a6-9b06-d070" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin Type 88 Battle Cannon" hidden="false" id="573c-99a8-e592-ab57" collective="false">
+              <entryLinks>
+                <entryLink import="true" name="Type 88 Battle Cannon" hidden="false" id="37b2-2de8-547-1aa0" collective="false" targetId="c9dd-aad5-7b29-aca0" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="96b2-5a60-b023-f962" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="c752-a5ba-187-7325" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="99mm High-Velocity Cannon" hidden="false" id="a937-1461-1901-affd">
+              <infoLinks>
+                <infoLink name="Critical Shot" id="d39c-f529-9d91-8bb0" hidden="false" type="rule" targetId="a53f-6c4f-8514-7703"/>
+                <infoLink name="99mm High-Velocity Cannon" id="7b3b-50fe-ac6e-644b" hidden="false" type="profile" targetId="8af1-9bd3-7240-c02f"/>
+              </infoLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="61"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Coaxial Gun" id="df2-37ae-7ffd-c7b0" hidden="false" defaultSelectionEntryId="2cd5-33c2-23b4-296f">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9615-3c7e-c2e4-4ce9" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a2bf-d91f-4a91-c747" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Automatic Grenade Launcher" hidden="false" id="2cd5-33c2-23b4-296f" type="selectionEntry" targetId="1238-af44-11b7-7dc">
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a35e-a5d0-8703-3ba8" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="20mm Autocannon" hidden="false" id="a9be-c80d-24f2-58e6" type="selectionEntry" targetId="7e0a-ca1a-94fa-74b7">
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="3f3d-cfad-bb28-4895" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Type 91 Energy Cannon" hidden="false" id="292-ff39-c05-82f8" type="selectionEntry" targetId="64bb-13cd-aeb2-566e">
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="4a09-4511-9203-4469" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Pintle Mount" id="6bff-a009-b5b1-21b1" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c2eb-16f8-2789-39dd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Type 95 Machine Gun" hidden="false" id="18e0-eb37-5808-d8be" collective="false" targetId="7145-8646-a953-7b3d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Sponson Weapons" id="dc81-8bae-6101-3adc" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b87-70c-65bd-f6cb" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Plasma Projector Sponsons" hidden="false" id="ac64-ec40-5796-b0cd">
+              <entryLinks>
+                <entryLink import="true" name="Type 98 Plasma Projector" hidden="false" id="ac5f-a85b-2feb-e1fe" type="selectionEntry" targetId="841-8c4c-e64-921d">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="e813-9cf9-d76-faa2"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4b92-621c-ff70-a857"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Type 97 “Kagutsuchi” Heat Rifle Sponsons" hidden="false" id="56f4-e07a-f07b-83a">
+              <entryLinks>
+                <entryLink import="true" name="Type 97 Heat Rifle" hidden="false" id="cf87-276-9a6d-5ea2" type="selectionEntry" targetId="ac80-33fe-24ab-4717">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="5598-e04a-9653-c0d2"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1722-c43-c772-429a"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Automatic Grenade Launcher Sponsons" hidden="false" id="7153-4f59-7fcb-3ec4">
+              <entryLinks>
+                <entryLink import="true" name="Automatic Grenade Launcher" hidden="false" id="31d6-1177-cc41-d343" type="selectionEntry" targetId="1238-af44-11b7-7dc">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="298e-2c22-d7a2-8462"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="521d-a25e-f9ba-9480"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Type 91 Energy Cannon Sponsons" hidden="false" id="5635-cccc-74d9-35cb">
+              <entryLinks>
+                <entryLink import="true" name="Type 91 Energy Cannon" hidden="false" id="339f-5bc0-579c-9f30" type="selectionEntry" targetId="64bb-13cd-aeb2-566e">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9c21-da17-1617-1aaf"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e36f-700c-82fa-f906"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Rear Hull Turret" id="31ff-a211-123b-9a3" hidden="false" defaultSelectionEntryId="b0f9-ed67-49f1-af9d">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3cb6-5975-adf8-4445" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a15a-e72a-cec0-37e6" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Type 88 Battle Cannon" hidden="false" id="b0f9-ed67-49f1-af9d" type="selectionEntry" targetId="c9dd-aad5-7b29-aca0">
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="e0af-76ca-33f9-760" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin Type 95 “Hyōshigi” Machine Gun Cannons" hidden="false" id="d135-4031-a524-511b" collective="false">
+              <entryLinks>
+                <entryLink import="true" name="Type 95 “Hyōshigi” Machine Gun" hidden="false" id="1a50-e9c0-fd9b-172b" collective="false" targetId="7145-8646-a953-7b3d" type="selectionEntry">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="ebc6-4372-37a-c07b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="48bb-6605-8403-d1e9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Front Hull Turret" id="5cd8-7b2e-9a5d-e19e" hidden="false" defaultSelectionEntryId="1900-f713-2477-f379">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="34d1-141-6318-9172" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="64fd-481e-3d89-ad6" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Type 88 Battle Cannon" hidden="false" id="1900-f713-2477-f379" type="selectionEntry" targetId="c9dd-aad5-7b29-aca0">
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a796-80e6-e808-579e" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin Type 95 “Hyōshigi” Machine Gun Cannons" hidden="false" id="1b99-2130-e6a9-8796" collective="false">
+              <entryLinks>
+                <entryLink import="true" name="Type 95 “Hyōshigi” Machine Gun" hidden="false" id="6f4c-ae8d-416b-c3d" collective="false" targetId="7145-8646-a953-7b3d" type="selectionEntry">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="3ab0-72e5-b75b-4e09" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a2f2-db73-4200-5795" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="Type 90 O-Ni Heavy Tank" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="aba5-85d4-6206-9364">
+          <characteristics>
+            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">3</characteristic>
+            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">14/12</characteristic>
+            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">22</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Type 90 O-Ni Heavy Tank" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="2a0f-f6a5-67cb-cd49">
+          <characteristics>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Type 90 O-Ni Heavy Tank</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">EJA, (CORE) Armor, Vehicle, Heavy Vehicle</characteristic>
+            <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armor Actions" id="55e3-bc7d-2db9-271b" hidden="false" type="profile" targetId="ed5a-9492-6407-a9f1"/>
+        <infoLink name="Armored" id="e546-bcae-9403-d150" hidden="false" type="rule" targetId="17b7-2b07-3f19-2098"/>
+      </infoLinks>
+      <rules>
+        <rule name="Infantry Assault Support" id="c4fb-700c-aa06-7b4" hidden="false">
+          <description>Infantry units whose leader is in direct contact with this unit receive +1 for their armor score.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Captain Higuchi Ryuusuke" hidden="false" id="43be-a0d6-f15c-d685">
+      <infoLinks>
+        <infoLink name="Character" id="576e-c3c1-a692-d90" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="102"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Captain Higuchi Ryuusuke" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="2644-2d8f-c602-a479">
+          <characteristics>
+            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">7&quot;</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
+            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
+            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Fragmentation Grenade" hidden="false" id="c372-9c91-fac7-f62a">
+          <infoLinks>
+            <infoLink name="Fragmentation Grenade" id="e062-e9bf-f505-960d" hidden="false" type="profile" targetId="e561-3e82-360b-ea42"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="abe-6cd7-625d-60ea-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abe-6cd7-625d-60ea-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Chitangatana" hidden="false" id="76eb-bad3-60d5-b2df">
+          <infoLinks>
+            <infoLink name="Chitangatana" id="b380-41ca-91f7-5f5" hidden="false" type="profile" targetId="1522-f4dc-9acf-6668"/>
+            <infoLink name="Critical Shot" id="757b-8440-c56f-19cc" hidden="false" type="rule" targetId="a53f-6c4f-8514-7703"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7c3c-8224-81db-6302-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c3c-8224-81db-6302-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <rules>
+        <rule name="Higuchi Sokudo" id="6af3-71fc-e820-b3f7" hidden="false">
+          <description>At the start of his activation, Captain Higuchi Ryuusuke may issue orders to himself and up to two other infantry units. When a unit receives an order from Captain Higuchi Ryuusuke, it may immediately make either a move or melee attack action.</description>
+        </rule>
+      </rules>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a7f0-d6b7-57b-356b" includeChildSelections="true"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Sidearm" id="7c6c-8b97-cfb6-50dc" hidden="false" defaultSelectionEntryId="8761-eea-e2e7-2051">
+          <entryLinks>
+            <entryLink import="true" name="Type 92 Pistol" hidden="false" id="8761-eea-e2e7-2051" type="selectionEntry" targetId="47a5-a82a-1d4f-e9b6"/>
+            <entryLink import="true" name="Type 97 Plasma Pistol" hidden="false" id="5a99-2fdd-5c16-dc26" type="selectionEntry" targetId="3db-dc5-c6d1-2218"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5097-4fa8-c273-1a76" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29a9-3854-eea-577" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Towed Gun Carriage Squad" hidden="false" id="3e54-d3f8-e41d-a5f3" collective="false">
+      <profiles>
+        <profile name="18M Towed Gun Carriage Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="6aa-2fb5-a250-6c0a">
+          <characteristics>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2 18M Gun Carriages</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">EJA, (CORE)Support, Towable</characteristic>
+            <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Support Artillery Actions" id="b5cd-480d-dde4-8986" hidden="false" targetId="1761-68e7-b0e6-e086" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="5e45-fe3f-4516-2e58" targetId="59ff-44cb-cb53-760d" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad Members" id="aba9-759b-6cf6-b9f" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="fd76-bb96-1dc6-442b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="a2d8-ad19-97f3-3297" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Heavy Gun Carriage" hidden="false" id="2f70-372c-5089-10c7" collective="false">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="64bb-cec-f173-fdbf" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="3f30-8755-80a8-4e57" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="18M Gun Carriage" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="8247-8b47-47b0-799b">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">4&quot;</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
+                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8/7</characteristic>
+                    <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">4</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Main Weapon" id="89db-eb7-f33-1c0" hidden="false" collective="false" import="true" defaultSelectionEntryId="7165-10d9-900d-61b0">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fc5a-494-5635-3929" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bec5-c8a6-7691-cf36" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Type 90 Anti-Tank Kinetic Gun" hidden="false" id="7165-10d9-900d-61b0" collective="false" targetId="c6a8-23b8-80d4-f937" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f5d-b643-dee8-e721" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Type 89 “Taiko” Autocannon" hidden="false" id="2a1a-5562-5915-376f" collective="false" targetId="9a9b-7f2a-4d69-eeb9" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3877-20c2-daab-2c45" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Type 88 Heavy Howitzer" hidden="false" id="3e30-5d37-a2ae-b7f" collective="false" targetId="1c9e-d145-7e4a-4d95" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a0e8-97f-63fa-544f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Type 96 Heavy Energy AT-Cannon" hidden="false" id="f910-cbff-1a06-117b" collective="false" targetId="8ee2-4a82-676f-fb5b" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="69e9-1819-1223-1219" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Type 93 “Azusa” Rifle" hidden="false" id="5546-56a-2d5-dda8" collective="false" targetId="d4fb-139f-7ec1-9d83" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e9c-efde-27a5-c1e7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2a33-725-ef69-87cc" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="38"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Hōshu Heavy Weapon Squads" hidden="false" id="e6bb-56e5-ce43-8531" collective="false">
+      <profiles>
+        <profile name="Hōshu Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="df75-c070-e548-8910">
+          <characteristics>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2 Imperial Landwehr Heavy Weapon Teams</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">EJA, Infantry Support, (CORE)Support, (CORE)Infantry</characteristic>
+            <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">50mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Support Artillery Actions" id="6bdd-987e-587c-a2b9" hidden="false" targetId="1761-68e7-b0e6-e086" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Infantry" hidden="false" id="8837-e4ef-333b-21d1" targetId="59ff-44cb-cb53-760d" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad Members" id="c6ed-4025-1b6a-4610" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="aded-1670-58e8-6954" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="3182-c8f3-33a3-d061" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Heavy Weapon Team" hidden="false" id="4afa-2be0-22f4-e449" collective="false">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1bfc-83f5-1fd3-246d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="60d1-a82a-91da-8d28" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Hōshu Team" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="350c-10aa-8b39-d4c6">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">5&quot;</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
+                    <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Main Weapon" id="b947-dc1f-6f2b-35ed" hidden="false" collective="false" import="true" defaultSelectionEntryId="c190-bfc7-d48a-a892">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="37d3-f70e-f436-dff3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac9e-147a-bdcc-8214" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Type 91 Energy Cannon" hidden="false" id="68bd-55e9-6559-2e5c" collective="false" targetId="64bb-13cd-aeb2-566e" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bac-2fe8-ef07-2716" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Type 87 Mortar" hidden="false" id="9bb1-1ead-985e-eb87" collective="false" targetId="9f26-f8b1-8916-c289" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c9a-fffd-c1f5-f99a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Automatic Grenade Launcher" hidden="false" id="c190-bfc7-d48a-a892" collective="false" targetId="1238-af44-11b7-7dc" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="628-6bff-a43-509f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Type 92 “Rekka” Energy Machine Gun" hidden="false" id="11ff-61de-419-22f8" collective="false" targetId="8914-6078-e164-3a2c" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f70d-d62a-2ebf-21b2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Type 87 Heavy Rocket Launcher" hidden="false" id="5b95-7570-b706-6dc7" collective="false" targetId="3409-ab46-f0e8-177e" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b49-1db7-f402-9e47" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink import="true" name="Type 93 “Azusa” Rifle" hidden="false" id="45ff-acf9-67a9-cef" collective="false" targetId="d4fb-139f-7ec1-9d83" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e809-3a7-e5e-483c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bd79-8c13-d6c2-bdf4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="0"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="18"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Tank Commander" hidden="false" id="36d2-84d8-6f37-f80d">
+      <infoLinks>
+        <infoLink name="Character" id="78aa-2ce-864d-c849" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Officer Seniority" id="4294-800a-9f1f-5b83" hidden="false" collective="false" import="true" defaultSelectionEntryId="a8c5-4f53-fb38-13c0">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77fb-54b-58e4-476f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="85fe-9543-18c7-ffbe" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Chūi" hidden="false" id="a8c5-4f53-fb38-13c0" collective="false">
+              <infoLinks>
+                <infoLink name="Command" id="7f4c-f725-f214-92a3" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                  <modifiers>
+                    <modifier type="append" value="1" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="40"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tai-i" hidden="false" id="9a47-f23c-7ee8-8f7e" collective="false">
+              <infoLinks>
+                <infoLink name="Command" id="887-4410-d9a3-b9e3" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                  <modifiers>
+                    <modifier type="append" value="2" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="80"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shōsa" hidden="false" id="b90b-3e62-368c-da21" collective="false">
+              <infoLinks>
+                <infoLink name="Command" id="b80f-850b-4a5d-9126" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                  <modifiers>
+                    <modifier type="append" value="3" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="120"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Taisa" hidden="false" id="e2a9-493e-77a0-6a6" collective="false">
+              <infoLinks>
+                <infoLink name="Command" id="399d-492d-879d-f96d" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                  <modifiers>
+                    <modifier type="append" value="4" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="160"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Infantry Officer" hidden="false" id="56c-e1cd-8f8d-4dc3">
+      <entryLinks>
+        <entryLink import="true" name="Shin-Gunto" hidden="false" id="8abf-cb1b-b609-a494" collective="false" targetId="5c07-dfbc-2346-645e" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="73c8-b5a0-f60-d357" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="72d8-edff-f4-47fa" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Character" id="d75b-d087-e7e6-62eb" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="6"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Infantry Officer" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="91c0-b3da-1724-ac3d">
+          <characteristics>
+            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">3</characteristic>
+            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Officer Seniority" id="8cb7-c20d-7280-e837" hidden="false" collective="false" import="true" defaultSelectionEntryId="934-eb87-8f33-a3ba">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d05c-2155-680a-b9be" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d875-99b2-786-b36b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Chūi" hidden="false" id="934-eb87-8f33-a3ba" collective="false">
+              <infoLinks>
+                <infoLink name="Command" id="2003-3781-d194-b00d" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                  <modifiers>
+                    <modifier type="append" value="1" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="40"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tai-i" hidden="false" id="91f5-a54d-af02-922" collective="false">
+              <infoLinks>
+                <infoLink name="Command" id="3ed3-9c65-b8b2-bcc5" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                  <modifiers>
+                    <modifier type="append" value="2" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="80"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shōsa" hidden="false" id="913f-e9d9-1d31-d92c" collective="false">
+              <infoLinks>
+                <infoLink name="Command" id="d1ff-3924-57c7-5939" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                  <modifiers>
+                    <modifier type="append" value="3" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="120"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Taisa" hidden="false" id="5e4e-36b6-2357-3e4f" collective="false">
+              <infoLinks>
+                <infoLink name="Command" id="e09c-c2be-8f77-b259" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                  <modifiers>
+                    <modifier type="append" value="4" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="160"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Sidearm" id="74cf-c1d4-c6ac-ad59" hidden="false" defaultSelectionEntryId="6298-6ad7-8a8f-4229">
+          <entryLinks>
+            <entryLink import="true" name="Type 92 Pistol" hidden="false" id="6298-6ad7-8a8f-4229" type="selectionEntry" targetId="47a5-a82a-1d4f-e9b6"/>
+            <entryLink import="true" name="Type 97 Plasma Pistol" hidden="false" id="b510-b38a-6047-84ed" type="selectionEntry" targetId="3db-dc5-c6d1-2218"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3b8d-ae0d-d2b-1483" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d38-a6c1-e55f-faf0" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Officer Seniority" hidden="false" id="cadb-378d-321-459d" collective="false">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Officer Seniority" id="14b1-cdd8-f156-3d57" hidden="false" collective="false" import="true" defaultSelectionEntryId="0a87-9516-94f9-a6d3">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c3-ca96-1c7d-608b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="667d-4e24-24fe-a46b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Chūi" hidden="false" id="cb68-3ace-79da-69f7" collective="false">
+              <infoLinks>
+                <infoLink name="Command" id="a660-14b2-a74e-c407" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                  <modifiers>
+                    <modifier type="append" value="1" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="40"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tai-i" hidden="false" id="4e37-da7f-47de-5f96" collective="false">
+              <infoLinks>
+                <infoLink name="Command" id="7508-1154-9653-36c7" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                  <modifiers>
+                    <modifier type="append" value="2" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="80"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shōsa" hidden="false" id="f08b-2515-dc-80e9" collective="false">
+              <infoLinks>
+                <infoLink name="Command" id="123d-3602-e71a-118c" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                  <modifiers>
+                    <modifier type="append" value="3" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="120"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Taisa" hidden="false" id="721a-bec6-dc06-66f8" collective="false">
+              <infoLinks>
+                <infoLink name="Command" id="481-4630-6efd-a8b3" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                  <modifiers>
+                    <modifier type="append" value="4" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="160"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Munitions" typeId="Points" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Shin-Gunto" hidden="false" id="5c07-dfbc-2346-645e" collective="true">
+      <infoLinks>
+        <infoLink name="Chitangatana" id="3f5e-f337-94f9-c1fc" hidden="false" type="profile" targetId="1522-f4dc-9acf-6668"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fragmentation Grenade" hidden="false" id="a96d-80b-90a8-b77b" collective="true">
+      <infoLinks>
+        <infoLink name="Fragmentation Grenade" id="cb85-8be5-2d43-9632" hidden="false" type="profile" targetId="e561-3e82-360b-ea42"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Type 92 Pistol" hidden="false" id="47a5-a82a-1d4f-e9b6" collective="true">
+      <infoLinks>
+        <infoLink name="Type 92 Pistol" id="2e93-3639-dd8b-765a" hidden="false" type="profile" targetId="9a00-8f54-c14f-5902"/>
+        <infoLink name="Sidearm" id="f2e-53f1-e90f-a8dc" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Type 97 Plasma Pistol" hidden="false" id="3db-dc5-c6d1-2218" collective="true">
+      <infoLinks>
+        <infoLink name="Type 97 Plasma Pistol" id="e4e5-1070-7430-afb7" hidden="false" type="profile" targetId="4d81-8809-bc10-a2b6"/>
+        <infoLink name="Sidearm" id="1796-fe03-e492-86d1" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
+        <infoLink name="Slag" id="cf98-1f85-254e-6c90" hidden="false" type="rule" targetId="aaa4-8ad4-e93e-7ead"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="8"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Type 97 “Kagutsuchi” Heat Rifle" hidden="false" id="ac80-33fe-24ab-4717" collective="true">
+      <infoLinks>
+        <infoLink name="Type 97 Heat Rifle" id="8507-b431-563a-59d3" hidden="false" type="profile" targetId="3404-977f-e900-b528"/>
+        <infoLink name="Searing" id="f029-f5a7-50f3-1a54" hidden="false" type="rule" targetId="56bf-a271-a758-6f38"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="9"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Type 93 Marksman Rifle" hidden="false" id="e001-184c-595a-bb80" collective="true">
+      <infoLinks>
+        <infoLink name="Type 93 Marksman Rifle" id="283a-a030-fe37-1264" hidden="false" type="profile" targetId="7820-1f95-853f-66f5"/>
+        <infoLink name="Sniper" id="ac91-4842-a7b7-3f54" hidden="false" type="rule" targetId="3a32-9522-280e-50ce"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="3"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Type 93 “Azusa” Rifle" hidden="false" id="d4fb-139f-7ec1-9d83" collective="true">
+      <infoLinks>
+        <infoLink name="Type 93 “Azusa” Rifle" id="a115-568e-217a-55d7" hidden="false" type="profile" targetId="f753-180-18b-eb3d"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="2"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Type 92 Grenade Launcher" hidden="false" id="27f0-da89-cb17-6803" collective="true">
+      <infoLinks>
+        <infoLink name="Type 92 Grenade Launcher" id="199c-96f7-70a3-c19c" hidden="false" type="profile" targetId="bd46-7fb3-bc03-f4ef"/>
+        <infoLink name="High Explosive" id="8599-29f7-e5bc-8e5b" hidden="false" type="rule" targetId="9375-d461-c135-9e66"/>
+        <infoLink name="Close In" id="7149-1176-3ef-137d" hidden="false" type="rule" targetId="6f53-dabe-1243-14cf"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="5"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bayonet" hidden="false" id="e5f8-e1cc-6fd4-54fc" collective="true">
+      <infoLinks>
+        <infoLink name="Bayonet" id="f963-b270-c77c-ea19" hidden="false" type="profile" targetId="fdad-7d21-8d1-cb89"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Type 98 Plasma Projector" hidden="false" id="841-8c4c-e64-921d" collective="true">
+      <infoLinks>
+        <infoLink name="Type 98 Plasma Projector" id="9cd3-d5cc-7668-82ad" hidden="false" type="profile" targetId="bd28-638a-c27d-de6d"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="12"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chitangatana" hidden="false" id="6b66-f04-114e-af13">
+      <infoLinks>
+        <infoLink name="Chitangatana" id="d72f-a6b1-75e6-5031" hidden="false" type="profile" targetId="1522-f4dc-9acf-6668"/>
+        <infoLink name="Critical Shot" id="1ccf-b508-752f-e376" hidden="false" type="rule" targetId="a53f-6c4f-8514-7703"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Type 95 “Hyōshigi” Machine Gun" hidden="false" id="7145-8646-a953-7b3d">
+      <infoLinks>
+        <infoLink name="Type 95 Machine Gun" id="1156-9aca-3e06-662b" hidden="false" type="profile" targetId="aede-4765-5cc1-fdb2"/>
+        <infoLink name="Suppressive" id="cd54-4e9a-d05a-6549" hidden="false" type="rule" targetId="4911-2380-864d-8b44"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="13"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Automatic Grenade Launcher" hidden="false" id="1238-af44-11b7-7dc">
+      <infoLinks>
+        <infoLink name="Automatic Grenade Launcher" id="d7be-3754-28ee-7f40" hidden="false" type="profile" targetId="4ab0-57ec-c148-aabe"/>
+        <infoLink name="High Explosive" id="df97-b5b8-be52-c06d" hidden="false" type="rule" targetId="9375-d461-c135-9e66"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="5"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="88mm Howitzer (Direct Fire)" hidden="false" id="f49b-5f0b-2aa1-7826">
+      <infoLinks>
+        <infoLink name="88mm Howitzer (Direct Fire)" id="1246-2fe9-54de-8d52" hidden="false" type="profile" targetId="4550-8ffd-8158-9cc1"/>
+        <infoLink name="High Explosive" id="a5e2-8fd7-6e08-2af5" hidden="false" type="rule" targetId="9375-d461-c135-9e66"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="20"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="70mm High-Velocity Cannon" hidden="false" id="6562-1908-5aa7-cf19">
+      <infoLinks>
+        <infoLink name="Critical Shot" id="b31a-dc7c-2d6e-b6c4" hidden="false" type="rule" targetId="a53f-6c4f-8514-7703"/>
+        <infoLink name="70mm High-Velocity Cannon" id="ab8e-7d5f-284-d1be" hidden="false" type="profile" targetId="7519-72ba-7bd3-6673"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="26"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Type 88 Battle Cannon" hidden="false" id="c9dd-aad5-7b29-aca0">
+      <infoLinks>
+        <infoLink name="Battle Cannon" id="56c8-f495-b0ba-ff32" hidden="false" type="profile" targetId="766f-41-e53-f346"/>
+        <infoLink name="High Explosive" id="7c95-dd54-cb3f-5d47" hidden="false" type="rule" targetId="9375-d461-c135-9e66"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="15"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy Plasma Cannon" hidden="false" id="afd2-f0e3-4fdf-900d">
+      <infoLinks>
+        <infoLink name="Slag" id="3b0-8f41-3ae2-57f2" hidden="false" type="rule" targetId="aaa4-8ad4-e93e-7ead"/>
+        <infoLink name="Heavy Plasma Cannon" id="f6db-6b50-dbae-234b" hidden="false" type="profile" targetId="4dfc-cc54-877b-15e6"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="23"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="20mm Autocannon" hidden="false" id="7e0a-ca1a-94fa-74b7">
+      <infoLinks>
+        <infoLink name="20mm Autocannon" id="bfd8-1f12-9da0-496b" hidden="false" type="profile" targetId="bd79-452f-2488-4e87"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="16"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Type 91 Energy Cannon" hidden="false" id="64bb-13cd-aeb2-566e">
+      <infoLinks>
+        <infoLink name="Type 91 Energy Cannon" id="8ea9-3a64-c39a-3b93" hidden="false" type="profile" targetId="c2f6-af93-c119-c277"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="13"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="99mm High-Velocity Cannon" hidden="false" id="fda0-2008-3c3f-a4a9">
+      <infoLinks>
+        <infoLink name="Critical Shot" id="fe28-196e-dadd-26fc" hidden="false" type="rule" targetId="a53f-6c4f-8514-7703"/>
+        <infoLink name="99mm High-Velocity Cannon" id="1963-6bb8-4088-5d8f" hidden="false" type="profile" targetId="8af1-9bd3-7240-c02f"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="61"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="O-Ni Plasma Cannon" hidden="false" id="7e78-bb80-7ed8-48e8">
+      <infoLinks>
+        <infoLink name="O-Ni Plasma Cannon" id="2ea6-bc5a-1dc8-97cd" hidden="false" type="profile" targetId="55ad-dd77-9688-d1f9"/>
+        <infoLink name="Slag" id="eb3b-b5d9-18d3-4cac" hidden="false" type="rule" targetId="aaa4-8ad4-e93e-7ead"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="44"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Type 92 “Rekka” Energy Machine Gun" hidden="false" id="8914-6078-e164-3a2c">
+      <infoLinks>
+        <infoLink name="Suppressive" id="74d6-48eb-904-ce6e" hidden="false" type="rule" targetId="4911-2380-864d-8b44"/>
+        <infoLink name="Type 92 “Rekka” Energy Machine Gun" id="a62c-97a6-554-744c" hidden="false" type="profile" targetId="1997-f52e-f334-5046"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="6"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Type 87 Heavy Rocket Launcher" hidden="false" id="3409-ab46-f0e8-177e">
+      <infoLinks>
+        <infoLink name="Type 87 Heavy Rocket Launcher" id="cef9-3524-12cb-e417" hidden="false" type="profile" targetId="150-3711-a563-f57a"/>
+        <infoLink name="High Explosive" id="ad46-d3c5-2c91-c075" hidden="false" type="rule" targetId="9375-d461-c135-9e66"/>
+        <infoLink name="Ammo" id="6038-aa1d-7f42-9d07" hidden="false" type="rule" targetId="2056-c454-be5c-ea02">
+          <modifiers>
+            <modifier type="append" value="2" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="23"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Type 87 Mortar" hidden="false" id="9f26-f8b1-8916-c289">
+      <infoLinks>
+        <infoLink name="Blast" id="9b2b-5b9a-3c5a-1b43" hidden="false" targetId="5d4a-ecea-623a-a136" type="rule">
+          <modifiers>
+            <modifier type="append" value="2" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="High Explosive" id="27c7-cfe9-d576-4ed" hidden="false" targetId="9375-d461-c135-9e66" type="rule"/>
+        <infoLink name="Indirect" id="18b-8be2-8e14-d96e" hidden="false" targetId="0648-3007-c58c-c884" type="rule"/>
+        <infoLink name="Shellshock" id="dc2c-fe45-c851-856e" hidden="false" targetId="e5b9-60eb-5275-52a3" type="rule"/>
+        <infoLink name="Type 87 Mortar" id="c917-eb58-6885-c227" hidden="false" type="profile" targetId="410b-f721-422e-6ea3"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="17"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Type 96 Heavy Energy AT-Cannon" hidden="false" id="8ee2-4a82-676f-fb5b">
+      <infoLinks>
+        <infoLink name="Type 96 Heavy Energy AT-Cannon" id="c6f9-6273-9eff-100e" hidden="false" type="profile" targetId="8680-b87f-f5d2-a2a9"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="22"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Type 90 Anti-Tank Kinetic Gun" hidden="false" id="c6a8-23b8-80d4-f937">
+      <infoLinks>
+        <infoLink name="Type 90 Anti-Tank Kinetic Gun" id="4a09-5bb2-fd55-dc0" hidden="false" type="profile" targetId="f1d4-d5b5-4d48-7fb5"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="20"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Type 89 “Taiko” Autocannon" hidden="false" id="9a9b-7f2a-4d69-eeb9">
+      <infoLinks>
+        <infoLink name="Type 89 “Taiko” Autocannon" id="b57b-d2b9-8584-fbab" hidden="false" type="profile" targetId="293e-3010-310-bc4b"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="24"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Type 88 Heavy Howitzer" hidden="false" id="1c9e-d145-7e4a-4d95">
+      <infoLinks>
+        <infoLink name="Type 88 Heavy Howitzer" id="8d28-1b77-8568-e65e" hidden="false" type="profile" targetId="e3fd-8a35-d39f-7c50"/>
+        <infoLink name="Blast" id="2af6-7104-8ca1-efc" hidden="false" targetId="5d4a-ecea-623a-a136" type="rule">
+          <modifiers>
+            <modifier type="append" value="3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="High Explosive" id="999b-3ddb-47d7-a5f4" hidden="false" targetId="9375-d461-c135-9e66" type="rule"/>
+        <infoLink name="Indirect" id="9cad-80f4-339d-7c1f" hidden="false" targetId="0648-3007-c58c-c884" type="rule"/>
+        <infoLink name="Shellshock" id="f560-ac58-4313-f218" hidden="false" targetId="e5b9-60eb-5275-52a3" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="42"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile name="Type 93 Marksman Rifle" typeId="Weapon" typeName="Weapon" hidden="false" id="7820-1f95-853f-66f5">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">40</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">1</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">2</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Sniper</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Type 92 Grenade Launcher" typeId="Weapon" typeName="Weapon" hidden="false" id="bd46-7fb3-bc03-f4ef">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">6</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">High Explosive, Close-in</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Kinetic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Type 97 “Kagutsuchi” Heat Rifle" typeId="Weapon" typeName="Weapon" hidden="false" id="3404-977f-e900-b528">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">18</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">7</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">N/A</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Searing</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Type 93 “Azusa” Rifle" typeId="Weapon" typeName="Weapon" hidden="false" id="f753-180-18b-eb3d">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">18&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">2</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Type 92 Pistol" typeId="Weapon" typeName="Weapon" hidden="false" id="9a00-8f54-c14f-5902">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">12&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">1</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">0</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Sidearm</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Pistol, Kinetic, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Type 97 Plasma Pistol" typeId="Weapon" typeName="Weapon" hidden="false" id="4d81-8809-bc10-a2b6">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">8&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">1</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">6</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Slag, Sidearm</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Plasma, Sidearm</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shin-Gunto" typeId="Weapon" typeName="Weapon" hidden="false" id="9b9b-8a0-eedf-d316">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">E</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">8</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">3</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Melee, Bladed, Kinetic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bayonet" typeId="Weapon" typeName="Weapon" hidden="false" id="fdad-7d21-8d1-cb89">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">Melee</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Melee</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Automatic Grenade Launcher" typeId="Weapon" typeName="Weapon" hidden="false" id="4ab0-57ec-c148-aabe">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">18</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">10</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">High Explosive</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Explosive, Ranged, Kinetic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Type 95 “Hyōshigi” Machine Gun" typeId="Weapon" typeName="Weapon" hidden="false" id="aede-4765-5cc1-fdb2">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">6</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">4</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Suppressive</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Machine Gun, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fragmentation Grenade" typeId="Weapon" typeName="Weapon" hidden="false" id="e561-3e82-360b-ea42">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">8&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">0</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Ammo 1</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Grenade, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Type 98 Plasma Projector" typeId="Weapon" typeName="Weapon" hidden="false" id="bd28-638a-c27d-de6d">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">16&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">6</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Slag</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chitangatana" typeId="Weapon" typeName="Weapon" hidden="false" id="1522-f4dc-9acf-6668">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">E</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">12</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">5</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Melee, Bladed, Kinetic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Type 88 Battle Cannon" typeId="Weapon" typeName="Weapon" hidden="false" id="766f-41-e53-f346">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">5</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">4</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">6</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="20mm Autocannon" typeId="Weapon" typeName="Weapon" hidden="false" id="bd79-452f-2488-4e87">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">16&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">7</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">5</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="70mm High-Velocity Cannon" typeId="Weapon" typeName="Weapon" hidden="false" id="7519-72ba-7bd3-6673">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">38&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">10</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">6+D10</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="88mm Howitzer (Direct Fire)" typeId="Weapon" typeName="Weapon" hidden="false" id="4550-8ffd-8158-9cc1">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">20&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">10</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">3</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">5</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">High Explosive</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Plasma Cannon" typeId="Weapon" typeName="Weapon" hidden="false" id="4dfc-cc54-877b-15e6">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">6</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">6</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">4</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Slag</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Plasma, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Type 91 Energy Cannon" typeId="Weapon" typeName="Weapon" hidden="false" id="c2f6-af93-c119-c277">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">36&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">4</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">6</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Heavy, Cannon, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="99mm High-Velocity Cannon" typeId="Weapon" typeName="Weapon" hidden="false" id="8af1-9bd3-7240-c02f">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">50&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">10</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">6+1D10</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="O-Ni Plasma Cannon" typeId="Weapon" typeName="Weapon" hidden="false" id="55ad-dd77-9688-d1f9">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">30&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">10</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">6</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">4</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Slag</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Plasma, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Type 92 “Rekka” Energy Machine Gun" typeId="Weapon" typeName="Weapon" hidden="false" id="1997-f52e-f334-5046">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">10</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">0</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Suppressive 1</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Machine Gun, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Type 87 Heavy Rocket Launcher" typeId="Weapon" typeName="Weapon" hidden="false" id="150-3711-a563-f57a">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">30&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">7</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">15</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">High Explosive, Ammo 2</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Kinetic, Explosive</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Type 87 Mortar" typeId="Weapon" typeName="Weapon" hidden="false" id="410b-f721-422e-6ea3">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">30&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">12</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Blast 2, Indirect, Shellshock,  High Explosive</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Mortar</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Type 90 Anti-Tank Kinetic Gun" typeId="Weapon" typeName="Weapon" hidden="false" id="f1d4-d5b5-4d48-7fb5">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">48&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">5</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">5</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Kinetic, Heavy</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Type 96 Heavy Energy AT-Cannon" typeId="Weapon" typeName="Weapon" hidden="false" id="8680-b87f-f5d2-a2a9">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">36&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">5</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">8</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Type 89 “Taiko” Autocannon" typeId="Weapon" typeName="Weapon" hidden="false" id="293e-3010-310-bc4b">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">30&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">7</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">5</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Type 88 Heavy Howitzer" typeId="Weapon" typeName="Weapon" hidden="false" id="e3fd-8a35-d39f-7c50">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">36&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">15</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">2</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">4</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Blast 3, Indirect, Shellshock, High Explosive</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <entryLinks>
+    <entryLink import="true" name="Captain Higuchi Ryuusuke" hidden="false" id="b749-9c2e-1188-9cc1" type="selectionEntry" targetId="43be-a0d6-f15c-d685">
+      <categoryLinks>
+        <categoryLink targetId="7165-cf57-cd9c-93da" id="7259-8970-2dfb-df33" primary="false" name="Character"/>
+        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="2821-e571-81b6-4f1a" primary="true" name="Infantry Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="44c2-cbb8-8fa8-839" primary="false" name="Command"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Heavy Weapon Squads" hidden="false" id="d150-bacd-cc1c-60f2" type="selectionEntry" targetId="e6bb-56e5-ce43-8531">
+      <categoryLinks>
+        <categoryLink targetId="0463-bfe4-198d-b1a5" id="77dc-cf52-b81e-d5c3" primary="true" name="Support Infantry"/>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="5969-98d4-7030-3323" primary="false" name="Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Heishi Infantry" hidden="false" id="a926-4eb-ff99-65ca" type="selectionEntry" targetId="e735-2906-750-5b5b">
+      <categoryLinks>
+        <categoryLink targetId="59ff-44cb-cb53-760d" id="5c3c-639a-fe8-63c8" primary="true" name="Infantry"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Towed Gun Carriage Squad" hidden="false" id="8b80-e473-82c0-cdb1" type="selectionEntry" targetId="3e54-d3f8-e41d-a5f3">
+      <categoryLinks>
+        <categoryLink targetId="96e8-513f-beca-e624" id="17c4-fd3-9ec1-515c" primary="false" name="Infantry Support"/>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="7023-8945-70e4-5e4e" primary="false" name="Support"/>
+        <categoryLink targetId="0463-bfe4-198d-b1a5" id="f3df-5eaa-e2a-9afd" primary="true" name="Support Infantry"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Type 87 Chi-Wo-Kai Battle Tank" hidden="false" id="9d7b-6b2d-3597-a0a5" type="selectionEntry" targetId="d9d3-ea3a-dda-8be">
+      <categoryLinks>
+        <categoryLink targetId="7950-f6f1-38c2-f2dd" id="21-7640-81e1-3246" primary="true" name="Armor"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Type 90 O-Ni Heavy Tank" hidden="false" id="63cb-5aaa-10a1-2372" type="selectionEntry" targetId="6ba6-22ae-2c07-1df">
+      <categoryLinks>
+        <categoryLink targetId="7950-f6f1-38c2-f2dd" id="2745-7b8f-9265-f81" primary="true" name="Armor"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Captain Higuchi Ryuusuke" hidden="false" id="aef8-2aae-b1e2-4510" type="selectionEntry" targetId="43be-a0d6-f15c-d685">
+      <categoryLinks>
+        <categoryLink targetId="7165-cf57-cd9c-93da" id="6535-e055-b28f-cee8" primary="false" name="Character"/>
+        <categoryLink targetId="f787-f73c-7a5b-534c" id="75ab-2561-43a3-25be" primary="true" name="Recon Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="c0f9-61e5-d6ea-ceec" primary="false" name="Command"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Captain Higuchi Ryuusuke" hidden="false" id="c3fb-7c9b-5c70-267b" type="selectionEntry" targetId="43be-a0d6-f15c-d685">
+      <categoryLinks>
+        <categoryLink name="Character" hidden="false" id="6bda-c0d1-53a3-1907" targetId="7165-cf57-cd9c-93da" primary="false"/>
+        <categoryLink targetId="ac96-6e42-7e7b-1947" id="2431-3e64-4363-29a" primary="true" name="Support Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="9153-1d17-4a53-29ce" primary="false" name="Command"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tank Commander" hidden="false" id="9782-7c71-57c7-690e" type="selectionEntry" targetId="36d2-84d8-6f37-f80d">
+      <categoryLinks>
+        <categoryLink targetId="db00-fa62-c3c0-732d" id="dc3f-1aeb-702d-2f5c" primary="true" name="Armored Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="a7f2-f66f-e017-c125" primary="false" name="Command"/>
+        <categoryLink targetId="7165-cf57-cd9c-93da" id="b1cf-4a57-e7c9-f018" primary="false" name="Character"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tank Commander" hidden="false" id="1d55-cfd1-b52e-d78b" type="selectionEntry" targetId="36d2-84d8-6f37-f80d">
+      <categoryLinks>
+        <categoryLink name="Command" hidden="false" id="e339-d7ab-c27-802b" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="f101-33c3-2549-ee68" targetId="7165-cf57-cd9c-93da" primary="false"/>
+        <categoryLink targetId="7e88-f603-cf53-1d85" id="72a8-1d92-cf9b-51c2" primary="true" name="Artillery Command"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tank Commander" hidden="false" id="fc38-ef7d-4907-9590" type="selectionEntry" targetId="36d2-84d8-6f37-f80d">
+      <categoryLinks>
+        <categoryLink name="Command" hidden="false" id="935d-17cb-c0d0-7821" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="e52d-2030-dcac-bc9a" targetId="7165-cf57-cd9c-93da" primary="false"/>
+        <categoryLink targetId="f787-f73c-7a5b-534c" id="25af-647f-9729-1819" primary="true" name="Recon Command"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Infantry Officer" hidden="false" id="d271-b856-ff05-1fd2" type="selectionEntry" targetId="56c-e1cd-8f8d-4dc3">
+      <categoryLinks>
+        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="3421-3362-d0ce-c6dd" primary="true" name="Infantry Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="90b4-3e4b-fcce-fa63" primary="false" name="Command"/>
+        <categoryLink targetId="7165-cf57-cd9c-93da" id="1824-bcc7-2e0c-ccb3" primary="false" name="Character"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Infantry Officer" hidden="false" id="827f-bac3-7374-df76" type="selectionEntry" targetId="56c-e1cd-8f8d-4dc3">
+      <categoryLinks>
+        <categoryLink name="Command" hidden="false" id="a6e8-daae-d154-587" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="53ea-243b-1853-7d3a" targetId="7165-cf57-cd9c-93da" primary="false"/>
+        <categoryLink targetId="7e88-f603-cf53-1d85" id="1b31-c6c1-ed42-6ab9" primary="true" name="Artillery Command"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Infantry Officer" hidden="false" id="8320-51d2-2608-41d" type="selectionEntry" targetId="56c-e1cd-8f8d-4dc3">
+      <categoryLinks>
+        <categoryLink name="Command" hidden="false" id="96cc-b91d-bff2-51c6" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="f763-6e3b-8b0a-14d7" targetId="7165-cf57-cd9c-93da" primary="false"/>
+        <categoryLink targetId="f787-f73c-7a5b-534c" id="78c-8df4-e17a-a558" primary="true" name="Recon Command"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Infantry Officer" hidden="false" id="2f4d-78c-960b-eeed" type="selectionEntry" targetId="56c-e1cd-8f8d-4dc3">
+      <categoryLinks>
+        <categoryLink name="Command" hidden="false" id="cfbe-6ce7-f0c0-4258" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="93f5-1701-b54b-976f" targetId="7165-cf57-cd9c-93da" primary="false"/>
+        <categoryLink targetId="ac96-6e42-7e7b-1947" id="1f79-c1f-8a6c-3ad9" primary="true" name="Support Command"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Towed Gun Carriage Squad" hidden="false" id="b590-b58c-a2d9-cd1b" type="selectionEntry" targetId="3e54-d3f8-e41d-a5f3">
+      <categoryLinks>
+        <categoryLink name="Support" hidden="false" id="c508-ded8-3132-9f43" targetId="7110-7fe8-80e2-5e81" primary="false"/>
+        <categoryLink targetId="27cf-5cae-ad71-1584" id="4d77-6855-4f13-22a5" primary="true" name="Artillery"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>
