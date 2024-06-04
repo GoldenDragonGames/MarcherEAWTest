@@ -4,6 +4,7 @@
     <entryLink id="30e8-c7df-372d-51c0" name="Republican Guard Infantry Squad" hidden="false" collective="false" import="true" targetId="8f32-b768-8d36-dcf4" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="2f20-98a0-d831-a73a" name="Infantry" hidden="false" targetId="59ff-44cb-cb53-760d" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="a6c2-33ee-ebff-b91f" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f972-563a-233d-80a3" name="Infantry Commissaire Section" hidden="false" collective="false" import="true" targetId="cd9f-b703-126e-e802" type="selectionEntry">
@@ -16,6 +17,7 @@
     <entryLink import="true" name="R-1B Liberté Medium Battle Tank" hidden="false" id="b833-f345-1b27-2bb5" type="selectionEntry" targetId="9a66-ec69-5d3-b4e">
       <categoryLinks>
         <categoryLink targetId="7950-f6f1-38c2-f2dd" id="6f23-1a7a-66c-91a4" primary="true" name="Armor"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="90d8-811f-23a8-36dd" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Tank Commander" hidden="false" id="30e3-8f8e-5840-a827" type="selectionEntry" targetId="6ec0-8f0f-9e79-28ee">
@@ -36,6 +38,7 @@
       <categoryLinks>
         <categoryLink targetId="cac2-586c-2611-93d2" id="d5bf-3f60-654e-c448" primary="true" name="Recon Vehicles"/>
         <categoryLink targetId="481b-63e9-517b-180b" id="46d-6ced-a601-56f2" primary="false" name="Recon"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="38f6-5bb2-73a4-20a" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="CAIM 38 &quot;Danton&quot; Support Walker" hidden="false" id="cdc2-c5f7-db94-db11" type="selectionEntry" targetId="f48-371e-f0c0-e0ed">
@@ -43,22 +46,27 @@
         <categoryLink targetId="27cf-5cae-ad71-1584" id="b246-5fda-1087-46dd" primary="false" name="Artillery"/>
         <categoryLink targetId="5db4-bcb6-9f0f-7062" id="effc-7f50-56ac-1d0c" primary="false" name="Support Vehicle"/>
         <categoryLink targetId="7110-7fe8-80e2-5e81" id="402b-cb9d-4b95-6d55" primary="true" name="Support"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="2b10-bd5e-df7-c23b" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Monowheel Chasseurs" hidden="false" id="3729-1817-4804-599f" type="selectionEntry" targetId="20f2-a6ec-487b-6a54">
       <categoryLinks>
         <categoryLink targetId="cac2-586c-2611-93d2" id="aadb-4159-6149-9492" primary="true" name="Recon Vehicles"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="880d-4f23-f6d3-1921" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Towed Gun Carriages" hidden="false" id="6225-5544-d6db-adb9" type="selectionEntry" targetId="8673-f3ee-1559-e3f8">
       <categoryLinks>
         <categoryLink targetId="27cf-5cae-ad71-1584" id="59b4-f236-d959-f410" primary="false" name="Artillery"/>
         <categoryLink targetId="7110-7fe8-80e2-5e81" id="4770-95d5-902f-9d8b" primary="true" name="Support"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="6f7e-4515-4b2a-fb06" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Sapper Squad" hidden="false" id="1d9-1c7b-7b83-a33b" type="selectionEntry" targetId="89fd-ddd2-40e3-dc68">
       <categoryLinks>
         <categoryLink targetId="0463-bfe4-198d-b1a5" id="a1c4-ab94-806a-6e52" primary="true" name="Support Infantry"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="8591-4071-110e-7592" primary="false" name="Unit"/>
+        <categoryLink targetId="59ff-44cb-cb53-760d" id="4a5d-a712-9dda-5a56" primary="false" name="Infantry"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Infantry Officer" hidden="false" id="e8c8-9934-561f-8f9e" type="selectionEntry" targetId="ff85-9e6d-1b0b-36db">
@@ -73,16 +81,21 @@
       <categoryLinks>
         <categoryLink targetId="1dd3-025a-e394-fd6b" id="3607-fe66-74be-6a9a" primary="false" name="Heavy Transports"/>
         <categoryLink targetId="5db4-bcb6-9f0f-7062" id="c464-c2b0-fe0d-d08f" primary="true" name="Support Vehicle"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="e236-bedf-d90e-4793" primary="false" name="Unit"/>
+        <categoryLink targetId="ec55-b910-8dde-4365" id="42ba-2327-1fdd-a056" primary="false" name="Dedicated Transport"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="P28 Armored Truck" hidden="false" id="32f3-c729-37ef-5892" type="selectionEntry" targetId="c327-8642-c05b-6a6c">
       <categoryLinks>
         <categoryLink targetId="d4be-5aad-8560-5720" id="f9b5-b937-db-65bd" primary="true" name="Light Transports"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="16d6-d597-29ae-7bb7" primary="false" name="Unit"/>
+        <categoryLink targetId="ec55-b910-8dde-4365" id="725e-1e16-fef3-82a" primary="false" name="Dedicated Transport"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="P28 Armored Half-Track" hidden="false" id="f53c-788f-8417-c2e5" type="selectionEntry" targetId="c7a6-4dde-4c76-345f">
       <categoryLinks>
         <categoryLink targetId="1dd3-025a-e394-fd6b" id="2f0e-632e-3b77-7dd5" primary="true" name="Heavy Transports"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="c6c6-aa16-2bc6-b57b" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Colonel Charles De Gaulle" hidden="false" id="786b-48e2-d8c5-83a5" type="selectionEntry" targetId="2ac7-d8ba-713c-c7e2">
@@ -103,6 +116,7 @@
       <categoryLinks>
         <categoryLink name="Artillery" hidden="false" id="622f-914a-b897-c726" targetId="27cf-5cae-ad71-1584" primary="true"/>
         <categoryLink name="Support" hidden="false" id="efd4-9e3c-baf1-e4b6" targetId="7110-7fe8-80e2-5e81" primary="false"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="af7-21f0-ce2e-26df" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Infantry Officer" hidden="false" id="d4f6-fbee-7acc-7aca" type="selectionEntry" targetId="ff85-9e6d-1b0b-36db">
@@ -136,27 +150,35 @@
     <entryLink import="true" name="Partisans" hidden="false" id="d528-fbe8-4b40-3b08" type="selectionEntry" targetId="fb71-27e8-4481-b3d0">
       <categoryLinks>
         <categoryLink targetId="59ff-44cb-cb53-760d" id="bfb9-baf-f161-22d0" primary="true" name="Infantry"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="8223-9eb0-b777-24f6" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Zouaves" hidden="false" id="70d6-4619-2ef6-ed36" type="selectionEntry" targetId="f7f6-47eb-95fb-ad14">
       <categoryLinks>
         <categoryLink targetId="aa05-ee4c-c4d5-7e23" id="81c8-f433-4892-fca9" primary="true" name="Recon Infantry"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="4103-f77c-4549-3b2d" primary="false" name="Unit"/>
+        <categoryLink targetId="59ff-44cb-cb53-760d" id="c7fe-ab61-d573-e418" primary="false" name="Infantry"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="CSM 38A Breaching Drill" hidden="false" id="8634-469a-52a9-4026" type="selectionEntry" targetId="16d-5c9e-eb0c-38f5">
       <categoryLinks>
         <categoryLink name="Heavy Transports" hidden="false" id="3864-f533-3dc-10ac" targetId="1dd3-025a-e394-fd6b" primary="false"/>
         <categoryLink targetId="cac2-586c-2611-93d2" id="d915-ea75-480c-17f7" primary="true" name="Recon Vehicles"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="225e-e60a-ef67-cb6a" primary="false" name="Unit"/>
+        <categoryLink targetId="ec55-b910-8dde-4365" id="26bc-bed2-3f82-a2fe" primary="false" name="Dedicated Transport"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="CSM 38A Breaching Drill" hidden="false" id="3acc-a81b-da9e-d365" type="selectionEntry" targetId="16d-5c9e-eb0c-38f5">
       <categoryLinks>
         <categoryLink name="Heavy Transports" hidden="false" id="cd4d-74ba-a997-c8a9" targetId="1dd3-025a-e394-fd6b" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="59fa-2dfc-7805-d27c" primary="false" name="Unit"/>
+        <categoryLink targetId="ec55-b910-8dde-4365" id="9783-3475-48c0-7ec0" primary="false" name="Dedicated Transport"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="R35 Marat Light Tank" hidden="false" id="9d6b-4ff3-5c51-68e6" type="selectionEntry" targetId="2976-bb51-1920-5967">
       <categoryLinks>
         <categoryLink targetId="7950-f6f1-38c2-f2dd" id="89ae-495f-a5a1-5d63" primary="true" name="Armor"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="7e41-b867-2738-dd25" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -423,9 +445,10 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Munitions" typeId="Points" value="0"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
         <rule name="La Terreur est nécessaire!" id="2393-c3b0-b942-b66f" hidden="false">
@@ -554,9 +577,10 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Munitions" typeId="Points" value="0"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Canon de 75mm" hidden="false" id="b98d-9fa-d3e7-f68c" collective="true">
@@ -570,11 +594,12 @@
         <infoLink name="High Explosive" id="bb52-bdff-9a0-49a2" hidden="false" type="rule" targetId="9375-d461-c135-9e66"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="R-1B Liberté Medium Battle Tank" hidden="false" id="9a66-ec69-5d3-b4e">
+    <selectionEntry type="unit" import="true" name="R-1B Liberté Medium Battle Tank" hidden="false" id="9a66-ec69-5d3-b4e">
       <costs>
         <cost name="Munitions" typeId="Points" value="156"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="Turret Weapon" id="426b-3ec3-2fa7-89f2" hidden="false" defaultSelectionEntryId="c920-f071-98af-d637">
@@ -894,7 +919,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="CAIM 38 &quot;Danton&quot; Battle Walker" hidden="false" id="ad0f-a685-6afa-cd91">
+    <selectionEntry type="unit" import="true" name="CAIM 38 &quot;Danton&quot; Battle Walker" hidden="false" id="ad0f-a685-6afa-cd91">
       <infoLinks>
         <infoLink name="Steel Legs" id="e6dd-7e0b-affc-da1b" hidden="false" type="rule" targetId="740c-be52-5a59-9265"/>
         <infoLink name="Recon Vehicle Actions" id="1d9a-3fb6-a016-9d" hidden="false" type="profile" targetId="e02c-5a58-9b36-5c37"/>
@@ -949,6 +974,7 @@
         <cost name="Munitions" typeId="Points" value="63"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
         <rule name="Marchons!" id="9ede-c6f9-c99c-d7a8" hidden="false">
@@ -966,7 +992,7 @@
         <infoLink name="Canon de 40mm" id="77b1-9794-641c-2566" hidden="false" type="profile" targetId="5616-3c1-90af-9793"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="CAIM 38 &quot;Danton&quot; Support Walker" hidden="false" id="f48-371e-f0c0-e0ed">
+    <selectionEntry type="unit" import="true" name="CAIM 38 &quot;Danton&quot; Support Walker" hidden="false" id="f48-371e-f0c0-e0ed">
       <infoLinks>
         <infoLink name="Steel Legs" id="605d-189c-54d5-d8f8" hidden="false" type="rule" targetId="740c-be52-5a59-9265"/>
         <infoLink name="Support Artillery Actions" id="ad7f-c97-1125-b36f" hidden="false" type="profile" targetId="1761-68e7-b0e6-e086"/>
@@ -1001,6 +1027,7 @@
         <cost name="Munitions" typeId="Points" value="63"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
         <rule name="Marchons!" id="466f-3131-bcb8-69f6" hidden="false">
@@ -1103,6 +1130,7 @@
         <cost name="Munitions" typeId="Points" value="0"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <infoLinks>
         <infoLink name="Recon Vehicle Actions" id="bd68-eba2-e3c6-ff81" hidden="false" type="profile" targetId="e02c-5a58-9b36-5c37"/>
@@ -1176,6 +1204,12 @@
       <infoLinks>
         <infoLink name="Support Artillery Actions" id="2533-a87-88de-6f6f" hidden="false" type="profile" targetId="1761-68e7-b0e6-e086"/>
       </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Gros Canon de Energie" hidden="false" id="6ff7-b9a4-ae90-c49c" collective="true">
       <costs>
@@ -1309,9 +1343,10 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Munitions" typeId="Points" value="0"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Infanterie Lance-Flammes" hidden="false" id="f77c-d5af-55d7-e2b5" collective="true">
@@ -1331,11 +1366,12 @@
         <infoLink name="Industrial Drill" id="49a7-1464-b07b-625d" hidden="false" type="profile" targetId="ecb9-8e0e-b27d-b10"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="CSM 38A Breaching Drill" hidden="false" id="16d-5c9e-eb0c-38f5">
+    <selectionEntry type="unit" import="true" name="CSM 38A Breaching Drill" hidden="false" id="16d-5c9e-eb0c-38f5">
       <costs>
         <cost name="Munitions" typeId="Points" value="62"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="Hull Weapon" id="24ff-90c0-7b0b-5410" hidden="false" defaultSelectionEntryId="1a42-d377-89dd-5477">
@@ -1469,39 +1505,67 @@
         <infoLink name="mitrailleuse à énergie" id="124-cad1-9d95-8b33" hidden="false" type="profile" targetId="4435-979d-5662-170c"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="P28 Armored Truck" hidden="false" id="c327-8642-c05b-6a6c">
+    <selectionEntry type="unit" import="true" name="P28 Armored Truck" hidden="false" id="c327-8642-c05b-6a6c">
       <infoLinks>
         <infoLink name="Transport Actions" id="69e2-4cf7-a1be-16b4" hidden="false" type="profile" targetId="d3bd-9092-41d2-8882"/>
         <infoLink name="Transport" id="5a47-b685-7f3d-4415" hidden="false" type="rule" targetId="73c0-9282-d155-0b35"/>
         <infoLink name="Armored" id="25d5-8973-4ed5-ebac" hidden="false" type="rule" targetId="17b7-2b07-3f19-2098"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Turret Weapons" id="6003-595b-e2c0-2518" hidden="false">
+        <selectionEntryGroup name="Weapons" id="c03b-70fd-e4c3-e943" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Turret" hidden="false" id="bfc8-235-916d-5957">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Turret Weapons" id="6003-595b-e2c0-2518" hidden="false" defaultSelectionEntryId="13c8-7ecc-5b8e-1706">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b244-50f-feee-b117-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b244-50f-feee-b117-max" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="M33 Lance-Flammes" hidden="false" id="127c-ff6-976e-2774" type="selectionEntry" targetId="2b69-ad00-8d27-75a4">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78e9-c836-1cb1-919f" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Canon de 40mm" hidden="false" id="13c8-7ecc-5b8e-1706" type="selectionEntry" targetId="8552-c026-dbbf-76ae">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c4b-e130-75bc-2fa5" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Canon de Energie" hidden="false" id="d050-1787-c00e-195c" type="selectionEntry" targetId="ce8e-4be6-e62e-1cbd">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72a-4ab7-b7b3-4154" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="20mm Autocanon" hidden="false" id="bea6-5dfa-d5d4-86c" type="selectionEntry" targetId="8fc6-964b-9e3b-7fe6">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9942-683b-a7f4-fc0" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d7e-929c-557b-983c"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Pintle Weapon" hidden="false" id="88cc-9c2-4970-20ad">
+              <entryLinks>
+                <entryLink import="true" name="Reibel Heavy Machine Gun" hidden="false" id="900-2f24-5c79-fc82" type="selectionEntry" targetId="6255-e891-a7d0-cb6e">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3d5c-5312-a030-495b" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e2f-be14-36b1-50cd" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0a7-e826-c86c-3a33" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b244-50f-feee-b117" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c8b-fe8-7288-5cae" includeChildSelections="false"/>
           </constraints>
-          <entryLinks>
-            <entryLink import="true" name="M33 Lance-Flammes" hidden="false" id="127c-ff6-976e-2774" type="selectionEntry" targetId="2b69-ad00-8d27-75a4">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78e9-c836-1cb1-919f" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Canon de 40mm" hidden="false" id="13c8-7ecc-5b8e-1706" type="selectionEntry" targetId="8552-c026-dbbf-76ae">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c4b-e130-75bc-2fa5" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Canon de Energie" hidden="false" id="d050-1787-c00e-195c" type="selectionEntry" targetId="ce8e-4be6-e62e-1cbd">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72a-4ab7-b7b3-4154" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="20mm Autocanon" hidden="false" id="bea6-5dfa-d5d4-86c" type="selectionEntry" targetId="8fc6-964b-9e3b-7fe6">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9942-683b-a7f4-fc0" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <profiles>
@@ -1525,6 +1589,7 @@
         <cost name="Munitions" typeId="Points" value="57"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="20mm Autocanon" hidden="false" id="8fc6-964b-9e3b-7fe6">
@@ -1547,7 +1612,7 @@
         <infoLink name="Twin 20mm Autocanon" id="e811-ab67-f0ea-fdd6" hidden="false" type="profile" targetId="7978-2315-1720-9cd0"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="P28 Armored Half-Track" hidden="false" id="c7a6-4dde-4c76-345f">
+    <selectionEntry type="unit" import="true" name="P28 Armored Half-Track" hidden="false" id="c7a6-4dde-4c76-345f">
       <infoLinks>
         <infoLink name="Transport Actions" id="f8d2-a895-3e0b-f3a8" hidden="false" type="profile" targetId="d3bd-9092-41d2-8882"/>
         <infoLink name="Transport" id="1388-8a26-b4f3-5979" hidden="false" type="rule" targetId="73c0-9282-d155-0b35"/>
@@ -1609,6 +1674,7 @@
         <cost name="Munitions" typeId="Points" value="72"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Colonel Charles De Gaulle" hidden="false" id="2ac7-d8ba-713c-c7e2">
@@ -1957,6 +2023,7 @@
         <cost name="Munitions" typeId="Points" value="0"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
         <rule name="Citoyens, aux armes!" id="4209-bc99-e33c-a059" hidden="false">
@@ -2228,9 +2295,10 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Munitions" typeId="Points" value="0"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
         <rule name="Faire le Zouave" id="f784-e708-fe54-fcd5" hidden="false">
@@ -2351,6 +2419,7 @@
         <cost name="Munitions" typeId="Points" value="132"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
         <rule name="la gloire est éphémère" id="4f7b-b578-bad2-2da1" hidden="false">

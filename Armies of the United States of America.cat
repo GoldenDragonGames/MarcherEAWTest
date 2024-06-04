@@ -4,138 +4,170 @@
     <entryLink id="063e-8d8c-0eee-7d05" name="Infantry Squad" hidden="false" collective="false" import="true" targetId="550f-1a9e-b56d-c261" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="245f-38ae-c681-0d6c" name="Infantry" hidden="false" targetId="59ff-44cb-cb53-760d" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="3e72-31fe-a0fd-5388" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b8d4-ecb0-1892-e08e" name="M40A2 Sherman Medium Tank" hidden="false" collective="false" import="true" targetId="55ff-1b0d-6ddd-a28f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="4e31-1698-bb41-1fc9" name="Armor" hidden="false" targetId="7950-f6f1-38c2-f2dd" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="e7b-e1b-19d9-5998" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="269b-a6cd-034b-3dc1" name="M48 Caprina Armored Personnel Carrier" hidden="false" collective="false" import="true" targetId="3aaa-ae78-4c52-f9c8" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="0d4d-59df-cf93-a220" name="Heavy Transports" hidden="false" targetId="1dd3-025a-e394-fd6b" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="91d6-164-e01c-bb91" primary="false" name="Unit"/>
+        <categoryLink targetId="ec55-b910-8dde-4365" id="a4ac-d9c1-cb13-9fd9" primary="false" name="Dedicated Transport"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0d4c-372f-f3e5-8008" name="Willys GPV Scout Squad" hidden="false" collective="false" import="true" targetId="b767-f195-b638-70ba" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1e8c-c296-25a1-7e32" name="Recon Vehicles" hidden="false" targetId="cac2-586c-2611-93d2" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="e2fe-eef8-fafd-b2e6" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5665-ba3c-23a2-63ed" name="M56 Supply Truck" hidden="false" collective="false" import="true" targetId="2de1-eb8f-0f7b-e991" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5c86-b9a2-8791-e072" name="Light Transports" hidden="false" targetId="d4be-5aad-8560-5720" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="c952-4b75-26f1-1181" primary="false" name="Unit"/>
+        <categoryLink targetId="ec55-b910-8dde-4365" id="cd8f-8c54-6d49-5257" primary="false" name="Dedicated Transport"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="935a-b3b1-6f56-c959" name="X19 Badger Personal Hardsuit Squad" hidden="false" collective="false" import="true" targetId="602d-09ea-eae2-7cb2" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="cc1a-a73f-be15-e297" name="Infantry Support" hidden="false" targetId="96e8-513f-beca-e624" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="7771-c27e-c1fd-2094" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7c27-9dfb-6718-09b8" name="M12 Anti-Tank Gun Squad" hidden="false" collective="false" import="true" targetId="c680-9326-855f-604f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3f91-6f5c-4448-b79c" name="Artillery" hidden="false" targetId="27cf-5cae-ad71-1584" primary="false"/>
         <categoryLink id="3aa4-d231-d4ed-fbf7" name="Support" hidden="false" targetId="7110-7fe8-80e2-5e81" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="1b02-173a-1579-365a" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="81a5-3c2b-7d25-f4fa" name="Heavy Weapon Squad" hidden="false" collective="false" import="true" targetId="66f5-1c46-c1f1-502d" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="96e8-513f-beca-e624" id="ae65-63f2-df25-ac8d" primary="true" name="Infantry Support"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="41e5-b5ca-728-ede2" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="c4bb-1be5-77af-c57d" name="Rear-Echelon Infantry Squad" hidden="false" collective="false" import="true" targetId="40e2-65e6-aec2-88da" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="47c7-f590-5520-beb3" name="Support Infantry" hidden="false" targetId="0463-bfe4-198d-b1a5" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="573a-a87c-9edf-7a41" primary="false" name="Unit"/>
+        <categoryLink targetId="59ff-44cb-cb53-760d" id="f0d5-ae93-502b-c1cd" primary="false" name="Infantry"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b77a-96cf-9da2-c761" name="M6 Autonomous Turret" hidden="false" collective="false" import="true" targetId="5673-9aa0-43e8-fb96" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a21e-ffe9-4028-1702" name="Support" hidden="false" targetId="7110-7fe8-80e2-5e81" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="8335-52b9-76fa-c010" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="28f9-cbe0-10e3-270f" name="Drop-Trooper Infantry Squad" hidden="false" collective="false" import="true" targetId="95d6-805f-cbf6-cdd7" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="cdaf-8916-f607-04d2" name="Recon Infantry" hidden="false" targetId="aa05-ee4c-c4d5-7e23" primary="true"/>
         <categoryLink id="a24c-6f51-9bec-446e" name="Recon" hidden="false" targetId="481b-63e9-517b-180b" primary="false"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="8efc-b7d0-d61c-2483" primary="false" name="Unit"/>
+        <categoryLink targetId="59ff-44cb-cb53-760d" id="737c-57b5-f6be-eb20" primary="false" name="Infantry"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="31ef-b935-5a3f-4972" name="Ranger Infantry Squad" hidden="false" collective="false" import="true" targetId="cc2a-284c-e58b-fc7a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b3a0-e01b-63bb-d2a1" name="Infantry" hidden="false" targetId="59ff-44cb-cb53-760d" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="595a-e23c-cd68-62d6" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2f7b-41e5-e357-c9e5" name="Combat Engineer Squad" hidden="false" collective="false" import="true" targetId="edb6-93ec-4edf-b984" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1d10-ef98-4dcb-968b" name="Support Infantry" hidden="false" targetId="0463-bfe4-198d-b1a5" primary="true"/>
         <categoryLink targetId="7110-7fe8-80e2-5e81" id="2b1d-fe78-762b-34f9" primary="false" name="Support"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="d46f-5b2f-1def-8117" primary="false" name="Unit"/>
+        <categoryLink targetId="59ff-44cb-cb53-760d" id="1fd8-2bdc-94ea-45b9" primary="false" name="Infantry"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="8fdd-1785-9d80-107e" name="X32 Rhea Battlesuit Squad" hidden="false" collective="false" import="true" targetId="a59a-c539-cf9a-d236" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="23ba-7fee-c191-4fe0" name="Recon Vehicles" hidden="false" targetId="cac2-586c-2611-93d2" primary="true"/>
         <categoryLink targetId="481b-63e9-517b-180b" id="fd4f-ce9-1215-3422" primary="false" name="Recon"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="a766-82bb-90be-e069" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4de9-ce9f-bef5-529a" name="X53 Lynx Battle Walker" hidden="false" collective="false" import="true" targetId="d390-3371-5d0c-7440" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ccef-fee8-00fc-1323" name="Recon Vehicles" hidden="false" targetId="cac2-586c-2611-93d2" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="7ae-402-e50a-284d" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0af3-609a-6d79-0109" name="Recon Bike Squad" hidden="false" collective="false" import="true" targetId="c905-4b27-69d3-1aca" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="2a26-e85b-7266-62be" name="Recon Vehicles" hidden="false" targetId="cac2-586c-2611-93d2" primary="true"/>
         <categoryLink targetId="481b-63e9-517b-180b" id="e198-e2fb-916d-87b5" primary="false" name="Recon"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="8f0c-d7b3-27f7-36ab" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0046-18dd-f0ce-5f4a" name="Mortar Squad" hidden="false" collective="false" import="true" targetId="287a-4b83-58d3-df49" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a3f8-2b65-0a3c-ea06" name="Artillery" hidden="false" targetId="27cf-5cae-ad71-1584" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="237a-2cd-8de6-5688" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="c0a9-80c4-02e4-791f" name="M333 Heavy Howitzer Battery" hidden="false" collective="false" import="true" targetId="17e3-ae55-565a-ee34" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a9d2-61ba-1556-ddd9" name="Artillery" hidden="false" targetId="27cf-5cae-ad71-1584" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="5df2-cd52-3e10-b32b" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0a09-fb97-d3af-91d8" name="M62 Burro Artillery Tractor" hidden="false" collective="false" import="true" targetId="9fe5-6f3e-c7f7-7cb2" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="78b4-3065-5411-640c" name="Artillery" hidden="false" targetId="27cf-5cae-ad71-1584" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="cc46-f94d-ffb5-e27b" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5e12-4024-9907-333e" name="M30 Jackrabbit Light Tank" hidden="false" collective="false" import="true" targetId="67e3-d637-4136-e6de" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f59c-3061-51be-5666" name="Armor" hidden="false" targetId="7950-f6f1-38c2-f2dd" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="afd5-6616-1132-4c1" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5707-f4ac-af44-3292" name="M50 Percheron Halftrack" hidden="false" collective="false" import="true" targetId="7be1-d408-85f7-efac" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="6259-f091-c171-aac5" name="Light Transports" hidden="false" targetId="d4be-5aad-8560-5720" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="56f2-5b5a-61c8-bfcf" primary="false" name="Unit"/>
+        <categoryLink targetId="ec55-b910-8dde-4365" id="ba0e-56fc-a26f-e5d2" primary="false" name="Dedicated Transport"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1865-0127-6a5f-c52e" name="M48 Caprina Crocodile" hidden="false" collective="false" import="true" targetId="3ea6-d5a4-2dc5-72bb" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c4eb-36c5-6dae-c5c2" name="Armor" hidden="false" targetId="7950-f6f1-38c2-f2dd" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="e62d-2231-ceac-ebc7" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a592-edc6-b033-a5fa" name="M133 Towed Gun Carriage Battery" hidden="false" collective="false" import="true" targetId="0146-5921-9cbd-58b3" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1bb3-4111-af15-aabc" name="Support" hidden="false" targetId="7110-7fe8-80e2-5e81" primary="true"/>
         <categoryLink id="8d9e-f399-2652-a2b3" name="Artillery" hidden="false" targetId="27cf-5cae-ad71-1584" primary="false"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="3e0b-c4cc-ae67-40d9" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f222-f19d-65a0-f31f" name="M82A1 Kodiak Superheavy Tank" hidden="false" collective="false" import="true" targetId="71f9-ce05-246d-d969" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7a96-d0c5-a285-187f" name="Armor" hidden="false" targetId="7950-f6f1-38c2-f2dd" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="2531-60b2-bf05-bdb2" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0cda-8a1b-0e3b-24d3" name="M68 Timberwolf Heavy Tank" hidden="false" collective="false" import="true" targetId="b2b7-f528-a15a-6e8b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5fd7-15a0-bed4-6e7a" name="Armor" hidden="false" targetId="7950-f6f1-38c2-f2dd" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="5da1-5c49-28d7-c763" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2074-0b38-e420-4409" name="Mortar Squad" hidden="false" collective="false" import="true" targetId="287a-4b83-58d3-df49" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="8edf-9762-1896-ed9b" name="Artillery" hidden="false" targetId="27cf-5cae-ad71-1584" primary="false"/>
         <categoryLink id="2b95-4a5f-b9a6-6e06" name="Infantry Support" hidden="false" targetId="96e8-513f-beca-e624" primary="true"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="e998-5b25-4731-f977" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="American Infantry Officer" hidden="false" id="94ec-3d2e-d9db-4cbf" type="selectionEntry" targetId="2416-8e36-53cf-da7f">
@@ -215,6 +247,8 @@
     <entryLink import="true" name="M39 Bison Landing Vehicle" hidden="false" id="3e6d-1abb-2d6c-201c" type="selectionEntry" targetId="4541-69db-b4b0-affb">
       <categoryLinks>
         <categoryLink targetId="1dd3-025a-e394-fd6b" id="19a7-b080-59e7-ec46" primary="true" name="Heavy Transports"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="83f2-ed0d-e5d-83fe" primary="false" name="Unit"/>
+        <categoryLink targetId="ec55-b910-8dde-4365" id="aa48-55a0-f56b-17ad" primary="false" name="Dedicated Transport"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Transport" id="7e9a-c281-4e2f-704a" hidden="false" targetId="73c0-9282-d155-0b35" type="rule">
@@ -227,6 +261,7 @@
     <entryLink import="true" name="M48D2 &quot;Rolling Tom&quot; Gun Carriage Caprina" hidden="false" id="b114-313a-81b4-f89a" type="selectionEntry" targetId="6fc3-b987-a976-3741">
       <categoryLinks>
         <categoryLink targetId="27cf-5cae-ad71-1584" id="fb6e-5fa-ac2-1ad3" primary="true" name="Artillery"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="399a-693d-c3-62a3" primary="false" name="Unit"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Bow Gun" id="9729-82ac-f3bd-ece3" hidden="false" collective="false" import="true" defaultSelectionEntryId="b390-a99c-6277-90fc">
@@ -248,11 +283,13 @@
     <entryLink import="true" name="M150 Heavy Gun Carriage" hidden="false" id="c03b-a79f-cf8d-3804" type="selectionEntry" targetId="bc0-5fa4-2127-a759">
       <categoryLinks>
         <categoryLink targetId="27cf-5cae-ad71-1584" id="5cfe-d9bc-47f0-fb09" primary="true" name="Artillery"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="f68-1c67-d2cd-35ed" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="M13 Light Rocket Artillery Squad" hidden="false" id="db7f-cb0e-c97e-870c" type="selectionEntry" targetId="3a10-ede7-b051-8e1f">
       <categoryLinks>
         <categoryLink targetId="27cf-5cae-ad71-1584" id="a4b2-a86c-854b-7be2" primary="true" name="Artillery"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="1ec7-5570-fb2b-1b16" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="M13 Light Rocket Artillery Squad" hidden="false" id="eaa5-c9ac-42c8-3634" type="selectionEntry" targetId="3a10-ede7-b051-8e1f">
@@ -260,12 +297,14 @@
         <categoryLink name="Artillery" hidden="false" id="e32a-2c6c-233e-67f0" targetId="27cf-5cae-ad71-1584" primary="false"/>
         <categoryLink targetId="96e8-513f-beca-e624" id="f9d9-a911-a70e-1054" primary="false" name="Infantry Support"/>
         <categoryLink targetId="7110-7fe8-80e2-5e81" id="3cb4-220f-388d-b3ea" primary="true" name="Support"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="f2ea-a766-8a13-e9e6" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="X74 Sheridan Heavy Battle Walker" hidden="false" id="ea31-9cac-6f7d-ee0b" type="selectionEntry" targetId="638f-73f4-7ce5-9a54">
       <categoryLinks>
         <categoryLink targetId="cac2-586c-2611-93d2" id="332e-1b21-ed33-b420" primary="true" name="Recon Vehicles"/>
         <categoryLink targetId="481b-63e9-517b-180b" id="a187-8912-b29f-219b" primary="false" name="Recon"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="33a1-3086-f610-e520" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Recon Bike Commander" hidden="false" id="71d3-fff4-7de6-6b22" type="selectionEntry" targetId="50e0-b802-b5d5-505a">
@@ -278,41 +317,51 @@
       <categoryLinks>
         <categoryLink targetId="5db4-bcb6-9f0f-7062" id="a828-6c4-a6ca-f8f" primary="false" name="Support Vehicle"/>
         <categoryLink targetId="7110-7fe8-80e2-5e81" id="4181-1e78-1b49-286d" primary="true" name="Support"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="cacf-648-2cab-3a9b" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="M46 Grizzly Heavy Tank" hidden="false" id="5785-3ddc-8170-ca43" type="selectionEntry" targetId="178d-bd22-890d-10d1">
       <categoryLinks>
         <categoryLink targetId="7950-f6f1-38c2-f2dd" id="9409-ae3c-28d8-5ae1" primary="true" name="Armor"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="c426-3e77-df9a-da04" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="M54 Bruin Heavy Tank Destroyer" hidden="false" id="61c6-b4f4-6a44-8ac0" type="selectionEntry" targetId="90ac-c797-e0d6-eb11">
       <categoryLinks>
         <categoryLink targetId="7950-f6f1-38c2-f2dd" id="ec4a-8ce3-d59b-2e77" primary="true" name="Armor"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="9d3a-da51-6b9d-9e2b" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="C-15 Rock Dove Light Cargo Shuttle" hidden="false" id="9854-a2a1-fdda-f0d6" type="selectionEntry" targetId="34d7-3394-7251-8c22">
       <categoryLinks>
         <categoryLink targetId="d4be-5aad-8560-5720" id="9d3d-4e46-62c6-b4e7" primary="true" name="Light Transports"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="d864-5f93-65ca-2206" primary="false" name="Unit"/>
+        <categoryLink targetId="ec55-b910-8dde-4365" id="38e3-961-8d38-c4e" primary="false" name="Dedicated Transport"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="B-47 Starhawk Gunship" hidden="false" id="48e8-1459-75a7-4d74" type="selectionEntry" targetId="8667-f23a-81b9-fa69">
       <categoryLinks>
         <categoryLink targetId="1dd3-025a-e394-fd6b" id="527e-1ff5-6c75-fe2d" primary="true" name="Heavy Transports"/>
+        <categoryLink targetId="ec55-b910-8dde-4365" id="906b-74ef-368d-38ca" primary="false" name="Dedicated Transport"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="B-47 Starhawk Gunship" hidden="false" id="9455-8d70-7823-b02b" type="selectionEntry" targetId="8667-f23a-81b9-fa69">
       <categoryLinks>
         <categoryLink targetId="481b-63e9-517b-180b" id="bab1-fe33-304b-685f" primary="true" name="Recon"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="f4a-a15e-c8b1-37aa" primary="false" name="Unit"/>
+        <categoryLink targetId="ec55-b910-8dde-4365" id="ce48-e02c-5a68-6c2f" primary="false" name="Dedicated Transport"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="M82A2 Mukwa Superheavy Transport" hidden="false" id="fbee-f153-52c1-9b10" type="selectionEntry" targetId="3d54-589-d733-6445">
       <categoryLinks>
         <categoryLink targetId="7950-f6f1-38c2-f2dd" id="75a2-6ff2-4f4-c6e4" primary="true" name="Armor"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="6f2c-9055-fc89-d221" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="M82A3 Nanook Superheavy Tank" hidden="false" id="cd33-94db-3185-dfb9" type="selectionEntry" targetId="5c3a-66bd-2bd9-d6a8">
       <categoryLinks>
         <categoryLink targetId="7950-f6f1-38c2-f2dd" id="5311-f0c4-1989-eb64" primary="true" name="Armor"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="7912-9be2-d105-1e05" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="American Morale Officer" hidden="false" id="b8dc-3c4-a33a-827e" type="selectionEntry" targetId="18b3-7f6f-6838-4a61">
@@ -340,6 +389,7 @@
     <entryLink import="true" name="Sergeant Douglas Donahue - Hero of the Starborne" hidden="false" id="376d-e5dd-f9a4-56a9" type="selectionEntry" targetId="5e1a-aea0-91b1-d8ab">
       <categoryLinks>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="5e93-1010-9039-2a67" primary="false" name="Character"/>
+        <categoryLink targetId="33a5-8b7e-49bb-c30d" id="9a07-b3e7-e018-540" primary="true" name="Heroes"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="General Nicholas Winters" hidden="false" id="3d5d-7f86-4d54-113" type="selectionEntry" targetId="6cf8-10bc-b257-32b4">
@@ -354,6 +404,19 @@
         <categoryLink name="Character" hidden="false" id="13e4-c3cb-e351-d59d" targetId="7165-cf57-cd9c-93da" primary="false"/>
         <categoryLink name="Command" hidden="false" id="38c2-46a9-87b9-a271" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
         <categoryLink targetId="7e88-f603-cf53-1d85" id="70ba-464d-9eae-b06" primary="true" name="Artillery Command"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="M105 MLRS Caprina" hidden="false" id="dede-4776-eaa9-937a" type="selectionEntry" targetId="5bef-8e07-3925-dce6">
+      <categoryLinks>
+        <categoryLink targetId="27cf-5cae-ad71-1584" id="4543-4b0d-1116-c615" primary="true" name="Artillery"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="404e-a116-3a96-8000" primary="false" name="Unit"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="T12-W4L33 (Wall -E) Demolition Vehicle" hidden="false" id="11de-1e48-7631-451d" type="selectionEntry" targetId="c63f-c719-5c47-f144">
+      <categoryLinks>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="7ff3-2d56-9b5b-a168" primary="false" name="Support"/>
+        <categoryLink targetId="5db4-bcb6-9f0f-7062" id="5c55-cb21-83e1-ede0" primary="true" name="Support Vehicle"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="432f-97bc-fcb1-1b05" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -541,6 +604,7 @@
         <cost name="Munitions" typeId="Points" value="226"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
         <rule name="Death before dismount!" id="6769-86aa-795c-36b3" hidden="false">
@@ -616,23 +680,18 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9544-8a83-a145-17d4" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Bayonet" hidden="false" id="33bd-360f-c9bc-5f7c" collective="false" targetId="c14e-867f-7ed4-250" type="selectionEntry">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="54e6-519f-8513-4d7c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="373f-52db-8f19-2df4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <costs>
                 <cost name="Munitions" typeId="Points" value="0"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
               </costs>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Bayonet" hidden="false" id="f9a8-476c-c582-901b">
-                  <infoLinks>
-                    <infoLink name="Bayonet" id="842a-1f4f-5864-e451" hidden="false" type="profile" targetId="e09f-44b-9cbb-12a8"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a382-266e-8af1-570b-min" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a382-266e-8af1-570b-max" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntry>
-              </selectionEntries>
             </selectionEntry>
             <selectionEntry id="ea7c-c68a-b601-3a44" name="Rifleman" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -668,23 +727,18 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eef4-d353-cc8c-49fc" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Bayonet" hidden="false" id="3a7e-9a1-449c-528" collective="false" targetId="c14e-867f-7ed4-250" type="selectionEntry">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7d93-ed0c-d315-4ae3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="20de-3464-6464-5988" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <costs>
                 <cost name="Munitions" typeId="Points" value="0"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
               </costs>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Bayonet" hidden="false" id="99e9-d910-767d-ecb5">
-                  <infoLinks>
-                    <infoLink name="Bayonet" id="3539-ef74-1eaf-774a" hidden="false" type="profile" targetId="e09f-44b-9cbb-12a8"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="68c8-ebe2-c2ab-667c-min" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="68c8-ebe2-c2ab-667c-max" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntry>
-              </selectionEntries>
             </selectionEntry>
             <selectionEntry id="9950-6b07-8558-4788" name="Specialist" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -754,10 +808,16 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7816-5805-6d0f-8d12" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="c768-b154-6697-1c93" name="Fragmentation Grenade" hidden="false" collective="false" import="true" targetId="3ef1-8d2f-1d71-a878" type="selectionEntry">
+                <entryLink id="c768-b154-6697-1c93" name="Bayonet" hidden="false" collective="false" import="true" targetId="c14e-867f-7ed4-250" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37a5-3f78-6cb1-5d45" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30cd-0c72-dd37-fda0" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Fragmentation Grenade" hidden="false" id="73cd-bdf4-e0d8-557c" collective="false" targetId="3ef1-8d2f-1d71-a878" type="selectionEntry">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b63c-df47-adec-3716" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fc7b-7254-eca6-b5d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -766,17 +826,6 @@
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
               </costs>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Bayonet" hidden="false" id="8415-d424-6a36-ccf">
-                  <infoLinks>
-                    <infoLink name="Bayonet" id="b154-1137-b08b-e583" hidden="false" type="profile" targetId="e09f-44b-9cbb-12a8"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1084-b306-9b30-cb3f-min" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1084-b306-9b30-cb3f-max" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntry>
-              </selectionEntries>
             </selectionEntry>
             <selectionEntry id="90bb-dc2d-54b6-3795" name="Radioman" hidden="false" collective="false" import="true" type="model">
               <constraints>
@@ -817,23 +866,18 @@
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e608-6f3c-401e-730f" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink import="true" name="Bayonet" hidden="false" id="c210-7fd2-d10d-9bc4" collective="false" targetId="c14e-867f-7ed4-250" type="selectionEntry">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7bd5-62ee-6ce6-859" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3869-f57d-b38b-dcc5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <costs>
                 <cost name="Munitions" typeId="Points" value="0"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
               </costs>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Bayonet" hidden="false" id="c7fc-54ea-2df0-e152">
-                  <infoLinks>
-                    <infoLink name="Bayonet" id="aec-1554-8907-7382" hidden="false" type="profile" targetId="e09f-44b-9cbb-12a8"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="82aa-10a0-89aa-87c3-min" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82aa-10a0-89aa-87c3-max" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntry>
-              </selectionEntries>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -842,6 +886,7 @@
         <cost name="Munitions" typeId="Points" value="50"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
         <rule name="No Guts, No Glory." id="fab9-165f-bc20-a28" hidden="false">
@@ -1073,6 +1118,7 @@
         <cost name="Munitions" typeId="Points" value="130"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6157-18d5-7978-5946" name="20mm Autocannon" hidden="false" collective="true" import="true" type="upgrade">
@@ -1157,6 +1203,7 @@
         <cost name="Munitions" typeId="Points" value="68"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2de1-eb8f-0f7b-e991" name="M56 Supply Truck" hidden="false" collective="false" import="true" type="unit">
@@ -1190,6 +1237,7 @@
         <cost name="Munitions" typeId="Points" value="45"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
         <rule name="Limited leg-room" id="9015-f9c4-9938-8282" hidden="false">
@@ -1326,6 +1374,7 @@
         <cost name="Munitions" typeId="Points" value="39"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8207-3948-60dd-815b" name="Combat Shield" hidden="false" collective="true" import="true" type="upgrade">
@@ -1350,7 +1399,7 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c680-9326-855f-604f" name="M12 Anti-Tank Gun Squad" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c680-9326-855f-604f" name="M12 Anti-Tank Gun Squad" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="1252-d3cc-adfb-120b" name="M12 Anti-Tank Gun Squad" hidden="false" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition">
           <characteristics>
@@ -1476,6 +1525,7 @@
         <cost name="Munitions" typeId="Points" value="30"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="063d-f3d3-4147-868a" name="M1X1 Energy Carbine" hidden="false" collective="true" import="true" type="upgrade">
@@ -1488,7 +1538,7 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="66f5-1c46-c1f1-502d" name="Heavy Weapon Squad" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="66f5-1c46-c1f1-502d" name="Heavy Weapon Squad" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="19c0-fb85-592d-54b5" name="Heavy Weapon Squad" hidden="false" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition">
           <characteristics>
@@ -1755,6 +1805,7 @@
         <cost name="Munitions" typeId="Points" value="14"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="40e2-65e6-aec2-88da" name="Rear-Echelon Infantry Squad" hidden="false" collective="false" import="true" type="unit">
@@ -1888,6 +1939,7 @@
         <cost name="Munitions" typeId="Points" value="20"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c12c-e5f0-f4c4-9f1c" name="M3X1 Grease Gun" hidden="false" collective="true" import="true" type="upgrade">
@@ -2003,6 +2055,7 @@
         <cost name="Munitions" typeId="Points" value="15"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="95d6-805f-cbf6-cdd7" name="Drop-Trooper Infantry Squad" hidden="false" collective="false" import="true" type="unit">
@@ -2244,6 +2297,7 @@
         <cost name="Munitions" typeId="Points" value="85"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
         <rule name="Geronimo!" id="a36b-2706-c61a-4323" hidden="false">
@@ -2510,6 +2564,7 @@
         <cost name="Munitions" typeId="Points" value="120"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
         <rule name="First in, Last out" id="c849-31bf-6f41-f1a" hidden="false">
@@ -2661,6 +2716,7 @@
         <cost name="Munitions" typeId="Points" value="100"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
         <rule name="Essayons!" id="4494-c245-480b-8985" hidden="false">
@@ -2817,6 +2873,7 @@
         <cost name="Munitions" typeId="Points" value="116"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="607e-984b-ec1b-7fb4" name="Sensor Pod" hidden="false" collective="false" import="true" type="upgrade">
@@ -2926,6 +2983,7 @@
         <cost name="Munitions" typeId="Points" value="152"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e120-193c-898d-208f" name="57mm Battle Cannon" hidden="false" collective="true" import="true" type="upgrade">
@@ -3049,6 +3107,7 @@
         <cost name="Munitions" typeId="Points" value="112"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
         <rule name="Kings of the Highway" id="e1d9-c6b5-9637-4f43" hidden="false">
@@ -3074,7 +3133,7 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="287a-4b83-58d3-df49" name="Mortar Squad" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="287a-4b83-58d3-df49" name="Mortar Squad" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="b8c8-e8f8-2fd0-54a9" name="Mortar Squad" hidden="false" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition">
           <characteristics>
@@ -3134,6 +3193,7 @@
         <cost name="Munitions" typeId="Points" value="12"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="84c9-ecbb-93b1-77e2" name="M20 Mortar" hidden="false" collective="false" import="true" type="upgrade">
@@ -3287,6 +3347,7 @@
         <cost name="Munitions" typeId="Points" value="40"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2f75-d57b-8089-ed4e" name="M333 Heavy Howitzer" hidden="false" collective="true" import="true" type="upgrade">
@@ -3366,6 +3427,7 @@
         <cost name="Munitions" typeId="Points" value="58"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="003f-41cd-d6a3-4196" name="105mm Howitzer (Direct Fire)" hidden="false" collective="false" import="true" type="upgrade">
@@ -3457,7 +3519,7 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="67e3-d637-4136-e6de" name="M30 Jackrabbit Light Tank" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="67e3-d637-4136-e6de" name="M30 Jackrabbit Light Tank" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="3a59-3d9b-d5c4-1c21" name="M30 Jackrabbit Light Tank" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
           <characteristics>
@@ -3544,6 +3606,7 @@
         <cost name="Munitions" typeId="Points" value="116"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
         <rule name="Cloud of Debris" id="3004-aaa6-ab53-98db" hidden="false">
@@ -3605,6 +3668,7 @@
         <cost name="Munitions" typeId="Points" value="57"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
         <rule name="Limited leg-room" id="ccb3-bdbf-3506-26cc" hidden="false">
@@ -3674,6 +3738,7 @@
         <cost name="Munitions" typeId="Points" value="130"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c9cd-187d-ca1a-f373" name="M15 Heavy Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
@@ -3754,6 +3819,7 @@
         <cost name="Munitions" typeId="Points" value="40"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="71f9-ce05-246d-d969" name="M82A1 Kodiak Superheavy Tank" hidden="false" collective="false" import="true" type="unit">
@@ -3883,6 +3949,7 @@
         <cost name="Munitions" typeId="Points" value="672"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b2b7-f528-a15a-6e8b" name="M68 Timberwolf Heavy Tank" hidden="false" collective="false" import="true" type="unit">
@@ -4074,6 +4141,7 @@
         <cost name="Munitions" typeId="Points" value="432"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c916-b9df-1c74-77ed" name="M14 Flamethrower" hidden="false" collective="true" import="true" type="upgrade">
@@ -4492,6 +4560,7 @@
         <cost name="Munitions" typeId="Points" value="167"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
         <rule name="Amphibious Fortress" id="e0fc-20b1-41b9-609f" hidden="false">
@@ -4585,6 +4654,7 @@
         <cost name="Munitions" typeId="Points" value="10"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="500lb Remote Detonation Bomb" hidden="false" id="342e-7329-8eaa-1309">
@@ -4694,6 +4764,7 @@
         <cost name="Munitions" typeId="Points" value="130"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="68f1-f694-8799-483a-min" includeChildSelections="false"/>
@@ -4779,6 +4850,7 @@
         <cost name="Munitions" typeId="Points" value="130"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="46ac-688c-5ec1-e10f-min" includeChildSelections="false"/>
@@ -4819,6 +4891,7 @@
         <cost name="Munitions" typeId="Points" value="34"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1e0f-87cf-7f5f-dbea-min" includeChildSelections="false"/>
@@ -4835,7 +4908,7 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="M13 Light Rocket Artillery Squad" hidden="false" id="3a10-ede7-b051-8e1f" collective="false">
+    <selectionEntry type="unit" import="true" name="M13 Light Rocket Artillery Squad" hidden="false" id="3a10-ede7-b051-8e1f" collective="false">
       <profiles>
         <profile name="M13 Light Rocket Artillery Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="c0c-ddf5-ddf9-7080">
           <characteristics>
@@ -4912,6 +4985,7 @@
         <cost name="Munitions" typeId="Points" value="30"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="M13 Cloudbuster Light Rocket Battery" hidden="false" id="be62-9a0e-9c7f-6de8" collective="true">
@@ -5042,6 +5116,7 @@
         <cost name="Munitions" typeId="Points" value="330"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="M17 Super Heavy Flamethrower" hidden="false" id="93c8-55cc-790d-95c3">
@@ -5287,6 +5362,7 @@
         <cost name="Munitions" typeId="Points" value="130"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
         <rule name="Flak Shells" id="d1ef-4a10-3862-20c9" hidden="false">
@@ -5302,6 +5378,7 @@
         <cost name="Munitions" typeId="Points" value="116"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="M46 Grizzly Heavy Tank" hidden="false" id="178d-bd22-890d-10d1" collective="false">
@@ -5475,6 +5552,7 @@
         <cost name="Munitions" typeId="Points" value="375"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
         <rule name="Drive Fast, Take Chances." id="26fd-b48c-cd37-2b4a" hidden="false">
@@ -5607,6 +5685,7 @@
         <cost name="Munitions" typeId="Points" value="136"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="M1935 Heavy Energy Cannon" hidden="false" id="73d0-94b5-d180-ac4e">
@@ -5651,6 +5730,7 @@
         <cost name="Munitions" typeId="Points" value="116"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="B-47 Starhawk Gunship" hidden="false" id="8667-f23a-81b9-fa69" collective="false">
@@ -5731,6 +5811,7 @@
         <cost name="Munitions" typeId="Points" value="232"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
         <rule name="Coming in Hot!" id="7967-9837-b7ca-c7b8" hidden="false">
@@ -5875,6 +5956,7 @@
         <cost name="Munitions" typeId="Points" value="672"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
         <rule name="Riding in Style" id="9a6b-e927-31e8-67f6" hidden="false">
@@ -6025,6 +6107,7 @@
         <cost name="Munitions" typeId="Points" value="672"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="M10A2 Siege Cannon" hidden="false" id="930f-f22f-3174-f588">
@@ -6316,7 +6399,7 @@
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Bayonet" hidden="false" id="c14e-867f-7ed4-250">
+    <selectionEntry type="upgrade" import="true" name="Bayonet" hidden="false" id="c14e-867f-7ed4-250" collective="true">
       <infoLinks>
         <infoLink name="Bayonet" id="4f31-a2d4-d6cc-baf4" hidden="false" type="profile" targetId="e09f-44b-9cbb-12a8"/>
       </infoLinks>
@@ -7014,40 +7097,4 @@
       </characteristics>
     </profile>
   </sharedProfiles>
-  <selectionEntries>
-    <selectionEntry type="upgrade" import="true" name="T12-W4L33 (Wall -E) Demolition Vehicle" hidden="false" id="cab8-1686-f49f-d9df">
-      <entryLinks>
-        <entryLink import="true" name="T12-W4L33 (Wall -E) Demolition Vehicle" hidden="false" id="11de-1e48-7631-451d" type="selectionEntry" targetId="c63f-c719-5c47-f144"/>
-      </entryLinks>
-      <categoryLinks>
-        <categoryLink targetId="5db4-bcb6-9f0f-7062" id="574b-1b63-68d2-20a0" primary="true" name="Support Vehicle"/>
-        <categoryLink targetId="7110-7fe8-80e2-5e81" id="25ed-56cc-4769-ef14" primary="false" name="Support"/>
-      </categoryLinks>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="M105 MLRS Caprina" hidden="false" id="6bc3-cba4-9bff-ba73">
-      <entryLinks>
-        <entryLink import="true" name="M105 MLRS Caprina" hidden="false" id="249d-e99c-6e10-f8dc" type="selectionEntry" targetId="5bef-8e07-3925-dce6">
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Bow Gun" id="85f1-c898-5edd-363e" hidden="false" collective="false" import="true" defaultSelectionEntryId="6c1d-a221-3f26-ccea">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="40e0-69cb-8cc8-2e49" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4505-2432-8452-f2ec" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Automatic Grenade Launcher" hidden="false" id="6c1d-a221-3f26-ccea" collective="false" targetId="6542-a2c5-73fb-4926" type="selectionEntry"/>
-                <entryLink import="true" name="M12 Light Energy Cannon" hidden="false" id="b335-3e3-cb8-d647" collective="false" targetId="87fb-6564-a821-a3f0" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="Points" value="5"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-        </entryLink>
-      </entryLinks>
-      <categoryLinks>
-        <categoryLink targetId="27cf-5cae-ad71-1584" id="f1eb-21a3-de28-e7c0" primary="true" name="Artillery"/>
-      </categoryLinks>
-    </selectionEntry>
-  </selectionEntries>
 </catalogue>
