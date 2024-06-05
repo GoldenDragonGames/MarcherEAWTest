@@ -4267,7 +4267,12 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Officer Seniority" hidden="false" id="9ade-5590-2dd1-7542" type="selectionEntry" targetId="2a8a-fddf-0126-6a57"/>
+        <entryLink import="true" name="Officer Seniority" hidden="false" id="9ade-5590-2dd1-7542" type="selectionEntry" targetId="2a8a-fddf-0126-6a57">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="37f8-2235-4309-5d07-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37f8-2235-4309-5d07-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="American Armor Officer" hidden="false" id="5dee-8749-c33e-578c">
@@ -4280,7 +4285,12 @@
         </rule>
       </rules>
       <entryLinks>
-        <entryLink import="true" name="Officer Seniority" hidden="false" id="26d2-7dd3-aca2-f136" type="selectionEntry" targetId="2a8a-fddf-0126-6a57"/>
+        <entryLink import="true" name="Officer Seniority" hidden="false" id="26d2-7dd3-aca2-f136" type="selectionEntry" targetId="2a8a-fddf-0126-6a57">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="69b7-2db8-449f-3056-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="69b7-2db8-449f-3056-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Warrant Officer Jethro Madison" hidden="false" id="1220-7aa0-481c-9f7b" collective="false">
@@ -6311,7 +6321,12 @@
         <infoLink name="Character" id="d538-d0e2-ab1f-fb5e" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
       </infoLinks>
       <entryLinks>
-        <entryLink import="true" name="Officer Seniority" hidden="false" id="abca-2934-558d-729b" type="selectionEntry" targetId="2a8a-fddf-0126-6a57"/>
+        <entryLink import="true" name="Officer Seniority" hidden="false" id="abca-2934-558d-729b" type="selectionEntry" targetId="2a8a-fddf-0126-6a57">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7b68-d742-7f9d-e6c6-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b68-d742-7f9d-e6c6-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="American Artillery Officer" hidden="false" id="9d15-79f7-4993-3a3">
@@ -6319,7 +6334,12 @@
         <infoLink name="Character" id="92d2-fcb4-96d4-6518" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
       </infoLinks>
       <entryLinks>
-        <entryLink import="true" name="Officer Seniority" hidden="false" id="4b55-2575-6b7b-f6ae" type="selectionEntry" targetId="2a8a-fddf-0126-6a57"/>
+        <entryLink import="true" name="Officer Seniority" hidden="false" id="4b55-2575-6b7b-f6ae" type="selectionEntry" targetId="2a8a-fddf-0126-6a57">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bab4-786c-43b6-f3c2-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bab4-786c-43b6-f3c2-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
