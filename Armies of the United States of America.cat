@@ -127,7 +127,7 @@
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="cc46-f94d-ffb5-e27b" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5e12-4024-9907-333e" name="M30 Jackrabbit Light Tank" hidden="false" collective="false" import="true" targetId="67e3-d637-4136-e6de" type="selectionEntry">
+    <entryLink id="5e12-4024-9907-333e" name="M30A3 Jackrabbit Light Tank" hidden="false" collective="false" import="true" targetId="67e3-d637-4136-e6de" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f59c-3061-51be-5666" name="Armor" hidden="false" targetId="7950-f6f1-38c2-f2dd" primary="true"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="afd5-6616-1132-4c1" primary="false" name="Unit"/>
@@ -191,7 +191,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="American Cavalry Officer" hidden="true" id="54de-296c-3dbf-bfe6" type="selectionEntry" targetId="5dee-8749-c33e-578c">
+    <entryLink import="true" name="American Armor Officer" hidden="true" id="54de-296c-3dbf-bfe6" type="selectionEntry" targetId="5dee-8749-c33e-578c">
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="4185-9f86-cc14-b055" primary="true" name="Command"/>
         <categoryLink targetId="db00-fa62-c3c0-732d" id="51e9-36b8-5485-156c" primary="false" name="Armored Command"/>
@@ -4635,8 +4635,16 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4411-ca98-9be-73a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="M40 &quot;Northwester&quot; Multi-Rocket System" hidden="false" id="c8b7-96a3-8e62-25fd" collective="false" targetId="e05b-2803-8fc4-ecbc" type="selectionEntry"/>
-            <entryLink import="true" name="M78 &quot;Dust Devil&quot; Heavy Missile Launcher" hidden="false" id="2400-dafa-e644-1679" collective="false" targetId="923f-dbd-1372-92c0" type="selectionEntry"/>
+            <entryLink import="true" name="M40 &quot;Northwester&quot; Multi-Rocket System" hidden="false" id="c8b7-96a3-8e62-25fd" collective="false" targetId="e05b-2803-8fc4-ecbc" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c54-b2ef-c723-cb98" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="M78 &quot;Dust Devil&quot; Heavy Missile Launcher" hidden="false" id="2400-dafa-e644-1679" collective="false" targetId="923f-dbd-1372-92c0" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db0e-e0e7-1955-c4f6" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="XM31 Missile Launcher" hidden="false" id="ba4c-dac1-ce4d-cd0a">
@@ -4661,6 +4669,9 @@
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="268c-7ff1-33e2-9ffb" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -4671,10 +4682,6 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="68f1-f694-8799-483a-min" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="68f1-f694-8799-483a-max" includeChildSelections="false"/>
-      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="M40 &quot;Northwester&quot; Multi-Rocket System" hidden="false" id="e05b-2803-8fc4-ecbc">
       <costs>
@@ -4746,8 +4753,16 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84aa-1701-ed7f-1577" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="M21 155mm Long Tom" hidden="false" id="9213-4fc1-5172-4ca" collective="false" targetId="87f0-e50f-a345-2804" type="selectionEntry"/>
-            <entryLink import="true" name="M10A1 Siege Cannon" hidden="false" id="d55c-7f41-7954-b4a9" collective="false" targetId="1c7d-826e-a30f-0b86" type="selectionEntry"/>
+            <entryLink import="true" name="M21 155mm Long Tom" hidden="false" id="9213-4fc1-5172-4ca" collective="false" targetId="87f0-e50f-a345-2804" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e36d-cbde-584e-e90f" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="M10A1 Siege Cannon" hidden="false" id="d55c-7f41-7954-b4a9" collective="false" targetId="1c7d-826e-a30f-0b86" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52c7-6993-a8d0-239c" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4757,10 +4772,6 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="46ac-688c-5ec1-e10f-min" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46ac-688c-5ec1-e10f-max" includeChildSelections="false"/>
-      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="M150 Heavy Gun Carriage" hidden="false" id="bc0-5fa4-2127-a759" collective="false">
       <profiles>
@@ -4787,8 +4798,16 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6afd-ea70-d403-b893" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="M21 155mm Long Tom" hidden="false" id="d6f9-1aeb-62f-7129" collective="false" targetId="87f0-e50f-a345-2804" type="selectionEntry"/>
-            <entryLink import="true" name="M10A1 Siege Cannon" hidden="false" id="229d-bbc3-9f28-1146" collective="false" targetId="1c7d-826e-a30f-0b86" type="selectionEntry"/>
+            <entryLink import="true" name="M21 155mm Long Tom" hidden="false" id="d6f9-1aeb-62f-7129" collective="false" targetId="87f0-e50f-a345-2804" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6af6-3e8b-3795-c476" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="M10A1 Siege Cannon" hidden="false" id="229d-bbc3-9f28-1146" collective="false" targetId="1c7d-826e-a30f-0b86" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="954e-18a-c367-a7b3" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4798,10 +4817,6 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1e0f-87cf-7f5f-dbea-min" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e0f-87cf-7f5f-dbea-max" includeChildSelections="false"/>
-      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="M12 Anti-Tank Kinetic Gun" hidden="false" id="910b-ec6e-a696-130d" collective="true">
       <infoLinks>
