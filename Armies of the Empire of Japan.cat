@@ -998,72 +998,14 @@
       <infoLinks>
         <infoLink name="Character" id="78aa-2ce-864d-c849" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
       </infoLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Officer Seniority" id="4294-800a-9f1f-5b83" hidden="false" collective="false" import="true" defaultSelectionEntryId="a8c5-4f53-fb38-13c0">
+      <entryLinks>
+        <entryLink import="true" name="Officer Seniority" hidden="false" id="efa6-8c97-6a00-4560" type="selectionEntry" targetId="cadb-378d-321-459d">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77fb-54b-58e4-476f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="85fe-9543-18c7-ffbe" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f0e4-d177-8c17-94-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f0e4-d177-8c17-94-max" includeChildSelections="false"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Chūi" hidden="false" id="a8c5-4f53-fb38-13c0" collective="false">
-              <infoLinks>
-                <infoLink name="Command" id="7f4c-f725-f214-92a3" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                  <modifiers>
-                    <modifier type="append" value="1" field="name"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-              <costs>
-                <cost name="Munitions" typeId="Points" value="40"/>
-                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Tai-i" hidden="false" id="9a47-f23c-7ee8-8f7e" collective="false">
-              <infoLinks>
-                <infoLink name="Command" id="887-4410-d9a3-b9e3" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                  <modifiers>
-                    <modifier type="append" value="2" field="name"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-              <costs>
-                <cost name="Munitions" typeId="Points" value="80"/>
-                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Shōsa" hidden="false" id="b90b-3e62-368c-da21" collective="false">
-              <infoLinks>
-                <infoLink name="Command" id="b80f-850b-4a5d-9126" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                  <modifiers>
-                    <modifier type="append" value="3" field="name"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-              <costs>
-                <cost name="Munitions" typeId="Points" value="120"/>
-                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Taisa" hidden="false" id="e2a9-493e-77a0-6a6" collective="false">
-              <infoLinks>
-                <infoLink name="Command" id="399d-492d-879d-f96d" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                  <modifiers>
-                    <modifier type="append" value="4" field="name"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-              <costs>
-                <cost name="Munitions" typeId="Points" value="160"/>
-                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Infantry Officer" hidden="false" id="56c-e1cd-8f8d-4dc3">
       <entryLinks>
@@ -1071,6 +1013,12 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="73c8-b5a0-f60-d357" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="72d8-edff-f4-47fa" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Officer Seniority" hidden="false" id="6fda-7636-6c15-45fa" type="selectionEntry" targetId="cadb-378d-321-459d">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2034-59da-4871-1137-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2034-59da-4871-1137-max" includeChildSelections="false"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1093,70 +1041,6 @@
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Officer Seniority" id="8cb7-c20d-7280-e837" hidden="false" collective="false" import="true" defaultSelectionEntryId="934-eb87-8f33-a3ba">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d05c-2155-680a-b9be" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d875-99b2-786-b36b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Chūi" hidden="false" id="934-eb87-8f33-a3ba" collective="false">
-              <infoLinks>
-                <infoLink name="Command" id="2003-3781-d194-b00d" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                  <modifiers>
-                    <modifier type="append" value="1" field="name"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-              <costs>
-                <cost name="Munitions" typeId="Points" value="40"/>
-                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Tai-i" hidden="false" id="91f5-a54d-af02-922" collective="false">
-              <infoLinks>
-                <infoLink name="Command" id="3ed3-9c65-b8b2-bcc5" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                  <modifiers>
-                    <modifier type="append" value="2" field="name"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-              <costs>
-                <cost name="Munitions" typeId="Points" value="80"/>
-                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Shōsa" hidden="false" id="913f-e9d9-1d31-d92c" collective="false">
-              <infoLinks>
-                <infoLink name="Command" id="d1ff-3924-57c7-5939" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                  <modifiers>
-                    <modifier type="append" value="3" field="name"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-              <costs>
-                <cost name="Munitions" typeId="Points" value="120"/>
-                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Taisa" hidden="false" id="5e4e-36b6-2357-3e4f" collective="false">
-              <infoLinks>
-                <infoLink name="Command" id="e09c-c2be-8f77-b259" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                  <modifiers>
-                    <modifier type="append" value="4" field="name"/>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-              <costs>
-                <cost name="Munitions" typeId="Points" value="160"/>
-                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
         <selectionEntryGroup name="Sidearm" id="74cf-c1d4-c6ac-ad59" hidden="false" defaultSelectionEntryId="6298-6ad7-8a8f-4229">
           <entryLinks>
             <entryLink import="true" name="Type 92 Pistol" hidden="false" id="6298-6ad7-8a8f-4229" type="selectionEntry" targetId="47a5-a82a-1d4f-e9b6"/>
@@ -1171,7 +1055,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Officer Seniority" hidden="false" id="cadb-378d-321-459d" collective="false">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Officer Seniority" id="14b1-cdd8-f156-3d57" hidden="false" collective="false" import="true" defaultSelectionEntryId="0a87-9516-94f9-a6d3">
+        <selectionEntryGroup name="Officer Seniority" id="14b1-cdd8-f156-3d57" hidden="false" collective="false" import="true" defaultSelectionEntryId="cb68-3ace-79da-69f7">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c3-ca96-1c7d-608b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="667d-4e24-24fe-a46b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -1252,13 +1136,13 @@
         <infoLink name="Fragmentation Grenade" id="cb85-8be5-2d43-9632" hidden="false" type="profile" targetId="e561-3e82-360b-ea42"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Type 92 Pistol" hidden="false" id="47a5-a82a-1d4f-e9b6" collective="true">
+    <selectionEntry type="upgrade" import="true" name="Type 3 Energy Pistol" hidden="false" id="47a5-a82a-1d4f-e9b6" collective="true">
       <infoLinks>
         <infoLink name="Type 92 Pistol" id="2e93-3639-dd8b-765a" hidden="false" type="profile" targetId="9a00-8f54-c14f-5902"/>
         <infoLink name="Sidearm" id="f2e-53f1-e90f-a8dc" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Type 97 Plasma Pistol" hidden="false" id="3db-dc5-c6d1-2218" collective="true">
+    <selectionEntry type="upgrade" import="true" name="Type 14 Plasma Pistol" hidden="false" id="3db-dc5-c6d1-2218" collective="true">
       <infoLinks>
         <infoLink name="Type 97 Plasma Pistol" id="e4e5-1070-7430-afb7" hidden="false" type="profile" targetId="4d81-8809-bc10-a2b6"/>
         <infoLink name="Sidearm" id="1796-fe03-e492-86d1" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
@@ -1536,6 +1420,32 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Recon Commander" hidden="false" id="8d00-85dc-d76f-dbb7">
+      <infoLinks>
+        <infoLink name="Character" id="2bd4-269d-5b87-b7d6" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Officer Seniority" hidden="false" id="894-d413-a2a0-3b5f" type="selectionEntry" targetId="cadb-378d-321-459d">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2a35-30f0-5ddc-b230-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a35-30f0-5ddc-b230-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Artillery Commander" hidden="false" id="275f-f848-54fc-4181">
+      <infoLinks>
+        <infoLink name="Character" id="e3d-b6e8-8569-3c4e" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Officer Seniority" hidden="false" id="cd96-4909-3a15-fa58" type="selectionEntry" targetId="cadb-378d-321-459d">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="82a1-e6ee-c700-b21-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82a1-e6ee-c700-b21-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Type 93 Marksman Rifle" typeId="Weapon" typeName="Weapon" hidden="false" id="7820-1f95-853f-66f5">
@@ -1578,17 +1488,17 @@
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Ranged</characteristic>
       </characteristics>
     </profile>
-    <profile name="Type 92 Pistol" typeId="Weapon" typeName="Weapon" hidden="false" id="9a00-8f54-c14f-5902">
+    <profile name="Type 3 Pistol" typeId="Weapon" typeName="Weapon" hidden="false" id="9a00-8f54-c14f-5902">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">12&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">1</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">0</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Sidearm</characteristic>
-        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Pistol, Kinetic, Ranged</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Pistol, Energy, Ranged</characteristic>
       </characteristics>
     </profile>
-    <profile name="Type 97 Plasma Pistol" typeId="Weapon" typeName="Weapon" hidden="false" id="4d81-8809-bc10-a2b6">
+    <profile name="Type 14 Plasma Pistol" typeId="Weapon" typeName="Weapon" hidden="false" id="4d81-8809-bc10-a2b6">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">8&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">1</characteristic>
@@ -1820,12 +1730,30 @@
     </profile>
   </sharedProfiles>
   <entryLinks>
-    <entryLink import="true" name="Captain Higuchi Ryuusuke" hidden="false" id="b749-9c2e-1188-9cc1" type="selectionEntry" targetId="43be-a0d6-f15c-d685">
+    <entryLink import="true" name="Captain Higuchi Ryuusuke" hidden="true" id="b749-9c2e-1188-9cc1" type="selectionEntry" targetId="43be-a0d6-f15c-d685">
       <categoryLinks>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="7259-8970-2dfb-df33" primary="false" name="Character"/>
-        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="2821-e571-81b6-4f1a" primary="true" name="Infantry Command"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="44c2-cbb8-8fa8-839" primary="false" name="Command"/>
+        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="2821-e571-81b6-4f1a" primary="false" name="Infantry Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="44c2-cbb8-8fa8-839" primary="true" name="Command"/>
+        <categoryLink targetId="f787-f73c-7a5b-534c" id="1035-474d-7e7e-4070" primary="false" name="Recon Command"/>
+        <categoryLink targetId="ac96-6e42-7e7b-1947" id="b47b-d010-ce05-c365" primary="false" name="Support Command"/>
       </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <repeats>
+                <repeat value="-1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink import="true" name="Hōshu Heavy Weapon Squads" hidden="false" id="d150-bacd-cc1c-60f2" type="selectionEntry" targetId="e6bb-56e5-ce43-8531">
       <categoryLinks>
@@ -1843,9 +1771,9 @@
     </entryLink>
     <entryLink import="true" name="Towed Gun Carriage Squad" hidden="false" id="8b80-e473-82c0-cdb1" type="selectionEntry" targetId="3e54-d3f8-e41d-a5f3">
       <categoryLinks>
-        <categoryLink targetId="96e8-513f-beca-e624" id="17c4-fd3-9ec1-515c" primary="false" name="Infantry Support"/>
+        <categoryLink targetId="96e8-513f-beca-e624" id="17c4-fd3-9ec1-515c" primary="true" name="Infantry Support"/>
         <categoryLink targetId="7110-7fe8-80e2-5e81" id="7023-8945-70e4-5e4e" primary="false" name="Support"/>
-        <categoryLink targetId="0463-bfe4-198d-b1a5" id="f3df-5eaa-e2a-9afd" primary="true" name="Support Infantry"/>
+        <categoryLink targetId="0463-bfe4-198d-b1a5" id="f3df-5eaa-e2a-9afd" primary="false" name="Support Infantry"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="e195-ca5a-14d5-9aa9" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
@@ -1861,68 +1789,51 @@
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="7ecd-d637-4b47-9e93" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Captain Higuchi Ryuusuke" hidden="false" id="aef8-2aae-b1e2-4510" type="selectionEntry" targetId="43be-a0d6-f15c-d685">
+    <entryLink import="true" name="Artillery Commander" hidden="true" id="9782-7c71-57c7-690e" type="selectionEntry" targetId="275f-f848-54fc-4181">
       <categoryLinks>
-        <categoryLink targetId="7165-cf57-cd9c-93da" id="6535-e055-b28f-cee8" primary="false" name="Character"/>
-        <categoryLink targetId="f787-f73c-7a5b-534c" id="75ab-2561-43a3-25be" primary="true" name="Recon Command"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="c0f9-61e5-d6ea-ceec" primary="false" name="Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Captain Higuchi Ryuusuke" hidden="false" id="c3fb-7c9b-5c70-267b" type="selectionEntry" targetId="43be-a0d6-f15c-d685">
-      <categoryLinks>
-        <categoryLink name="Character" hidden="false" id="6bda-c0d1-53a3-1907" targetId="7165-cf57-cd9c-93da" primary="false"/>
-        <categoryLink targetId="ac96-6e42-7e7b-1947" id="2431-3e64-4363-29a" primary="true" name="Support Command"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="9153-1d17-4a53-29ce" primary="false" name="Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Tank Commander" hidden="false" id="9782-7c71-57c7-690e" type="selectionEntry" targetId="36d2-84d8-6f37-f80d">
-      <categoryLinks>
-        <categoryLink targetId="db00-fa62-c3c0-732d" id="dc3f-1aeb-702d-2f5c" primary="true" name="Armored Command"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="a7f2-f66f-e017-c125" primary="false" name="Command"/>
+        <categoryLink targetId="db00-fa62-c3c0-732d" id="dc3f-1aeb-702d-2f5c" primary="false" name="Armored Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="a7f2-f66f-e017-c125" primary="true" name="Command"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="b1cf-4a57-e7c9-f018" primary="false" name="Character"/>
       </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="27cf-5cae-ad71-1584" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <repeats>
+                <repeat value="-1" repeats="1" field="selections" scope="force" childId="27cf-5cae-ad71-1584" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Tank Commander" hidden="false" id="1d55-cfd1-b52e-d78b" type="selectionEntry" targetId="36d2-84d8-6f37-f80d">
+    <entryLink import="true" name="Infantry Officer" hidden="true" id="d271-b856-ff05-1fd2" type="selectionEntry" targetId="56c-e1cd-8f8d-4dc3">
       <categoryLinks>
-        <categoryLink name="Command" hidden="false" id="e339-d7ab-c27-802b" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
-        <categoryLink name="Character" hidden="false" id="f101-33c3-2549-ee68" targetId="7165-cf57-cd9c-93da" primary="false"/>
-        <categoryLink targetId="7e88-f603-cf53-1d85" id="72a8-1d92-cf9b-51c2" primary="true" name="Artillery Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Tank Commander" hidden="false" id="fc38-ef7d-4907-9590" type="selectionEntry" targetId="36d2-84d8-6f37-f80d">
-      <categoryLinks>
-        <categoryLink name="Command" hidden="false" id="935d-17cb-c0d0-7821" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
-        <categoryLink name="Character" hidden="false" id="e52d-2030-dcac-bc9a" targetId="7165-cf57-cd9c-93da" primary="false"/>
-        <categoryLink targetId="f787-f73c-7a5b-534c" id="25af-647f-9729-1819" primary="true" name="Recon Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Infantry Officer" hidden="false" id="d271-b856-ff05-1fd2" type="selectionEntry" targetId="56c-e1cd-8f8d-4dc3">
-      <categoryLinks>
-        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="3421-3362-d0ce-c6dd" primary="true" name="Infantry Command"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="90b4-3e4b-fcce-fa63" primary="false" name="Command"/>
+        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="3421-3362-d0ce-c6dd" primary="false" name="Infantry Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="90b4-3e4b-fcce-fa63" primary="true" name="Command"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="1824-bcc7-2e0c-ccb3" primary="false" name="Character"/>
       </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Infantry Officer" hidden="false" id="827f-bac3-7374-df76" type="selectionEntry" targetId="56c-e1cd-8f8d-4dc3">
-      <categoryLinks>
-        <categoryLink name="Command" hidden="false" id="a6e8-daae-d154-587" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
-        <categoryLink name="Character" hidden="false" id="53ea-243b-1853-7d3a" targetId="7165-cf57-cd9c-93da" primary="false"/>
-        <categoryLink targetId="7e88-f603-cf53-1d85" id="1b31-c6c1-ed42-6ab9" primary="true" name="Artillery Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Infantry Officer" hidden="false" id="8320-51d2-2608-41d" type="selectionEntry" targetId="56c-e1cd-8f8d-4dc3">
-      <categoryLinks>
-        <categoryLink name="Command" hidden="false" id="96cc-b91d-bff2-51c6" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
-        <categoryLink name="Character" hidden="false" id="f763-6e3b-8b0a-14d7" targetId="7165-cf57-cd9c-93da" primary="false"/>
-        <categoryLink targetId="f787-f73c-7a5b-534c" id="78c-8df4-e17a-a558" primary="true" name="Recon Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Infantry Officer" hidden="false" id="2f4d-78c-960b-eeed" type="selectionEntry" targetId="56c-e1cd-8f8d-4dc3">
-      <categoryLinks>
-        <categoryLink name="Command" hidden="false" id="cfbe-6ce7-f0c0-4258" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
-        <categoryLink name="Character" hidden="false" id="93f5-1701-b54b-976f" targetId="7165-cf57-cd9c-93da" primary="false"/>
-        <categoryLink targetId="ac96-6e42-7e7b-1947" id="1f79-c1f-8a6c-3ad9" primary="true" name="Support Command"/>
-      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <repeats>
+                <repeat value="-1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink import="true" name="Towed Gun Carriage Squad" hidden="false" id="b590-b58c-a2d9-cd1b" type="selectionEntry" targetId="3e54-d3f8-e41d-a5f3">
       <categoryLinks>
@@ -1930,6 +1841,52 @@
         <categoryLink targetId="27cf-5cae-ad71-1584" id="4d77-6855-4f13-22a5" primary="true" name="Artillery"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="1b19-9ac1-3c25-45d7" primary="false" name="Unit"/>
       </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Recon Commander" hidden="true" id="a775-fe92-75c3-75ff" type="selectionEntry" targetId="8d00-85dc-d76f-dbb7">
+      <categoryLinks>
+        <categoryLink name="Armored Command" hidden="false" id="e16d-d6e8-b715-f574" targetId="db00-fa62-c3c0-732d" primary="false"/>
+        <categoryLink name="Command" hidden="false" id="46d3-7445-3cbb-3750" targetId="70eb-c264-a9cb-1bfe" primary="true"/>
+        <categoryLink name="Character" hidden="false" id="9985-53d6-dd0c-3c09" targetId="7165-cf57-cd9c-93da" primary="false"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="cac2-586c-2611-93d2" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <repeats>
+                <repeat value="-1" repeats="1" field="selections" scope="force" childId="cac2-586c-2611-93d2" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Tank Commander" hidden="true" id="b01-a364-6416-b4e0" type="selectionEntry" targetId="36d2-84d8-6f37-f80d">
+      <categoryLinks>
+        <categoryLink name="Armored Command" hidden="false" id="2e2c-89c8-886f-b5a4" targetId="db00-fa62-c3c0-732d" primary="false"/>
+        <categoryLink name="Command" hidden="false" id="2864-93d1-a5d5-6171" targetId="70eb-c264-a9cb-1bfe" primary="true"/>
+        <categoryLink name="Character" hidden="false" id="22ee-7ead-f8ca-1b89" targetId="7165-cf57-cd9c-93da" primary="false"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="7950-f6f1-38c2-f2dd" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <repeats>
+                <repeat value="-1" repeats="1" field="selections" scope="force" childId="7950-f6f1-38c2-f2dd" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
   </entryLinks>
 </catalogue>

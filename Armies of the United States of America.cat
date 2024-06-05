@@ -92,12 +92,14 @@
         <categoryLink id="23ba-7fee-c191-4fe0" name="Recon Vehicles" hidden="false" targetId="cac2-586c-2611-93d2" primary="true"/>
         <categoryLink targetId="481b-63e9-517b-180b" id="fd4f-ce9-1215-3422" primary="false" name="Recon"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="a766-82bb-90be-e069" primary="false" name="Unit"/>
+        <categoryLink targetId="7da2-822e-291f-eccc" id="b566-ba4d-e5d0-d9a1" primary="false" name="Walker"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4de9-ce9f-bef5-529a" name="X53 Lynx Battle Walker" hidden="false" collective="false" import="true" targetId="d390-3371-5d0c-7440" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ccef-fee8-00fc-1323" name="Recon Vehicles" hidden="false" targetId="cac2-586c-2611-93d2" primary="true"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="7ae-402-e50a-284d" primary="false" name="Unit"/>
+        <categoryLink targetId="7da2-822e-291f-eccc" id="8a7d-71f9-d299-2c7b" primary="false" name="Walker"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0af3-609a-6d79-0109" name="Recon Bike Squad" hidden="false" collective="false" import="true" targetId="c905-4b27-69d3-1aca" type="selectionEntry">
@@ -170,79 +172,62 @@
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="e998-5b25-4731-f977" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="American Infantry Officer" hidden="false" id="94ec-3d2e-d9db-4cbf" type="selectionEntry" targetId="2416-8e36-53cf-da7f">
+    <entryLink import="true" name="American Infantry Officer" hidden="true" id="94ec-3d2e-d9db-4cbf" type="selectionEntry" targetId="2416-8e36-53cf-da7f">
       <categoryLinks>
-        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="9452-9f5a-2502-1dbe" primary="true" name="Infantry Command"/>
+        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="9452-9f5a-2502-1dbe" primary="false" name="Infantry Command"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="69ab-d475-e49c-9c6c" primary="false" name="Character"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="a45b-c0a0-f3c3-fdf2" primary="false" name="Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="a45b-c0a0-f3c3-fdf2" primary="true" name="Command"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <repeats>
+            <repeat value="-1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </entryLink>
-    <entryLink import="true" name="American Infantry Officer" hidden="false" id="dde6-bf24-e083-56b6" type="selectionEntry" targetId="2416-8e36-53cf-da7f">
+    <entryLink import="true" name="American Cavalry Officer" hidden="true" id="54de-296c-3dbf-bfe6" type="selectionEntry" targetId="5dee-8749-c33e-578c">
       <categoryLinks>
-        <categoryLink name="Infantry Command" hidden="false" id="1213-ecc7-8d4-c36" targetId="dcc5-ef7f-27fc-a528" primary="false"/>
-        <categoryLink name="Character" hidden="false" id="169f-379b-af3b-bca6" targetId="7165-cf57-cd9c-93da" primary="false"/>
-        <categoryLink targetId="7e88-f603-cf53-1d85" id="6c4c-2ace-a672-16b1" primary="true" name="Artillery Command"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="ab39-ed69-a4ed-4233" primary="false" name="Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="4185-9f86-cc14-b055" primary="true" name="Command"/>
+        <categoryLink targetId="db00-fa62-c3c0-732d" id="51e9-36b8-5485-156c" primary="false" name="Armored Command"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="7950-f6f1-38c2-f2dd" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <repeats>
+            <repeat value="-1" repeats="1" field="selections" scope="force" childId="7950-f6f1-38c2-f2dd" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </entryLink>
-    <entryLink import="true" name="American Infantry Officer" hidden="false" id="803c-3b87-9065-ebd1" type="selectionEntry" targetId="2416-8e36-53cf-da7f">
-      <categoryLinks>
-        <categoryLink name="Infantry Command" hidden="false" id="f7d4-9085-91c7-40b8" targetId="dcc5-ef7f-27fc-a528" primary="false"/>
-        <categoryLink name="Character" hidden="false" id="3fa4-76cc-3fb1-f017" targetId="7165-cf57-cd9c-93da" primary="false"/>
-        <categoryLink targetId="ac96-6e42-7e7b-1947" id="e977-c04f-2110-b178" primary="false" name="Support Command"/>
-        <categoryLink targetId="f787-f73c-7a5b-534c" id="c56b-e0d0-52ab-9e7b" primary="true" name="Recon Command"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="f243-47d2-3b00-f785" primary="false" name="Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="American Infantry Officer" hidden="false" id="9436-8316-8bba-a9c9" type="selectionEntry" targetId="2416-8e36-53cf-da7f">
-      <categoryLinks>
-        <categoryLink name="Infantry Command" hidden="false" id="642b-646b-a721-eb11" targetId="dcc5-ef7f-27fc-a528" primary="false"/>
-        <categoryLink name="Character" hidden="false" id="d945-5976-8114-7445" targetId="7165-cf57-cd9c-93da" primary="false"/>
-        <categoryLink targetId="ac96-6e42-7e7b-1947" id="6eef-da1-963c-a486" primary="true" name="Support Command"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="69a4-1b7d-a83c-294b" primary="false" name="Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="American Cavalry Officer" hidden="false" id="54de-296c-3dbf-bfe6" type="selectionEntry" targetId="5dee-8749-c33e-578c">
-      <categoryLinks>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="4185-9f86-cc14-b055" primary="false" name="Command"/>
-        <categoryLink targetId="db00-fa62-c3c0-732d" id="51e9-36b8-5485-156c" primary="true" name="Armored Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="American Cavalry Officer" hidden="false" id="b797-7ad1-7acd-43ad" type="selectionEntry" targetId="5dee-8749-c33e-578c">
-      <categoryLinks>
-        <categoryLink name="Command" hidden="false" id="a299-efb3-998d-769e" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
-        <categoryLink name="Armored Command" hidden="false" id="20ce-8f43-b1e-6f82" targetId="db00-fa62-c3c0-732d" primary="false"/>
-        <categoryLink targetId="7e88-f603-cf53-1d85" id="31a2-e394-8964-7c2f" primary="true" name="Artillery Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="American Cavalry Officer" hidden="false" id="500c-7296-d4ce-6ed2" type="selectionEntry" targetId="5dee-8749-c33e-578c">
-      <categoryLinks>
-        <categoryLink name="Command" hidden="false" id="1785-8f73-69e3-1d72" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
-        <categoryLink name="Armored Command" hidden="false" id="c8c5-bdfc-6f47-2b9c" targetId="db00-fa62-c3c0-732d" primary="false"/>
-        <categoryLink targetId="f787-f73c-7a5b-534c" id="36a2-9336-266c-ab5f" primary="true" name="Recon Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="American Cavalry Officer" hidden="false" id="1f27-7c03-e884-49c2" type="selectionEntry" targetId="5dee-8749-c33e-578c">
-      <categoryLinks>
-        <categoryLink name="Command" hidden="false" id="dc90-5157-ab4-6341" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
-        <categoryLink name="Armored Command" hidden="false" id="c5cd-de53-db7d-78b4" targetId="db00-fa62-c3c0-732d" primary="false"/>
-        <categoryLink targetId="ac96-6e42-7e7b-1947" id="27c-9228-ba33-5dfb" primary="true" name="Support Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Warrant Officer Jethro Madison" hidden="false" id="da37-5b20-ec7f-c7dc" type="selectionEntry" targetId="1220-7aa0-481c-9f7b">
-      <categoryLinks>
-        <categoryLink targetId="db00-fa62-c3c0-732d" id="d1c8-8495-e83d-8ec7" primary="true" name="Armored Command"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="beae-1178-f8b3-8f2d" primary="false" name="Command"/>
-        <categoryLink targetId="7165-cf57-cd9c-93da" id="e32c-42f9-e5c6-fe00" primary="false" name="Character"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Warrant Officer Jethro Madison" hidden="false" id="ccc2-598a-73ac-aa7a" type="selectionEntry" targetId="1220-7aa0-481c-9f7b">
+    <entryLink import="true" name="Warrant Officer Jethro Madison" hidden="true" id="ccc2-598a-73ac-aa7a" type="selectionEntry" targetId="1220-7aa0-481c-9f7b">
       <categoryLinks>
         <categoryLink name="Armored Command" hidden="false" id="b5dd-1eae-518a-60a9" targetId="db00-fa62-c3c0-732d" primary="false"/>
-        <categoryLink name="Command" hidden="false" id="b247-957e-e5fa-9055" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
-        <categoryLink targetId="f787-f73c-7a5b-534c" id="c25b-60b4-1204-bbaf" primary="true" name="Recon Command"/>
+        <categoryLink name="Command" hidden="false" id="b247-957e-e5fa-9055" targetId="70eb-c264-a9cb-1bfe" primary="true"/>
+        <categoryLink targetId="f787-f73c-7a5b-534c" id="c25b-60b4-1204-bbaf" primary="false" name="Recon Command"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="af20-5e0b-259b-222d" primary="false" name="Character"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="7da2-822e-291f-eccc" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <repeats>
+            <repeat value="-1" repeats="1" field="selections" scope="force" childId="7da2-822e-291f-eccc" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="M39 Bison Landing Vehicle" hidden="false" id="3e6d-1abb-2d6c-201c" type="selectionEntry" targetId="4541-69db-b4b0-affb">
       <categoryLinks>
@@ -305,13 +290,27 @@
         <categoryLink targetId="cac2-586c-2611-93d2" id="332e-1b21-ed33-b420" primary="true" name="Recon Vehicles"/>
         <categoryLink targetId="481b-63e9-517b-180b" id="a187-8912-b29f-219b" primary="false" name="Recon"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="33a1-3086-f610-e520" primary="false" name="Unit"/>
+        <categoryLink targetId="7da2-822e-291f-eccc" id="3c39-5bbd-8c50-9314" primary="false" name="Walker"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Recon Bike Commander" hidden="false" id="71d3-fff4-7de6-6b22" type="selectionEntry" targetId="50e0-b802-b5d5-505a">
+    <entryLink import="true" name="Recon Bike Commander" hidden="true" id="71d3-fff4-7de6-6b22" type="selectionEntry" targetId="50e0-b802-b5d5-505a">
       <categoryLinks>
-        <categoryLink targetId="f787-f73c-7a5b-534c" id="dc9a-92c7-50ed-1147" primary="true" name="Recon Command"/>
+        <categoryLink targetId="f787-f73c-7a5b-534c" id="dc9a-92c7-50ed-1147" primary="false" name="Recon Command"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="53e2-7d0f-a4ac-8e1e" primary="false" name="Character"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="29b9-c238-448e-92bd" primary="true" name="Command"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="c905-4b27-69d3-1aca" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <repeats>
+            <repeat value="-1" repeats="1" field="selections" scope="force" childId="c905-4b27-69d3-1aca" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="M21 Caprina Multiple Gun Motor Carriage" hidden="false" id="ee17-41a8-8780-f64d" type="selectionEntry" targetId="a87f-40de-6e18-15b5">
       <categoryLinks>
@@ -364,27 +363,24 @@
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="7912-9be2-d105-1e05" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="American Morale Officer" hidden="false" id="b8dc-3c4-a33a-827e" type="selectionEntry" targetId="18b3-7f6f-6838-4a61">
+    <entryLink import="true" name="American Morale Officer" hidden="true" id="b8dc-3c4-a33a-827e" type="selectionEntry" targetId="18b3-7f6f-6838-4a61">
       <categoryLinks>
-        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="47ae-83e6-3f06-ff46" primary="true" name="Infantry Command"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="78cf-b1f5-6389-634e" primary="false" name="Command"/>
+        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="47ae-83e6-3f06-ff46" primary="false" name="Infantry Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="78cf-b1f5-6389-634e" primary="true" name="Command"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="78a8-3937-4a0b-bd90" primary="false" name="Character"/>
       </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="American Morale Officer" hidden="false" id="6725-ad4b-8dac-24b5" type="selectionEntry" targetId="18b3-7f6f-6838-4a61">
-      <categoryLinks>
-        <categoryLink name="Command" hidden="false" id="e977-6e6c-5259-9561" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
-        <categoryLink name="Character" hidden="false" id="4481-d0a5-b785-dc10" targetId="7165-cf57-cd9c-93da" primary="false"/>
-        <categoryLink targetId="ac96-6e42-7e7b-1947" id="bd03-6cb-cf58-e403" primary="true" name="Support Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="American Morale Officer" hidden="false" id="7dd-500c-f596-f37c" type="selectionEntry" targetId="18b3-7f6f-6838-4a61">
-      <categoryLinks>
-        <categoryLink name="Infantry Command" hidden="false" id="b675-ae2-4192-1a2a" targetId="dcc5-ef7f-27fc-a528" primary="false"/>
-        <categoryLink name="Command" hidden="false" id="c672-670-e9a-7f68" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
-        <categoryLink name="Character" hidden="false" id="fc0d-a290-c41c-7c7b" targetId="7165-cf57-cd9c-93da" primary="false"/>
-        <categoryLink targetId="f787-f73c-7a5b-534c" id="601e-4968-8d16-8955" primary="true" name="Recon Command"/>
-      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <repeats>
+            <repeat value="-1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Sergeant Douglas Donahue - Hero of the Starborne" hidden="false" id="376d-e5dd-f9a4-56a9" type="selectionEntry" targetId="5e1a-aea0-91b1-d8ab">
       <categoryLinks>
@@ -392,19 +388,24 @@
         <categoryLink targetId="33a5-8b7e-49bb-c30d" id="9a07-b3e7-e018-540" primary="true" name="Heroes"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="General Nicholas Winters" hidden="false" id="3d5d-7f86-4d54-113" type="selectionEntry" targetId="6cf8-10bc-b257-32b4">
+    <entryLink import="true" name="General Nicholas Winters" hidden="true" id="3d5d-7f86-4d54-113" type="selectionEntry" targetId="6cf8-10bc-b257-32b4">
       <categoryLinks>
-        <categoryLink targetId="ac96-6e42-7e7b-1947" id="bb1a-173a-381b-9988" primary="true" name="Support Command"/>
+        <categoryLink targetId="ac96-6e42-7e7b-1947" id="bb1a-173a-381b-9988" primary="false" name="Support Command"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="731e-b17d-6c58-e77f" primary="false" name="Character"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="5c73-6c95-6d18-17f5" primary="false" name="Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="5c73-6c95-6d18-17f5" primary="true" name="Command"/>
       </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="General Nicholas Winters" hidden="false" id="84e-c21f-57cf-d725" type="selectionEntry" targetId="6cf8-10bc-b257-32b4">
-      <categoryLinks>
-        <categoryLink name="Character" hidden="false" id="13e4-c3cb-e351-d59d" targetId="7165-cf57-cd9c-93da" primary="false"/>
-        <categoryLink name="Command" hidden="false" id="38c2-46a9-87b9-a271" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
-        <categoryLink targetId="7e88-f603-cf53-1d85" id="70ba-464d-9eae-b06" primary="true" name="Artillery Command"/>
-      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <repeats>
+            <repeat value="-1" repeats="1" field="selections" scope="force" childId="7110-7fe8-80e2-5e81" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" value="false" field="hidden">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="7110-7fe8-80e2-5e81" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="M105 MLRS Caprina" hidden="false" id="dede-4776-eaa9-937a" type="selectionEntry" targetId="5bef-8e07-3925-dce6">
       <categoryLinks>
@@ -418,6 +419,42 @@
         <categoryLink targetId="5db4-bcb6-9f0f-7062" id="5c55-cb21-83e1-ede0" primary="true" name="Support Vehicle"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="432f-97bc-fcb1-1b05" primary="false" name="Unit"/>
       </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="American Cavalry Officer" hidden="true" id="c36c-ad8f-2cb3-1753" type="selectionEntry" targetId="747e-8878-f614-6ce0">
+      <categoryLinks>
+        <categoryLink targetId="f787-f73c-7a5b-534c" id="ba76-ca77-325a-3bba" primary="false" name="Recon Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="5b6a-6374-4e4a-4098" primary="true" name="Command"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="cac2-586c-2611-93d2" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <repeats>
+            <repeat value="-1" repeats="1" field="selections" scope="force" childId="cac2-586c-2611-93d2" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="American Artillery Officer" hidden="true" id="75e2-3691-9abf-2148" type="selectionEntry" targetId="9d15-79f7-4993-3a3">
+      <categoryLinks>
+        <categoryLink name="Command" hidden="false" id="79cf-1924-f8a1-e125" targetId="70eb-c264-a9cb-1bfe" primary="true"/>
+        <categoryLink name="Armored Command" hidden="false" id="b1e6-6d2f-ad0f-2900" targetId="db00-fa62-c3c0-732d" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="force" childId="27cf-5cae-ad71-1584" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <repeats>
+            <repeat value="-1" repeats="1" field="selections" scope="force" childId="27cf-5cae-ad71-1584" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -1376,6 +1413,11 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
+      <rules>
+        <rule name="Linebackers" id="9aff-c41b-49ed-d4d7" hidden="false">
+          <description>When this unit makes a move action, it adds +2 Armor penetration to melee attacks until the end of the round.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry id="8207-3948-60dd-815b" name="Combat Shield" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
@@ -2071,6 +2113,7 @@
       <infoLinks>
         <infoLink id="a86f-acec-0351-0c78" name="Jump-Packs" hidden="false" targetId="ca6c-7248-1769-9206" type="rule"/>
         <infoLink id="af04-87f1-2ca1-a99f" name="Infantry Actions" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
+        <infoLink name="Aerial Deployment" id="f3b3-a959-eb9d-2dbe" hidden="false" type="rule" targetId="a61e-7e07-d7da-e915"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a0f8-0898-849d-9536" name="Infantry" hidden="false" targetId="59ff-44cb-cb53-760d" primary="false"/>
@@ -2753,6 +2796,7 @@
       <infoLinks>
         <infoLink id="0cc6-dc1e-caf8-3552" name="Steel Legs" hidden="false" targetId="740c-be52-5a59-9265" type="rule"/>
         <infoLink id="9247-ae74-1fa0-3fba" name="Recon Vehicle Actions" hidden="false" targetId="e02c-5a58-9b36-5c37" type="profile"/>
+        <infoLink name="Light on their feet" id="c436-9026-e0be-4621" hidden="false" type="rule" targetId="f708-1439-cbbe-6850"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="207d-f57d-06bd-9c3d" name="Squad Member" hidden="false" collective="false" import="true" defaultSelectionEntryId="82c6-bb81-2374-797b">
@@ -2908,6 +2952,7 @@
       <infoLinks>
         <infoLink id="b971-c870-5fce-4a4d" name="Steel Legs" hidden="false" targetId="740c-be52-5a59-9265" type="rule"/>
         <infoLink id="86f9-f323-b4ca-4256" name="Recon Vehicle Actions" hidden="false" targetId="e02c-5a58-9b36-5c37" type="profile"/>
+        <infoLink name="Light on their feet" id="88ba-60f0-d18f-4ec9" hidden="false" type="rule" targetId="f708-1439-cbbe-6850"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="eaad-57d6-fcd5-2c35" name="Pintle Mount" hidden="false" collective="false" import="true">
@@ -3111,7 +3156,7 @@
       </costs>
       <rules>
         <rule name="Kings of the Highway" id="e1d9-c6b5-9637-4f43" hidden="false">
-          <description>If this unit moves at least 14&quot;, its melee attacks get +2 hit until the end of its activation.</description>
+          <description>If this unit destroys an enemy unit in melee and is not in engagement range of any other enemy units, it may make a free movement action.</description>
         </rule>
         <rule name="Suppressable" id="b4fa-cf98-6a84-4fdb" hidden="false">
           <description>This unit can gain suppression tokens as though it were infantry.</description>
@@ -3519,7 +3564,7 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="67e3-d637-4136-e6de" name="M30 Jackrabbit Light Tank" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="67e3-d637-4136-e6de" name="M30A3 Jackrabbit Light Tank" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="3a59-3d9b-d5c4-1c21" name="M30 Jackrabbit Light Tank" hidden="false" typeId="d3fb-06f3-cc24-ab32" typeName="Model">
           <characteristics>
@@ -4208,83 +4253,6 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c45d-af74-bfeb-bdca-max"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Officer Seniority" hidden="false" id="2e26-3035-658c-3c6e" collective="false">
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Officer Seniority" id="f8c9-8e44-757-f9a5" hidden="false" collective="false" import="true" defaultSelectionEntryId="156c-d226-209b-d58f">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="563e-34a-5eb1-d55d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8fac-dd02-9998-4f82" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Lieutenant" hidden="false" id="156c-d226-209b-d58f" collective="false">
-                  <infoLinks>
-                    <infoLink name="Command" id="159-fe4-a298-8ff7" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                      <modifiers>
-                        <modifier type="append" value="1" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="40"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Captain" hidden="false" id="6b42-4154-b7d3-734f" collective="false">
-                  <infoLinks>
-                    <infoLink name="Command" id="da8f-878d-2f3c-3d53" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                      <modifiers>
-                        <modifier type="append" value="2" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="80"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Major" hidden="false" id="2072-581f-33ea-e5ef" collective="false">
-                  <infoLinks>
-                    <infoLink name="Command" id="4b3f-5cfe-1f5a-5dcc" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                      <modifiers>
-                        <modifier type="append" value="3" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="120"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Colonel" hidden="false" id="5e20-2c79-a1b5-7660" collective="false">
-                  <infoLinks>
-                    <infoLink name="Command" id="dd22-f9f1-89f7-3001" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                      <modifiers>
-                        <modifier type="append" value="4" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="160"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-            <cost name="Munitions" typeId="Points" value="0"/>
-            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c20f-5127-1688-ce8c-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c20f-5127-1688-ce8c-max"/>
-          </constraints>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="Sidearm" id="3488-2b09-5265-bfe9" hidden="false" defaultSelectionEntryId="e2d2-a232-e9a9-f47b">
@@ -4298,87 +4266,11 @@
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Officer Seniority" hidden="false" id="9ade-5590-2dd1-7542" type="selectionEntry" targetId="2a8a-fddf-0126-6a57"/>
+      </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="American Cavalry Officer" hidden="false" id="5dee-8749-c33e-578c">
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Officer Seniority" hidden="false" id="f8cd-34a0-16a1-71cb" collective="false">
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Officer Seniority" id="996a-e11f-a6b4-82f4" hidden="false" collective="false" import="true" defaultSelectionEntryId="39bf-8b5b-f2be-11df">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="16dd-f909-12ae-c22b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dc22-c32e-37c8-b9da" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Lieutenant" hidden="false" id="39bf-8b5b-f2be-11df" collective="false">
-                  <infoLinks>
-                    <infoLink name="Command" id="6fe2-4b95-600-e8ef" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                      <modifiers>
-                        <modifier type="append" value="1" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="40"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Captain" hidden="false" id="a534-f951-256-8111" collective="false">
-                  <infoLinks>
-                    <infoLink name="Command" id="8fcc-1f4b-79a6-f4fc" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                      <modifiers>
-                        <modifier type="append" value="2" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="80"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Major" hidden="false" id="ddbd-411b-ad2f-550" collective="false">
-                  <infoLinks>
-                    <infoLink name="Command" id="f684-37f6-cd86-32cb" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                      <modifiers>
-                        <modifier type="append" value="3" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="120"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Colonel" hidden="false" id="1e67-4b2b-c298-ba69" collective="false">
-                  <infoLinks>
-                    <infoLink name="Command" id="2e95-f828-730f-4503" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                      <modifiers>
-                        <modifier type="append" value="4" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="160"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-            <cost name="Munitions" typeId="Points" value="0"/>
-            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2707-39cd-9b15-f658-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2707-39cd-9b15-f658-max"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="American Armor Officer" hidden="false" id="5dee-8749-c33e-578c">
       <infoLinks>
         <infoLink name="Character" id="2f18-8c8f-feec-3e2a" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
       </infoLinks>
@@ -4387,6 +4279,9 @@
           <description>While an infantry unit receives the benefit of cover from this model, it improves its armor value by 1.</description>
         </rule>
       </rules>
+      <entryLinks>
+        <entryLink import="true" name="Officer Seniority" hidden="false" id="26d2-7dd3-aca2-f136" type="selectionEntry" targetId="2a8a-fddf-0126-6a57"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Warrant Officer Jethro Madison" hidden="false" id="1220-7aa0-481c-9f7b" collective="false">
       <profiles>
@@ -5030,7 +4925,7 @@
         <infoLink name="Armored" id="c707-d6c1-878b-61f" hidden="false" type="rule" targetId="17b7-2b07-3f19-2098"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Perch Weapon" id="d19e-a6e0-2ffa-10ce" hidden="false" collective="false" import="true">
+        <selectionEntryGroup name="Pintle Weapon" id="d19e-a6e0-2ffa-10ce" hidden="false" collective="false" import="true">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1109-cfbe-b7df-c13d"/>
           </constraints>
@@ -5038,7 +4933,7 @@
             <entryLink import="true" name="M2 Heavy Machine Gun" hidden="false" id="2e4b-c609-b045-288b" collective="false" targetId="59ef-e9be-bbab-1232" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Arm Weapon" id="e55f-b793-49eb-538a" hidden="false" collective="false" import="true" defaultSelectionEntryId="a4e0-1de3-26cb-7516">
+        <selectionEntryGroup name="Arm Weapon" id="e55f-b793-49eb-538a" hidden="false" collective="false" import="true" defaultSelectionEntryId="2b68-ccf1-48ef-c09">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="99d3-35c9-64e5-b627-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="99d3-35c9-64e5-b627-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -5118,6 +5013,11 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
+      <rules>
+        <rule name="Manifest Destiny" id="2e0d-e222-75ff-6618" hidden="false">
+          <description>If this unit begins its turn within its deployment zone, increase its base movement to 16&quot; this turn.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="M17 Super Heavy Flamethrower" hidden="false" id="93c8-55cc-790d-95c3">
       <infoLinks>
@@ -5292,8 +5192,8 @@
         </entryLink>
       </entryLinks>
       <rules>
-        <rule name="Kings of the Highway" id="1b1f-687-1025-cd0" hidden="false">
-          <description>If this unit moves at least 14&quot;, its melee attacks get +2 hit until the end of its activation.</description>
+        <rule name="Kings of the Highway" id="3066-d7c5-67df-2d03" hidden="false">
+          <description>If this unit destroys an enemy unit in melee and is not in engagement range of any other enemy units, it may make a free movement action.</description>
         </rule>
       </rules>
     </selectionEntry>
@@ -5725,6 +5625,7 @@
         <infoLink name="Logistics" id="a77e-57a1-312c-f511" hidden="false" targetId="c1ce-d022-923f-3147" type="rule"/>
         <infoLink name="Transport Actions" id="5aeb-c6ea-9fb2-1e20" hidden="false" targetId="d3bd-9092-41d2-8882" type="profile"/>
         <infoLink name="Flying" id="fc45-b418-74e9-d57c" hidden="false" type="rule" targetId="06f4-93c5-6f93-d4df"/>
+        <infoLink name="Aerial Deployment" id="9a2-8f13-e977-a40f" hidden="false" type="rule" targetId="a61e-7e07-d7da-e915"/>
       </infoLinks>
       <costs>
         <cost name="Munitions" typeId="Points" value="116"/>
@@ -5758,6 +5659,7 @@
           </modifiers>
         </infoLink>
         <infoLink name="Flying" id="8086-d43c-4ce7-ce0d" hidden="false" targetId="06f4-93c5-6f93-d4df" type="rule"/>
+        <infoLink name="Aerial Deployment" id="f688-6aed-931-2e82" hidden="false" type="rule" targetId="a61e-7e07-d7da-e915"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Nose Cannon" hidden="false" id="4533-b961-9806-5232" collective="false">
@@ -6404,6 +6306,22 @@
         <infoLink name="Bayonet" id="4f31-a2d4-d6cc-baf4" hidden="false" type="profile" targetId="e09f-44b-9cbb-12a8"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="American Cavalry Officer" hidden="false" id="747e-8878-f614-6ce0">
+      <infoLinks>
+        <infoLink name="Character" id="d538-d0e2-ab1f-fb5e" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Officer Seniority" hidden="false" id="abca-2934-558d-729b" type="selectionEntry" targetId="2a8a-fddf-0126-6a57"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="American Artillery Officer" hidden="false" id="9d15-79f7-4993-3a3">
+      <infoLinks>
+        <infoLink name="Character" id="92d2-fcb4-96d4-6518" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Officer Seniority" hidden="false" id="4b55-2575-6b7b-f6ae" type="selectionEntry" targetId="2a8a-fddf-0126-6a57"/>
+      </entryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="2b58-cfa1-16c1-45b0" name="Forward Communications" hidden="false">
@@ -6741,7 +6659,7 @@
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">E</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">1</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">7</characteristic>
-        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">7</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2+1D10</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Critical Shot, Ammo 1</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Melee</characteristic>
       </characteristics>

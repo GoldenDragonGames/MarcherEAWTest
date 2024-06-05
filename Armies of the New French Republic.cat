@@ -7,12 +7,28 @@
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="a6c2-33ee-ebff-b91f" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f972-563a-233d-80a3" name="Infantry Commissaire Section" hidden="false" collective="false" import="true" targetId="cd9f-b703-126e-e802" type="selectionEntry">
+    <entryLink id="f972-563a-233d-80a3" name="Infantry Commissaire Section" hidden="true" collective="false" import="true" targetId="cd9f-b703-126e-e802" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="ed08-70fa-acf9-da8a" name="Command" hidden="false" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
-        <categoryLink id="a633-48bd-d6b0-775c" name="Infantry Command" hidden="false" targetId="dcc5-ef7f-27fc-a528" primary="true"/>
+        <categoryLink id="ed08-70fa-acf9-da8a" name="Command" hidden="false" targetId="70eb-c264-a9cb-1bfe" primary="true"/>
+        <categoryLink id="a633-48bd-d6b0-775c" name="Infantry Command" hidden="false" targetId="dcc5-ef7f-27fc-a528" primary="false"/>
         <categoryLink id="d50c-bd67-ea13-196d" name="Character" hidden="false" targetId="7165-cf57-cd9c-93da" primary="false"/>
       </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <repeats>
+                <repeat value="-1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink import="true" name="R-1B Liberté Medium Battle Tank" hidden="false" id="b833-f345-1b27-2bb5" type="selectionEntry" targetId="9a66-ec69-5d3-b4e">
       <categoryLinks>
@@ -20,25 +36,58 @@
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="90d8-811f-23a8-36dd" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Tank Commander" hidden="false" id="30e3-8f8e-5840-a827" type="selectionEntry" targetId="6ec0-8f0f-9e79-28ee">
+    <entryLink import="true" name="Tank Commander" hidden="true" id="30e3-8f8e-5840-a827" type="selectionEntry" targetId="6ec0-8f0f-9e79-28ee">
       <categoryLinks>
-        <categoryLink targetId="db00-fa62-c3c0-732d" id="fa8d-715b-ac62-dc88" primary="true" name="Armored Command"/>
+        <categoryLink targetId="db00-fa62-c3c0-732d" id="fa8d-715b-ac62-dc88" primary="false" name="Armored Command"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="4f8b-c2ab-4e02-c984" primary="false" name="Character"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="4ff4-e8a6-b9fa-28c3" primary="false" name="Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="4ff4-e8a6-b9fa-28c3" primary="true" name="Command"/>
       </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="7950-f6f1-38c2-f2dd" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <repeats>
+                <repeat value="-1" repeats="1" field="selections" scope="force" childId="7950-f6f1-38c2-f2dd" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Infantry Officer" hidden="false" id="8cf8-b39a-6878-bb86" type="selectionEntry" targetId="ff85-9e6d-1b0b-36db">
+    <entryLink import="true" name="Infantry Officer" hidden="true" id="8cf8-b39a-6878-bb86" type="selectionEntry" targetId="ff85-9e6d-1b0b-36db">
       <categoryLinks>
-        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="2cf-b43b-eff8-ce64" primary="true" name="Infantry Command"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="f45e-a6a1-fc90-c5de" primary="false" name="Command"/>
+        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="2cf-b43b-eff8-ce64" primary="false" name="Infantry Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="f45e-a6a1-fc90-c5de" primary="true" name="Command"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="545f-4229-ab87-36aa" primary="false" name="Character"/>
       </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <repeats>
+                <repeat value="-1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink import="true" name="CAIM 38 &quot;Danton&quot; Battle Walker" hidden="false" id="d4da-ec20-88a-187e" type="selectionEntry" targetId="ad0f-a685-6afa-cd91">
       <categoryLinks>
         <categoryLink targetId="cac2-586c-2611-93d2" id="d5bf-3f60-654e-c448" primary="true" name="Recon Vehicles"/>
         <categoryLink targetId="481b-63e9-517b-180b" id="46d-6ced-a601-56f2" primary="false" name="Recon"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="38f6-5bb2-73a4-20a" primary="false" name="Unit"/>
+        <categoryLink targetId="7da2-822e-291f-eccc" id="7231-f41-c8b8-74f7" primary="false" name="Walker"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="CAIM 38 &quot;Danton&quot; Support Walker" hidden="false" id="cdc2-c5f7-db94-db11" type="selectionEntry" targetId="f48-371e-f0c0-e0ed">
@@ -47,6 +96,7 @@
         <categoryLink targetId="5db4-bcb6-9f0f-7062" id="effc-7f50-56ac-1d0c" primary="false" name="Support Vehicle"/>
         <categoryLink targetId="7110-7fe8-80e2-5e81" id="402b-cb9d-4b95-6d55" primary="true" name="Support"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="2b10-bd5e-df7-c23b" primary="false" name="Unit"/>
+        <categoryLink targetId="7da2-822e-291f-eccc" id="e24b-5744-fd6b-bc87" primary="false" name="Walker"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Monowheel Chasseurs" hidden="false" id="3729-1817-4804-599f" type="selectionEntry" targetId="20f2-a6ec-487b-6a54">
@@ -67,14 +117,6 @@
         <categoryLink targetId="0463-bfe4-198d-b1a5" id="a1c4-ab94-806a-6e52" primary="true" name="Support Infantry"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="8591-4071-110e-7592" primary="false" name="Unit"/>
         <categoryLink targetId="59ff-44cb-cb53-760d" id="4a5d-a712-9dda-5a56" primary="false" name="Infantry"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Infantry Officer" hidden="false" id="e8c8-9934-561f-8f9e" type="selectionEntry" targetId="ff85-9e6d-1b0b-36db">
-      <categoryLinks>
-        <categoryLink name="Infantry Command" hidden="false" id="d2-23a6-5d81-714e" targetId="dcc5-ef7f-27fc-a528" primary="false"/>
-        <categoryLink name="Command" hidden="false" id="172e-8bcd-e4e8-bccd" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
-        <categoryLink name="Character" hidden="false" id="4dbf-81c6-7ec4-13d8" targetId="7165-cf57-cd9c-93da" primary="false"/>
-        <categoryLink targetId="ac96-6e42-7e7b-1947" id="fb74-fca1-bcc3-98fa" primary="true" name="Support Command"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="CSM 38A Breaching Drill" hidden="false" id="d2d-e4f1-4989-b087" type="selectionEntry" targetId="16d-5c9e-eb0c-38f5">
@@ -98,19 +140,28 @@
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="c6c6-aa16-2bc6-b57b" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Colonel Charles De Gaulle" hidden="false" id="786b-48e2-d8c5-83a5" type="selectionEntry" targetId="2ac7-d8ba-713c-c7e2">
+    <entryLink import="true" name="Colonel Charles De Gaulle" hidden="true" id="786b-48e2-d8c5-83a5" type="selectionEntry" targetId="2ac7-d8ba-713c-c7e2">
       <categoryLinks>
-        <categoryLink targetId="db00-fa62-c3c0-732d" id="de39-b42b-2b76-5788" primary="true" name="Armored Command"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="722b-1b7c-fab3-a48a" primary="false" name="Command"/>
+        <categoryLink targetId="db00-fa62-c3c0-732d" id="de39-b42b-2b76-5788" primary="false" name="Armored Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="722b-1b7c-fab3-a48a" primary="true" name="Command"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="f050-787b-ccc6-cf7a" primary="false" name="Character"/>
       </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Colonel Charles De Gaulle" hidden="false" id="5f3b-3393-af1a-bad4" type="selectionEntry" targetId="2ac7-d8ba-713c-c7e2">
-      <categoryLinks>
-        <categoryLink targetId="f787-f73c-7a5b-534c" id="52c7-41df-d93a-8159" primary="true" name="Recon Command"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="c794-3033-819f-8fd5" primary="false" name="Command"/>
-        <categoryLink targetId="7165-cf57-cd9c-93da" id="6191-2c75-1078-9527" primary="false" name="Character"/>
-      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="7950-f6f1-38c2-f2dd" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <repeats>
+                <repeat value="-1" repeats="1" field="selections" scope="force" childId="7950-f6f1-38c2-f2dd" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink import="true" name="Towed Gun Carriages" hidden="false" id="1a86-64b8-ed3c-75d8" type="selectionEntry" targetId="8673-f3ee-1559-e3f8">
       <categoryLinks>
@@ -119,33 +170,51 @@
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="af7-21f0-ce2e-26df" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Infantry Officer" hidden="false" id="d4f6-fbee-7acc-7aca" type="selectionEntry" targetId="ff85-9e6d-1b0b-36db">
+    <entryLink import="true" name="Major Marie Courtemanche" hidden="true" id="8c64-4967-ceb9-778e" type="selectionEntry" targetId="42b0-6cfa-62df-10c3">
       <categoryLinks>
-        <categoryLink name="Infantry Command" hidden="false" id="93d5-dfc3-21ca-30d4" targetId="dcc5-ef7f-27fc-a528" primary="false"/>
-        <categoryLink name="Command" hidden="false" id="236-610b-50f5-56e5" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
-        <categoryLink name="Character" hidden="false" id="1d87-3cf0-3a8b-7134" targetId="7165-cf57-cd9c-93da" primary="false"/>
-        <categoryLink targetId="7e88-f603-cf53-1d85" id="110b-7cf6-f9e9-24c4" primary="true" name="Artillery Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Major Marie Courtemanche" hidden="false" id="8c64-4967-ceb9-778e" type="selectionEntry" targetId="42b0-6cfa-62df-10c3">
-      <categoryLinks>
-        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="7506-c470-ce24-cebd" primary="true" name="Infantry Command"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="bf31-39a1-8a1a-7c7" primary="false" name="Command"/>
+        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="7506-c470-ce24-cebd" primary="false" name="Infantry Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="bf31-39a1-8a1a-7c7" primary="true" name="Command"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="cd8-3aac-d130-6623" primary="false" name="Character"/>
       </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <repeats>
+                <repeat value="-1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Major Marie Courtemanche" hidden="false" id="4b2c-d461-4cab-bbb3" type="selectionEntry" targetId="42b0-6cfa-62df-10c3">
+    <entryLink import="true" name="MonoWheel Chasseur Chief Scout" hidden="true" id="d847-23dd-d30d-4c13" type="selectionEntry" targetId="1de4-fae5-f608-e737">
       <categoryLinks>
-        <categoryLink targetId="f787-f73c-7a5b-534c" id="b639-48ad-c9ad-8cb9" primary="true" name="Recon Command"/>
-        <categoryLink targetId="7165-cf57-cd9c-93da" id="6881-f467-e733-1701" primary="false" name="Character"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="MonoWheel Chasseur Chief Scout" hidden="false" id="d847-23dd-d30d-4c13" type="selectionEntry" targetId="1de4-fae5-f608-e737">
-      <categoryLinks>
-        <categoryLink targetId="f787-f73c-7a5b-534c" id="80a0-7e6d-ef40-d053" primary="true" name="Recon Command"/>
+        <categoryLink targetId="f787-f73c-7a5b-534c" id="80a0-7e6d-ef40-d053" primary="false" name="Recon Command"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="2938-c3d2-359a-ea17" primary="false" name="Character"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="f4e3-f472-100c-9dd2" primary="false" name="Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="f4e3-f472-100c-9dd2" primary="true" name="Command"/>
       </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="20f2-a6ec-487b-6a54" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <repeats>
+                <repeat value="-1" repeats="1" field="selections" scope="force" childId="3729-1817-4804-599f" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink import="true" name="Partisans" hidden="false" id="d528-fbe8-4b40-3b08" type="selectionEntry" targetId="fb71-27e8-4481-b3d0">
       <categoryLinks>
@@ -180,6 +249,50 @@
         <categoryLink targetId="7950-f6f1-38c2-f2dd" id="89ae-495f-a5a1-5d63" primary="true" name="Armor"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="7e41-b867-2738-dd25" primary="false" name="Unit"/>
       </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Artillery Officer" hidden="true" id="d266-74e7-13c5-491" type="selectionEntry" targetId="cde5-a677-c4bf-a244">
+      <categoryLinks>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="ccaf-269e-5b96-c23c" primary="true" name="Command"/>
+        <categoryLink targetId="7e88-f603-cf53-1d85" id="e10b-b0be-f4c1-eadc" primary="false" name="Artillery Command"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="27cf-5cae-ad71-1584" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <repeats>
+                <repeat value="-1" repeats="1" field="selections" scope="force" childId="27cf-5cae-ad71-1584" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Recon Commander" hidden="true" id="3b7c-2ef8-416b-f599" type="selectionEntry" targetId="f06e-5941-343c-7d9a">
+      <categoryLinks>
+        <categoryLink name="Command" hidden="false" id="802a-6d46-b422-c8bd" targetId="70eb-c264-a9cb-1bfe" primary="true"/>
+        <categoryLink targetId="f787-f73c-7a5b-534c" id="92d1-8de8-3bbf-535b" primary="false" name="Recon Command"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="cac2-586c-2611-93d2" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <repeats>
+                <repeat value="-1" repeats="1" field="selections" scope="force" childId="cac2-586c-2611-93d2" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -742,6 +855,20 @@
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3843-6eab-bfbc-8246" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Coaxial Machine Gun" hidden="false" id="e6b1-cc0f-e9e3-84b0">
+          <entryLinks>
+            <entryLink import="true" name="Reibel Heavy Machine Gun" hidden="false" id="1ef6-38bc-9183-9ad" type="selectionEntry" targetId="6255-e891-a7d0-cb6e">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d617-623b-a04a-1e2a-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d617-623b-a04a-1e2a-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="44b6-1c29-2fe6-3936-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="44b6-1c29-2fe6-3936-max" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -1548,6 +1675,22 @@
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d7e-929c-557b-983c"/>
               </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Coaxial Machine Gun" hidden="false" id="cce-9358-23fc-a8f">
+                  <entryLinks>
+                    <entryLink import="true" name="Reibel Heavy Machine Gun" hidden="false" id="6279-7fe0-99d3-94d6" type="selectionEntry" targetId="6255-e891-a7d0-cb6e">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1200-4d30-f0de-e534-min" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1200-4d30-f0de-e534-max" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a824-7e78-c104-42d7-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a824-7e78-c104-42d7-max" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Pintle Weapon" hidden="false" id="88cc-9c2-4970-20ad">
               <entryLinks>
@@ -1676,6 +1819,22 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Coaxial Machine Gun" hidden="false" id="dbaa-cdf8-e2e3-1f1a">
+          <entryLinks>
+            <entryLink import="true" name="Reibel Heavy Machine Gun" hidden="false" id="6b5-480b-eeb5-6696" type="selectionEntry" targetId="6255-e891-a7d0-cb6e">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="16f9-67c9-3228-c090-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="16f9-67c9-3228-c090-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e389-6b49-76b6-d235-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e389-6b49-76b6-d235-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Colonel Charles De Gaulle" hidden="false" id="2ac7-d8ba-713c-c7e2">
       <costs>
@@ -1821,7 +1980,7 @@
         <infoLink name="Sidearm" id="9161-d6ae-33ec-9632" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="MonoWheel Chasseur Chief Scout" hidden="false" id="1de4-fae5-f608-e737">
+    <selectionEntry type="model" import="true" name="Monowheel Chasseur Chief Scout" hidden="false" id="1de4-fae5-f608-e737">
       <entryLinks>
         <entryLink import="true" name="Officer Seniority" hidden="false" id="a25b-6b02-c85a-fe95" type="selectionEntry" targetId="5354-e9b5-1b87-4595">
           <constraints>
@@ -2302,7 +2461,7 @@
       </costs>
       <rules>
         <rule name="Faire le Zouave" id="f784-e708-fe54-fcd5" hidden="false">
-          <description>When this unit makes an attack action, it may make an additional movement action.</description>
+          <description>When this unit makes an ranged attack action, it may make an additional movement action.</description>
         </rule>
       </rules>
     </selectionEntry>
@@ -2426,6 +2585,22 @@
           <description>When this unit is destroyed, gain 2 intel points.</description>
         </rule>
       </rules>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Coaxial Machine Gun" hidden="false" id="5403-d067-903f-4d09">
+          <entryLinks>
+            <entryLink import="true" name="Reibel Heavy Machine Gun" hidden="false" id="8f33-f2c-9e89-9a9b" type="selectionEntry" targetId="6255-e891-a7d0-cb6e">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1a2e-e391-cb8-472e-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a2e-e391-cb8-472e-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c95c-24d-36-99b-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c95c-24d-36-99b-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Gros Canon de Plasma" hidden="false" id="d61a-f478-1218-457d">
       <infoLinks>
@@ -2446,6 +2621,47 @@
       </costs>
       <infoLinks>
         <infoLink name="Gros Canon de Chaleur" id="4957-fdb-d04d-e85c" hidden="false" type="profile" targetId="ca7c-afde-49ea-6e88"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Recon Commander" hidden="false" id="f06e-5941-343c-7d9a">
+      <entryLinks>
+        <entryLink import="true" name="Officer Seniority" hidden="false" id="825f-fd5f-d4dd-a90d" type="selectionEntry" targetId="5354-e9b5-1b87-4595">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cf05-1d3d-baa6-3012" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da5a-766b-f6a7-bc46" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Character" id="921e-e66c-e7bc-a8f5" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="École de Cavalerie Graduate" hidden="false" id="4ace-6aae-689-4a02">
+          <costs>
+            <cost name="Munitions" typeId="Points" value="15"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Critical Shot" id="abfb-1d65-3c75-8da5" hidden="false" type="rule" targetId="a53f-6c4f-8514-7703"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c4-e080-723-d2b7" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Artillery Officer" hidden="false" id="cde5-a677-c4bf-a244">
+      <entryLinks>
+        <entryLink import="true" name="Officer Seniority" hidden="false" id="7aee-873b-a770-b2a3" type="selectionEntry" targetId="5354-e9b5-1b87-4595">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b06b-2ba0-56f2-354a" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c638-bc79-a36c-fb64" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Character" id="36cb-e729-c036-285b" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>

@@ -7,9 +7,9 @@
   <forceEntries>
     <forceEntry id="94df-db09-3266-46a5" name="Zeppelin Task Force" hidden="false">
       <categoryLinks>
+        <categoryLink name="Command" hidden="false" id="f002-cc6b-e643-2364" targetId="70eb-c264-a9cb-1bfe" type="category"/>
         <categoryLink id="96fb-d65a-9c59-07ec" name="Zeppelin" hidden="false" targetId="d3e6-9cfb-4ddb-2020" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="4" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d18-c4e7-cc54-e5e0" type="max"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7d2-7502-bcb4-ff8a" type="min"/>
           </constraints>
         </categoryLink>
@@ -23,6 +23,19 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cacb-dfe6-6484-b4ef" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63fc-7113-979d-2c8d" type="max"/>
           </constraints>
+        </categoryLink>
+        <categoryLink name="Unit" hidden="false" id="b6e7-fb89-5f21-c913" targetId="1e39-16b1-cedd-2cc6">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="f52b-5c5a-8729-4169" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="a1d5-fb2-9eea-7a38" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="a1d5-fb2-9eea-7a38">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="ec55-b910-8dde-4365" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -206,33 +219,74 @@
         <categoryLink id="43bf-5b11-f130-aa41" name="Zeppelin Configuration" hidden="false" targetId="fb3d-fd4e-cbbf-62d7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="9377-d93b-c74d-0eca" name="Franz Von Trotta" hidden="false" collective="false" import="true" targetId="d6bb-21c6-c241-bfe6" type="selectionEntry">
+    <entryLink id="9377-d93b-c74d-0eca" name="Franz Von Trotta" hidden="true" collective="false" import="true" targetId="d6bb-21c6-c241-bfe6" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="cdc9-08d0-2021-f6c2" name="Command" hidden="false" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
-        <categoryLink id="9b90-1181-c110-67de" name="Infantry Command" hidden="false" targetId="dcc5-ef7f-27fc-a528" primary="true"/>
+        <categoryLink id="cdc9-08d0-2021-f6c2" name="Command" hidden="false" targetId="70eb-c264-a9cb-1bfe" primary="true"/>
+        <categoryLink id="9b90-1181-c110-67de" name="Infantry Command" hidden="false" targetId="dcc5-ef7f-27fc-a528" primary="false"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="ee1c-d220-c3b4-b946" primary="false" name="Character"/>
       </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <repeats>
+                <repeat value="-1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Franz Von Trotta" hidden="false" id="6e66-1e47-7b5e-6858" type="selectionEntry" targetId="d6bb-21c6-c241-bfe6">
+    <entryLink import="true" name="Imperial Infantry Officer" hidden="true" id="18ca-6b6a-265-3eb2" type="selectionEntry" targetId="1686-ad0d-1d5f-63f8">
       <categoryLinks>
-        <categoryLink targetId="f787-f73c-7a5b-534c" id="1c90-18a7-eddf-73ba" primary="true" name="Recon Command"/>
-        <categoryLink targetId="7165-cf57-cd9c-93da" id="40aa-6bb3-c3f2-83a1" primary="false" name="Character"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="c960-1ad7-b7c5-4fdd" primary="false" name="Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Imperial Infantry Officer" hidden="false" id="18ca-6b6a-265-3eb2" type="selectionEntry" targetId="1686-ad0d-1d5f-63f8">
-      <categoryLinks>
-        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="72d4-a7aa-d285-8c33" primary="true" name="Infantry Command"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="e6a9-61cb-807e-a8ec" primary="false" name="Command"/>
+        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="72d4-a7aa-d285-8c33" primary="false" name="Infantry Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="e6a9-61cb-807e-a8ec" primary="true" name="Command"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="218a-fdf4-ad9f-3010" primary="false" name="Character"/>
       </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <repeats>
+                <repeat value="-1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Imperial Tank Officer" hidden="false" id="a45f-c562-eee7-1b59" type="selectionEntry" targetId="918b-b96f-ee87-c9b1">
+    <entryLink import="true" name="Imperial Tank Officer" hidden="true" id="a45f-c562-eee7-1b59" type="selectionEntry" targetId="918b-b96f-ee87-c9b1">
       <categoryLinks>
-        <categoryLink targetId="db00-fa62-c3c0-732d" id="c798-7568-60ea-abc1" primary="true" name="Armored Command"/>
+        <categoryLink targetId="db00-fa62-c3c0-732d" id="c798-7568-60ea-abc1" primary="false" name="Armored Command"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="8725-793d-ab8c-ecce" primary="false" name="Character"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="d0a6-f7b1-9357-72b4" primary="false" name="Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="d0a6-f7b1-9357-72b4" primary="true" name="Command"/>
       </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="7950-f6f1-38c2-f2dd" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <repeats>
+                <repeat value="-1" repeats="1" field="selections" scope="force" childId="7950-f6f1-38c2-f2dd" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink import="true" name="Ritter Class Sturmzeppelin" hidden="false" id="93eb-ef61-d810-203d" collective="false" targetId="68a5-d0c4-b069-0a80" type="selectionEntry">
       <categoryLinks>
@@ -242,64 +296,50 @@
         <categoryLink targetId="ec55-b910-8dde-4365" id="f20a-f632-7cc1-49ec" primary="false" name="Dedicated Transport"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Imperial Tank Officer" hidden="false" id="baae-2662-8b8-ef7f" type="selectionEntry" targetId="918b-b96f-ee87-c9b1">
+    <entryLink import="true" name="Imperial Knecht Officer" hidden="true" id="6670-7e8c-f845-b5ec" type="selectionEntry" targetId="73b3-51f6-6076-2dcd">
       <categoryLinks>
-        <categoryLink name="Armored Command" hidden="false" id="1cb-93f4-eb6c-873d" targetId="db00-fa62-c3c0-732d" primary="false"/>
-        <categoryLink name="Character" hidden="false" id="181d-674d-ebe3-e93a" targetId="7165-cf57-cd9c-93da" primary="false"/>
-        <categoryLink targetId="f787-f73c-7a5b-534c" id="f2f2-95c7-6d2a-6daf" primary="true" name="Recon Command"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="bab0-3c6f-692-5d8b" primary="false" name="Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Imperial Tank Officer" hidden="false" id="9635-d25f-7ba0-1003" type="selectionEntry" targetId="918b-b96f-ee87-c9b1">
-      <categoryLinks>
-        <categoryLink name="Armored Command" hidden="false" id="accf-ffb-3f53-7581" targetId="db00-fa62-c3c0-732d" primary="false"/>
-        <categoryLink name="Character" hidden="false" id="3a2d-3cf1-8602-ec69" targetId="7165-cf57-cd9c-93da" primary="false"/>
-        <categoryLink targetId="ac96-6e42-7e7b-1947" id="1a5c-249c-54c5-60e3" primary="true" name="Support Command"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="361e-94c9-c83b-a6e2" primary="false" name="Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Imperial Infantry Officer" hidden="false" id="7e3b-2c7-ba58-9e40" type="selectionEntry" targetId="1686-ad0d-1d5f-63f8">
-      <categoryLinks>
-        <categoryLink name="Infantry Command" hidden="false" id="b309-9b28-15b7-a6a9" targetId="dcc5-ef7f-27fc-a528" primary="false"/>
-        <categoryLink name="Command" hidden="false" id="64d2-d0b-d10d-35ff" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
-        <categoryLink name="Character" hidden="false" id="4485-abac-b9c4-574c" targetId="7165-cf57-cd9c-93da" primary="false"/>
-        <categoryLink targetId="7e88-f603-cf53-1d85" id="2233-dc63-289a-ac61" primary="true" name="Artillery Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Imperial Infantry Officer" hidden="false" id="44de-7dec-bacc-110e" type="selectionEntry" targetId="1686-ad0d-1d5f-63f8">
-      <categoryLinks>
-        <categoryLink name="Infantry Command" hidden="false" id="74a2-6c08-2701-abfd" targetId="dcc5-ef7f-27fc-a528" primary="false"/>
-        <categoryLink name="Command" hidden="false" id="6387-d032-4ec8-864d" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
-        <categoryLink name="Character" hidden="false" id="20f3-e008-d537-f8d5" targetId="7165-cf57-cd9c-93da" primary="false"/>
-        <categoryLink targetId="f787-f73c-7a5b-534c" id="fabc-6640-d76a-3563" primary="true" name="Recon Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Imperial Infantry Officer" hidden="false" id="79a2-4bb7-64ae-262a" type="selectionEntry" targetId="1686-ad0d-1d5f-63f8">
-      <categoryLinks>
-        <categoryLink name="Infantry Command" hidden="false" id="37d0-d054-9f65-cdbd" targetId="dcc5-ef7f-27fc-a528" primary="false"/>
-        <categoryLink name="Command" hidden="false" id="4dc0-6288-4bce-e6d0" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
-        <categoryLink name="Character" hidden="false" id="c114-9119-44fd-d49d" targetId="7165-cf57-cd9c-93da" primary="false"/>
-        <categoryLink targetId="ac96-6e42-7e7b-1947" id="d764-2c64-9afb-5faf" primary="true" name="Support Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Imperial Kneckt Officer" hidden="false" id="6670-7e8c-f845-b5ec" type="selectionEntry" targetId="73b3-51f6-6076-2dcd">
-      <categoryLinks>
-        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="bf8e-fccc-9d62-bd37" primary="true" name="Infantry Command"/>
+        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="bf8e-fccc-9d62-bd37" primary="false" name="Infantry Command"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="772b-bacd-75f-5b68" primary="false" name="Character"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="3fa8-a47b-7dcc-e782" primary="false" name="Command"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="3fa8-a47b-7dcc-e782" primary="true" name="Command"/>
       </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="72da-15ed-1a55-d98a" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <repeats>
+                <repeat value="-1" repeats="1" field="selections" scope="force" childId="72da-15ed-1a55-d98a" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Imperial Kneckt Officer" hidden="false" id="d735-a762-2848-653c" type="selectionEntry" targetId="73b3-51f6-6076-2dcd">
-      <categoryLinks>
-        <categoryLink name="Character" hidden="false" id="a085-f3ed-68f8-dc64" targetId="7165-cf57-cd9c-93da" primary="false"/>
-        <categoryLink targetId="ac96-6e42-7e7b-1947" id="9ef9-15a-f0a0-cafb" primary="true" name="Support Command"/>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="a28d-16f6-407f-4c13" primary="false" name="Command"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Chaim Drescher: The Maccabean Knight" hidden="false" id="c5f0-9ac-bb2-2123" type="selectionEntry" targetId="65f3-ca93-8947-17fd">
+    <entryLink import="true" name="Chaim Drescher: The Maccabean Knight" hidden="true" id="c5f0-9ac-bb2-2123" type="selectionEntry" targetId="65f3-ca93-8947-17fd">
       <categoryLinks>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="c0c-70ee-f7e0-2ad7" primary="false" name="Character"/>
+        <categoryLink targetId="33a5-8b7e-49bb-c30d" id="d1fc-e96b-1f18-a471" primary="true" name="Heroes"/>
       </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="72da-15ed-1a55-d98a" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <repeats>
+                <repeat value="-1" repeats="1" field="selections" scope="force" childId="72da-15ed-1a55-d98a" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink import="true" name="Pinzgauer Supply Truck" hidden="false" id="c4ec-fcb9-5f86-4c39" type="selectionEntry" targetId="ed6d-c907-b932-1d25">
       <categoryLinks>
@@ -315,6 +355,52 @@
         <categoryLink targetId="d4be-5aad-8560-5720" id="dc9a-3662-ba4b-26f9" primary="true" name="Light Transports"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="46ab-c075-2f80-ebdb" primary="false" name="Unit"/>
       </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Imperial Recon Officer" hidden="true" id="88a5-8599-4235-d7de" type="selectionEntry" targetId="6be8-2c76-e3b5-9a75">
+      <categoryLinks>
+        <categoryLink name="Armored Command" hidden="false" id="5c23-6181-fa3f-2be7" targetId="db00-fa62-c3c0-732d" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="98c8-a3ae-fe4-8f38" targetId="7165-cf57-cd9c-93da" primary="false"/>
+        <categoryLink name="Command" hidden="false" id="8562-ef66-aac4-eebc" targetId="70eb-c264-a9cb-1bfe" primary="true"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="cac2-586c-2611-93d2" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <repeats>
+                <repeat value="-1" repeats="1" field="selections" scope="force" childId="cac2-586c-2611-93d2" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Imperial Artillery Officer" hidden="true" id="db4c-2911-e82d-2ebd" type="selectionEntry" targetId="812f-944d-9ee8-bd90">
+      <categoryLinks>
+        <categoryLink name="Armored Command" hidden="false" id="f7a9-df90-65f8-7dc9" targetId="db00-fa62-c3c0-732d" primary="false"/>
+        <categoryLink name="Character" hidden="false" id="e2b6-24ee-8c87-db1b" targetId="7165-cf57-cd9c-93da" primary="false"/>
+        <categoryLink name="Command" hidden="false" id="5cb1-74c7-14d4-6517" targetId="70eb-c264-a9cb-1bfe" primary="true"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="27cf-5cae-ad71-1584" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <repeats>
+                <repeat value="-1" repeats="1" field="selections" scope="force" childId="27cf-5cae-ad71-1584" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -3116,7 +3202,7 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8977-05aa-cd6e-8a24" name="Zeppelinjäger Scharfschütze Team" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8977-05aa-cd6e-8a24" name="Zeppelinjäger Scharfschütze Team" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="67ac-f9c5-a874-757b" name="Zeppelinjäger Scharfschütze Team" hidden="false" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition">
           <characteristics>
@@ -3589,8 +3675,8 @@
     </selectionEntry>
     <selectionEntry id="684a-d6eb-8497-815b" name="Zeppelin Task Force Abilities" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink id="9bfb-4677-5e50-2001" name="Infantry Configuration" hidden="false" targetId="85c7-9688-a121-1bdc" primary="true"/>
-        <categoryLink id="af88-47ec-7407-4015" name="Infantry Configuration" hidden="false" targetId="85c7-9688-a121-1bdc" primary="false"/>
+        <categoryLink id="9bfb-4677-5e50-2001" name="Infantry Platoon Configuration" hidden="false" targetId="85c7-9688-a121-1bdc" primary="true"/>
+        <categoryLink id="af88-47ec-7407-4015" name="Infantry Platoon Configuration" hidden="false" targetId="85c7-9688-a121-1bdc" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8328-5870-ad86-ba38" name="Looming Behemoth" hidden="false" collective="false" import="true" type="upgrade">
@@ -3792,91 +3878,18 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2b9-b39b-e6a0-27d7-max" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Officer Seniority" hidden="false" id="13a7-f663-92ec-8416" type="selectionEntry" targetId="f6c7-8ea6-b7ab-64be">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c557-5387-1681-f646-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c557-5387-1681-f646-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Munitions" typeId="Points" value="8"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
       </costs>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Officer Seniority" hidden="false" id="e0a9-beac-5713-b467" collective="false">
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Officer Seniority" id="88b-5371-c5df-92bb" hidden="false" collective="false" import="true" defaultSelectionEntryId="db49-37af-7592-e2f1">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b9b2-782a-91d4-338f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ca8f-fdc7-d6b-5584" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="C1 - Leutnant" hidden="false" id="db49-37af-7592-e2f1" collective="false">
-                  <infoLinks>
-                    <infoLink name="Command" id="32bf-9f02-f34a-ed36" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                      <modifiers>
-                        <modifier type="append" value="1" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="40"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="C2 - Hauptmann" hidden="false" id="b06d-5192-84c3-fb6a" collective="false">
-                  <infoLinks>
-                    <infoLink name="Command" id="ab25-891c-fa0e-dd5c" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                      <modifiers>
-                        <modifier type="append" value="2" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="80"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="C3 - Major" hidden="false" id="df3c-bd57-b291-7692" collective="false">
-                  <infoLinks>
-                    <infoLink name="Command" id="ac27-cc29-601e-ae9e" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                      <modifiers>
-                        <modifier type="append" value="3" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="120"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="C4 - Oberst" hidden="false" id="f214-4b2e-4ec1-fc78" collective="false">
-                  <infoLinks>
-                    <infoLink name="Command" id="7fd6-16ac-5c6a-4e3" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                      <modifiers>
-                        <modifier type="append" value="4" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="160"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-            <cost name="Munitions" typeId="Points" value="0"/>
-            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c2cd-97d0-c4fc-d68e-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c2cd-97d0-c4fc-d68e-max" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="Sidearm" id="ff11-1d6-63d0-4104" hidden="false" defaultSelectionEntryId="3a82-ff3d-3c47-620">
           <entryLinks>
@@ -3892,91 +3905,21 @@
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Imperial Tank Officer" hidden="false" id="918b-b96f-ee87-c9b1">
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Officer Seniority" hidden="false" id="f205-5dab-7d3-1a70" collective="false">
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Officer Seniority" id="64d9-b91e-f538-a1e6" hidden="false" collective="false" import="true" defaultSelectionEntryId="626e-762f-4ee1-6845">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da8c-9abc-6cd5-e019" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="382d-d11b-8af6-1b1e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="C1 - Leutnant" hidden="false" id="626e-762f-4ee1-6845" collective="false">
-                  <infoLinks>
-                    <infoLink name="Command" id="3e34-5154-64e-99f9" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                      <modifiers>
-                        <modifier type="append" value="1" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="40"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="C2 - Hauptmann" hidden="false" id="e37e-c989-23be-cd5b" collective="false">
-                  <infoLinks>
-                    <infoLink name="Command" id="910f-9b95-8d8-7623" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                      <modifiers>
-                        <modifier type="append" value="2" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="80"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="C3 - Major" hidden="false" id="4fb7-9687-6143-dfd" collective="false">
-                  <infoLinks>
-                    <infoLink name="Command" id="b4dd-245e-4ecc-beb6" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                      <modifiers>
-                        <modifier type="append" value="3" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="120"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="C4 - Oberst" hidden="false" id="ae3c-b5dd-7124-8e0d" collective="false">
-                  <infoLinks>
-                    <infoLink name="Command" id="d43a-bf00-ae26-889c" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                      <modifiers>
-                        <modifier type="append" value="4" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="160"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-            <cost name="Munitions" typeId="Points" value="0"/>
-            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-          </costs>
+      <infoLinks>
+        <infoLink name="Character" id="1f2d-7a0f-40f2-9290" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Officer Seniority" hidden="false" id="d85b-ffd3-3594-f011" type="selectionEntry" targetId="f6c7-8ea6-b7ab-64be">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9319-eb0b-981-e3ad-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9319-eb0b-981-e3ad-max" includeChildSelections="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1f1d-2d74-2907-d909-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f1d-2d74-2907-d909-max"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6cbf-2170-2325-652d-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6cbf-2170-2325-652d-max" includeChildSelections="false"/>
           </constraints>
-        </selectionEntry>
-      </selectionEntries>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Imperial Knecht Officer" hidden="false" id="73b3-51f6-6076-2dcd" collective="false">
       <profiles>
-        <profile name="Imperial Kneckt Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="8688-bc29-5c35-7d32">
+        <profile name="Imperial Knecht Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="8688-bc29-5c35-7d32">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Imperial Kneckt Officer</characteristic>
             <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Infantry, Character, Warsuit</characteristic>
@@ -4018,91 +3961,18 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="289f-4e9d-2e5e-e50" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Officer Seniority" hidden="false" id="7a0f-7f8d-9ee0-dfe1" type="selectionEntry" targetId="f6c7-8ea6-b7ab-64be">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="43-d113-d92f-e392-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="43-d113-d92f-e392-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Munitions" typeId="Points" value="46"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
       </costs>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Officer Seniority" hidden="false" id="10fb-ad76-571f-b5d4" collective="false">
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Officer Seniority" id="1f74-acca-26cb-935f" hidden="false" collective="false" import="true" defaultSelectionEntryId="df94-e043-ac10-36a8">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5fbe-6af0-97bd-e51f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2739-32c0-c7b3-64f3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="C1 - Leutnant" hidden="false" id="df94-e043-ac10-36a8" collective="false">
-                  <infoLinks>
-                    <infoLink name="Command" id="3390-8b95-c47c-aed" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                      <modifiers>
-                        <modifier type="append" value="1" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="40"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="C2 - Hauptmann" hidden="false" id="fe14-cc31-db3f-37c0" collective="false">
-                  <infoLinks>
-                    <infoLink name="Command" id="d57d-590b-a68-2655" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                      <modifiers>
-                        <modifier type="append" value="2" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="80"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="C3 - Major" hidden="false" id="6edd-d30f-9eab-65dc" collective="false">
-                  <infoLinks>
-                    <infoLink name="Command" id="f001-b285-8bcf-e9b0" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                      <modifiers>
-                        <modifier type="append" value="3" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="120"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="C4 - Oberst" hidden="false" id="4991-b9e-9e91-7b91" collective="false">
-                  <infoLinks>
-                    <infoLink name="Command" id="3047-a356-ea5b-a3bf" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
-                      <modifiers>
-                        <modifier type="append" value="4" field="name"/>
-                      </modifiers>
-                    </infoLink>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="160"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-            <cost name="Munitions" typeId="Points" value="0"/>
-            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5a75-7678-d412-f9f2-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a75-7678-d412-f9f2-max" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="Weapon" id="580-b42a-9cc1-c38c" hidden="false" collective="false" import="true" defaultSelectionEntryId="c0cc-a2bc-b6ea-6233">
           <constraints>
@@ -4173,7 +4043,7 @@
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d235-5822-f16d-291a-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Kneckt Hellebarde" hidden="false" id="5b77-5bc-f13e-eb6" collective="false" targetId="37d5-5d34-dfe6-51eb" type="selectionEntry">
+            <entryLink import="true" name="Knecht Hellebarde" hidden="false" id="5b77-5bc-f13e-eb6" collective="false" targetId="37d5-5d34-dfe6-51eb" type="selectionEntry">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="837e-12f6-166-652c-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="837e-12f6-166-652c-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -4288,6 +4158,32 @@
           <description>The Imperial Staff Car may only transport units that include an officer.</description>
         </rule>
       </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Imperial Recon Officer" hidden="false" id="6be8-2c76-e3b5-9a75">
+      <infoLinks>
+        <infoLink name="Character" id="9eb4-c20f-7fcd-442d" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Officer Seniority" hidden="false" id="f8c7-4a16-a28-7e1d" type="selectionEntry" targetId="f6c7-8ea6-b7ab-64be">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8e9b-c88f-b79-e999-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e9b-c88f-b79-e999-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Imperial Artillery Officer" hidden="false" id="812f-944d-9ee8-bd90">
+      <infoLinks>
+        <infoLink name="Character" id="345-c00c-da9e-235d" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Officer Seniority" hidden="false" id="f011-eb4b-5204-183e" type="selectionEntry" targetId="f6c7-8ea6-b7ab-64be">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="410a-dd07-b3f9-4a93-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="410a-dd07-b3f9-4a93-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
