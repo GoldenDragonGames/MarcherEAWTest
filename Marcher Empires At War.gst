@@ -59,7 +59,6 @@
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42e5-b83b-401a-1b12" type="min"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="7fd2-5428-8303-8140" name="Crew" hidden="false"/>
     <categoryEntry id="662c-810b-f0f7-8258" name="Configuration" hidden="false"/>
     <categoryEntry id="8d88-522f-d086-d712" name="Armor Platoon Configuration" hidden="false"/>
     <categoryEntry id="a448-7c15-64c5-b50f" name="Artillery Platoon Configuration" hidden="false"/>
@@ -730,14 +729,11 @@
     <rule id="1fc3-97a8-e24a-a084" name="Crushing Treads" hidden="false">
       <description>This Unit may pass through Light Fortifications when taking the move action, if it does so, remove those objects from the battlefield.</description>
     </rule>
-    <rule id="b61a-cd3a-75d6-8152" name="Operator" hidden="false">
-      <description>This unit requires at least X crewmembers to use actions.</description>
-    </rule>
     <rule id="a53f-6c4f-8514-7703" name="Critical Shot" hidden="false">
       <description>When rolling to attack with this weapon, if you roll a 10, score an additional hit.</description>
     </rule>
     <rule id="4911-2380-864d-8b44" name="Suppressive" hidden="false">
-      <description>When a Unit is attacked with this weapon, they gain X number of additional Suppression Tokens.</description>
+      <description>When a Unit is attacked with this weapon, it gains one additional Suppression Token.</description>
     </rule>
     <rule id="5d4a-ecea-623a-a136" name="Blast" hidden="false">
       <description>Blast templates used by this unit are of diameter X. When performing an attack action with this weapon, select a Blast template within this weapon&apos;s range. This attack automatically hits any units that have models within the template.  Remove the template after resolving an attack.</description>
@@ -780,9 +776,6 @@
     </rule>
     <rule id="49c6-4812-80b8-83cf" name="Deployed Weapon" hidden="false">
       <description>This Unit may not take the Attack Action if it has also taken the Move action this turn.</description>
-    </rule>
-    <rule id="c5b5-2ae1-918d-19fb" name="Vehicle Crew" hidden="false">
-      <description>This unit can not be taken in any platoons. Instead for each model with the CREW X keyword take X amount of Vehicle Crew models. Leave these models to the side during deployment. Vehicle Crew members can take the Mount or Dismount action at any time when the vehicle they are crewing is activated.</description>
     </rule>
     <rule id="4f67-c752-6049-dfdc" name="Demolition Charges" hidden="false">
       <description>This Unit may take the &quot;Demolish&quot; action against any piece of Light Terrain within range.</description>
@@ -870,10 +863,34 @@ Until the end of this round all vehicle Units in this platoon increase their Eva
       <description>This unit may not control objectives</description>
     </rule>
     <rule name="Aerial Deployment" id="a61e-7e07-d7da-e915" hidden="false">
-      <description>Instead of deploying this unit at the start of the game, you may declare that this model is using aerial deployment. An aerial model may activate only after all non-aerial units in your army have activated this turn. The first time an aerial unit activates, you may deploy it no closer than 10&quot; from an enemy unit.</description>
+      <description>Instead of deploying this unit at the start of the game, you may declare that this model is using aerial deployment. An aerial model may activate only after all non-aerial units in your army have activated this turn. The first time an aerial unit activates, you may deploy it no closer than 10&quot; from an enemy unit. (This ability must be resolved before activating units with cumbersome.)</description>
     </rule>
     <rule name="Light on their feet" id="f708-1439-cbbe-6850" hidden="false">
       <description>This unit may take the flee reaction while losing only a single action during its following activation.</description>
+    </rule>
+    <rule name="Hunter" id="c061-5561-8d2a-8ab3" hidden="false">
+      <description>When this unit destroys an enemy character unit, gain 1 Intel point.</description>
+    </rule>
+    <rule name="Big Game Hunter" id="22ef-ed51-bdad-4ad4" hidden="false">
+      <description>Attacks from this unit reroll hits against enemies with the armored keyword.</description>
+    </rule>
+    <rule name="Dangerous Bailout" id="544-9133-e670-6e0c" hidden="false">
+      <description>If this model is destroyed while transporting units, roll 1D10 for each model it was transporting. for each roll of 5 or less, destroy one model before placing the unit within 3&quot; of this unit.</description>
+    </rule>
+    <rule name="Safe Bailout" id="40dd-ac7-61eb-eaf6" hidden="false">
+      <description>If this model is destroyed while transporting units, roll 1D10 for each model it was transporting. for each roll of 1, destroy one model before placing the unit within 3&quot; of this unit.</description>
+    </rule>
+    <rule name="Bailout" id="4f87-d052-cf5f-ceec" hidden="false">
+      <description>If this model is destroyed while transporting units, roll 1D10 for each model it was transporting. for each roll of 3 or less, destroy one model before placing the unit within 3&quot; of this unit.</description>
+    </rule>
+    <rule name="Stable Firing Position" id="21b3-c7af-2fb8-5ab6" hidden="false">
+      <description>This unit gets +1 to hit when making ranged attacks while in contact with difficult terrain.</description>
+    </rule>
+    <rule name="Forward Positions" id="239f-191a-232-4894" hidden="false">
+      <description>This unit may be deployed outside of your deployment zone as long as it is more than 9&quot; away from the enemy deployment zone or any enemy models.</description>
+    </rule>
+    <rule name="Patch-Up" id="5c34-f6f8-aee6-439c" hidden="false">
+      <description>As an action, select a friendly infantry unit within 3&quot; (including this unit). That unit either restores all wounds lost by one of its models or revives a destroyed model, returning it to the unit with 1 wound remaining.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
