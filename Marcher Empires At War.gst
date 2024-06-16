@@ -754,7 +754,7 @@
       <description>This weapon may only be selected to fire x times per unit per game.</description>
     </rule>
     <rule id="73c0-9282-d155-0b35" name="Transport" hidden="false">
-      <description>You may embark X models with the infantry keyword inside this model. Models with three or more hitpoints count as two models.</description>
+      <description>You may embark X models with the infantry keyword inside this model. Models with five or more hitpoints count as two models.</description>
     </rule>
     <rule id="c1ce-d022-923f-3147" name="Logistics" hidden="false">
       <description>At the beginning of each set up phase gain a supply point (SP).</description>
@@ -891,6 +891,9 @@ Until the end of this round all vehicle Units in this platoon increase their Eva
     </rule>
     <rule name="Patch-Up" id="5c34-f6f8-aee6-439c" hidden="false">
       <description>As an action, select a friendly infantry unit within 3&quot; (including this unit). That unit either restores all wounds lost by one of its models or revives a destroyed model, returning it to the unit with 1 wound remaining.</description>
+    </rule>
+    <rule name="Elite Infantry" id="12fb-381c-5514-6d51" hidden="false">
+      <description>This unit only becomes suppressed when it has 3 suppression tokens and pinned when it has 6 suppression tokens.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

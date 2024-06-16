@@ -542,7 +542,7 @@
       <profiles>
         <profile name="Russian Guards Infantry Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="d6bc-50bd-2a5e-0265">
           <characteristics>
-            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Yefreitor &amp; 9 Ryadovoy</characteristic>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Yefreitor &amp; 9-14 Ryadovoy</characteristic>
             <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Infantry</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
           </characteristics>
@@ -554,7 +554,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad Members" id="2b45-43ce-7c0d-da0a" hidden="false" collective="false" import="true" defaultSelectionEntryId="c725-33b6-8f92-e2c0">
           <constraints>
-            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="0ed4-7eb0-36c5-aa57" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="15" field="selections" scope="parent" shared="true" id="0ed4-7eb0-36c5-aa57" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="810e-e9a0-3541-bc9d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <selectionEntries>
@@ -666,9 +666,9 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Ryadovoy" hidden="false" id="c725-33b6-8f92-e2c0" collective="true">
+            <selectionEntry type="model" import="true" name="Ryadovoy" hidden="false" id="c725-33b6-8f92-e2c0" collective="true" defaultAmount="8">
               <constraints>
-                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="db8a-6595-862e-a29b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="14" field="selections" scope="parent" shared="true" id="db8a-6595-862e-a29b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="min" value="8" field="selections" scope="parent" shared="true" id="e36d-b575-c346-be1b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <profiles>
