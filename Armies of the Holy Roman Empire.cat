@@ -812,6 +812,7 @@
           </modifiers>
         </infoLink>
         <infoLink name="Forward Positions" id="9574-6387-7355-db86" hidden="false" type="rule" targetId="239f-191a-232-4894"/>
+        <infoLink name="Battlefield Preparation" id="b9e2-cea7-6840-2280" hidden="false" type="rule" targetId="ea06-55d8-62e2-4f31"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7553-06c6-3dd3-1389" name="Infantry" hidden="false" targetId="59ff-44cb-cb53-760d" primary="false"/>
@@ -2418,9 +2419,10 @@
         <infoLink id="4a47-e47a-4779-ed0b" name="High Explosive" hidden="false" targetId="9375-d461-c135-9e66" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="24"/>
+        <cost name="Munitions" typeId="Points" value="26"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7c2e-7afd-ca06-a895" name="45M Barbarossa Assault Tank" hidden="false" collective="false" import="true" type="unit">
@@ -3579,22 +3581,12 @@
       </profiles>
       <infoLinks>
         <infoLink id="de39-42f3-723b-4f0d" name="Infantry Actions" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
-        <infoLink id="e793-b6cb-4faf-894b" name="Shielded" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
+        <infoLink name="Elite Infantry" id="630c-b79f-ae10-235e" hidden="false" type="rule" targetId="12fb-381c-5514-6d51"/>
+        <infoLink name="Shielded" id="0eea-0175-339b-a2d2" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Shielded 4">
-              <conditions>
-                <condition field="selections" scope="72da-15ed-1a55-d98a" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a336-f2d0-a145-aee2" type="greaterThan"/>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="name" value="Shielded 2">
-              <conditions>
-                <condition field="selections" scope="72da-15ed-1a55-d98a" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a336-f2d0-a145-aee2" type="equalTo"/>
-              </conditions>
-            </modifier>
+            <modifier type="append" value="4" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Elite Infantry" id="630c-b79f-ae10-235e" hidden="false" type="rule" targetId="12fb-381c-5514-6d51"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7518-59c8-a5d6-a9ff" name="Infantry" hidden="false" targetId="59ff-44cb-cb53-760d" primary="false"/>
@@ -3759,6 +3751,11 @@
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
       </costs>
+      <rules>
+        <rule name="Knecht Mace and Shield" id="b431-2b4e-4528-ffd0" hidden="false">
+          <description>Increase this unit&apos;s Shield count to 6</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry id="684a-d6eb-8497-815b" name="Zeppelin Task Force Abilities" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -3828,7 +3825,6 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="587c-145a-36ca-cb34" name="Infantry Actions" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
         <infoLink name="Character" id="8b94-cde5-9b21-c48a" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
         <infoLink name="Shielded" id="651b-4080-5293-8c64" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
@@ -3836,6 +3832,7 @@
           </modifiers>
         </infoLink>
         <infoLink name="Intel Gathering" id="618-8d88-723c-5368" hidden="false" type="rule" targetId="dc7a-f7c9-a54a-9cbc"/>
+        <infoLink name="Infantry Officer Actions" id="c734-8cb4-3cd7-5b5e" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="37b3-092b-88d4-d8ea" name="GKB37 Assault Rifle" hidden="false" collective="false" import="true" targetId="a757-fa09-f338-77e1" type="selectionEntry">
@@ -3955,8 +3952,8 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Infantry Actions" id="4050-43f1-5b5c-261c" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
         <infoLink name="Character" id="1421-ba07-b113-47b6" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+        <infoLink name="Infantry Officer Actions" id="976b-8ee4-1a57-b7a0" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="CKF Saber" hidden="false" id="b699-b44-3b40-ea19" collective="false" targetId="116c-4e0a-aadc-0b83" type="selectionEntry">
@@ -4050,7 +4047,7 @@
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">40mm</characteristic>
           </characteristics>
         </profile>
-        <profile name="ImperialKnecht Officer" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="4739-a707-890d-106d">
+        <profile name="Imperial Knecht Officer" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="4739-a707-890d-106d">
           <characteristics>
             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
             <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
@@ -4060,7 +4057,6 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Infantry Actions" id="870c-15ff-767f-45c0" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
         <infoLink name="Character" id="49bc-7d6-e23-8682" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
         <infoLink name="Shielded" id="112c-8b74-dfa2-c64" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
           <modifiers>
@@ -4077,6 +4073,7 @@
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink name="Infantry Officer Actions" id="c790-b00c-6823-c68a" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Mechanical Talons" hidden="false" id="6b01-a18-b4d4-fbe" collective="false" targetId="0bf1-016a-75f7-f53d" type="selectionEntry">
@@ -5021,7 +5018,7 @@
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">36&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">10</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">2</characteristic>
-        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Blast 2, Indirect, Shellshock,  High Explosive</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Ranged, Mortar</characteristic>
       </characteristics>
@@ -5031,7 +5028,7 @@
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">16&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">1</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">10</characteristic>
-        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">18</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1D10+7</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Ammo 4</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Rocket, Ranged</characteristic>
       </characteristics>
@@ -5131,7 +5128,7 @@
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">40&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">8</characteristic>
-        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">20</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2D10+7</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Critical Shot, High Explosive</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
       </characteristics>

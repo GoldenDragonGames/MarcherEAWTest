@@ -656,53 +656,6 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Sponson Weapons" id="dc81-8bae-6101-3adc" hidden="false">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b87-70c-65bd-f6cb" includeChildSelections="false"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Plasma Projector Sponsons" hidden="false" id="ac64-ec40-5796-b0cd">
-              <entryLinks>
-                <entryLink import="true" name="Type 98 Plasma Projector" hidden="false" id="ac5f-a85b-2feb-e1fe" type="selectionEntry" targetId="841-8c4c-e64-921d">
-                  <constraints>
-                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="e813-9cf9-d76-faa2"/>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4b92-621c-ff70-a857"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Type 97 “Kagutsuchi” Heat Rifle Sponsons" hidden="false" id="56f4-e07a-f07b-83a">
-              <entryLinks>
-                <entryLink import="true" name="Type 97 “Kagutsuchi” Heat Rifle" hidden="false" id="cf87-276-9a6d-5ea2" type="selectionEntry" targetId="ac80-33fe-24ab-4717">
-                  <constraints>
-                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="5598-e04a-9653-c0d2"/>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1722-c43-c772-429a"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Automatic Grenade Launcher Sponsons" hidden="false" id="7153-4f59-7fcb-3ec4">
-              <entryLinks>
-                <entryLink import="true" name="Automatic Grenade Launcher" hidden="false" id="31d6-1177-cc41-d343" type="selectionEntry" targetId="1238-af44-11b7-7dc">
-                  <constraints>
-                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="298e-2c22-d7a2-8462"/>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="521d-a25e-f9ba-9480"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Type 91 Energy Cannon Sponsons" hidden="false" id="5635-cccc-74d9-35cb">
-              <entryLinks>
-                <entryLink import="true" name="Type 91 Energy Cannon" hidden="false" id="339f-5bc0-579c-9f30" type="selectionEntry" targetId="64bb-13cd-aeb2-566e">
-                  <constraints>
-                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9c21-da17-1617-1aaf"/>
-                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e36f-700c-82fa-f906"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
         <selectionEntryGroup name="Rear Hull Turret" id="31ff-a211-123b-9a3" hidden="false" defaultSelectionEntryId="d135-4031-a524-511b">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3cb6-5975-adf8-4445" includeChildSelections="false"/>
@@ -785,6 +738,7 @@
     <selectionEntry type="model" import="true" name="IJA Captain Higuchi Ryuusuke" hidden="false" id="43be-a0d6-f15c-d685">
       <infoLinks>
         <infoLink name="Character" id="576e-c3c1-a692-d90" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+        <infoLink name="Infantry Officer Actions" id="67ac-9210-67f7-42e3" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
       </infoLinks>
       <costs>
         <cost name="Munitions" typeId="Points" value="102"/>
@@ -939,7 +893,7 @@
       <profiles>
         <profile name="Hōshu Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="df75-c070-e548-8910">
           <characteristics>
-            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2 Imperial Landwehr Heavy Weapon Teams</characteristic>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2 Hōshu Heavy Weapon Teams</characteristic>
             <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, Infantry Support, (CORE)Support, (CORE)Infantry</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">50mm</characteristic>
           </characteristics>
@@ -1062,6 +1016,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Character" id="d75b-d087-e7e6-62eb" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+        <infoLink name="Infantry Officer Actions" id="8f07-daab-0cf3-c23b" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
       </infoLinks>
       <costs>
         <cost name="Munitions" typeId="Points" value="9"/>
@@ -1432,9 +1387,10 @@
         <infoLink name="Type 87 Mortar" id="c917-eb58-6885-c227" hidden="false" type="profile" targetId="410b-f721-422e-6ea3"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="17"/>
+        <cost name="Munitions" typeId="Points" value="19"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Type 96 Heavy Energy AT-Cannon" hidden="false" id="8ee2-4a82-676f-fb5b" collective="true">
@@ -2000,6 +1956,8 @@
       </profiles>
       <infoLinks>
         <infoLink name="Support Infantry Actions" id="9936-c9f6-db99-f0b0" hidden="false" targetId="335b-34df-c974-9c3b" type="profile"/>
+        <infoLink name="Forward Positions" id="091c-1f67-7cf2-edf7" hidden="false" type="rule" targetId="239f-191a-232-4894"/>
+        <infoLink name="Battlefield Preparation" id="dc0e-64e4-991d-fda8" hidden="false" type="rule" targetId="ea06-55d8-62e2-4f31"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad Members" id="11a7-db1e-c8ba-8096" hidden="false" collective="false" import="true" defaultSelectionEntryId="9e33-b404-e788-291e">
@@ -2160,6 +2118,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Character" id="ba1d-b1f6-c013-4d8e" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+        <infoLink name="Infantry Officer Actions" id="7010-3e5b-db19-46de" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
       </infoLinks>
       <costs>
         <cost name="Munitions" typeId="Points" value="9"/>
@@ -2514,7 +2473,7 @@
                         </profile>
                       </profiles>
                       <entryLinks>
-                        <entryLink import="true" name="Type 91 Heavy Howitzer" hidden="false" id="0b83-2b0a-f464-1d94" collective="false" targetId="209d-9a46-8cff-b341" type="selectionEntry">
+                        <entryLink import="true" name="Type 91 Heavy Howitzers" hidden="false" id="0b83-2b0a-f464-1d94" collective="false" targetId="209d-9a46-8cff-b341" type="selectionEntry">
                           <constraints>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="11a6-3f4f-7887-1ef5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7044-fc7a-7bd9-6ae5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -3430,7 +3389,7 @@
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">30&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">7</characteristic>
-        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">15</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1D10+5</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">High Explosive, Ammo 2</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Kinetic, Explosive</characteristic>
       </characteristics>
@@ -3440,7 +3399,7 @@
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">30&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">12</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1</characteristic>
-        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Blast 2, Indirect, Shellshock,  High Explosive</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Mortar</characteristic>
       </characteristics>
@@ -3744,7 +3703,7 @@
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="9bb4-4cb8-dd38-b5e4" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="IJA Halftrack" hidden="false" id="4cf3-f28c-1cce-92ac" type="selectionEntry" targetId="18bd-698f-1710-4110">
+    <entryLink import="true" name="IJA Type 94 Halftrack" hidden="false" id="4cf3-f28c-1cce-92ac" type="selectionEntry" targetId="18bd-698f-1710-4110">
       <categoryLinks>
         <categoryLink targetId="d4be-5aad-8560-5720" id="26ad-7e7c-e3df-7b23" primary="true" name="Light Transports"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="7576-e14e-5552-4d1d" primary="false" name="Unit"/>
@@ -3793,13 +3752,13 @@
         <categoryLink targetId="ec55-b910-8dde-4365" id="19f2-9974-1ff7-71cc" primary="false" name="Dedicated Transport"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Type 84 Heavy Weapon Carrier" hidden="false" id="d720-48ce-f119-9137" type="selectionEntry" targetId="2cc3-9ffb-26db-6597">
+    <entryLink import="true" name="IJA Type 84 Heavy Weapon Carrier" hidden="false" id="d720-48ce-f119-9137" type="selectionEntry" targetId="2cc3-9ffb-26db-6597">
       <categoryLinks>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="0db2-6567-fb10-44be" primary="false" name="Unit"/>
         <categoryLink targetId="96e8-513f-beca-e624" id="6a3e-e610-25e1-f78e" primary="true" name="Infantry Support"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Type 84 Self-Propelled AA Platform" hidden="false" id="4649-12c4-841c-3244" type="selectionEntry" targetId="f779-6e1d-8ac0-49a0">
+    <entryLink import="true" name="IJA Type 94 Self-Propelled AA Platform" hidden="false" id="4649-12c4-841c-3244" type="selectionEntry" targetId="f779-6e1d-8ac0-49a0">
       <categoryLinks>
         <categoryLink targetId="96e8-513f-beca-e624" id="80ba-94eb-217d-dca7" primary="true" name="Infantry Support"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="88e6-fe77-e960-82e2" primary="false" name="Unit"/>

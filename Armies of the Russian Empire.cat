@@ -267,7 +267,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Infantry Actions" id="5fbe-e4ab-c2a0-cb41" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
+        <infoLink name="Infantry Officer Actions" id="5fbe-e4ab-c2a0-cb41" hidden="false" targetId="237b-8d1e-014e-539d" type="profile"/>
         <infoLink name="Character" id="e655-1eb7-6519-e929" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
       </infoLinks>
       <costs>
@@ -872,9 +872,9 @@
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Nagant" hidden="false" id="f33d-e677-8e5d-e67d" collective="true">
+    <selectionEntry type="upgrade" import="true" name="Mosin-Nagant Rifle" hidden="false" id="f33d-e677-8e5d-e67d" collective="true">
       <infoLinks>
-        <infoLink name="Nagant" id="a205-8fda-459a-c0d4" hidden="false" type="profile" targetId="c482-9a10-02e3-e887"/>
+        <infoLink name="Mosin-Nagant rifle" id="a205-8fda-459a-c0d4" hidden="false" type="profile" targetId="c482-9a10-02e3-e887"/>
       </infoLinks>
       <costs>
         <cost name="Munitions" typeId="Points" value="1"/>
@@ -1383,7 +1383,7 @@
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Energy, Plasma</characteristic>
       </characteristics>
     </profile>
-    <profile name="Nagant" typeId="Weapon" typeName="Weapon" hidden="false" id="c482-9a10-02e3-e887">
+    <profile name="Mosin-Nagant Rifle" typeId="Weapon" typeName="Weapon" hidden="false" id="c482-9a10-02e3-e887">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">30&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">1</characteristic>

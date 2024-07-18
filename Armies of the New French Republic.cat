@@ -1246,6 +1246,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Character" id="1ecb-353d-fdac-ab93" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+        <infoLink name="Infantry Officer Actions" id="ae28-5536-5475-ca73" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
       </infoLinks>
       <costs>
         <cost name="Munitions" typeId="Points" value="9"/>
@@ -1513,6 +1514,7 @@
       </costs>
       <infoLinks>
         <infoLink name="Recon Vehicle Actions" id="bd68-eba2-e3c6-ff81" hidden="false" type="profile" targetId="e02c-5a58-9b36-5c37"/>
+        <infoLink name="Agile" id="5056-c718-dc71-8c86" hidden="false" type="rule" targetId="7563-c17b-bc3c-4f99"/>
       </infoLinks>
       <rules>
         <rule name="Vive la révolution" id="b0d8-def7-cbb8-60cf" hidden="false">
@@ -1624,6 +1626,8 @@
       <infoLinks>
         <infoLink name="Support Infantry Actions" id="31e2-9273-efc1-91ff" hidden="false" targetId="335b-34df-c974-9c3b" type="profile"/>
         <infoLink name="Burrowing" id="275d-3a82-6311-e442" hidden="false" type="rule" targetId="ed5f-b19a-332-fe86"/>
+        <infoLink name="Forward Positions" id="307c-2fdd-2d28-e7f5" hidden="false" type="rule" targetId="239f-191a-232-4894"/>
+        <infoLink name="Battlefield Preparation" id="6c06-4505-833c-dc80" hidden="false" type="rule" targetId="ea06-55d8-62e2-4f31"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad Members" id="7a5a-7a04-dafa-6cf8" hidden="false" collective="false" import="true" defaultSelectionEntryId="ef01-1efb-76ed-eb62">
@@ -2141,6 +2145,7 @@
       </entryLinks>
       <infoLinks>
         <infoLink name="Character" id="8e4e-430a-ca22-723c" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+        <infoLink name="Infantry Officer Actions" id="0e4c-f021-2a9d-5f1f" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
       </infoLinks>
       <costs>
         <cost name="Munitions" typeId="Points" value="40"/>
