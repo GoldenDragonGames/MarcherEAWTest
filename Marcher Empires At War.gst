@@ -165,7 +165,6 @@
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="858d-72e7-6ab4-d909" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Support Infantry" hidden="false" id="c071-21d9-2507-9d43" targetId="0463-bfe4-198d-b1a5" primary="false"/>
         <categoryLink name="Infantry Support" hidden="false" id="b5c2-124e-68d9-f5ed" targetId="96e8-513f-beca-e624" primary="false">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7421-ba37-56dc-b535" includeChildSelections="false"/>
@@ -225,7 +224,6 @@
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="f5d6-ee93-6772-3ac6" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Support Infantry" hidden="false" id="aff3-8212-198a-042b" targetId="0463-bfe4-198d-b1a5" primary="false"/>
         <categoryLink name="Infantry Support" hidden="false" id="3c0d-4b38-91d7-17ba" targetId="96e8-513f-beca-e624" primary="false">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="528b-7511-a0c8-6c1c" includeChildSelections="false"/>
@@ -348,14 +346,9 @@
           </constraints>
         </categoryLink>
         <categoryLink name="Heroes" hidden="false" id="f976-e1cd-f502-94b8" targetId="33a5-8b7e-49bb-c30d"/>
-        <categoryLink name="Support Infantry" hidden="false" id="bcd8-e303-5c71-86b4" targetId="0463-bfe4-198d-b1a5" primary="false">
-          <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="f786-2dc2-158e-b8a1" includeChildSelections="false"/>
-          </constraints>
-        </categoryLink>
         <categoryLink name="Support" hidden="false" id="a522-66b7-f6d9-edd1" targetId="7110-7fe8-80e2-5e81" primary="false">
           <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="4f28-f1a3-12bb-a1b" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="4f28-f1a3-12bb-a1b" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Infantry Support" hidden="false" id="2bf2-dcc0-d575-3b3c" targetId="96e8-513f-beca-e624">
@@ -803,7 +796,7 @@
       <description>When an attack is made with this weapon, you may, instead of dealing damage, choose to move one enemy unit that this unit is engaged with 2&quot; in a direction of your choice.</description>
     </rule>
     <rule id="9e88-6c38-3a57-c010" name="Towable" hidden="false">
-      <description>This Unit may be deployed attached to a Unit with the &quot;Tow&quot; action.</description>
+      <description>This Unit may be deployed attached to a Unit with the &quot;Tow&quot; action. Units which are being towed gain the &quot;Detach&quot; action</description>
     </rule>
     <rule id="a57a-9c2f-704e-9847" name="Front Facing" hidden="false">
       <description>This Unit may only select units that are in front of it to attack. It may make a 90 degree pivot for free whenever it activates.</description>
@@ -813,9 +806,6 @@
     </rule>
     <rule id="49c6-4812-80b8-83cf" name="Deployed Weapon" hidden="false">
       <description>This Unit may not take the Attack Action if it has also taken the Move action this turn.</description>
-    </rule>
-    <rule id="4f67-c752-6049-dfdc" name="Demolition Charges" hidden="false">
-      <description>This Unit may take the &quot;Demolish&quot; action against any piece of Light Terrain within range.</description>
     </rule>
     <rule id="987d-4b9f-03aa-1235" name="Battlefield Scanners" hidden="false">
       <description>If this weapon is in range when making an attack action this Unit may take the Take Aim action for free.</description>
@@ -858,7 +848,7 @@ Until the end of this round all vehicle Units in this platoon increase their Eva
       <description>After activating this ability, until the end of this round each time Units in this Platoon take the Build Action; they may take an additional Build Action for free.</description>
     </rule>
     <rule id="e24c-5c98-fc23-a3eb" name="Tank Hunters" hidden="false">
-      <description>After activating this ability, until the end of this round, whenever a Unit in his platoon makes an attack against a vehicle with the Armor keyword, your opponent must reroll all successful Armor saves on the attacked unit.</description>
+      <description>After activating this ability, until the end of this round, whenever a Unit in his platoon makes an attack against a vehicle you may re-roll hits.</description>
     </rule>
     <rule id="06f4-93c5-6f93-d4df" name="Flying" hidden="false">
       <description>This Unit ignores all terrain. This Unit may not recieve the benefit of Cover. This Unit may move through other Units. This Unit may not be engaged by other Units unless they also have the Flying keyword. Weapons with less than 12&quot; of Range cannot target this unit for an attack. All ranged attacks that target this Unit recieve -1 to hit.</description>
@@ -877,9 +867,6 @@ Until the end of this round all vehicle Units in this platoon increase their Eva
     </rule>
     <rule id="fd2f-2557-0580-c397" name="Jump-Packs" hidden="false">
       <description>This Unit gains Move as a Free Action. This Unit may ignore the effects of any terrain it moves across.</description>
-    </rule>
-    <rule id="a795-5b46-bd8b-be03" name="Dig!" hidden="false">
-      <description>This Unit may perform the Build action, but only to construct a Prepared Fighting Position.</description>
     </rule>
     <rule id="8e52-a616-aab9-73b8" name="Designated Leader" hidden="false">
       <description>This model must be attached to a non-command unit that it shares a core keyword with before the game starts. After this model is attached it must be designated as the Leader of the combined unit</description>
@@ -957,14 +944,7 @@ Until the end of this round all vehicle Units in this platoon increase their Eva
       <description>This unit may attach to an allied unit as though it has the Designated Leader special rule, or be taken individually. If this unit is not attached to an allied unit, enemy ranged attacks may only target it if it is the closest enemy unit.</description>
     </rule>
     <rule name="Fortification Reference" id="b938-f36f-8234-0a26" hidden="false">
-      <description>Prepared Fighting Position (0 SP)
-
-
-Units touching this Fortification gain the benefit of Light Cover.
-Considered Rough and Light Terrain. 5”x3” Flat
-
-
-Hedgehog Tank Trap (1 SP)
+      <description>Hedgehog Tank Trap (1 SP)
 
 
 Deploy three of these per Build Action. Vehicles that touch this
@@ -1021,6 +1001,12 @@ Profile*. Considered Rough and Heavy Terrain. 5” square, flat.</description>
     <rule name="Dual Wield" id="2082-d275-920b-519d" hidden="false">
       <description>This weapon may be selected to attack with in addition to another weapon.</description>
     </rule>
+    <rule name="Slippery" id="d4e3-7a13-502a-ecd5" hidden="false">
+      <description>If a vehicle mounted by this character is destroyed, place his infantry model in base-to-base contact with it at the end of the current activation. While not attached to another unit, this character activates independently.</description>
+    </rule>
+    <rule name="Hitch" id="320a-d3d0-cf35-7d83" hidden="false">
+      <description>This unit has access to the free &quot;Tow&quot; action.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="0936-84e8-76d0-501a" name="Infantry Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
@@ -1033,10 +1019,10 @@ Profile*. Considered Rough and Heavy Terrain. 5” square, flat.</description>
     </profile>
     <profile id="ed5a-9492-6407-a9f1" name="Armor Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
       <characteristics>
-        <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim,</characteristic>
+        <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Brace, Fallback</characteristic>
         <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady Shot, Capture</characteristic>
-        <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73"/>
+        <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Tow</characteristic>
       </characteristics>
     </profile>
     <profile id="e02c-5a58-9b36-5c37" name="Recon Vehicle Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
@@ -1052,7 +1038,7 @@ Profile*. Considered Rough and Heavy Terrain. 5” square, flat.</description>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Take Aim</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Brace, Fallback</characteristic>
         <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Move, Capture, Steady Shot</characteristic>
-        <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Adjust Coordinates, Detach</characteristic>
+        <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Adjust Coordinates</characteristic>
       </characteristics>
     </profile>
     <profile id="335b-34df-c974-9c3b" name="Support Infantry Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">

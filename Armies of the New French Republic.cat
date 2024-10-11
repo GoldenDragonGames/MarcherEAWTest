@@ -99,9 +99,10 @@
     </entryLink>
     <entryLink import="true" name="Sapper Squad" hidden="false" id="1d9-1c7b-7b83-a33b" type="selectionEntry" targetId="89fd-ddd2-40e3-dc68">
       <categoryLinks>
-        <categoryLink targetId="0463-bfe4-198d-b1a5" id="a1c4-ab94-806a-6e52" primary="true" name="Support Infantry"/>
+        <categoryLink targetId="0463-bfe4-198d-b1a5" id="a1c4-ab94-806a-6e52" primary="false" name="Support Infantry"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="8591-4071-110e-7592" primary="false" name="Unit"/>
         <categoryLink targetId="59ff-44cb-cb53-760d" id="4a5d-a712-9dda-5a56" primary="false" name="Infantry"/>
+        <categoryLink targetId="96e8-513f-beca-e624" id="2331-60e0-10d5-5536" primary="true" name="Infantry Support"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="CSM 38A Breaching Drill" hidden="false" id="d2d-e4f1-4989-b087" type="selectionEntry" targetId="16d-5c9e-eb0c-38f5">
@@ -246,6 +247,30 @@
           </modifiers>
         </modifierGroup>
       </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Zouave Officer" hidden="true" id="7454-8658-06cb-760b" type="selectionEntry" targetId="a1f0-f9c6-2fa3-bbab">
+      <categoryLinks>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="ec90-8323-6c42-cbad" primary="true" name="Command"/>
+        <categoryLink targetId="481b-63e9-517b-180b" id="244d-4971-3aa1-0082" primary="false" name="Recon"/>
+        <categoryLink targetId="aa05-ee4c-c4d5-7e23" id="46c6-f3a5-f66c-afa4" primary="false" name="Recon Infantry"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden" affects="">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="f7f6-47eb-95fb-ad14" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Pierre Georges" hidden="false" id="5dec-bc01-6900-0b47" type="selectionEntry" targetId="0d58-a47e-6324-028d">
+      <categoryLinks>
+        <categoryLink targetId="33a5-8b7e-49bb-c30d" id="92e6-db52-8872-3300" primary="true" name="Heroes"/>
+        <categoryLink targetId="7165-cf57-cd9c-93da" id="2865-1f7b-39db-61cf" primary="false" name="Character"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -489,7 +514,7 @@
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
-        <rule name="La Terreur est nécessaire!" id="2393-c3b0-b942-b66f" hidden="false">
+        <rule name="la terreur est nécessaire!" id="2393-c3b0-b942-b66f" hidden="false">
           <description>This unit gains +1 to hit an enemy unit that has already been attacked this round.</description>
         </rule>
       </rules>
@@ -672,7 +697,7 @@
             <entryLink import="true" name="Canon de 40mm" hidden="false" id="c920-f071-98af-d637" type="selectionEntry" targetId="8552-c026-dbbf-76ae"/>
           </entryLinks>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Gros Canon de Chaleur" hidden="false" id="271c-718d-77d6-c9c9">
+            <selectionEntry type="upgrade" import="true" name="Gros Canon à Chaleur" hidden="false" id="271c-718d-77d6-c9c9">
               <costs>
                 <cost name="Munitions" typeId="Points" value="8"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
@@ -683,7 +708,7 @@
                 <infoLink name="Searing" id="8434-b3d-5c3e-e9f1" hidden="false" type="rule" targetId="56bf-a271-a758-6f38"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Gros Canon de Energie" hidden="false" id="e73a-3839-c22a-e86a" collective="true">
+            <selectionEntry type="upgrade" import="true" name="Gros Canon à Energie" hidden="false" id="e73a-3839-c22a-e86a" collective="true">
               <costs>
                 <cost name="Munitions" typeId="Points" value="22"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
@@ -693,7 +718,7 @@
                 <infoLink name="Gros Canon de Energie" id="2f2b-5087-fcb0-4934" hidden="false" type="profile" targetId="ed99-c3cf-5fa8-5e96"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Gros Canon de Plasma" hidden="false" id="3829-358e-885b-9a2a">
+            <selectionEntry type="upgrade" import="true" name="Gros Canon à Plasma" hidden="false" id="3829-358e-885b-9a2a">
               <infoLinks>
                 <infoLink name="Gros Canon de Plasma" id="3c3-fb03-63fe-555d" hidden="false" type="profile" targetId="2eee-7636-5280-f9c3"/>
                 <infoLink name="Slag" id="4204-61b8-47df-394f" hidden="false" type="rule" targetId="aaa4-8ad4-e93e-7ead"/>
@@ -799,7 +824,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="576a-c46b-65f-936c" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Canon de Plasma Sponsons" hidden="false" id="e3eb-861f-39f-420f">
+            <selectionEntry type="upgrade" import="true" name="Canon à Plasma Sponsons" hidden="false" id="e3eb-861f-39f-420f">
               <entryLinks>
                 <entryLink import="true" name="Canon de Plasma" hidden="false" id="475f-16b-74c1-c992" type="selectionEntry" targetId="b21d-42f7-9ce-6014">
                   <constraints>
@@ -819,7 +844,7 @@
                 </entryLink>
               </entryLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Canon de Chaleur Sponsons" hidden="false" id="babe-c8fc-55b1-cfee">
+            <selectionEntry type="upgrade" import="true" name="Canon à Chaleur Sponsons" hidden="false" id="babe-c8fc-55b1-cfee">
               <entryLinks>
                 <entryLink import="true" name="Canon de Chaleur" hidden="false" id="1440-ae4d-8eac-8c00" type="selectionEntry" targetId="7fcc-2bdf-e932-b1fc">
                   <constraints>
@@ -905,12 +930,12 @@
         </selectionEntry>
       </selectionEntries>
       <rules>
-        <rule name="Toujours en avant!" id="3537-6a53-c17f-9fbb" hidden="false">
+        <rule name="toujours en avant!" id="3537-6a53-c17f-9fbb" hidden="false">
           <description>At the end of each round, if this unit is not in engagement range of any enemy units, it may make a free 3&quot; move. This move may not allow the tank to enter engagement range.</description>
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Canon de Energie" hidden="false" id="ce8e-4be6-e62e-1cbd">
+    <selectionEntry type="upgrade" import="true" name="Canon à Energie" hidden="false" id="ce8e-4be6-e62e-1cbd">
       <costs>
         <cost name="Munitions" typeId="Points" value="13"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
@@ -1089,6 +1114,13 @@
             <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">3</characteristic>
           </characteristics>
         </profile>
+        <profile name="Infantry Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="5654-84a9-65b2-d482">
+          <characteristics>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Infantry Officer</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">NFR, (CORE) Infantry, Character</characteristic>
+            <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Flare Gun" hidden="false" id="6752-4fbf-1ef8-74f1">
@@ -1181,7 +1213,7 @@
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
-        <rule name="Marchons!" id="9ede-c6f9-c99c-d7a8" hidden="false">
+        <rule name="marchons!" id="9ede-c6f9-c99c-d7a8" hidden="false">
           <description>This unit gets +1 to hit for every 5 allied models within 12&quot;.</description>
         </rule>
       </rules>
@@ -1234,7 +1266,7 @@
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
-        <rule name="Marchons!" id="466f-3131-bcb8-69f6" hidden="false">
+        <rule name="marchons!" id="466f-3131-bcb8-69f6" hidden="false">
           <description>This unit gets +1 to hit for every 5 allied models within 12&quot;.</description>
         </rule>
       </rules>
@@ -1266,7 +1298,7 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="33de-7750-41cd-a768-max" includeChildSelections="false"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Canons de Energie" hidden="false" id="c93a-897-4c0a-d050" collective="true">
+                    <selectionEntry type="upgrade" import="true" name="canons énergétiques" hidden="false" id="c93a-897-4c0a-d050" collective="true">
                       <entryLinks>
                         <entryLink import="true" name="Canon de Energie" hidden="false" id="f6ab-fde-b3b-5a4e" type="selectionEntry" targetId="ce8e-4be6-e62e-1cbd" collective="true">
                           <constraints>
@@ -1286,7 +1318,7 @@
                         </entryLink>
                       </entryLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Mitrailleuses à énergie" hidden="false" id="4d87-448c-68a0-fd51" collective="true">
+                    <selectionEntry type="upgrade" import="true" name="mitrailleuses à énergie" hidden="false" id="4d87-448c-68a0-fd51" collective="true">
                       <entryLinks>
                         <entryLink import="true" name="Mitrailleuse à énergie" hidden="false" id="19e7-226a-7497-4aa0" type="selectionEntry" targetId="4109-b725-7852-c94" collective="true">
                           <constraints>
@@ -1342,7 +1374,7 @@
         <infoLink name="Agile" id="5056-c718-dc71-8c86" hidden="false" type="rule" targetId="7563-c17b-bc3c-4f99"/>
       </infoLinks>
       <rules>
-        <rule name="Vive la révolution" id="b0d8-def7-cbb8-60cf" hidden="false">
+        <rule name="vive la révolution" id="b0d8-def7-cbb8-60cf" hidden="false">
           <description>If this unit moves at least 10&quot; in a straight line during its turn, it ignores difficult terrain for the rest of its turn.</description>
         </rule>
         <rule name="Suppressable" id="100-a3c2-c833-a5ee" hidden="false">
@@ -1418,7 +1450,7 @@
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Gros Canon de Energie" hidden="false" id="6ff7-b9a4-ae90-c49c" collective="true">
+    <selectionEntry type="upgrade" import="true" name="Gros Canon à Energie" hidden="false" id="6ff7-b9a4-ae90-c49c" collective="true">
       <costs>
         <cost name="Munitions" typeId="Points" value="22"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
@@ -1560,6 +1592,16 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Fortification Reference" hidden="false" id="2186-d7ad-ab13-9e1f">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54cf-256b-2fca-0bc8" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Fortification Reference" id="ee17-9ab0-49e9-e5f1" hidden="false" type="rule" targetId="b938-f36f-8234-0a26"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Infanterie Lance-Flammes" hidden="false" id="f77c-d5af-55d7-e2b5" collective="true">
       <costs>
@@ -1602,7 +1644,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="911a-591b-3578-6689-max" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Canon de Plasma Sponsons" hidden="false" id="b338-ce51-180b-e854">
+            <selectionEntry type="upgrade" import="true" name="Canon à Plasma Sponsons" hidden="false" id="b338-ce51-180b-e854">
               <entryLinks>
                 <entryLink import="true" name="Canon de Plasma" hidden="false" id="40cd-e2dd-9c5a-a65f" type="selectionEntry" targetId="b21d-42f7-9ce-6014">
                   <constraints>
@@ -1622,7 +1664,7 @@
                 </entryLink>
               </entryLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Canon de Chaleur Sponsons" hidden="false" id="3131-74aa-b705-a97">
+            <selectionEntry type="upgrade" import="true" name="Canon à Chaleur Sponsons" hidden="false" id="3131-74aa-b705-a97">
               <entryLinks>
                 <entryLink import="true" name="Canon de Chaleur" hidden="false" id="4c4c-7f44-486e-8d71" type="selectionEntry" targetId="7fcc-2bdf-e932-b1fc">
                   <constraints>
@@ -1676,7 +1718,7 @@
         <rule name="Tunneling" id="50e4-2891-a8a0-5ddc" hidden="false">
           <description>This unit may use two actions to tunnel if it is not in engagement range. When it does so, remove it from the board. It may be redeployed using burrowing.</description>
         </rule>
-        <rule name="Dieu des taupes" id="33f0-e232-9b8c-1662" hidden="false">
+        <rule name="dieu des taupes" id="33f0-e232-9b8c-1662" hidden="false">
           <description>When this model is deployed using its burrowing ability, place a 100mm Taupe token in contact with it. This token connects to all Taupe tokens on the map.</description>
         </rule>
       </rules>
@@ -1692,7 +1734,7 @@
         <infoLink name="High Explosive" id="fcb9-cf90-e16a-df2e" hidden="false" type="rule" targetId="9375-d461-c135-9e66"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Canon de Plasma" hidden="false" id="b21d-42f7-9ce-6014">
+    <selectionEntry type="upgrade" import="true" name="Canon à Plasma" hidden="false" id="b21d-42f7-9ce-6014">
       <costs>
         <cost name="Munitions" typeId="Points" value="9"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
@@ -1703,7 +1745,7 @@
         <infoLink name="Slag" id="5347-1f18-e236-1e46" hidden="false" type="rule" targetId="aaa4-8ad4-e93e-7ead"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Canon de Chaleur" hidden="false" id="7fcc-2bdf-e932-b1fc">
+    <selectionEntry type="upgrade" import="true" name="Canon à Chaleur" hidden="false" id="7fcc-2bdf-e932-b1fc">
       <costs>
         <cost name="Munitions" typeId="Points" value="5"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
@@ -1955,16 +1997,44 @@
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
           </characteristics>
         </profile>
+        <profile name="Colonel Charles De Gaulle" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="71e2-73be-4e8c-56bc">
+          <characteristics>
+            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
+            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">3</characteristic>
+            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">3</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a554-2aef-39e0-d6ae" includeChildSelections="true"/>
       </constraints>
       <entryLinks>
         <entryLink import="true" name="Nominate Field Commander" hidden="false" id="a844-f262-bac9-5c11" type="selectionEntry" targetId="a8f2-8cd0-efc0-4a1b"/>
+        <entryLink import="true" name="CKF Sword" hidden="false" id="3970-af9b-b784-d8ee" collective="false" targetId="6bda-666f-54ca-bd29" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5d5-ff43-c13e-15f5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7e92-e366-6be3-5dce" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Designated Leader" id="a4bf-fb4c-5d5c-c3ec" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+        <infoLink name="Slippery" id="14e5-fac6-d1de-96f2" hidden="false" type="rule" targetId="d4e3-7a13-502a-ecd5"/>
+        <infoLink name="Infantry Officer Actions" id="6e18-2802-edf1-2781" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
       </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Sidearm" id="f940-eff8-4900-0097" hidden="false" defaultSelectionEntryId="345c-c9ec-02d7-c09f">
+          <entryLinks>
+            <entryLink import="true" name="Modele 1930 Plasma Pistol" hidden="false" id="7f41-7d4c-d6de-3ecf" type="selectionEntry" targetId="65af-1ac2-c789-e963"/>
+            <entryLink import="true" name="Model 1921 Energy Pistol" hidden="false" id="345c-c9ec-02d7-c09f" type="selectionEntry" targetId="da28-df59-a553-5d18"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1a29-dff6-1611-7943" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4906-573b-ea22-be52" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Major Marie Courtemanche" hidden="false" id="42b0-6cfa-62df-10c3">
       <entryLinks>
@@ -2037,7 +2107,7 @@
         </selectionEntry>
       </selectionEntries>
       <rules>
-        <rule name="S&apos;engager pour servir" id="5e45-a1b0-79b8-e081" hidden="false">
+        <rule name="s&apos;engager pour servir" id="5e45-a1b0-79b8-e081" hidden="false">
           <description>Major Marie Courtemanche&apos;s unit always counts as though it were ordered. In addition, whenever a unit within 12&quot; of Major Marie Courtemanche gains suppression as a result of an enemy attack, if at least one model died during the attack, remove one suppression.</description>
         </rule>
       </rules>
@@ -2163,7 +2233,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8bbd-69bb-9bc8-c35" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Canons de Energie" hidden="false" id="e0a1-ff2d-168b-c1">
+            <selectionEntry type="upgrade" import="true" name="Canons à Energie" hidden="false" id="e0a1-ff2d-168b-c1">
               <entryLinks>
                 <entryLink import="true" name="Canon de Energie" hidden="false" id="9df3-fd93-a54a-7f50" type="selectionEntry" targetId="ce8e-4be6-e62e-1cbd">
                   <constraints>
@@ -2207,7 +2277,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <rules>
-        <rule name="Vive la révolution" id="a2a1-fce0-e5d9-e4d3" hidden="false">
+        <rule name="vive la révolution" id="a2a1-fce0-e5d9-e4d3" hidden="false">
           <description>If this unit moves at least 10&quot; in a straight line during its turn, it ignores difficult terrain for the rest of its turn.</description>
         </rule>
       </rules>
@@ -2312,7 +2382,7 @@
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
-        <rule name="Citoyens, aux armes!" id="4209-bc99-e33c-a059" hidden="false">
+        <rule name="citoyens, aux armes!" id="4209-bc99-e33c-a059" hidden="false">
           <description>This unit gains +1 to its evasion while it is not in its deployment zone and not in cover.</description>
         </rule>
       </rules>
@@ -2609,7 +2679,7 @@
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
       <rules>
-        <rule name="Faire le Zouave" id="f784-e708-fe54-fcd5" hidden="false">
+        <rule name="faire le zouave" id="f784-e708-fe54-fcd5" hidden="false">
           <description>When this unit makes an ranged attack action, it may make an additional movement action.</description>
         </rule>
       </rules>
@@ -2693,7 +2763,7 @@
             <entryLink import="true" name="M33 Lance-Flammes" hidden="false" id="f0ca-1e2d-6a17-66d1" collective="false" targetId="2b69-ad00-8d27-75a4" type="selectionEntry"/>
           </entryLinks>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Gros Canon de Chaleur" hidden="false" id="6643-ba27-5dbc-e568">
+            <selectionEntry type="upgrade" import="true" name="Gros Canon à Chaleur" hidden="false" id="6643-ba27-5dbc-e568">
               <costs>
                 <cost name="Munitions" typeId="Points" value="8"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
@@ -2703,7 +2773,7 @@
                 <infoLink name="Gros Canon de Chaleur" id="c5d7-6808-459f-fa30" hidden="false" type="profile" targetId="ca7c-afde-49ea-6e88"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Gros Canon de Energie" hidden="false" id="27c8-1511-79d2-979" collective="true">
+            <selectionEntry type="upgrade" import="true" name="Gros Canon à Energie" hidden="false" id="27c8-1511-79d2-979" collective="true">
               <costs>
                 <cost name="Munitions" typeId="Points" value="22"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
@@ -2713,7 +2783,7 @@
                 <infoLink name="Gros Canon de Energie" id="e521-9d25-5479-8672" hidden="false" type="profile" targetId="ed99-c3cf-5fa8-5e96"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Gros Canon de Plasma" hidden="false" id="5e91-f1fb-4ad2-7955">
+            <selectionEntry type="upgrade" import="true" name="Gros Canon à Plasma" hidden="false" id="5e91-f1fb-4ad2-7955">
               <infoLinks>
                 <infoLink name="Gros Canon de Plasma" id="48ca-9942-d58d-9d60" hidden="false" type="profile" targetId="2eee-7636-5280-f9c3"/>
                 <infoLink name="Slag" id="4d5a-a6b2-5c4d-3504" hidden="false" type="rule" targetId="aaa4-8ad4-e93e-7ead"/>
@@ -2768,7 +2838,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Gros Canon de Plasma" hidden="false" id="d61a-f478-1218-457d">
+    <selectionEntry type="upgrade" import="true" name="Gros Canon à Plasma" hidden="false" id="d61a-f478-1218-457d">
       <infoLinks>
         <infoLink name="Gros Canon de Plasma" id="f7e7-40e6-b92d-828d" hidden="false" type="profile" targetId="2eee-7636-5280-f9c3"/>
         <infoLink name="Slag" id="9630-a068-1740-aad5" hidden="false" type="rule" targetId="aaa4-8ad4-e93e-7ead"/>
@@ -2779,7 +2849,7 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Gros Canon de Chaleur" hidden="false" id="442b-71dc-db4f-1b7e">
+    <selectionEntry type="upgrade" import="true" name="Gros Canon à Chaleur" hidden="false" id="442b-71dc-db4f-1b7e">
       <costs>
         <cost name="Munitions" typeId="Points" value="8"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
@@ -2974,6 +3044,181 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Zouave Officer" hidden="false" id="a1f0-f9c6-2fa3-bbab">
+      <entryLinks>
+        <entryLink import="true" name="Officer Seniority" hidden="false" id="137e-cef8-6fe0-f413" type="selectionEntry" targetId="5354-e9b5-1b87-4595">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="83fc-0a26-fc40-80ce" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6387-ddac-4ed2-0d54" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="CKF Sword" hidden="false" id="d6b7-546b-f182-cbac" collective="false" targetId="6bda-666f-54ca-bd29" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f68-cf18-3752-2ae6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f7cd-66c7-c62e-70af" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Nominate Field Commander" hidden="false" id="b9cb-dd69-b1a5-cd50" type="selectionEntry" targetId="a8f2-8cd0-efc0-4a1b"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Designated Leader" id="fe9a-eb58-b6c6-f842" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+        <infoLink name="Infantry Officer Actions" id="6d8b-ed14-cf86-c99d" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="15"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Zouave Officer" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="0e25-6d39-7fe9-36f1">
+          <characteristics>
+            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8&quot;</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">8</characteristic>
+            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">3</characteristic>
+            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Zouave Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="20dc-a59d-77bc-d468">
+          <characteristics>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Zouave Officer</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">NFR, (CORE) Infantry, Character</characteristic>
+            <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Flare Gun" hidden="false" id="ed38-7d32-0c77-bca0">
+          <costs>
+            <cost name="Munitions" typeId="Points" value="10"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Flare" id="b123-6f31-f44f-9500" hidden="false" type="rule" targetId="accc-1573-218-8a01"/>
+            <infoLink name="Ammo" id="27cd-49af-f68c-4fab" hidden="false" type="rule" targetId="2056-c454-be5c-ea02">
+              <modifiers>
+                <modifier type="append" value="2" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b42-dd12-88a3-233f" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Firearms" id="718e-27fe-cce7-5b0c" hidden="false" defaultSelectionEntryId="ec45-a820-7aaf-fe49">
+          <entryLinks>
+            <entryLink import="true" name="MAS 35 Inspirateur" hidden="false" id="ec45-a820-7aaf-fe49" type="selectionEntry" targetId="59cb-4b56-9cbf-d25a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9dd6-3201-64ed-3b08" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="RSC Modele 28" hidden="false" id="320b-f7e3-c789-6dbc" collective="false" targetId="2dec-af18-e6a9-8834" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d145-6fd1-e00e-9f40" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e56a-5688-0489-7cb4" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3471-4766-2b78-dc6c" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Pierre Georges" hidden="false" id="0d58-a47e-6324-028d">
+      <entryLinks>
+        <entryLink import="true" name="Partisan Firearm" hidden="false" id="fb81-2e8c-90e1-4a25" collective="false" targetId="5e9b-edb9-f1e3-7b3b" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a391-cb7b-4c2c-86bc" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="23ec-f6d5-ad54-89f8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Independent Hero" id="e307-06ca-97c5-dd4f" hidden="false" type="rule" targetId="ba04-cce8-3db9-31d4"/>
+        <infoLink name="Infantry Officer Actions" id="d953-1b86-dc21-bfce" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="49"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Pierre Georges" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="eb01-5458-c67d-9a61">
+          <characteristics>
+            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
+            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">1</characteristic>
+            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Pierre Georges" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="b201-521a-0e79-ea88">
+          <characteristics>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Pierre Georges</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">NFR, (CORE) Infantry, Character</characteristic>
+            <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Improvised Incendiary Grenade" hidden="false" id="5624-8428-d7bc-bdb9" collective="true">
+          <infoLinks>
+            <infoLink name="Improvised Incendiary Grenade" id="f4c2-4a51-3297-9eb7" hidden="false" targetId="067a-2f9f-23cb-fabf" type="profile"/>
+            <infoLink name="Close In" id="8475-a022-9e5c-5e75" hidden="false" type="rule" targetId="6f53-dabe-1243-14cf"/>
+            <infoLink name="Ammo" id="2668-ab1d-332d-37ea" hidden="false" type="rule" targetId="2056-c454-be5c-ea02">
+              <modifiers>
+                <modifier type="append" value="1" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <costs>
+            <cost name="Munitions" typeId="Points" value="0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+            <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d86a-e68e-8882-b1e4" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1e4-1189-212b-4828" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <rules>
+        <rule name="Partisan Activity" id="74a7-bee1-1202-18a5" hidden="false">
+          <description>At the start of the game, Pierre Georges must be deployed undercover (in reserves). At the end of pregame deployment, place three Red Menace tokens face down and more than 8&quot; from enemy units. When an enemy moves within engagement range of a token, or at any time during your turn, reveal it.
+
+
+Improvised Bomb- Make an attack treating the token as a blast template with the following template. S4 AP4 D4, Blast 3, High Explosive, Close In.
+
+
+Red Scare- All enemy units within 3&quot; gain a suppression token.
+
+
+In Plain Sight- Replace the token with Pierre Georges model. He may activate immediately.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Improvised Incendiary Grenade" hidden="false" id="d428-98ec-9839-d4b0" collective="true">
+      <infoLinks>
+        <infoLink name="Improvised Incendiary Grenade" id="1cbb-7ecc-3e70-b763" hidden="false" targetId="067a-2f9f-23cb-fabf" type="profile"/>
+        <infoLink name="Close In" id="20a9-454c-2ad0-f0cc" hidden="false" type="rule" targetId="6f53-dabe-1243-14cf"/>
+        <infoLink name="Flames" id="fa4d-947b-5a80-a6fa" hidden="false" type="rule" targetId="7235-63bc-0668-6ac4"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7f92-e580-9261-3c02" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c93-3597-b809-605b" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="6589-e279-5e35-739f" name="Model 1921 Energy Pistol" hidden="false" typeId="Weapon" typeName="Weapon">
@@ -3026,7 +3271,7 @@
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Ranged</characteristic>
       </characteristics>
     </profile>
-    <profile name="Canon de Energie" typeId="Weapon" typeName="Weapon" hidden="false" id="643b-cecd-10c0-f485">
+    <profile name="Canon à Energie" typeId="Weapon" typeName="Weapon" hidden="false" id="643b-cecd-10c0-f485">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">36</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
@@ -3066,7 +3311,7 @@
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Ranged</characteristic>
       </characteristics>
     </profile>
-    <profile name="Gros Canon de Energie" typeId="Weapon" typeName="Weapon" hidden="false" id="ed99-c3cf-5fa8-5e96">
+    <profile name="Gros Canon à Energie" typeId="Weapon" typeName="Weapon" hidden="false" id="ed99-c3cf-5fa8-5e96">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">36</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
@@ -3106,7 +3351,7 @@
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Melee</characteristic>
       </characteristics>
     </profile>
-    <profile name="Canon de Plasma" typeId="Weapon" typeName="Weapon" hidden="false" id="7c9f-8fae-96df-ca72">
+    <profile name="Canon à Plasma" typeId="Weapon" typeName="Weapon" hidden="false" id="7c9f-8fae-96df-ca72">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">18</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
@@ -3126,7 +3371,7 @@
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Explosive, Ranged, Kinetic</characteristic>
       </characteristics>
     </profile>
-    <profile name="Canon de Chaleur" typeId="Weapon" typeName="Weapon" hidden="false" id="4b1-d2f8-dbc5-82dd">
+    <profile name="Canon à Chaleur" typeId="Weapon" typeName="Weapon" hidden="false" id="4b1-d2f8-dbc5-82dd">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">20</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
@@ -3266,7 +3511,7 @@
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Melee</characteristic>
       </characteristics>
     </profile>
-    <profile name="Gros Canon de Chaleur" typeId="Weapon" typeName="Weapon" hidden="false" id="ca7c-afde-49ea-6e88">
+    <profile name="Gros Canon à Chaleur" typeId="Weapon" typeName="Weapon" hidden="false" id="ca7c-afde-49ea-6e88">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">5</characteristic>
@@ -3276,7 +3521,7 @@
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Ranged</characteristic>
       </characteristics>
     </profile>
-    <profile name="Gros Canon de Plasma" typeId="Weapon" typeName="Weapon" hidden="false" id="2eee-7636-5280-f9c3">
+    <profile name="Gros Canon à Plasma" typeId="Weapon" typeName="Weapon" hidden="false" id="2eee-7636-5280-f9c3">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
@@ -3306,7 +3551,7 @@
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
       </characteristics>
     </profile>
-    <profile name="Destructeur de plasma" typeId="Weapon" typeName="Weapon" hidden="false" id="ad30-32b8-2140-df08">
+    <profile name="Destructeur à plasma" typeId="Weapon" typeName="Weapon" hidden="false" id="ad30-32b8-2140-df08">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">28&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
@@ -3324,6 +3569,16 @@
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Suppressive</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Improvised Incendiary Grenade" typeId="Weapon" typeName="Weapon" hidden="false" id="067a-2f9f-23cb-fabf">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">8&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">5</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">0</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Flames, Close In</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

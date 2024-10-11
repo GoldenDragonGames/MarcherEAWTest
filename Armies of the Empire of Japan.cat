@@ -647,7 +647,7 @@
     <selectionEntry type="model" import="true" name="IJA Captain Higuchi Ryuusuke" hidden="false" id="43be-a0d6-f15c-d685">
       <infoLinks>
         <infoLink name="Infantry Officer Actions" id="67ac-9210-67f7-42e3" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
-        <infoLink name="Independent Hero" id="93e9-0ba3-0de2-7a9d" hidden="false" type="rule" targetId="ba04-cce8-3db9-31d4"/>
+        <infoLink name="Designated Leader" id="93e9-0ba3-0de2-7a9d" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
       </infoLinks>
       <costs>
         <cost name="Munitions" typeId="Points" value="102"/>
@@ -767,6 +767,9 @@
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a0e8-97f-63fa-544f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
+                      <infoLinks>
+                        <infoLink name="Cumbersome" id="e717-acb6-aac1-211b" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
+                      </infoLinks>
                     </entryLink>
                     <entryLink import="true" name="Type 96 Heavy Energy AT-Cannon" hidden="false" id="f910-cbff-1a06-117b" collective="false" targetId="8ee2-4a82-676f-fb5b" type="selectionEntry">
                       <constraints>
@@ -805,7 +808,7 @@
         <profile name="Hōshu Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="df75-c070-e548-8910">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2 Hōshu Heavy Weapon Teams</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, Infantry Support, (CORE)Support, (CORE)Infantry</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, Infantry Support, (CORE) Support, (CORE)Infantry</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">50mm</characteristic>
           </characteristics>
         </profile>
@@ -899,7 +902,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="IJM Tank Commander" hidden="false" id="36d2-84d8-6f37-f80d">
       <infoLinks>
-        <infoLink name="Character" id="78aa-2ce-864d-c849" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+        <infoLink name="Designated Leader" id="78aa-2ce-864d-c849" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Officer Seniority" hidden="false" id="efa6-8c97-6a00-4560" type="selectionEntry" targetId="cadb-378d-321-459d">
@@ -937,7 +940,7 @@
         <entryLink import="true" name="Nominate Field Commander" hidden="false" id="537d-1c97-8654-787e" type="selectionEntry" targetId="a8f2-8cd0-efc0-4a1b"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Character" id="d75b-d087-e7e6-62eb" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+        <infoLink name="Designated Leader" id="d75b-d087-e7e6-62eb" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
         <infoLink name="Infantry Officer Actions" id="8f07-daab-0cf3-c23b" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
       </infoLinks>
       <costs>
@@ -1380,7 +1383,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="IJM Recon Commander" hidden="false" id="8d00-85dc-d76f-dbb7">
       <infoLinks>
-        <infoLink name="Character" id="2bd4-269d-5b87-b7d6" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+        <infoLink name="Designated Leader" id="2bd4-269d-5b87-b7d6" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Officer Seniority" hidden="false" id="894-d413-a2a0-3b5f" type="selectionEntry" targetId="cadb-378d-321-459d">
@@ -1403,7 +1406,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="IJM Artillery Commander" hidden="false" id="275f-f848-54fc-4181">
       <infoLinks>
-        <infoLink name="Character" id="e3d-b6e8-8569-3c4e" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+        <infoLink name="Designated Leader" id="e3d-b6e8-8569-3c4e" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Officer Seniority" hidden="false" id="cd96-4909-3a15-fa58" type="selectionEntry" targetId="cadb-378d-321-459d">
@@ -1830,7 +1833,7 @@
         <profile name="IJN Combat Engineer Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="f4f7-a825-da58-e285">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Gunsō &amp; 9 Engineers</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJN, (CORE) Infantry</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJN, (CORE) Infantry, (CORE) Infantry Support</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
           </characteristics>
         </profile>
@@ -1839,7 +1842,6 @@
         <infoLink name="Support Infantry Actions" id="9936-c9f6-db99-f0b0" hidden="false" targetId="335b-34df-c974-9c3b" type="profile"/>
         <infoLink name="Forward Positions" id="091c-1f67-7cf2-edf7" hidden="false" type="rule" targetId="239f-191a-232-4894"/>
         <infoLink name="Battlefield Preparation" id="dc0e-64e4-991d-fda8" hidden="false" type="rule" targetId="ea06-55d8-62e2-4f31"/>
-        <infoLink name="Fortification Reference" id="ac97-eb2a-5149-cbb5" hidden="false" type="rule" targetId="b938-f36f-8234-0a26"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad Members" id="11a7-db1e-c8ba-8096" hidden="false" collective="false" import="true" defaultSelectionEntryId="9e33-b404-e788-291e">
@@ -1966,6 +1968,16 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Fortification Reference" hidden="false" id="6b62-cb31-09e8-6e81">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5675-b48e-761b-9fe7" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Fortification Reference" id="f374-6cb0-f769-a1bc" hidden="false" type="rule" targetId="b938-f36f-8234-0a26"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="IJN Infantry Officer" hidden="false" id="f3a7-09a1-25e1-0c15">
       <entryLinks>
@@ -1984,7 +1996,7 @@
         <entryLink import="true" name="Nominate Field Commander" hidden="false" id="664d-ccf2-c6e3-8959" type="selectionEntry" targetId="a8f2-8cd0-efc0-4a1b"/>
       </entryLinks>
       <infoLinks>
-        <infoLink name="Character" id="ba1d-b1f6-c013-4d8e" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+        <infoLink name="Designated Leader" id="ba1d-b1f6-c013-4d8e" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
         <infoLink name="Infantry Officer Actions" id="7010-3e5b-db19-46de" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
       </infoLinks>
       <costs>
@@ -2186,9 +2198,9 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="IJA Field Artillery Battery" hidden="false" id="8a02-be37-bc03-cf00" collective="false">
       <profiles>
-        <profile name="Japanese Field Artillery Battery" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="ce12-6d2b-c9a1-7392">
+        <profile name="Field Artillery Battery" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="ce12-6d2b-c9a1-7392">
           <characteristics>
-            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2 Japanese Field Artillery Squads</characteristic>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2 Field Artillery Squads</characteristic>
             <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJA, (CORE) Artillery, Heavy Artillery, Towable, (CORE) Support,</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
           </characteristics>
@@ -2217,7 +2229,7 @@
                         <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="237c-4a3e-38ae-e942" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <profiles>
-                        <profile name="Japanese Field Artillery Squad" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="f460-9985-e67e-9681">
+                        <profile name="Field Artillery Squad" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="f460-9985-e67e-9681">
                           <characteristics>
                             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
                             <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
@@ -2265,7 +2277,7 @@
                         <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f0d5-c7a3-0ab0-1602" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <profiles>
-                        <profile name="Japanese Field Artillery Squad" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="be42-071e-eb05-0d61">
+                        <profile name="Field Artillery Squad" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="be42-071e-eb05-0d61">
                           <characteristics>
                             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
                             <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
@@ -2313,7 +2325,7 @@
                         <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f89c-4ed6-ba43-8255" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                       <profiles>
-                        <profile name="Japanese Field Artillery Squad" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="fd58-01a3-e2d6-690b">
+                        <profile name="Field Artillery Squad" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="fd58-01a3-e2d6-690b">
                           <characteristics>
                             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
                             <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
@@ -3019,6 +3031,71 @@
         <infoLink name="High Explosive" id="01a0-bd70-8b23-23eb" hidden="false" type="rule" targetId="9375-d461-c135-9e66"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="IJN Captain Frogman" hidden="false" id="a1c7-61ad-e73c-8753">
+      <infoLinks>
+        <infoLink name="Infantry Officer Actions" id="0ad7-bc0f-b44d-c35b" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
+        <infoLink name="Independent Hero" id="4653-39c5-4daf-283e" hidden="false" type="rule" targetId="ba04-cce8-3db9-31d4"/>
+        <infoLink name="Forward Positions" id="5316-0eb6-e161-655a" hidden="false" type="rule" targetId="239f-191a-232-4894"/>
+        <infoLink name="Light on their feet" id="08ba-678c-2a35-dee8" hidden="false" type="rule" targetId="f708-1439-cbbe-6850"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="130"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="IJN Captain Frogman" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="fb14-5c44-7862-9b66">
+          <characteristics>
+            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8&quot;</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">9</characteristic>
+            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">4</characteristic>
+            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="IJN Captain Frogman" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="4e23-e9de-612d-2548">
+          <characteristics>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 IJN Captain Frogman</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJN, (CORE) Infantry, Character</characteristic>
+            <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Shin-Gunto" hidden="false" id="16b3-cde0-48a8-6bbc">
+          <infoLinks>
+            <infoLink name="Shin-Gunto" id="4ecc-4af4-fd7e-7d2b" hidden="false" type="profile" targetId="9b9b-8a0-eedf-d316"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7e96-d47f-d816-a435" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0b1-8a37-122c-894b" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Frog Gun" hidden="false" id="551a-1631-88e1-3498" collective="true">
+          <infoLinks>
+            <infoLink name="Frog Gun" id="1c70-7b0b-834d-41b5" hidden="false" type="profile" targetId="b74b-17ba-e965-5296"/>
+            <infoLink name="Sidearm" id="752c-6b8a-6275-32da" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <rules>
+        <rule name="Frog Grab with Tongue" id="d68c-a6c9-3225-6674" hidden="false">
+          <description>This unit may not attach to any allied units. As an action, this unit may pick up an uncontested objective you control that it is in base to base contact with. While holding this objective, it moves with the character.</description>
+        </rule>
+      </rules>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="acb1-1606-2524-dfee" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Fragmentation Grenade" hidden="false" id="0b67-b314-381c-f447" type="selectionEntry" targetId="a96d-80b-90a8-b77b"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Frog Gun" hidden="false" id="cc08-3332-7b3c-f9e1" collective="true">
+      <infoLinks>
+        <infoLink name="Frog Gun" id="b04f-4f77-c014-5f4e" hidden="false" type="profile" targetId="b74b-17ba-e965-5296"/>
+        <infoLink name="Sidearm" id="56a3-83ac-8f74-6887" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Type 93 Marksman Rifle" typeId="Weapon" typeName="Weapon" hidden="false" id="7820-1f95-853f-66f5">
@@ -3461,6 +3538,16 @@
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Heavy, Cannon, Ranged</characteristic>
       </characteristics>
     </profile>
+    <profile name="Frog Gun" typeId="Weapon" typeName="Weapon" hidden="false" id="b74b-17ba-e965-5296">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">12&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">1</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">4</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Sidearm</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Pistol, Kinetic, Ranged</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <entryLinks>
     <entryLink import="true" name="IJA Captain Higuchi Ryuusuke" hidden="false" id="b749-9c2e-1188-9cc1" type="selectionEntry" targetId="43be-a0d6-f15c-d685">
@@ -3474,10 +3561,11 @@
     </entryLink>
     <entryLink import="true" name="Hōshu Heavy Weapon Squads" hidden="false" id="d150-bacd-cc1c-60f2" type="selectionEntry" targetId="e6bb-56e5-ce43-8531">
       <categoryLinks>
-        <categoryLink targetId="0463-bfe4-198d-b1a5" id="77dc-cf52-b81e-d5c3" primary="true" name="Support Infantry"/>
+        <categoryLink targetId="0463-bfe4-198d-b1a5" id="77dc-cf52-b81e-d5c3" primary="false" name="Support Infantry"/>
         <categoryLink targetId="7110-7fe8-80e2-5e81" id="5969-98d4-7030-3323" primary="false" name="Support"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="5f1a-79bf-dcc6-5272" primary="false" name="Unit"/>
         <categoryLink targetId="59ff-44cb-cb53-760d" id="9151-9b73-c094-182c" primary="false" name="Infantry"/>
+        <categoryLink targetId="96e8-513f-beca-e624" id="a5e9-939c-75b4-55b3" primary="true" name="Infantry Support"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="IJA Heishi Infantry" hidden="false" id="a926-4eb-ff99-65ca" type="selectionEntry" targetId="e735-2906-750-5b5b">
@@ -3601,7 +3689,7 @@
         <categoryLink targetId="ec55-b910-8dde-4365" id="bb2f-726d-6916-2aea" primary="false" name="Dedicated Transport"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="IJM Kurogane Staff Car" hidden="false" id="bb28-1964-1754-dc9a" type="selectionEntry" targetId="4932-89f2-c18b-9caa">
+    <entryLink import="true" name="IJM Yonki Staff Car" hidden="false" id="bb28-1964-1754-dc9a" type="selectionEntry" targetId="4932-89f2-c18b-9caa">
       <categoryLinks>
         <categoryLink targetId="d4be-5aad-8560-5720" id="1998-5d56-ab50-9d51" primary="true" name="Light Transports"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="391b-4b0e-7ec6-2558" primary="false" name="Unit"/>
@@ -3610,9 +3698,10 @@
     </entryLink>
     <entryLink import="true" name="IJN Combat Engineer Squad" hidden="false" id="4a8f-f7c3-dce5-1c2c" type="selectionEntry" targetId="4092-ba8c-31ee-48af">
       <categoryLinks>
-        <categoryLink targetId="0463-bfe4-198d-b1a5" id="cb07-b316-71ec-8f82" primary="true" name="Support Infantry"/>
+        <categoryLink targetId="0463-bfe4-198d-b1a5" id="cb07-b316-71ec-8f82" primary="false" name="Support Infantry"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="e40e-9e45-2f2b-048c" primary="false" name="Unit"/>
         <categoryLink targetId="59ff-44cb-cb53-760d" id="40ae-b814-926b-2d4c" primary="false" name="Infantry"/>
+        <categoryLink targetId="96e8-513f-beca-e624" id="f8d1-83a4-f6bd-f71f" primary="true" name="Infantry Support"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="IJN Infantry Officer" hidden="true" id="4b9a-3bff-965a-9945" type="selectionEntry" targetId="f3a7-09a1-25e1-0c15">
@@ -3693,6 +3782,12 @@
       <categoryLinks>
         <categoryLink targetId="7950-f6f1-38c2-f2dd" id="6696-2f4e-29c7-8813" primary="true" name="Armor"/>
         <categoryLink targetId="7da2-822e-291f-eccc" id="2f55-196e-65d6-fc73" primary="false" name="Walker"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="IJN Captain Frogman" hidden="false" id="735e-f7c1-c9e7-3ee0" type="selectionEntry" targetId="a1c7-61ad-e73c-8753">
+      <categoryLinks>
+        <categoryLink targetId="33a5-8b7e-49bb-c30d" id="7cc9-a17e-fbac-3624" primary="true" name="Heroes"/>
+        <categoryLink targetId="7165-cf57-cd9c-93da" id="efcb-22d1-653f-ca21" primary="false" name="Character"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
