@@ -43,17 +43,16 @@
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="59ff-44cb-cb53-760d" name="Infantry" hidden="false"/>
-    <categoryEntry id="7950-f6f1-38c2-f2dd" name="Armor" hidden="false"/>
+    <categoryEntry id="7950-f6f1-38c2-f2dd" name="CORE Armor" hidden="false"/>
     <categoryEntry id="cac2-586c-2611-93d2" name="Recon Vehicles" hidden="false"/>
-    <categoryEntry id="7110-7fe8-80e2-5e81" name="Support" hidden="false"/>
+    <categoryEntry id="7110-7fe8-80e2-5e81" name="CORE Support" hidden="false"/>
     <categoryEntry id="27cf-5cae-ad71-1584" name="Artillery" hidden="false"/>
     <categoryEntry id="db00-fa62-c3c0-732d" name="Armored Command" hidden="false"/>
     <categoryEntry id="dcc5-ef7f-27fc-a528" name="Infantry Command" hidden="false"/>
     <categoryEntry id="7e88-f603-cf53-1d85" name="Artillery Command" hidden="false"/>
     <categoryEntry id="f787-f73c-7a5b-534c" name="Recon Command" hidden="false"/>
     <categoryEntry id="ac96-6e42-7e7b-1947" name="Support Command" hidden="false"/>
-    <categoryEntry id="d4be-5aad-8560-5720" name="Light Transports" hidden="false"/>
-    <categoryEntry id="1dd3-025a-e394-fd6b" name="Heavy Transports" hidden="false"/>
+    <categoryEntry id="d4be-5aad-8560-5720" name="Transports" hidden="false"/>
     <categoryEntry id="70eb-c264-a9cb-1bfe" name="Command" hidden="false">
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42e5-b83b-401a-1b12" type="min"/>
@@ -76,6 +75,17 @@
     <categoryEntry name="Dedicated Transport" id="ec55-b910-8dde-4365" hidden="false"/>
     <categoryEntry name="Heroes" id="33a5-8b7e-49bb-c30d" hidden="false"/>
     <categoryEntry name="Walker" id="7da2-822e-291f-eccc" hidden="false"/>
+    <categoryEntry name="Mounted" id="5363-dec4-5b0e-5504" hidden="false"/>
+    <categoryEntry name="AUX Armor" id="8136-fed2-db8d-c7a0" hidden="false"/>
+    <categoryEntry name="AUX Infantry" id="a74d-0d07-e5d9-0032" hidden="false"/>
+    <categoryEntry name="AUX Mechanized" id="c87d-0c37-d91f-b4cd" hidden="false"/>
+    <categoryEntry name="AUX Artillery" id="9565-ab3a-3c1b-b959" hidden="false"/>
+    <categoryEntry name="AUX Recon" id="dc85-2f8f-8f0d-4b19" hidden="false"/>
+    <categoryEntry name="CORE Infantry" id="26a5-76cb-5d13-b4a7" hidden="false"/>
+    <categoryEntry name="CORE Artillery" id="8679-d614-ae03-de2c" hidden="false"/>
+    <categoryEntry name="CORE Recon" id="54db-5889-a382-77cb" hidden="false"/>
+    <categoryEntry name="CORE Mechanized" id="7ce6-55a5-44aa-7258" hidden="false"/>
+    <categoryEntry name="AUX Support" id="48f5-3131-be0b-5951" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Armor Platoon" id="fae0-4a12-4ae4-5f9b" hidden="false">
@@ -87,23 +97,16 @@
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ba6a-c5a4-a551-3580" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Armor" hidden="false" id="6eed-d29d-0cfc-4d40" targetId="7950-f6f1-38c2-f2dd" primary="false">
+        <categoryLink name="CORE Armor" hidden="false" id="6eed-d29d-0cfc-4d40" targetId="7950-f6f1-38c2-f2dd" primary="false">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="61af-eb8a-5621-2d51" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="c4b4-926c-3450-bd94" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Unit" hidden="false" id="5eb9-d15d-3b93-5085" targetId="1e39-16b1-cedd-2cc6">
+        <categoryLink name="AUX Armor" hidden="false" id="2bb1-941c-bc98-bcbe" targetId="8136-fed2-db8d-c7a0" primary="false">
           <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="cab1-e407-7064-7629" includeChildSelections="false"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="c342-e091-e897-7741" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7139-b185-c779-7e9d" includeChildSelections="false"/>
           </constraints>
-          <modifiers>
-            <modifier type="increment" value="1" field="c342-e091-e897-7741">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="ec55-b910-8dde-4365" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -116,23 +119,11 @@
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="158e-4dc3-eef8-441e" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Artillery" hidden="false" id="1ece-36c4-7a7d-dfa4" targetId="27cf-5cae-ad71-1584" primary="false">
+        <categoryLink name="CORE Artillery" hidden="false" id="1ece-36c4-7a7d-dfa4" targetId="8679-d614-ae03-de2c" primary="false">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="d249-a21e-6882-50c4" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="632e-f737-c507-cb4f" includeChildSelections="false"/>
           </constraints>
-        </categoryLink>
-        <categoryLink name="Unit" hidden="false" id="884d-8c43-7f17-763e" targetId="1e39-16b1-cedd-2cc6">
-          <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="b928-7251-4f74-704e" includeChildSelections="false"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="9463-e546-c4b8-6769" includeChildSelections="false"/>
-          </constraints>
-          <modifiers>
-            <modifier type="increment" value="1" field="9463-e546-c4b8-6769">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="ec55-b910-8dde-4365" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
         </categoryLink>
         <categoryLink name="Dedicated Transport" hidden="false" id="e711-0b0e-bca3-d7f2" targetId="ec55-b910-8dde-4365">
           <constraints>
@@ -147,6 +138,11 @@
             </modifier>
           </modifiers>
         </categoryLink>
+        <categoryLink name="AUX Artillery" hidden="false" id="4ea6-6da4-8cd4-4144" targetId="9565-ab3a-3c1b-b959" primary="false">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0295-94da-a785-2e47" includeChildSelections="false"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry name="Infantry Platoon" id="2250-4111-e2c2-bb10" hidden="false">
@@ -159,36 +155,23 @@
           </constraints>
         </categoryLink>
         <categoryLink name="Heroes" hidden="false" id="e9ab-289-2a22-9f66" targetId="33a5-8b7e-49bb-c30d"/>
-        <categoryLink name="Infantry" hidden="false" id="e84a-3154-3391-7316" targetId="59ff-44cb-cb53-760d" primary="false">
+        <categoryLink name="CORE Infantry" hidden="false" id="e84a-3154-3391-7316" targetId="26a5-76cb-5d13-b4a7" primary="false">
           <constraints>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="e12e-dfb1-d241-43fc" includeChildSelections="false"/>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="858d-72e7-6ab4-d909" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Infantry Support" hidden="false" id="b5c2-124e-68d9-f5ed" targetId="96e8-513f-beca-e624" primary="false">
+        <categoryLink name="AUX Infantry" hidden="false" id="b5c2-124e-68d9-f5ed" targetId="a74d-0d07-e5d9-0032" primary="false">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7421-ba37-56dc-b535" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Light Transports" hidden="true" id="72ed-bea8-aaaf-3fc5" targetId="d4be-5aad-8560-5720" primary="false">
+        <categoryLink name="Transports" hidden="true" id="72ed-bea8-aaaf-3fc5" targetId="d4be-5aad-8560-5720" primary="false">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="parent" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false"/>
                 <repeat value="1" repeats="1" field="selections" scope="parent" childId="27cf-5cae-ad71-1584" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Unit" hidden="false" id="eb26-8d0c-2f76-c3a5" targetId="1e39-16b1-cedd-2cc6">
-          <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="d6fb-d012-f74a-3cad" includeChildSelections="false"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="1b50-e062-60ad-30ec" includeChildSelections="false"/>
-          </constraints>
-          <modifiers>
-            <modifier type="increment" value="1" field="1b50-e062-60ad-30ec">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="ec55-b910-8dde-4365" shared="true" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -219,56 +202,28 @@
           </constraints>
         </categoryLink>
         <categoryLink name="Heroes" hidden="false" id="1898-9002-611f-d2db" targetId="33a5-8b7e-49bb-c30d"/>
-        <categoryLink name="Infantry" hidden="false" id="0a9c-4572-fdc3-8da3" targetId="59ff-44cb-cb53-760d" primary="false">
+        <categoryLink name="CORE Infantry" hidden="false" id="0a9c-4572-fdc3-8da3" targetId="26a5-76cb-5d13-b4a7" primary="false">
           <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="f5d6-ee93-6772-3ac6" includeChildSelections="false"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Infantry Support" hidden="false" id="3c0d-4b38-91d7-17ba" targetId="96e8-513f-beca-e624" primary="false">
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="528b-7511-a0c8-6c1c" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f5d6-ee93-6772-3ac6" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Recon Infantry" hidden="false" id="a5c1-4147-a698-935a" targetId="aa05-ee4c-c4d5-7e23" primary="false"/>
-        <categoryLink name="Armor" hidden="false" id="931f-b95a-7068-3aa4" targetId="7950-f6f1-38c2-f2dd" primary="false">
+        <categoryLink name="CORE Armor" hidden="false" id="931f-b95a-7068-3aa4" targetId="7950-f6f1-38c2-f2dd" primary="false">
           <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="679a-2d-6b10-7e7b" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="679a-2d-6b10-7e7b" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Recon Vehicles" hidden="false" id="7b24-0b28-6a8e-7abf" targetId="cac2-586c-2611-93d2" primary="false">
+        <categoryLink name="CORE Recon" hidden="false" id="7b24-0b28-6a8e-7abf" targetId="54db-5889-a382-77cb" primary="false">
           <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="7644-f171-ce10-2426" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7644-f171-ce10-2426" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Light Transports" hidden="true" id="8235-ed98-daf7-bf4a" targetId="d4be-5aad-8560-5720" primary="false">
+        <categoryLink name="Transports" hidden="true" id="8235-ed98-daf7-bf4a" targetId="d4be-5aad-8560-5720" primary="false">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="parent" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false"/>
                 <repeat value="1" repeats="1" field="selections" scope="parent" childId="27cf-5cae-ad71-1584" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Heavy Transports" hidden="true" id="0867-8d79-172a-8313" targetId="1dd3-025a-e394-fd6b" primary="false">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false"/>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="27cf-5cae-ad71-1584" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Unit" hidden="false" id="d62-e7c1-90cc-cc4a" targetId="1e39-16b1-cedd-2cc6">
-          <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="7e12-adbd-b344-f768" includeChildSelections="false"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="7446-7b31-2999-af8d" includeChildSelections="false"/>
-          </constraints>
-          <modifiers>
-            <modifier type="increment" value="1" field="7446-7b31-2999-af8d">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="ec55-b910-8dde-4365" shared="true" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -297,21 +252,15 @@
           </constraints>
         </categoryLink>
         <categoryLink name="Heroes" hidden="false" id="7c5e-509d-4afa-375f" targetId="33a5-8b7e-49bb-c30d"/>
-        <categoryLink name="Recon Infantry" hidden="false" id="1837-dac4-a0b8-5dd7" targetId="aa05-ee4c-c4d5-7e23" primary="false">
-          <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="3938-fb4a-4a4-c831" includeChildSelections="false"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Recon Vehicles" hidden="false" id="c950-a3cd-d372-f174" targetId="cac2-586c-2611-93d2" primary="false">
+        <categoryLink name="CORE Recon" hidden="false" id="c950-a3cd-d372-f174" targetId="54db-5889-a382-77cb" primary="false">
           <constraints>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="4f8-6ba7-7b4d-88c" includeChildSelections="false"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="cc57-25d0-a105-f341" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Recon" hidden="false" id="72fb-7f2a-fa2b-0f4f" targetId="481b-63e9-517b-180b" primary="false"/>
-        <categoryLink name="Unit" hidden="false" id="72c3-98ce-d99b-c489" targetId="1e39-16b1-cedd-2cc6">
+        <categoryLink name="AUX Recon" hidden="false" id="72c3-98ce-d99b-c489" targetId="dc85-2f8f-8f0d-4b19">
           <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="418c-b4e9-fbe2-f1af" includeChildSelections="false"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="caeb-65dd-de5a-6d78" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="418c-b4e9-fbe2-f1af" includeChildSelections="false"/>
           </constraints>
           <modifiers>
             <modifier type="increment" value="1" field="caeb-65dd-de5a-6d78">
@@ -346,17 +295,13 @@
           </constraints>
         </categoryLink>
         <categoryLink name="Heroes" hidden="false" id="f976-e1cd-f502-94b8" targetId="33a5-8b7e-49bb-c30d"/>
-        <categoryLink name="Support" hidden="false" id="a522-66b7-f6d9-edd1" targetId="7110-7fe8-80e2-5e81" primary="false">
+        <categoryLink name="CORE Support" hidden="false" id="a522-66b7-f6d9-edd1" targetId="7110-7fe8-80e2-5e81" primary="false">
           <constraints>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="4f28-f1a3-12bb-a1b" includeChildSelections="false"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="4f28-f1a3-12bb-a1b" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="8af2-3def-99a8-0424" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Infantry Support" hidden="false" id="2bf2-dcc0-d575-3b3c" targetId="96e8-513f-beca-e624">
-          <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="ff14-c0f4-fd8c-f1b6" includeChildSelections="false"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink name="Light Transports" hidden="true" id="1015-0b71-bc64-8b62" targetId="d4be-5aad-8560-5720" primary="false">
+        <categoryLink name="Transports" hidden="true" id="1015-0b71-bc64-8b62" targetId="d4be-5aad-8560-5720" primary="false">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <repeats>
@@ -364,24 +309,6 @@
               </repeats>
             </modifier>
           </modifiers>
-        </categoryLink>
-        <categoryLink name="Unit" hidden="false" id="d3a9-6bac-7619-5020" targetId="1e39-16b1-cedd-2cc6">
-          <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="578d-b927-9b9c-bcc5" includeChildSelections="false"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="6d18-f6ed-46bd-ca8f" includeChildSelections="false"/>
-          </constraints>
-          <modifiers>
-            <modifier type="increment" value="1" field="6d18-f6ed-46bd-ca8f">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="ec55-b910-8dde-4365" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Support Vehicle" hidden="false" id="7469-5f86-100a-a655" targetId="5db4-bcb6-9f0f-7062">
-          <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="6c75-84cd-297f-6cb4"/>
-          </constraints>
         </categoryLink>
         <categoryLink name="Dedicated Transport" hidden="false" id="5485-26b3-29e3-c5da" targetId="ec55-b910-8dde-4365">
           <constraints>
@@ -395,6 +322,11 @@
               </repeats>
             </modifier>
           </modifiers>
+        </categoryLink>
+        <categoryLink name="AUX Support" hidden="false" id="a0ef-3c31-3647-9092" targetId="48f5-3131-be0b-5951" primary="false">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9f03-7e78-6e9c-727a" includeChildSelections="false"/>
+          </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -757,7 +689,7 @@
       <description>This Unit may pass through Light Fortifications when taking the move action, if it does so, remove those objects from the battlefield.</description>
     </rule>
     <rule id="a53f-6c4f-8514-7703" name="Critical Shot" hidden="false">
-      <description>Critical shot: for each 10 you roll when attacking with this weapon you score an additional hit.</description>
+      <description>For each 10 you roll when attacking with this weapon you score an additional hit.</description>
     </rule>
     <rule id="4911-2380-864d-8b44" name="Suppressive" hidden="false">
       <description>When a unit is attacked by weapon(s) with the &quot;Suppressive&quot; keyword, it receives a Suppression Token. (This effect is cumulative)</description>
@@ -768,14 +700,11 @@
 
 *Blast tokens are represented by a 25 mm base.</description>
     </rule>
-    <rule id="8dc4-53ff-5b73-403a" name="Explosive" hidden="false">
-      <description>When making an attack with this weapon against a Unit with the Infantry Keyword, +1 to hit.</description>
-    </rule>
     <rule id="1e7a-7634-bb2b-1ff9" name="Sidearm" hidden="false">
       <description>This weapon may be selected to fire even if this unit is Engaged.</description>
     </rule>
     <rule id="22ca-4520-b3df-c16d" name="Difficult to Use" hidden="false">
-      <description>This weapon may only be selected once per Attack Action.</description>
+      <description>If this unit selects this weapon to attack with. It may not attack with any other differently named weapons this activation.</description>
     </rule>
     <rule id="7235-63bc-0668-6ac4" name="Flames" hidden="false">
       <description>When making an attack with this weapon, all hits succeed automatically. Apply the Burning condition to any Units attacked with this weapon.</description>
@@ -790,31 +719,31 @@
       <description>At the beginning of each Command phase gain a supply point (SP).</description>
     </rule>
     <rule id="740c-be52-5a59-9265" name="Steel Legs" hidden="false">
-      <description>This Unit ignores the effect of Rough Terrain, and may pass through Light Fortifications and other non armored units as if they were not there. They may not end a move action on top of these features.</description>
+      <description>This Unit ignores the effect of Rough Terrain, and may pass through Light Fortifications and other non-armored units as if they were not there. They may not end a move action on top of these features.</description>
     </rule>
     <rule id="7325-1a3f-26e7-5f1e" name="Shield Bash" hidden="false">
       <description>When an attack is made with this weapon, you may, instead of dealing damage, choose to move one enemy unit that this unit is engaged with 2&quot; in a direction of your choice.</description>
     </rule>
     <rule id="9e88-6c38-3a57-c010" name="Towable" hidden="false">
-      <description>This Unit may be deployed attached to a Unit with the &quot;Tow&quot; action. Units which are being towed gain the &quot;Detach&quot; action</description>
+      <description>This Unit may be deployed attached to a Unit with the &quot;Tow&quot; action.</description>
     </rule>
     <rule id="a57a-9c2f-704e-9847" name="Front Facing" hidden="false">
       <description>This Unit may only select units that are in front of it to attack. It may make a 90 degree pivot for free whenever it activates.</description>
     </rule>
     <rule id="4c9f-32f0-9723-17cb" name="Cumbersome" hidden="false">
-      <description>Units with this keyword can not activate until all other units have activated this turn.</description>
+      <description>Units with this keyword can not activate until all other units in your army have activated this round.</description>
     </rule>
     <rule id="49c6-4812-80b8-83cf" name="Deployed Weapon" hidden="false">
-      <description>This Unit may not take the Attack Action if it has also taken the Move action this turn.</description>
+      <description>This Unit may not take the Attack Action if it has also taken the Move action this turn</description>
     </rule>
     <rule id="987d-4b9f-03aa-1235" name="Battlefield Scanners" hidden="false">
-      <description>If this weapon is in range when making an attack action this Unit may take the Take Aim action for free.</description>
+      <description>If this weapon is in range when making an attack action this Unit gains an Aim Token.</description>
     </rule>
     <rule id="e5b9-60eb-5275-52a3" name="Shellshock" hidden="false">
-      <description>If a Unit moves within the Blast Value range or touches a Blast token this Unit has placed, it immediately gains one Suppression token. A Unit can only gain one Suppression from Blast tokens per turn.</description>
+      <description>If a Unit moves within the Blast Value range or touches a Blast token this Unit has placed, it immediately gains one Suppression token. A Unit can only gain one Suppression from Blast tokens per turn.</description>
     </rule>
     <rule id="0648-3007-c58c-c884" name="Indirect" hidden="false">
-      <description>During each Command phase, place each blast template this weapon uses within range as if you were to perform an attack. When performing an attack with this weapon you must use this placed blast template.</description>
+      <description>During the Command Phase, Artillery Units will place Blast X tokens anywhere on the battlefield in range of their weapons, regardless of Line Of Sight. Each model in a Unit with Indirect will place its own token. When the Unit is selected to use the Attack Action they can select any Blast token that matches their designated token’s Blast value within range.</description>
     </rule>
     <rule id="9375-d461-c135-9e66" name="High Explosive" hidden="false">
       <description>When attacking a multi-model unit with this weapon, excess damage spills over to other models in that unit.</description>
@@ -851,19 +780,19 @@ Until the end of this round all vehicle Units in this platoon increase their Eva
       <description>After activating this ability, until the end of this round, whenever a Unit in his platoon makes an attack against a vehicle you may re-roll hits.</description>
     </rule>
     <rule id="06f4-93c5-6f93-d4df" name="Flying" hidden="false">
-      <description>This Unit ignores all terrain. This Unit may not recieve the benefit of Cover. This Unit may move through other Units. This Unit may not be engaged by other Units unless they also have the Flying keyword. Weapons with less than 12&quot; of Range cannot target this unit for an attack. All ranged attacks that target this Unit recieve -1 to hit.</description>
+      <description>This Unit ignores all terrain. This Unit may not receive the benefit of Cover. This Unit may move through other Units. This Unit may not be engaged by other Units unless they also have the Flying keyword. Weapons with less than 12&quot; of Range cannot target this unit for an attack. All ranged attacks that target this Unit receive -1 to hit.</description>
     </rule>
     <rule id="6db2-42c0-b23d-3b14" name="Shielded" hidden="false">
       <description>Ignore the first X damage this Unit takes per round. If a Unit with this Special Rule takes the move action more than once in an activation, Shielded turns off until the end of the round. The Shielded ability cannot prevent damage from weapons with the Flamethrower, Gas, or Melee keyword or from the Burning Condition.</description>
     </rule>
     <rule id="6f53-dabe-1243-14cf" name="Close In" hidden="false">
-      <description>When making an Attack with this weapon, Units targeted by this attack do not recieve the benefit of cover.</description>
+      <description>When making an Attack with this weapon, Units targeted by this attack do not receive the benefit of cover.</description>
     </rule>
     <rule id="dc7a-f7c9-a54a-9cbc" name="Intel Gathering" hidden="false">
-      <description>At the beginning of each set up phase gain an Intel point (IP).</description>
+      <description>At the beginning of each command phase gain an Intel point (IP).</description>
     </rule>
     <rule id="3a32-9522-280e-50ce" name="Sniper" hidden="false">
-      <description>When making an attack with this weapon, if this Unit has taken the &quot;Taken Aim&quot; action this turn, the attacked Unit ignores the benefit of Cover. When resolving damage with this weapon, you may select which model to apply the damage to.</description>
+      <description>This weapon ignores Cover and Units targeted with an attack by it do not gain the benefit of Cover. If you&apos;ve taken aim this turn, choose a model in the targeted unit and use its evasion and armor for the attack rolls, that model also takes the damage from the attack.</description>
     </rule>
     <rule id="fd2f-2557-0580-c397" name="Jump-Packs" hidden="false">
       <description>This Unit gains Move as a Free Action. This Unit may ignore the effects of any terrain it moves across.</description>
@@ -871,7 +800,7 @@ Until the end of this round all vehicle Units in this platoon increase their Eva
     <rule id="8e52-a616-aab9-73b8" name="Designated Leader" hidden="false">
       <description>This model must be attached to a non-command unit that it shares a core keyword with before the game starts. After this model is attached it must be designated as the Leader of the combined unit</description>
     </rule>
-    <rule name="Shotgun" id="20e-bfac-4fc9-44b9" hidden="false">
+    <rule name="Scattershot" id="20e-bfac-4fc9-44b9" hidden="false">
       <description>While making an attack using a weapon with this special rule, if within half range of the target, double your hits, AP, and damage profiles.</description>
     </rule>
     <rule name="Slag" id="aaa4-8ad4-e93e-7ead" hidden="false">
@@ -881,22 +810,22 @@ Until the end of this round all vehicle Units in this platoon increase their Eva
       <description>Attacks from this weapon ignore armor values less than 5.</description>
     </rule>
     <rule name="Burrowing" id="ed5f-b19a-332-fe86" hidden="false">
-      <description>Instead of deploying this unit at the start of the game you may declare that this unit is Burrowing. A burrowing unit may activate only after all non-burrowing in your army have activated this turn. The first time a burrowing unit activates,you may deploy it no closer than 8” from an enemy unit. (This ability must be resolved before activating units with cumbersome.) A unit deployed this way gets one less action on the turn it enters the battlefield.”</description>
+      <description>Instead of deploying this unit at the start of the game you may declare that this unit is Burrowing. A burrowing unit may activate only after all non-burrowing in your army have activated this turn. The first time a burrowing unit activates, you may deploy it no closer than 8” from an enemy unit. (This ability must be resolved before activating units with cumbersome.) A unit deployed this way gets one less action on the turn it enters the battlefield.</description>
     </rule>
-    <rule name="Auxilliary Unit" id="824b-bf81-ea20-17d4" hidden="false">
-      <description>This Unit may not control Objectives</description>
+    <rule name="Not My Job" id="824b-bf81-ea20-17d4" hidden="false">
+      <description>This Unit may not control Objectives.</description>
     </rule>
     <rule name="Aerial Deployment" id="a61e-7e07-d7da-e915" hidden="false">
-      <description>Instead of deploying this unit at the start of the game, you may declare that this model is using aerial deployment. An aerial model may activate only after all non-aerial units in your army have activated this turn. The first time an aerial unit activates, you may deploy it no closer than 8&quot; from an enemy unit. (This ability must be resolved before activating units with cumbersome.) A unit deployed this way gets one less action on the turn it enters the battlefield.”</description>
+      <description>Instead of deploying this unit at the start of the game, you may declare that this model is using aerial deployment. An aerial model may activate only after all non-aerial units in your army have activated this turn. The first time an aerial unit activates, you may deploy it no closer than 8&quot; from an enemy unit. (This ability must be resolved before activating units with cumbersome.) A unit deployed this way gets one less action on the turn it enters the battlefield.</description>
     </rule>
     <rule name="Light on their feet" id="f708-1439-cbbe-6850" hidden="false">
-      <description>This unit may take the flee reaction while losing only a single action during its following activation.</description>
+      <description>This unit may take the fallback reaction while losing only a single action during its following activation.</description>
     </rule>
     <rule name="Hunter" id="c061-5561-8d2a-8ab3" hidden="false">
       <description>When this Unit destroys an enemy character unit, gain 1 Intel point.</description>
     </rule>
     <rule name="Big Game Hunter" id="22ef-ed51-bdad-4ad4" hidden="false">
-      <description>Attacks from this Unit reroll hits against enemies with the Armored keyword.</description>
+      <description>Attacks from this Unit reroll hits against enemies with the vehicle keyword.</description>
     </rule>
     <rule name="Dangerous Bailout" id="544-9133-e670-6e0c" hidden="false">
       <description>If this model is destroyed while transporting units, roll 1D10 for each model it was transporting. For each roll of 5 or less, destroy one model before placing the embarked unit within 3” of the destroyed transport”</description>
@@ -908,7 +837,7 @@ Until the end of this round all vehicle Units in this platoon increase their Eva
       <description>If this model is destroyed while transporting units, roll 1D10 for each model it was transporting. for each roll of 3 or less, destroy one model before placing the unit within 3&quot; of this unit.</description>
     </rule>
     <rule name="Stable Firing Position" id="21b3-c7af-2fb8-5ab6" hidden="false">
-      <description>This unit gets +1 to hit when making ranged attacks while in contact with terrain.</description>
+      <description>If this Unit begins its activation in contact with terrain it gains an Aim Token.</description>
     </rule>
     <rule name="Forward Positions" id="239f-191a-232-4894" hidden="false">
       <description>This unit may be deployed outside of your deployment zone as long as it is more than 8” away from the enemy deployment zone or any enemy unit.</description>
@@ -919,17 +848,14 @@ Until the end of this round all vehicle Units in this platoon increase their Eva
     <rule name="Elite Infantry" id="12fb-381c-5514-6d51" hidden="false">
       <description>This unit only becomes suppressed when it has 2 suppression tokens and pinned when it has 4 suppression tokens.</description>
     </rule>
-    <rule name="Agile" id="7563-c17b-bc3c-4f99" hidden="false">
-      <description>This Unit may benefit from cover as though it were infantry.</description>
-    </rule>
     <rule name="Battlefield Preparation" id="ea06-55d8-62e2-4f31" hidden="false">
       <description>When this unit is deployed, it may immediately take the Build or Destroy action once.</description>
     </rule>
     <rule name="Reach" id="9b54-8e32-2b8d-c1d6" hidden="false">
       <description>This unit has a melee engagement range of 3&quot;.</description>
     </rule>
-    <rule name="Open Top" id="6beb-7c97-fe80-09a9" hidden="false">
-      <description>“Infantry units embarked in this transport may still be selected as the target of an attack action”</description>
+    <rule name="Open Top " id="6beb-7c97-fe80-09a9" hidden="false">
+      <description>Units inside this transport may be activated as normal and take attack actions while embarked. They may be selected as the target of an attack. These units receive X levels of cover.</description>
     </rule>
     <rule name="Nominate Field Commander" id="653b-4795-0602-9a08" hidden="false">
       <description>Nominate this unit as your field commander. (This unit must have the highest officer rank in your army).</description>
@@ -938,7 +864,7 @@ Until the end of this round all vehicle Units in this platoon increase their Eva
       <description>An infantry or artillery officer may be attached to this unit instead of a normal squad. That officer’s range for orders is 12”.</description>
     </rule>
     <rule name="Up-Armored" id="1f7c-515a-0ef2-8614" hidden="false">
-      <description>This Model&apos;s Armor Profile is increased by 1 (This effect has already been applied)</description>
+      <description>This Model&apos;s Armor Profile is increased by 1(this effect is normally already applied).</description>
     </rule>
     <rule name="Independent Hero" id="ba04-cce8-3db9-31d4" hidden="false">
       <description>This unit may attach to an allied unit as though it has the Designated Leader special rule, or be taken individually. If this unit is not attached to an allied unit, enemy ranged attacks may only target it if it is the closest enemy unit.</description>
@@ -996,16 +922,26 @@ Fortification, perform an attack against it with the Anti-Tank Mine
 Profile*. Considered Rough and Heavy Terrain. 5” square, flat.</description>
     </rule>
     <rule name="Suppressible" id="473a-370d-65e8-1c8d" hidden="false">
-      <description>This Unit can gain Suppression Tokens as though it were Infantry.</description>
+      <description>This unit can gain suppression tokens as though it has the Troops Subtype and can be affected by the “Suppressed” and “Pinned down” conditions.</description>
     </rule>
     <rule name="Dual Wield" id="2082-d275-920b-519d" hidden="false">
       <description>This weapon may be selected to attack with in addition to another weapon.</description>
     </rule>
     <rule name="Slippery" id="d4e3-7a13-502a-ecd5" hidden="false">
-      <description>If a vehicle mounted by this character is destroyed, place his infantry model in base-to-base contact with it at the end of the current activation. While not attached to another unit, this character activates independently.</description>
+      <description>If a vehicle-mounted by this unit is destroyed, place this unit&apos;s infantry model in base-to-base contact with it at the end of the current activation. While not attached to another unit, this unit activates independently and gains the “Troop” keyword.</description>
     </rule>
     <rule name="Hitch" id="320a-d3d0-cf35-7d83" hidden="false">
-      <description>This unit has access to the free &quot;Tow&quot; action.</description>
+      <description>This unit has access to the free action “Tow”.</description>
+    </rule>
+    <rule name="Command Squad " id="7a39-d162-eaaa-f019" hidden="false">
+      <description>This unit may only attach to the designated units.</description>
+    </rule>
+    <rule name="Direct" id="371b-f82b-1fef-54a5" hidden="false">
+      <description>Blast tokens for this weapon are placed when this weapon is selected to attack rather than in the command phase.</description>
+    </rule>
+    <rule name="Attached" id="5f6a-eacd-b4b2-15e5" hidden="false"/>
+    <rule name="Beam" id="a397-8716-ab3d-2773" hidden="false">
+      <description>After resolving an attack with this weapon, you may make an additional attack against another enemy unit within 6&quot; of the original target. (Line of sight required)</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -1013,23 +949,23 @@ Profile*. Considered Rough and Heavy Terrain. 5” square, flat.</description>
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Dash, Attack, Take Aim</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Flee, Dig In, Brace, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady Shot</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Dash</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Capture</characteristic>
       </characteristics>
     </profile>
     <profile id="ed5a-9492-6407-a9f1" name="Armor Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim</characteristic>
-        <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Brace, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady Shot, Capture</characteristic>
-        <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Tow</characteristic>
+        <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Button Up, Fallback</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Capture, Dash</characteristic>
+        <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73"/>
       </characteristics>
     </profile>
     <profile id="e02c-5a58-9b36-5c37" name="Recon Vehicle Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim, Capture</characteristic>
-        <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Brace, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady Shot</characteristic>
+        <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Button Up, Fallback</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Dash</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73"/>
       </characteristics>
     </profile>
@@ -1037,31 +973,31 @@ Profile*. Considered Rough and Heavy Terrain. 5” square, flat.</description>
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Take Aim</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Brace, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Move, Capture, Steady Shot</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Move, Capture, Steady</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Adjust Coordinates</characteristic>
       </characteristics>
     </profile>
     <profile id="335b-34df-c974-9c3b" name="Support Infantry Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim</characteristic>
-        <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Dig In, Pop Smoke, Brace, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady Shot</characteristic>
+        <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Dig In, Brace, Fallback</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Dash</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Build, Destroy</characteristic>
       </characteristics>
     </profile>
     <profile id="d3bd-9092-41d2-8882" name="Transport Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim,</characteristic>
-        <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Brace, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady Shot, Capture</characteristic>
-        <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Tow</characteristic>
+        <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Button Up, Fallback</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Capture, Dash</characteristic>
+        <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73"/>
       </characteristics>
     </profile>
     <profile id="1761-68e7-b0e6-e086" name="Support Artillery Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Attack</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Brace, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Capture, Steady Shot</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Capture, Steady</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Take Aim</characteristic>
       </characteristics>
     </profile>
@@ -1069,7 +1005,7 @@ Profile*. Considered Rough and Heavy Terrain. 5” square, flat.</description>
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Dig In, Brace, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady Shot</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Dash</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Capture, Rally</characteristic>
       </characteristics>
     </profile>
@@ -1091,6 +1027,14 @@ Profile*. Considered Rough and Heavy Terrain. 5” square, flat.</description>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">4</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Ammo 1, High Explosive, Close in, Difficult to Use</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Grenade, Ranged</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Artillery Vehicle Actions" typeId="5a0c-9677-ca87-9509" typeName="Action List" hidden="false" id="ad55-69e8-9339-6df7">
+      <characteristics>
+        <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim</characteristic>
+        <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Button Up, Fallback</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Capture, Steady</characteristic>
+        <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Adjust Coordinates</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

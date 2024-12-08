@@ -6,7 +6,7 @@
         <profile name="Heishi Infantry Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="b5e7-492c-1155-d300">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Gunsō &amp; 9 Hohei</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJA, (CORE) Infantry</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJA, (CORE) Infantry, Troop</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
           </characteristics>
         </profile>
@@ -66,7 +66,7 @@
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Hōshu with Grenade Launcher" hidden="false" id="e959-4af1-cfaa-a21a" collective="false">
+            <selectionEntry type="model" import="true" name="Hōshu with Shin-Gunto" hidden="false" id="e959-4af1-cfaa-a21a" collective="false">
               <constraints>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="47e0-ab6-31eb-c968" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
@@ -81,14 +81,13 @@
                 </profile>
               </profiles>
               <entryLinks>
-                <entryLink import="true" name="Type 92 Grenade Launcher" hidden="false" id="3e2f-ef53-89fe-f47f" collective="false" targetId="27f0-da89-cb17-6803" type="selectionEntry">
+                <entryLink import="true" name="Shin-Gunto" hidden="false" id="3e2f-ef53-89fe-f47f" collective="false" targetId="5c07-dfbc-2346-645e" type="selectionEntry">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="618e-501c-90b0-ef6b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4089-888b-b329-4ae4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
                 <entryLink import="true" name="Fragmentation Grenade" hidden="false" id="8bfa-34ce-ed01-2ae5" type="selectionEntry" targetId="a96d-80b-90a8-b77b"/>
-                <entryLink import="true" name="Bayonet" hidden="false" id="84a2-ce8c-1fba-6c23" type="selectionEntry" targetId="e5f8-e1cc-6fd4-54fc"/>
               </entryLinks>
               <costs>
                 <cost name="Munitions" typeId="Points" value="8"/>
@@ -253,6 +252,68 @@
                 <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry type="model" import="true" name="Hōshu with Shoulder Mounted Energy Cannon" hidden="false" id="1f81-ae66-e5ed-39bc" collective="false">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0b8f-8c59-99b2-c925" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Hōshu" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="433e-2a19-6684-ed45">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
+                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
+                    <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Type 91 Energy Cannon" hidden="false" id="6657-b6e5-5dcb-a498" collective="false" targetId="64bb-13cd-aeb2-566e" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f04-a58e-ddf0-3a08" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="56df-3480-8ca7-f32a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Fragmentation Grenade" hidden="false" id="30d7-195c-1f5c-450c" type="selectionEntry" targetId="a96d-80b-90a8-b77b"/>
+                <entryLink import="true" name="Bayonet" hidden="false" id="7035-2e09-7e77-a8c0" type="selectionEntry" targetId="e5f8-e1cc-6fd4-54fc"/>
+              </entryLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="8"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Hōshu with Grenade Launcher" hidden="false" id="59c8-0182-dc24-fd2d" collective="false">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3436-cafe-7404-bda0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Hōshu" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="8f5e-5cad-f1d6-dcbc">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
+                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
+                    <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Type 92 Grenade Launcher" hidden="false" id="e5de-4253-cec6-834e" collective="false" targetId="27f0-da89-cb17-6803" type="selectionEntry">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1114-5bea-8cf8-dc0d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="32a2-69cc-bbd6-e673" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Fragmentation Grenade" hidden="false" id="d081-dbb6-fdaf-d27b" type="selectionEntry" targetId="a96d-80b-90a8-b77b"/>
+                <entryLink import="true" name="Bayonet" hidden="false" id="94be-a38b-93d1-3ed4" type="selectionEntry" targetId="e5f8-e1cc-6fd4-54fc"/>
+              </entryLinks>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="8"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -268,7 +329,7 @@
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Type 87 Chi-Wo-Kai Battle Tank" hidden="false" id="d9d3-ea3a-dda-8be">
+    <selectionEntry type="unit" import="true" name="IJM Type 87 Chi-Wo-Kai Battle Tank" hidden="false" id="d9d3-ea3a-dda-8be">
       <costs>
         <cost name="Munitions" typeId="Points" value="133"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
@@ -462,7 +523,7 @@
         <profile name="Type 87 Chi-Wo-Kai Battle Tank" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="a5f6-3482-f6d2-176b">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Type 87 Chi-Wo-Kai Battle Tank</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, (CORE) Armor, Vehicle, Heavy Vehicle</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, (CORE) Armor, Vehicle, Tracked</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
           </characteristics>
         </profile>
@@ -630,7 +691,7 @@
         <profile name="Type 90 O-Ni Heavy Tank" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="2a0f-f6a5-67cb-cd49">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Type 90 O-Ni Heavy Tank</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJA, (CORE) Armor, Vehicle, Heavy Vehicle</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJA, (CORE) Armor, Vehicle, Tracked</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
           </characteristics>
         </profile>
@@ -666,7 +727,7 @@
         <profile name="IJA Captain Higuchi Ryuusuke" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="bd79-82bb-49d2-d8c3">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Captain Higuchi Ryuusuke</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJA, (CORE) Infantry, Command, Character</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJA, (CORE) Infantry, (AUX) Recon, Support, Command, Character, Hero, Troop</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
           </characteristics>
         </profile>
@@ -680,6 +741,20 @@
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7c3c-8224-81db-6302-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c3c-8224-81db-6302-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Inter-service Rivalry (Army)" hidden="false" id="9245-b06e-d7c0-29e0">
+          <rules>
+            <rule name="Land-Based Supply lines" id="6f16-81bd-4964-5806" hidden="false">
+              <description>As long as this commander&apos;s platoon includes no units with the IJN keyword, this unit gains logistics.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink name="Logistics" id="e5ed-fd7b-65a5-760b" hidden="false" type="rule" targetId="c1ce-d022-923f-3147"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="579e-4595-65b7-cde8" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b38-8573-58df-3cbf" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -713,7 +788,7 @@
         <profile name="Towed Gun Carriage Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="6aa-2fb5-a250-6c0a">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2 Gun Carriages</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, (CORE)Support, Towable</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, (CORE) Artillery, Towable, Carriage</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">60mm</characteristic>
           </characteristics>
         </profile>
@@ -803,12 +878,12 @@
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hōshu Heavy Weapon Squads" hidden="false" id="e6bb-56e5-ce43-8531" collective="false">
+    <selectionEntry type="unit" import="true" name="IJM Hōshu Heavy Weapon Squads" hidden="false" id="e6bb-56e5-ce43-8531" collective="false">
       <profiles>
         <profile name="Hōshu Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="df75-c070-e548-8910">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2 Hōshu Heavy Weapon Teams</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, Infantry Support, (CORE) Support, (CORE)Infantry</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, (CORE) Infantry, Support, Troop</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">50mm</characteristic>
           </characteristics>
         </profile>
@@ -917,7 +992,7 @@
         <profile name="IJM Tank Commander" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="5f75-9160-e209-83b8">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 IJM Tank Commander</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, (CORE) Armor, Command</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, (CORE) Armor, Command, Mounted</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
           </characteristics>
         </profile>
@@ -961,7 +1036,7 @@
         <profile name="IJA Infantry Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="2acf-3253-b406-d582">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 IJA Infantry Officer</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJA, (CORE) Infantry, Command, Character</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJA, (CORE) Infantry, Command, Character, Troop</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
           </characteristics>
         </profile>
@@ -982,7 +1057,7 @@
         <selectionEntry type="upgrade" import="true" name="Inter-service Rivalry (Army)" hidden="false" id="64f6-f3d7-72e9-03e0">
           <rules>
             <rule name="Land-Based Supply lines" id="28fa-f9b6-b766-70ef" hidden="false">
-              <description>As long as this commander&apos;s platoon includes no units with the IJN keyword, gain logistics.</description>
+              <description>As long as this commander&apos;s platoon includes no units with the IJN keyword, this unit gains logistics.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -1398,7 +1473,7 @@
         <profile name="IJM Recon Commander" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="7be7-dd35-cdc1-08df">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 IJM Recon Commander</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, (CORE) Recon, Command</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, (CORE) Recon, Support, Command, Mounted</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
           </characteristics>
         </profile>
@@ -1421,7 +1496,7 @@
         <profile name="IJM Artillery Commander" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="5467-06eb-15c3-8e71">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 IJM Artillery Commander</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, (CORE) Artillery, Command</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, (CORE) Artillery, Command, Mounted</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
           </characteristics>
         </profile>
@@ -1432,7 +1507,7 @@
         <profile name="IJN Rikusentai Infantry" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="ce49-d471-c9d4-7f74">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Gunsō &amp; 9 Naval Infantrymen</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJN, (CORE) Infantry</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJN, (CORE) Infantry, Troop</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
           </characteristics>
         </profile>
@@ -1457,7 +1532,7 @@
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
                     <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
-                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">3</characteristic>
+                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">4</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
                   </characteristics>
                 </profile>
@@ -1509,7 +1584,7 @@
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
                     <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
-                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">2</characteristic>
+                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">4</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
                   </characteristics>
                 </profile>
@@ -1540,7 +1615,7 @@
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
                     <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
-                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">2</characteristic>
+                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">4</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
                   </characteristics>
                 </profile>
@@ -1571,7 +1646,7 @@
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
                     <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
-                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">2</characteristic>
+                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">4</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
                   </characteristics>
                 </profile>
@@ -1602,7 +1677,7 @@
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
                     <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
-                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">2</characteristic>
+                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">4</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
                   </characteristics>
                 </profile>
@@ -1634,7 +1709,7 @@
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
                     <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
-                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">2</characteristic>
+                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">4</characteristic>
                     <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
                   </characteristics>
                 </profile>
@@ -1679,11 +1754,19 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
       </costs>
+      <rules>
+        <rule name="Hōjutsu" id="c50c-79cf-d844-0c9b" hidden="false">
+          <description>If this unit begins its activation and is not within engagement range of an enemy unit, it gains an aim token.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink targetId="26a5-76cb-5d13-b4a7" id="dcf0-c035-3b48-711a" primary="true" name="CORE Infantry"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="7e95-764d-edef-f885" primary="false" name="Unit"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Nagoya Type 100 Submachine Gun" hidden="false" id="2f56-a218-5b0b-1411" collective="true">
       <infoLinks>
         <infoLink name="Nagoya Type 100 SMG" id="61b3-5910-7884-a3eb" hidden="false" type="profile" targetId="b7f1-5bb3-9cf0-b50a"/>
-        <infoLink name="Suppressive" id="26c2-6c40-ced7-0d02" hidden="false" type="rule" targetId="4911-2380-864d-8b44"/>
       </infoLinks>
       <costs>
         <cost name="Munitions" typeId="Points" value="2"/>
@@ -1703,7 +1786,7 @@
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="IJA Type 94 Halftrack" hidden="false" id="18bd-698f-1710-4110" collective="false">
+    <selectionEntry type="unit" import="true" name="IJM Type 94 Halftrack" hidden="false" id="18bd-698f-1710-4110" collective="false">
       <profiles>
         <profile name="Type 94 Halftrack" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="f252-5219-5d4c-7991">
           <characteristics>
@@ -1716,7 +1799,7 @@
         <profile name="Type 94 Halftrack" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="234b-e60c-2a78-0991">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Halftrack</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJA, Vehicle, (CORE)Light Vehicle, Transport</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, Vehicle, (CORE)Light Vehicle, Transport</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
           </characteristics>
         </profile>
@@ -1729,29 +1812,8 @@
         </infoLink>
         <infoLink name="Logistics" id="9810-ab6e-9e55-fd2a" hidden="false" targetId="c1ce-d022-923f-3147" type="rule"/>
         <infoLink name="Transport Actions" id="c741-3884-f326-09da" hidden="false" targetId="d3bd-9092-41d2-8882" type="profile"/>
-        <infoLink name="Crushing Treads" id="8818-9bea-f7ab-21f8" hidden="false" targetId="1fc3-97a8-e24a-a084" type="rule"/>
         <infoLink name="Bailout" id="e204-f3e7-8d8c-3e4c" hidden="false" type="rule" targetId="4f87-d052-cf5f-ceec"/>
       </infoLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Pintle Mount" id="4977-82a4-231c-0c93" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e09-9217-a510-c7c0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Type 92 “Hyōshigi” Machine Gun" hidden="false" id="9d69-c049-c67f-c19a" collective="true">
-              <infoLinks>
-                <infoLink name="Suppressive" id="bf43-95d3-e213-80f6" hidden="false" type="rule" targetId="4911-2380-864d-8b44"/>
-                <infoLink name="Type 92 “Hyōshigi” Machine Gun" id="8c01-5b3f-d232-431c" hidden="false" type="profile" targetId="1997-f52e-f334-5046"/>
-              </infoLinks>
-              <costs>
-                <cost name="Munitions" typeId="Points" value="6"/>
-                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <costs>
         <cost name="Munitions" typeId="Points" value="72"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
@@ -1763,6 +1825,14 @@
           <description>This unit only receives the benefit of its logistics ability while it has no friendly units embarked.</description>
         </rule>
       </rules>
+      <entryLinks>
+        <entryLink import="true" name="Type 95 “Tetsumure” Heavy Machine Gun" hidden="false" id="ac2e-5cf0-9eda-f54d" type="selectionEntry" targetId="7145-8646-a953-7b3d">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cfbc-ff2c-8e1b-dc1a-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfbc-ff2c-8e1b-dc1a-max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="IJM Yonki Staff Car" hidden="false" id="4932-89f2-c18b-9caa" collective="false">
       <profiles>
@@ -1777,14 +1847,13 @@
         <profile name="IJM Yoni Staff Car" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="b7dc-57fa-128a-8781">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 IJM Kurogane Staff Car</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, Vehicle, (CORE) Support (CORE), Light Vehicle</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, Transport, Vehicle</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Transport Actions" id="79e8-5a4c-5a30-4f10" hidden="false" targetId="d3bd-9092-41d2-8882" type="profile"/>
-        <infoLink name="Dangerous Bailout" id="20cb-aa40-410c-c2a0" hidden="false" type="rule" targetId="544-9133-e670-6e0c"/>
         <infoLink name="Rank has its Privileges" id="ba36-e1cd-eb26-e5cf" hidden="false" type="rule" targetId="7d1b-65ee-7808-b26d"/>
       </infoLinks>
       <costs>
@@ -1827,13 +1896,17 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="d4be-5aad-8560-5720" id="cfe7-8947-1e80-0cb6" primary="true" name="Transports"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="d59f-b090-3838-553a" primary="false" name="Unit"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="IJN Combat Engineer Squad" hidden="false" id="4092-ba8c-31ee-48af" collective="false">
       <profiles>
         <profile name="IJN Combat Engineer Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="f4f7-a825-da58-e285">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Gunsō &amp; 9 Engineers</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJN, (CORE) Infantry, (CORE) Infantry Support</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJN, (CORE) Infantry, Support, Troop</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
           </characteristics>
         </profile>
@@ -2017,7 +2090,7 @@
         <profile name="IJN Infantry Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="7665-600f-84c2-cf77">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 IJN Infantry Officer</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJN, (CORE) Infantry, Command, Character</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJN, (CORE) Infantry, Command, Troop</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
           </characteristics>
         </profile>
@@ -2038,7 +2111,7 @@
         <selectionEntry type="upgrade" import="true" name="Inter-service Rivalry (Navy)" hidden="false" id="cfce-ff88-6ebd-14d0">
           <rules>
             <rule name="Sea-plane Reconnaissance" id="8637-d162-624e-0fbb" hidden="false">
-              <description>As long as this commander&apos;s platoon includes no units with the IJA keyword, gain Intel Gathering.</description>
+              <description>As long as this commander&apos;s platoon includes no units with the IJA keyword, this unit gains Intel Gathering.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -2061,7 +2134,7 @@
         <profile name="Shugo-yoroi Warsuit Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="fbc2-c6d3-3f75-d41d">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Shugo-yoroi Gunsō. &amp; 2 Shugo-yoroi</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, (CORE) Infantry, Infantry Support</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, (CORE) Infantry, Support, Battlesuit, Troop</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">40mm</characteristic>
           </characteristics>
         </profile>
@@ -2201,7 +2274,7 @@
         <profile name="Field Artillery Battery" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="ce12-6d2b-c9a1-7392">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2 Field Artillery Squads</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJA, (CORE) Artillery, Heavy Artillery, Towable, (CORE) Support,</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJA, (CORE) Artillery, Towable, Carriage</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
           </characteristics>
         </profile>
@@ -2430,16 +2503,16 @@
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="IJN Type 85 Amphibious Assault Craft" hidden="false" id="3626-cc6f-fe92-8aab" collective="false">
+    <selectionEntry type="unit" import="true" name="IJN Type 4 Ka-Tsu-Kai Amphibious Landing Vehicle" hidden="false" id="3626-cc6f-fe92-8aab" collective="false">
       <profiles>
-        <profile name="IJN Type 85 Amphibious Assault Craft" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="4466-528e-4bde-4f26">
+        <profile name="Type 4 Ka-Tsu-Kai Amphibious Landing Vehicle" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="4466-528e-4bde-4f26">
           <characteristics>
-            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">IJN Type 85 Amphibious Assault Craft</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJN, Vehicle, (CORE) Armor</characteristic>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">Type 4 Ka-Tsu-Kai Amphibious Landing Vehicle</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJN, Transport, Vehicle, Tracked</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
           </characteristics>
         </profile>
-        <profile name="IJN Type 85 Amphibious Assault Craft" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="c1ea-8991-12a0-c97b">
+        <profile name="Type 4 Ka-Tsu-Kai Amphibious Landing Vehicle" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="c1ea-8991-12a0-c97b">
           <characteristics>
             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">10&quot;</characteristic>
             <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
@@ -2449,7 +2522,6 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Crushing Treads" id="4031-4552-9de0-977d" hidden="false" targetId="1fc3-97a8-e24a-a084" type="rule"/>
         <infoLink name="Transport" id="faca-5010-ac88-7d9a" hidden="false" targetId="73c0-9282-d155-0b35" type="rule">
           <modifiers>
             <modifier type="append" value="2" field="name"/>
@@ -2457,56 +2529,34 @@
         </infoLink>
         <infoLink name="Safe Bailout" id="3166-0820-c65b-957c" hidden="false" type="rule" targetId="40dd-ac7-61eb-eaf6"/>
         <infoLink name="Transport Actions" id="8a2c-f3c0-f06f-0474" hidden="false" type="profile" targetId="d3bd-9092-41d2-8882"/>
+        <infoLink name="Open Top " id="b702-b6a5-9105-c88c" hidden="false" type="rule" targetId="6beb-7c97-fe80-09a9"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Turret Weapon" id="631d-4115-5884-7aa4" hidden="false" collective="false" import="true" defaultSelectionEntryId="ab42-44eb-c673-d5b4">
+        <selectionEntryGroup name="Pintle Weapons" id="d757-d67c-1b05-f49c" hidden="false" defaultSelectionEntryId="b600-c21a-e9b5-efc2">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="46cd-b546-8782-d412" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f422-1cb8-ef69-3c9d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-          <entryLinks>
-            <entryLink import="true" name="Automatic Grenade Launcher" hidden="false" id="6105-84bb-b0de-c441" collective="false" targetId="1238-af44-11b7-7dc" type="selectionEntry"/>
-            <entryLink import="true" name="Type 91 Energy Cannon" hidden="false" id="ab42-44eb-c673-d5b4" collective="false" targetId="64bb-13cd-aeb2-566e" type="selectionEntry">
-              <costs>
-                <cost name="Pts" typeId="Points" value="5"/>
-              </costs>
-            </entryLink>
-            <entryLink import="true" name="Light Autocannon" hidden="false" id="3bda-cb16-c5ec-d835" collective="false" targetId="7e0a-ca1a-94fa-74b7" type="selectionEntry">
-              <costs>
-                <cost name="Pts" typeId="Points" value="7"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Bow Gun" id="5a4a-ed12-463c-40ce" hidden="false" collective="false" import="true" defaultSelectionEntryId="e72e-2148-02e8-fa7f">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5c0c-04bd-aca0-a756" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7759-ec32-80ae-2333" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </constraints>
-          <entryLinks>
-            <entryLink import="true" name="Automatic Grenade Launcher" hidden="false" id="e72e-2148-02e8-fa7f" collective="false" targetId="1238-af44-11b7-7dc" type="selectionEntry"/>
-            <entryLink import="true" name="Type 91 Energy Cannon" hidden="false" id="8448-d598-c489-ce9f" collective="false" targetId="64bb-13cd-aeb2-566e" type="selectionEntry">
-              <costs>
-                <cost name="Pts" typeId="Points" value="5"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Pintle Mount" id="3cb0-a372-bea9-2336" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d41d-90b4-d0a2-98ca" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ace7-ce9d-36cd-eed2-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ace7-ce9d-36cd-eed2-max" includeChildSelections="false"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Type 92 “Hyōshigi” Machine Gun" hidden="false" id="b7c6-c7ea-89a5-3049" collective="true">
-              <infoLinks>
-                <infoLink name="Suppressive" id="d5d4-59d3-4699-f87c" hidden="false" type="rule" targetId="4911-2380-864d-8b44"/>
-                <infoLink name="Type 92 “Hyōshigi” Machine Gun" id="312c-f45e-ecf8-b017" hidden="false" type="profile" targetId="1997-f52e-f334-5046"/>
-              </infoLinks>
-              <costs>
-                <cost name="Munitions" typeId="Points" value="6"/>
-                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-              </costs>
+            <selectionEntry type="upgrade" import="true" name="Type 98 “Rekka” Energy Machine Guns" hidden="false" id="b600-c21a-e9b5-efc2">
+              <entryLinks>
+                <entryLink import="true" name="Type 98 “Rekka” Energy Machine Gun" hidden="false" id="3e0a-1209-56eb-80a4" type="selectionEntry" targetId="0067-5ab2-1dd9-0020">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0cc4-d8b5-ef96-323b"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="ddd1-c948-8ccd-0b2a"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Type 95 “Tetsumure” Heavy Machine Guns" hidden="false" id="e2c9-51ae-8925-9dbc">
+              <entryLinks>
+                <entryLink import="true" name="Type 95 “Tetsumure” Heavy Machine Gun" hidden="false" id="357a-ab68-88be-7fe2" type="selectionEntry" targetId="7145-8646-a953-7b3d">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9ce9-561f-c365-e043"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c647-bc45-d7ce-0f0b"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2523,7 +2573,7 @@
         <profile name="Type 91 Heavy Weapon Carrier" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="14e5-6a1e-8615-0943">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">Type 91 Heavy Weapon Carrier</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJA, Vehicle, (CORE) Armor</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJA, (CORE) Armor, Support, Vehicle, Tracked</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
           </characteristics>
         </profile>
@@ -2537,8 +2587,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Crushing Treads" id="b4a4-91ad-db84-a1c9" hidden="false" targetId="1fc3-97a8-e24a-a084" type="rule"/>
-        <infoLink name="Armor Actions" id="caca-aa6e-ecce-e2f6" hidden="false" type="profile" targetId="ed5a-9492-6407-a9f1"/>
+        <infoLink name="Artillery Vehicle Actions" id="caca-aa6e-ecce-e2f6" hidden="false" type="profile" targetId="ad55-69e8-9339-6df7"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Primary Weapon" id="698b-8b6e-b203-31e8" hidden="false" collective="false" import="true" defaultSelectionEntryId="cd24-6a9d-081b-4ef4">
@@ -2585,7 +2634,7 @@
         <profile name="Type 94 Self-Propelled AA Platform" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="1f81-6be9-5e64-7893">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">Type 94 Self-Propelled AA Platform</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJA, Vehicle, (CORE) Armor</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJA, (CORE) Armor, Support, Vehicle, Tracked</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
           </characteristics>
         </profile>
@@ -2599,7 +2648,6 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Crushing Treads" id="7e6e-a2df-3a06-ab2b" hidden="false" targetId="1fc3-97a8-e24a-a084" type="rule"/>
         <infoLink name="Armor Actions" id="f960-6545-b861-7a0a" hidden="false" type="profile" targetId="ed5a-9492-6407-a9f1"/>
       </infoLinks>
       <selectionEntryGroups>
@@ -2630,7 +2678,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="IJN Type 97 Heike Amphibious Walker" hidden="false" id="f960-6ba6-8925-631b">
       <costs>
-        <cost name="Munitions" typeId="Points" value="145"/>
+        <cost name="Munitions" typeId="Points" value="178"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -2680,41 +2728,30 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ec8-8c88-49c0-1deb" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Type 95 “Hyōshigi” Machine Gun" hidden="false" id="5a8b-99ce-9dd7-66db">
-              <infoLinks>
-                <infoLink name="Type 92 “Hyōshigi” Machine Gun" id="3308-c564-c524-b6a4" hidden="false" type="profile" targetId="1997-f52e-f334-5046"/>
-                <infoLink name="Suppressive" id="e0cd-0cb3-59e1-ebe0" hidden="false" type="rule" targetId="4911-2380-864d-8b44"/>
-              </infoLinks>
-              <costs>
-                <cost name="Munitions" typeId="Points" value="13"/>
-                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Type 92 “Hyōshigi” Machine Gun" hidden="false" id="8e86-7a08-deec-de20" type="selectionEntry" targetId="8914-6078-e164-3a2c"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <profiles>
         <profile name="IJN Type 97 Heike Amphibious Walker" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="cede-175d-1792-b560">
           <characteristics>
             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8&quot;</characteristic>
-            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">3</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
             <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">12</characteristic>
-            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">12</characteristic>
+            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">15</characteristic>
           </characteristics>
         </profile>
         <profile name="IJN Type 97 Heike Amphibious Walker" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="ea6a-2fdc-0a4f-ec88">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">IJN Type 97 Heike Amphibious Walker</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJN, (CORE) Armor, Vehicle, Walker</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJN, (CORE) Recon, Walker, Vehicle</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Recon Vehicle Actions" id="eb25-9973-e91e-e45d" hidden="false" type="profile" targetId="e02c-5a58-9b36-5c37"/>
-        <infoLink name="Steel Legs" id="7064-7dcd-5173-9880" hidden="false" type="rule" targetId="740c-be52-5a59-9265"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Heiki Walker Claws" hidden="false" id="d3a6-1000-98d1-6c99">
@@ -2752,6 +2789,11 @@
           </constraints>
         </selectionEntry>
       </selectionEntries>
+      <rules>
+        <rule name="Grasping Claws" id="05af-21ad-e8a8-40ea" hidden="false">
+          <description>As a free action, this unit may attach an enemy vehicle within engagement range with less than 16HP to itself as if they are being towed. When this unit moves your opponent must move the attached unit along with it to a point you specify within this unit&apos;s engagement range.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heiki Walker Claws" hidden="false" id="032f-7d85-ff20-16e6">
       <infoLinks>
@@ -2762,7 +2804,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="IJN Type 100 Soki Heike AA Vehicle" hidden="false" id="464d-230f-df45-d644">
       <costs>
-        <cost name="Munitions" typeId="Points" value="89"/>
+        <cost name="Munitions" typeId="Points" value="178"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -2790,23 +2832,22 @@
       <profiles>
         <profile name="IJN Type 100 Soki Heike AA Vehicle" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="4c65-14d8-5456-f8bf">
           <characteristics>
-            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">3</characteristic>
-            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">10</characteristic>
-            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">10</characteristic>
+            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8&quot;</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">12</characteristic>
+            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">18</characteristic>
           </characteristics>
         </profile>
         <profile name="IJN Type 100 Soki Heike AA Vehicle" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="9452-2117-4981-fdcc">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 IJN Type 100 Soki Heike AA Vehicle</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJN, (CORE) Armor, Vehicle, Walker</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJN, (CORE) Armor, Support, Walker</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Recon Vehicle Actions" id="75fd-e846-db98-bb40" hidden="false" type="profile" targetId="e02c-5a58-9b36-5c37"/>
-        <infoLink name="Steel Legs" id="f70e-c539-879d-77dd" hidden="false" type="rule" targetId="740c-be52-5a59-9265"/>
       </infoLinks>
       <rules>
         <rule name="Flak Shells" id="5f05-603c-fb6d-2af1" hidden="false">
@@ -2876,7 +2917,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="IJN Type 100 ShinHōtō Heike Self Propelled Gun" hidden="false" id="1309-39e7-78ed-f94e">
       <costs>
-        <cost name="Munitions" typeId="Points" value="89"/>
+        <cost name="Munitions" typeId="Points" value="178"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -2923,23 +2964,22 @@
       <profiles>
         <profile name="IJN Type 100 ShinHōtō Heike Self Propelled Gun" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="35de-b880-22fe-1ae3">
           <characteristics>
-            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">3</characteristic>
-            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">10</characteristic>
-            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">10</characteristic>
+            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8&quot;</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">12</characteristic>
+            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">18</characteristic>
           </characteristics>
         </profile>
         <profile name="IJN Type 100 ShinHōtō Heike Self Propelled Gun" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="4425-b702-b3f2-872e">
           <characteristics>
             <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">IJN IJN Type 100 ShinHōtō Heike Self Propelled Gun</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJN, (CORE) Armor, Vehicle, Walker</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJN, (CORE) Armor, (AUX) Recon, Walker</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Recon Vehicle Actions" id="1579-ac76-61b7-ec48" hidden="false" type="profile" targetId="e02c-5a58-9b36-5c37"/>
-        <infoLink name="Steel Legs" id="f74e-5a7f-e5f9-f028" hidden="false" type="rule" targetId="740c-be52-5a59-9265"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Sokusha 45 Pounder Naval Gun" hidden="false" id="9590-8d0d-acfe-d7d6">
@@ -2959,6 +2999,11 @@
           </constraints>
         </selectionEntry>
       </selectionEntries>
+      <rules>
+        <rule name="Dug In Hull" id="5241-0595-c67a-8f35" hidden="false">
+          <description>If this unit has not activated it is considered to be in heavy cover. (Ignore the rule stating that vehicles cannot gain the benefit of cover)</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Nambu Type 1 Submachine Gun" hidden="false" id="8424-2ffa-a02a-ab3d" collective="true">
       <infoLinks>
@@ -3031,7 +3076,7 @@
         <infoLink name="High Explosive" id="01a0-bd70-8b23-23eb" hidden="false" type="rule" targetId="9375-d461-c135-9e66"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="IJN Captain Frogman" hidden="false" id="a1c7-61ad-e73c-8753">
+    <selectionEntry type="model" import="true" name="IJN Captain Kaeda Goemon" hidden="false" id="a1c7-61ad-e73c-8753">
       <infoLinks>
         <infoLink name="Infantry Officer Actions" id="0ad7-bc0f-b44d-c35b" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
         <infoLink name="Independent Hero" id="4653-39c5-4daf-283e" hidden="false" type="rule" targetId="ba04-cce8-3db9-31d4"/>
@@ -3045,7 +3090,7 @@
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
       </costs>
       <profiles>
-        <profile name="IJN Captain Frogman" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="fb14-5c44-7862-9b66">
+        <profile name="IJN Captain Kaeda Goemon" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="fb14-5c44-7862-9b66">
           <characteristics>
             <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8&quot;</characteristic>
             <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">9</characteristic>
@@ -3053,10 +3098,10 @@
             <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">4</characteristic>
           </characteristics>
         </profile>
-        <profile name="IJN Captain Frogman" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="4e23-e9de-612d-2548">
+        <profile name="IJN Captain Kaeda Goemon" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="4e23-e9de-612d-2548">
           <characteristics>
-            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 IJN Captain Frogman</characteristic>
-            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJN, (CORE) Infantry, Character</characteristic>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 IJN Captain Kaeda Goemon</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJN, (CORE) Infantry, (AUX) Recon, Support, Command, Character, Hero, Troop</characteristic>
             <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
           </characteristics>
         </profile>
@@ -3071,15 +3116,16 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0b1-8a37-122c-894b" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Frog Gun" hidden="false" id="551a-1631-88e1-3498" collective="true">
+        <selectionEntry type="upgrade" import="true" name="Experimental Type 1 Submachine Gun" hidden="false" id="551a-1631-88e1-3498" collective="true">
           <infoLinks>
-            <infoLink name="Frog Gun" id="1c70-7b0b-834d-41b5" hidden="false" type="profile" targetId="b74b-17ba-e965-5296"/>
+            <infoLink name="Experimental Type 1 Submachine Gun" id="1c70-7b0b-834d-41b5" hidden="false" type="profile" targetId="b74b-17ba-e965-5296"/>
             <infoLink name="Sidearm" id="752c-6b8a-6275-32da" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
+            <infoLink name="Suppressive" id="a6df-35bb-0cc1-12b3" hidden="false" type="rule" targetId="4911-2380-864d-8b44"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <rules>
-        <rule name="Frog Grab with Tongue" id="d68c-a6c9-3225-6674" hidden="false">
+        <rule name="Objective Acquired" id="d68c-a6c9-3225-6674" hidden="false">
           <description>This unit may not attach to any allied units. As an action, this unit may pick up an uncontested objective you control that it is in base to base contact with. While holding this objective, it moves with the character.</description>
         </rule>
       </rules>
@@ -3092,15 +3138,90 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Frog Gun" hidden="false" id="cc08-3332-7b3c-f9e1" collective="true">
       <infoLinks>
-        <infoLink name="Frog Gun" id="b04f-4f77-c014-5f4e" hidden="false" type="profile" targetId="b74b-17ba-e965-5296"/>
+        <infoLink name="Experimental Type 1 Submachine Gun" id="b04f-4f77-c014-5f4e" hidden="false" type="profile" targetId="b74b-17ba-e965-5296"/>
         <infoLink name="Sidearm" id="56a3-83ac-8f74-6887" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="IJA Colonel Kaeda Harunobu" hidden="false" id="ee6f-332f-50a7-3f31">
+      <infoLinks>
+        <infoLink name="Independent Hero" id="80b2-3258-04cb-dee9" hidden="false" type="rule" targetId="ba04-cce8-3db9-31d4"/>
+        <infoLink name="Infantry Officer Actions" id="cc56-6e9e-3c2d-d6a7" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
+        <infoLink name="Slippery" id="971f-14c8-ac0f-d85f" hidden="false" type="rule" targetId="d4e3-7a13-502a-ecd5"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Nominate Field Commander" hidden="false" id="e5a1-30a9-c58b-4327" type="selectionEntry" targetId="a8f2-8cd0-efc0-4a1b"/>
+        <entryLink import="true" name="Shin-Gunto" hidden="false" id="9f59-5033-0dc2-c13c" collective="false" targetId="5c07-dfbc-2346-645e" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0409-3a03-7000-c1d1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5359-a309-80bc-7577" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="IJA Colonel Kaeda Harunobu" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="9c3f-37ee-7282-1618">
+          <characteristics>
+            <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">IJA Colonel Kaeda Harunobu</characteristic>
+            <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJA, (CORE) Armor, (AUX) Infantry, Support, Command, Character, Hero, Troop</characteristic>
+            <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="IJA Colonel Kaeda Harunobu" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="ff8d-9edc-9fab-3837">
+          <characteristics>
+            <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">4&quot;</characteristic>
+            <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+            <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
+            <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Command Tessen" id="afa9-7784-3c4a-082e" hidden="false">
+          <description>IJA Colonel Kaeda Harunobu may issue up to three orders to any allied units within his line of sight. After issuing orders, select one unit ordered by IJA Colonel Kaeda Harunobu and activate it immediately.</description>
+        </rule>
+        <rule name="Motorized" id="f001-5539-f693-367c" hidden="false">
+          <description>IJA Colonel Kaeda Harunobu may be attached to any vehicle unit.</description>
+        </rule>
+      </rules>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Sidearm" id="5271-4f55-8dd8-4ee9" hidden="false" defaultSelectionEntryId="5033-15c6-e404-d9f1">
+          <entryLinks>
+            <entryLink import="true" name="Nambu Type 14 Energy Pistol" hidden="false" id="5033-15c6-e404-d9f1" type="selectionEntry" targetId="47a5-a82a-1d4f-e9b6"/>
+            <entryLink import="true" name="Koishikawa Type 3 Plasma Pistol" hidden="false" id="324b-4b8e-dfa7-43c9" type="selectionEntry" targetId="3db-dc5-c6d1-2218"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="09d0-6318-ec90-c69c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6eec-cc93-af20-1f1e" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Inter-service Rivalry (Army)" hidden="false" id="29e7-cee4-bf5a-6bed">
+          <rules>
+            <rule name="Land-Based Supply lines" id="0572-ac38-d3ee-9e5d" hidden="false">
+              <description>As long as this commander&apos;s platoon includes no units with the IJN keyword, this unit gains logistics.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink name="Logistics" id="e374-fea3-e8bd-27c6" hidden="false" type="rule" targetId="c1ce-d022-923f-3147"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8e6e-daca-09cd-80f8" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="25d2-38e6-2100-708d" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="125"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Type 93 Marksman Rifle" typeId="Weapon" typeName="Weapon" hidden="false" id="7820-1f95-853f-66f5">
       <characteristics>
-        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">40</characteristic>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">40&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">1</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">3</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2</characteristic>
@@ -3120,7 +3241,7 @@
     </profile>
     <profile name="Type 97 “Kagutsuchi” Heat Rifle" typeId="Weapon" typeName="Weapon" hidden="false" id="3404-977f-e900-b528">
       <characteristics>
-        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">18</characteristic>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">18&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">N/A</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
@@ -3180,7 +3301,7 @@
     </profile>
     <profile name="Automatic Grenade Launcher" typeId="Weapon" typeName="Weapon" hidden="false" id="4ab0-57ec-c148-aabe">
       <characteristics>
-        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">18</characteristic>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">18&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">4</characteristic>
@@ -3224,7 +3345,7 @@
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">6</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">5</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Critical Shot</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Melee, Bladed, Kinetic</characteristic>
       </characteristics>
     </profile>
@@ -3234,7 +3355,7 @@
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">4</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">6</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Difficult to Use, High Explosive</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
       </characteristics>
     </profile>
@@ -3253,8 +3374,8 @@
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">38&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">1</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">10</characteristic>
-        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">6+D10</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Critical Shot</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1D10+6</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Difficult to Use, Critical Shot</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
       </characteristics>
     </profile>
@@ -3264,7 +3385,7 @@
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">5</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">3</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">High Explosive</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Difficult to Use, High Explosive</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
       </characteristics>
     </profile>
@@ -3274,7 +3395,7 @@
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">6</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">4</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Slag</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Difficult to Use, Slag</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Plasma, Ranged</characteristic>
       </characteristics>
     </profile>
@@ -3293,8 +3414,8 @@
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">50&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">10</characteristic>
-        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">6+1D10</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Critical Shot, High Explosive</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1D10+6</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Difficult to Use, Critical Shot, High Explosive, Difficult to use</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
       </characteristics>
     </profile>
@@ -3304,7 +3425,7 @@
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">5</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">6</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">4</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Slag</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Difficult to Use, Slag</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Plasma, Ranged</characteristic>
       </characteristics>
     </profile>
@@ -3354,7 +3475,7 @@
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">5</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">8</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Difficult to Use</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Ranged</characteristic>
       </characteristics>
     </profile>
@@ -3374,7 +3495,7 @@
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">8</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">2</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">4</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Blast 3, Indirect, Shellshock, High Explosive</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Difficult to Use, Blast 3, Indirect, Shellshock, High Explosive</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
       </characteristics>
     </profile>
@@ -3394,7 +3515,7 @@
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Suppressive</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Ranged</characteristic>
       </characteristics>
     </profile>
@@ -3434,7 +3555,7 @@
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">5</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">5</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Blast 3, Indirect, Shellshock, High Explosive</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Difficult to Use, Blast 3, Indirect, Shellshock, High Explosive</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
       </characteristics>
     </profile>
@@ -3443,7 +3564,7 @@
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">40&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">6</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">5</characteristic>
-        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">5+5D10</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">5D10+5</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Blast 2, High Explosive, Indirect, Shellshock</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Explosive</characteristic>
       </characteristics>
@@ -3454,7 +3575,7 @@
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">5</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">6</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Blast 3, Indirect, Shellshock, Slag</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Difficult to Use, Blast 3, Indirect, Shellshock, Slag</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Heavy, Cannon, Ranged</characteristic>
       </characteristics>
     </profile>
@@ -3494,7 +3615,7 @@
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">5</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">3</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">4</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Blast 3, High Explosive</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Difficult to Use, Blast 3, High Explosive</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
       </characteristics>
     </profile>
@@ -3513,7 +3634,7 @@
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">60&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">8</characteristic>
-        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">5+1D10</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1D10+5</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
       </characteristics>
@@ -3534,23 +3655,23 @@
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">10</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3D10+5</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">High Explosive</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Difficult to Use, High Explosive</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Heavy, Cannon, Ranged</characteristic>
       </characteristics>
     </profile>
-    <profile name="Frog Gun" typeId="Weapon" typeName="Weapon" hidden="false" id="b74b-17ba-e965-5296">
+    <profile name="Experimental Type 1 Submachine Gun" typeId="Weapon" typeName="Weapon" hidden="false" id="b74b-17ba-e965-5296">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">12&quot;</characteristic>
-        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">1</characteristic>
-        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">4</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">2</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Sidearm</characteristic>
-        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Pistol, Kinetic, Ranged</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Suppressive, Sidearm</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">SMG, Kinetic, Ranged</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
   <entryLinks>
-    <entryLink import="true" name="IJA Captain Higuchi Ryuusuke" hidden="false" id="b749-9c2e-1188-9cc1" type="selectionEntry" targetId="43be-a0d6-f15c-d685">
+    <entryLink import="true" name="IJA Captain Higuchi Ryuusuke" hidden="true" id="b749-9c2e-1188-9cc1" type="selectionEntry" targetId="43be-a0d6-f15c-d685">
       <categoryLinks>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="7259-8970-2dfb-df33" primary="false" name="Character"/>
         <categoryLink targetId="dcc5-ef7f-27fc-a528" id="2821-e571-81b6-4f1a" primary="false" name="Infantry Command"/>
@@ -3558,39 +3679,43 @@
         <categoryLink targetId="f787-f73c-7a5b-534c" id="1035-474d-7e7e-4070" primary="false" name="Recon Command"/>
         <categoryLink targetId="ac96-6e42-7e7b-1947" id="b47b-d010-ce05-c365" primary="false" name="Support Command"/>
       </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Hōshu Heavy Weapon Squads" hidden="false" id="d150-bacd-cc1c-60f2" type="selectionEntry" targetId="e6bb-56e5-ce43-8531">
+    <entryLink import="true" name="IJM Hōshu Heavy Weapon Squads" hidden="false" id="d150-bacd-cc1c-60f2" type="selectionEntry" targetId="e6bb-56e5-ce43-8531">
       <categoryLinks>
         <categoryLink targetId="0463-bfe4-198d-b1a5" id="77dc-cf52-b81e-d5c3" primary="false" name="Support Infantry"/>
-        <categoryLink targetId="7110-7fe8-80e2-5e81" id="5969-98d4-7030-3323" primary="false" name="Support"/>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="5969-98d4-7030-3323" primary="true" name="CORE Support"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="5f1a-79bf-dcc6-5272" primary="false" name="Unit"/>
         <categoryLink targetId="59ff-44cb-cb53-760d" id="9151-9b73-c094-182c" primary="false" name="Infantry"/>
-        <categoryLink targetId="96e8-513f-beca-e624" id="a5e9-939c-75b4-55b3" primary="true" name="Infantry Support"/>
+        <categoryLink targetId="96e8-513f-beca-e624" id="a5e9-939c-75b4-55b3" primary="false" name="Infantry Support"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="IJA Heishi Infantry" hidden="false" id="a926-4eb-ff99-65ca" type="selectionEntry" targetId="e735-2906-750-5b5b">
       <categoryLinks>
-        <categoryLink targetId="59ff-44cb-cb53-760d" id="5c3c-639a-fe8-63c8" primary="true" name="Infantry"/>
+        <categoryLink targetId="59ff-44cb-cb53-760d" id="5c3c-639a-fe8-63c8" primary="false" name="Infantry"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="fe02-ed71-913f-7259" primary="false" name="Unit"/>
+        <categoryLink targetId="26a5-76cb-5d13-b4a7" id="1e38-e026-c46d-5cac" primary="true" name="CORE Infantry"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Towed Gun Carriage Squad" hidden="false" id="8b80-e473-82c0-cdb1" type="selectionEntry" targetId="3e54-d3f8-e41d-a5f3">
+    <entryLink import="true" name="IJM Type 87 Chi-Wo-Kai Battle Tank" hidden="false" id="9d7b-6b2d-3597-a0a5" type="selectionEntry" targetId="d9d3-ea3a-dda-8be">
       <categoryLinks>
-        <categoryLink targetId="96e8-513f-beca-e624" id="17c4-fd3-9ec1-515c" primary="true" name="Infantry Support"/>
-        <categoryLink targetId="7110-7fe8-80e2-5e81" id="7023-8945-70e4-5e4e" primary="false" name="Support"/>
-        <categoryLink targetId="0463-bfe4-198d-b1a5" id="f3df-5eaa-e2a-9afd" primary="false" name="Support Infantry"/>
-        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="e195-ca5a-14d5-9aa9" primary="false" name="Unit"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Type 87 Chi-Wo-Kai Battle Tank" hidden="false" id="9d7b-6b2d-3597-a0a5" type="selectionEntry" targetId="d9d3-ea3a-dda-8be">
-      <categoryLinks>
-        <categoryLink targetId="7950-f6f1-38c2-f2dd" id="21-7640-81e1-3246" primary="true" name="Armor"/>
+        <categoryLink targetId="7950-f6f1-38c2-f2dd" id="21-7640-81e1-3246" primary="true" name="CORE Armor"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="603b-e6fd-77fd-aba8" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="IJA Type 90 O-Ni Heavy Tank" hidden="false" id="63cb-5aaa-10a1-2372" type="selectionEntry" targetId="6ba6-22ae-2c07-1df">
       <categoryLinks>
-        <categoryLink targetId="7950-f6f1-38c2-f2dd" id="2745-7b8f-9265-f81" primary="true" name="Armor"/>
+        <categoryLink targetId="7950-f6f1-38c2-f2dd" id="2745-7b8f-9265-f81" primary="true" name="CORE Armor"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="7ecd-d637-4b47-9e93" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
@@ -3635,9 +3760,8 @@
     </entryLink>
     <entryLink import="true" name="Towed Gun Carriage Squad" hidden="false" id="b590-b58c-a2d9-cd1b" type="selectionEntry" targetId="3e54-d3f8-e41d-a5f3">
       <categoryLinks>
-        <categoryLink name="Support" hidden="false" id="c508-ded8-3132-9f43" targetId="7110-7fe8-80e2-5e81" primary="false"/>
-        <categoryLink targetId="27cf-5cae-ad71-1584" id="4d77-6855-4f13-22a5" primary="true" name="Artillery"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="1b19-9ac1-3c25-45d7" primary="false" name="Unit"/>
+        <categoryLink targetId="8679-d614-ae03-de2c" id="4b1d-091c-3c3c-7aa5" primary="true" name="CORE Artillery"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="IJM Recon Commander" hidden="true" id="a775-fe92-75c3-75ff" type="selectionEntry" targetId="8d00-85dc-d76f-dbb7">
@@ -3678,20 +3802,21 @@
     </entryLink>
     <entryLink import="true" name="IJN Rikusentai Infantry" hidden="false" id="205d-2ac3-e6ad-9561" type="selectionEntry" targetId="e8fd-c30b-e2a6-2058">
       <categoryLinks>
-        <categoryLink targetId="59ff-44cb-cb53-760d" id="a261-3d36-9d4a-adc8" primary="true" name="Infantry"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="9bb4-4cb8-dd38-b5e4" primary="false" name="Unit"/>
+        <categoryLink targetId="26a5-76cb-5d13-b4a7" id="3038-acca-f620-073f" primary="true" name="CORE Infantry"/>
+        <categoryLink targetId="59ff-44cb-cb53-760d" id="3974-1dfd-acd1-cb65" primary="false" name="Infantry"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="IJA Type 94 Halftrack" hidden="false" id="4cf3-f28c-1cce-92ac" type="selectionEntry" targetId="18bd-698f-1710-4110">
+    <entryLink import="true" name="IJM Type 94 Halftrack" hidden="false" id="4cf3-f28c-1cce-92ac" type="selectionEntry" targetId="18bd-698f-1710-4110">
       <categoryLinks>
-        <categoryLink targetId="d4be-5aad-8560-5720" id="26ad-7e7c-e3df-7b23" primary="true" name="Light Transports"/>
+        <categoryLink targetId="d4be-5aad-8560-5720" id="26ad-7e7c-e3df-7b23" primary="true" name="Transports"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="7576-e14e-5552-4d1d" primary="false" name="Unit"/>
         <categoryLink targetId="ec55-b910-8dde-4365" id="bb2f-726d-6916-2aea" primary="false" name="Dedicated Transport"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="IJM Yonki Staff Car" hidden="false" id="bb28-1964-1754-dc9a" type="selectionEntry" targetId="4932-89f2-c18b-9caa">
       <categoryLinks>
-        <categoryLink targetId="d4be-5aad-8560-5720" id="1998-5d56-ab50-9d51" primary="true" name="Light Transports"/>
+        <categoryLink targetId="d4be-5aad-8560-5720" id="1998-5d56-ab50-9d51" primary="true" name="Transports"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="391b-4b0e-7ec6-2558" primary="false" name="Unit"/>
         <categoryLink targetId="ec55-b910-8dde-4365" id="e42d-2c8a-1ed0-4295" primary="false" name="Dedicated Transport"/>
       </categoryLinks>
@@ -3701,7 +3826,8 @@
         <categoryLink targetId="0463-bfe4-198d-b1a5" id="cb07-b316-71ec-8f82" primary="false" name="Support Infantry"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="e40e-9e45-2f2b-048c" primary="false" name="Unit"/>
         <categoryLink targetId="59ff-44cb-cb53-760d" id="40ae-b814-926b-2d4c" primary="false" name="Infantry"/>
-        <categoryLink targetId="96e8-513f-beca-e624" id="f8d1-83a4-f6bd-f71f" primary="true" name="Infantry Support"/>
+        <categoryLink targetId="96e8-513f-beca-e624" id="f8d1-83a4-f6bd-f71f" primary="false" name="Infantry Support"/>
+        <categoryLink targetId="26a5-76cb-5d13-b4a7" id="3efa-625f-169b-258c" primary="true" name="CORE Infantry"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="IJN Infantry Officer" hidden="true" id="4b9a-3bff-965a-9945" type="selectionEntry" targetId="f3a7-09a1-25e1-0c15">
@@ -3727,32 +3853,32 @@
     <entryLink import="true" name="Shugo-yoroi Warsuit Squad" hidden="false" id="7fa5-6c50-fe43-fb9c" type="selectionEntry" targetId="4500-cd99-2800-d2e5">
       <categoryLinks>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="78a1-de5c-cc39-1128" primary="false" name="Unit"/>
-        <categoryLink targetId="96e8-513f-beca-e624" id="4e14-69b7-0302-8719" primary="true" name="Infantry Support"/>
+        <categoryLink targetId="26a5-76cb-5d13-b4a7" id="9fc9-413e-02ac-a4c8" primary="true" name="CORE Infantry"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="IJA Field Artillery Battery" hidden="false" id="59d9-14f7-0ab0-b2db" type="selectionEntry" targetId="8a02-be37-bc03-cf00">
       <categoryLinks>
-        <categoryLink targetId="27cf-5cae-ad71-1584" id="614a-cc31-b14e-4220" primary="true" name="Artillery"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="832a-767e-7451-bcc0" primary="false" name="Unit"/>
+        <categoryLink targetId="8679-d614-ae03-de2c" id="ab11-fcc3-9702-8507" primary="true" name="CORE Artillery"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="IJN Type 85 Amphibious Assault Craft" hidden="false" id="a038-2c9f-9ef2-3967" type="selectionEntry" targetId="3626-cc6f-fe92-8aab">
+    <entryLink import="true" name="IJN Type 4 Ka-Tsu-Kai Amphibious Landing Vehicle" hidden="false" id="a038-2c9f-9ef2-3967" type="selectionEntry" targetId="3626-cc6f-fe92-8aab">
       <categoryLinks>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="5c1c-88f7-ca2b-e43c" primary="false" name="Unit"/>
-        <categoryLink targetId="1dd3-025a-e394-fd6b" id="dd02-a42b-2b01-790b" primary="true" name="Heavy Transports"/>
         <categoryLink targetId="ec55-b910-8dde-4365" id="19f2-9974-1ff7-71cc" primary="false" name="Dedicated Transport"/>
+        <categoryLink targetId="d4be-5aad-8560-5720" id="4db5-fa4b-8202-33e3" primary="true" name="Transports"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="IJA Type 91 Heavy Weapon Carrier" hidden="false" id="d720-48ce-f119-9137" type="selectionEntry" targetId="2cc3-9ffb-26db-6597">
       <categoryLinks>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="0db2-6567-fb10-44be" primary="false" name="Unit"/>
-        <categoryLink targetId="96e8-513f-beca-e624" id="6a3e-e610-25e1-f78e" primary="true" name="Infantry Support"/>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="b9d4-4a3c-e1b7-9ab9" primary="true" name="CORE Support"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="IJA Type 94 Self-Propelled AA Platform" hidden="false" id="4649-12c4-841c-3244" type="selectionEntry" targetId="f779-6e1d-8ac0-49a0">
       <categoryLinks>
-        <categoryLink targetId="96e8-513f-beca-e624" id="80ba-94eb-217d-dca7" primary="true" name="Infantry Support"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="88e6-fe77-e960-82e2" primary="false" name="Unit"/>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="441b-87ca-77d6-bd49" primary="true" name="CORE Support"/>
       </categoryLinks>
       <rules>
         <rule name="Flak Shells" id="69fc-c1dc-8a3e-4b7a" hidden="false">
@@ -3762,32 +3888,97 @@
     </entryLink>
     <entryLink import="true" name="IJN Type 97 Heike Amphibious Walker" hidden="false" id="8abe-8a76-6f5e-d54c" type="selectionEntry" targetId="f960-6ba6-8925-631b">
       <categoryLinks>
-        <categoryLink targetId="cac2-586c-2611-93d2" id="c191-b709-7f7c-2ead" primary="true" name="Recon Vehicles"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="eb06-c6ae-f4fd-82d2" primary="false" name="Unit"/>
+        <categoryLink targetId="54db-5889-a382-77cb" id="5113-42ad-3a9e-14ec" primary="true" name="CORE Recon"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="IJN Type 100 Soki Heike AA Vehicle" hidden="false" id="e807-fbb5-2983-edde" type="selectionEntry" targetId="464d-230f-df45-d644">
       <categoryLinks>
-        <categoryLink targetId="cac2-586c-2611-93d2" id="eb17-fcd7-6117-05df" primary="true" name="Recon Vehicles"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="7e1b-282c-f9b3-f672" primary="false" name="Unit"/>
+        <categoryLink targetId="7950-f6f1-38c2-f2dd" id="03e0-af62-f022-0afe" primary="true" name="CORE Armor"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="IJN Type 100 Soki Heike AA Vehicle" hidden="false" id="22d2-38b2-7004-317f" type="selectionEntry" targetId="464d-230f-df45-d644">
       <categoryLinks>
         <categoryLink name="Unit" hidden="false" id="427c-7ae3-fdcf-149a" targetId="1e39-16b1-cedd-2cc6" primary="false"/>
-        <categoryLink targetId="96e8-513f-beca-e624" id="4910-b9d3-0fa7-c658" primary="true" name="Infantry Support"/>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="5c20-e7ae-2421-8f8e" primary="true" name="CORE Support"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="IJN Type 100 ShinHōtō Heike Self Propelled Gun" hidden="false" id="2d97-db3e-f8c1-08ca" type="selectionEntry" targetId="1309-39e7-78ed-f94e">
       <categoryLinks>
-        <categoryLink targetId="7950-f6f1-38c2-f2dd" id="6696-2f4e-29c7-8813" primary="true" name="Armor"/>
         <categoryLink targetId="7da2-822e-291f-eccc" id="2f55-196e-65d6-fc73" primary="false" name="Walker"/>
+        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="a509-3d07-42b8-e650" primary="false" name="Unit"/>
+        <categoryLink targetId="dc85-2f8f-8f0d-4b19" id="7aaa-a7cd-fe36-33b1" primary="true" name="AUX Recon"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="IJN Captain Frogman" hidden="false" id="735e-f7c1-c9e7-3ee0" type="selectionEntry" targetId="a1c7-61ad-e73c-8753">
+    <entryLink import="true" name="IJN Captain Kaeda Goemon" hidden="false" id="735e-f7c1-c9e7-3ee0" type="selectionEntry" targetId="a1c7-61ad-e73c-8753">
       <categoryLinks>
         <categoryLink targetId="33a5-8b7e-49bb-c30d" id="7cc9-a17e-fbac-3624" primary="true" name="Heroes"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="efcb-22d1-653f-ca21" primary="false" name="Character"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="IJA Colonel Kaeda Harunobu" hidden="true" id="6013-62ec-414f-41c4" type="selectionEntry" targetId="ee6f-332f-50a7-3f31">
+      <categoryLinks>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="5871-ee68-07cc-db83" primary="true" name="Command"/>
+        <categoryLink targetId="7165-cf57-cd9c-93da" id="a6a8-b254-2992-5778" primary="false" name="Character"/>
+        <categoryLink targetId="33a5-8b7e-49bb-c30d" id="a1c7-2b4d-d482-2494" primary="false" name="Heroes"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="1e39-16b1-cedd-2cc6" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Shugo-yoroi Warsuit Squad" hidden="false" id="38f3-1e67-8b56-8d38" type="selectionEntry" targetId="4500-cd99-2800-d2e5">
+      <categoryLinks>
+        <categoryLink name="Unit" hidden="false" id="eeca-64c6-ae07-94b8" targetId="1e39-16b1-cedd-2cc6" primary="false"/>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="309f-5dbb-66f8-d386" primary="true" name="CORE Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="IJN Type 100 ShinHōtō Heike Self Propelled Gun" hidden="false" id="eb32-bde1-81df-11c5" type="selectionEntry" targetId="1309-39e7-78ed-f94e">
+      <categoryLinks>
+        <categoryLink name="CORE Armor" hidden="false" id="48ac-3d04-a475-c06d" targetId="7950-f6f1-38c2-f2dd" primary="true"/>
+        <categoryLink name="Unit" hidden="false" id="40e6-1226-8d00-543b" targetId="1e39-16b1-cedd-2cc6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="IJN Combat Engineer Squad" hidden="false" id="2a1f-62e8-70e9-6181" type="selectionEntry" targetId="4092-ba8c-31ee-48af">
+      <categoryLinks>
+        <categoryLink name="Unit" hidden="false" id="ccee-cbe0-5d97-0538" targetId="1e39-16b1-cedd-2cc6" primary="false"/>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="f9eb-f0b2-1fd5-c3c7" primary="true" name="CORE Support"/>
+        <categoryLink targetId="59ff-44cb-cb53-760d" id="1972-e096-cdac-385c" primary="false" name="Infantry"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="IJA Type 94 Self-Propelled AA Platform" hidden="false" id="fa00-08e3-b620-7a2a" type="selectionEntry" targetId="f779-6e1d-8ac0-49a0">
+      <categoryLinks>
+        <categoryLink name="Unit" hidden="false" id="c6ac-915c-3f8e-e163" targetId="1e39-16b1-cedd-2cc6" primary="false"/>
+        <categoryLink targetId="7950-f6f1-38c2-f2dd" id="e25a-cac2-5d34-cde1" primary="true" name="CORE Armor"/>
+      </categoryLinks>
+      <rules>
+        <rule name="Flak Shells" id="2530-e643-046f-cc0d" hidden="false">
+          <description>Attacks from this unit ignore the evasion of a unit with the flying keyword.</description>
+        </rule>
+      </rules>
+    </entryLink>
+    <entryLink import="true" name="IJA Type 91 Heavy Weapon Carrier" hidden="false" id="e7d7-6e80-c3ef-d47d" type="selectionEntry" targetId="2cc3-9ffb-26db-6597">
+      <categoryLinks>
+        <categoryLink name="Unit" hidden="false" id="236c-5cfc-fa52-a411" targetId="1e39-16b1-cedd-2cc6" primary="false"/>
+        <categoryLink targetId="7950-f6f1-38c2-f2dd" id="3b3b-2172-4fb0-148f" primary="true" name="CORE Armor"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="IJM Hōshu Heavy Weapon Squads" hidden="false" id="ab78-4f28-388d-0cae" type="selectionEntry" targetId="e6bb-56e5-ce43-8531">
+      <categoryLinks>
+        <categoryLink name="Support Infantry" hidden="false" id="b527-9f1f-2fbd-7374" targetId="0463-bfe4-198d-b1a5" primary="false"/>
+        <categoryLink name="CORE Support" hidden="false" id="cf03-0ce2-ba48-4e20" targetId="7110-7fe8-80e2-5e81" primary="false"/>
+        <categoryLink name="Unit" hidden="false" id="4dec-8168-4dfa-e916" targetId="1e39-16b1-cedd-2cc6" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="0e8a-8fba-4d12-99e5" targetId="59ff-44cb-cb53-760d" primary="false"/>
+        <categoryLink name="Infantry Support" hidden="false" id="d22b-eede-7465-56ca" targetId="96e8-513f-beca-e624" primary="false"/>
+        <categoryLink targetId="26a5-76cb-5d13-b4a7" id="d176-bc89-4b3f-090e" primary="true" name="CORE Infantry"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
