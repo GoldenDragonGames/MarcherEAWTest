@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="969e-2588-ed56-37c3" name="Marcher: Empires At War" revision="2" battleScribeVersion="2.03" authorName="Jackson Jewell" authorContact="goldendragontabletopgames@gmail.com" authorUrl="GoldenDragonGames.Net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false">
+<gameSystem id="969e-2588-ed56-37c3" name="Marcher: Empires At War" revision="2" battleScribeVersion="2.03" authorName="Golden Dragon Games Team" authorContact="goldendragontabletopgames@gmail.com" authorUrl="GoldenDragonGames.Net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false">
   <costTypes>
     <costType id="Points" name="Munitions" defaultCostLimit="2000" hidden="false"/>
     <costType id="284c-5503-e866-a2e0" name="Supply" defaultCostLimit="-1" hidden="false"/>
@@ -42,16 +42,8 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="59ff-44cb-cb53-760d" name="Infantry" hidden="false"/>
     <categoryEntry id="7950-f6f1-38c2-f2dd" name="CORE Armor" hidden="false"/>
-    <categoryEntry id="cac2-586c-2611-93d2" name="Recon Vehicles" hidden="false"/>
     <categoryEntry id="7110-7fe8-80e2-5e81" name="CORE Support" hidden="false"/>
-    <categoryEntry id="27cf-5cae-ad71-1584" name="Artillery" hidden="false"/>
-    <categoryEntry id="db00-fa62-c3c0-732d" name="Armored Command" hidden="false"/>
-    <categoryEntry id="dcc5-ef7f-27fc-a528" name="Infantry Command" hidden="false"/>
-    <categoryEntry id="7e88-f603-cf53-1d85" name="Artillery Command" hidden="false"/>
-    <categoryEntry id="f787-f73c-7a5b-534c" name="Recon Command" hidden="false"/>
-    <categoryEntry id="ac96-6e42-7e7b-1947" name="Support Command" hidden="false"/>
     <categoryEntry id="d4be-5aad-8560-5720" name="Transports" hidden="false"/>
     <categoryEntry id="70eb-c264-a9cb-1bfe" name="Command" hidden="false">
       <constraints>
@@ -65,14 +57,8 @@
     <categoryEntry id="baba-9300-79c2-8556" name="Recon Platoon Configuration" hidden="false"/>
     <categoryEntry id="3cff-c57c-6289-d24c" name="Support Platoon Configuration" hidden="false"/>
     <categoryEntry id="e281-74c9-b00c-1884" name="Mechanized Platoon Configuration" hidden="false"/>
-    <categoryEntry id="aa05-ee4c-c4d5-7e23" name="Recon Infantry" hidden="false"/>
-    <categoryEntry id="481b-63e9-517b-180b" name="Recon" hidden="false"/>
-    <categoryEntry id="96e8-513f-beca-e624" name="Infantry Support" hidden="false"/>
-    <categoryEntry id="5db4-bcb6-9f0f-7062" name="Support Vehicle" hidden="false"/>
-    <categoryEntry id="0463-bfe4-198d-b1a5" name="Support Infantry" hidden="false"/>
     <categoryEntry id="7165-cf57-cd9c-93da" name="Character" hidden="false"/>
     <categoryEntry name="Unit" id="1e39-16b1-cedd-2cc6" hidden="false"/>
-    <categoryEntry name="Dedicated Transport" id="ec55-b910-8dde-4365" hidden="false"/>
     <categoryEntry name="Heroes" id="33a5-8b7e-49bb-c30d" hidden="false"/>
     <categoryEntry name="Walker" id="7da2-822e-291f-eccc" hidden="false"/>
     <categoryEntry name="Mounted" id="5363-dec4-5b0e-5504" hidden="false"/>
@@ -86,6 +72,16 @@
     <categoryEntry name="CORE Recon" id="54db-5889-a382-77cb" hidden="false"/>
     <categoryEntry name="CORE Mechanized" id="7ce6-55a5-44aa-7258" hidden="false"/>
     <categoryEntry name="AUX Support" id="48f5-3131-be0b-5951" hidden="false"/>
+    <categoryEntry name="Automaton" id="239b-db47-17c9-4f36" hidden="false"/>
+    <categoryEntry name="Battery" id="2450-f84d-0bff-43d8" hidden="false"/>
+    <categoryEntry name="Battlesuit" id="4ec9-47a4-5562-ea3b" hidden="false"/>
+    <categoryEntry name="Carriage" id="c2bc-81f4-b62b-dc46" hidden="false"/>
+    <categoryEntry name="Cavalry" id="71cc-1c64-2438-4030" hidden="false"/>
+    <categoryEntry name="Flying" id="b250-bcf3-850c-e556" hidden="false"/>
+    <categoryEntry name="Superheavy" id="6f95-29a9-8d9a-a5fb" hidden="false"/>
+    <categoryEntry name="Tracked" id="7616-a9f8-6205-af0e" hidden="false"/>
+    <categoryEntry name="Troops" id="6dc4-41a4-7144-d10c" hidden="false"/>
+    <categoryEntry name="Vehicle" id="de0d-e12c-a964-4e46" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Armor Platoon" id="fae0-4a12-4ae4-5f9b" hidden="false">
@@ -125,15 +121,21 @@
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="632e-f737-c507-cb4f" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Dedicated Transport" hidden="false" id="e711-0b0e-bca3-d7f2" targetId="ec55-b910-8dde-4365">
+        <categoryLink name="Transports" hidden="true" id="e711-0b0e-bca3-d7f2" targetId="d4be-5aad-8560-5720">
           <constraints>
             <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="793c-42e1-8084-a3b9" includeChildSelections="false"/>
           </constraints>
           <modifiers>
             <modifier type="increment" value="1" field="793c-42e1-8084-a3b9">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false"/>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="27cf-5cae-ad71-1584" shared="true" roundUp="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="c2bc-81f4-b62b-dc46" shared="true" roundUp="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="6dc4-41a4-7144-d10c" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="c2bc-81f4-b62b-dc46" shared="true" roundUp="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="6dc4-41a4-7144-d10c" shared="true" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -166,25 +168,21 @@
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7421-ba37-56dc-b535" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Transports" hidden="true" id="72ed-bea8-aaaf-3fc5" targetId="d4be-5aad-8560-5720" primary="false">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false"/>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="27cf-5cae-ad71-1584" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Dedicated Transport" hidden="false" id="923d-b8f2-d522-48a8" targetId="ec55-b910-8dde-4365">
+        <categoryLink name="Transports" hidden="true" id="5e21-1453-8bf5-0af3" targetId="d4be-5aad-8560-5720">
           <constraints>
-            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="c1cf-3102-78d1-ca7f" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="abff-7223-f6ea-7adf" includeChildSelections="false"/>
           </constraints>
           <modifiers>
-            <modifier type="increment" value="1" field="c1cf-3102-78d1-ca7f">
+            <modifier type="increment" value="1" field="abff-7223-f6ea-7adf">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false"/>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="27cf-5cae-ad71-1584" shared="true" roundUp="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="c2bc-81f4-b62b-dc46" shared="true" roundUp="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="6dc4-41a4-7144-d10c" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="c2bc-81f4-b62b-dc46" shared="true" roundUp="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="6dc4-41a4-7144-d10c" shared="true" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -207,7 +205,6 @@
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f5d6-ee93-6772-3ac6" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Recon Infantry" hidden="false" id="a5c1-4147-a698-935a" targetId="aa05-ee4c-c4d5-7e23" primary="false"/>
         <categoryLink name="CORE Armor" hidden="false" id="931f-b95a-7068-3aa4" targetId="7950-f6f1-38c2-f2dd" primary="false">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="679a-2d-6b10-7e7b" includeChildSelections="false"/>
@@ -218,25 +215,21 @@
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7644-f171-ce10-2426" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Transports" hidden="true" id="8235-ed98-daf7-bf4a" targetId="d4be-5aad-8560-5720" primary="false">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false"/>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="27cf-5cae-ad71-1584" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Dedicated Transport" hidden="false" id="6271-f87b-b617-57f1" targetId="ec55-b910-8dde-4365">
+        <categoryLink name="Transports" hidden="true" id="c544-9294-5dcb-25c9" targetId="d4be-5aad-8560-5720">
           <constraints>
-            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="b08e-af2-f107-c230" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="a44d-e3ab-9d0f-9329" includeChildSelections="false"/>
           </constraints>
           <modifiers>
-            <modifier type="increment" value="1" field="b08e-af2-f107-c230">
+            <modifier type="increment" value="1" field="a44d-e3ab-9d0f-9329">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false"/>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="27cf-5cae-ad71-1584" shared="true" roundUp="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="c2bc-81f4-b62b-dc46" shared="true" roundUp="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="6dc4-41a4-7144-d10c" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="c2bc-81f4-b62b-dc46" shared="true" roundUp="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="6dc4-41a4-7144-d10c" shared="true" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -262,23 +255,22 @@
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="418c-b4e9-fbe2-f1af" includeChildSelections="false"/>
           </constraints>
-          <modifiers>
-            <modifier type="increment" value="1" field="caeb-65dd-de5a-6d78">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="ec55-b910-8dde-4365" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
         </categoryLink>
-        <categoryLink name="Dedicated Transport" hidden="false" id="0bf6-befb-94cf-5a2a" targetId="ec55-b910-8dde-4365">
+        <categoryLink name="Transports" hidden="true" id="a3a7-bc60-b742-3060" targetId="d4be-5aad-8560-5720">
           <constraints>
-            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="b265-8542-8cce-a12a" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="14c4-500d-55f8-b10f" includeChildSelections="false"/>
           </constraints>
           <modifiers>
-            <modifier type="increment" value="1" field="b265-8542-8cce-a12a">
+            <modifier type="increment" value="1" field="14c4-500d-55f8-b10f">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false"/>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="27cf-5cae-ad71-1584" shared="true" roundUp="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="c2bc-81f4-b62b-dc46" shared="true" roundUp="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="6dc4-41a4-7144-d10c" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="c2bc-81f4-b62b-dc46" shared="true" roundUp="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="6dc4-41a4-7144-d10c" shared="true" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -301,32 +293,29 @@
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="8af2-3def-99a8-0424" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
-        <categoryLink name="Transports" hidden="true" id="1015-0b71-bc64-8b62" targetId="d4be-5aad-8560-5720" primary="false">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Dedicated Transport" hidden="false" id="5485-26b3-29e3-c5da" targetId="ec55-b910-8dde-4365">
-          <constraints>
-            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="fa8e-9d87-df25-9911" includeChildSelections="false"/>
-          </constraints>
-          <modifiers>
-            <modifier type="increment" value="1" field="fa8e-9d87-df25-9911">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false"/>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="27cf-5cae-ad71-1584" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
         <categoryLink name="AUX Support" hidden="false" id="a0ef-3c31-3647-9092" targetId="48f5-3131-be0b-5951" primary="false">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9f03-7e78-6e9c-727a" includeChildSelections="false"/>
           </constraints>
+        </categoryLink>
+        <categoryLink name="Transports" hidden="true" id="5da9-f146-dfea-78b7" targetId="d4be-5aad-8560-5720">
+          <constraints>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="6065-b29f-f473-d9d1" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="6065-b29f-f473-d9d1">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="c2bc-81f4-b62b-dc46" shared="true" roundUp="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="6dc4-41a4-7144-d10c" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="c2bc-81f4-b62b-dc46" shared="true" roundUp="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="6dc4-41a4-7144-d10c" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
@@ -680,6 +669,117 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="25b3-36c8-91d4-d1c5"/>
       </constraints>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fragmentation Grenade" hidden="false" id="47ca-8cd6-8c1a-8b67" collective="true">
+      <infoLinks>
+        <infoLink name="Fragmentation Grenade" id="07b1-3d6e-4f9f-c440" hidden="false" targetId="7d4e-0ba3-86f7-ce2f" type="profile"/>
+        <infoLink name="Difficult to Use" id="0223-222b-ee35-b1d3" hidden="false" targetId="22ca-4520-b3df-c16d" type="rule"/>
+        <infoLink name="Close In" id="4463-e216-152d-485e" hidden="false" type="rule" targetId="6f53-dabe-1243-14cf"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="5"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Anti-Tank Grenade" hidden="false" id="df31-4b9c-2573-ce31" collective="true">
+      <infoLinks>
+        <infoLink name="Anti-Tank Grenade" id="e97b-6a88-d497-6848" hidden="false" targetId="c0f6-4740-65bb-2819" type="profile"/>
+        <infoLink name="Critical Shot" id="4cc2-b695-a59f-cdd2" hidden="false" type="rule" targetId="a53f-6c4f-8514-7703"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="10"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Satchel Charge" hidden="false" id="c9b6-4225-5278-d6b4" collective="true">
+      <infoLinks>
+        <infoLink name="Satchel Charge" id="d84d-0eee-efda-20df" hidden="false" targetId="6e0a-772a-e306-00f5" type="profile"/>
+        <infoLink name="Critical Shot" id="59dc-dcf4-d3bf-0d68" hidden="false" type="rule" targetId="a53f-6c4f-8514-7703"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="15"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+      </costs>
+      <rules>
+        <rule name="Satchel Charge" id="e8aa-a5b9-5184-b3ab" hidden="false">
+          <description>Once per game you may perform the Demolish Action as a Free Action, or once per game you may Attack with the listed profile.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Smoke Grenade" hidden="false" id="ef44-d791-e3da-0a08">
+      <rules>
+        <rule name="Pop Smoke" id="5f59-02a8-614b-4541" hidden="false">
+          <description>As a Free Action or Reaction, you may place a Smoke Token within 8” of this unit.</description>
+        </rule>
+        <rule name="Smoke Token" id="baf1-2628-0ec7-d886" hidden="false">
+          <description>25mm base; units within 6” of this token are considered to be in Obscuring terrain for the purposes of Attack actions taken by and against those units. Attacks passing through this 6” radius are considered to be taken through Obscuring terrain.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="5"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Ammo" id="5ca2-3acd-0c22-71da" hidden="false" type="rule" targetId="2056-c454-be5c-ea02">
+          <modifiers>
+            <modifier type="append" value="1" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Smoke Launchers" hidden="false" id="cdfc-fb66-7530-44d8">
+      <rules>
+        <rule name="Pop Smoke" id="f052-2791-2fb1-4f75" hidden="false">
+          <description>As a Free Action or Reaction, you may place a Smoke Token within 8” of this unit.</description>
+        </rule>
+        <rule name="Smoke Token" id="e45e-bb0b-2398-40d3" hidden="false">
+          <description>25mm base; units within 6” of this token are considered to be in Obscuring terrain for the purposes of Attack actions taken by and against those units. Attacks passing through this 6” radius are considered to be taken through Obscuring terrain.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="10"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Ammo" id="2c1e-6e41-b397-2459" hidden="false" type="rule" targetId="2056-c454-be5c-ea02">
+          <modifiers>
+            <modifier type="append" value="2" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Camouflage Netting" hidden="false" id="0ae0-c2a3-03d0-5d2a">
+      <rules>
+        <rule name="Camouflage Netting" id="6943-a5cf-afb0-c160" hidden="false">
+          <description>Increase this Unit&apos;s Evasion Score by 1.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="25"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bayonet" hidden="false" id="66fd-b75b-f882-3404" collective="true">
+      <infoLinks>
+        <infoLink name="Bayonet" id="a992-b9bd-850f-7da4" hidden="false" type="profile" targetId="3137-3620-f900-f5b0"/>
+        <infoLink name="Charge!" id="9963-0d4b-75c7-df97" hidden="false" type="rule" targetId="6a90-de57-2154-3db3"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2858-2c85-b0d7-2143-min" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2858-2c85-b0d7-2143-max" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="2f38-62b3-ba2d-80c4" name="Command" hidden="false">
@@ -854,7 +954,7 @@ Until the end of this round all vehicle Units in this platoon increase their Eva
     <rule name="Reach" id="9b54-8e32-2b8d-c1d6" hidden="false">
       <description>This unit has a melee engagement range of 3&quot;.</description>
     </rule>
-    <rule name="Open Top " id="6beb-7c97-fe80-09a9" hidden="false">
+    <rule name="Open Topped " id="6beb-7c97-fe80-09a9" hidden="false">
       <description>Units inside this transport may be activated as normal and take attack actions while embarked. They may be selected as the target of an attack. These units receive X levels of cover.</description>
     </rule>
     <rule name="Nominate Field Commander" id="653b-4795-0602-9a08" hidden="false">
@@ -864,7 +964,7 @@ Until the end of this round all vehicle Units in this platoon increase their Eva
       <description>An infantry or artillery officer may be attached to this unit instead of a normal squad. That officer’s range for orders is 12”.</description>
     </rule>
     <rule name="Up-Armored" id="1f7c-515a-0ef2-8614" hidden="false">
-      <description>This Model&apos;s Armor Profile is increased by 1(this effect is normally already applied).</description>
+      <description>This Model&apos;s Armor Profile is increased by 1</description>
     </rule>
     <rule name="Independent Hero" id="ba04-cce8-3db9-31d4" hidden="false">
       <description>This unit may attach to an allied unit as though it has the Designated Leader special rule, or be taken individually. If this unit is not attached to an allied unit, enemy ranged attacks may only target it if it is the closest enemy unit.</description>
@@ -931,7 +1031,7 @@ Profile*. Considered Rough and Heavy Terrain. 5” square, flat.</description>
       <description>If a vehicle-mounted by this unit is destroyed, place this unit&apos;s infantry model in base-to-base contact with it at the end of the current activation. While not attached to another unit, this unit activates independently and gains the “Troop” keyword.</description>
     </rule>
     <rule name="Hitch" id="320a-d3d0-cf35-7d83" hidden="false">
-      <description>This unit has access to the free action “Tow”.</description>
+      <description>This Unit has access to the free action “Tow”.</description>
     </rule>
     <rule name="Command Squad " id="7a39-d162-eaaa-f019" hidden="false">
       <description>This unit may only attach to the designated units.</description>
@@ -942,6 +1042,30 @@ Profile*. Considered Rough and Heavy Terrain. 5” square, flat.</description>
     <rule name="Attached" id="5f6a-eacd-b4b2-15e5" hidden="false"/>
     <rule name="Beam" id="a397-8716-ab3d-2773" hidden="false">
       <description>After resolving an attack with this weapon, you may make an additional attack against another enemy unit within 6&quot; of the original target. (Line of sight required)</description>
+    </rule>
+    <rule name="Forward Communications" id="97d3-d9ed-af71-d4d6" hidden="false">
+      <description>A Command Unit equipped with this item may issue orders to any other units with the Forward Communications Special Rule. This Unit gains the &quot;Direct Fire&quot; action.</description>
+    </rule>
+    <rule name="Veteran Crew" id="fe62-95d4-4af0-7a99" hidden="false">
+      <description>This Unit ignore the Difficult to Use Special Rule.</description>
+    </rule>
+    <rule name="Heavy Carriage" id="4d43-378e-5e18-f124" hidden="false">
+      <description>This Unit may only be Towed by Models with more than 10 starting HP.</description>
+    </rule>
+    <rule name="Radio Pack" id="9e5e-ab69-3f3f-545f" hidden="false">
+      <description>Designate one Model in this Unit as a Radioman, if that Model is destroyed, this Unit loses the Forward Communications Special Rule.</description>
+    </rule>
+    <rule name="Gas!" id="988c-e404-230a-1ee2" hidden="false">
+      <description>Attacks with this weapon automatically pass all Armor Checks.</description>
+    </rule>
+    <rule name="Charge!" id="6a90-de57-2154-3db3" hidden="false">
+      <description>When a Unit equipped with this weapon ends a Move action within Engagement Range of an Enemy Unit, it may Immediately perform a Free Melee Attack Action against that Unit.</description>
+    </rule>
+    <rule name="Gas Token" id="a88e-c569-29b0-f610" hidden="false">
+      <description>25mm base; Units within 3” of this token are considered to be in Obscuring terrain for the purposes of Attack actions taken by and against those units. Attacks passing through this 3” radius are considered to be taken through Obscuring terrain. Units that perform a move within 6” or finish a move within 3” of the token are attacked with the Poison Gas Profile.</description>
+    </rule>
+    <rule name="Gas Projector" id="2196-346b-deab-9dce" hidden="false">
+      <description>When making an attack with this weapon, place a Gas Token within range, it automatically attacks all units within 3&quot; with the Poison Gas Profile.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -1015,17 +1139,17 @@ Profile*. Considered Rough and Heavy Terrain. 5” square, flat.</description>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Charge!</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Melee, Kinetic, Bladed</characteristic>
       </characteristics>
     </profile>
     <profile name="Fragmentation Grenade" typeId="Weapon" typeName="Weapon" hidden="false" id="7d4e-0ba3-86f7-ce2f">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">8&quot;</characteristic>
-        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">1</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">0</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">4</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Ammo 1, High Explosive, Close in, Difficult to Use</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">High Explosive, Close in</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Grenade, Ranged</characteristic>
       </characteristics>
     </profile>
@@ -1037,5 +1161,133 @@ Profile*. Considered Rough and Heavy Terrain. 5” square, flat.</description>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Adjust Coordinates</characteristic>
       </characteristics>
     </profile>
+    <profile name="Anti-Tank Grenade" typeId="Weapon" typeName="Weapon" hidden="false" id="c0f6-4740-65bb-2819">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">4&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">5</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">6</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Critical Shot</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Grenade</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Satchel Charge" typeId="Weapon" typeName="Weapon" hidden="false" id="6e0a-772a-e306-00f5">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">6&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">5</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1D10</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Critical Shot</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Grenade</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Infantry Upgrades" id="c42e-5415-a1c5-e2d8" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Radio Pack" hidden="false" id="42ab-cb82-c83d-d2e4">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6537-beac-b145-86ec" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Forward Communications" id="13c5-940b-9389-f2c8" hidden="false" type="rule" targetId="97d3-d9ed-af71-d4d6"/>
+            <infoLink name="Radio Pack" id="2a69-a20c-660c-500b" hidden="false" type="rule" targetId="9e5e-ab69-3f3f-545f"/>
+          </infoLinks>
+          <costs>
+            <cost name="Munitions" typeId="Points" value="10"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+            <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Grenades" id="2d2a-fa81-14c0-bb10" hidden="false" defaultSelectionEntryId="none">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f270-b7a0-8c20-a834" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Anti-Tank Grenade" hidden="false" id="c5e2-308f-ac34-5d94" type="selectionEntry" targetId="df31-4b9c-2573-ce31">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94e5-121d-6fcb-5b73" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Fragmentation Grenade" hidden="false" id="649a-add5-d1d6-d3ef" type="selectionEntry" targetId="47ca-8cd6-8c1a-8b67">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6554-67e8-bbd6-81e7" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Satchel Charge" hidden="false" id="fd3b-2fb0-007f-d52c" type="selectionEntry" targetId="c9b6-4225-5278-d6b4">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2835-747c-bc0f-6724" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Smoke Grenade" hidden="false" id="d977-fefb-8805-634e" type="selectionEntry" targetId="ef44-d791-e3da-0a08">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a656-3ec2-40fa-b65b" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Vehicle Upgrades" id="d75c-a162-bc8f-60f9" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Radio" hidden="false" id="a930-c1d6-5218-81ec">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60f0-144f-2678-1805" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Forward Communications" id="6747-2057-3681-5623" hidden="false" type="rule" targetId="97d3-d9ed-af71-d4d6"/>
+          </infoLinks>
+          <costs>
+            <cost name="Munitions" typeId="Points" value="10"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+            <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Up-Armored" hidden="false" id="5e78-6c92-e6bf-bf7d">
+          <infoLinks>
+            <infoLink name="Up-Armored" id="1dfa-6b37-f5a3-67c5" hidden="false" type="rule" targetId="1f7c-515a-0ef2-8614"/>
+          </infoLinks>
+          <costs>
+            <cost name="Munitions" typeId="Points" value="25"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+            <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b017-1c64-0fcb-61bc" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Veteran Crew" hidden="false" id="8b80-6e33-be5d-9f9a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8565-813b-c0a6-cae4" includeChildSelections="false"/>
+          </constraints>
+          <costs>
+            <cost name="Munitions" typeId="Points" value="30"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+            <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Veteran Crew" id="4cc8-098d-d289-db95" hidden="false" type="rule" targetId="fe62-95d4-4af0-7a99"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Smoke Launchers" hidden="false" id="8617-347f-f1b5-c98c" type="selectionEntry" targetId="cdfc-fb66-7530-44d8">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d15-d9b3-51da-8537" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Camouflage Netting" hidden="false" id="ab0c-1b07-42dd-dd9d" type="selectionEntry" targetId="0ae0-c2a3-03d0-5d2a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9524-f8b6-978b-0d86" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </gameSystem>

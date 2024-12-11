@@ -465,7 +465,7 @@
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="26a5-76cb-5d13-b4a7" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -1175,7 +1175,7 @@
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="force" childId="59ff-44cb-cb53-760d" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="26a5-76cb-5d13-b4a7" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -1965,18 +1965,14 @@
   <entryLinks>
     <entryLink import="true" name="Russian Guards Infantry Squad" hidden="false" id="ff45-0e43-0638-fd49" type="selectionEntry" targetId="b18e-b628-8989-5914">
       <categoryLinks>
-        <categoryLink targetId="59ff-44cb-cb53-760d" id="78f8-e9be-c32a-e89f" primary="false" name="Infantry"/>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="4b63-a17a-1c84-fb7b" primary="false" name="Unit"/>
         <categoryLink targetId="26a5-76cb-5d13-b4a7" id="02c8-3088-7c0b-6db3" primary="true" name="CORE Infantry"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Russian Guards Officer" hidden="false" id="8b1a-04e3-54ed-38aa" type="selectionEntry" targetId="9e7a-7b8b-6c58-3560">
       <categoryLinks>
-        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="7e88-10a1-c44d-f9b7" primary="false" name="Infantry Command"/>
-        <categoryLink targetId="ac96-6e42-7e7b-1947" id="c442-d221-d62d-8cf5" primary="false" name="Support Command"/>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="26e4-4a63-6d92-582d" primary="true" name="Command"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="307c-4f3e-8c0f-d066" primary="false" name="Character"/>
-        <categoryLink targetId="f787-f73c-7a5b-534c" id="51ae-ec9c-4568-253d" primary="false" name="Recon Command"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="T-30 &quot;Ul. Dmitry&quot; Battle Tank" hidden="false" id="2e4d-60b6-51fe-8ead" type="selectionEntry" targetId="6ccd-c864-1e7e-48af">
@@ -1987,9 +1983,6 @@
     </entryLink>
     <entryLink import="true" name="Russian Armor Officer" hidden="false" id="8605-40fc-5115-09b6" type="selectionEntry" targetId="079e-275a-b13b-fbe0">
       <categoryLinks>
-        <categoryLink targetId="db00-fa62-c3c0-732d" id="300b-78ee-8311-340b" primary="false" name="Armored Command"/>
-        <categoryLink targetId="f787-f73c-7a5b-534c" id="76b5-6112-570b-92c3" primary="false" name="Recon Command"/>
-        <categoryLink targetId="7e88-f603-cf53-1d85" id="9c5c-fec6-34f6-c8bb" primary="false" name="Artillery Command"/>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="5406-cc5f-5a29-8afc" primary="true" name="Command"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="010b-bbd4-dc4d-dd43" primary="false" name="Character"/>
       </categoryLinks>
@@ -1997,18 +1990,11 @@
     <entryLink import="true" name="Pravoslavny Kapellan Section" hidden="false" id="8e2c-8ea5-ca2a-287a" type="selectionEntry" targetId="c0e3-f487-cac0-d840">
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="244c-760f-012e-2dae" primary="true" name="Command"/>
-        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="79fa-d81f-1611-2073" primary="false" name="Infantry Command"/>
-        <categoryLink targetId="f787-f73c-7a5b-534c" id="5c0f-f3ac-4967-f6d0" primary="false" name="Recon Command"/>
-        <categoryLink targetId="ac96-6e42-7e7b-1947" id="a7ea-cca2-5e69-ed69" primary="false" name="Support Command"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="ca76-7da1-255f-e1ce" primary="false" name="Character"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Corporate Officers" hidden="false" id="9282-eb4e-b7ae-4a14" type="selectionEntry" targetId="e180-b5a4-ee62-a2fa">
       <categoryLinks>
-        <categoryLink targetId="dcc5-ef7f-27fc-a528" id="59d2-6605-f42f-48b4" primary="false" name="Infantry Command"/>
-        <categoryLink targetId="7e88-f603-cf53-1d85" id="bd7c-2ca9-5122-639f" primary="false" name="Artillery Command"/>
-        <categoryLink targetId="f787-f73c-7a5b-534c" id="3de6-a17f-1045-2c11" primary="false" name="Recon Command"/>
-        <categoryLink targetId="ac96-6e42-7e7b-1947" id="f67f-b2bd-04fa-3daf" primary="false" name="Support Command"/>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="c908-80f1-f3a4-c54d" primary="true" name="Command"/>
         <categoryLink targetId="7165-cf57-cd9c-93da" id="6509-d52e-e6fc-f1af" primary="false" name="Character"/>
       </categoryLinks>
@@ -2016,7 +2002,6 @@
     <entryLink import="true" name="Cossack Cavalry Squad" hidden="false" id="f2bc-a75e-56aa-bfb9" type="selectionEntry" targetId="acc1-1d0d-0c30-90b6">
       <categoryLinks>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="8946-04d4-a6b9-cd5e" primary="false" name="Unit"/>
-        <categoryLink targetId="481b-63e9-517b-180b" id="c534-7dec-364c-823a" primary="false" name="Recon"/>
         <categoryLink targetId="54db-5889-a382-77cb" id="5e10-4b7d-8cc2-0a69" primary="true" name="CORE Recon"/>
       </categoryLinks>
     </entryLink>
@@ -2036,4 +2021,13 @@
       <description>When a unit is hit by a weapon with the &quot;Slag&quot; keyword, its armor value is reduced by 2 until the end of the round. (This effect is cumulative)</description>
     </rule>
   </sharedRules>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Armor" id="1e96-298b-9024-3464" hidden="false"/>
+    <selectionEntryGroup name="Artillery" id="69ee-ff2d-28ec-75ad" hidden="false"/>
+    <selectionEntryGroup name="Command" id="320e-4632-32a8-a1a1" hidden="false"/>
+    <selectionEntryGroup name="Infantry" id="f8f9-cd16-8f9f-679a" hidden="false"/>
+    <selectionEntryGroup name="Recon" id="d613-9c2d-95b3-b279" hidden="false"/>
+    <selectionEntryGroup name="Support" id="44cf-74db-2ffb-f916" hidden="false"/>
+    <selectionEntryGroup name="Weapons" id="c27f-dec3-6b79-0c23" hidden="false"/>
+  </sharedSelectionEntryGroups>
 </catalogue>
