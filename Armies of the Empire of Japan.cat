@@ -129,16 +129,18 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Type 94 Grenade Launcher" hidden="false" id="27f0-da89-cb17-6803" collective="true">
+    <selectionEntry type="upgrade" import="true" name="Type 94 Rifle Grenade" hidden="false" id="27f0-da89-cb17-6803" collective="true">
       <infoLinks>
-        <infoLink name="Type 92 Grenade Launcher" id="199c-96f7-70a3-c19c" hidden="false" type="profile" targetId="bd46-7fb3-bc03-f4ef"/>
+        <infoLink name="Type 94 Grenade Launcher" id="199c-96f7-70a3-c19c" hidden="false" type="profile" targetId="bd46-7fb3-bc03-f4ef"/>
         <infoLink name="High Explosive" id="8599-29f7-e5bc-8e5b" hidden="false" type="rule" targetId="9375-d461-c135-9e66"/>
         <infoLink name="Close In" id="7149-1176-3ef-137d" hidden="false" type="rule" targetId="6f53-dabe-1243-14cf"/>
+        <infoLink name="Difficult to Use" id="9e2e-c2be-7df8-c27d" hidden="false" type="rule" targetId="22ca-4520-b3df-c16d"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="5"/>
+        <cost name="Munitions" typeId="Points" value="3"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Type 98 Plasma Projector" hidden="false" id="841-8c4c-e64-921d" collective="true">
@@ -316,7 +318,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Type 96 Light Energy AT-Cannon" hidden="false" id="8ee2-4a82-676f-fb5b" collective="true">
       <infoLinks>
-        <infoLink name="Type 96 Heavy Energy AT-Cannon" id="c6f9-6273-9eff-100e" hidden="false" type="profile" targetId="8680-b87f-f5d2-a2a9"/>
+        <infoLink name="Type 96 Light Energy AT-Cannon" id="c6f9-6273-9eff-100e" hidden="false" type="profile" targetId="8680-b87f-f5d2-a2a9"/>
       </infoLinks>
       <costs>
         <cost name="Munitions" typeId="Points" value="22"/>
@@ -513,7 +515,7 @@
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Nambu Type 1 Submachine Gun" hidden="false" id="8424-2ffa-a02a-ab3d" collective="true">
+    <selectionEntry type="upgrade" import="true" name="Nambu Type 2 Submachine Gun" hidden="false" id="8424-2ffa-a02a-ab3d" collective="true">
       <infoLinks>
         <infoLink name="Nambu Type 2 Submachine Gun" id="61b4-6769-d2d6-79dd" hidden="false" type="profile" targetId="dd55-6daf-2873-206f"/>
       </infoLinks>
@@ -668,7 +670,7 @@
     <selectionEntry type="upgrade" import="true" name="Senninbari" hidden="false" id="93a9-1025-0d91-9941">
       <rules>
         <rule name="Senninbari" id="361b-dd8c-cab0-5385" hidden="false">
-          <description>Ignore the first suppression token this unit receives each round. </description>
+          <description>Ignore the first suppression token this unit receives each round.</description>
         </rule>
       </rules>
       <costs>
@@ -680,6 +682,24 @@
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f41c-8d34-f162-bcc0" includeChildSelections="false"/>
       </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Naval Kaiken" hidden="false" id="4677-025a-9bcb-79e2" collective="true">
+      <infoLinks>
+        <infoLink name="Naval Kaiken" id="5112-c673-02ff-339f" hidden="false" type="profile" targetId="1d0d-8b83-0633-b3e7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Type 88 Grenade Discharger" hidden="false" id="028e-03e6-dc86-a496" collective="true">
+      <infoLinks>
+        <infoLink name="Type 88 Grenade Discharger" id="ed52-34bd-10db-bfcd" hidden="false" type="profile" targetId="1b88-0a3f-436e-7880"/>
+        <infoLink name="High Explosive" id="196c-2968-3dad-18bb" hidden="false" type="rule" targetId="9375-d461-c135-9e66"/>
+        <infoLink name="Close In" id="07ed-51d5-a269-8687" hidden="false" type="rule" targetId="6f53-dabe-1243-14cf"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="5"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
@@ -693,13 +713,13 @@
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Ranged</characteristic>
       </characteristics>
     </profile>
-    <profile name="Type 94 Grenade Launcher" typeId="Weapon" typeName="Weapon" hidden="false" id="bd46-7fb3-bc03-f4ef">
+    <profile name="Type 94 Rifle Grenade" typeId="Weapon" typeName="Weapon" hidden="false" id="bd46-7fb3-bc03-f4ef">
       <characteristics>
-        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">16&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">1</characteristic>
-        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">0</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">4</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">High Explosive, Close-in</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">High Explosive, Close-in, Difficult to Use</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Kinetic</characteristic>
       </characteristics>
     </profile>
@@ -1153,6 +1173,26 @@
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Chemical</characteristic>
       </characteristics>
     </profile>
+    <profile name="Naval Kaiken" typeId="Weapon" typeName="Weapon" hidden="false" id="1d0d-8b83-0633-b3e7">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">E</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">2</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Melee, Bladed, Kinetic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Type 88 Grenade Discharger" typeId="Weapon" typeName="Weapon" hidden="false" id="1b88-0a3f-436e-7880">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">1</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">4</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">High Explosive, Close-in</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Kinetic</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <entryLinks>
     <entryLink import="true" name="IJA Captain Higuchi Ryuusuke" hidden="true" id="b749-9c2e-1188-9cc1" type="selectionEntry" targetId="43be-a0d6-f15c-d685">
@@ -1349,7 +1389,7 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Shugo-yoroi Warsuit Squad" hidden="false" id="7fa5-6c50-fe43-fb9c" type="selectionEntry" targetId="4500-cd99-2800-d2e5">
+    <entryLink import="true" name="IJM Shugo-yoroi Warsuit Squad" hidden="false" id="7fa5-6c50-fe43-fb9c" type="selectionEntry" targetId="4500-cd99-2800-d2e5">
       <categoryLinks>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="78a1-de5c-cc39-1128" primary="false" name="Unit"/>
         <categoryLink targetId="26a5-76cb-5d13-b4a7" id="9fc9-413e-02ac-a4c8" primary="true" name="CORE Infantry"/>
@@ -1367,7 +1407,7 @@
         <categoryLink targetId="7b62-662e-b4a3-f92f" id="bb94-3d88-278e-2495" primary="false" name="IJN"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="IJA Type 91 Heavy Weapon Carrier" hidden="false" id="d720-48ce-f119-9137" type="selectionEntry" targetId="2cc3-9ffb-26db-6597">
+    <entryLink import="true" name="IJM Type 91 Heavy Weapon Carrier" hidden="false" id="d720-48ce-f119-9137" type="selectionEntry" targetId="2cc3-9ffb-26db-6597">
       <categoryLinks>
         <categoryLink targetId="1e39-16b1-cedd-2cc6" id="0db2-6567-fb10-44be" primary="false" name="Unit"/>
         <categoryLink targetId="7110-7fe8-80e2-5e81" id="b9d4-4a3c-e1b7-9ab9" primary="true" name="CORE Support"/>
@@ -1504,7 +1544,7 @@
         <categoryLink targetId="2450-f84d-0bff-43d8" id="7b2f-b7af-8350-00f6" primary="false" name="Battery"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="IJM Light Towed Gun Battery" hidden="false" id="aeca-c5aa-e5e4-5060" type="selectionEntry" targetId="c628-7407-e206-940e">
+    <entryLink import="true" name="IJM Light Towed AT Gun Battery" hidden="false" id="aeca-c5aa-e5e4-5060" type="selectionEntry" targetId="c628-7407-e206-940e">
       <categoryLinks>
         <categoryLink name="Unit" hidden="false" id="4881-ddae-fc28-fd75" targetId="1e39-16b1-cedd-2cc6" primary="false"/>
         <categoryLink name="CORE Artillery" hidden="false" id="ac36-d307-d5ff-24db" targetId="8679-d614-ae03-de2c" primary="true"/>
@@ -1512,7 +1552,7 @@
         <categoryLink name="EOJ" hidden="false" id="92c5-b0b5-f2c6-c43a" targetId="f273-43c7-03e5-764e" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="IJM Light Towed Gun Carriage" hidden="false" id="d463-1641-cc73-2213" type="selectionEntry" targetId="3e54-d3f8-e41d-a5f3">
+    <entryLink import="true" name="IJM Light Towed AT Gun Carriage" hidden="false" id="d463-1641-cc73-2213" type="selectionEntry" targetId="3e54-d3f8-e41d-a5f3">
       <categoryLinks>
         <categoryLink name="Unit" hidden="false" id="e606-fc82-767c-a286" targetId="1e39-16b1-cedd-2cc6" primary="false"/>
         <categoryLink name="CORE Artillery" hidden="false" id="f7a9-4ab1-e077-9cc6" targetId="8679-d614-ae03-de2c" primary="true"/>
@@ -1586,13 +1626,99 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="IJM Yonki Staff Car" hidden="false" id="4e1a-735a-2331-025c" type="selectionEntry" targetId="4932-89f2-c18b-9caa">
+    <entryLink import="true" name="IJM Yonki Staff Car" hidden="true" id="4e1a-735a-2331-025c" type="selectionEntry" targetId="4932-89f2-c18b-9caa">
       <categoryLinks>
         <categoryLink name="Transports" hidden="false" id="bf63-18a4-dddc-bbd0" targetId="d4be-5aad-8560-5720" primary="true"/>
         <categoryLink name="Unit" hidden="false" id="21e1-bf8b-0173-7863" targetId="1e39-16b1-cedd-2cc6" primary="false"/>
         <categoryLink name="Vehicle" hidden="false" id="b2c8-b2df-e89b-2660" targetId="de0d-e12c-a964-4e46" primary="false"/>
         <categoryLink name="EOJ" hidden="false" id="902d-2590-32f9-d03e" targetId="f273-43c7-03e5-764e" primary="false"/>
       </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="70eb-c264-a9cb-1bfe" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="IJN Support Officer (On Foot)" hidden="true" id="b1d9-3b27-a625-f18e" type="selectionEntry" targetId="e3bb-3b36-5581-ac72">
+      <categoryLinks>
+        <categoryLink name="Command" hidden="false" id="05c1-225a-b674-bc2a" targetId="70eb-c264-a9cb-1bfe" primary="true"/>
+        <categoryLink name="Character" hidden="false" id="b95f-e063-731f-5a5c" targetId="7165-cf57-cd9c-93da" primary="false"/>
+        <categoryLink name="EOJ" hidden="false" id="8c3d-a8fb-2b9d-9834" targetId="f273-43c7-03e5-764e" primary="false"/>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="4f73-cd41-e11b-26aa" primary="false" name="CORE Support"/>
+        <categoryLink targetId="7b62-662e-b4a3-f92f" id="991b-8d3e-b606-ed33" primary="false" name="IJN"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="7110-7fe8-80e2-5e81" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="6dc4-41a4-7144-d10c" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="IJM Support Commander (Mounted)" hidden="true" id="a732-f456-0959-c7ba" type="selectionEntry" targetId="877f-ce0b-9821-1188">
+      <categoryLinks>
+        <categoryLink name="Command" hidden="false" id="68fd-743a-e995-dff0" targetId="70eb-c264-a9cb-1bfe" primary="true"/>
+        <categoryLink name="Character" hidden="false" id="9e43-ba27-09d4-27ca" targetId="7165-cf57-cd9c-93da" primary="false"/>
+        <categoryLink name="EOJ" hidden="false" id="7612-eb99-fd2e-edb2" targetId="f273-43c7-03e5-764e" primary="false"/>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="835f-35e2-54d1-38a4" primary="false" name="CORE Support"/>
+        <categoryLink targetId="5363-dec4-5b0e-5504" id="c6a0-58e7-fd61-e746" primary="false" name="Mounted"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="7110-7fe8-80e2-5e81" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="de0d-e12c-a964-4e46" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="IJA Support Officer (On Foot)" hidden="true" id="66a5-b136-493d-ccb8" type="selectionEntry" targetId="f8f9-ad06-8311-ca79">
+      <categoryLinks>
+        <categoryLink name="Command" hidden="false" id="f06e-76eb-b3dd-92b2" targetId="70eb-c264-a9cb-1bfe" primary="true"/>
+        <categoryLink name="Character" hidden="false" id="eb65-4e6d-b013-feee" targetId="7165-cf57-cd9c-93da" primary="false"/>
+        <categoryLink name="EOJ" hidden="false" id="cf85-38e6-d46f-351b" targetId="f273-43c7-03e5-764e" primary="false"/>
+        <categoryLink name="CORE Support" hidden="false" id="6d71-3ffa-171b-68a2" targetId="7110-7fe8-80e2-5e81" primary="false"/>
+        <categoryLink name="IJN" hidden="false" id="6896-eb9c-78c8-3dbb" targetId="7b62-662e-b4a3-f92f" primary="false"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="7110-7fe8-80e2-5e81" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="6dc4-41a4-7144-d10c" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntryGroups>
@@ -2628,6 +2754,12 @@
             </entryLink>
             <entryLink import="true" name="Nominate Field Commander" hidden="false" id="664d-ccf2-c6e3-8959" type="selectionEntry" targetId="a8f2-8cd0-efc0-4a1b"/>
             <entryLink import="true" name="Officer Upgrades" hidden="false" id="46c9-5e95-5275-eb36" type="selectionEntryGroup" targetId="6b0a-1371-5928-3820"/>
+            <entryLink import="true" name="Naval Kaiken" hidden="false" id="ffa8-c46b-86ee-25cc" type="selectionEntry" targetId="4677-025a-9bcb-79e2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f158-2a9b-29e3-6e79-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f158-2a9b-29e3-6e79-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <infoLinks>
             <infoLink name="Designated Leader" id="ba1d-b1f6-c013-4d8e" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
@@ -2826,6 +2958,182 @@
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="21d4-d2b8-bb80-64a7-min" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21d4-d2b8-bb80-64a7-max" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="IJN Support Officer (On Foot)" hidden="false" id="e3bb-3b36-5581-ac72">
+          <entryLinks>
+            <entryLink import="true" name="Shin-Gunto" hidden="false" id="bd6d-8a05-6908-02c4" collective="false" targetId="5c07-dfbc-2346-645e" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c025-c1d9-b062-9e79" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d480-0b14-f922-8d83" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Officer Seniority" hidden="false" id="7296-9344-01ee-2686" type="selectionEntry" targetId="cadb-378d-321-459d">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4c6a-5497-c362-d259" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="442f-5696-e9ee-3725" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Nominate Field Commander" hidden="false" id="4a2c-91e9-34c6-154d" type="selectionEntry" targetId="a8f2-8cd0-efc0-4a1b"/>
+            <entryLink import="true" name="Officer Upgrades" hidden="false" id="f844-a87e-88d7-decf" type="selectionEntryGroup" targetId="6b0a-1371-5928-3820"/>
+            <entryLink import="true" name="Naval Kaiken" hidden="false" id="3bf8-d30f-a1c3-6222" type="selectionEntry" targetId="4677-025a-9bcb-79e2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9258-c827-2ef5-c073-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9258-c827-2ef5-c073-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Designated Leader" id="303d-45d4-b5a0-f1ce" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+            <infoLink name="Infantry Officer Actions" id="82f3-288f-4cc0-9235" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
+          </infoLinks>
+          <costs>
+            <cost name="Munitions" typeId="Points" value="9"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+            <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Support Officer" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="fd47-68d8-3c6b-ae2f">
+              <characteristics>
+                <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
+                <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">3</characteristic>
+                <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="IJN Support Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="0c17-420f-d386-1440">
+              <characteristics>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 IJN Infantry Officer</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJN, (CORE) Support, Command, Character</characteristic>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Sidearm" id="8043-9903-ecf8-6c9d" hidden="false" defaultSelectionEntryId="b5d2-2a12-2156-6636">
+              <entryLinks>
+                <entryLink import="true" name="Nambu Type 14 Energy Pistol" hidden="false" id="b5d2-2a12-2156-6636" type="selectionEntry" targetId="47a5-a82a-1d4f-e9b6"/>
+                <entryLink import="true" name="Koishikawa Type 3 Plasma Pistol" hidden="false" id="fb96-070a-73f6-1898" type="selectionEntry" targetId="3db-dc5-c6d1-2218"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="be7e-fb06-c6ab-35c4" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba9b-c552-08a5-4548" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Inter-service Rivalry (Navy)" hidden="false" id="cea7-7c79-52bd-8348">
+              <rules>
+                <rule name="Sea-plane Reconnaissance" id="8a8d-01e4-12db-51c5" hidden="false">
+                  <description>As long as this commander&apos;s platoon includes no units with the IJA keyword, this unit gains Intel Gathering.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink name="Intel Gathering" id="27b6-711f-437f-f2fc" hidden="false" type="rule" targetId="dc7a-f7c9-a54a-9cbc"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="59e9-4066-feb4-56af" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d4ff-b4bf-06aa-6d61" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="IJM Support Commander (Mounted)" hidden="false" id="877f-ce0b-9821-1188">
+          <infoLinks>
+            <infoLink name="Designated Leader" id="a807-91e0-0a5e-7c49" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Officer Seniority" hidden="false" id="ced5-ac5d-2b4e-4c31" type="selectionEntry" targetId="cadb-378d-321-459d">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c2dc-14c7-ecd3-a44a" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="feb6-05f0-e3bd-978d" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Nominate Field Commander" hidden="false" id="2a96-fd99-70ab-63ae" type="selectionEntry" targetId="a8f2-8cd0-efc0-4a1b"/>
+            <entryLink import="true" name="Officer Upgrades" hidden="false" id="2802-2355-deaa-6a00" type="selectionEntryGroup" targetId="6b0a-1371-5928-3820"/>
+          </entryLinks>
+          <profiles>
+            <profile name="IJM Support Commander" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="611f-ca95-3ab8-7973">
+              <characteristics>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 IJM Support Commander</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJM, (CORE) Support, Command, Mounted</characteristic>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="IJA Support Officer (On Foot)" hidden="false" id="f8f9-ad06-8311-ca79">
+          <entryLinks>
+            <entryLink import="true" name="Shin-Gunto" hidden="false" id="a5cb-4bda-e51e-fbb7" collective="false" targetId="5c07-dfbc-2346-645e" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f829-f4fc-d04e-94b9" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="efaf-83de-7dee-19a6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Officer Seniority" hidden="false" id="d952-63a1-4490-f843" type="selectionEntry" targetId="cadb-378d-321-459d">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0f68-3b0e-bc54-0a96" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d404-fb94-719e-d1d9" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Nominate Field Commander" hidden="false" id="b7d5-0d93-f7b3-7626" type="selectionEntry" targetId="a8f2-8cd0-efc0-4a1b"/>
+            <entryLink import="true" name="Officer Upgrades" hidden="false" id="4790-4036-2deb-61e8" type="selectionEntryGroup" targetId="6b0a-1371-5928-3820"/>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Designated Leader" id="0baf-81f8-272a-893f" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+            <infoLink name="Infantry Officer Actions" id="8d2e-2057-1040-490f" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
+          </infoLinks>
+          <costs>
+            <cost name="Munitions" typeId="Points" value="9"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+            <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Support Officer" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="1f74-e67f-5bb9-6bb5">
+              <characteristics>
+                <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
+                <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">3</characteristic>
+                <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="IJA Support Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="89e1-a9d2-9fdb-7f6e">
+              <characteristics>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 IJA Support Officer</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJA, (CORE) Support, Command, Character</characteristic>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Sidearm" id="b581-b0e8-7a7c-3495" hidden="false" defaultSelectionEntryId="7475-59d7-1b34-7c6d">
+              <entryLinks>
+                <entryLink import="true" name="Nambu Type 14 Energy Pistol" hidden="false" id="7475-59d7-1b34-7c6d" type="selectionEntry" targetId="47a5-a82a-1d4f-e9b6"/>
+                <entryLink import="true" name="Koishikawa Type 3 Plasma Pistol" hidden="false" id="2c91-f898-3ce2-204e" type="selectionEntry" targetId="3db-dc5-c6d1-2218"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8f50-63ca-1485-5855" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b7d5-bbdf-39db-4fd0" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Inter-service Rivalry (Army)" hidden="false" id="cfcb-7995-f266-cb35">
+              <rules>
+                <rule name="Land-Based Supply lines" id="6447-1338-dc9b-a2fa" hidden="false">
+                  <description>As long as this commander&apos;s platoon includes no units with the IJN keyword, this unit gains logistics.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink name="Logistics" id="136f-366f-f088-2068" hidden="false" type="rule" targetId="c1ce-d022-923f-3147"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b198-a1c2-56b5-204e" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40d0-29e2-148f-d9dd" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
@@ -3566,13 +3874,13 @@
             <infoLink name="Artillery Vehicle Actions" id="caca-aa6e-ecce-e2f6" hidden="false" type="profile" targetId="ad55-69e8-9339-6df7"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Primary Weapon" id="698b-8b6e-b203-31e8" hidden="false" collective="false" import="true" defaultSelectionEntryId="cd24-6a9d-081b-4ef4">
+            <selectionEntryGroup name="Primary Weapon" id="698b-8b6e-b203-31e8" hidden="false" collective="false" import="true" defaultSelectionEntryId="7e68-78cc-d7fe-aae6">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="05fb-4622-319d-69aa" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58a6-0e7c-1bb6-5c54" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Type 96 Heavy Energy AT-Cannon" hidden="false" id="e5ba-74c2-3eb9-2616" collective="false" targetId="8ee2-4a82-676f-fb5b" type="selectionEntry">
+                <entryLink import="true" name="Type 96 Light Energy AT-Cannon" hidden="false" id="e5ba-74c2-3eb9-2616" collective="false" targetId="8ee2-4a82-676f-fb5b" type="selectionEntry">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4eaa-686e-42a0-7164" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
@@ -3582,14 +3890,6 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="acbd-654e-ff11-6647" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Pintle Mount" id="bbb6-9d3d-9967-11f8" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb49-bb9a-3674-b4fe" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Type 92 “Hyōshigi” Machine Gun" hidden="false" id="f64d-e9ec-4e08-d43a" collective="false" targetId="8914-6078-e164-3a2c" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -3914,7 +4214,7 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f5d-b643-dee8-e721" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Type 96 Heavy Energy AT-Cannon" hidden="false" id="f910-cbff-1a06-117b" collective="false" targetId="8ee2-4a82-676f-fb5b" type="selectionEntry">
+                <entryLink import="true" name="Type 96 Light Energy AT-Cannon" hidden="false" id="f910-cbff-1a06-117b" collective="false" targetId="8ee2-4a82-676f-fb5b" type="selectionEntry">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="69e9-1819-1223-1219" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
@@ -4077,7 +4377,7 @@
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a53c-cdbf-f329-8ddd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                     </entryLink>
-                    <entryLink import="true" name="Type 96 Heavy Energy AT-Cannon" hidden="false" id="659a-cd42-ddd9-27f5" collective="false" targetId="8ee2-4a82-676f-fb5b" type="selectionEntry">
+                    <entryLink import="true" name="Type 96 Light Energy AT-Cannon" hidden="false" id="659a-cd42-ddd9-27f5" collective="false" targetId="8ee2-4a82-676f-fb5b" type="selectionEntry">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d90c-0c15-263d-cac4" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
@@ -4556,7 +4856,7 @@
           </constraints>
           <entryLinks>
             <entryLink import="true" name="Experimental Type 1 Submachine Gun" hidden="false" id="b2b8-0c54-45e6-6447" type="selectionEntry" targetId="cc08-3332-7b3c-f9e1"/>
-            <entryLink import="true" name="Shin-Gunto" hidden="false" id="50f5-16a7-8f7d-d254" type="selectionEntry" targetId="5c07-dfbc-2346-645e"/>
+            <entryLink import="true" name="Naval Kaiken" hidden="false" id="50f5-16a7-8f7d-d254" type="selectionEntry" targetId="4677-025a-9bcb-79e2"/>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -4742,8 +5042,8 @@
                         <entryLink import="true" name="Arisaka Type 95 Carbine" hidden="false" id="5745-2416-81d0-769b" type="selectionEntry" targetId="7d1e-8a5c-c9c6-161c"/>
                       </entryLinks>
                       <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cafe-fe73-1a32-01cd" includeChildSelections="false"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dfb8-88ab-7ef1-b320" includeChildSelections="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ebd0-bf6d-8258-e5e1-min" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ebd0-bf6d-8258-e5e1-max" includeChildSelections="false"/>
                       </constraints>
                     </selectionEntryGroup>
                     <selectionEntryGroup name="Sidearm" id="d720-16fb-cd1b-638e" hidden="false" defaultSelectionEntryId="fb64-ffe4-e10e-5472">
@@ -4752,13 +5052,13 @@
                         <entryLink import="true" name="Nambu Type 14 Energy Pistol" hidden="false" id="fb64-ffe4-e10e-5472" type="selectionEntry" targetId="47a5-a82a-1d4f-e9b6"/>
                       </entryLinks>
                       <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5b63-d84a-6e4f-9438" includeChildSelections="false"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3290-e2d9-d1b1-de20" includeChildSelections="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3863-6493-d3c6-2a72-min" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3863-6493-d3c6-2a72-max" includeChildSelections="false"/>
                       </constraints>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                 </selectionEntry>
-                <selectionEntry type="model" import="true" name="Naval Hōshu with Grenade Launcher" hidden="false" id="06a5-0e85-986b-c90a" collective="false">
+                <selectionEntry type="model" import="true" name="Naval Hōshu with Rifle Grenade" hidden="false" id="06a5-0e85-986b-c90a" collective="false">
                   <constraints>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="066f-8b32-e4cc-203f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
@@ -4773,13 +5073,19 @@
                     </profile>
                   </profiles>
                   <entryLinks>
-                    <entryLink import="true" name="Type 92 Grenade Launcher" hidden="false" id="267d-c491-033d-a963" collective="false" targetId="27f0-da89-cb17-6803" type="selectionEntry">
+                    <entryLink import="true" name="Type 94 Rifle Grenade" hidden="false" id="267d-c491-033d-a963" collective="false" targetId="27f0-da89-cb17-6803" type="selectionEntry">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4de8-f1f0-4076-823c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fead-1ee4-5c37-2f67" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                     </entryLink>
                     <entryLink import="true" name="Bayonet" hidden="false" id="f77c-0e92-d9c7-69a4" type="selectionEntry" targetId="66fd-b75b-f882-3404"/>
+                    <entryLink import="true" name="Arisaka Type 95 Carbine" hidden="false" id="e691-a28a-b85b-5d7d" type="selectionEntry" targetId="7d1e-8a5c-c9c6-161c">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="97bd-57a8-ffad-ee95-min" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="97bd-57a8-ffad-ee95-max" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                   <costs>
                     <cost name="Munitions" typeId="Points" value="7"/>
@@ -5001,16 +5307,45 @@
                     <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
                   </costs>
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="Firearms" id="372e-1491-26c-48a" hidden="false" defaultSelectionEntryId="a1c1-f5cd-9b7c-ecc6">
+                    <selectionEntryGroup name="Primary Weapon" id="372e-1491-26c-48a" hidden="false" defaultSelectionEntryId="334b-f332-e3a5-f814">
                       <entryLinks>
-                        <entryLink import="true" name="Nambu Type 14 Energy Pistol" hidden="false" id="a1c1-f5cd-9b7c-ecc6" collective="false" targetId="47a5-a82a-1d4f-e9b6" type="selectionEntry"/>
-                        <entryLink import="true" name="Koishikawa Type 3 Plasma Pistol" hidden="false" id="f16e-6f4a-4223-fcc2" type="selectionEntry" targetId="3db-dc5-c6d1-2218"/>
-                        <entryLink import="true" name="Type 93 “Azusa” Rifle" hidden="false" id="334b-f332-e3a5-f814" type="selectionEntry" targetId="d4fb-139f-7ec1-9d83"/>
-                        <entryLink import="true" name="Nambu Type 1 Submachine Gun" hidden="false" id="1b13-2cb4-9290-65bf" type="selectionEntry" targetId="8424-2ffa-a02a-ab3d"/>
+                        <entryLink import="true" name="Type 93 “Azusa” Rifle" hidden="false" id="334b-f332-e3a5-f814" type="selectionEntry" targetId="d4fb-139f-7ec1-9d83">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e86-6c8c-7221-653d" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Nambu Type 1 Submachine Gun" hidden="false" id="1b13-2cb4-9290-65bf" type="selectionEntry" targetId="8424-2ffa-a02a-ab3d">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2615-b803-32d0-26f1" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Type 1 Submachine Gun" hidden="false" id="59e5-eae4-a93f-3492" type="selectionEntry" targetId="8d1c-bdb3-4a10-1a79">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="44f8-c219-bf36-7f05" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
                       </entryLinks>
                       <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ba03-9062-418c-a030" includeChildSelections="false"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2f5-2f6d-ee29-213e" includeChildSelections="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d2f5-2f6d-ee29-213e-min" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2f5-2f6d-ee29-213e-max" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Sidearm" id="9bbb-e1e1-d272-57e9" hidden="false" defaultSelectionEntryId="a1c1-f5cd-9b7c-ecc6">
+                      <entryLinks>
+                        <entryLink import="true" name="Nambu Type 14 Energy Pistol" hidden="false" id="a1c1-f5cd-9b7c-ecc6" collective="false" targetId="47a5-a82a-1d4f-e9b6" type="selectionEntry">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2c7-3708-2745-9046" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="Koishikawa Type 3 Plasma Pistol" hidden="false" id="f16e-6f4a-4223-fcc2" type="selectionEntry" targetId="3db-dc5-c6d1-2218">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6af7-d020-943d-d236" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6639-bf53-4082-17a8-min" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6639-bf53-4082-17a8-max" includeChildSelections="false"/>
                       </constraints>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
@@ -5205,7 +5540,7 @@
                     <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry type="model" import="true" name="Hōshu with Grenade Launcher" hidden="false" id="59c8-0182-dc24-fd2d" collective="false">
+                <selectionEntry type="model" import="true" name="Hōshu with Knee Mortar" hidden="false" id="59c8-0182-dc24-fd2d" collective="false">
                   <constraints>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3436-cafe-7404-bda0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
@@ -5220,7 +5555,7 @@
                     </profile>
                   </profiles>
                   <entryLinks>
-                    <entryLink import="true" name="Type 92 Grenade Launcher" hidden="false" id="e5de-4253-cec6-834e" collective="false" targetId="27f0-da89-cb17-6803" type="selectionEntry">
+                    <entryLink import="true" name="Type 88 Grenade Discharger" hidden="false" id="e5de-4253-cec6-834e" collective="false" targetId="028e-03e6-dc86-a496" type="selectionEntry">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1114-5bea-8cf8-dc0d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="32a2-69cc-bbd6-e673" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -5299,7 +5634,7 @@
             <selectionEntry type="upgrade" import="true" name="Kenjutsu" hidden="false" id="00ca-4d2b-e5ba-ee1e">
               <rules>
                 <rule name="Kenjutsu" id="99fe-85e7-830b-8ce0" hidden="false">
-                  <description>Units ordered by this Commander gain +1 AP on all Attacks made with Melee weapons this turn. </description>
+                  <description>Units ordered by this Commander gain +1 AP on all Attacks made with Melee weapons this turn.</description>
                 </rule>
               </rules>
               <costs>

@@ -804,7 +804,7 @@
       <description>This weapon may be selected to fire even if this unit is Engaged.</description>
     </rule>
     <rule id="22ca-4520-b3df-c16d" name="Difficult to Use" hidden="false">
-      <description>If this unit selects this weapon to attack with. It may not attack with any other differently named weapons this activation.</description>
+      <description>If this Model selects this weapon to attack with. It may not attack with any other differently named weapons this activation.</description>
     </rule>
     <rule id="7235-63bc-0668-6ac4" name="Flames" hidden="false">
       <description>When making an attack with this weapon, all hits succeed automatically. Apply the Burning condition to any Units attacked with this weapon.</description>
@@ -961,7 +961,7 @@ Until the end of this round all vehicle Units in this platoon increase their Eva
       <description>Nominate this unit as your field commander. (This unit must have the highest officer rank in your army).</description>
     </rule>
     <rule name="Rank has its Privileges" id="7d1b-65ee-7808-b26d" hidden="false">
-      <description>An infantry or artillery officer may be attached to this unit instead of a normal squad. That officer’s range for orders is 12”.</description>
+      <description>A Command unit may be mounted or embarked on or in this unit regardless of other restrictions. That officer’s range for orders is 12”.</description>
     </rule>
     <rule name="Up-Armored" id="1f7c-515a-0ef2-8614" hidden="false">
       <description>This Model&apos;s Armor Profile is increased by 1</description>

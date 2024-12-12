@@ -342,12 +342,23 @@
         <categoryLink targetId="6f95-29a9-8d9a-a5fb" id="e9b4-38c8-8f40-d777" primary="false" name="Superheavy"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Lend-Lease Willys GPV Staff Car" hidden="false" id="2f1b-5a2d-eab0-9ff2" type="selectionEntry" targetId="f086-14fa-6e9c-ad9a">
+    <entryLink import="true" name="Lend-Lease Willys GPV Staff Car" hidden="true" id="2f1b-5a2d-eab0-9ff2" type="selectionEntry" targetId="f086-14fa-6e9c-ad9a">
       <categoryLinks>
         <categoryLink name="Transports" hidden="false" id="9e4f-5d92-7cf1-7a7e" targetId="d4be-5aad-8560-5720" primary="true"/>
         <categoryLink name="Unit" hidden="false" id="4f71-07ea-3121-baa1" targetId="1e39-16b1-cedd-2cc6" primary="false"/>
         <categoryLink name="Vehicle" hidden="false" id="a628-d707-098b-e249" targetId="de0d-e12c-a964-4e46" primary="false"/>
       </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="70eb-c264-a9cb-1bfe" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink import="true" name="Lend-Lease Willys GPV Scout Squad" hidden="false" id="b3db-7796-ec50-02ca" collective="false" targetId="8b5a-3cd5-739a-1db3" type="selectionEntry">
       <categoryLinks>
@@ -401,6 +412,54 @@
           </conditions>
         </modifier>
       </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Support Officer (On Foot)" hidden="true" id="a345-1e25-d364-78fb" type="selectionEntry" targetId="f7a3-1b59-618b-5849">
+      <categoryLinks>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="3dd4-a0b8-36ea-651b" primary="false" name="CORE Support"/>
+        <categoryLink targetId="2018-9722-0c01-f30e" id="102e-082c-bb19-49bf" primary="false" name="NFR"/>
+        <categoryLink targetId="7165-cf57-cd9c-93da" id="58ff-09ad-d6d3-b00e" primary="false" name="Character"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="c528-37f5-e6b2-6760" primary="true" name="Command"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="7110-7fe8-80e2-5e81" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="6dc4-41a4-7144-d10c" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Support Commander (Mounted)" hidden="true" id="6e91-d60c-d3ca-85fd" type="selectionEntry" targetId="6c04-c547-57e0-915d">
+      <categoryLinks>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="b420-b9a9-5ff9-c7a0" primary="false" name="CORE Support"/>
+        <categoryLink targetId="5363-dec4-5b0e-5504" id="1f8d-67ab-62ec-8c7f" primary="false" name="Mounted"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="0ef7-a007-406c-7551" primary="true" name="Command"/>
+        <categoryLink targetId="2018-9722-0c01-f30e" id="4553-6348-9ef2-0b5d" primary="false" name="NFR"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="7110-7fe8-80e2-5e81" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="de0d-e12c-a964-4e46" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -586,7 +645,7 @@
         <infoLink name="Gros Canon à Energie" id="18c3-1a1b-93e6-3c4c" hidden="false" type="profile" targetId="ed99-c3cf-5fa8-5e96"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="MAS 12 FC" hidden="false" id="10aa-dc43-91ed-2faa" collective="true">
+    <selectionEntry type="upgrade" import="true" name="LeMat 12 FC" hidden="false" id="10aa-dc43-91ed-2faa" collective="true">
       <costs>
         <cost name="Munitions" typeId="Points" value="1"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
@@ -721,7 +780,7 @@
         <infoLink name="Critical Shot" id="7104-5fa6-b74b-04e8" hidden="false" type="rule" targetId="a53f-6c4f-8514-7703"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Modele 1930 Plasma Pistol" hidden="false" id="65af-1ac2-c789-e963">
+    <selectionEntry type="upgrade" import="true" name="Modele 1930 Plasma Pistol" hidden="false" id="65af-1ac2-c789-e963" collective="true">
       <costs>
         <cost name="Munitions" typeId="Points" value="7"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
@@ -1097,6 +1156,22 @@
       </costs>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a5c-4722-be20-204c" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Stroboscopic Cupola" hidden="false" id="c618-a4cf-d4ae-ae2f">
+      <rules>
+        <rule name="Stroboscopic Cupola" id="2bfc-4210-97a2-d7d8" hidden="false">
+          <description>When this Unit activates it may immediately make a 90 degree pivot.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="15"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38d7-334c-418c-c7a1" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1613,53 +1688,6 @@
           <infoLinks>
             <infoLink name="Forward Positions" id="6b04-e4a1-6fdd-cd5f" hidden="false" type="rule" targetId="239f-191a-232-4894"/>
           </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Turret Weapon" id="e253-8bd1-486e-d659" hidden="false" collective="false" import="true" defaultSelectionEntryId="6819-dc0f-83ae-c4c4">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9b02-1401-2717-fd7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="43f8-a78-7888-9059" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="20mm Autocanon" hidden="false" id="ff3d-2d84-a818-4e90" collective="false" targetId="8fc6-964b-9e3b-7fe6" type="selectionEntry"/>
-                <entryLink import="true" name="Automatic Grenade Launcher" hidden="false" id="dbc3-8e3-b442-6347" type="selectionEntry" targetId="77db-73a-f45e-b17d"/>
-                <entryLink import="true" name="Canon de 40mm" hidden="false" id="6819-dc0f-83ae-c4c4" type="selectionEntry" targetId="8552-c026-dbbf-76ae"/>
-                <entryLink import="true" name="M33 Lance-Flammes" hidden="false" id="f0ca-1e2d-6a17-66d1" collective="false" targetId="2b69-ad00-8d27-75a4" type="selectionEntry"/>
-              </entryLinks>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Gros Canon à Chaleur" hidden="false" id="6643-ba27-5dbc-e568">
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="8"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Gros Canon à Chaleur" id="c5d7-6808-459f-fa30" hidden="false" type="profile" targetId="ca7c-afde-49ea-6e88"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Gros Canon à Energie" hidden="false" id="27c8-1511-79d2-979" collective="true">
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="22"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Gros Canon à Energie" id="e521-9d25-5479-8672" hidden="false" type="profile" targetId="ed99-c3cf-5fa8-5e96"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Gros Canon à Plasma" hidden="false" id="5e91-f1fb-4ad2-7955">
-                  <infoLinks>
-                    <infoLink name="Gros Canon à Plasma" id="48ca-9942-d58d-9d60" hidden="false" type="profile" targetId="2eee-7636-5280-f9c3"/>
-                    <infoLink name="Slag" id="4d5a-a6b2-5c4d-3504" hidden="false" type="rule" targetId="aaa4-8ad4-e93e-7ead"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="23"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
           <costs>
             <cost name="Munitions" typeId="Points" value="132"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
@@ -1672,31 +1700,73 @@
             </rule>
           </rules>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Coaxial Machine Gun" hidden="false" id="5403-d067-903f-4d09">
-              <entryLinks>
-                <entryLink import="true" name="Reibel Heavy Machine Gun" hidden="false" id="8f33-f2c-9e89-9a9b" type="selectionEntry" targetId="6255-e891-a7d0-cb6e">
+            <selectionEntry type="upgrade" import="true" name="Turret" hidden="false" id="8164-2c80-52bb-244f">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Coaxial Machine Gun" hidden="false" id="5403-d067-903f-4d09">
+                  <entryLinks>
+                    <entryLink import="true" name="Reibel Heavy Machine Gun" hidden="false" id="8f33-f2c-9e89-9a9b" type="selectionEntry" targetId="6255-e891-a7d0-cb6e">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1a2e-e391-cb8-472e-min" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a2e-e391-cb8-472e-max" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1a2e-e391-cb8-472e-min" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a2e-e391-cb8-472e-max" includeChildSelections="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c95c-24d-36-99b-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c95c-24d-36-99b-max" includeChildSelections="false"/>
                   </constraints>
-                </entryLink>
-              </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon Options" id="e253-8bd1-486e-d659" hidden="false" collective="false" import="true" defaultSelectionEntryId="6819-dc0f-83ae-c4c4">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9b02-1401-2717-fd7" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="43f8-a78-7888-9059" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="20mm Autocanon" hidden="false" id="ff3d-2d84-a818-4e90" collective="false" targetId="8fc6-964b-9e3b-7fe6" type="selectionEntry"/>
+                    <entryLink import="true" name="Automatic Grenade Launcher" hidden="false" id="dbc3-8e3-b442-6347" type="selectionEntry" targetId="77db-73a-f45e-b17d"/>
+                    <entryLink import="true" name="Canon de 40mm" hidden="false" id="6819-dc0f-83ae-c4c4" type="selectionEntry" targetId="8552-c026-dbbf-76ae"/>
+                    <entryLink import="true" name="M33 Lance-Flammes" hidden="false" id="f0ca-1e2d-6a17-66d1" collective="false" targetId="2b69-ad00-8d27-75a4" type="selectionEntry"/>
+                  </entryLinks>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Gros Canon à Chaleur" hidden="false" id="6643-ba27-5dbc-e568">
+                      <costs>
+                        <cost name="Munitions" typeId="Points" value="8"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Gros Canon à Chaleur" id="c5d7-6808-459f-fa30" hidden="false" type="profile" targetId="ca7c-afde-49ea-6e88"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Gros Canon à Energie" hidden="false" id="27c8-1511-79d2-979" collective="true">
+                      <costs>
+                        <cost name="Munitions" typeId="Points" value="22"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Gros Canon à Energie" id="e521-9d25-5479-8672" hidden="false" type="profile" targetId="ed99-c3cf-5fa8-5e96"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Gros Canon à Plasma" hidden="false" id="5e91-f1fb-4ad2-7955">
+                      <infoLinks>
+                        <infoLink name="Gros Canon à Plasma" id="48ca-9942-d58d-9d60" hidden="false" type="profile" targetId="2eee-7636-5280-f9c3"/>
+                        <infoLink name="Slag" id="4d5a-a6b2-5c4d-3504" hidden="false" type="rule" targetId="aaa4-8ad4-e93e-7ead"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Munitions" typeId="Points" value="23"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c95c-24d-36-99b-min" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c95c-24d-36-99b-max" includeChildSelections="false"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Trench Rails" hidden="false" id="e2c4-52dc-4b90-d15f">
-              <costs>
-                <cost name="Munitions" typeId="Points" value="10"/>
-                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Stable Firing Position" id="817d-b29d-6af7-13b7" hidden="false" type="rule" targetId="21b3-c7af-2fb8-5ab6"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f56-8a96-2439-e8c9" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c004-645b-0e39-9cd3-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c004-645b-0e39-9cd3-max" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
@@ -1704,7 +1774,23 @@
             <entryLink import="true" name="Vehicle Upgrades" hidden="false" id="fbed-4d47-0868-37ce" type="selectionEntryGroup" targetId="d75c-a162-bc8f-60f9">
               <entryLinks>
                 <entryLink import="true" name="Overtuned" hidden="false" id="b7fe-1c90-741d-ccfc" type="selectionEntry" targetId="2065-730f-51ef-3021"/>
+                <entryLink import="true" name="Stroboscopic Cupola" hidden="false" id="1ef6-8775-a347-3b51" type="selectionEntry" targetId="c618-a4cf-d4ae-ae2f"/>
               </entryLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Trench Rail" hidden="false" id="e2c4-52dc-4b90-d15f">
+                  <costs>
+                    <cost name="Munitions" typeId="Points" value="10"/>
+                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Stable Firing Position" id="817d-b29d-6af7-13b7" hidden="false" type="rule" targetId="21b3-c7af-2fb8-5ab6"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f56-8a96-2439-e8c9" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
             </entryLink>
           </entryLinks>
         </selectionEntry>
@@ -1715,189 +1801,6 @@
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Turret Weapon" id="426b-3ec3-2fa7-89f2" hidden="false" defaultSelectionEntryId="c920-f071-98af-d637">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4c24-6f33-cfa-5b0e-min" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c24-6f33-cfa-5b0e-max" includeChildSelections="false"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="20mm Autocanon" hidden="false" id="c8f3-2084-30-efde" collective="false" targetId="8fc6-964b-9e3b-7fe6" type="selectionEntry"/>
-                <entryLink import="true" name="Automatic Grenade Launcher" hidden="false" id="17fd-7a2a-986a-1588" type="selectionEntry" targetId="77db-73a-f45e-b17d"/>
-                <entryLink import="true" name="M33 Lance-Flammes" hidden="false" id="b86f-d091-ba5b-168c" collective="false" targetId="2b69-ad00-8d27-75a4" type="selectionEntry"/>
-                <entryLink import="true" name="Canon de 40mm" hidden="false" id="c920-f071-98af-d637" type="selectionEntry" targetId="8552-c026-dbbf-76ae"/>
-              </entryLinks>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Gros Canon à Chaleur" hidden="false" id="271c-718d-77d6-c9c9">
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="8"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Gros Canon à Chaleur" id="c94c-b2ac-20ba-ab45" hidden="false" type="profile" targetId="ca7c-afde-49ea-6e88"/>
-                    <infoLink name="Searing" id="8434-b3d-5c3e-e9f1" hidden="false" type="rule" targetId="56bf-a271-a758-6f38"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Gros Canon à Energie" hidden="false" id="e73a-3839-c22a-e86a" collective="true">
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="22"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Gros Canon à Energie" id="2f2b-5087-fcb0-4934" hidden="false" type="profile" targetId="ed99-c3cf-5fa8-5e96"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Gros Canon à Plasma" hidden="false" id="3829-358e-885b-9a2a">
-                  <infoLinks>
-                    <infoLink name="Gros Canon à Plasma" id="3c3-fb03-63fe-555d" hidden="false" type="profile" targetId="2eee-7636-5280-f9c3"/>
-                    <infoLink name="Slag" id="4204-61b8-47df-394f" hidden="false" type="rule" targetId="aaa4-8ad4-e93e-7ead"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="23"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Hull Weapon" id="7607-3772-65dd-2ef" hidden="false" defaultSelectionEntryId="1a42-d377-89dd-5477">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e45b-60bc-ab37-8d59-max-min" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e45b-60bc-ab37-8d59-max-max" includeChildSelections="false"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Canon de 75mm" hidden="false" id="1a42-d377-89dd-5477" type="selectionEntry" targetId="b98d-9fa-d3e7-f68c">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36aa-28f8-f6d2-b5be" includeChildSelections="false"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="FEM &quot;La Faux&quot; Rotary Cannon" hidden="false" id="50a-764e-27ae-f4c7">
-                  <infoLinks>
-                    <infoLink name="Suppressive" id="dc8a-dcdb-6ccc-d7aa" hidden="false" type="rule" targetId="4911-2380-864d-8b44"/>
-                    <infoLink name="FEM &quot;La Faux&quot; Rotary Cannon" id="4186-362d-e03-4d6" hidden="false" type="profile" targetId="78dc-4ff1-98f7-d5c0"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="21"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                    <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd13-24d0-d79b-4d17" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="8.5cm High-Velocity Cannon" hidden="false" id="d8e0-8ba7-a7ef-415f">
-                  <infoLinks>
-                    <infoLink name="Critical Shot" id="9158-f52b-4a54-8bf5" hidden="false" type="rule" targetId="a53f-6c4f-8514-7703"/>
-                    <infoLink name="Canon de 90mm SA" id="1dad-f7cf-628a-9a6b" hidden="false" type="profile" targetId="f8b5-1d05-7670-76c9"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="23"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                    <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1455-ff75-8663-580d" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Destructeur de plasma" hidden="false" id="f267-7745-b7d6-68ea">
-                  <infoLinks>
-                    <infoLink name="Slag" id="12dc-4953-c0d9-bbea" hidden="false" type="rule" targetId="aaa4-8ad4-e93e-7ead"/>
-                    <infoLink name="Destructeur à plasma" id="a819-45e7-139b-a3f8" hidden="false" type="profile" targetId="ad30-32b8-2140-df08"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="35"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                    <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e9e-5c9b-eb17-9f19" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="105mm Obusier (Direct Fire)" hidden="false" id="576f-9d1f-514-a544">
-                  <infoLinks>
-                    <infoLink name="High Explosive" id="9faa-4a2a-faec-bce1" hidden="false" type="rule" targetId="9375-d461-c135-9e66"/>
-                    <infoLink name="105mm Obusier (Direct Fire)" id="9aa9-7773-a476-badf" hidden="false" type="profile" targetId="c158-f237-9a4b-6a67"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="22"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                    <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec87-118-1741-c22" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Twin 20mm Autocanon" hidden="false" id="8ef0-219b-214e-fa4b">
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="32"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Twin 20mm Autocanon" id="908a-6337-1ea5-1d89" hidden="false" type="profile" targetId="7978-2315-1720-9cd0"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b18-2e87-a6f5-42ea" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Sponson Weapons" id="1a18-ba1d-6058-b94c" hidden="false">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="576a-c46b-65f-936c" includeChildSelections="false"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Canon à Plasma Sponsons" hidden="false" id="e3eb-861f-39f-420f">
-                  <entryLinks>
-                    <entryLink import="true" name="Canon à Plasma" hidden="false" id="475f-16b-74c1-c992" type="selectionEntry" targetId="b21d-42f7-9ce-6014">
-                      <constraints>
-                        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="911a-4ae3-661-ce88-min"/>
-                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="911a-4ae3-661-ce88-max"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Flamethrower Sponsons" hidden="false" id="2e91-377-de86-8f66">
-                  <entryLinks>
-                    <entryLink import="true" name="M33 Lance-Flammes" hidden="false" id="d07d-82fc-8e0-c1ea" type="selectionEntry" targetId="2b69-ad00-8d27-75a4">
-                      <constraints>
-                        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="609-f6f1-f828-37ca"/>
-                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="69e3-7766-a284-4815"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Canon à Chaleur Sponsons" hidden="false" id="babe-c8fc-55b1-cfee">
-                  <entryLinks>
-                    <entryLink import="true" name="Canon à Chaleur" hidden="false" id="1440-ae4d-8eac-8c00" type="selectionEntry" targetId="7fcc-2bdf-e932-b1fc">
-                      <constraints>
-                        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="67b1-e4da-a20a-3738"/>
-                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1ebd-1e1e-e0cc-ab2a"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Automatic Grenade Launcher Sponsons" hidden="false" id="a16e-5b5c-8e0b-6e72">
-                  <entryLinks>
-                    <entryLink import="true" name="Automatic Grenade Launcher" hidden="false" id="ff8c-a45a-7991-5056" type="selectionEntry" targetId="77db-73a-f45e-b17d">
-                      <constraints>
-                        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="2438-668a-f4f-52b"/>
-                        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="870d-c59c-2b-e249"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
           <profiles>
             <profile name="R-1B Liberté Medium Battle Tank" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="ba0c-6b5a-9ea5-3706">
               <characteristics>
@@ -1931,45 +1834,171 @@
             <infoLink name="Armor Actions" id="5d85-f549-14-53de" hidden="false" type="profile" targetId="ed5a-9492-6407-a9f1"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Pintle Weapon" hidden="false" id="f9a1-8ef9-5371-9f0e">
-              <entryLinks>
-                <entryLink import="true" name="Reibel Heavy Machine Gun" hidden="false" id="c335-95a3-1b36-f0a7" type="selectionEntry" targetId="6255-e891-a7d0-cb6e">
+            <selectionEntry type="upgrade" import="true" name="Hull Gun" hidden="false" id="8c4b-1a54-94d6-7185">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon Options" id="7607-3772-65dd-2ef" hidden="false" defaultSelectionEntryId="1a42-d377-89dd-5477">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c174-1716-ffb0-f485-min" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c174-1716-ffb0-f485-max" includeChildSelections="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e45b-60bc-ab37-8d59-max-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e45b-60bc-ab37-8d59-max-max" includeChildSelections="false"/>
                   </constraints>
-                </entryLink>
-              </entryLinks>
+                  <entryLinks>
+                    <entryLink import="true" name="Canon de 75mm" hidden="false" id="1a42-d377-89dd-5477" type="selectionEntry" targetId="b98d-9fa-d3e7-f68c">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36aa-28f8-f6d2-b5be" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="FEM &quot;La Faux&quot; Rotary Cannon" hidden="false" id="50a-764e-27ae-f4c7">
+                      <infoLinks>
+                        <infoLink name="Suppressive" id="dc8a-dcdb-6ccc-d7aa" hidden="false" type="rule" targetId="4911-2380-864d-8b44"/>
+                        <infoLink name="FEM &quot;La Faux&quot; Rotary Cannon" id="4186-362d-e03-4d6" hidden="false" type="profile" targetId="78dc-4ff1-98f7-d5c0"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Munitions" typeId="Points" value="21"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd13-24d0-d79b-4d17" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="8.5cm High-Velocity Cannon" hidden="false" id="d8e0-8ba7-a7ef-415f">
+                      <infoLinks>
+                        <infoLink name="Critical Shot" id="9158-f52b-4a54-8bf5" hidden="false" type="rule" targetId="a53f-6c4f-8514-7703"/>
+                        <infoLink name="Canon de 90mm SA" id="1dad-f7cf-628a-9a6b" hidden="false" type="profile" targetId="f8b5-1d05-7670-76c9"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Munitions" typeId="Points" value="23"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1455-ff75-8663-580d" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Destructeur de plasma" hidden="false" id="f267-7745-b7d6-68ea">
+                      <infoLinks>
+                        <infoLink name="Slag" id="12dc-4953-c0d9-bbea" hidden="false" type="rule" targetId="aaa4-8ad4-e93e-7ead"/>
+                        <infoLink name="Destructeur à plasma" id="a819-45e7-139b-a3f8" hidden="false" type="profile" targetId="ad30-32b8-2140-df08"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Munitions" typeId="Points" value="35"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e9e-5c9b-eb17-9f19" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="105mm Obusier (Direct Fire)" hidden="false" id="576f-9d1f-514-a544">
+                      <infoLinks>
+                        <infoLink name="High Explosive" id="9faa-4a2a-faec-bce1" hidden="false" type="rule" targetId="9375-d461-c135-9e66"/>
+                        <infoLink name="105mm Obusier (Direct Fire)" id="9aa9-7773-a476-badf" hidden="false" type="profile" targetId="c158-f237-9a4b-6a67"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Munitions" typeId="Points" value="22"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec87-118-1741-c22" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin 20mm Autocanon" hidden="false" id="8ef0-219b-214e-fa4b">
+                      <costs>
+                        <cost name="Munitions" typeId="Points" value="32"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Twin 20mm Autocanon" id="908a-6337-1ea5-1d89" hidden="false" type="profile" targetId="7978-2315-1720-9cd0"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b18-2e87-a6f5-42ea" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3843-6eab-bfbc-8246" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f1fb-3a09-df0e-7d0a-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f1fb-3a09-df0e-7d0a-max" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Coaxial Machine Gun" hidden="false" id="e6b1-cc0f-e9e3-84b0">
-              <entryLinks>
-                <entryLink import="true" name="Reibel Heavy Machine Gun" hidden="false" id="1ef6-38bc-9183-9ad" type="selectionEntry" targetId="6255-e891-a7d0-cb6e">
+            <selectionEntry type="upgrade" import="true" name="Turret" hidden="false" id="a707-fed1-699a-20a5">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Coaxial Machine Gun" hidden="false" id="e6b1-cc0f-e9e3-84b0">
+                  <entryLinks>
+                    <entryLink import="true" name="Reibel Heavy Machine Gun" hidden="false" id="1ef6-38bc-9183-9ad" type="selectionEntry" targetId="6255-e891-a7d0-cb6e">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d617-623b-a04a-1e2a-min" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d617-623b-a04a-1e2a-max" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d617-623b-a04a-1e2a-min" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d617-623b-a04a-1e2a-max" includeChildSelections="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="44b6-1c29-2fe6-3936-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="44b6-1c29-2fe6-3936-max" includeChildSelections="false"/>
                   </constraints>
-                </entryLink>
-              </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="44b6-1c29-2fe6-3936-min" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="44b6-1c29-2fe6-3936-max" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f692-425e-5eaa-90ff-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f692-425e-5eaa-90ff-max" includeChildSelections="false"/>
               </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Trench Rails" hidden="false" id="12c5-501a-4868-20eb">
-              <costs>
-                <cost name="Munitions" typeId="Points" value="10"/>
-                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Stable Firing Position" id="79e1-beb-3cbd-2334" hidden="false" type="rule" targetId="21b3-c7af-2fb8-5ab6"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="81a-aae2-871b-7436" includeChildSelections="false"/>
-              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon Options" id="426b-3ec3-2fa7-89f2" hidden="false" defaultSelectionEntryId="c920-f071-98af-d637">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4c24-6f33-cfa-5b0e-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c24-6f33-cfa-5b0e-max" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="20mm Autocanon" hidden="false" id="c8f3-2084-30-efde" collective="false" targetId="8fc6-964b-9e3b-7fe6" type="selectionEntry"/>
+                    <entryLink import="true" name="Automatic Grenade Launcher" hidden="false" id="17fd-7a2a-986a-1588" type="selectionEntry" targetId="77db-73a-f45e-b17d"/>
+                    <entryLink import="true" name="M33 Lance-Flammes" hidden="false" id="b86f-d091-ba5b-168c" collective="false" targetId="2b69-ad00-8d27-75a4" type="selectionEntry"/>
+                    <entryLink import="true" name="Canon de 40mm" hidden="false" id="c920-f071-98af-d637" type="selectionEntry" targetId="8552-c026-dbbf-76ae"/>
+                  </entryLinks>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Gros Canon à Chaleur" hidden="false" id="271c-718d-77d6-c9c9">
+                      <costs>
+                        <cost name="Munitions" typeId="Points" value="8"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Gros Canon à Chaleur" id="c94c-b2ac-20ba-ab45" hidden="false" type="profile" targetId="ca7c-afde-49ea-6e88"/>
+                        <infoLink name="Searing" id="8434-b3d-5c3e-e9f1" hidden="false" type="rule" targetId="56bf-a271-a758-6f38"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Gros Canon à Energie" hidden="false" id="e73a-3839-c22a-e86a" collective="true">
+                      <costs>
+                        <cost name="Munitions" typeId="Points" value="22"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Gros Canon à Energie" id="2f2b-5087-fcb0-4934" hidden="false" type="profile" targetId="ed99-c3cf-5fa8-5e96"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Gros Canon à Plasma" hidden="false" id="3829-358e-885b-9a2a">
+                      <infoLinks>
+                        <infoLink name="Gros Canon à Plasma" id="3c3-fb03-63fe-555d" hidden="false" type="profile" targetId="2eee-7636-5280-f9c3"/>
+                        <infoLink name="Slag" id="4204-61b8-47df-394f" hidden="false" type="rule" targetId="aaa4-8ad4-e93e-7ead"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Munitions" typeId="Points" value="23"/>
+                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
           <rules>
@@ -1981,7 +2010,103 @@
             <entryLink import="true" name="Vehicle Upgrades" hidden="false" id="6a4f-a60e-6ef9-eff8" type="selectionEntryGroup" targetId="d75c-a162-bc8f-60f9">
               <entryLinks>
                 <entryLink import="true" name="Overtuned" hidden="false" id="7959-0392-b18a-6f3d" type="selectionEntry" targetId="2065-730f-51ef-3021"/>
+                <entryLink import="true" name="Stroboscopic Cupola" hidden="false" id="868d-9cc7-d463-83bd" type="selectionEntry" targetId="c618-a4cf-d4ae-ae2f"/>
               </entryLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Trench Rail" hidden="false" id="12c5-501a-4868-20eb">
+                  <costs>
+                    <cost name="Munitions" typeId="Points" value="10"/>
+                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Stable Firing Position" id="79e1-beb-3cbd-2334" hidden="false" type="rule" targetId="21b3-c7af-2fb8-5ab6"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="81a-aae2-871b-7436" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Pintle mounted Machine Gun" hidden="false" id="f9a1-8ef9-5371-9f0e">
+                  <entryLinks>
+                    <entryLink import="true" name="Reibel Heavy Machine Gun" hidden="false" id="c335-95a3-1b36-f0a7" type="selectionEntry" targetId="6255-e891-a7d0-cb6e">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c174-1716-ffb0-f485-min-min" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c174-1716-ffb0-f485-min-max" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3843-6eab-bfbc-8246" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Sponsons" hidden="false" id="dc95-ddbe-bb5d-0b85">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8397-e1e9-e35c-f287" includeChildSelections="false"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Weapon Options" id="1a18-ba1d-6058-b94c" hidden="false" defaultSelectionEntryId="babe-c8fc-55b1-cfee">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="576a-c46b-65f-936c-min" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="576a-c46b-65f-936c-max" includeChildSelections="false"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Canon à Plasma Sponsons" hidden="false" id="e3eb-861f-39f-420f">
+                          <entryLinks>
+                            <entryLink import="true" name="Canon à Plasma" hidden="false" id="475f-16b-74c1-c992" type="selectionEntry" targetId="b21d-42f7-9ce-6014">
+                              <constraints>
+                                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="911a-4ae3-661-ce88-min"/>
+                                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="911a-4ae3-661-ce88-max"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2619-2d61-11ee-702c" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Flamethrower Sponsons" hidden="false" id="2e91-377-de86-8f66">
+                          <entryLinks>
+                            <entryLink import="true" name="M33 Lance-Flammes" hidden="false" id="d07d-82fc-8e0-c1ea" type="selectionEntry" targetId="2b69-ad00-8d27-75a4">
+                              <constraints>
+                                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="609-f6f1-f828-37ca"/>
+                                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="69e3-7766-a284-4815"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84de-7aa6-72ab-1245" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Canon à Chaleur Sponsons" hidden="false" id="babe-c8fc-55b1-cfee">
+                          <entryLinks>
+                            <entryLink import="true" name="Canon à Chaleur" hidden="false" id="1440-ae4d-8eac-8c00" type="selectionEntry" targetId="7fcc-2bdf-e932-b1fc">
+                              <constraints>
+                                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="67b1-e4da-a20a-3738"/>
+                                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1ebd-1e1e-e0cc-ab2a"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5b73-3e06-8906-72f9" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Automatic Grenade Launcher Sponsons" hidden="false" id="a16e-5b5c-8e0b-6e72">
+                          <entryLinks>
+                            <entryLink import="true" name="Automatic Grenade Launcher" hidden="false" id="ff8c-a45a-7991-5056" type="selectionEntry" targetId="77db-73a-f45e-b17d">
+                              <constraints>
+                                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="2438-668a-f4f-52b"/>
+                                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="870d-c59c-2b-e249"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f74-c19f-7741-61ee" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+              </selectionEntries>
             </entryLink>
           </entryLinks>
         </selectionEntry>
@@ -2018,41 +2143,6 @@
           <infoLinks>
             <infoLink name="Armor Actions" id="d34e-b4d6-c833-bed2" hidden="false" type="profile" targetId="ed5a-9492-6407-a9f1"/>
           </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Turret Weapon" id="5b9e-b30c-c878-55b9" hidden="false" collective="false" import="true" defaultSelectionEntryId="e177-ffa8-a57e-bfce">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b3d6-b1e2-7e38-643c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b6e-e1c2-5ec8-a5b3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="M15 Heavy Flamethrower" hidden="false" id="e177-ffa8-a57e-bfce" collective="false" targetId="9e17-77aa-d3d1-1047" type="selectionEntry"/>
-                <entryLink import="true" name="57mm Battle Cannon" hidden="false" id="857d-1166-9087-413b" collective="false" targetId="c504-265c-5fc1-a625" type="selectionEntry"/>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Bow Gun" id="35fd-8d5a-aebe-c84a" hidden="false" collective="false" import="true" defaultSelectionEntryId="eb26-aaaf-09cf-07b3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="793a-72bc-e863-936f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e661-1aab-b778-4197" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Automatic Grenade Launcher" hidden="false" id="f553-8409-39b6-912f" collective="false" targetId="77db-73a-f45e-b17d" type="selectionEntry"/>
-                <entryLink import="true" name="M12 Light Energy Cannon" hidden="false" id="eb26-aaaf-09cf-07b3" collective="false" targetId="57cd-2553-c9a0-e6d0" type="selectionEntry">
-                  <costs>
-                    <cost name="Pts" typeId="Points" value="5"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Pintle Mount" id="b9cd-2963-4b54-229a" hidden="false" collective="false" import="true" defaultSelectionEntryId="d65f-a88a-f332-f92d">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4b4-6547-a384-23ed" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="M1931 Energy Machine Gun" hidden="false" id="0e6c-3543-10ea-c99d" collective="false" targetId="47bb-0a8a-8fc0-fcf8" type="selectionEntry"/>
-                <entryLink import="true" name="M2 Heavy Machine Gun" hidden="false" id="ab55-7626-e13b-8a2e" collective="false" targetId="b3fc-227f-a675-2aff" type="selectionEntry"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
           <costs>
             <cost name="Munitions" typeId="Points" value="130"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
@@ -2069,8 +2159,69 @@
               <entryLinks>
                 <entryLink import="true" name="Overtuned" hidden="false" id="5f81-5d1e-db06-2bf3" type="selectionEntry" targetId="2065-730f-51ef-3021"/>
               </entryLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Pintle Mounted Machine Gun" hidden="false" id="345d-2df0-ae8e-3443">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Weapon Options" id="b9cd-2963-4b54-229a" hidden="false" collective="false" import="true" defaultSelectionEntryId="0e6c-3543-10ea-c99d">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e4b4-6547-a384-23ed-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4b4-6547-a384-23ed-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink import="true" name="M1931 Energy Machine Gun" hidden="false" id="0e6c-3543-10ea-c99d" collective="false" targetId="47bb-0a8a-8fc0-fcf8" type="selectionEntry"/>
+                        <entryLink import="true" name="M2 Heavy Machine Gun" hidden="false" id="ab55-7626-e13b-8a2e" collective="false" targetId="b3fc-227f-a675-2aff" type="selectionEntry"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f77-99eb-7d93-751a" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
             </entryLink>
           </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Turret" hidden="false" id="70f8-33e2-5bbf-8e9b">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Turret Weapon" id="5b9e-b30c-c878-55b9" hidden="false" collective="false" import="true" defaultSelectionEntryId="e177-ffa8-a57e-bfce">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="258a-ca7b-951b-616e-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="258a-ca7b-951b-616e-max" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="M15 Heavy Flamethrower" hidden="false" id="e177-ffa8-a57e-bfce" collective="false" targetId="9e17-77aa-d3d1-1047" type="selectionEntry"/>
+                    <entryLink import="true" name="57mm Battle Cannon" hidden="false" id="857d-1166-9087-413b" collective="false" targetId="c504-265c-5fc1-a625" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c653-6b86-28a7-262a-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c653-6b86-28a7-262a-max" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bow Gun" hidden="false" id="9836-ab4f-cc11-0976">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon Options" id="35fd-8d5a-aebe-c84a" hidden="false" collective="false" import="true" defaultSelectionEntryId="eb26-aaaf-09cf-07b3">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="793a-72bc-e863-936f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e661-1aab-b778-4197" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Automatic Grenade Launcher" hidden="false" id="f553-8409-39b6-912f" collective="false" targetId="77db-73a-f45e-b17d" type="selectionEntry"/>
+                    <entryLink import="true" name="M12 Light Energy Cannon" hidden="false" id="eb26-aaaf-09cf-07b3" collective="false" targetId="57cd-2553-c9a0-e6d0" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="Points" value="5"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c452-99cd-ac13-4eed-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c452-99cd-ac13-4eed-max" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -2539,7 +2690,7 @@
             <profile name="Recon Commander" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="7661-02cf-cc71-58f0">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Recon Commander</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">NFR, (CORE) Recon, Command, Mounted, Cavalry</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">NFR, (CORE) Recon, Command, Mounted</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
               </characteristics>
             </profile>
@@ -2696,7 +2847,7 @@
             <profile name="Infantry Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="5654-84a9-65b2-d482">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Infantry Officer</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">NFR, (CORE) Infantry, (AUX) Recon, Support, Command, Character, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">NFR, (CORE) Infantry, Command, Character</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
               </characteristics>
             </profile>
@@ -2827,7 +2978,7 @@
             <profile name="Colonel Charles De Gaulle" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="2c14-d3a1-3fb1-38d4">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Colonel Charles De Gaulle</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">NFR, (CORE) Armor, (AUX) Infantry, Command, Mounted, Hero</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">NFR, (CORE) Armor, Command, Mounted, Hero</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
               </characteristics>
             </profile>
@@ -2882,6 +3033,104 @@
             </profile>
           </profiles>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Support Officer (On Foot)" hidden="false" id="f7a3-1b59-618b-5849">
+          <entryLinks>
+            <entryLink import="true" name="Officer Seniority" hidden="false" id="85de-d55c-5b3f-fdaa" type="selectionEntry" targetId="5354-e9b5-1b87-4595">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6030-a5bf-9346-802b" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ddcc-87cc-907f-0037" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="CKF Sword" hidden="false" id="f3a4-2f32-2cf8-8252" collective="false" targetId="6bda-666f-54ca-bd29" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2fa8-c996-c940-32ac" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="98bd-251b-aa76-1b53" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Nominate Field Commander" hidden="false" id="e34e-029c-fd2c-a2eb" type="selectionEntry" targetId="a8f2-8cd0-efc0-4a1b"/>
+            <entryLink import="true" name="Officer Upgrades" hidden="false" id="8885-3081-487f-f8bf" type="selectionEntryGroup" targetId="f47a-1969-42c7-e147"/>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Designated Leader" id="64ba-8740-f939-cbb5" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+            <infoLink name="Infantry Officer Actions" id="c497-a40d-2712-0af1" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
+          </infoLinks>
+          <costs>
+            <cost name="Munitions" typeId="Points" value="9"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+            <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Support Officer" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="b8ac-b118-de08-5a18">
+              <characteristics>
+                <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
+                <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">3</characteristic>
+                <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Support Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="3966-4700-0c27-ad94">
+              <characteristics>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Infantry Officer</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">NFR, (CORE) Infantry, Command, Character</characteristic>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Firearms" id="8f66-2423-4dc0-9a5a" hidden="false" defaultSelectionEntryId="d756-63a1-1db8-c505">
+              <entryLinks>
+                <entryLink import="true" name="Model 1921 Energy Pistol" hidden="false" id="d756-63a1-1db8-c505" collective="false" targetId="da28-df59-a553-5d18" type="selectionEntry"/>
+                <entryLink import="true" name="Modele 1930 Plasma Pistol" hidden="false" id="7c33-e63e-3ccf-3189" type="selectionEntry" targetId="65af-1ac2-c789-e963"/>
+                <entryLink import="true" name="MAS 35 Inspirateur" hidden="false" id="0a25-b474-be07-c3c7" type="selectionEntry" targetId="59cb-4b56-9cbf-d25a"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="abf9-4b5d-3683-b401" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04d2-098a-b674-5dd3" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Support Commander (Mounted)" hidden="false" id="6c04-c547-57e0-915d">
+          <entryLinks>
+            <entryLink import="true" name="Officer Seniority" hidden="false" id="1198-5b4b-27ba-af21" type="selectionEntry" targetId="5354-e9b5-1b87-4595">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fce1-d0fd-a456-39de" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cca3-dcb2-a1e7-3831" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Nominate Field Commander" hidden="false" id="4822-064b-8af9-328a" type="selectionEntry" targetId="a8f2-8cd0-efc0-4a1b"/>
+            <entryLink import="true" name="Officer Upgrades" hidden="false" id="e9d0-39fd-4938-3e19" type="selectionEntryGroup" targetId="f47a-1969-42c7-e147">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="École de Cavalerie Graduate" hidden="false" id="4fc1-e642-e9b8-b79e">
+                  <costs>
+                    <cost name="Munitions" typeId="Points" value="15"/>
+                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Critical Shot" id="59e9-31e0-11ac-ee07" hidden="false" type="rule" targetId="a53f-6c4f-8514-7703"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6dc-8610-f462-e635" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </entryLink>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Designated Leader" id="bf16-9984-41de-c60c" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Support Commander" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="1d2c-dd8d-710e-4d86">
+              <characteristics>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Support Commander</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">NFR, (CORE) Support, Command, Mounted</characteristic>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup name="Infantry" id="f268-97a5-575d-5727" hidden="false">
@@ -2902,14 +3151,14 @@
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad Members" id="7b35-a380-af76-a0f7" hidden="false" collective="false" import="true" defaultSelectionEntryId="3a32-d9a5-eaa4-fee2">
               <constraints>
-                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="b8f3-4e3d-2ddd-aa58" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="7a43-2fc4-a958-3a86" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="b8f3-4e3d-2ddd-aa58-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="b8f3-4e3d-2ddd-aa58-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry type="model" import="true" name="Sergent" hidden="false" id="10c1-abd0-b0e2-c037" collective="false">
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a8d-4f96-7349-5d00" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="078d-d379-164d-b427" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6a8d-4f96-7349-5d00-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a8d-4f96-7349-5d00-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
                   <profiles>
                     <profile name="Sergent" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="eb83-6384-fa1e-c5dc">
@@ -2936,15 +3185,28 @@
                     <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
                   </costs>
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="Firearms" id="556d-7189-d5e7-10d9" hidden="false" defaultSelectionEntryId="9755-3f55-7f7c-2bb3">
+                    <selectionEntryGroup name="Sidearm" id="556d-7189-d5e7-10d9" hidden="false" defaultSelectionEntryId="9755-3f55-7f7c-2bb3">
                       <entryLinks>
                         <entryLink import="true" name="Model 1921 Energy Pistol" hidden="false" id="9755-3f55-7f7c-2bb3" collective="false" targetId="da28-df59-a553-5d18" type="selectionEntry"/>
                         <entryLink import="true" name="Modele 1930 Plasma Pistol" hidden="false" id="26f7-8227-2e1b-ab3f" type="selectionEntry" targetId="65af-1ac2-c789-e963"/>
-                        <entryLink import="true" name="MAS 35 Inspirateur" hidden="false" id="1f1d-dd01-a21f-9654" type="selectionEntry" targetId="59cb-4b56-9cbf-d25a"/>
                       </entryLinks>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b538-9101-a1d1-d59-min" includeChildSelections="false"/>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b538-9101-a1d1-d59-max" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Primary Weapon" id="37ae-a82b-889c-6a42" hidden="false" defaultSelectionEntryId="00c6-0e17-6a78-e5ea">
+                      <entryLinks>
+                        <entryLink import="true" name="MAS 37 Energy Rifle" hidden="false" id="00c6-0e17-6a78-e5ea" collective="false" targetId="acb7-0598-9e75-af49" type="selectionEntry">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c55-9648-3a97-ac39" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                          </constraints>
+                        </entryLink>
+                        <entryLink import="true" name="MAS 35 Inspirateur" hidden="false" id="1f1d-dd01-a21f-9654" type="selectionEntry" targetId="59cb-4b56-9cbf-d25a"/>
+                      </entryLinks>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="879e-9c33-d1e3-67fa-min" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="879e-9c33-d1e3-67fa-max" includeChildSelections="false"/>
                       </constraints>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
