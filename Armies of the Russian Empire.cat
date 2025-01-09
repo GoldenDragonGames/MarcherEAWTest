@@ -93,7 +93,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Armor Actions" id="ed56-1d75-eb7e-9e50" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
+        <infoLink name="Armor Vehicle Actions" id="ed56-1d75-eb7e-9e50" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Pintle Mount" hidden="false" id="3a03-4678-5dfa-9ed2" collective="false">
@@ -306,7 +306,6 @@
       </rules>
       <categoryLinks>
         <categoryLink targetId="7950-f6f1-38c2-f2dd" id="13e6-7d3c-d1ac-f4c6" primary="true" name="CORE Armor"/>
-        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="7220-d8f6-4570-6dae" primary="false" name="Unit"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Russian Guards Officer" hidden="true" id="9e7a-7b8b-6c58-3560" collective="false">
@@ -328,7 +327,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Infantry Officer Actions" id="5fbe-e4ab-c2a0-cb41" hidden="false" targetId="237b-8d1e-014e-539d" type="profile"/>
+        <infoLink name="Command Actions" id="5fbe-e4ab-c2a0-cb41" hidden="false" targetId="237b-8d1e-014e-539d" type="profile"/>
         <infoLink name="Designated Leader" id="e655-1eb7-6519-e929" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
       </infoLinks>
       <costs>
@@ -444,7 +443,7 @@
             <selectionEntry type="upgrade" import="true" name="Shotgun Revolver" hidden="false" id="bdc5-cac1-bf0c-1a3e">
               <infoLinks>
                 <infoLink name="Shotgun Revolver" id="8925-ec61-dc63-c711" hidden="false" type="profile" targetId="ba47-c6ab-9dea-4c8f"/>
-                <infoLink name="Sidearm" id="9c24-4bed-bcdf-6aaa" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
+                <infoLink name="Point Blank" id="9c24-4bed-bcdf-6aaa" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
                 <infoLink name="Scattershot" id="0150-4999-e5a0-aa42" hidden="false" type="rule" targetId="20e-bfac-4fc9-44b9"/>
               </infoLinks>
               <costs>
@@ -635,7 +634,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Infantry Actions" id="8a37-38f4-a531-e09f" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
+        <infoLink name="Infantry Troop Actions" id="8a37-38f4-a531-e09f" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad Members" id="2b45-43ce-7c0d-da0a" hidden="false" collective="false" import="true" defaultSelectionEntryId="c725-33b6-8f92-e2c0">
@@ -689,7 +688,7 @@
                     <selectionEntry type="upgrade" import="true" name="Shotgun Revolver" hidden="false" id="2202-98d4-bb57-bf65">
                       <infoLinks>
                         <infoLink name="Shotgun Revolver" id="5065-2f82-4324-cd7c" hidden="false" type="profile" targetId="ba47-c6ab-9dea-4c8f"/>
-                        <infoLink name="Sidearm" id="09d4-cbcd-a2b9-39d0" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
+                        <infoLink name="Point Blank" id="09d4-cbcd-a2b9-39d0" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
                         <infoLink name="Scattershot" id="1eac-d771-a935-9d31" hidden="false" type="rule" targetId="20e-bfac-4fc9-44b9"/>
                       </infoLinks>
                       <costs>
@@ -1034,13 +1033,13 @@
     <selectionEntry type="upgrade" import="true" name="Nagant Pistol" hidden="false" id="d779-79c6-140c-22bd" collective="true">
       <infoLinks>
         <infoLink name="Nagant Pistol" id="6d93-5592-1c4b-84ec" hidden="false" type="profile" targetId="fbf0-f81c-b8de-7135"/>
-        <infoLink name="Sidearm" id="5c5f-c4db-bbd9-1560" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
+        <infoLink name="Point Blank" id="5c5f-c4db-bbd9-1560" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Nagant Plasma Pistol" hidden="false" id="0a66-62b1-69b2-b273" collective="true">
       <infoLinks>
         <infoLink name="Plasma Pistol" id="841c-0559-5da2-0e1b" hidden="false" type="profile" targetId="bbeb-5ddf-ad71-86f2"/>
-        <infoLink name="Sidearm" id="305c-c4e4-d17c-dfc5" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
+        <infoLink name="Point Blank" id="305c-c4e4-d17c-dfc5" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
         <infoLink name="Corporate Slag" id="49e5-11c6-1112-7081" hidden="false" type="rule" targetId="1e9a-7694-9079-6b32"/>
       </infoLinks>
       <costs>
@@ -1067,7 +1066,7 @@
       </rules>
       <infoLinks>
         <infoLink name="Designated Leader" id="4b1a-0047-091c-27e2" hidden="false" targetId="8e52-a616-aab9-73b8" type="rule"/>
-        <infoLink name="Infantry Officer Actions" id="f53f-1711-bd0c-06f2" hidden="false" targetId="237b-8d1e-014e-539d" type="profile"/>
+        <infoLink name="Command Actions" id="f53f-1711-bd0c-06f2" hidden="false" targetId="237b-8d1e-014e-539d" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Pravoslavnye Kapellany" id="0123-47cb-6883-67ea" hidden="false" collective="true" import="true">
@@ -1109,7 +1108,7 @@
                     <selectionEntry type="upgrade" import="true" name="Shotgun Revolver" hidden="false" id="0e73-752f-4437-9e4f" collective="true">
                       <infoLinks>
                         <infoLink name="Shotgun Revolver" id="ea01-9bf6-8f15-1d69" hidden="false" type="profile" targetId="ba47-c6ab-9dea-4c8f"/>
-                        <infoLink name="Sidearm" id="4c3b-8c7a-0ae6-7708" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
+                        <infoLink name="Point Blank" id="4c3b-8c7a-0ae6-7708" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
                         <infoLink name="Scattershot" id="bd8c-d517-d404-0bec" hidden="false" type="rule" targetId="20e-bfac-4fc9-44b9"/>
                       </infoLinks>
                       <costs>
@@ -1185,7 +1184,7 @@
     <selectionEntry type="upgrade" import="true" name="Shotgun Revolver" hidden="false" id="0a03-0c2e-123d-7fc6" collective="true">
       <infoLinks>
         <infoLink name="Shotgun Revolver" id="88ac-c05c-22ab-606c" hidden="false" type="profile" targetId="ba47-c6ab-9dea-4c8f"/>
-        <infoLink name="Sidearm" id="c8ac-8ded-9120-c712" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
+        <infoLink name="Point Blank" id="c8ac-8ded-9120-c712" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
         <infoLink name="Scattershot" id="d009-12ed-f38c-7f81" hidden="false" type="rule" targetId="20e-bfac-4fc9-44b9"/>
       </infoLinks>
       <costs>
@@ -1228,7 +1227,7 @@
       </rules>
       <infoLinks>
         <infoLink name="Designated Leader" id="8e65-5b1e-a5a7-7158" hidden="false" targetId="8e52-a616-aab9-73b8" type="rule"/>
-        <infoLink name="Infantry Officer Actions" id="b545-9631-eca6-7cf1" hidden="false" targetId="237b-8d1e-014e-539d" type="profile"/>
+        <infoLink name="Command Actions" id="b545-9631-eca6-7cf1" hidden="false" targetId="237b-8d1e-014e-539d" type="profile"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Corporate Officers" id="cca7-8be6-a367-5e60" hidden="false" collective="true" import="true">
@@ -1271,7 +1270,7 @@
                     <selectionEntry type="upgrade" import="true" name="Shotgun Revolver" hidden="false" id="493b-e794-0a8d-f456" collective="true">
                       <infoLinks>
                         <infoLink name="Shotgun Revolver" id="e347-c869-9824-263a" hidden="false" type="profile" targetId="ba47-c6ab-9dea-4c8f"/>
-                        <infoLink name="Sidearm" id="9266-c216-3e59-5b01" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
+                        <infoLink name="Point Blank" id="9266-c216-3e59-5b01" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
                         <infoLink name="Scattershot" id="b75b-3068-7496-40b5" hidden="false" type="rule" targetId="20e-bfac-4fc9-44b9"/>
                       </infoLinks>
                       <costs>
@@ -1302,7 +1301,7 @@
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="force" childId="1e39-16b1-cedd-2cc6" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="6dc4-41a4-7144-d10c" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -1618,7 +1617,7 @@
       </profiles>
       <infoLinks>
         <infoLink name="Intel Gathering" id="5ec3-dbe9-04c8-df4b" hidden="false" type="rule" targetId="dc7a-f7c9-a54a-9cbc"/>
-        <infoLink name="Infantry Officer Actions" id="a73a-7270-db6c-9fac" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
+        <infoLink name="Command Actions" id="a73a-7270-db6c-9fac" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
         <infoLink name="Independent Hero" id="b55a-3852-2aa4-c880" hidden="false" type="rule" targetId="ba04-cce8-3db9-31d4"/>
         <infoLink name="Forward Positions" id="0f5a-27df-b986-983e" hidden="false" type="rule" targetId="239f-191a-232-4894"/>
       </infoLinks>
@@ -1965,51 +1964,42 @@
   <entryLinks>
     <entryLink import="true" name="Russian Guards Infantry Squad" hidden="false" id="ff45-0e43-0638-fd49" type="selectionEntry" targetId="b18e-b628-8989-5914">
       <categoryLinks>
-        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="4b63-a17a-1c84-fb7b" primary="false" name="Unit"/>
         <categoryLink targetId="26a5-76cb-5d13-b4a7" id="02c8-3088-7c0b-6db3" primary="true" name="CORE Infantry"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Russian Guards Officer" hidden="false" id="8b1a-04e3-54ed-38aa" type="selectionEntry" targetId="9e7a-7b8b-6c58-3560">
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="26e4-4a63-6d92-582d" primary="true" name="Command"/>
-        <categoryLink targetId="7165-cf57-cd9c-93da" id="307c-4f3e-8c0f-d066" primary="false" name="Character"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="T-30 &quot;Ul. Dmitry&quot; Battle Tank" hidden="false" id="2e4d-60b6-51fe-8ead" type="selectionEntry" targetId="6ccd-c864-1e7e-48af">
       <categoryLinks>
         <categoryLink targetId="7950-f6f1-38c2-f2dd" id="4eca-3c63-2d7d-51a9" primary="true" name="CORE Armor"/>
-        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="6b80-080e-39a9-f4d3" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Russian Armor Officer" hidden="false" id="8605-40fc-5115-09b6" type="selectionEntry" targetId="079e-275a-b13b-fbe0">
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="5406-cc5f-5a29-8afc" primary="true" name="Command"/>
-        <categoryLink targetId="7165-cf57-cd9c-93da" id="010b-bbd4-dc4d-dd43" primary="false" name="Character"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Pravoslavny Kapellan Section" hidden="false" id="8e2c-8ea5-ca2a-287a" type="selectionEntry" targetId="c0e3-f487-cac0-d840">
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="244c-760f-012e-2dae" primary="true" name="Command"/>
-        <categoryLink targetId="7165-cf57-cd9c-93da" id="ca76-7da1-255f-e1ce" primary="false" name="Character"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Corporate Officers" hidden="false" id="9282-eb4e-b7ae-4a14" type="selectionEntry" targetId="e180-b5a4-ee62-a2fa">
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="c908-80f1-f3a4-c54d" primary="true" name="Command"/>
-        <categoryLink targetId="7165-cf57-cd9c-93da" id="6509-d52e-e6fc-f1af" primary="false" name="Character"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Cossack Cavalry Squad" hidden="false" id="f2bc-a75e-56aa-bfb9" type="selectionEntry" targetId="acc1-1d0d-0c30-90b6">
       <categoryLinks>
-        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="8946-04d4-a6b9-cd5e" primary="false" name="Unit"/>
         <categoryLink targetId="54db-5889-a382-77cb" id="5e10-4b7d-8cc2-0a69" primary="true" name="CORE Recon"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Lieutenant Lyudmila Pavlichenko" hidden="false" id="63e8-7d59-5073-6490" type="selectionEntry" targetId="f4fb-d2ad-c88e-af98">
       <categoryLinks>
-        <categoryLink targetId="7165-cf57-cd9c-93da" id="62c5-6cac-bc10-b4d0" primary="false" name="Character"/>
         <categoryLink targetId="33a5-8b7e-49bb-c30d" id="3145-b499-324c-6ec5" primary="true" name="Heroes"/>
-        <categoryLink targetId="1e39-16b1-cedd-2cc6" id="1635-7bda-b01e-60d3" primary="false" name="Unit"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
