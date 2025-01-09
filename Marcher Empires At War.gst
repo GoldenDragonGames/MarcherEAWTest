@@ -1643,5 +1643,5 @@ are in your army only one counter is ticked down at a time.</description>
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <readme>Check out our stuff through http://linktr.ee/goldendragongames</readme>
+  <readme>Check out our stuff through http://linktr.ee/goldendragongames!</readme>
 </gameSystem>
