@@ -18,9 +18,10 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Munitions" typeId="Points" value="40"/>
+                <cost name="Munitions" typeId="Points" value="30"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="C2 - Rikugun-Tai-i" hidden="false" id="4e37-da7f-47de-5f96" collective="false">
@@ -32,9 +33,10 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Munitions" typeId="Points" value="80"/>
+                <cost name="Munitions" typeId="Points" value="60"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="C3 - Rikugun-Shōsa" hidden="false" id="f08b-2515-dc-80e9" collective="false">
@@ -46,9 +48,10 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Munitions" typeId="Points" value="120"/>
+                <cost name="Munitions" typeId="Points" value="90"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="C4 - Rikugun-Taisa" hidden="false" id="721a-bec6-dc06-66f8" collective="false">
@@ -60,9 +63,10 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Munitions" typeId="Points" value="160"/>
+                <cost name="Munitions" typeId="Points" value="120"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -733,9 +737,10 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Munitions" typeId="Points" value="40"/>
+                <cost name="Munitions" typeId="Points" value="30"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="C2 - Kaigun-Tai-i" hidden="false" id="6269-f879-e7dc-ecb1" collective="false">
@@ -747,9 +752,10 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Munitions" typeId="Points" value="80"/>
+                <cost name="Munitions" typeId="Points" value="60"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="C3 - Kaigun-Chūsa" hidden="false" id="b8b9-0154-8d74-db1d" collective="false">
@@ -761,9 +767,10 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Munitions" typeId="Points" value="120"/>
+                <cost name="Munitions" typeId="Points" value="90"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="C4 - Kaigun-Taisa" hidden="false" id="3065-1b35-bbd8-d783" collective="false">
@@ -775,9 +782,10 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Munitions" typeId="Points" value="160"/>
+                <cost name="Munitions" typeId="Points" value="120"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3824,7 +3832,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Support Engineer Actions" id="9936-c9f6-db99-f0b0" hidden="false" targetId="335b-34df-c974-9c3b" type="profile"/>
+            <infoLink name="Support Engineer Troop Actions" id="9936-c9f6-db99-f0b0" hidden="false" targetId="335b-34df-c974-9c3b" type="profile"/>
             <infoLink name="Forward Positions" id="091c-1f67-7cf2-edf7" hidden="false" type="rule" targetId="239f-191a-232-4894"/>
             <infoLink name="Battlefield Preparation" id="dc0e-64e4-991d-fda8" hidden="false" type="rule" targetId="ea06-55d8-62e2-4f31"/>
           </infoLinks>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="969e-2588-ed56-37c3" name="Marcher: Empires At War v1.5.2" revision="1" battleScribeVersion="2.03" authorName="Golden Dragon Games Team" authorContact="goldendragontabletopgames@gmail.com" authorUrl="GoldenDragonGames.Net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false">
+<gameSystem id="969e-2588-ed56-37c3" name="Marcher: Empires At War v1.6.0" revision="1" battleScribeVersion="2.03" authorName="Golden Dragon Games Team" authorContact="goldendragontabletopgames@gmail.com" authorUrl="GoldenDragonGames.Net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false">
   <costTypes>
     <costType id="Points" name="Munitions" defaultCostLimit="2000" hidden="false"/>
     <costType id="284c-5503-e866-a2e0" name="Supply" defaultCostLimit="-1" hidden="false"/>
@@ -1216,8 +1216,7 @@ gain cover for being within this terrain feature
       <description>Blast tokens for this weapon are placed when this weapon is selected to attack rather than in the command phase.</description>
     </rule>
     <rule name="Disintegration Beam" id="a397-8716-ab3d-2773" hidden="false">
-      <description>For each successful Hit Check made by this Weapon, score an additional Hit and increase this Weapon&apos;s AP Profile by 1 for the rest of this Attack.
-</description>
+      <description>For each successful Hit Check made by this Weapon, score an additional Hit and increase this Weapon&apos;s AP Profile by 1 for the rest of this Attack.</description>
     </rule>
     <rule name="Radio" id="97d3-d9ed-af71-d4d6" hidden="false">
       <description>This Unit may send or receive orders to or from any other units with the Radio Special Rule.</description>
@@ -1324,6 +1323,18 @@ are in your army only one counter is ticked down at a time.</description>
     </rule>
     <rule name="Trailer" id="7a67-4ab9-90c2-ed3d" hidden="false">
       <description>This Unit does not activate as normal and may not perform actions. It may be detached from a Unit towing it on that Unit&apos;s turn as a free action.</description>
+    </rule>
+    <rule name="On Assignment" id="e2b8-2d66-35a1-c0c3" hidden="false">
+      <description>This Unit always counts as having been Ordered.</description>
+    </rule>
+    <rule name="Bulwark" id="4946-e1a2-4529-60dc" hidden="false">
+      <description>Attacks made against this Unit lower their damage profile by X to a minimum of 1.</description>
+    </rule>
+    <rule name="Protector" id="0791-8292-e0cd-26c1" hidden="false">
+      <description>Damage dealt to Friendly Troop or Cavalry Units within 6&quot; of this Unit may instead be applied to this Unit&apos;s Models.</description>
+    </rule>
+    <rule name="Rear Turret Mount" id="aba1-049d-c59a-7c9e" hidden="false">
+      <description>Weapons Equipped in a Rear Turret Mount may select targets for Attacks independently of other Weapons.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

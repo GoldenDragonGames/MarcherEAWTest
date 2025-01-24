@@ -924,9 +924,10 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Munitions" typeId="Points" value="40"/>
+                <cost name="Munitions" typeId="Points" value="30"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5aef-b756-3eec-4a8f" name="C2 - Captain" hidden="false" collective="false" import="true" type="upgrade">
@@ -938,9 +939,10 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Munitions" typeId="Points" value="80"/>
+                <cost name="Munitions" typeId="Points" value="60"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b5cb-0386-1728-6cf7" name="C3 - Major" hidden="false" collective="false" import="true" type="upgrade">
@@ -952,9 +954,10 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Munitions" typeId="Points" value="120"/>
+                <cost name="Munitions" typeId="Points" value="90"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ea08-e8e3-eeba-4ab1" name="C4 - Colonel" hidden="false" collective="false" import="true" type="upgrade">
@@ -966,9 +969,10 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Munitions" typeId="Points" value="160"/>
+                <cost name="Munitions" typeId="Points" value="120"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>

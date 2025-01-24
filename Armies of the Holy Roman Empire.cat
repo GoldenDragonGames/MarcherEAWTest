@@ -782,9 +782,10 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Munitions" typeId="Points" value="40"/>
+                <cost name="Munitions" typeId="Points" value="30"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fa5d-53f8-cc75-e9ca" name="C2 - Hauptmann" hidden="false" collective="false" import="true" type="upgrade">
@@ -796,9 +797,10 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Munitions" typeId="Points" value="80"/>
+                <cost name="Munitions" typeId="Points" value="60"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="57fd-e9a3-494a-ffd0" name="C3 - Major" hidden="false" collective="false" import="true" type="upgrade">
@@ -810,9 +812,10 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Munitions" typeId="Points" value="120"/>
+                <cost name="Munitions" typeId="Points" value="90"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4e97-8d46-a09e-d1db" name="C4 - Oberst" hidden="false" collective="false" import="true" type="upgrade">
@@ -824,9 +827,10 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Munitions" typeId="Points" value="160"/>
+                <cost name="Munitions" typeId="Points" value="120"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6499,7 +6503,7 @@
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Ritter Class Sturmzeppelin</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Zeppelin, Flying, Transport, Vehicle</characteristic>
-                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">300x200mm oval</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7121,7 +7125,7 @@
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Graf Class Panzerzeppelin</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Zeppelin, Flying, Vehicle</characteristic>
-                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">300mm oval</characteristic>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">300x200mm oval</characteristic>
               </characteristics>
             </profile>
             <profile name="Graf Class Panzerzeppelin" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="fc5d-ac90-9949-d482">
@@ -7575,6 +7579,7 @@
               </modifiers>
             </infoLink>
             <infoLink name="Elite Infantry" id="6bd9-e1ca-e331-6110" hidden="false" type="rule" targetId="12fb-381c-5514-6d51"/>
+            <infoLink name="On Assignment" id="a4ca-2710-55e0-6ea4" hidden="false" type="rule" targetId="e2b8-2d66-35a1-c0c3"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad Members" id="e304-2555-5a6a-4434" hidden="false" collective="false" import="true">
@@ -7718,9 +7723,6 @@
             <rule name="Europas Bollwerk!" id="5135-9c38-b5e5-fe5e" hidden="false">
               <description>Attacks made against this Unit by Weapons with 3AP or lower reduce their Damage profile by 1, to a minimum of 1.</description>
             </rule>
-            <rule name="Independently Minded" id="b2cc-2015-6271-e8e9" hidden="false">
-              <description>This unit always counts as having been ordered.</description>
-            </rule>
           </rules>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Knecht Battlesuit Squad" hidden="false" id="72da-15ed-1a55-d98a" collective="false">
@@ -7739,6 +7741,11 @@
             <infoLink name="Shielded" id="0eea-0175-339b-a2d2" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
               <modifiers>
                 <modifier type="append" value="4" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Bulwark" id="8c04-c6f5-c475-87ca" hidden="false" type="rule" targetId="4946-e1a2-4529-60dc">
+              <modifiers>
+                <modifier type="append" value="1" field="name"/>
               </modifiers>
             </infoLink>
           </infoLinks>
@@ -7891,11 +7898,6 @@
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
-          <rules>
-            <rule name="Lower Nobility" id="ba6e-bf2b-261b-146a" hidden="false">
-              <description>Attacks made against this unit have -1 to their damage (damage can not be reduced below 1).</description>
-            </rule>
-          </rules>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="32M Hunyadi Armored Personnel Carrier" hidden="false" id="5030-3495-b40b-fc19" collective="false">
           <profiles>

@@ -547,16 +547,18 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="Munitions" typeId="Points" value="160"/>
+                <cost name="Munitions" typeId="Points" value="120"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="C3 - Commandant" hidden="false" id="b3fa-f934-2b2d-dd83">
               <costs>
-                <cost name="Munitions" typeId="Points" value="120"/>
+                <cost name="Munitions" typeId="Points" value="90"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
               <infoLinks>
                 <infoLink name="Command" id="6307-fb80-1580-8601" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
@@ -568,9 +570,10 @@
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="C2 - Capitaine" hidden="false" id="2d21-fd28-9ba5-b8c5">
               <costs>
-                <cost name="Munitions" typeId="Points" value="80"/>
+                <cost name="Munitions" typeId="Points" value="60"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
               <infoLinks>
                 <infoLink name="Command" id="08ee-5f02-87c2-c897" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
@@ -582,9 +585,10 @@
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="C1 - Lieutenant" hidden="false" id="cc39-62d1-7fd1-2ee6">
               <costs>
-                <cost name="Munitions" typeId="Points" value="40"/>
+                <cost name="Munitions" typeId="Points" value="30"/>
                 <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
               <infoLinks>
                 <infoLink name="Command" id="586e-c565-6096-2b19" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
