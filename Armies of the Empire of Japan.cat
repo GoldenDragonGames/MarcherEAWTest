@@ -2580,7 +2580,6 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Towable" id="dd0f-8e16-25b7-0ad2" hidden="false" targetId="9e88-6c38-3a57-c010" type="rule"/>
             <infoLink name="Front Facing" id="b3e5-f083-96f8-6c28" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
             <infoLink name="Deployed Weapon" id="ffa6-ebac-fa7e-ca18" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
             <infoLink name="Artillery Carriage Actions" id="2c0a-1fd7-323e-4ee4" hidden="false" type="profile" targetId="8aaf-072f-5000-d2b9"/>

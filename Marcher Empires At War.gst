@@ -974,7 +974,7 @@
       <description>When an attack is made with this weapon, you may, instead of dealing damage, choose to move one enemy unit that this unit is engaged with 2&quot; in a direction of your choice.</description>
     </rule>
     <rule id="9e88-6c38-3a57-c010" name="Towable" hidden="false">
-      <description>This Unit may be deployed attached to a Unit with the &quot;Tow&quot; action.</description>
+      <description>This Unit may towed as if it were a Carriage Unit.</description>
     </rule>
     <rule id="a57a-9c2f-704e-9847" name="Front Facing" hidden="false">
       <description>This Unit may only select units that are in front of it to attack. It may make a 90 degree pivot for free whenever it activates.</description>

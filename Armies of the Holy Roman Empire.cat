@@ -4826,7 +4826,6 @@
           <infoLinks>
             <infoLink name="Deployed Weapon" id="50df-2dc7-7e06-971a" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
             <infoLink name="Front Facing" id="6c13-2fa5-2f8c-7323" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
-            <infoLink name="Towable" id="d757-87ad-3113-34ca" hidden="false" targetId="9e88-6c38-3a57-c010" type="rule"/>
             <infoLink name="Artillery Carriage Actions" id="6513-e0c5-32c5-e0cf" hidden="false" targetId="8aaf-072f-5000-d2b9" type="profile"/>
             <infoLink name="Cumbersome" id="0ca1-06d4-69c2-6855" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Dial In" id="4671-908b-42af-da42" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
@@ -5047,7 +5046,7 @@
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Zeppelinjägermeister</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Recon, Command, Character, Troop</characteristic>
-                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">32mm</characteristic>
               </characteristics>
             </profile>
           </profiles>

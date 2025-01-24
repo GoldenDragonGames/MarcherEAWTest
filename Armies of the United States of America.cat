@@ -1952,7 +1952,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Veteran NCO" hidden="false" id="33fe-eb6d-9e95-e663">
       <costs>
-        <cost name="Munitions" typeId="Points" value="30"/>
+        <cost name="Munitions" typeId="Points" value="25"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -2093,7 +2093,7 @@
       <description>This Unit ignores the requirements for Line of Sight and Range when performing the &quot;Direct Fire&quot; action.</description>
     </rule>
     <rule name="Veteran NCO" id="bc38-eb87-e51b-7c4c" hidden="false">
-      <description>During the Command Phase, this Unit orders itself.</description>
+      <description>During the Command Phase, if this Unit&apos;s original Leader Model has not been destroyed, this Unit orders itself.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -7421,7 +7421,6 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Towable" id="75ea-475b-fc80-7686" hidden="false" targetId="9e88-6c38-3a57-c010" type="rule"/>
             <infoLink name="Front Facing" id="b007-7341-c498-268c" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
             <infoLink name="Deployed Weapon" id="52cf-de3f-037a-0734" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
             <infoLink name="Support Carriage Actions" id="3916-4f80-b4c2-42da" hidden="false" type="profile" targetId="1761-68e7-b0e6-e086"/>
@@ -7473,7 +7472,6 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Towable" id="65ff-9067-99d9-66d2" hidden="false" targetId="9e88-6c38-3a57-c010" type="rule"/>
             <infoLink name="Front Facing" id="e7c7-d8eb-2586-4fd0" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
             <infoLink name="Deployed Weapon" id="57de-58a9-0206-e376" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
             <infoLink name="Support Carriage Actions" id="f8b2-4eec-ba87-f980" hidden="false" type="profile" targetId="1761-68e7-b0e6-e086"/>
