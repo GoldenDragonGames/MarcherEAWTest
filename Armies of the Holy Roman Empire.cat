@@ -45,7 +45,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="8320-4c92-7ed1-9fd8" name="Pioneer Squad" hidden="false" collective="false" import="true" targetId="cef1-6e63-8635-a423" type="selectionEntry">
+    <entryLink id="8320-4c92-7ed1-9fd8" name="Sturmpioneer Squad" hidden="false" collective="false" import="true" targetId="cef1-6e63-8635-a423" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="a74d-0d07-e5d9-0032" id="08df-60f3-6730-2e23" primary="false" name="AUX Infantry"/>
         <categoryLink targetId="7110-7fe8-80e2-5e81" id="ffb9-367e-334f-64f9" primary="true" name="CORE Support"/>
@@ -452,7 +452,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Knecht Officer" hidden="true" id="6670-7e8c-f845-b5ec" type="selectionEntry" targetId="73b3-51f6-6076-2dcd">
+    <entryLink import="true" name="Knecht Battlesuit Commander" hidden="true" id="6670-7e8c-f845-b5ec" type="selectionEntry" targetId="73b3-51f6-6076-2dcd">
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="3fa8-a47b-7dcc-e782" primary="true" name="Command"/>
         <categoryLink targetId="4ec9-47a4-5562-ea3b" id="499f-d9af-75e6-8446" primary="false" name="Battlesuit"/>
@@ -721,7 +721,7 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Pioneer Officer" hidden="true" id="808c-32ab-cf14-259b" type="selectionEntry" targetId="b6e5-f77f-a7fb-bb7f">
+    <entryLink import="true" name="Sturmpioneer Officer" hidden="true" id="808c-32ab-cf14-259b" type="selectionEntry" targetId="b6e5-f77f-a7fb-bb7f">
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="8d02-300f-efa9-a61b" primary="true" name="Command"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="be03-dd92-ce30-2df9" primary="false" name="HRE"/>
@@ -7549,6 +7549,8 @@
                 <modifier type="append" value="3" field="name"/>
               </modifiers>
             </infoLink>
+            <infoLink name="Hippocratic Oath" id="4059-0592-61b1-d8cc" hidden="false" type="rule" targetId="14f0-63cf-f0f4-79b4"/>
+            <infoLink name="Dishonorable Conduct" id="e559-0543-a827-d2e0" hidden="false" type="rule" targetId="bc57-9a28-d90d-c8b6"/>
           </infoLinks>
           <costs>
             <cost name="Munitions" typeId="Points" value="80"/>
@@ -7557,17 +7559,8 @@
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
           <rules>
-            <rule name="Dishonorable Conduct" id="f9e1-89db-f01d-e71b" hidden="false">
-              <description>If this Unit is destroyed, the Player who selected it as the target of an Attack loses 1 Victory Point. 
-
-
-(If this Unit is selected as the target unintentionally, such as due to the Cook Off Special Rule, no points are deducted)</description>
-            </rule>
             <rule name="Emergency Medicine" id="4e01-1bea-ee57-48d2" hidden="false">
               <description>As an action, select all Troop Units within 3&quot;. Each of those Units either restores all hitpoints lost by a model or revives a destroyed model, returning it to the Unit with 1 hitpoint remaining</description>
-            </rule>
-            <rule name="Hippocratic Oath" id="58d5-ae01-df87-d15c" hidden="false">
-              <description>This Unit may not take the Attack Action. This Unit may not Move into Engagement with another Unit.</description>
             </rule>
           </rules>
           <entryLinks>

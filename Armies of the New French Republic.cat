@@ -2901,9 +2901,10 @@
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="École de Cavalerie Graduate" hidden="false" id="6ebd-45b5-3212-d236">
                   <costs>
-                    <cost name="Munitions" typeId="Points" value="15"/>
+                    <cost name="Munitions" typeId="Points" value="20"/>
                     <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                     <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                    <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
                   </costs>
                   <infoLinks>
                     <infoLink name="Critical Shot" id="a53b-5949-a414-e53c" hidden="false" type="rule" targetId="a53f-6c4f-8514-7703"/>
@@ -2911,6 +2912,11 @@
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3af-8f6f-747e-6932" includeChildSelections="false"/>
                   </constraints>
+                  <rules>
+                    <rule name="École de Cavalerie Graduate" id="a45d-7e90-3ca7-65f0" hidden="false">
+                      <description>All Ranged Weapons equipped by a Unit Mounted by this Commander gain the Critical Shot Special Rule.</description>
+                    </rule>
+                  </rules>
                 </selectionEntry>
               </selectionEntries>
             </entryLink>

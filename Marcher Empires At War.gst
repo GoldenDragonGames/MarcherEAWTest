@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="969e-2588-ed56-37c3" name="Marcher: Empires At War v1.6.0" revision="1" battleScribeVersion="2.03" authorName="Golden Dragon Games Team" authorContact="goldendragontabletopgames@gmail.com" authorUrl="GoldenDragonGames.Net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false">
+<gameSystem id="969e-2588-ed56-37c3" name="Marcher: Empires At War v1.6.1" revision="1" battleScribeVersion="2.03" authorName="Golden Dragon Games Team" authorContact="goldendragontabletopgames@gmail.com" authorUrl="GoldenDragonGames.Net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false">
   <costTypes>
     <costType id="Points" name="Munitions" defaultCostLimit="2000" hidden="false"/>
     <costType id="284c-5503-e866-a2e0" name="Supply" defaultCostLimit="-1" hidden="false"/>
@@ -1391,6 +1391,15 @@ are in your army only one counter is ticked down at a time.</description>
     </rule>
     <rule name="Emplaced Unit" id="2a7d-25c4-050d-de07" hidden="false">
       <description>This Unit must be deployed as if it were a Fortification with Supply Cost X.</description>
+    </rule>
+    <rule name="Dishonorable Conduct" id="bc57-9a28-d90d-c8b6" hidden="false">
+      <description>If this Unit is destroyed, the Player who selected it as the target of an Attack loses 1 Victory Point. 
+
+
+(If this Unit is selected as the target unintentionally, such as due to the Cook Off Special Rule, no points are deducted. If this Unit is intentionally moved into danger, such as through a minefield or into range of a Blast token, and is destroyed as a result, no points are deducted.)</description>
+    </rule>
+    <rule name="Hippocratic Oath" id="14f0-63cf-f0f4-79b4" hidden="false">
+      <description>This Unit may not take the Attack Action. This Unit may not Move into Engagement with another Unit.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
