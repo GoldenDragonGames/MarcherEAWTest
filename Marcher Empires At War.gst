@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="969e-2588-ed56-37c3" name="Marcher: Empires At War v1.6.1" revision="2" battleScribeVersion="2.03" authorName="Golden Dragon Games Team" authorContact="goldendragontabletopgames@gmail.com" authorUrl="GoldenDragonGames.Net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false">
+<gameSystem id="969e-2588-ed56-37c3" name="Marcher: Empires At War v1.7.0" revision="2" battleScribeVersion="2.03" authorName="Golden Dragon Games Team" authorContact="goldendragontabletopgames@gmail.com" authorUrl="GoldenDragonGames.Net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false">
   <costTypes>
     <costType id="Points" name="Munitions" defaultCostLimit="2000" hidden="false"/>
     <costType id="284c-5503-e866-a2e0" name="Supply" defaultCostLimit="-1" hidden="false"/>
@@ -160,7 +160,6 @@
             </modifier>
           </modifiers>
         </categoryLink>
-        <categoryLink name="Heroes" hidden="false" id="c1aa-f03e-0576-78a1" targetId="33a5-8b7e-49bb-c30d"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry name="Infantry Platoon" id="2250-4111-e2c2-bb10" hidden="false">
@@ -1066,8 +1065,8 @@
     <rule id="06f4-93c5-6f93-d4df" name="Flying" hidden="false">
       <description>This Unit ignores all terrain. This Unit may not receive the benefit of Cover. This Unit may move through other Units. This Unit may not be engaged by other Units unless they also have the Flying keyword. Weapons with less than 12&quot; of Range cannot target this unit for an attack. All ranged attacks that target this Unit receive -1 to hit.</description>
     </rule>
-    <rule id="6db2-42c0-b23d-3b14" name="Shielded" hidden="false">
-      <description>Ignore the first X damage this Unit takes per round. If a Unit with this Special Rule takes the move action more than once in an activation, Shielded turns off until the end of the round. The Shielded ability cannot prevent damage from weapons with the Flamethrower, Gas, or Melee keyword or from the Burning Condition.</description>
+    <rule id="6db2-42c0-b23d-3b14" name="Shield Generator" hidden="false">
+      <description>Once per round, as a Reaction, this Unit may Activate its Shield Generator. If it does, the next time it is attacked, the Attacker must first roll an unmodified 4+ Shield Check. Shield Checks are performed as if they were Evasion Checks. Attacks from Weapons with the Flames, Gas, or Melee Keywords do not incur Shield Checks.</description>
     </rule>
     <rule id="6f53-dabe-1243-14cf" name="Close In" hidden="false">
       <description>When making an Attack with this weapon, Units targeted by this attack do not receive the benefit of cover.</description>
@@ -1109,7 +1108,7 @@
       <description>When this Unit destroys the Leader Model of an Enemy Command Unit, gain 1 Intel point.</description>
     </rule>
     <rule name="Big Game Hunter" id="22ef-ed51-bdad-4ad4" hidden="false">
-      <description>Attacks from this Unit reroll hits against Enemy Units with the vehicle keyword.</description>
+      <description>Attacks from this Unit reroll Hits against Enemy Units with the Vehicle Keyword.</description>
     </rule>
     <rule name="Dangerous Bailout" id="544-9133-e670-6e0c" hidden="false">
       <description>If this model is destroyed while transporting units, roll 1D10 for each model it was transporting. For each roll of 5 or less, destroy one model before placing the embarked unit within 3” of the destroyed transport”</description>
@@ -1333,8 +1332,7 @@ Under Fire: Units with this Condition may not take the Move Action. (They may st
       <description>During Deployment, as you declare units in Transports and En Route, the individual Models in this Unit may separate, with each attaching to a different non-Battlesuit Troop Unit within this Platoon. When this happens they become part of those other Units, and this Unit ceases to exist. When Attacks are made against that Unit, you may select this Model as the recipient of that Attack and use its Evasion and Armor, if you do, damage must be applied to this Model first. This ability can only be used if there are equal to or more Troop Units in this platoon than models in this Unit.</description>
     </rule>
     <rule name="Ordnance" id="11d9-c53a-4538-6b97" hidden="false">
-      <description>During the Command Phase place one Blast token anywhere on the battlefield per weapon, in the range of this weapons, regardless of Line Of Sight. Blast tokens used by this Unit have a range of X” measured from the edge of the 25 mm Blast token, where X is its Ordnance X value. Each model in a Unit with Ordnance X will place its own token. When the Unit is selected to use the Attack Action it can select any Blast token that matches its designated token’s Blast value; each model in the unit must select a different Blast token and make its own
-separate attack. When a blast token is placed by this unit, any Troop Units within the token radius immediately receive one Suppression token. When attacking a multi-model unit with this weapon, excess damage spills over to other models in that unit, in addition, Units targeted with this attack do not receive the benefit of Cover. When an attack is made using a Blast Token, you must take an attack action against all units within range of that token regardless of if the units are friendly. Remove the token after resolving the attack.</description>
+      <description>During the Command Phase, Units with the Ordnance keyword will place one Blast X tokens anywhere on the battlefield per weapon, in the range of their weapons, regardless of Line Of Sight. Blast tokens used by this Unit have a range of X” measured from the edge of the 25 mm Blast token, where X is its Ordinace X value. Each model in a Unit with Ordnance X will place its own token. When the Unit is selected to use the Attack Action it can select any Blast token that matches its designated token’s Blast value; each model in the unit must select a different Blast token and make its own separate attack. When a blast token is placed by this unit, any Troop Units within the token radius immediately receive one Suppression token. When attacking a multi-model unit with this weapon, excess damage spills over to other models in that unit. When an attack is made using a Blast Token, you must take an attack action against all units within range of that token regardless of if the units are friendly. Remove the token after resolving the attack.</description>
     </rule>
     <rule name="Dial In" id="1cc7-7e82-f9f9-df65" hidden="false">
       <description>This Unit begins the game with a Dial In Counter set to X. Each time a Unit activates, select one Unit in your army, tick down one counter. If that unit
@@ -1403,6 +1401,9 @@ are in your army only one counter is ticked down at a time.</description>
     </rule>
     <rule name="Hippocratic Oath" id="14f0-63cf-f0f4-79b4" hidden="false">
       <description>This Unit may not take the Attack Action. This Unit may not Move into Engagement with another Unit.</description>
+    </rule>
+    <rule name="Bombard" id="0091-17ea-a67a-1ae9" hidden="false">
+      <description>Whenever a Unit makes an Attack with this Weapon, after the Attack has been resolved, you may apply a Bombard Token to all Terrain Features within the zone of this Weapon&apos;s Blast Token. Tokens may only be applied to Terrain Features with a Cover Score of X or less. For each Bombard Token a Terrain Feature has, its Cover Score is reduced by one. If a Terrain Feature&apos;s Cover Score is lowered to 0, it is removed from the Battlefield.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

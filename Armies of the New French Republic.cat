@@ -306,7 +306,7 @@
       <modifierGroups>
         <modifierGroup type="and">
           <modifiers>
-            <modifier type="set" value="false" field="hidden" affects="">
+            <modifier type="set" value="false" field="hidden">
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="force" childId="f7f6-47eb-95fb-ad14" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
               </repeats>
@@ -428,7 +428,7 @@
       <modifierGroups>
         <modifierGroup type="and">
           <modifiers>
-            <modifier type="set" value="false" field="hidden" affects="">
+            <modifier type="set" value="false" field="hidden">
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="force" childId="89fd-ddd2-40e3-dc68" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="false"/>
               </repeats>
@@ -461,9 +461,9 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="da28-df59-a553-5d18" name="Model 1921 Energy Pistol" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="da28-df59-a553-5d18" name="Modele 1921 Energy Pistol" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="d891-2642-f9ad-a285" name="Model 1921 Energy Pistol" hidden="false" targetId="6589-e279-5e35-739f" type="profile"/>
+        <infoLink id="d891-2642-f9ad-a285" name="Modele 1921 Energy Pistol" hidden="false" targetId="6589-e279-5e35-739f" type="profile"/>
         <infoLink name="Point Blank" id="675c-44dc-466b-7783" hidden="false" type="rule" targetId="1e7a-7634-bb2b-1ff9"/>
         <infoLink name="Dual Wield" id="76ed-f49c-e590-5ea5" hidden="false" type="rule" targetId="2082-d275-920b-519d"/>
       </infoLinks>
@@ -930,6 +930,11 @@
             <modifier type="append" value="3" field="name"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Bombard" id="eb30-f0bc-64df-87f2" hidden="false" type="rule" targetId="0091-17ea-a67a-1ae9">
+          <modifiers>
+            <modifier type="append" value="2" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Munitions" typeId="Points" value="60"/>
@@ -1059,6 +1064,11 @@
             <modifier type="append" value="3" field="name"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Bombard" id="4957-58a0-a6df-d482" hidden="false" type="rule" targetId="0091-17ea-a67a-1ae9">
+          <modifiers>
+            <modifier type="append" value="2" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Munitions" typeId="Points" value="110"/>
@@ -1118,16 +1128,16 @@
     <selectionEntry type="upgrade" import="true" name="M21 155mm Long Tom" hidden="false" id="2f7a-39e1-41fd-cca4" collective="false">
       <infoLinks>
         <infoLink name="M21 155mm Long Tom" id="cf2c-4c71-272a-9482" hidden="false" targetId="f272-8323-698f-75c6" type="profile"/>
-        <infoLink name="Blast" id="88ce-33ac-d220-e5fe" hidden="false" targetId="5d4a-ecea-623a-a136" type="rule">
+        <infoLink name="Ordnance" id="88ce-33ac-d220-e5fe" hidden="false" targetId="11d9-c53a-4538-6b97" type="rule">
           <modifiers>
             <modifier type="append" value="3" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Close In" id="d756-7364-55d3-5ec6" hidden="false" type="rule" targetId="6f53-dabe-1243-14cf"/>
-        <infoLink name="Difficult to Use" id="e872-ef19-f2eb-9af1" hidden="false" type="rule" targetId="22ca-4520-b3df-c16d"/>
-        <infoLink name="High Explosive" id="d2ef-e049-059d-7650" hidden="false" type="rule" targetId="9375-d461-c135-9e66"/>
-        <infoLink name="Indirect" id="6102-46ce-a80e-8c73" hidden="false" type="rule" targetId="0648-3007-c58c-c884"/>
-        <infoLink name="Shellshock" id="7256-5278-32fb-282c" hidden="false" type="rule" targetId="e5b9-60eb-5275-52a3"/>
+        <infoLink name="Bombard" id="bace-0903-b8ca-8cdb" hidden="false" type="rule" targetId="0091-17ea-a67a-1ae9">
+          <modifiers>
+            <modifier type="append" value="3" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Munitions" typeId="Points" value="418"/>
@@ -1270,7 +1280,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
-    <profile id="6589-e279-5e35-739f" name="Model 1921 Energy Pistol" hidden="false" typeId="Weapon" typeName="Weapon">
+    <profile id="6589-e279-5e35-739f" name="Modele 1921 Energy Pistol" hidden="false" typeId="Weapon" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">12&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">1</characteristic>
@@ -1576,7 +1586,7 @@
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">5</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">4</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1D10</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Direct Fire, Ordnance 3</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Direct Fire, Ordnance 3, Bombard 2</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Ordnance, Explosive</characteristic>
       </characteristics>
     </profile>
@@ -1696,7 +1706,7 @@
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">8</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">6</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1D10+3</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Blast 3, Close In, Difficult to Use, Indirect, High Explosive Shellshock</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Ordnance 3, Bombard 3</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Ordnance, Explosive</characteristic>
       </characteristics>
     </profile>
@@ -1716,7 +1726,7 @@
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">5</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">4</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1D10+2</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Ordnance 3</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Ordnance 3, Bombard 2</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Ordnance, Explosive</characteristic>
       </characteristics>
     </profile>
@@ -1772,7 +1782,7 @@
               <characteristics>
                 <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">10&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">10</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">12</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">12</characteristic>
               </characteristics>
               <modifiers>
@@ -1795,7 +1805,7 @@
             <infoLink name="Cook Off" id="4670-6e82-1c99-a687" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
           </infoLinks>
           <costs>
-            <cost name="Munitions" typeId="Points" value="89"/>
+            <cost name="Munitions" typeId="Points" value="96"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -1821,6 +1831,22 @@
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4e2a-30c5-731d-cd94-min" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e2a-30c5-731d-cd94-max" includeChildSelections="false"/>
                   </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Pintle mounted Machine Gun" hidden="false" id="0321-0eaf-e59e-c48a">
+                  <entryLinks>
+                    <entryLink import="true" name="Reibel Heavy Machine Gun" hidden="false" id="fea6-3d82-2d6a-ae3b" type="selectionEntry" targetId="6255-e891-a7d0-cb6e">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c782-e757-fc34-0066" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2320-4d93-b086-3bb2" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b628-bc18-4c08-f70e" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Pintle Mount" id="66f8-0bab-4a02-b78c" hidden="false" type="rule" targetId="afb9-85ce-6367-ce57"/>
+                  </infoLinks>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
@@ -1900,7 +1926,7 @@
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="R-1B Liberté Medium Battle Tank" hidden="false" id="9a66-ec69-5d3-b4e">
           <costs>
-            <cost name="Munitions" typeId="Points" value="109"/>
+            <cost name="Munitions" typeId="Points" value="132"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -1910,7 +1936,7 @@
               <characteristics>
                 <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">3</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">12</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">14</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">15</characteristic>
               </characteristics>
               <modifiers>
@@ -2200,7 +2226,7 @@
               <characteristics>
                 <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">10&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">10</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">11</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">14</characteristic>
               </characteristics>
               <modifiers>
@@ -2222,7 +2248,7 @@
             <infoLink name="Catastrophic Detonation" id="c37b-cd27-21c9-254d" hidden="false" type="rule" targetId="ed65-6e21-b743-aab2"/>
           </infoLinks>
           <costs>
-            <cost name="Munitions" typeId="Points" value="104"/>
+            <cost name="Munitions" typeId="Points" value="100"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -2321,7 +2347,7 @@
               <characteristics>
                 <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8/6</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">9</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">14</characteristic>
               </characteristics>
             </profile>
@@ -2357,7 +2383,7 @@
               <characteristics>
                 <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">2&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">3</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">14</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">20</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">40</characteristic>
               </characteristics>
               <modifiers>
@@ -2385,7 +2411,7 @@
             </infoLink>
           </infoLinks>
           <costs>
-            <cost name="Munitions" typeId="Points" value="442"/>
+            <cost name="Munitions" typeId="Points" value="685"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="3"/>
@@ -2479,9 +2505,9 @@
             </profile>
             <profile name="M48D2 &quot;Rolling Tom&quot; Gun Carriage Caprina" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="28f2-773a-f4c0-e6c4">
               <characteristics>
-                <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8&quot;</characteristic>
+                <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">10&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">11</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">14</characteristic>
               </characteristics>
               <modifiers>
@@ -2510,7 +2536,7 @@
             </infoLink>
           </infoLinks>
           <costs>
-            <cost name="Munitions" typeId="Points" value="104"/>
+            <cost name="Munitions" typeId="Points" value="100"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -2634,7 +2660,7 @@
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="Munitions" typeId="Points" value="19"/>
+                    <cost name="Munitions" typeId="Points" value="20"/>
                     <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                     <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
                     <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -2670,7 +2696,7 @@
               <characteristics>
                 <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">6</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">7</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">7</characteristic>
               </characteristics>
             </profile>
@@ -2687,7 +2713,7 @@
             </infoLink>
           </infoLinks>
           <costs>
-            <cost name="Munitions" typeId="Points" value="19"/>
+            <cost name="Munitions" typeId="Points" value="20"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -2713,7 +2739,7 @@
               <characteristics>
                 <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">10&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">9</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">10</characteristic>
               </characteristics>
               <modifiers>
@@ -2823,7 +2849,7 @@
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="Munitions" typeId="Points" value="55"/>
+            <cost name="Munitions" typeId="Points" value="56"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -3138,7 +3164,7 @@
           <selectionEntryGroups>
             <selectionEntryGroup name="Firearms" id="2a08-9a92-d08b-cfc1" hidden="false" defaultSelectionEntryId="454b-312d-67f5-779b">
               <entryLinks>
-                <entryLink import="true" name="Model 1921 Energy Pistol" hidden="false" id="454b-312d-67f5-779b" collective="false" targetId="da28-df59-a553-5d18" type="selectionEntry"/>
+                <entryLink import="true" name="Modele 1921 Energy Pistol" hidden="false" id="454b-312d-67f5-779b" collective="false" targetId="da28-df59-a553-5d18" type="selectionEntry"/>
                 <entryLink import="true" name="Modele 1930 Plasma Pistol" hidden="false" id="671a-1fd8-bc88-8894" type="selectionEntry" targetId="65af-1ac2-c789-e963"/>
                 <entryLink import="true" name="MAS 35 Inspirateur" hidden="false" id="da17-6891-18ac-ebde" type="selectionEntry" targetId="59cb-4b56-9cbf-d25a"/>
               </entryLinks>
@@ -3206,7 +3232,7 @@
                   <selectionEntryGroups>
                     <selectionEntryGroup name="Firearms" id="40d0-62e7-ae55-2c7d" hidden="false" defaultSelectionEntryId="5872-4a8e-f0d3-e19b">
                       <entryLinks>
-                        <entryLink import="true" name="Model 1921 Energy Pistol" hidden="false" id="5872-4a8e-f0d3-e19b" collective="false" targetId="da28-df59-a553-5d18" type="selectionEntry"/>
+                        <entryLink import="true" name="Modele 1921 Energy Pistol" hidden="false" id="5872-4a8e-f0d3-e19b" collective="false" targetId="da28-df59-a553-5d18" type="selectionEntry"/>
                         <entryLink import="true" name="Modele 1930 Plasma Pistol" hidden="false" id="bd4-2b9e-ef16-7bf0" type="selectionEntry" targetId="65af-1ac2-c789-e963"/>
                         <entryLink import="true" name="MAS 35 Inspirateur" hidden="false" id="1dfb-ca03-34bf-f1d1" type="selectionEntry" targetId="59cb-4b56-9cbf-d25a"/>
                       </entryLinks>
@@ -3243,7 +3269,7 @@
               <characteristics>
                 <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">12&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">6</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">7</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">5</characteristic>
               </characteristics>
               <modifiers>
@@ -3267,7 +3293,7 @@
             <infoLink name="(CORE) Flex" id="4d6a-c49f-8fbc-fd56" hidden="false" type="rule" targetId="05cc-45cd-4600-22d8"/>
           </infoLinks>
           <costs>
-            <cost name="Munitions" typeId="Points" value="32"/>
+            <cost name="Munitions" typeId="Points" value="33"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -3340,7 +3366,7 @@
               <characteristics>
                 <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">10&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">9</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">10</characteristic>
               </characteristics>
               <modifiers>
@@ -3450,7 +3476,7 @@
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="Munitions" typeId="Points" value="55"/>
+            <cost name="Munitions" typeId="Points" value="56"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -3531,7 +3557,7 @@
                   <selectionEntryGroups>
                     <selectionEntryGroup name="Sidearm" id="556d-7189-d5e7-10d9" hidden="false" defaultSelectionEntryId="9755-3f55-7f7c-2bb3">
                       <entryLinks>
-                        <entryLink import="true" name="Model 1921 Energy Pistol" hidden="false" id="9755-3f55-7f7c-2bb3" collective="false" targetId="da28-df59-a553-5d18" type="selectionEntry"/>
+                        <entryLink import="true" name="Modele 1921 Energy Pistol" hidden="false" id="9755-3f55-7f7c-2bb3" collective="false" targetId="da28-df59-a553-5d18" type="selectionEntry"/>
                         <entryLink import="true" name="Modele 1930 Plasma Pistol" hidden="false" id="26f7-8227-2e1b-ab3f" type="selectionEntry" targetId="65af-1ac2-c789-e963"/>
                       </entryLinks>
                       <constraints>
@@ -3831,9 +3857,7 @@
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
           <rules>
-            <rule name="Citoyens, aux armes!" id="4209-bc99-e33c-a059" hidden="false">
-              <description>If this Unit is targeted by a Non-Artillery Unit that is more than 16&quot; away from it, they must roll a D10 to Determine Affiliation, on a 6+, they fail to recognize the Partisans as combatants, and must select a different target for their Attack.</description>
-            </rule>
+            <rule name="Citoyens, aux armes!" id="4209-bc99-e33c-a059" hidden="false"/>
           </rules>
           <entryLinks>
             <entryLink import="true" name="Troops Upgrades" hidden="false" id="e11a-e25a-9c66-957d" type="selectionEntryGroup" targetId="c42e-5415-a1c5-e2d8">
@@ -4376,7 +4400,7 @@
               <characteristics>
                 <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">12&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">9</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">8</characteristic>
               </characteristics>
               <modifiers>
@@ -4394,14 +4418,14 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Munitions" typeId="Points" value="61"/>
+            <cost name="Munitions" typeId="Points" value="62"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
           <rules>
             <rule name="Marchons!" id="9ede-c6f9-c99c-d7a8" hidden="false">
-              <description>This unit gets +1 to hit for every 5 allied models within 12&quot;.</description>
+              <description>When this Unit activates, gain an Aim Token for every 5 Friendly models within 12&quot;.</description>
             </rule>
           </rules>
           <entryLinks>
@@ -4540,7 +4564,7 @@
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="Munitions" typeId="Points" value="32"/>
+                    <cost name="Munitions" typeId="Points" value="33"/>
                     <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                     <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
                     <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -4584,16 +4608,18 @@
               <characteristics>
                 <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">4</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">7</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">7</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Support Carriage Actions" id="2533-a87-88de-6f6f" hidden="false" type="profile" targetId="1761-68e7-b0e6-e086"/>
+            <infoLink name="Deployed Weapon" id="b056-8709-045e-8019" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
+            <infoLink name="Front Facing" id="397f-7673-280b-7369" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Munitions" typeId="Points" value="16"/>
+            <cost name="Munitions" typeId="Points" value="23"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -4801,7 +4827,7 @@
               <characteristics>
                 <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">9</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">8</characteristic>
               </characteristics>
               <modifiers>
@@ -4826,7 +4852,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Munitions" typeId="Points" value="42"/>
+            <cost name="Munitions" typeId="Points" value="43"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -4898,7 +4924,7 @@
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="Munitions" typeId="Points" value="16"/>
+                    <cost name="Munitions" typeId="Points" value="23"/>
                     <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                     <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
                     <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -4959,6 +4985,8 @@
           </profiles>
           <infoLinks>
             <infoLink name="Support Carriage Actions" id="8a17-3b90-8db0-58bb" hidden="false" type="profile" targetId="1761-68e7-b0e6-e086"/>
+            <infoLink name="Deployed Weapon" id="a5af-1dec-a257-6fe2" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
+            <infoLink name="Front Facing" id="b066-7cf9-c1d2-add0" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="Munitions" typeId="Points" value="0"/>
@@ -4982,7 +5010,7 @@
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b01-14bb-11c-2c04" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Model 1921 Energy Pistol" hidden="false" id="7370-b412-e6d6-631e" collective="false" targetId="da28-df59-a553-5d18" type="selectionEntry">
+            <entryLink import="true" name="Modele 1921 Energy Pistol" hidden="false" id="7370-b412-e6d6-631e" collective="false" targetId="da28-df59-a553-5d18" type="selectionEntry">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bbec-aece-8ed5-cf91" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3004-b993-1b5c-e4b0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -5025,7 +5053,7 @@
             </profile>
           </profiles>
           <rules>
-            <rule name="S&apos;engager pour servir" id="5e45-a1b0-79b8-e081" hidden="false">
+            <rule name="S&apos;engager Pour Servir" id="5e45-a1b0-79b8-e081" hidden="false">
               <description>Whenever a Unit within 12&quot; of Major Marie Courtemanche loses a Model, it may shed a Suppression Token. Each Unit may only shed One Suppression Token in this way per Round.</description>
             </rule>
           </rules>
@@ -5123,7 +5151,7 @@ In Plain Sight- Replace the token with Agent Fabien&apos;s model. He may activat
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a554-2aef-39e0-d6ae" includeChildSelections="true"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Model 1921 Energy Pistol" hidden="false" id="345c-c9ec-02d7-c09f" type="selectionEntry" targetId="da28-df59-a553-5d18">
+            <entryLink import="true" name="Modele 1921 Energy Pistol" hidden="false" id="345c-c9ec-02d7-c09f" type="selectionEntry" targetId="da28-df59-a553-5d18">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="de61-442a-204b-a513-min" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de61-442a-204b-a513-max" includeChildSelections="false"/>
@@ -5165,7 +5193,7 @@ In Plain Sight- Replace the token with Agent Fabien&apos;s model. He may activat
               <characteristics>
                 <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">10&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">7</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">9</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">10</characteristic>
               </characteristics>
               <modifiers>
@@ -5183,7 +5211,7 @@ In Plain Sight- Replace the token with Agent Fabien&apos;s model. He may activat
             </profile>
           </profiles>
           <costs>
-            <cost name="Munitions" typeId="Points" value="57"/>
+            <cost name="Munitions" typeId="Points" value="64"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -5285,7 +5313,7 @@ In Plain Sight- Replace the token with Agent Fabien&apos;s model. He may activat
               <characteristics>
                 <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">10&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">7</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">7</characteristic>
               </characteristics>
               <modifiers>
@@ -5321,7 +5349,7 @@ In Plain Sight- Replace the token with Agent Fabien&apos;s model. He may activat
             <infoLink name="Hitch" id="4a1a-d027-72ba-1b17" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
           </infoLinks>
           <costs>
-            <cost name="Munitions" typeId="Points" value="36"/>
+            <cost name="Munitions" typeId="Points" value="31"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -5473,7 +5501,7 @@ In Plain Sight- Replace the token with Agent Fabien&apos;s model. He may activat
               <characteristics>
                 <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">10&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">3</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">13</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">15</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">20</characteristic>
               </characteristics>
               <modifiers>
@@ -5618,7 +5646,7 @@ In Plain Sight- Replace the token with Agent Fabien&apos;s model. He may activat
               <characteristics>
                 <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">10&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">10</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">11</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">14</characteristic>
               </characteristics>
               <modifiers>
@@ -5645,7 +5673,7 @@ In Plain Sight- Replace the token with Agent Fabien&apos;s model. He may activat
             <infoLink name="Mechanized Vehicle Actions" id="0e29-126e-85ac-1e72" hidden="false" type="profile" targetId="dd9a-09a9-4488-0f28"/>
           </infoLinks>
           <costs>
-            <cost name="Munitions" typeId="Points" value="104"/>
+            <cost name="Munitions" typeId="Points" value="100"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -5774,7 +5802,7 @@ In Plain Sight- Replace the token with Agent Fabien&apos;s model. He may activat
               <characteristics>
                 <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">9</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">12</characteristic>
               </characteristics>
               <modifiers>
@@ -5792,7 +5820,7 @@ In Plain Sight- Replace the token with Agent Fabien&apos;s model. He may activat
             </profile>
           </profiles>
           <costs>
-            <cost name="Munitions" typeId="Points" value="58"/>
+            <cost name="Munitions" typeId="Points" value="59"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -5877,7 +5905,7 @@ In Plain Sight- Replace the token with Agent Fabien&apos;s model. He may activat
               <characteristics>
                 <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">10&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">10</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">11</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">14</characteristic>
               </characteristics>
               <modifiers>
@@ -5900,7 +5928,7 @@ In Plain Sight- Replace the token with Agent Fabien&apos;s model. He may activat
             <infoLink name="Prototype" id="27a6-26d3-04db-fe37" hidden="false" type="rule" targetId="b4c0-7c13-2254-8ad1"/>
           </infoLinks>
           <costs>
-            <cost name="Munitions" typeId="Points" value="104"/>
+            <cost name="Munitions" typeId="Points" value="100"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -5975,7 +6003,7 @@ In Plain Sight- Replace the token with Agent Fabien&apos;s model. He may activat
               <characteristics>
                 <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">10&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">5</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">7</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">7</characteristic>
               </characteristics>
               <modifiers>
@@ -6006,7 +6034,7 @@ In Plain Sight- Replace the token with Agent Fabien&apos;s model. He may activat
             <infoLink name="Catastrophic Detonation" id="be9d-c434-917d-baf3" hidden="false" type="rule" targetId="ed65-6e21-b743-aab2"/>
           </infoLinks>
           <costs>
-            <cost name="Munitions" typeId="Points" value="50"/>
+            <cost name="Munitions" typeId="Points" value="31"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
