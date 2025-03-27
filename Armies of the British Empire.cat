@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="381c-41bb-e273-4cf0" name="Armies of the British Empire" gameSystemId="969e-2588-ed56-37c3" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Command" id="b51d-826a-88b7-3743" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Mounted Officer" hidden="false" id="80b6-b9f0-b07f-a3ec"/>
+        <selectionEntry type="upgrade" import="true" name="SAS Commando Officer" hidden="false" id="dcb5-1c75-520f-b783"/>
+        <selectionEntry type="upgrade" import="true" name="Orbital Dragoon Officer" hidden="false" id="6655-f948-1bbe-b4ff"/>
+        <selectionEntry type="upgrade" import="true" name="Automaton Yeoman" hidden="false" id="50d4-8c54-465c-030f"/>
+        <selectionEntry type="upgrade" import="true" name="Royal Engineer Officer" hidden="false" id="242b-4fa8-441e-48b0"/>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Heroes" id="4591-79f4-3979-85ff" hidden="false"/>
+    <selectionEntryGroup name="Infantry" id="2423-86a6-d39e-93c2" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Automaton Infantry Section" hidden="false" id="eb39-a010-bb2c-79e7">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Section Members" id="1102-2cf4-2e64-1d83" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Tommybot" hidden="false" id="70ec-92e3-bbb0-0553">
+                  <profiles>
+                    <profile name="Tommybot" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="7fc5-d1d1-c88f-9831">
+                      <characteristics>
+                        <characteristic name="Movement" typeId="3e68-f430-0d7c-5747"/>
+                        <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82"/>
+                        <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba"/>
+                        <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <profiles>
+            <profile name="Automaton Infantry Section" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="a3fd-55ff-d437-7391">
+              <characteristics>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac"/>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14"/>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Colonial Rifle Section" hidden="false" id="92e9-bd70-810b-e25a"/>
+        <selectionEntry type="upgrade" import="true" name="Grenadiers Guard Section" hidden="false" id="8260-80aa-8f89-ff48"/>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Armor" id="f0c6-ee02-05ef-6df7" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Mk. IV &apos;&apos;Percival&apos;&apos; Cruiser Tank" hidden="false" id="ba99-861e-14e1-0c81"/>
+        <selectionEntry type="upgrade" import="true" name="Mk. I &quot;Lancelot&quot; Main Battle Tank" hidden="false" id="003b-f786-dc82-821a"/>
+        <selectionEntry type="upgrade" import="true" name="Mk. VII &apos;&apos;Gawain&apos;&apos; Infantry Tank" hidden="false" id="6125-f338-2b93-9226"/>
+        <selectionEntry type="upgrade" import="true" name="Mk. X &quot;Arthur&quot; Super Heavy Assault Tank" hidden="false" id="dd56-48b1-ccb7-298d"/>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Mechanized" id="9a5b-1080-d07e-dcb8" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Mk. XI &quot;Draig&quot; Universal Carrier " hidden="false" id="c3f4-c32c-06ba-9744">
+          <costs>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+            <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="SAS Orbital Dragoon Section" hidden="false" id="964c-ac3f-4809-a123"/>
+        <selectionEntry type="upgrade" import="true" name="Mk. V &quot;Palamedes&quot; Wheeled APC" hidden="false" id="021d-6375-82fa-a88d"/>
+        <selectionEntry type="upgrade" import="true" name="Mk. V &apos;&apos;Gareth&apos;&apos; Airborne Tank" hidden="false" id="9cd2-4d7e-b58d-77fa"/>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Support" id="4cee-1cde-0f17-176f" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Mk. VIII &quot;Bors&quot; Heavy Tank Destroyer" hidden="false" id="26f1-0dc5-4210-f901"/>
+        <selectionEntry type="upgrade" import="true" name="Automaton Heavy Machine Gun Section" hidden="false" id="b133-398a-1712-f888"/>
+        <selectionEntry type="upgrade" import="true" name="WOMBAT Recoilless Rifle Section" hidden="false" id="aab1-d6e8-d8c8-e7dc"/>
+        <selectionEntry type="upgrade" import="true" name="2 Pdr. AT Gun Carriage" hidden="false" id="a7d1-3e4a-4418-ed46"/>
+        <selectionEntry type="upgrade" import="true" name="Royal Engineers PIAT Section" hidden="false" id="d5d0-8abf-1db4-0987"/>
+        <selectionEntry type="upgrade" import="true" name="Royal Engineers Section" hidden="false" id="de85-76d7-fe4a-1b32"/>
+        <selectionEntry type="upgrade" import="true" name="17 Pdr. AT Gun Carriage" hidden="false" id="8cae-e36c-039d-7c57"/>
+        <selectionEntry type="upgrade" import="true" name="Bofors Gun Emplacement" hidden="false" id="99d3-2570-8190-99d9"/>
+        <selectionEntry type="upgrade" import="true" name="GREMLIN" hidden="false" id="2790-8f27-e3a0-b452"/>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Artillery" id="8e05-8cae-c20c-96ec" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="25 Pdr. Field Artillery Carriage" hidden="false" id="9b88-66d9-60fe-ad9f"/>
+        <selectionEntry type="upgrade" import="true" name="25 Pdr. Field Artillery Battery" hidden="false" id="9794-ce40-0a7b-d23b"/>
+        <selectionEntry type="upgrade" import="true" name="Land Mattress Carriage" hidden="false" id="59e9-130b-ac86-72ea"/>
+        <selectionEntry type="upgrade" import="true" name="Land Mattress Battery" hidden="false" id="8f90-0fa2-a61e-d2d9"/>
+        <selectionEntry type="upgrade" import="true" name="Automaton Mortar Section" hidden="false" id="c8c1-7d5b-a256-41df"/>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Transports" id="369e-bacc-203d-2b81" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Mk. XI &quot;Kay&quot; Universal Carrier Group" hidden="false" id="b94d-3879-fffd-a080"/>
+        <selectionEntry type="upgrade" import="true" name="Mk. VII &quot;Merlin&quot; Orbital Insertion Capsule" hidden="false" id="08dd-61a4-aa0e-0e85"/>
+        <selectionEntry type="upgrade" import="true" name="Mk. II &apos;&apos;Bedivere&apos;&apos; Armored Command Car" hidden="false" id="f2c0-6432-6cca-d3b1"/>
+        <selectionEntry type="upgrade" import="true" name="Bedford Truck" hidden="false" id="d6d6-259a-1e81-4a20"/>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <entryLinks>
+    <entryLink import="true" name="Mk. I &quot;Lancelot&quot; Main Battle Tank" hidden="false" id="3fc7-9ffc-e467-6a59" type="selectionEntry" targetId="003b-f786-dc82-821a">
+      <categoryLinks>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="1af0-29bd-4671-fbb0" primary="false" name="BRE"/>
+        <categoryLink targetId="7950-f6f1-38c2-f2dd" id="4256-b7bd-9580-4af6" primary="false" name="CORE Armor"/>
+        <categoryLink targetId="de0d-e12c-a964-4e46" id="a74f-756e-b011-b1c0" primary="false" name="Vehicle"/>
+        <categoryLink targetId="7616-a9f8-6205-af0e" id="ccd0-cf6d-d57a-c9de" primary="false" name="Tracked"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mk. IV &apos;&apos;Percival&apos;&apos; Cruiser Tank" hidden="false" id="01f2-d077-75c8-a990" type="selectionEntry" targetId="ba99-861e-14e1-0c81">
+      <categoryLinks>
+        <categoryLink targetId="7950-f6f1-38c2-f2dd" id="172a-5c12-ab24-2fd5" primary="false" name="CORE Armor"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="2361-d2a2-e7ab-d6ec" primary="false" name="BRE"/>
+        <categoryLink targetId="de0d-e12c-a964-4e46" id="9dc8-ed46-f556-e84c" primary="false" name="Vehicle"/>
+        <categoryLink targetId="7616-a9f8-6205-af0e" id="1504-1afa-f34d-273c" primary="false" name="Tracked"/>
+        <categoryLink targetId="54db-5889-a382-77cb" id="f3f4-6941-02ca-be57" primary="false" name="CORE Recon"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mk. VII &apos;&apos;Gawain&apos;&apos; Infantry Tank" hidden="false" id="841b-ecdf-0b1f-8b7b" type="selectionEntry" targetId="6125-f338-2b93-9226">
+      <categoryLinks>
+        <categoryLink targetId="26a5-76cb-5d13-b4a7" id="866c-0573-99d8-8562" primary="false" name="CORE Infantry"/>
+        <categoryLink targetId="7950-f6f1-38c2-f2dd" id="1d28-3284-9efc-8fdf" primary="false" name="CORE Armor"/>
+        <categoryLink targetId="de0d-e12c-a964-4e46" id="2c84-a29b-a68d-5158" primary="false" name="Vehicle"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="5df7-e017-c0cd-0390" primary="false" name="BRE"/>
+        <categoryLink targetId="7616-a9f8-6205-af0e" id="1bd1-b686-17d6-a69b" primary="false" name="Tracked"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mk. X &quot;Arthur&quot; Super Heavy Assault Tank" hidden="false" id="dab3-cbdf-886a-618b" type="selectionEntry" targetId="dd56-48b1-ccb7-298d">
+      <categoryLinks>
+        <categoryLink targetId="7950-f6f1-38c2-f2dd" id="a79e-a933-6d18-6f85" primary="false" name="CORE Armor"/>
+        <categoryLink targetId="6f95-29a9-8d9a-a5fb" id="15e7-4abe-9619-6545" primary="false" name="Superheavy"/>
+        <categoryLink targetId="7616-a9f8-6205-af0e" id="e53d-4c76-cc36-e93e" primary="false" name="Tracked"/>
+        <categoryLink targetId="de0d-e12c-a964-4e46" id="0e24-4520-0cb0-c54a" primary="false" name="Vehicle"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="3e51-5b40-07e4-8352" primary="false" name="BRE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="25 Pdr. Field Artillery Battery" hidden="false" id="634f-c1f4-982b-cfef" type="selectionEntry" targetId="9794-ce40-0a7b-d23b">
+      <categoryLinks>
+        <categoryLink targetId="8679-d614-ae03-de2c" id="15f3-5f98-2e10-cc56" primary="false" name="CORE Artillery"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="ec11-a04b-8e6f-e043" primary="false" name="BRE"/>
+        <categoryLink targetId="2450-f84d-0bff-43d8" id="d7ec-0511-b4db-ed7b" primary="false" name="Battery"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="25 Pdr. Field Artillery Carriage" hidden="false" id="b302-c2b2-bbae-e565" type="selectionEntry" targetId="9b88-66d9-60fe-ad9f">
+      <categoryLinks>
+        <categoryLink targetId="8679-d614-ae03-de2c" id="8e8d-9e99-2373-001e" primary="false" name="CORE Artillery"/>
+        <categoryLink targetId="c2bc-81f4-b62b-dc46" id="6d0f-f250-7a61-1456" primary="false" name="Carriage"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="09c0-8de5-6631-6ba3" primary="false" name="BRE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Automaton Mortar Section" hidden="false" id="8227-798a-c9d1-d506" type="selectionEntry" targetId="c8c1-7d5b-a256-41df">
+      <categoryLinks>
+        <categoryLink targetId="8679-d614-ae03-de2c" id="4cd5-3c01-7c91-165c" primary="false" name="CORE Artillery"/>
+        <categoryLink targetId="a74d-0d07-e5d9-0032" id="a22d-fe2d-7e85-fc65" primary="false" name="AUX Infantry"/>
+        <categoryLink targetId="6dc4-41a4-7144-d10c" id="ab87-0a7a-a6ba-f7f8" primary="false" name="Troop"/>
+        <categoryLink targetId="239b-db47-17c9-4f36" id="50c4-f53b-a5ca-2413" primary="false" name="Automaton"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="a047-8c54-3a78-736e" primary="false" name="BRE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Land Mattress Battery" hidden="false" id="0cb0-14d6-d19b-28e6" type="selectionEntry" targetId="8f90-0fa2-a61e-d2d9">
+      <categoryLinks>
+        <categoryLink targetId="8679-d614-ae03-de2c" id="5c57-3d55-7f45-fe53" primary="false" name="CORE Artillery"/>
+        <categoryLink targetId="2450-f84d-0bff-43d8" id="cc30-a022-a75a-16be" primary="false" name="Battery"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="ac1c-484b-3e97-3bc0" primary="false" name="BRE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Land Mattress Carriage" hidden="false" id="6cc0-2328-0341-a3c0" type="selectionEntry" targetId="59e9-130b-ac86-72ea">
+      <categoryLinks>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="54f3-8723-c059-7926" primary="false" name="BRE"/>
+        <categoryLink targetId="c2bc-81f4-b62b-dc46" id="5a0f-4d5f-32be-f4d6" primary="false" name="Carriage"/>
+        <categoryLink targetId="8679-d614-ae03-de2c" id="0612-f327-44bb-adca" primary="false" name="CORE Artillery"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Automaton Yeoman" hidden="false" id="84f3-6961-1644-af1a" type="selectionEntry" targetId="50d4-8c54-465c-030f">
+      <categoryLinks>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="ae4d-6cc4-dfb9-1673" primary="false" name="Command"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="11ba-8c43-87f0-ae5b" primary="false" name="BRE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mounted Officer" hidden="false" id="be73-7897-2e80-a4d8" type="selectionEntry" targetId="80b6-b9f0-b07f-a3ec">
+      <categoryLinks>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="5f91-fa4f-8a09-6837" primary="false" name="Command"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="4ef1-88c6-e1f1-11e1" primary="false" name="BRE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Orbital Dragoon Officer" hidden="false" id="87b9-d130-db05-4359" type="selectionEntry" targetId="6655-f948-1bbe-b4ff">
+      <categoryLinks>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="b8e5-7121-231a-15b6" primary="false" name="Command"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="f74e-5e76-6f04-7411" primary="false" name="BRE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Royal Engineer Officer" hidden="false" id="49b3-d1f2-b42c-61b6" type="selectionEntry" targetId="242b-4fa8-441e-48b0">
+      <categoryLinks>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="badd-e433-7a4f-615d" primary="false" name="BRE"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="b28b-7ff7-f73b-a7f0" primary="false" name="Command"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="SAS Commando Officer" hidden="false" id="e8ba-411f-fed3-1ac9" type="selectionEntry" targetId="dcb5-1c75-520f-b783">
+      <categoryLinks>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="488b-0cc0-bfbf-a9c6" primary="false" name="Command"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Automaton Infantry Section" hidden="false" id="a824-1a29-1c75-8a02" type="selectionEntry" targetId="eb39-a010-bb2c-79e7">
+      <categoryLinks>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="2fb8-8f8a-b680-5ccb" primary="false" name="BRE"/>
+        <categoryLink targetId="6dc4-41a4-7144-d10c" id="580a-c5e3-7a4b-521a" primary="false" name="Troop"/>
+        <categoryLink targetId="26a5-76cb-5d13-b4a7" id="e64d-d223-e4a2-9752" primary="false" name="CORE Infantry"/>
+        <categoryLink targetId="239b-db47-17c9-4f36" id="0386-3c08-d4f2-586a" primary="false" name="Automaton"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Colonial Rifle Section" hidden="false" id="e28a-98fc-42d5-dade" type="selectionEntry" targetId="92e9-bd70-810b-e25a">
+      <categoryLinks>
+        <categoryLink targetId="26a5-76cb-5d13-b4a7" id="d02c-a394-b845-939e" primary="false" name="CORE Infantry"/>
+        <categoryLink targetId="6dc4-41a4-7144-d10c" id="863b-6782-241d-9c2b" primary="false" name="Troop"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="3057-73ea-6fe5-e9db" primary="false" name="BRE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Grenadiers Guard Section" hidden="false" id="6cb1-32e4-039e-6bdd" type="selectionEntry" targetId="8260-80aa-8f89-ff48">
+      <categoryLinks>
+        <categoryLink targetId="26a5-76cb-5d13-b4a7" id="bb68-af91-a9e9-8463" primary="false" name="CORE Infantry"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="ca2e-5257-955c-6cae" primary="false" name="BRE"/>
+        <categoryLink targetId="6dc4-41a4-7144-d10c" id="b205-96d2-1cd3-9a8d" primary="false" name="Troop"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mk. V &apos;&apos;Gareth&apos;&apos; Airborne Tank" hidden="false" id="d228-b93a-8bc8-f65e" type="selectionEntry" targetId="9cd2-4d7e-b58d-77fa">
+      <categoryLinks>
+        <categoryLink targetId="7950-f6f1-38c2-f2dd" id="d65f-2888-42f8-623b" primary="false" name="CORE Armor"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="7ec7-6761-1a56-2575" primary="false" name="BRE"/>
+        <categoryLink targetId="7616-a9f8-6205-af0e" id="146e-8dd9-0225-dbf9" primary="false" name="Tracked"/>
+        <categoryLink targetId="de0d-e12c-a964-4e46" id="4d7c-6614-1522-ac1b" primary="false" name="Vehicle"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mk. V &quot;Palamedes&quot; Wheeled APC" hidden="false" id="1a3f-de53-c56e-e149" type="selectionEntry" targetId="021d-6375-82fa-a88d">
+      <categoryLinks>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="31f4-7f65-8730-0a82" primary="false" name="BRE"/>
+        <categoryLink targetId="de0d-e12c-a964-4e46" id="0696-8bd6-0a66-e813" primary="false" name="Vehicle"/>
+        <categoryLink targetId="d4be-5aad-8560-5720" id="b202-5d1c-4226-ab67" primary="false" name="Transports"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mk. XI &quot;Draig&quot; Universal Carrier " hidden="false" id="2df4-83a8-d76a-9cd8" type="selectionEntry" targetId="c3f4-c32c-06ba-9744">
+      <categoryLinks>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="f94f-57c0-094f-7449" primary="false" name="BRE"/>
+        <categoryLink targetId="7616-a9f8-6205-af0e" id="c544-ade0-f920-521f" primary="false" name="Tracked"/>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="7d38-28b7-a78c-1b6b" primary="false" name="CORE Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="SAS Orbital Dragoon Section" hidden="false" id="d4a5-6308-95db-b7ca" type="selectionEntry" targetId="964c-ac3f-4809-a123">
+      <categoryLinks>
+        <categoryLink targetId="7ce6-55a5-44aa-7258" id="27d3-2c15-7606-7981" primary="false" name="CORE Mechanized"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="3d0b-0c2a-211c-6de2" primary="false" name="BRE"/>
+        <categoryLink targetId="6dc4-41a4-7144-d10c" id="b230-f810-d53c-edc9" primary="false" name="Troop"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="2 Pdr. AT Gun Carriage" hidden="false" id="705d-b094-7362-2809" type="selectionEntry" targetId="a7d1-3e4a-4418-ed46">
+      <categoryLinks>
+        <categoryLink targetId="c2bc-81f4-b62b-dc46" id="e7a2-f6a1-b499-2d3a" primary="false" name="Carriage"/>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="7d50-3af1-dd7b-6a6a" primary="false" name="CORE Support"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="db9e-8086-6888-1f9a" primary="false" name="BRE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="17 Pdr. AT Gun Carriage" hidden="false" id="9bfb-2126-2cd8-d118" type="selectionEntry" targetId="8cae-e36c-039d-7c57">
+      <categoryLinks>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="d15f-52de-542e-0ee6" primary="false" name="CORE Support"/>
+        <categoryLink targetId="c2bc-81f4-b62b-dc46" id="a778-248e-e263-087e" primary="false" name="Carriage"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="3ac4-66cc-3d81-de9e" primary="false" name="BRE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Automaton Heavy Machine Gun Section" hidden="false" id="1865-8a11-a8b6-3fbf" type="selectionEntry" targetId="b133-398a-1712-f888">
+      <categoryLinks>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="307e-57e8-482d-221c" primary="false" name="CORE Support"/>
+        <categoryLink targetId="6dc4-41a4-7144-d10c" id="ae88-3226-81cc-3855" primary="false" name="Troop"/>
+        <categoryLink targetId="239b-db47-17c9-4f36" id="37b8-839d-c57d-575e" primary="false" name="Automaton"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="3ec0-dece-4a93-adff" primary="false" name="BRE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bofors Gun Emplacement" hidden="false" id="8afa-f64e-20ea-3c0f" type="selectionEntry" targetId="99d3-2570-8190-99d9">
+      <categoryLinks>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="353b-1da5-fcb4-ff65" primary="false" name="CORE Support"/>
+        <categoryLink targetId="c2bc-81f4-b62b-dc46" id="02cb-a20c-8402-d913" primary="false" name="Carriage"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="3214-4425-50be-5587" primary="false" name="BRE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="GREMLIN" hidden="false" id="4d61-4890-dff1-bfb4" type="selectionEntry" targetId="2790-8f27-e3a0-b452">
+      <categoryLinks>
+        <categoryLink targetId="54db-5889-a382-77cb" id="ff23-c893-2a77-0b55" primary="false" name="CORE Recon"/>
+        <categoryLink targetId="6dc4-41a4-7144-d10c" id="1ac2-8ced-fc2d-8e6d" primary="false" name="Troop"/>
+        <categoryLink targetId="239b-db47-17c9-4f36" id="fc9c-467b-a310-7db4" primary="false" name="Automaton"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="b874-9575-7043-ccf5" primary="false" name="BRE"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mk. VIII &quot;Bors&quot; Heavy Tank Destroyer" hidden="false" id="8fa5-b495-77b1-0ca0" type="selectionEntry" targetId="26f1-0dc5-4210-f901">
+      <categoryLinks>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="0935-31e0-2e0c-3d38" primary="false" name="CORE Support"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="b110-abf0-aff1-49eb" primary="false" name="BRE"/>
+        <categoryLink targetId="de0d-e12c-a964-4e46" id="fdd9-d848-bf6c-c919" primary="false" name="Vehicle"/>
+        <categoryLink targetId="7616-a9f8-6205-af0e" id="f426-a2a9-df8f-fee7" primary="false" name="Tracked"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Royal Engineers PIAT Section" hidden="false" id="339e-69c7-4381-1268" type="selectionEntry" targetId="d5d0-8abf-1db4-0987">
+      <categoryLinks>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="69c2-457e-9d57-3bc1" primary="false" name="BRE"/>
+        <categoryLink targetId="6dc4-41a4-7144-d10c" id="ce34-1e5b-62b6-447c" primary="false" name="Troop"/>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="9b75-fa2a-1c92-c1b7" primary="false" name="CORE Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Royal Engineers Section" hidden="false" id="ca92-0cf1-1423-3e66" type="selectionEntry" targetId="de85-76d7-fe4a-1b32">
+      <categoryLinks>
+        <categoryLink targetId="26a5-76cb-5d13-b4a7" id="d2b5-f1df-d538-be81" primary="false" name="CORE Infantry"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="9bca-d526-f8f3-5507" primary="false" name="BRE"/>
+        <categoryLink targetId="fea7-21e6-bb88-f8ed" id="7a26-388a-bef0-61f0" primary="false" name="Engineer"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="WOMBAT Recoilless Rifle Section" hidden="false" id="37af-2044-aaf9-cd1e" type="selectionEntry" targetId="aab1-d6e8-d8c8-e7dc">
+      <categoryLinks>
+        <categoryLink targetId="7110-7fe8-80e2-5e81" id="635f-8db7-5d30-520d" primary="false" name="CORE Support"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="66b1-38bb-bf5a-2171" primary="false" name="BRE"/>
+        <categoryLink targetId="6dc4-41a4-7144-d10c" id="d5e6-ffa9-12b6-b683" primary="false" name="Troop"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bedford Truck" hidden="false" id="c307-2232-2110-4a46" type="selectionEntry" targetId="d6d6-259a-1e81-4a20">
+      <categoryLinks>
+        <categoryLink targetId="de0d-e12c-a964-4e46" id="b00a-07bd-608e-8108" primary="false" name="Vehicle"/>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="ca2a-5d63-6488-97a2" primary="false" name="BRE"/>
+        <categoryLink targetId="d4be-5aad-8560-5720" id="6951-1cc7-647e-a107" primary="false" name="Transports"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mk. II &apos;&apos;Bedivere&apos;&apos; Armored Command Car" hidden="false" id="d705-4134-69e0-33a4" type="selectionEntry" targetId="f2c0-6432-6cca-d3b1">
+      <categoryLinks>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="760e-3d20-68ed-a3b6" primary="false" name="BRE"/>
+        <categoryLink targetId="de0d-e12c-a964-4e46" id="c413-4a26-780c-7271" primary="false" name="Vehicle"/>
+        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="2da6-6805-b973-9128" primary="false" name="Command"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mk. VII &quot;Merlin&quot; Orbital Insertion Capsule" hidden="false" id="e085-7ee3-3788-187a" type="selectionEntry" targetId="08dd-61a4-aa0e-0e85">
+      <categoryLinks>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="f76b-5cb9-dfe5-bfd5" primary="false" name="BRE"/>
+        <categoryLink targetId="b250-bcf3-850c-e556" id="2209-e479-f126-c10c" primary="false" name="Flying"/>
+        <categoryLink targetId="de0d-e12c-a964-4e46" id="8912-a5b6-4a79-4d28" primary="false" name="Vehicle"/>
+        <categoryLink targetId="d4be-5aad-8560-5720" id="83d2-4706-06a1-cf1b" primary="false" name="Transports"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mk. XI &quot;Kay&quot; Universal Carrier Group" hidden="false" id="f6ad-05c9-fbd8-74e4" type="selectionEntry" targetId="b94d-3879-fffd-a080">
+      <categoryLinks>
+        <categoryLink targetId="b100-ce4e-c964-af8d" id="8ae2-ff5a-416a-78a7" primary="false" name="BRE"/>
+        <categoryLink targetId="de0d-e12c-a964-4e46" id="1362-51b9-9b06-5b9f" primary="false" name="Vehicle"/>
+        <categoryLink targetId="7616-a9f8-6205-af0e" id="e3ee-8598-314b-d47e" primary="false" name="Tracked"/>
+        <categoryLink targetId="d4be-5aad-8560-5720" id="0cb9-7907-ab37-17f4" primary="false" name="Transports"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <categoryEntries>
+    <categoryEntry name="BRE" id="b100-ce4e-c964-af8d" hidden="false"/>
+  </categoryEntries>
+</catalogue>
