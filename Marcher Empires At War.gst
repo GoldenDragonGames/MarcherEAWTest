@@ -784,7 +784,7 @@
         <infoLink name="Critical Shot" id="4cc2-b695-a59f-cdd2" hidden="false" type="rule" targetId="a53f-6c4f-8514-7703"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="10"/>
+        <cost name="Munitions" typeId="Points" value="20"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -1503,7 +1503,7 @@ are in your army only one counter is ticked down at a time.</description>
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">4&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
-        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">5</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">8</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">6</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Critical Shot</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Grenade</characteristic>
