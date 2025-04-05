@@ -1225,7 +1225,7 @@
         <infoLink name="Spray" id="5057-ba1e-5ba1-5ace" hidden="false" type="rule" targetId="b609-fbd4-d0a3-6927"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="4"/>
+        <cost name="Munitions" typeId="Points" value="10"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -1259,7 +1259,7 @@
         <infoLink name="Battle Mace" id="eac0-95e1-05db-2901" hidden="false" targetId="a25b-151f-42aa-c452" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="2"/>
+        <cost name="Munitions" typeId="Points" value="7"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -1976,7 +1976,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Veteran NCO" hidden="false" id="33fe-eb6d-9e95-e663">
       <costs>
-        <cost name="Munitions" typeId="Points" value="25"/>
+        <cost name="Munitions" typeId="Points" value="15"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -2386,9 +2386,9 @@
     <profile id="a25b-151f-42aa-c452" name="Battle Mace" hidden="false" typeId="Weapon" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">E</characteristic>
-        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
-        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">2</characteristic>
-        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">3</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Melee, Blunt, Kinetic</characteristic>
       </characteristics>
@@ -2448,7 +2448,7 @@
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">36&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1</characteristic>
-        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">D10</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1D10</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Ordnance 2</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Ordnance, Explosive</characteristic>
       </characteristics>
@@ -3339,7 +3339,7 @@
           </costs>
           <rules>
             <rule name="Trench Rats" id="f368-e784-5160-6323" hidden="false">
-              <description>When this Unit selects the nearest Enemy Unit as the target of an Attack, it gains an Aim Token.</description>
+              <description>If this Unit has been issued an Order, it may reroll 1s and 2s for Armor Checks. If this Unit has been issued two Orders, it may reroll 1s and 2s for Evasion Checks.</description>
             </rule>
           </rules>
           <entryLinks>
@@ -3708,8 +3708,8 @@
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
           <rules>
-            <rule name="No Guts, No Glory." id="fab9-165f-bc20-a28" hidden="false">
-              <description>This Unit may receive more than one Order per turn.</description>
+            <rule name="Pour it On!" id="fab9-165f-bc20-a28" hidden="false">
+              <description>As a Difficult Action, double the Hits profile of this Unit&apos;s primary weapon for the remainder of the round.</description>
             </rule>
           </rules>
           <entryLinks>
@@ -4222,7 +4222,7 @@
           </entryLinks>
           <rules>
             <rule name="Wolf Pack" id="bf1c-d427-f309-c918" hidden="false">
-              <description>Tracked Vehicle Units within 6&quot; of this Unit may reroll 1s to Hit.</description>
+              <description>Tracked Vehicle Units within 12&quot; of this Unit that have been issued an Order may reroll 1s to Hit.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -4398,7 +4398,7 @@
           </costs>
           <rules>
             <rule name="Gyroscopic Stabilization" id="26fd-b48c-cd37-2b4a" hidden="false">
-              <description>When this Unit moves at least 10&quot; away from its position at the start of the Round, it may perform a Free Attack Action</description>
+              <description>If this Unit has performed both the Move and the Dash Action this Round, it may perform a Free Attack Action, if it does so, it may not perform a Standard Attack action this round.</description>
             </rule>
           </rules>
           <entryLinks>
@@ -4894,7 +4894,7 @@
           </costs>
           <rules>
             <rule name="Death before Dismount!" id="6769-86aa-795c-36b3" hidden="false">
-              <description>When this Unit is Destroyed it may immediately perform a Free Attack Action using a single Ranged Weapon before being removed from the Battlefield</description>
+              <description>After an Attack is resolved against this Unit it may, as a Reaction, perform a Free Attack Action using a single Ranged Weapon against the Unit that attacked it. When this Unit is Destroyed it may immediately perform a Free Attack Action using a single Ranged Weapon before being removed from the Battlefield.</description>
             </rule>
           </rules>
           <entryLinks>
@@ -7260,7 +7260,7 @@
           </costs>
           <rules>
             <rule name="Geronimo!" id="a36b-2706-c61a-4323" hidden="false">
-              <description>When this Unit exits a Flying Transport or Aerial Deployment, all Enemy Units within 10&quot; gain one Suppression.</description>
+              <description>When this Unit exits a Flying Transport or Aerial Deployment, all Enemy Units within 10&quot; gain one Suppression Token.</description>
             </rule>
           </rules>
           <entryLinks>
@@ -8568,7 +8568,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
           </costs>
           <rules>
             <rule name="Essayons!" id="4494-c245-480b-8985" hidden="false">
-              <description>Once per Activation, when this Unit takes the Build Action while within 12&quot; of an Enemy Unit, it gains an additional Action.</description>
+              <description>Once per Activation, when this Unit takes the Build Action while within 12&quot; of an Enemy Unit, it is issued an Order.</description>
             </rule>
           </rules>
           <selectionEntries>
@@ -9276,7 +9276,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
           </selectionEntryGroups>
           <rules>
             <rule name="Color Sergeant" id="2cdb-20d8-c89b-71ef" hidden="false">
-              <description>Troop Units within 6&quot; of this Model may take Reactions at a cost of 1 Action instead of 2.</description>
+              <description>Troop Units within 6&quot; of this Sergeant Douglas Donahue may take Reactions at a cost of 1 Action instead of 2. If Sergeant Douglas Donahue is your Field Commander, all Units in his platoon may do so, regardless of Range.</description>
             </rule>
           </rules>
           <entryLinks>
@@ -9319,10 +9319,10 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
           </costs>
           <rules>
             <rule name="Gifts from Command" id="2c92-554b-a828-4d1e" hidden="false">
-              <description>As an action, General Nicholas Winters may resupply the Ammo of a Friendly Unit within 6&quot; by 1.</description>
+              <description>As an action, General Nicholas Winters may resupply the Ammo of a Friendly Unit within 12&quot; by 1. If General Nicholas Winters is your Field Commander, you may resupply the Ammo of all Friendly Units in your Army by 1.</description>
             </rule>
             <rule name="3 Star General" id="fad5-8fb-6a5b-8c23" hidden="false">
-              <description>General Nicholas Winters may issue orders to each eligible Unit in his Platoon.</description>
+              <description>General Nicholas Winters may issue an Order to each eligible Unit in his Platoon.</description>
             </rule>
           </rules>
           <entryLinks>
@@ -9396,14 +9396,11 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Warrant Officer" id="5198-7d1a-6c58-4fa5" hidden="false">
-              <description>This Unit may be nominated as your Field Commander, regardless of the rank of other officers.</description>
-            </rule>
-            <rule name="Battlefield Mechanic" id="f2be-f2b3-87a4-c46d" hidden="false">
-              <description>The Unit that is Mounted by Warrant Officer Jethro Madison gains Bulwark 2</description>
-            </rule>
             <rule name="Walker Expert" id="02fe-40a0-f287-3753" hidden="false">
-              <description>Warrant Officer Jethro Madison can only be attached to a unit with the Walker Keyword. A Unit Mounted by W.O. Jethro Madison always counts as having been ordered.</description>
+              <description>Warrant Officer Jethro Madison may only be attached to a unit with the Walker Keyword. Units with the Walker Keyword within 12&quot; of Warrant Officer Jethro Madison may take the Fallback Reaction for Free once per Round. If Warrant Officer Jethro Madison is your Field Commander, all Walker Units in your Army may do this, regardless of distance.</description>
+            </rule>
+            <rule name="Battlefield Mechanic" id="2328-6485-7f34-6808" hidden="false">
+              <description>Units mounted by Jethro Madison gain the Bulwark 2 Special Rule.</description>
             </rule>
           </rules>
           <constraints>
@@ -9951,6 +9948,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <infoLink name="Rank has its Privileges" id="edb0-40d8-43ae-5afd" hidden="false" type="rule" targetId="7d1b-65ee-7808-b26d"/>
             <infoLink name="Hitch" id="7fc8-ba8d-0c48-1a91" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
             <infoLink name="(CORE) Flex" id="e2ec-702f-1ef5-fa6c" hidden="false" type="rule" targetId="05cc-45cd-4600-22d8"/>
+            <infoLink name="Low Profile" id="a951-f7f5-d61b-40f9" hidden="false" type="rule" targetId="06ae-c996-2397-250a"/>
           </infoLinks>
           <costs>
             <cost name="Munitions" typeId="Points" value="33"/>
@@ -9972,6 +9970,11 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             </entryLink>
             <entryLink import="true" name="Officer Upgrades" hidden="false" id="2f88-de74-7c5f-0136" type="selectionEntryGroup" targetId="e22e-b451-8b64-66d8"/>
           </entryLinks>
+          <rules>
+            <rule name="Command Car" id="bb41-48c1-4139-7f73" hidden="false">
+              <description>When this Unit issues an Order, choose an unordered Unit within 8&quot; of that one, that Unit is also ordered.</description>
+            </rule>
+          </rules>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="M62 Burro Artillery Commander" hidden="false" id="ded8-1aa7-61fd-aab2" collective="false">
           <profiles>
@@ -10008,6 +10011,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <infoLink name="Hitch" id="1e5d-9892-ee03-c177" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
             <infoLink name="Forward Observer" id="39df-289d-4230-2213" hidden="false" type="rule" targetId="75bb-9390-ced5-4e8e"/>
             <infoLink name="Cook Off" id="7eb9-35fa-4724-30cf" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
+            <infoLink name="Low Profile" id="6ce5-82a6-8cc6-5fc0" hidden="false" type="rule" targetId="06ae-c996-2397-250a"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Crew Weapon" hidden="false" id="6452-9ec7-5ea5-20f2" collective="false">
@@ -10385,7 +10389,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <selectionEntry type="upgrade" import="true" name="Virginia Military Institute Graduate" hidden="false" id="1a09-d5c9-d7ce-2232">
               <rules>
                 <rule name="Virginia Military Institute Graduate" id="9350-ee25-3252-5d49" hidden="false">
-                  <description>When a Unit receives an Order from this Commander, it gains an extra 2’’ of movement until the end of the round.</description>
+                  <description>When a Unit receives an Order from this Commander, it improves its Move Characteristic by +2&quot; until the end of the round.</description>
                 </rule>
               </rules>
               <costs>
@@ -10638,7 +10642,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
           <rules>
-            <rule name="Rangers Lead the Way!" id="c849-31bf-6f41-f1a" hidden="false"/>
+            <rule name="Rangers Lead the Way!" id="c849-31bf-6f41-f1a" hidden="false">
+              <description>As a Difficult Action, Capture an Objective within 3&quot; of this Unit regardless of it being Contested. So long as this Unit is within 3&quot; of this Objective, it is under your control and may not be contested for the remainder of the round.</description>
+            </rule>
           </rules>
           <entryLinks>
             <entryLink import="true" name="Troops Upgrades" hidden="false" id="4041-ff13-0f15-57b2" type="selectionEntryGroup" targetId="c42e-5415-a1c5-e2d8">
@@ -11511,7 +11517,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
           </costs>
           <rules>
             <rule name="Linebackers" id="9aff-c41b-49ed-d4d7" hidden="false">
-              <description>When this Unit makes a move action, it adds +2 Armor penetration to Melee Attacks until the end of the Round.</description>
+              <description>As a Difficult Action, this Unit may Rush. If it does, it moves up to 9&quot; towards the closest Enemy Unit, its Melee Weapons gain the Charge Special Rule, and increase their AP profile by 1 until the end of the round.</description>
             </rule>
           </rules>
           <entryLinks>

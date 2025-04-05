@@ -495,21 +495,21 @@
     <selectionEntry type="upgrade" import="true" name="Inter-service Rivalry (Army)" hidden="false" id="0119-cccb-3175-b7d5">
       <rules>
         <rule name="Land-Based Supply lines" id="e6f1-4aca-5a59-8623" hidden="false">
-          <description>As long as this commander&apos;s platoon includes no units with the IJN keyword, gain logistics.</description>
+          <description>As long as this Commander&apos;s Platoon includes no Units with the IJN keyword, gain Supply Gathering</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink name="Logistics" id="ba66-ba0d-20c7-98b5" hidden="false" type="rule" targetId="c1ce-d022-923f-3147"/>
+        <infoLink name="Supply Gathering" id="ba66-ba0d-20c7-98b5" hidden="false" type="rule" targetId="5b95-9cb8-8f48-e3ed"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Inter-service Rivalry (Navy)" hidden="false" id="37c3-c285-9532-0f42">
       <rules>
         <rule name="Sea-plane Reconnaissance" id="40a6-e734-cfdd-5f13" hidden="false">
-          <description>As long as this commander&apos;s platoon includes no units with the IJA keyword, gain Intel Gathering.</description>
+          <description>As long as this Commander&apos;s Platoon includes no Units with the IJA keyword, gain Intel Gathering.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink name="Intelligence" id="142f-cba4-e68d-3901" hidden="false" type="rule" targetId="dc7a-f7c9-a54a-9cbc"/>
+        <infoLink name="Intel Gathering" id="142f-cba4-e68d-3901" hidden="false" type="rule" targetId="5845-b3b2-62ef-1d40"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Type 98 “Rekka” Energy Machine Gun" hidden="false" id="0067-5ab2-1dd9-0020" collective="true">
@@ -2030,7 +2030,7 @@
           </infoLinks>
           <rules>
             <rule name="Flanking" id="9fd9-5059-26de-c9a7" hidden="false">
-              <description>Attacks made by this unit get +1 to hit as long as there are no friendly infantry within 6&quot;.</description>
+              <description>If this Unit ends a Move Action more than 10&quot; away from its position at the start of the Round, it may take a Free Capture Action.</description>
             </rule>
           </rules>
           <selectionEntries>
@@ -2251,7 +2251,7 @@
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="IJA Type 90 O-Ni Heavy Tank" hidden="false" id="6ba6-22ae-2c07-1df">
           <costs>
-            <cost name="Munitions" typeId="Points" value="314"/>
+            <cost name="Munitions" typeId="Points" value="293"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -2261,8 +2261,8 @@
               <characteristics>
                 <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8&quot;</characteristic>
                 <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">3</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">18</characteristic>
-                <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">22</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">16</characteristic>
+                <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">26</characteristic>
               </characteristics>
               <modifiers>
                 <modifier type="increment" value="1" field="c7f9-7a63-2269-6a82" scope="parent">
@@ -2291,7 +2291,7 @@
           </infoLinks>
           <rules>
             <rule name="Infantry Assault Support" id="c4fb-700c-aa06-7b4" hidden="false">
-              <description>Infantry Units whose Leader is in direct contact with this Unit receive +1 for their Armor Score.</description>
+              <description>Infantry Units whose Leader is in Base contact with this Unit receive +1 Levels of Cover</description>
             </rule>
           </rules>
           <selectionEntries>
@@ -2543,7 +2543,7 @@
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="IJN Type 100 ShinHōtō Heike Self Propelled Gun" hidden="false" id="1309-39e7-78ed-f94e">
           <costs>
-            <cost name="Munitions" typeId="Points" value="178"/>
+            <cost name="Munitions" typeId="Points" value="150"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -2551,9 +2551,9 @@
           <profiles>
             <profile name="IJN Type 100 ShinHōtō Heike Self Propelled Gun" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="35de-b880-22fe-1ae3">
               <characteristics>
-                <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8</characteristic>
-                <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">14</characteristic>
+                <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">8&quot;</characteristic>
+                <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">12</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">18</characteristic>
               </characteristics>
               <modifiers>
@@ -2613,7 +2613,7 @@
           </selectionEntries>
           <rules>
             <rule name="Dug In Hull" id="5241-0595-c67a-8f35" hidden="false">
-              <description>If this unit has not activated it is considered to be in heavy cover. (Ignore the rule stating that vehicles cannot gain the benefit of cover)</description>
+              <description>If this Unit has not activated it is considered to be in Medium Cover. (Ignore the rule stating that Vehicles cannot gain the benefit of Cover)</description>
             </rule>
           </rules>
           <entryLinks>
@@ -3269,6 +3269,7 @@
             <infoLink name="Transport Vehicle Actions" id="79e8-5a4c-5a30-4f10" hidden="false" targetId="d3bd-9092-41d2-8882" type="profile"/>
             <infoLink name="Rank has its Privileges" id="ba36-e1cd-eb26-e5cf" hidden="false" type="rule" targetId="7d1b-65ee-7808-b26d"/>
             <infoLink name="(CORE) Flex" id="04a7-ef8c-0473-e9fe" hidden="false" type="rule" targetId="05cc-45cd-4600-22d8"/>
+            <infoLink name="Low Profile" id="be68-20ea-d590-25b2" hidden="false" type="rule" targetId="06ae-c996-2397-250a"/>
           </infoLinks>
           <costs>
             <cost name="Munitions" typeId="Points" value="27"/>
@@ -3337,6 +3338,11 @@
               </constraints>
             </selectionEntry>
           </selectionEntries>
+          <rules>
+            <rule name="Command Car" id="0220-f501-8f06-62cd" hidden="false">
+              <description>When this Unit issues an Order, choose an unordered Unit within 8&quot; of that one, that Unit is also ordered.</description>
+            </rule>
+          </rules>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="IJM Shugo-Yoroi Warsuit Commander" hidden="false" id="ffb8-1c2d-2796-d72a">
           <entryLinks>
@@ -4804,7 +4810,7 @@
           </selectionEntries>
           <rules>
             <rule name="Higuchi Sokudo" id="6af3-71fc-e820-b3f7" hidden="false">
-              <description>At the beginning of the Action Phase, before any other units are activated, each Unit who received an Order from Captain Higuchi Ryuusuke may immediately make a Free Move or Melee Attack Action.</description>
+              <description>When they activate, each Unit who received an Order from Captain Higuchi Ryuusuke may immediately make a Free Move Action. If Captain Higuchi Ryuusuke is your Field Commander, they may also make a Free Melee Attack Action.</description>
             </rule>
           </rules>
           <constraints>
@@ -4874,7 +4880,7 @@
           </profiles>
           <rules>
             <rule name="Command Gunbai" id="afa9-7784-3c4a-082e" hidden="false">
-              <description>IJA Colonel Kaeda Harunobu may issue up to four orders to any Allied Units within his line of sight. After issuing Orders, select one Unit ordered by IJA Colonel Kaeda Harunobu, that Unit activates before all other Units. When that Unit finishes its activation, if it was your turn to activate, you may activate another Unit.</description>
+              <description>During the Command Phase Colonel Kaeda Harunobu may issue an Order to up to four Allied Troop Units within his line of sight. Each Unit issued an Order in this way may immediately make a 3&quot; Move directly towards an Enemy Unit you select. If Colonel Kaeda Harunobu is your Field Commander, they may instead make a 6&quot; Move.</description>
             </rule>
           </rules>
           <selectionEntryGroups>
@@ -4948,7 +4954,7 @@
           </profiles>
           <rules>
             <rule name="Objective Acquired" id="d68c-a6c9-3225-6674" hidden="false">
-              <description>This Unit may not attach to any Allied Units. As an Action, this Unit may pick up an Uncontested Objective you control that it is in base-to-base contact with. While holding this Objective, it moves with this Unit as if it were a squad member in cohesion. This Unit may not take the Move Action while holding the Objective, but may take the Dash Action.</description>
+              <description>As an Action, Captain Kaeda Goemon may pick up an Uncontested Objective you control that it is in base-to-base contact with. While holding this Objective, the Objective moves with Captain Kaeda Goemon as if it were a squad member in cohesion. Captain Kaeda Goemon may not take the Move Action while holding the Objective, but may take the Dash Action. If Captain Kaeda Goemon is your Field Commander, Units with the IJN Keyword on the Objective he is holding count as double their HP for the purpose of holding or capturing Objectives.</description>
             </rule>
           </rules>
           <constraints>
@@ -4967,6 +4973,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e639-ee16-47d5-5a3e-max" includeChildSelections="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Nominate Field Commander" hidden="false" id="df9a-26f3-2550-9a26" type="selectionEntry" targetId="a8f2-8cd0-efc0-4a1b"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="IJN Lieutenant Matsumaru Atoi" hidden="false" id="c8a1-c04c-7f08-4f81">
@@ -4999,7 +5006,7 @@
           </profiles>
           <rules>
             <rule name="Yukidanuki" id="7003-ccf5-4573-b6e9" hidden="false">
-              <description>While IJN Lieutenant Matsumaru Atoi&apos;s Model is on the battlefield, Engineer Units in your Army may Build Anti-Tank and Anti-Personnel Minefields for 1 fewer Supply Points.</description>
+              <description>While Lieutenant Matsumaru Atoi&apos;s Model is on the battlefield, Engineer Units in your Army may Build Anti-Tank and Anti-Personnel Minefields for 1 fewer Supply Points. If Lieutenant Matsumaru Atoi is your Field Commander, Engineer Units may Build Anti-Tank and Anti-Personnel Minefields up to 6&quot; away from themselves instead of 3&quot;.</description>
             </rule>
           </rules>
           <entryLinks>
@@ -5009,6 +5016,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ab8-c582-03d0-fe0b-max" includeChildSelections="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Nominate Field Commander" hidden="false" id="d6cd-af43-c836-5797" type="selectionEntry" targetId="a8f2-8cd0-efc0-4a1b"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="C2 - Kaigun-Tai-i" hidden="false" id="f48b-2a3a-8d67-5782" collective="false">
@@ -5293,7 +5301,7 @@
           </costs>
           <rules>
             <rule name="Hōjutsu" id="c50c-79cf-d844-0c9b" hidden="false">
-              <description>After this Unit performs an Attack Action, it may perform a Free Dash Action.</description>
+              <description>If this Unit begins its Activation in Cover or Moves into Cover, it gains an Aim Token.</description>
             </rule>
           </rules>
           <categoryLinks>

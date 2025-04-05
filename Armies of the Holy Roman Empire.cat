@@ -2130,7 +2130,7 @@
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">5</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">4</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">4</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Devastating Reach</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Devastating Reach, Dual Wield</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Melee, Bladed, Kinetic</characteristic>
       </characteristics>
     </profile>
@@ -2140,7 +2140,7 @@
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">6</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">2</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Suppressive</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Suppressive, Point Blank</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, SMG, Kinetic</characteristic>
       </characteristics>
     </profile>
@@ -3851,7 +3851,7 @@
           </costs>
           <rules>
             <rule name="Festung Doctrine" id="5c64-c258-adab-319c" hidden="false">
-              <description>This Unit may activate its Shield Generator as a Reaction an additional time each Round, even after its own Activation. If it does, instead of losing an Action, it gains a Suppression Token.</description>
+              <description>This Unit may activate its Shield Generator an additional time each Round, even after its own Activation. If it does, it gains a Suppression Token.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -5326,6 +5326,7 @@
             <infoLink name="Transport Vehicle Actions" id="46f5-febf-c483-db79" hidden="false" targetId="d3bd-9092-41d2-8882" type="profile"/>
             <infoLink name="Shield Generator" id="6619-ab2d-3670-2f8a" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule"/>
             <infoLink name="Rank has its Privileges" id="0ada-b731-c3a9-06b8" hidden="false" type="rule" targetId="7d1b-65ee-7808-b26d"/>
+            <infoLink name="Low Profile" id="a71e-9e41-2655-9023" hidden="false" type="rule" targetId="06ae-c996-2397-250a"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Communications Uplink" hidden="false" id="9550-626d-8e90-8fe3">
@@ -5355,6 +5356,11 @@
             </entryLink>
             <entryLink import="true" name="Officer Upgrades" hidden="false" id="0f58-99b9-5c55-38e9" type="selectionEntryGroup" targetId="a1d5-cf70-3898-0ebb"/>
           </entryLinks>
+          <rules>
+            <rule name="Command Car" id="bbd7-ffd9-91c1-e43b" hidden="false">
+              <description>When this Unit issues an Order, choose an unordered Unit within 8&quot; of that one, that Unit is also ordered.</description>
+            </rule>
+          </rules>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Pinzgauer Staff Car" hidden="false" id="19a-a31b-29e3-1f0b" collective="false">
           <profiles>
@@ -5391,6 +5397,7 @@
             <infoLink name="Shield Generator" id="481c-4fc6-26c8-d1cb" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule"/>
             <infoLink name="Rank has its Privileges" id="1a62-81f1-7547-8888" hidden="false" type="rule" targetId="7d1b-65ee-7808-b26d"/>
             <infoLink name="Hitch" id="cfb1-d383-f7d6-e2b5" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
+            <infoLink name="Low Profile" id="9e95-ade5-abfa-663e" hidden="false" type="rule" targetId="06ae-c996-2397-250a"/>
           </infoLinks>
           <costs>
             <cost name="Munitions" typeId="Points" value="40"/>
@@ -5738,7 +5745,7 @@
           </costs>
           <rules>
             <rule name="Mobile Shield Generator" id="83f9-c9ee-8be2-d4ea" hidden="false">
-              <description>Allied units within 12&quot; may allocate damage to this unit&apos;s shields as if they were their own.</description>
+              <description>Shield Checks made against friendly Units within 6&quot; of this Unit are performed as a 6+</description>
             </rule>
           </rules>
           <categoryLinks>
@@ -6911,7 +6918,7 @@
           </costs>
           <rules>
             <rule name="The Kaiser&apos;s Bidding" id="a3ba-7973-9faa-886f" hidden="false">
-              <description>Before Deployment, select one Enemy Command or Hero Unit. If the selected Unit is eliminated by Franz Von Trotta&apos;s Unit, you gain one Victory Point. (VP)</description>
+              <description>At the end of the first Setup Phase, select one Enemy Command or Hero Unit and designate them as an Enemy of the State. When a designated Unit is eliminated by Franz Von Trotta&apos;s Unit, you gain one Victory Point (VP).  If Franz Von Trotta is your Field Commander, when an Enemy of the State is Eliminated, select a new Unit to be designated.</description>
             </rule>
             <rule name="Pet Pseudodrachen" id="ae10-a999-c0c4-e875" hidden="false">
               <description>At the end of Franz Von Trotta&apos;s activation, his pet Pseudodrachen Stefan applies one Suppression to one Enemy Unit within 20&quot;.</description>
@@ -6987,6 +6994,9 @@
                 <modifier type="append" value="Knecht Battlesuit Squad" field="name"/>
               </modifiers>
             </rule>
+            <rule name="Knight Commander" id="8960-48f9-9dcd-99f9" hidden="false">
+              <description>In the Command Phase, Chaim Drescher: The Maccabean Knight, issues an Order to every Unit of Panzergrenadiers and Knecht Battlesuits in this Platoon. If Chaim Drescher: The Maccabean Knight is your Field Commander, Order all Panzergrenadiers and Knecht Battlesuits in your Army. These Orders are issued regardless of range.</description>
+            </rule>
           </rules>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="917f-190e-3c3-7171" includeChildSelections="true"/>
@@ -7050,7 +7060,7 @@
           </selectionEntries>
           <rules>
             <rule name="Cavalry Tactics" id="667f-b267-9a7f-1351" hidden="false">
-              <description>When Baron Lajos Dolmán de Szolnok‘s Unit destroys an Enemy Unit, it may immediately make a Free Move Action.</description>
+              <description>When Baron Lajos Dolmán de Szolnok‘s Unit destroys an Enemy Unit, it may immediately make a Free Move Action. If Baron Lajos Dolmán de Szolnok is your Field Commander, all Vehicle Units in the same platoon as him may also do this.</description>
             </rule>
             <rule name="Motorized" id="a8c5-fe85-080e-f534" hidden="false">
               <description>Baron Lajos Dolmán de Szolnok may be Mounted in any non-Flying Vehicle Unit.</description>
@@ -7267,7 +7277,7 @@
                 <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
               </costs>
               <entryLinks>
-                <entryLink import="true" name="Nominate Field Commander" hidden="false" id="bdec-3bbd-0e71-d070" type="selectionEntry" targetId="a8f2-8cd0-efc0-4a1b"/>
+                <entryLink import="true" name="Officer Upgrades" hidden="false" id="c1bd-9e69-1213-03ac" type="selectionEntryGroup" targetId="a1d5-cf70-3898-0ebb"/>
               </entryLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Rail-Mounted Machine Guns" hidden="false" id="f233-575d-81ee-c820">
@@ -7364,7 +7374,7 @@
             <selectionEntry type="upgrade" import="true" name="Cross of Merit" hidden="false" id="bac3-ec44-f375-7d43">
               <rules>
                 <rule name="Cross of Merit" id="e478-e832-6267-6219" hidden="false">
-                  <description>Units in this Commander&apos;s Platoon gain +2 to their Shield Special Rule</description>
+                  <description>Units in this Commander&apos;s Platoon recieve an Aim Token when they take a Reaction.</description>
                 </rule>
               </rules>
               <costs>
@@ -7563,7 +7573,7 @@
                     <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
                   </costs>
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="Primary Weapon" id="2860-d933-cffe-5148" hidden="false" defaultSelectionEntryId="b4e9-53ab-a3a2-b7f0">
+                    <selectionEntryGroup name="Primary Weapon" id="2860-d933-cffe-5148" hidden="false" defaultSelectionEntryId="b79e-359e-1f9c-9b23">
                       <entryLinks>
                         <entryLink import="true" name="CKF Greatsword" hidden="false" id="b4e9-53ab-a3a2-b7f0" type="selectionEntry" targetId="0396-a57b-ee52-2c78">
                           <constraints>
