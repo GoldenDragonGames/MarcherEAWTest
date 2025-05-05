@@ -899,10 +899,10 @@
     <selectionEntry type="upgrade" import="true" name="2cm Autocannon" hidden="false" id="c7ef-dc76-d58d-4167" collective="true">
       <infoLinks>
         <infoLink name="2cm Autocannon" id="80ff-bab2-e8f4-6cf9" hidden="false" targetId="2e0c-9e71-c3ee-6e5b" type="profile"/>
-        <infoLink name="Flak Shells" id="fa52-7377-7af5-3026" hidden="false" type="rule" targetId="57bd-6e01-9873-bd79"/>
+        <infoLink name="Concussive" id="fa52-7377-7af5-3026" hidden="false" type="rule" targetId="2535-84fb-dcc0-f3ac"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="29"/>
+        <cost name="Munitions" typeId="Points" value="39"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -911,10 +911,10 @@
     <selectionEntry type="upgrade" import="true" name="4cm Autocannon" hidden="false" id="6a2b-198d-743e-54ea" collective="true">
       <infoLinks>
         <infoLink name="4cm Autocannon" id="ad2f-b2d3-125e-8ccd" hidden="false" targetId="364f-9d78-f5a9-ea45" type="profile"/>
-        <infoLink name="Flak Shells" id="086b-1309-3c26-7579" hidden="false" type="rule" targetId="57bd-6e01-9873-bd79"/>
+        <infoLink name="Concussive" id="086b-1309-3c26-7579" hidden="false" type="rule" targetId="2535-84fb-dcc0-f3ac"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="31"/>
+        <cost name="Munitions" typeId="Points" value="60"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -963,10 +963,9 @@
       <infoLinks>
         <infoLink name="12cm High Velocity Cannon" id="2a15-4529-9cb4-b541" hidden="false" targetId="a1ed-00f9-94fc-fc87" type="profile"/>
         <infoLink name="Critical Shot" id="8aa5-4c6-4767-7859" hidden="false" type="rule" targetId="a53f-6c4f-8514-7703"/>
-        <infoLink name="High Explosive" id="7431-bbb6-af97-a905" hidden="false" type="rule" targetId="9375-d461-c135-9e66"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="143"/>
+        <cost name="Munitions" typeId="Points" value="78"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -1329,14 +1328,10 @@
     <selectionEntry type="upgrade" import="true" name="M1935 Heat Torch" hidden="false" id="dfd5-e186-26ed-5aa2" collective="true">
       <infoLinks>
         <infoLink name="M1935 Heat Torch" id="8d75-d158-d58d-e819" hidden="false" type="profile" targetId="4e65-47cd-f562-c549"/>
-        <infoLink name="Heat Ray" id="a5c4-197d-8d4c-70c5" hidden="false" type="rule" targetId="56bf-a271-a758-6f38">
-          <modifiers>
-            <modifier type="append" value="5" field="name"/>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Heat Ray" id="a5c4-197d-8d4c-70c5" hidden="false" type="rule" targetId="56bf-a271-a758-6f38"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="8"/>
+        <cost name="Munitions" typeId="Points" value="14"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -1655,14 +1650,10 @@
     <selectionEntry type="upgrade" import="true" name="22M Heat Cannon" hidden="false" id="8bfe-af51-51c3-82c1">
       <infoLinks>
         <infoLink name="22M Heat Cannon" id="b8ab-9170-ca43-a506" hidden="false" type="profile" targetId="1c00-4621-075b-f314"/>
-        <infoLink name="Heat Ray" id="14fb-2cc7-6c3c-810d" hidden="false" type="rule" targetId="56bf-a271-a758-6f38">
-          <modifiers>
-            <modifier type="append" value="6" field="name"/>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Heat Ray" id="14fb-2cc7-6c3c-810d" hidden="false" type="rule" targetId="56bf-a271-a758-6f38"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="15"/>
+        <cost name="Munitions" typeId="Points" value="31"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -1830,12 +1821,12 @@
     </profile>
     <profile id="2e0c-9e71-c3ee-6e5b" name="2cm Autocannon" hidden="false" typeId="Weapon" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">16&quot;</characteristic>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">6</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">4</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Flak Shells</characteristic>
-        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Kinetic, Heavy, Cannon, Ranged</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Concussive</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Autocannon, Kinetic</characteristic>
       </characteristics>
     </profile>
     <profile id="f4ae-6218-f063-bfac" name="32M Granatewerfer" hidden="false" typeId="Weapon" typeName="Weapon">
@@ -1900,11 +1891,11 @@
     </profile>
     <profile id="364f-9d78-f5a9-ea45" name="4cm Autocannon" hidden="false" typeId="Weapon" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">20&quot;</characteristic>
-        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">6</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">6</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">4</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Flak Shells</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Concussive</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Autocannon, Kinetic</characteristic>
       </characteristics>
     </profile>
@@ -2091,10 +2082,10 @@
     <profile name="M1935 Heat Torch" typeId="Weapon" typeName="Weapon" hidden="false" id="4e65-47cd-f562-c549">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">16&quot;</characteristic>
-        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
-        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">0</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">3</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Heat Ray 5</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Heat Ray</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Rifle, Ray</characteristic>
       </characteristics>
     </profile>
@@ -2241,10 +2232,10 @@
     <profile name="22M Heat Cannon" typeId="Weapon" typeName="Weapon" hidden="false" id="1c00-4621-075b-f314">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">16&quot;</characteristic>
-        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
-        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">0</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">4</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1D5+3</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Heat Ray 6</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Heat Ray</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Cannon, Ray</characteristic>
       </characteristics>
     </profile>

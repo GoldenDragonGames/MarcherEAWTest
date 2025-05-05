@@ -1009,10 +1009,10 @@
     <selectionEntry type="upgrade" import="true" name="Oerlikon 20mm Autocannon" hidden="false" id="6157-18d5-7978-5946" collective="true">
       <infoLinks>
         <infoLink name="Oerlikon 20mm Autocannon" id="d97f-fee5-1bcc-6eb6" hidden="false" targetId="c848-d5ea-e490-9c3b" type="profile"/>
-        <infoLink name="Flak Shells" id="7db5-b64b-a28f-c495" hidden="false" type="rule" targetId="57bd-6e01-9873-bd79"/>
+        <infoLink name="Concussive" id="0bce-0fe3-2938-b8fb" hidden="false" type="rule" targetId="2535-84fb-dcc0-f3ac"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="15"/>
+        <cost name="Munitions" typeId="Points" value="24"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -1021,10 +1021,10 @@
     <selectionEntry type="upgrade" import="true" name="Oerlikon 40mm Autocannon" hidden="false" id="aced-7e4f-18a3-80bd" collective="true">
       <infoLinks>
         <infoLink name="Oerlikon 40mm Autocannon" id="94b3-c091-ad39-edeb" hidden="false" targetId="d6a3-f251-908c-7461" type="profile"/>
-        <infoLink name="Flak Shells" id="16dc-84f0-b81e-4195" hidden="false" type="rule" targetId="57bd-6e01-9873-bd79"/>
+        <infoLink name="Concussive" id="16dc-84f0-b81e-4195" hidden="false" type="rule" targetId="2535-84fb-dcc0-f3ac"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="24"/>
+        <cost name="Munitions" typeId="Points" value="32"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -1195,14 +1195,10 @@
     <selectionEntry type="upgrade" import="true" name="A3 &quot;Sonora&quot; Heat Cannon" hidden="false" id="53a7-5e0-d2e1-9f1d">
       <infoLinks>
         <infoLink name="A3 &quot;Sonora&quot; Heat Cannon" id="be28-2044-84a0-e57c" hidden="false" type="profile" targetId="d550-7ea9-5b92-22f5"/>
-        <infoLink name="Heat Ray" id="c94f-bf63-1eec-1b94" hidden="false" type="rule" targetId="56bf-a271-a758-6f38">
-          <modifiers>
-            <modifier type="append" value="10" field="name"/>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Heat Ray" id="c94f-bf63-1eec-1b94" hidden="false" type="rule" targetId="56bf-a271-a758-6f38"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="50"/>
+        <cost name="Munitions" typeId="Points" value="67"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -1457,14 +1453,10 @@
     <selectionEntry type="upgrade" import="true" name="M5E2 &quot;Red Glare&quot; Heat Rifle" hidden="false" id="9c94-6672-7752-ea3d" collective="true">
       <infoLinks>
         <infoLink name="M5E2 &quot;Red Glare&quot; Heat Rifle" id="d628-8df8-534c-4065" hidden="false" type="profile" targetId="2b8f-b42c-891d-3a6b"/>
-        <infoLink name="Heat Ray" id="4c3e-6cc7-db39-8e63" hidden="false" type="rule" targetId="56bf-a271-a758-6f38">
-          <modifiers>
-            <modifier type="append" value="5" field="name"/>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Heat Ray" id="4c3e-6cc7-db39-8e63" hidden="false" type="rule" targetId="56bf-a271-a758-6f38"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="8"/>
+        <cost name="Munitions" typeId="Points" value="14"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -1899,17 +1891,6 @@
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Quad Autocannon Array" hidden="false" id="1060-df62-616d-46c1">
-      <infoLinks>
-        <infoLink name="Quad Autocannon Array" id="e060-69a5-f5e9-4994" hidden="false" type="profile" targetId="e7eb-e624-35aa-b0af"/>
-        <infoLink name="Flak Shells" id="5f34-ce7e-4c2c-109f" hidden="false" type="rule" targetId="57bd-6e01-9873-bd79"/>
-      </infoLinks>
-      <costs>
-        <cost name="Munitions" typeId="Points" value="116"/>
-        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sensor Pod" hidden="false" id="607e-984b-ec1b-7fb4" collective="true">
       <infoLinks>
         <infoLink name="Sensor Pod" id="09f5-1ca9-51a9-6846" hidden="false" targetId="e97f-bdaa-eb32-7074" type="profile"/>
@@ -2041,14 +2022,10 @@
     <selectionEntry type="upgrade" import="true" name="A1 Medium Heat Cannon" hidden="false" id="8762-30cb-fe8a-3d3e">
       <infoLinks>
         <infoLink name="A1 Medium Heat Cannon" id="8925-a9cb-672f-c20e" hidden="false" type="profile" targetId="7a9a-1ce5-6330-5384"/>
-        <infoLink name="Heat Ray" id="67f0-5d0d-9eae-9db2" hidden="false" type="rule" targetId="56bf-a271-a758-6f38">
-          <modifiers>
-            <modifier type="append" value="7" field="name"/>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Heat Ray" id="67f0-5d0d-9eae-9db2" hidden="false" type="rule" targetId="56bf-a271-a758-6f38"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="22"/>
+        <cost name="Munitions" typeId="Points" value="54"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -2080,15 +2057,11 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="A5 Light Heat Cannon" hidden="false" id="52bb-cc70-c018-e841">
       <infoLinks>
-        <infoLink name="Heat Ray" id="8123-0e71-c21f-439b" hidden="false" type="rule" targetId="56bf-a271-a758-6f38">
-          <modifiers>
-            <modifier type="append" value="5" field="name"/>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Heat Ray" id="8123-0e71-c21f-439b" hidden="false" type="rule" targetId="56bf-a271-a758-6f38"/>
         <infoLink name="A5 Light Heat Cannon" id="cda5-02cc-3bbe-06fc" hidden="false" type="profile" targetId="08ac-ebd5-fc0b-4ffe"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="10"/>
+        <cost name="Munitions" typeId="Points" value="31"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -2366,21 +2339,21 @@
     </profile>
     <profile id="c848-d5ea-e490-9c3b" name="Oerlikon 20mm Autocannon" hidden="false" typeId="Weapon" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">16&quot;</characteristic>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">4</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Flak Shells</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Concussive</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Autocannon, Kinetic</characteristic>
       </characteristics>
     </profile>
     <profile id="d6a3-f251-908c-7461" name="Oerlikon 40mm Autocannon" hidden="false" typeId="Weapon" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">20&quot;</characteristic>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">5</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">4</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">4</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Flak Shells</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Concussive</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Autocannon, Kinetic</characteristic>
       </characteristics>
     </profile>
@@ -2547,10 +2520,10 @@
     <profile name="M5E2 &quot;Red Glare&quot; Heat Rifle" typeId="Weapon" typeName="Weapon" hidden="false" id="2b8f-b42c-891d-3a6b">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">16&quot;</characteristic>
-        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
-        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">0</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">3</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Heat Ray 5</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Heat Ray</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Rifle, Ray</characteristic>
       </characteristics>
     </profile>
@@ -2747,10 +2720,10 @@
     <profile name="A3 &quot;Sonora&quot; Heat Cannon" typeId="Weapon" typeName="Weapon" hidden="false" id="d550-7ea9-5b92-22f5">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">16&quot;</characteristic>
-        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
-        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">0</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">6</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3D5+3</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Heat Ray 10</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Heat Ray</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Energy, Ranged</characteristic>
       </characteristics>
     </profile>
@@ -2907,10 +2880,10 @@
     <profile name="A1 Medium Heat Cannon" typeId="Weapon" typeName="Weapon" hidden="false" id="7a9a-1ce5-6330-5384">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">16&quot;</characteristic>
-        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
-        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">0</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">5</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2D5+3</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Heat Ray 7</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Heat Ray</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Cannon, Ray</characteristic>
       </characteristics>
     </profile>
@@ -2937,10 +2910,10 @@
     <profile name="A5 Light Heat Cannon" typeId="Weapon" typeName="Weapon" hidden="false" id="08ac-ebd5-fc0b-4ffe">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">16&quot;</characteristic>
-        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
-        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">0</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">4</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1D5+3</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Heat Ray 6</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Heat Ray</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Cannon, Ray</characteristic>
       </characteristics>
     </profile>
@@ -4269,7 +4242,7 @@
           </costs>
           <rules>
             <rule name="Uncomfortably Powerful" id="6bc0-2b2b-6938-8e38" hidden="false">
-              <description>When an enemy unit is destroyed by this unit, all units within 6&quot; of the destroyed unit gain a suppression token.</description>
+              <description>When an Enemy Unit is destroyed by this Unit, all Units within 6&quot; of the destroyed Unit gain a Suppression Token.</description>
             </rule>
           </rules>
           <entryLinks>
@@ -4991,6 +4964,11 @@
                     <entryLink import="true" name="M45 Energy AT-Cannon" hidden="false" id="b89a-01d6-f8a0-9387" collective="false" targetId="73d2-f535-0613-fe24" type="selectionEntry">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e48-c22b-46e2-4d45" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Oerlikon 40mm Autocannon" hidden="false" id="68b2-9d5c-c5a6-58e4" type="selectionEntry" targetId="aced-7e4f-18a3-80bd">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b233-f1d1-3cdc-934a" includeChildSelections="false"/>
                       </constraints>
                     </entryLink>
                   </entryLinks>
@@ -11683,10 +11661,10 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Turret" hidden="false" id="96c2-95ff-cdf9-7ca1">
               <entryLinks>
-                <entryLink import="true" name="Quad Autocannon Array" hidden="false" id="fa28-1d55-68ec-1ada" collective="false" targetId="1060-df62-616d-46c1" type="selectionEntry">
+                <entryLink import="true" name="Oerlikon 40mm Autocannon" hidden="false" id="fa28-1d55-68ec-1ada" collective="false" targetId="aced-7e4f-18a3-80bd" type="selectionEntry">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8e1c-b9b9-99c4-a4f5-min" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e1c-b9b9-99c4-a4f5-max" includeChildSelections="false"/>
+                    <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="8e1c-b9b9-99c4-a4f5-min" includeChildSelections="false"/>
+                    <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="8e1c-b9b9-99c4-a4f5-max" includeChildSelections="false"/>
                   </constraints>
                 </entryLink>
               </entryLinks>

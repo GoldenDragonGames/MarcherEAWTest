@@ -250,9 +250,11 @@
     <forceEntry name="Recon Platoon" id="df9c-5241-555f-2018" hidden="false">
       <categoryLinks>
         <categoryLink name="Recon Platoon Configuration" hidden="false" id="67e4-f520-433b-c784" targetId="baba-9300-79c2-8556" primary="false"/>
-        <categoryLink name="Command" hidden="false" id="d0f1-279b-c2cb-5de6" targetId="70eb-c264-a9cb-1bfe">
+        <categoryLink name="Command" hidden="false" id="85ce-3a90-edf6-5152" targetId="70eb-c264-a9cb-1bfe">
           <constraints>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="20f4-af70-bb12-ec73" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="482d-b182-d748-b861" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e5fb-2f20-d278-9fbc" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1f9a-cd1e-e58c-ceec" includeChildSelections="false"/>
           </constraints>
         </categoryLink>
         <categoryLink name="Heroes" hidden="false" id="7c5e-509d-4afa-375f" targetId="33a5-8b7e-49bb-c30d"/>
@@ -993,7 +995,7 @@
       <description>If this Model selects this weapon to attack with. It may not attack with any other differently named weapons this activation.</description>
     </rule>
     <rule id="7235-63bc-0668-6ac4" name="Flames" hidden="false">
-      <description>When making an attack with this weapon, all hits succeed automatically. Apply the Burning condition to any Units attacked with this weapon.</description>
+      <description>When making an Attack with this weapon, all Hits succeed automatically. Apply the Burning condition to any Units attacked with this weapon.</description>
     </rule>
     <rule id="2056-c454-be5c-ea02" name="Ammo" hidden="false">
       <description>This weapon may only be selected to fire x times per Unit per game.</description>
@@ -1081,7 +1083,7 @@
       <description>This weapon ignores Cover and Units targeted with an attack by it do not gain the benefit of Cover. If you&apos;ve taken aim this turn, choose a model in the targeted unit and use its evasion and armor for the attack rolls, that model also takes the damage from the attack.</description>
     </rule>
     <rule id="fd2f-2557-0580-c397" name="Jump-Packs" hidden="false">
-      <description>This Unit gains Move as a Free Action. This Unit may ignore the effects of any terrain it moves across.</description>
+      <description>Once per activation, this Unit may Move as a Free Action, if it does, it may gain the Flying Keyword until its next activation.</description>
     </rule>
     <rule id="8e52-a616-aab9-73b8" name="Designated Leader" hidden="false">
       <description>This Model must be attached to a non-Command Unit that it shares a CORE Keyword with in this Platoon before the Game starts. After this Model is attached it must be designated as the Leader of the combined Unit. A Unit may not have more than one additional Model attached to it in this way.</description>
@@ -1093,7 +1095,7 @@
       <description>When a unit is hit by weapon(s) with the &quot;Slag&quot; keyword, its armor value is reduced by 1 until the end of the round. (This effect is cumulative)</description>
     </rule>
     <rule name="Heat Ray" id="56bf-a271-a758-6f38" hidden="false">
-      <description>This weapon automatically passes armor checks against Units with Armor Values of X or less.</description>
+      <description>Apply the Burning Condition to Units attacked by this Weapon. When making an Attack with this weapon, you may choose to Modulate. If you do, half this weapon&apos;s Hits profile and double its Armor Penetration until this Attack is resolved.</description>
     </rule>
     <rule name="Burrowing" id="ed5f-b19a-332-fe86" hidden="false">
       <description>Instead of deploying this unit at the start of the game you may declare that this unit is Burrowing. A burrowing unit may activate only after all non-burrowing in your army have activated this turn. The first time a burrowing unit activates, you may deploy it no closer than 8” from an enemy unit. (This ability must be resolved before activating units with cumbersome.) A unit deployed this way gets one less action on the turn it enters the battlefield.</description>
@@ -1287,7 +1289,7 @@ Units.</description>
       <description>All Vehicle Units in the selected Platoon increase their Evasion Value by 2 if they are within 6” of a Troop Unit.</description>
     </rule>
     <rule name="Flak Shells" id="57bd-6e01-9873-bd79" hidden="false">
-      <description>Attacks from this Weapon against Units with the Flying Keyword pass Hit Checks on 5s or greater, regardless of the target&apos;s Evasion.</description>
+      <description>Attacks from this Weapon against Units with the Flying Keyword ignore the Range penalty from Flying. pass Evasion Checks on 5s or greater, regardless of the target&apos;s Evasion.</description>
     </rule>
     <rule name="Fuel Drums" id="e6e0-df35-6dc6-fb12" hidden="false">
       <description>Perfom a free Dash Action once per game.</description>
@@ -1408,7 +1410,7 @@ are in your army only one counter is ticked down at a time.</description>
       <description>Whenever a Unit makes an Attack with this Weapon, after the Attack has been resolved, you may apply a Bombard Token to all Terrain Features within the zone of this Weapon&apos;s Blast Token. Tokens may only be applied to Terrain Features with a Cover Score of X or less. For each Bombard Token a Terrain Feature has, its Cover Score is reduced by one. If a Terrain Feature&apos;s Cover Score is lowered to 0, it is removed from the Battlefield.</description>
     </rule>
     <rule name="Concussive" id="2535-84fb-dcc0-f3ac" hidden="false">
-      <description>When making an Attack with this Weapon, you may choose to roll a Concussion Check instead of an Evasion Check. If you do, roll XD5 for each copy of this Weapon in the Attack Pool. If the sum of all Concussion Checks in the Attack Pool is equal to or greater than the current HP of the Target of the Attack, apply a Concussed Token. When that Unit next Activates, it loses one Action for each Concussed Token applied to it, then discards the Token.</description>
+      <description>After resolving an Attack with Concussive Weapons, you may roll a Concussion Check. To roll a Concussion Check, roll 1D5 for each Weapon with Concussive in the Attack Pool. If the sum of this roll is equal to or greater than the current HP of the Unit Targeted by the Attack, apply a Concussed Token. When a Unit activates with one or more Concussion Tokens, it must spend one Action per Token to discard them.</description>
     </rule>
     <rule name="Headshot" id="9d6c-a49e-e767-123d" hidden="false">
       <description>When resolving an Attack with this Weapon against a Unit with the Troops Keywords, for each Hit which is an unmodified 10, automatically pass the following Armor Check.</description>
