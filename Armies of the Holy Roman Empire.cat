@@ -1229,11 +1229,6 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
       </costs>
-      <rules>
-        <rule name="Knecht Mace and Shield" id="2878-6601-dd75-dd41" hidden="false">
-          <description>When rolling Shield Checks against a Unit equipped with this Weapon, the Checks must be made as 5+</description>
-        </rule>
-      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="M1920 WS Flammenwerfer" hidden="false" id="a566-91a1-5d24-abdc" collective="true">
       <infoLinks>
@@ -2519,7 +2514,7 @@
           </entryLinks>
           <rules>
             <rule name="Directed Shields" id="e38f-ecde-4496-9277" hidden="false">
-              <description>If this Unit Activates its Shield Generator as a Reaction to an Attack against its Frontal Armor Profile, the Shield Check must be made as a 6+ instead.</description>
+              <description>If this Unit Activates its Shield Generator against an Attack against its Frontal Armor Profile, it gains Bulwark 4 until the attack is resolved.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -2947,9 +2942,9 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Infantry" id="3c7e-bc8e-c290-542e" hidden="false">
       <selectionEntries>
-        <selectionEntry type="unit" import="true" name="Veteran Landwehr" hidden="false" id="67bf-4e27-a001-9987" collective="false">
+        <selectionEntry type="unit" import="true" name="Veteran Landwehr Squad" hidden="false" id="67bf-4e27-a001-9987" collective="false">
           <profiles>
-            <profile name="Veteran Landwehr" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="c007-d178-f284-6874">
+            <profile name="Veteran Landwehr Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="c007-d178-f284-6874">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Unteroffizier , 5-9x  Veterans, 0-2x Stabsgrefrieters, 0-1x Flagbearer, &amp; 0-1x Sanitäter</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Infantry, (AUX) Mechanized, Troop</characteristic>
@@ -3326,6 +3321,19 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
+            <selectionEntryGroup name="Form MG36 Team" id="f731-346c-2f67-e0fb" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="MG36 Medium Machine Gun" hidden="false" id="04c0-f608-3514-f300" type="selectionEntry" targetId="71b3-782b-df7f-f847"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="868a-6c76-f2c7-cfd7"/>
+              </constraints>
+              <rules>
+                <rule name="Form MG36 Team" id="f67a-fbd9-3562-38a3" hidden="false">
+                  <description>You may remove two models from this unit and add one MG36 team model. This unit is equipped with all equipment and hit points from the removed models, as well as one MG36 Medium Machine Gun. Limit one team per unit.</description>
+                </rule>
+              </rules>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="Munitions" typeId="Points" value="0"/>
@@ -3378,7 +3386,7 @@
                         <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
                         <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
                         <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">2</characteristic>
-                        <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
+                        <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3430,7 +3438,7 @@
                         <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
                         <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
                         <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">2</characteristic>
-                        <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">1</characteristic>
+                        <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3464,6 +3472,11 @@
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="48db-ca76-5a24-8bc5"/>
               </constraints>
+              <rules>
+                <rule name="Form MG36 Team" id="2247-c00d-59a4-4427" hidden="false">
+                  <description>You may remove two models from this unit and add one MG36 team model. This unit is equipped with all equipment and hit points from the removed models, as well as one MG36 Medium Machine Gun. Limit one team per unit.</description>
+                </rule>
+              </rules>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
@@ -3479,11 +3492,8 @@
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
           <rules>
-            <rule name="Form MG36 Team" id="2247-c00d-59a4-4427" hidden="false">
-              <description>You may remove two models from this unit and add one MG36 team model. This unit is equipped with all equipment and hit points from the removed models, as well as one MG36 Medium Machine Gun. Limit one team per unit.</description>
-            </rule>
             <rule name="Mozgósítási Menetrend" id="aa86-e984-34d7-f568" hidden="false">
-              <description>When this Unit makes an Attack Action, if it is not the First Round, it gains an Aim Token.</description>
+              <description>When you use the Reinforcement Special Requisition targeting this Unit, it is deployed at full strength.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -3830,6 +3840,19 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
+            <selectionEntryGroup name="Form MG36 Team" id="9ff1-0b5f-2c0d-540a" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="MG36 Medium Machine Gun" hidden="false" id="f10f-0882-e1a8-a4bb" type="selectionEntry" targetId="71b3-782b-df7f-f847"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d83-cbb3-0fce-26fc"/>
+              </constraints>
+              <rules>
+                <rule name="Form MG36 Team" id="c93c-1ebe-a911-7f86" hidden="false">
+                  <description>You may remove two models from this unit and add one MG36 team model. This unit is equipped with all equipment and hit points from the removed models, as well as one MG36 Medium Machine Gun. Limit one team per unit.</description>
+                </rule>
+              </rules>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
             <entryLink import="true" name="Troops Upgrades" hidden="false" id="c0e6-acb1-fcbc-09ee" type="selectionEntryGroup" targetId="c42e-5415-a1c5-e2d8">
@@ -3846,7 +3869,7 @@
           </costs>
           <rules>
             <rule name="Festung Doctrine" id="5c64-c258-adab-319c" hidden="false">
-              <description>This Unit may activate its Shield Generator an additional time each Round, even after its own Activation. If it does, it gains a Suppression Token.</description>
+              <description>This Unit may activate its Shield Generator an additional time each Round.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -6622,7 +6645,7 @@
           </entryLinks>
           <rules>
             <rule name="High-Powered Shield Generator" id="c790-801a-7652-e4c7" hidden="false">
-              <description>When Shield Checks are made against this Unit, they are performed as a 6+</description>
+              <description>When this Unit activates its Shield Generator, it may reduce incoming weapons AP by an additional 2 once without spending an Action. It may do this even if it has already Activated.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -7353,7 +7376,7 @@
               <description>You may use the Well Informed Special Requisition any number of times per Round, so long as the the additional uses apply to Friendly Units within 12&quot; of this one.</description>
             </rule>
             <rule name="High-Powered Shield Generator" id="f726-0287-b9b2-1dce" hidden="false">
-              <description>When Shield Checks are made against this Unit, they are performed as a 6+</description>
+              <description>When this Unit activates its Shield Generator, it may reduce incoming weapons AP by an additional 2 once without spending an Action. It may do this even if it has already Activated.</description>
             </rule>
           </rules>
           <entryLinks>
@@ -7369,7 +7392,7 @@
             <selectionEntry type="upgrade" import="true" name="Cross of Merit" hidden="false" id="bac3-ec44-f375-7d43">
               <rules>
                 <rule name="Cross of Merit" id="e478-e832-6267-6219" hidden="false">
-                  <description>Units in this Commander&apos;s Platoon recieve an Aim Token when they take a Reaction.</description>
+                  <description>Units in this Commander&apos;s Platoon gain a Level of Cover when they activate their Shield Generator until the next time they take a Movement Action.</description>
                 </rule>
               </rules>
               <costs>

@@ -835,11 +835,7 @@
     <selectionEntry type="upgrade" import="true" name="Industrial Drill" hidden="false" id="ed45-160e-b1d8-3a37">
       <infoLinks>
         <infoLink name="Industrial Drill" id="49a7-1464-b07b-625d" hidden="false" type="profile" targetId="ecb9-8e0e-b27d-b10"/>
-        <infoLink name="Heat Ray" id="d032-7ba0-d9d8-03e4" hidden="false" type="rule" targetId="56bf-a271-a758-6f38">
-          <modifiers>
-            <modifier type="append" value="7" field="name"/>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Heat Ray" id="d032-7ba0-d9d8-03e4" hidden="false" type="rule" targetId="56bf-a271-a758-6f38"/>
       </infoLinks>
       <costs>
         <cost name="Munitions" typeId="Points" value="29"/>
@@ -925,11 +921,7 @@
     <selectionEntry type="upgrade" import="true" name="MAS 34 Chaleur" hidden="false" id="6c7f-f595-2ad4-144e" collective="true">
       <infoLinks>
         <infoLink name="MAS 34 Chaleur" id="cf1c-4069-e8e6-976b" hidden="false" type="profile" targetId="9b9f-95e6-5167-dabf"/>
-        <infoLink name="Heat Ray" id="2707-1456-fbba-1e9f" hidden="false" type="rule" targetId="56bf-a271-a758-6f38">
-          <modifiers>
-            <modifier type="append" value="5" field="name"/>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Heat Ray" id="2707-1456-fbba-1e9f" hidden="false" type="rule" targetId="56bf-a271-a758-6f38"/>
       </infoLinks>
       <costs>
         <cost name="Munitions" typeId="Points" value="14"/>
@@ -3770,14 +3762,9 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule name="Inspire Élan" id="89f5-0a26-b905-702a" hidden="false">
-              <description>This Unit cannot gain more than one Suppression Token in a round.</description>
-            </rule>
-          </rules>
           <infoLinks>
-            <infoLink name="Designated Leader" id="6528-4f7d-af13-e900" hidden="false" targetId="8e52-a616-aab9-73b8" type="rule"/>
             <infoLink name="Command Actions" id="1fc2-2fbc-09b9-3c46" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
+            <infoLink name="Distributed Command" id="920f-5317-4975-1133" hidden="false" type="rule" targetId="71be-d9b3-dff9-cc7e"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Commissaires" id="9a74-1123-f162-5b98" hidden="false" collective="false" import="true">
@@ -3827,6 +3814,14 @@
                       </constraints>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <rules>
+                    <rule name="Inspire Élan" id="89f5-0a26-b905-702a" hidden="false">
+                      <description>This Unit cannot gain more than one Suppression Token in a round.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks>
+                    <infoLink name="Designated Leader" id="6528-4f7d-af13-e900" hidden="false" targetId="8e52-a616-aab9-73b8" type="rule"/>
+                  </infoLinks>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -4420,6 +4415,35 @@
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="43a-1d5f-2aec-86c2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8e16-d31d-ef12-d03c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Munitions" typeId="Points" value="6"/>
+                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                    <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="model" import="true" name="Fantassin with LMG" hidden="false" id="662b-cdde-4282-a56c" collective="false">
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="055c-1845-2e4f-ef75" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Fantassin" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="2025-d169-3bfc-c757">
+                      <characteristics>
+                        <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
+                        <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                        <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">3</characteristic>
+                        <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">2</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <entryLinks>
+                    <entryLink import="true" name="FEM Chauchat" hidden="false" id="6621-a5c9-78a8-875e" collective="false" targetId="1781-669c-fd8e-e2ab" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bfba-1399-ae19-e5ce" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7de1-c6ec-16e8-d2cc" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                     </entryLink>
                   </entryLinks>

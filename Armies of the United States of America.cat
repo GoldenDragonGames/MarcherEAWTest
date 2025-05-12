@@ -1612,7 +1612,7 @@
         <infoLink name="Close In" id="3066-3c26-ca55-b97b" hidden="false" targetId="6f53-dabe-1243-14cf" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="48"/>
+        <cost name="Munitions" typeId="Points" value="72"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -2482,7 +2482,7 @@
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">18&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">24</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">0</characteristic>
-        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Close In, Flames</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Emitter, Flames</characteristic>
       </characteristics>
@@ -5120,7 +5120,7 @@
           </selectionEntries>
           <rules>
             <rule name="Exo-suit Loader" id="6ee6-289f-3b58-9a34" hidden="false">
-              <description>Every time you tick down a Dial In counter for an Artillery Unit in this army that is not this one, you may also tick down this one.</description>
+              <description>Once per Activation, when you tick down a Dial In counter for an Artillery Unit in this army that is not this one, you may also tick down this one.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -8206,6 +8206,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
           </profiles>
           <infoLinks>
             <infoLink name="One Track Programming" id="8367-0dbc-8b31-10eb" hidden="false" targetId="b193-2930-d1eb-db82" type="rule"/>
+            <infoLink name="Automated Kill-Zone" id="a143-a0dd-b0db-adf3" hidden="false" type="rule" targetId="1c50-6813-1996-73d9"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="471d-d318-c4d7-de20" hidden="false" collective="false" import="true" defaultSelectionEntryId="a03a-8d9f-deb9-dd6f">
@@ -8296,11 +8297,6 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
-          <rules>
-            <rule name="Automated Kill-Zone" id="ca08-d689-6d66-6402" hidden="false">
-              <description>When an Enemy Unit moves within 12&quot; of this Unit, this Unit may make a Free Attack Action against it.</description>
-            </rule>
-          </rules>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Automatic Grenade Launcher Squad" hidden="false" id="66f5-1c46-c1f1-502d" collective="false">
           <profiles>
@@ -9923,11 +9919,12 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Transport Vehicle Actions" id="37eb-0a3d-43bf-3407" hidden="false" targetId="d3bd-9092-41d2-8882" type="profile"/>
+            <infoLink name="Command Vehicle Actions" id="37eb-0a3d-43bf-3407" hidden="false" targetId="8bc2-5843-ca96-b11b" type="profile"/>
             <infoLink name="Rank has its Privileges" id="edb0-40d8-43ae-5afd" hidden="false" type="rule" targetId="7d1b-65ee-7808-b26d"/>
             <infoLink name="Hitch" id="7fc8-ba8d-0c48-1a91" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
             <infoLink name="(CORE) Flex" id="e2ec-702f-1ef5-fa6c" hidden="false" type="rule" targetId="05cc-45cd-4600-22d8"/>
             <infoLink name="Low Profile" id="a951-f7f5-d61b-40f9" hidden="false" type="rule" targetId="06ae-c996-2397-250a"/>
+            <infoLink name="Command Car" id="464e-fa2d-a95d-07e9" hidden="false" type="rule" targetId="1cbf-8529-3a35-86c6"/>
           </infoLinks>
           <costs>
             <cost name="Munitions" typeId="Points" value="33"/>
@@ -9949,11 +9946,6 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             </entryLink>
             <entryLink import="true" name="Officer Upgrades" hidden="false" id="2f88-de74-7c5f-0136" type="selectionEntryGroup" targetId="e22e-b451-8b64-66d8"/>
           </entryLinks>
-          <rules>
-            <rule name="Command Car" id="bb41-48c1-4139-7f73" hidden="false">
-              <description>When this Unit issues an Order, choose an unordered Unit within 8&quot; of that one, that Unit is also ordered.</description>
-            </rule>
-          </rules>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="M62 Burro Artillery Commander" hidden="false" id="ded8-1aa7-61fd-aab2" collective="false">
           <profiles>

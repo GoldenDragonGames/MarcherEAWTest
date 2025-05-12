@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="969e-2588-ed56-37c3" name="Marcher: Empires At War v1.7.2" revision="1" battleScribeVersion="2.03" authorName="Golden Dragon Games Team" authorContact="goldendragontabletopgames@gmail.com" authorUrl="GoldenDragonGames.Net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false">
+<gameSystem id="969e-2588-ed56-37c3" name="Marcher: Empires At War v1.7.3" revision="1" battleScribeVersion="2.03" authorName="Golden Dragon Games Team" authorContact="goldendragontabletopgames@gmail.com" authorUrl="GoldenDragonGames.Net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false">
   <costTypes>
     <costType id="Points" name="Munitions" defaultCostLimit="2000" hidden="false"/>
     <costType id="284c-5503-e866-a2e0" name="Supply" defaultCostLimit="-1" hidden="false"/>
@@ -995,7 +995,7 @@
       <description>If this Model selects this weapon to attack with. It may not attack with any other differently named weapons this activation.</description>
     </rule>
     <rule id="7235-63bc-0668-6ac4" name="Flames" hidden="false">
-      <description>When making an Attack with this weapon, all Hits succeed automatically. Apply the Burning condition to any Units attacked with this weapon.</description>
+      <description>When making an Attack with this weapon, all Hits succeed automatically. Apply the Burning condition to any Units attacked with this weapon. When a Model carrying a Weapon with this Special Rule is Destroyed, apply the Burning Condition to the Unit it was a part of, and any Units within 3&quot;.</description>
     </rule>
     <rule id="2056-c454-be5c-ea02" name="Ammo" hidden="false">
       <description>This weapon may only be selected to fire x times per Unit per game.</description>
@@ -1237,7 +1237,7 @@ gain cover for being within this terrain feature
       <description>This unit can gain suppression tokens as though it has the Troops Subtype and can be affected by the “Suppressed” and “Pinned down” conditions.</description>
     </rule>
     <rule name="Dual Wield" id="2082-d275-920b-519d" hidden="false">
-      <description>This weapon may be selected to attack with in addition to another weapon.</description>
+      <description>In Melee, this Weapon may be selected to Attack with in addition to another Weapon.</description>
     </rule>
     <rule name="Slippery" id="d4e3-7a13-502a-ecd5" hidden="false">
       <description>If a Vehicle Mounted by this Unit is destroyed, place this Unit&apos;s Infantry Model in base-to-base contact with it at the end of the current activation. While not attached to another Unit, this Unit activates independently and gains the “Troop” Keyword.</description>
@@ -1246,7 +1246,7 @@ gain cover for being within this terrain feature
       <description>This Unit has access to the free action “Tow”.</description>
     </rule>
     <rule name="Command Squad" id="7a39-d162-eaaa-f019" hidden="false">
-      <description>This unit may only attach to the designated units.</description>
+      <description>This Model may only Attach to the Units with the Names and Keywords listed.</description>
     </rule>
     <rule name="Direct Fire" id="371b-f82b-1fef-54a5" hidden="false">
       <description>Blast tokens for this weapon are placed when this weapon is selected to attack rather than in the command phase.</description>
@@ -1414,6 +1414,24 @@ are in your army only one counter is ticked down at a time.</description>
     </rule>
     <rule name="Headshot" id="9d6c-a49e-e767-123d" hidden="false">
       <description>When resolving an Attack with this Weapon against a Unit with the Troops Keywords, for each Hit which is an unmodified 10, automatically pass the following Armor Check.</description>
+    </rule>
+    <rule name="Command Car" id="1cbf-8529-3a35-86c6" hidden="false">
+      <description>When this Unit issues an Order, choose an unordered Unit within 8&quot; of that one, that Unit is also ordered.</description>
+    </rule>
+    <rule name="Arc-Lightning" id="38d0-e689-0a64-8c94" hidden="false">
+      <description>After resolving an Attack with this Weapon, you may roll a X+ check to see if the lightning jumps. On a success, select the nearest Unit that is no more than 8&quot; away from the previously Attacked Unit and that has not been targeted by this Weapon this Activation. Roll an Attack with this Weapon against that Unit as well. This may be done multiple times. Each time the lightning jumps, increase the Check requirement by +1.</description>
+    </rule>
+    <rule name="Embarkable" id="0f77-5a99-6029-38d0" hidden="false">
+      <description>This Unit may be Embarked in a Transport. Taking this Unit adds a Transport slot to this platoon.</description>
+    </rule>
+    <rule name="Distributed Command" id="71be-d9b3-dff9-cc7e" hidden="false">
+      <description>Before the Game Starts, the Models in this Unit separate and individually Attach to different Units. That Unit gains all Special Rules associated with that Model. A Unit may not have more than one Model from a Distributed Command Unit attached to it.</description>
+    </rule>
+    <rule name="Innacurate" id="3da9-a39d-1d0c-5ea1" hidden="false">
+      <description>When making an Attack with this Weapon, -2 to Hit.</description>
+    </rule>
+    <rule name="Automated Kill-Zone" id="1c50-6813-1996-73d9" hidden="false">
+      <description>Once per Round, when an Enemy Unit moves within 12&quot; of this Unit, this Unit may make a Free Attack Action against it.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -1626,6 +1644,14 @@ are in your army only one counter is ticked down at a time.</description>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Dash, Dig in, Move, Take Aim</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Brace, Dig In, Fallback</characteristic>
         <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage</characteristic>
+        <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Rally</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Command Vehicle Actions" typeId="5a0c-9677-ca87-9509" typeName="Action List" hidden="false" id="8bc2-5843-ca96-b11b">
+      <characteristics>
+        <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Dash, Move, Take Aim</characteristic>
+        <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Button Up, Fallback</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Capture, Steady, Disengage</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Rally</characteristic>
       </characteristics>
     </profile>
