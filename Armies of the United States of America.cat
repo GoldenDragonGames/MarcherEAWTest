@@ -1568,12 +1568,12 @@
         <infoLink name="M13 Cloudbuster Light Rocket Launcher" id="c0c7-5576-7113-4687" hidden="false" type="profile" targetId="394f-b8ef-e5e2-7b0b"/>
         <infoLink name="Ordnance" id="4cfe-1854-90f4-33ce" hidden="false" targetId="11d9-c53a-4538-6b97" type="rule">
           <modifiers>
-            <modifier type="append" value="2" field="name"/>
+            <modifier type="append" value="3" field="name"/>
           </modifiers>
         </infoLink>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="65"/>
+        <cost name="Munitions" typeId="Points" value="62"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -1660,7 +1660,7 @@
         <infoLink name="M20 Mortar" id="93c5-2470-daa4-4c53" hidden="false" targetId="9d16-acd1-4d5a-f0aa" type="profile"/>
         <infoLink name="Ordnance" id="711e-a1f4-37aa-6e51" hidden="false" targetId="11d9-c53a-4538-6b97" type="rule">
           <modifiers>
-            <modifier type="append" value="2" field="name"/>
+            <modifier type="append" value="1" field="name"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -1705,15 +1705,18 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="M40 &quot;Northwester&quot; Multi-Rocket System" hidden="false" id="e05b-2803-8fc4-ecbc">
       <costs>
-        <cost name="Munitions" typeId="Points" value="207"/>
+        <cost name="Munitions" typeId="Points" value="190"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
       </costs>
       <infoLinks>
         <infoLink name="M40 &quot;Northwester&quot; Multi-Rocket System" id="349e-2ff6-26b-fd59" hidden="false" type="profile" targetId="ca2e-e05a-fd7b-59b5"/>
-        <infoLink name="High Explosive" id="4bf5-6220-b0fe-1da3" hidden="false" type="rule" targetId="9375-d461-c135-9e66"/>
-        <infoLink name="Indirect" id="b0a-bc2a-c1bd-96dc" hidden="false" type="rule" targetId="0648-3007-c58c-c884"/>
+        <infoLink name="Ordnance" id="e25d-0d4f-f138-30ab" hidden="false" type="rule" targetId="11d9-c53a-4538-6b97">
+          <modifiers>
+            <modifier type="append" value="5" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="M45 Energy AT-Cannon" hidden="false" id="73d2-f535-0613-fe24" collective="false">
@@ -2423,7 +2426,7 @@
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1D10</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Ordnance 2</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Ordnance 1</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Ordnance, Explosive</characteristic>
       </characteristics>
     </profile>
@@ -2534,7 +2537,7 @@
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">3</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Critical Shot, Sniper, Headshot</characteristic>
-        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Sniper Rifle, Kinetic</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Sniper Rifle, Energy</characteristic>
       </characteristics>
     </profile>
     <profile name="M35A Recoilless Rifle" typeId="Weapon" typeName="Weapon" hidden="false" id="8e7c-7c80-9b85-b7ad">
@@ -2569,11 +2572,11 @@
     </profile>
     <profile name="M40 &quot;Northwester&quot; Multi-Rocket System" typeId="Weapon" typeName="Weapon" hidden="false" id="ca2e-e05a-fd7b-59b5">
       <characteristics>
-        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">60&quot;</characteristic>
-        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">6</characteristic>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">48&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3D5+2</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">2</characteristic>
-        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2D10</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Indirect, High Explosive</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1D10</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Ordnance 5</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Launcher, Explosive</characteristic>
       </characteristics>
     </profile>
@@ -2599,11 +2602,11 @@
     </profile>
     <profile name="M13 Cloudbuster Light Rocket Launcher" typeId="Weapon" typeName="Weapon" hidden="false" id="394f-b8ef-e5e2-7b0b">
       <characteristics>
-        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">60&quot;</characteristic>
-        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
-        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1</characteristic>
-        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">5</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Ordnance 2</characteristic>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">36&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">1D5+2</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">3</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1D5</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Ordnance 3</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Launcher, Explosive</characteristic>
       </characteristics>
     </profile>
@@ -2750,7 +2753,7 @@
     <profile name="M1897 Trench Gun" typeId="Weapon" typeName="Weapon" hidden="false" id="3ea3-651b-a74-58e6">
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">12&quot;</characteristic>
-        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">3</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Point Blank, Scattershot</characteristic>
@@ -6753,7 +6756,7 @@
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad Members" id="98e2-91d1-4790-6ca9" hidden="false" collective="false" import="true" defaultSelectionEntryId="a3d5-1954-e1d1-8e7e">
               <selectionEntries>
-                <selectionEntry type="model" import="true" name="Cavalry Biker Sniper" hidden="false" id="5d31-385e-cb49-48e4" collective="false" defaultAmount="2">
+                <selectionEntry type="model" import="true" name="Cavalry Biker Sniper" hidden="false" id="5d31-385e-cb49-48e4" collective="false" defaultAmount="">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c3c7-82b8-0627-87fe-max-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c3c7-82b8-0627-87fe-max-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -10975,6 +10978,13 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="7cc0-cb4a-6f6c-a85d" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Hull Weapon" hidden="false" id="4525-bdf0-11b9-5665">
               <selectionEntryGroups>
@@ -11001,6 +11011,41 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4621-faa7-8b0e-eaca-min" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4621-faa7-8b0e-eaca-max" includeChildSelections="false"/>
               </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Pintle Mounted Machine Gun" hidden="false" id="7cc0-cb4a-6f6c-a85d">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon Option" id="831b-b8d1-9452-ac4f" hidden="false" collective="false" import="true" defaultSelectionEntryId="5e51-b3da-29e3-9953">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="28cc-9803-1213-9692" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f37c-ee8e-f458-6e64" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="M1931 Energy Machine Gun" hidden="false" id="5e51-b3da-29e3-9953" collective="false" targetId="a1be-a916-a94b-f4e5" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="016b-2361-c83e-50b8" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="M2 Heavy Machine Gun" hidden="false" id="ee58-f9bc-810a-57b9" collective="false" targetId="59ef-e9be-bbab-1232" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ac4-dd37-1b40-b074" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a072-8a1c-1235-1289" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Pintle Mount" id="dd69-9de4-9397-2568" hidden="false" type="rule" targetId="afb9-85ce-6367-ce57"/>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="cecf-cabf-1bfb-f367" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
         </selectionEntry>
