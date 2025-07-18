@@ -833,7 +833,7 @@
         </infoLink>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="41"/>
+        <cost name="Munitions" typeId="Points" value="40"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -3790,6 +3790,7 @@
             <infoLink name="Low Profile" id="5ecb-ba10-7fb8-a46d" hidden="false" type="rule" targetId="06ae-c996-2397-250a"/>
             <infoLink name="Rank has its Privileges" id="ed52-8402-e1d4-424b" hidden="false" type="rule" targetId="7d1b-65ee-7808-b26d"/>
             <infoLink name="Command Car" id="f748-527d-a824-a0d1" hidden="false" type="rule" targetId="1cbf-8529-3a35-86c6"/>
+            <infoLink name="All-Terrain-Vehicle" id="d1da-5c88-c8be-d637" hidden="false" type="rule" targetId="38b4-ccd9-b38d-a70c"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Machine Gun Mount" hidden="false" id="c427-7054-0f24-b4df">
@@ -5195,6 +5196,7 @@
           <infoLinks>
             <infoLink name="Recon Vehicle Actions" id="ac59-72ea-3115-0d0c" hidden="false" type="profile" targetId="e02c-5a58-9b36-5c37"/>
             <infoLink name="Intelligence" id="ab17-d8ff-ea04-8be6" hidden="false" type="rule" targetId="dc7a-f7c9-a54a-9cbc"/>
+            <infoLink name="All-Terrain-Vehicle" id="6d75-9630-c88f-7055" hidden="false" type="rule" targetId="38b4-ccd9-b38d-a70c"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Turret" hidden="false" id="341d-d39d-4533-442d">

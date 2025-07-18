@@ -167,7 +167,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="8fdd-1785-9d80-107e" name="X32 Rhea Light Battle Walker" hidden="false" collective="false" import="true" targetId="a59a-c539-cf9a-d236" type="selectionEntry">
+    <entryLink id="8fdd-1785-9d80-107e" name="X32 Rhea Light Battle Walkers" hidden="false" collective="false" import="true" targetId="a59a-c539-cf9a-d236" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="7da2-822e-291f-eccc" id="b566-ba4d-e5d0-d9a1" primary="false" name="Walker"/>
         <categoryLink targetId="54db-5889-a382-77cb" id="15e3-e81a-e479-cb93" primary="true" name="CORE Recon"/>
@@ -6436,11 +6436,11 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="X32 Rhea Light Battle Walker" hidden="false" id="a59a-c539-cf9a-d236" collective="false">
+        <selectionEntry type="unit" import="true" name="X32 Rhea Light Battle Walkers" hidden="false" id="a59a-c539-cf9a-d236" collective="false">
           <profiles>
             <profile name="X32 Rhea Light Battle Walker" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="0fc1-8e5a-db87-78fc">
               <characteristics>
-                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2x X32 Rhea Light Battle Walkers</characteristic>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2-4x X32 Rhea Light Battle Walkers</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Recon, Walker, Vehicle</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">60mm</characteristic>
               </characteristics>
@@ -6449,7 +6449,7 @@
           <infoLinks>
             <infoLink name="Recon Vehicle Actions" id="9247-ae74-1fa0-3fba" hidden="false" targetId="e02c-5a58-9b36-5c37" type="profile"/>
             <infoLink name="Light on their Feet" id="c436-9026-e0be-4621" hidden="false" type="rule" targetId="f708-1439-cbbe-6850"/>
-            <infoLink name="Forward Positions" id="2c0f-84af-9ce3-925b" hidden="false" type="rule" targetId="239f-191a-232-4894"/>
+            <infoLink name="Rapid Deployment" id="2c0f-84af-9ce3-925b" hidden="false" type="rule" targetId="9776-f4fe-ef62-3956"/>
           </infoLinks>
           <costs>
             <cost name="Munitions" typeId="Points" value="10"/>
@@ -6464,159 +6464,167 @@
               </entryLinks>
             </entryLink>
           </entryLinks>
-          <selectionEntries>
-            <selectionEntry type="model" import="true" name="X32 Rhea Light Battle Walkers" hidden="false" id="82c6-bb81-2374-797b" collective="false">
-              <constraints>
-                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="c998-1277-3fcc-e555-min-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c998-1277-3fcc-e555-min-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <profiles>
-                <profile name="X32 Rhea Light Battle Walkers" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="db36-f559-a664-ce06">
-                  <characteristics>
-                    <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">12&quot;</characteristic>
-                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
-                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">9</characteristic>
-                    <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">6</characteristic>
-                  </characteristics>
-                  <modifiers>
-                    <modifier type="increment" value="1" field="af2e-1c49-9a61-0dba" scope="parent">
-                      <conditions>
-                        <condition type="greaterThan" value="0" field="selections" scope="a59a-c539-cf9a-d236" childId="5e78-6c92-e6bf-bf7d" shared="true" includeChildSelections="true" includeChildForces="false"/>
-                      </conditions>
-                    </modifier>
-                    <modifier type="increment" value="1" field="c7f9-7a63-2269-6a82" scope="parent">
-                      <conditions>
-                        <condition type="greaterThan" value="0" field="selections" scope="a59a-c539-cf9a-d236" childId="0ae0-c2a3-03d0-5d2a" shared="true" includeChildSelections="true" includeChildForces="false"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                </profile>
-              </profiles>
-              <entryLinks>
-                <entryLink import="true" name="M1931 Energy Machine Gun" hidden="false" id="20c2-2913-0a59-fd8a" collective="false" targetId="a1be-a916-a94b-f4e5" type="selectionEntry">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ab99-7263-cb63-6a44-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab99-7263-cb63-6a44-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="Munitions" typeId="Points" value="47"/>
-                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
-              </costs>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Squad Members" id="f2f7-bdb4-5291-4b14" hidden="false">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Left Mount" hidden="false" id="b3d3-df32-7aeb-dbfd" collective="true">
+                <selectionEntry type="model" import="true" name="X32 Rhea Light Battle Walkers" hidden="false" id="82c6-bb81-2374-797b" collective="false">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="128e-3e48-81f5-b127-min" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="128e-3e48-81f5-b127-max" includeChildSelections="false"/>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="c998-1277-3fcc-e555-min-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                    <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="c998-1277-3fcc-e555-min-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                   </constraints>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup name="Weapon Options" id="9e56-5e0f-1daf-d41e" hidden="false" defaultSelectionEntryId="7e4a-2262-eaec-8950">
-                      <entryLinks>
-                        <entryLink import="true" name="Sensor Pod" hidden="false" id="7e4a-2262-eaec-8950" collective="true" targetId="607e-984b-ec1b-7fb4" type="selectionEntry">
-                          <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a2a-86bd-99c6-e154" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                          </constraints>
-                        </entryLink>
-                        <entryLink import="true" name="Light Buzz Saw" hidden="false" id="b5b7-440a-0f7b-e698" type="selectionEntry" targetId="b2e5-e03d-6b99-1fe2">
-                          <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e7c-f4ad-eda2-6ebf" includeChildSelections="false"/>
-                          </constraints>
-                        </entryLink>
-                        <entryLink import="true" name="Light Industrial Claw" hidden="false" id="ee6e-9e48-b7cd-07a3" type="selectionEntry" targetId="c623-fab4-87e8-8ca3">
-                          <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ecc8-1e03-006f-0c93" includeChildSelections="false"/>
-                          </constraints>
-                        </entryLink>
-                      </entryLinks>
+                  <profiles>
+                    <profile name="X32 Rhea Light Battle Walkers" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="db36-f559-a664-ce06">
+                      <characteristics>
+                        <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">12&quot;</characteristic>
+                        <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                        <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">9</characteristic>
+                        <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">6</characteristic>
+                      </characteristics>
+                      <modifiers>
+                        <modifier type="increment" value="1" field="af2e-1c49-9a61-0dba" scope="parent">
+                          <conditions>
+                            <condition type="greaterThan" value="0" field="selections" scope="a59a-c539-cf9a-d236" childId="5e78-6c92-e6bf-bf7d" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="increment" value="1" field="c7f9-7a63-2269-6a82" scope="parent">
+                          <conditions>
+                            <condition type="greaterThan" value="0" field="selections" scope="a59a-c539-cf9a-d236" childId="0ae0-c2a3-03d0-5d2a" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </profile>
+                  </profiles>
+                  <entryLinks>
+                    <entryLink import="true" name="M1931 Energy Machine Gun" hidden="false" id="20c2-2913-0a59-fd8a" collective="false" targetId="a1be-a916-a94b-f4e5" type="selectionEntry">
                       <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="01dd-a2bf-7051-1623-min" includeChildSelections="false"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="01dd-a2bf-7051-1623-max" includeChildSelections="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ab99-7263-cb63-6a44-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab99-7263-cb63-6a44-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Right Mount" hidden="false" id="32a0-3120-9b22-5664" collective="true">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f8d8-8cf3-7ebf-ea19-min" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f8d8-8cf3-7ebf-ea19-max" includeChildSelections="false"/>
-                  </constraints>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup name="Weapons" id="e6c0-7d4d-f771-78ba" hidden="false" collective="false" import="true" defaultSelectionEntryId="dcaf-be7a-b28f-2a71">
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Munitions" typeId="Points" value="70"/>
+                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                    <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+                  </costs>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Left Mount" hidden="false" id="b3d3-df32-7aeb-dbfd" collective="true">
                       <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9383-3606-fdc8-4caf-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9383-3606-fdc8-4caf-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="128e-3e48-81f5-b127-min" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="128e-3e48-81f5-b127-max" includeChildSelections="false"/>
                       </constraints>
-                      <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Twin .50s" hidden="false" id="dcaf-be7a-b28f-2a71" collective="true">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Weapon Options" id="9e56-5e0f-1daf-d41e" hidden="false" defaultSelectionEntryId="7e4a-2262-eaec-8950">
                           <entryLinks>
-                            <entryLink import="true" name="M2 Heavy Machine Gun" hidden="false" id="0dad-bfb6-d3b3-1da3" collective="false" targetId="59ef-e9be-bbab-1232" type="selectionEntry">
+                            <entryLink import="true" name="Sensor Pod" hidden="false" id="7e4a-2262-eaec-8950" collective="true" targetId="607e-984b-ec1b-7fb4" type="selectionEntry">
                               <constraints>
-                                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="591f-c8d0-a32c-ea2b-max-min-min" includeChildSelections="false"/>
-                                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="591f-c8d0-a32c-ea2b-max-min-max" includeChildSelections="false"/>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a2a-86bd-99c6-e154" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                              </constraints>
+                            </entryLink>
+                            <entryLink import="true" name="Light Buzz Saw" hidden="false" id="b5b7-440a-0f7b-e698" type="selectionEntry" targetId="b2e5-e03d-6b99-1fe2">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e7c-f4ad-eda2-6ebf" includeChildSelections="false"/>
+                              </constraints>
+                            </entryLink>
+                            <entryLink import="true" name="Light Industrial Claw" hidden="false" id="ee6e-9e48-b7cd-07a3" type="selectionEntry" targetId="c623-fab4-87e8-8ca3">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ecc8-1e03-006f-0c93" includeChildSelections="false"/>
                               </constraints>
                             </entryLink>
                           </entryLinks>
-                          <costs>
-                            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                            <cost name="Munitions" typeId="Points" value="0"/>
-                          </costs>
                           <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc84-f8cd-9bce-7538" includeChildSelections="false"/>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="01dd-a2bf-7051-1623-min" includeChildSelections="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="01dd-a2bf-7051-1623-max" includeChildSelections="false"/>
                           </constraints>
-                        </selectionEntry>
-                      </selectionEntries>
-                      <entryLinks>
-                        <entryLink import="true" name="Light Industrial Claw" hidden="false" id="fc84-9034-3119-8ebc" type="selectionEntry" targetId="c623-fab4-87e8-8ca3">
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Right Mount" hidden="false" id="32a0-3120-9b22-5664" collective="true">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f8d8-8cf3-7ebf-ea19-min" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f8d8-8cf3-7ebf-ea19-max" includeChildSelections="false"/>
+                      </constraints>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Weapons" id="e6c0-7d4d-f771-78ba" hidden="false" collective="false" import="true" defaultSelectionEntryId="dcaf-be7a-b28f-2a71">
                           <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e303-f850-2997-8ce0" includeChildSelections="false"/>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9383-3606-fdc8-4caf-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9383-3606-fdc8-4caf-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                           </constraints>
-                        </entryLink>
-                        <entryLink import="true" name="Light Buzz Saw" hidden="false" id="85ab-9945-03f3-5bf4" type="selectionEntry" targetId="b2e5-e03d-6b99-1fe2">
-                          <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0333-6e0b-d220-1a2d" includeChildSelections="false"/>
-                          </constraints>
-                        </entryLink>
-                        <entryLink import="true" name="50mm Plasma Cannon" hidden="false" id="a503-e2b0-b0bf-6e70" type="selectionEntry" targetId="6fe3-c3c4-9aed-0ed9" collective="false">
-                          <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7143-b307-5ac9-3427-max" includeChildSelections="false"/>
-                          </constraints>
-                        </entryLink>
-                        <entryLink import="true" name="Automatic Grenade Launcher" hidden="false" id="53be-1f19-c9c1-ef89" collective="false" targetId="6542-a2c5-73fb-4926" type="selectionEntry">
-                          <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a88f-0d63-985f-c8a1-max" includeChildSelections="false"/>
-                          </constraints>
-                        </entryLink>
-                        <entryLink import="true" name="Bazooka Array" hidden="false" id="cac0-b7f5-b231-1607" type="selectionEntry" targetId="15ad-9852-a37f-325a">
-                          <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="28d5-d4be-ff46-ce0a-max" includeChildSelections="false"/>
-                          </constraints>
-                        </entryLink>
-                        <entryLink import="true" name="M12 Light Energy Cannon" hidden="false" id="3359-6027-a0ba-ad9d" collective="false" targetId="87fb-6564-a821-a3f0" type="selectionEntry">
-                          <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ade-992e-0dfe-6f9c-max" includeChildSelections="false"/>
-                          </constraints>
-                        </entryLink>
-                        <entryLink import="true" name="M14 Flamethrower" hidden="false" id="85ca-d97d-78d9-a67c" collective="false" targetId="c916-b9df-1c74-77ed" type="selectionEntry">
-                          <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="318c-d3a5-134b-33df-max" includeChildSelections="false"/>
-                          </constraints>
-                        </entryLink>
-                        <entryLink import="true" name="Oerlikon 20mm Autocannon" hidden="false" id="18c1-b09c-617e-e1b7" type="selectionEntry" targetId="6157-18d5-7978-5946">
-                          <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bbed-b43e-8cea-7931" includeChildSelections="false"/>
-                          </constraints>
-                        </entryLink>
-                      </entryLinks>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Twin .50s" hidden="false" id="dcaf-be7a-b28f-2a71" collective="true">
+                              <entryLinks>
+                                <entryLink import="true" name="M2 Heavy Machine Gun" hidden="false" id="0dad-bfb6-d3b3-1da3" collective="false" targetId="59ef-e9be-bbab-1232" type="selectionEntry">
+                                  <constraints>
+                                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="591f-c8d0-a32c-ea2b-max-min-min" includeChildSelections="false"/>
+                                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="591f-c8d0-a32c-ea2b-max-min-max" includeChildSelections="false"/>
+                                  </constraints>
+                                </entryLink>
+                              </entryLinks>
+                              <costs>
+                                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                                <cost name="Munitions" typeId="Points" value="0"/>
+                              </costs>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc84-f8cd-9bce-7538" includeChildSelections="false"/>
+                              </constraints>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <entryLinks>
+                            <entryLink import="true" name="Light Industrial Claw" hidden="false" id="fc84-9034-3119-8ebc" type="selectionEntry" targetId="c623-fab4-87e8-8ca3">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e303-f850-2997-8ce0" includeChildSelections="false"/>
+                              </constraints>
+                            </entryLink>
+                            <entryLink import="true" name="Light Buzz Saw" hidden="false" id="85ab-9945-03f3-5bf4" type="selectionEntry" targetId="b2e5-e03d-6b99-1fe2">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0333-6e0b-d220-1a2d" includeChildSelections="false"/>
+                              </constraints>
+                            </entryLink>
+                            <entryLink import="true" name="50mm Plasma Cannon" hidden="false" id="a503-e2b0-b0bf-6e70" type="selectionEntry" targetId="6fe3-c3c4-9aed-0ed9" collective="false">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7143-b307-5ac9-3427-max" includeChildSelections="false"/>
+                              </constraints>
+                            </entryLink>
+                            <entryLink import="true" name="Automatic Grenade Launcher" hidden="false" id="53be-1f19-c9c1-ef89" collective="false" targetId="6542-a2c5-73fb-4926" type="selectionEntry">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a88f-0d63-985f-c8a1-max" includeChildSelections="false"/>
+                              </constraints>
+                            </entryLink>
+                            <entryLink import="true" name="Bazooka Array" hidden="false" id="cac0-b7f5-b231-1607" type="selectionEntry" targetId="15ad-9852-a37f-325a">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="28d5-d4be-ff46-ce0a-max" includeChildSelections="false"/>
+                              </constraints>
+                            </entryLink>
+                            <entryLink import="true" name="M12 Light Energy Cannon" hidden="false" id="3359-6027-a0ba-ad9d" collective="false" targetId="87fb-6564-a821-a3f0" type="selectionEntry">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ade-992e-0dfe-6f9c-max" includeChildSelections="false"/>
+                              </constraints>
+                            </entryLink>
+                            <entryLink import="true" name="M14 Flamethrower" hidden="false" id="85ca-d97d-78d9-a67c" collective="false" targetId="c916-b9df-1c74-77ed" type="selectionEntry">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="318c-d3a5-134b-33df-max" includeChildSelections="false"/>
+                              </constraints>
+                            </entryLink>
+                            <entryLink import="true" name="Oerlikon 20mm Autocannon" hidden="false" id="18c1-b09c-617e-e1b7" type="selectionEntry" targetId="6157-18d5-7978-5946">
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bbed-b43e-8cea-7931" includeChildSelections="false"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                    </selectionEntry>
+                  </selectionEntries>
                 </selectionEntry>
               </selectionEntries>
-            </selectionEntry>
-          </selectionEntries>
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="fed1-2b3d-302a-3a3b" includeChildSelections="false"/>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="e0eb-f5b4-9cef-e8e5" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Willys GPV Scout Squad" hidden="false" id="b767-f195-b638-70ba" collective="false">
           <profiles>
@@ -6630,9 +6638,10 @@
           </profiles>
           <infoLinks>
             <infoLink name="Recon Vehicle Actions" id="64cf-a4a1-7502-8a71" hidden="false" targetId="e02c-5a58-9b36-5c37" type="profile"/>
-            <infoLink name="Forward Positions" id="b58d-903f-2397-7dbc" hidden="false" type="rule" targetId="239f-191a-232-4894"/>
+            <infoLink name="Rapid Deployment" id="b58d-903f-2397-7dbc" hidden="false" type="rule" targetId="9776-f4fe-ef62-3956"/>
             <infoLink name="Hitch" id="9db5-362d-002c-9a06" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
             <infoLink name="Intel Gathering" id="139f-17e6-181b-2d0d" hidden="false" type="rule" targetId="5845-b3b2-62ef-1d40"/>
+            <infoLink name="All-Terrain-Vehicle" id="6c50-649a-b851-533c" hidden="false" type="rule" targetId="38b4-ccd9-b38d-a70c"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad Members" id="f048-6adb-22e6-c0a0" hidden="false" collective="false" import="true">
@@ -6756,7 +6765,7 @@
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad Members" id="98e2-91d1-4790-6ca9" hidden="false" collective="false" import="true" defaultSelectionEntryId="a3d5-1954-e1d1-8e7e">
               <selectionEntries>
-                <selectionEntry type="model" import="true" name="Cavalry Biker Sniper" hidden="false" id="5d31-385e-cb49-48e4" collective="false" defaultAmount="">
+                <selectionEntry type="model" import="true" name="Cavalry Biker Sniper" hidden="false" id="5d31-385e-cb49-48e4" collective="false">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c3c7-82b8-0627-87fe-max-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c3c7-82b8-0627-87fe-max-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -8534,8 +8543,22 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                       </selectionEntries>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <modifiers>
+                    <modifier type="decrement" value="1" field="f6f5-857e-b9ed-803f-min">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="b3fb-3e65-7a94-ddb7" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntry>
               </selectionEntries>
+              <modifiers>
+                <modifier type="decrement" value="1" field="342d-c9a5-92af-0d3d">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="b3fb-3e65-7a94-ddb7" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
@@ -8583,6 +8606,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 </selectionEntry>
               </selectionEntries>
             </entryLink>
+            <entryLink import="true" name="Designate Command Squad" hidden="false" id="56b0-8f49-a662-c401" type="selectionEntry" targetId="b3fb-3e65-7a94-ddb7"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Heavy Machine Gun Squad" hidden="false" id="9a9e-6e1a-989a-c109" collective="false">
@@ -10439,7 +10463,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
           </profiles>
           <infoLinks>
             <infoLink name="Mechanized Troop Actions" id="59ff-c156-9e87-7f7b" hidden="false" targetId="a01c-c851-0047-239a" type="profile"/>
-            <infoLink name="Forward Positions" id="700e-e28b-bb67-17bd" hidden="false" type="rule" targetId="239f-191a-232-4894"/>
+            <infoLink name="Rapid Deployment" id="700e-e28b-bb67-17bd" hidden="false" type="rule" targetId="9776-f4fe-ef62-3956"/>
             <infoLink name="Elite Infantry" id="5e78-5265-1a61-4bdc" hidden="false" type="rule" targetId="12fb-381c-5514-6d51"/>
           </infoLinks>
           <selectionEntryGroups>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="969e-2588-ed56-37c3" name="Marcher: Empires At War v1.8.1" revision="1" battleScribeVersion="2.03" authorName="Golden Dragon Games Team" authorContact="goldendragontabletopgames@gmail.com" authorUrl="GoldenDragonGames.Net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false">
+<gameSystem id="969e-2588-ed56-37c3" name="Marcher: Empires At War v1.8.2" revision="1" battleScribeVersion="2.03" authorName="Golden Dragon Games Team" authorContact="goldendragontabletopgames@gmail.com" authorUrl="GoldenDragonGames.Net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false">
   <costTypes>
     <costType id="Points" name="Munitions" defaultCostLimit="2000" hidden="false"/>
     <costType id="284c-5503-e866-a2e0" name="Supply" defaultCostLimit="-1" hidden="false"/>
@@ -182,6 +182,13 @@
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7421-ba37-56dc-b535" includeChildSelections="false"/>
           </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="7421-ba37-56dc-b535">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="c361-52d6-40f6-2cee" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="Transports" hidden="true" id="5e21-1453-8bf5-0af3" targetId="d4be-5aad-8560-5720">
           <constraints>
@@ -220,6 +227,13 @@
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="f5d6-ee93-6772-3ac6" includeChildSelections="false"/>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="b42c-1d50-26c5-3c90"/>
           </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="f5d6-ee93-6772-3ac6">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="c361-52d6-40f6-2cee" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </categoryLink>
         <categoryLink name="AUX Mechanized" hidden="false" id="931f-b95a-7068-3aa4" targetId="c87d-0c37-d91f-b4cd" primary="false">
           <constraints>
@@ -968,6 +982,29 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="02d3-7730-e55a-87ce-max" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Designate Command Squad" hidden="false" id="b3fb-3e65-7a94-ddb7">
+      <infoLinks>
+        <infoLink name="Attached Commander" id="e92f-9185-941b-0699" hidden="false" type="rule" targetId="0fed-696b-7352-68a8"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1421-997e-2333-e735" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="835d-fcf6-9767-ef24" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Distributed Elements" hidden="false" id="c361-52d6-40f6-2cee">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="69ec-552b-2cf6-061d" includeChildSelections="false"/>
+      </constraints>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="0"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="-1"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Distributed Elements" id="47f9-bf17-ac55-3b03" hidden="false" type="rule" targetId="3a38-3263-bf73-12e0"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="2f38-62b3-ba2d-80c4" name="Command" hidden="false">
@@ -1270,7 +1307,7 @@ gain cover for being within this terrain feature
       <description>Attacks with this weapon automatically pass all Armor Checks.</description>
     </rule>
     <rule name="Charge!" id="6a90-de57-2154-3db3" hidden="false">
-      <description>When a Unit equipped with this weapon ends a Move action within Engagement Range of an Enemy Unit, it may Immediately perform a Free Melee Attack Action with this weapon against that Unit.</description>
+      <description>When a Unit equipped with this weapon ends a Movement Action within Engagement Range of an Enemy Unit, it may Immediately perform a Free Melee Attack Action with this weapon against that Unit.</description>
     </rule>
     <rule name="Gas Token" id="a88e-c569-29b0-f610" hidden="false">
       <description>25mm base; Units within 3” of this token are considered to be in Obscuring terrain for the purposes of Attack actions taken by and against those units. Attacks passing through this 3” radius are considered to be taken through Obscuring terrain. Units that perform a move within 6” or finish a move within 3” of the token are attacked with the Poison Gas Profile. Remove this Token the next time the Unit that placed it activates.</description>
@@ -1436,13 +1473,22 @@ are in your army only one counter is ticked down at a time.</description>
     <rule name="Unmanageable" id="a09d-3ff7-60ce-ef92" hidden="false">
       <description>No other Units or Commanders may be attached to this one.</description>
     </rule>
+    <rule name="Rapid Deployment" id="9776-f4fe-ef62-3956" hidden="false">
+      <description>At the end of the first command phase, this Unit may immediately take a Free Move action. They may not end this move within the Engagement Range of an enemy unit.</description>
+    </rule>
+    <rule name="All-Terrain-Vehicle" id="38b4-ccd9-b38d-a70c" hidden="false">
+      <description>When this Unit enters Rough Terrain, roll a die, on a 5+, ignore the effect of Rough Terrain for the rest of the Round.</description>
+    </rule>
+    <rule name="Attached Commander" id="0fed-696b-7352-68a8" hidden="false">
+      <description>This Unit may be reduced in Model Count by 1.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="0936-84e8-76d0-501a" name="Infantry Troop Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Dash, Dig in, Move, Take Aim</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Brace, Dig In, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage, Overwatch</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Capture</characteristic>
       </characteristics>
     </profile>
@@ -1450,7 +1496,7 @@ are in your army only one counter is ticked down at a time.</description>
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim, Dash</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Button Up, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Capture, Disengage</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Capture, Disengage, Overwatch</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73"/>
       </characteristics>
     </profile>
@@ -1458,7 +1504,7 @@ are in your army only one counter is ticked down at a time.</description>
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Capture, Dash, Move, Take Aim</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Button Up, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage, Overwatch</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73"/>
       </characteristics>
     </profile>
@@ -1466,7 +1512,7 @@ are in your army only one counter is ticked down at a time.</description>
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Take Aim</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Brace, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Move, Steady, Disengage</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Move, Steady, Disengage, Overwatch</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Adjust Coordinates</characteristic>
       </characteristics>
     </profile>
@@ -1474,7 +1520,7 @@ are in your army only one counter is ticked down at a time.</description>
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Dig In, Take Aim, Dash</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Dig In, Brace, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage, Overwatch</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Capture, Build, Demolish</characteristic>
       </characteristics>
     </profile>
@@ -1482,13 +1528,13 @@ are in your army only one counter is ticked down at a time.</description>
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Dash, Move, Take Aim</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Button Up, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Capture, Steady, Disengage</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Capture, Steady, Disengage, Overwatch</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73"/>
       </characteristics>
     </profile>
     <profile id="1761-68e7-b0e6-e086" name="Support Carriage Actions" hidden="false" typeId="5a0c-9677-ca87-9509" typeName="Action List">
       <characteristics>
-        <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Take Aim</characteristic>
+        <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Take Aim, Overwatch</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Brace, Fallback</characteristic>
         <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Capture, Move, Steady, Disengage</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73"/>
@@ -1526,7 +1572,7 @@ are in your army only one counter is ticked down at a time.</description>
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Move, Attack, Take Aim</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Button Up, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage, Overwatch</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Adjust Coordinates</characteristic>
       </characteristics>
     </profile>
@@ -1564,7 +1610,7 @@ are in your army only one counter is ticked down at a time.</description>
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Capture, Dash, Move, Take Aim</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Brace, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage, Overwatch</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73"/>
       </characteristics>
     </profile>
@@ -1572,7 +1618,7 @@ are in your army only one counter is ticked down at a time.</description>
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Take Aim, Move</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Button Up, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Capture, Steady, Disengage</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Capture, Steady, Disengage, Overwatch</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73"/>
       </characteristics>
     </profile>
@@ -1580,7 +1626,7 @@ are in your army only one counter is ticked down at a time.</description>
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Dash, Dig in, Move, Take Aim</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Brace, Dig In, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Capture, Disengage</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Capture, Disengage, Overwatch</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Adjust Coordinates</characteristic>
       </characteristics>
     </profile>
@@ -1588,7 +1634,7 @@ are in your army only one counter is ticked down at a time.</description>
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Dash, Dig in, Move, Take Aim</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Brace, Dig In, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Capture, Disengage</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Capture, Disengage, Overwatch</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73"/>
       </characteristics>
     </profile>
@@ -1596,7 +1642,7 @@ are in your army only one counter is ticked down at a time.</description>
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Dash, Dig in, Move, Take Aim</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Brace, Dig In, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage, Overwatch</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Capture</characteristic>
       </characteristics>
     </profile>
@@ -1604,7 +1650,7 @@ are in your army only one counter is ticked down at a time.</description>
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Dash, Move, Take Aim</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Button Up, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage, Overwatch</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73"/>
       </characteristics>
     </profile>
@@ -1612,7 +1658,7 @@ are in your army only one counter is ticked down at a time.</description>
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Dash, Dig in, Move, Take Aim</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Brace, Dig In, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage, Overwatch</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Capture</characteristic>
       </characteristics>
     </profile>
@@ -1620,7 +1666,7 @@ are in your army only one counter is ticked down at a time.</description>
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Dash, Move, Take Aim</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Button Up, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage, Capture</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage, Capture, Overwatch</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73"/>
       </characteristics>
     </profile>
@@ -1628,7 +1674,7 @@ are in your army only one counter is ticked down at a time.</description>
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Take Aim, Move</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Brace, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Capture, Steady, Disengage</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Capture, Steady, Disengage, Overwatch</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Build, Demolish</characteristic>
       </characteristics>
     </profile>
@@ -1646,7 +1692,7 @@ are in your army only one counter is ticked down at a time.</description>
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Dash, Dig in, Move, Take Aim</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Brace, Dig In, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Steady, Disengage, Overwatch</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Rally</characteristic>
       </characteristics>
     </profile>
@@ -1654,7 +1700,7 @@ are in your army only one counter is ticked down at a time.</description>
       <characteristics>
         <characteristic name="Standard Actions" typeId="71f8-64d2-a32a-0757">Attack, Dash, Move, Take Aim</characteristic>
         <characteristic name="Reactions" typeId="6cfc-1528-37ea-2ff9">Button Up, Fallback</characteristic>
-        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Capture, Steady, Disengage</characteristic>
+        <characteristic name="Difficult Actions" typeId="cf1b-a84e-f943-d503">Capture, Steady, Disengage, Overwatch</characteristic>
         <characteristic name="Free Actions" typeId="4c52-f227-0038-1b73">Rally</characteristic>
       </characteristics>
     </profile>

@@ -638,7 +638,7 @@
         <infoLink name="Shin-Gunto" id="17fc-1011-a70b-4780" hidden="false" type="profile" targetId="9b9b-8a0-eedf-d316"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="5"/>
+        <cost name="Munitions" typeId="Points" value="10"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -867,6 +867,110 @@
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="QF 2-Pounder Cannon" hidden="false" id="30ca-b957-0491-2416" collective="true">
+      <infoLinks>
+        <infoLink name="QF 2-Pounder Cannon" id="f2f6-7ffd-3efe-2816" hidden="false" type="profile" targetId="5919-52e3-235e-62b6"/>
+        <infoLink name="High Explosive" id="9fef-4c58-bc07-0a85" hidden="false" type="rule" targetId="9375-d461-c135-9e66"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="15"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Besa Machine Gun" hidden="false" id="f5a1-4619-5e12-a3a8" collective="true">
+      <infoLinks>
+        <infoLink name="Besa Machine Gun" id="fe04-a6e6-c31c-5e75" hidden="false" type="profile" targetId="cf0c-902a-efbc-f0fc"/>
+        <infoLink name="Suppressive" id="25d4-5e9c-514f-205c" hidden="false" type="rule" targetId="4911-2380-864d-8b44"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="10"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pom-Pom 20mm Autocannon" hidden="false" id="76b2-fb26-aa89-0b35" collective="true">
+      <infoLinks>
+        <infoLink name="Pom-Pom 20mm Autocannon" id="226f-dc7c-93f2-742e" hidden="false" type="profile" targetId="ff1b-4b3d-06e1-7dd1"/>
+        <infoLink name="Concussive" id="95b2-193a-4e71-3c94" hidden="false" type="rule" targetId="2535-84fb-dcc0-f3ac"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="24"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bren LMG" hidden="false" id="a1cf-3f1c-ccd0-e488" collective="true">
+      <infoLinks>
+        <infoLink name="Bren LMG" id="50a1-0435-2acd-3ec2" hidden="false" type="profile" targetId="c621-916f-41c0-7d6d"/>
+        <infoLink name="Suppressive" id="e098-3d41-b48d-d98e" hidden="false" type="rule" targetId="4911-2380-864d-8b44"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="12"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Vickers K" hidden="false" id="79e1-082e-d92c-73d1" collective="true">
+      <infoLinks>
+        <infoLink name="Vickers K" id="3866-2844-ea01-d327" hidden="false" type="profile" targetId="9d3d-47dc-4eed-ac85"/>
+        <infoLink name="Suppressive" id="0380-3bce-08ad-58a1" hidden="false" type="rule" targetId="4911-2380-864d-8b44"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="9"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="QF 25-Pounder Howitzer" hidden="false" id="9eed-1aff-404f-5d48" collective="true">
+      <infoLinks>
+        <infoLink name="QF 25-Pounder Howitzer" id="ff16-dbe9-5513-be92" hidden="false" type="profile" targetId="7ef3-e0eb-554b-5547"/>
+        <infoLink name="Ordnance" id="2f4a-bcf4-1202-d173" hidden="false" type="rule" targetId="11d9-c53a-4538-6b97">
+          <modifiers>
+            <modifier type="append" value="2" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Bombard" id="683d-2df2-4a2c-676d" hidden="false" type="rule" targetId="0091-17ea-a67a-1ae9">
+          <modifiers>
+            <modifier type="append" value="2" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Difficult to Use" id="bbaa-1899-75af-9b82" hidden="false" type="rule" targetId="22ca-4520-b3df-c16d"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="60"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="RP-3 Rocket Projector" hidden="false" id="96a5-9e0f-eab8-997e" collective="true">
+      <infoLinks>
+        <infoLink name="RP-3 Rocket Projector" id="3f87-cc0b-0623-a7e9" hidden="false" type="profile" targetId="cf3e-f624-3aec-0314"/>
+        <infoLink name="Ordnance" id="bb59-4739-9662-7f99" hidden="false" type="rule" targetId="11d9-c53a-4538-6b97">
+          <modifiers>
+            <modifier type="append" value="4" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Difficult to Use" id="57d2-d65b-d8b6-0604" hidden="false" type="rule" targetId="22ca-4520-b3df-c16d"/>
+      </infoLinks>
+      <costs>
+        <cost name="Munitions" typeId="Points" value="112"/>
+        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Howa Type 3 Assault Rifle" hidden="false" id="734a-15f3-9572-ed96">
+      <infoLinks>
+        <infoLink name="Howa Type 3 Assault Rifle" id="9513-68d5-1c6a-e833" hidden="false" type="profile" targetId="91c8-a2b7-230c-2c62"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
@@ -1388,6 +1492,86 @@
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Warding</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Melee, Blunt, Kinetic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="QF 2-Pounder Cannon" typeId="Weapon" typeName="Weapon" hidden="false" id="5919-52e3-235e-62b6">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">4</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">4</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">High Explosve</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Cannon, Explosive</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Besa Machine Gun" typeId="Weapon" typeName="Weapon" hidden="false" id="cf0c-902a-efbc-f0fc">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">6</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">0</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Suppressive</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Machine Gun, Kinetic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Pom-Pom 20mm Autocannon" typeId="Weapon" typeName="Weapon" hidden="false" id="ff1b-4b3d-06e1-7dd1">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">4</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Concussive</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Autocannon, Kinetic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Vickers K" typeId="Weapon" typeName="Weapon" hidden="false" id="9d3d-47dc-4eed-ac85">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">18&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">6</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Suppressive</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Machine Gun, Energy</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bren LMG" typeId="Weapon" typeName="Weapon" hidden="false" id="c621-916f-41c0-7d6d">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">5</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">2</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Suppressive</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Machine Gun, Kinetic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="QF 25-Pounder Howitzer" typeId="Weapon" typeName="Weapon" hidden="false" id="7ef3-e0eb-554b-5547">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">36&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">4</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">4</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1D5+1</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Ordnance 2, Bombard 2, Difficult to Use</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Cannon, Explosive</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="RP-3 Rocket Projector" typeId="Weapon" typeName="Weapon" hidden="false" id="cf3e-f624-3aec-0314">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">36&quot;</characteristic>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">2D5+3</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">3</characteristic>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">1D5</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Ordnance 4, Difficult to Use</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Launcher, Explosive</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Howa Type 3 Assault Rifle" typeId="Weapon" typeName="Weapon" hidden="false" id="91c8-a2b7-230c-2c62">
+      <characteristics>
+        <characteristic name="Range" typeId="23fd-52ca-c658-ab9b"/>
+        <characteristic name="Hits" typeId="60de-dad6-12a2-68b4"/>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8"/>
+        <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca"/>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1"/>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f"/>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -1982,6 +2166,62 @@
         <categoryLink targetId="f273-43c7-03e5-764e" id="5a36-f8aa-8f23-95d3" primary="false" name="EOJ"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Lend-Lease Bedford Truck" hidden="false" id="e98c-04bb-b1d2-3c6a" type="selectionEntry" targetId="efef-86a4-8f4d-d2fd">
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="1d26-d1d1-9af2-f32d" targetId="de0d-e12c-a964-4e46" primary="false"/>
+        <categoryLink name="Transports" hidden="false" id="b4da-e2a6-02b1-b84a" targetId="d4be-5aad-8560-5720" primary="true"/>
+        <categoryLink targetId="f273-43c7-03e5-764e" id="7aa5-2f82-b28a-64b5" primary="false" name="EOJ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lend-Lease Mk. II &apos;&apos;Bedivere&apos;&apos; Armored Command Car" hidden="false" id="f600-7e3d-2c2d-b280" type="selectionEntry" targetId="ee87-6b17-44ac-048c">
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="7f73-db13-d0d1-aea4" targetId="de0d-e12c-a964-4e46" primary="false"/>
+        <categoryLink name="Command" hidden="false" id="9ede-5b34-54dd-a967" targetId="70eb-c264-a9cb-1bfe" primary="true"/>
+        <categoryLink targetId="f273-43c7-03e5-764e" id="5218-e33e-aace-6887" primary="false" name="EOJ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lend-Lease Mk. II &apos;&apos;Bedivere&apos;&apos; Armored Car" hidden="false" id="0efc-8f9e-60d3-2aab" type="selectionEntry" targetId="cd34-6bc6-6612-2ca9">
+      <categoryLinks>
+        <categoryLink name="CORE Recon" hidden="false" id="c2ee-3de2-a319-79bf" targetId="54db-5889-a382-77cb" primary="true"/>
+        <categoryLink name="Vehicle" hidden="false" id="9e05-62b7-b1d3-4314" targetId="de0d-e12c-a964-4e46" primary="false"/>
+        <categoryLink targetId="f273-43c7-03e5-764e" id="e836-74e0-3bd6-165e" primary="false" name="EOJ"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="8136-fed2-db8d-c7a0" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="fae0-4a12-4ae4-5f9b" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Lend-Lease 25 Pdr. Field Artillery Battery" hidden="false" id="4c21-73bc-efe6-b6d8" type="selectionEntry" targetId="8770-c904-5b85-8236">
+      <categoryLinks>
+        <categoryLink name="CORE Artillery" hidden="false" id="2621-f7e9-fc47-2b02" targetId="8679-d614-ae03-de2c" primary="true"/>
+        <categoryLink name="Battery" hidden="false" id="006f-1a5e-08ad-64f8" targetId="2450-f84d-0bff-43d8" primary="false"/>
+        <categoryLink targetId="f273-43c7-03e5-764e" id="26ab-5e94-377e-6e6e" primary="false" name="EOJ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lend-Lease 25 Pdr. Field Artillery Carriage" hidden="false" id="d568-b2d9-cc38-c9a0" type="selectionEntry" targetId="34df-ea74-8b60-cde3">
+      <categoryLinks>
+        <categoryLink name="CORE Artillery" hidden="false" id="3348-09dd-3d27-a49e" targetId="8679-d614-ae03-de2c" primary="true"/>
+        <categoryLink name="Carriage" hidden="false" id="7b0d-e867-2257-add9" targetId="c2bc-81f4-b62b-dc46" primary="false"/>
+        <categoryLink targetId="f273-43c7-03e5-764e" id="807d-c5cb-e323-dbf5" primary="false" name="EOJ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lend-Lease Land Mattress Battery" hidden="false" id="a525-427d-284f-28f9" type="selectionEntry" targetId="e94f-2a14-3113-a923">
+      <categoryLinks>
+        <categoryLink name="CORE Artillery" hidden="false" id="ff28-85d8-71f0-5675" targetId="8679-d614-ae03-de2c" primary="true"/>
+        <categoryLink name="Battery" hidden="false" id="e4fe-63ca-880f-769b" targetId="2450-f84d-0bff-43d8" primary="false"/>
+        <categoryLink targetId="f273-43c7-03e5-764e" id="b70f-04a1-cc79-04e9" primary="false" name="EOJ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lend-Lease Land Mattress Carriage" hidden="false" id="c0d9-995b-b080-a6c4" type="selectionEntry" targetId="1dd7-4594-5025-cace">
+      <categoryLinks>
+        <categoryLink name="Carriage" hidden="false" id="1a50-4c91-1984-e64c" targetId="c2bc-81f4-b62b-dc46" primary="false"/>
+        <categoryLink name="CORE Artillery" hidden="false" id="e1e5-2e17-1d61-895e" targetId="8679-d614-ae03-de2c" primary="true"/>
+        <categoryLink targetId="f273-43c7-03e5-764e" id="6058-7fc6-5262-6855" primary="false" name="EOJ"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Armor" id="df92-d73d-c573-93e9" hidden="false">
@@ -2289,7 +2529,7 @@
           </infoLinks>
           <rules>
             <rule name="Infantry Assault Support" id="c4fb-700c-aa06-7b4" hidden="false">
-              <description>Infantry Units whose Leader is in Base contact with this Unit receive +1 Levels of Cover</description>
+              <description>Troop Units within 6&quot; of this Unit may reroll failed Reflex Checks.</description>
             </rule>
           </rules>
           <selectionEntries>
@@ -2611,7 +2851,7 @@
           </selectionEntries>
           <rules>
             <rule name="Dug In Hull" id="5241-0595-c67a-8f35" hidden="false">
-              <description>If this Unit has not activated it is considered to be in Medium Cover. (Ignore the rule stating that Vehicles cannot gain the benefit of Cover)</description>
+              <description>When this Unit takes the Button Up Reaction, it gains 3 points of Armor instead of 2.</description>
             </rule>
           </rules>
           <entryLinks>
@@ -2626,88 +2866,6 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Artillery" id="8ed0-9eda-d18b-112d" hidden="false">
       <selectionEntries>
-        <selectionEntry type="unit" import="true" name="IJA Field Artillery Battery" hidden="false" id="8a02-be37-bc03-cf00" collective="false">
-          <profiles>
-            <profile name="Field Artillery Battery" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="ce12-6d2b-c9a1-7392">
-              <characteristics>
-                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2 Field Artillery Squads</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">IJA, (CORE) Artillery, Towable, Carriage</characteristic>
-                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink name="Front Facing" id="b3e5-f083-96f8-6c28" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
-            <infoLink name="Deployed Weapon" id="ffa6-ebac-fa7e-ca18" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
-            <infoLink name="Artillery Carriage Actions" id="2c0a-1fd7-323e-4ee4" hidden="false" type="profile" targetId="8aaf-072f-5000-d2b9"/>
-          </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Squad Members" id="f09d-f6b9-5e93-a3f5" hidden="false" collective="false" import="true" defaultSelectionEntryId="8e13-e5a2-924f-51db">
-              <constraints>
-                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="ab2a-163a-f60e-52c0-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="ab2a-163a-f60e-52c0-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry type="model" import="true" name="Artillery Carriage" hidden="false" id="7aca-adf6-cdbe-c2b2" collective="false">
-                  <constraints>
-                    <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="c030-fcb6-0a41-f97e-min" includeChildSelections="false"/>
-                    <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="c030-fcb6-0a41-f97e-max" includeChildSelections="false"/>
-                  </constraints>
-                  <profiles>
-                    <profile name="Artillery Carriage" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="f460-9985-e67e-9681">
-                      <characteristics>
-                        <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                        <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
-                        <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">8</characteristic>
-                        <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">6</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <entryLinks>
-                    <entryLink import="true" name="Type 93 “Azusa” Rifle" hidden="false" id="22a1-b16b-cfe9-df7a" collective="false" targetId="d4fb-139f-7ec1-9d83" type="selectionEntry">
-                      <constraints>
-                        <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="87fb-4e92-0610-8437-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="87fb-4e92-0610-8437-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="0"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                  </costs>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup name="Main Gun" id="df6f-4c4d-0d01-0727" hidden="false">
-                      <entryLinks>
-                        <entryLink import="true" name="Furankihō 7.2-Inch Howitzer" hidden="false" id="0b83-2b0a-f464-1d94" collective="false" targetId="1c9e-d145-7e4a-4d95" type="selectionEntry">
-                          <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="11a6-3f4f-7887-1ef5" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                          </constraints>
-                        </entryLink>
-                        <entryLink import="true" name="Type 90 Heavy Rocket Artillery Launcher" hidden="false" id="b277-e1b6-66eb-06b6" collective="false" targetId="13a7-7cf2-db66-a0cd" type="selectionEntry">
-                          <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ec8-79f7-4d28-cf09" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dd90-21d6-81a4-a632" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                          </constraints>
-                        </entryLink>
-                      </entryLinks>
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9d04-8f0c-a588-68cc-min" includeChildSelections="false"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d04-8f0c-a588-68cc-max" includeChildSelections="false"/>
-                      </constraints>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="Munitions" typeId="Points" value="69"/>
-            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-            <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry type="unit" import="true" name="IJM Hōshu Mortar Squad" hidden="false" id="3d2a-e18b-7bed-e2b2" collective="false">
           <profiles>
             <profile name="Hōshu Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="278c-5bdc-bce4-3f4e">
@@ -3064,6 +3222,246 @@
               </entryLinks>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="Lend-Lease 25 Pdr. Field Artillery Battery" hidden="false" id="8770-c904-5b85-8236">
+          <infoLinks>
+            <infoLink name="Artillery Carriage Actions" id="f172-4c35-3d41-f169" hidden="false" type="profile" targetId="8aaf-072f-5000-d2b9"/>
+            <infoLink name="Cumbersome" id="28cf-8b2b-ddfe-5b9a" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
+            <infoLink name="Deployed Weapon" id="6588-6a8e-d990-1278" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
+            <infoLink name="Dial In" id="1338-ec1b-7041-0eb7" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
+              <modifiers>
+                <modifier type="append" value="12" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Front Facing" id="d866-0c71-5918-3a80" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
+          </infoLinks>
+          <profiles>
+            <profile name="25 Pdr. Field Artillery Battery" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="dea1-b3be-d24a-55cb">
+              <characteristics>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">3x 25 Pdr. Field Artillery Battery</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">BRE, (CORE) Artillery, Battery</characteristic>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Munitions" typeId="Points" value="0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+            <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
+          </costs>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="25 Pdr. Field Artillery Carriage" hidden="false" id="b5ca-6c23-0792-0621">
+              <costs>
+                <cost name="Munitions" typeId="Points" value="40"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="25 Pdr. Field Artillery Carriage" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="c38a-bb03-69e4-22a8">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
+                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">10</characteristic>
+                    <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">8</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="d4cd-3796-154a-4749" includeChildSelections="false"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="4a16-6aea-e26e-35da" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="QF 25-Pounder Howitzer" hidden="false" id="fba7-cd81-2e38-3656" type="selectionEntry" targetId="9eed-1aff-404f-5d48">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="32bd-a275-97e9-2de1" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="27bb-35ae-b08a-0869" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Type 93 “Azusa” Rifle" hidden="false" id="4fa2-9701-34a3-4acd" type="selectionEntry" targetId="d4fb-139f-7ec1-9d83">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5c75-441d-546b-a9f8" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="69ce-1d93-9b3b-2ba0" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Carriage Upgrades" hidden="false" id="23d7-1cbb-b0ec-8041" type="selectionEntryGroup" targetId="d2d4-2fae-45fa-6796"/>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="Lend-Lease 25 Pdr. Field Artillery Carriage" hidden="false" id="34df-ea74-8b60-cde3">
+          <infoLinks>
+            <infoLink name="Artillery Carriage Actions" id="0531-e0a7-e33c-882b" hidden="false" type="profile" targetId="8aaf-072f-5000-d2b9"/>
+            <infoLink name="Cumbersome" id="1704-2579-5347-0d1b" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
+            <infoLink name="Deployed Weapon" id="c90e-25df-4f11-18cf" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
+            <infoLink name="Dial In" id="51f1-fe50-5758-6d74" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
+              <modifiers>
+                <modifier type="append" value="6" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Front Facing" id="e82d-d244-fd7e-748c" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
+          </infoLinks>
+          <profiles>
+            <profile name="25 Pdr. Field Artillery Carriage" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="fea0-158a-eb5f-eb7f">
+              <characteristics>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 25 Pdr. Field Artillery Carriage</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">BRE, (CORE) Artillery, Carriage</characteristic>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="25 Pdr. Field Artillery Carriage" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="ac5e-e2e5-b465-f707">
+              <characteristics>
+                <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
+                <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">10</characteristic>
+                <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Munitions" typeId="Points" value="40"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+            <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="QF 25-Pounder Howitzer" hidden="false" id="11b4-ebb8-26a7-9d94" type="selectionEntry" targetId="9eed-1aff-404f-5d48">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4100-8a99-de95-4749" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="225c-a6ad-b5b6-ad71" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Type 93 “Azusa” Rifle" hidden="false" id="937a-b1cf-f048-2de6" type="selectionEntry" targetId="d4fb-139f-7ec1-9d83">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0f30-3a4d-290c-ecc7" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d3c-7bf9-f4cc-5d33" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Carriage Upgrades" hidden="false" id="b6a6-f0fc-a71d-7d2b" type="selectionEntryGroup" targetId="d2d4-2fae-45fa-6796"/>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="Lend-Lease Land Mattress Battery" hidden="false" id="e94f-2a14-3113-a923">
+          <infoLinks>
+            <infoLink name="Artillery Carriage Actions" id="e47c-a81e-0bdf-4f07" hidden="false" type="profile" targetId="8aaf-072f-5000-d2b9"/>
+            <infoLink name="Cumbersome" id="084f-4dd2-6f41-5096" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
+            <infoLink name="Deployed Weapon" id="8b37-746f-5678-a96e" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
+            <infoLink name="Dial In" id="080c-36aa-3b7a-6aea" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
+              <modifiers>
+                <modifier type="append" value="12" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Front Facing" id="a964-df40-0eca-d733" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Land Mattress Battery" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="073c-f597-d93b-876a">
+              <characteristics>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac"/>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14"/>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Munitions" typeId="Points" value="0"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+            <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
+          </costs>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Land Mattress Carriage" hidden="false" id="9dd1-320d-9386-2951">
+              <constraints>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="8ddf-07b2-cf08-0525" includeChildSelections="false"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="332a-01cb-f087-1914" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Land Mattress Carriage" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="b6c5-a62c-e298-5aa5">
+                  <characteristics>
+                    <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
+                    <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
+                    <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">10</characteristic>
+                    <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">8</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Munitions" typeId="Points" value="40"/>
+                <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Type 93 “Azusa” Rifle" hidden="false" id="0950-1c5d-e788-df6f" type="selectionEntry" targetId="d4fb-139f-7ec1-9d83">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f753-3853-789b-b8cf" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4fee-53a4-be9c-6624" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="RP-3 Rocket Projector" hidden="false" id="f6aa-e099-1a05-9500" type="selectionEntry" targetId="96a5-9e0f-eab8-997e">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="656e-bea4-042b-90ef" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b798-87ec-81e3-93f4" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Carriage Upgrades" hidden="false" id="0630-6e51-0d40-902b" type="selectionEntryGroup" targetId="d2d4-2fae-45fa-6796"/>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="Lend-Lease Land Mattress Carriage" hidden="false" id="1dd7-4594-5025-cace">
+          <infoLinks>
+            <infoLink name="Artillery Carriage Actions" id="9188-cf7d-edf1-596c" hidden="false" type="profile" targetId="8aaf-072f-5000-d2b9"/>
+            <infoLink name="Cumbersome" id="44f3-84e2-fd98-4b3c" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
+            <infoLink name="Deployed Weapon" id="836b-73ea-0f15-e4a7" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
+            <infoLink name="Dial In" id="fd49-1e42-5bbb-3c65" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
+              <modifiers>
+                <modifier type="append" value="6" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Front Facing" id="897a-4234-bf59-82ca" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Land Mattress Carriage" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="70bb-d212-19a3-fa7d">
+              <characteristics>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Land Mattress Carriage</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">BRE, (CORE) Artillery, Carriage</characteristic>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Land Mattress Carriage" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="78d9-8513-743e-ee4a">
+              <characteristics>
+                <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
+                <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">10</characteristic>
+                <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">8</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Munitions" typeId="Points" value="40"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+            <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Type 93 “Azusa” Rifle" hidden="false" id="7d8f-0a1a-fd31-5304" type="selectionEntry" targetId="d4fb-139f-7ec1-9d83">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5b65-d0ad-c266-9423" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b4f-9164-092f-4c0d" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Carriage Upgrades" hidden="false" id="2a63-310f-f0c1-9ddc" type="selectionEntryGroup" targetId="d2d4-2fae-45fa-6796"/>
+            <entryLink import="true" name="RP-3 Rocket Projector" hidden="false" id="cd4f-ac63-9e5f-f929" type="selectionEntry" targetId="96a5-9e0f-eab8-997e">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="15d4-1134-2c1b-e5fe" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b32-4eac-c081-2fa9" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -3596,6 +3994,183 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntry>
+        <selectionEntry type="unit" import="true" name="Lend-Lease Mk. II &apos;&apos;Bedivere&apos;&apos; Armored Command Car" hidden="false" id="ee87-6b17-44ac-048c">
+          <entryLinks>
+            <entryLink import="true" name="Officer Upgrades" hidden="false" id="c4e0-cccd-cb4f-0287" type="selectionEntryGroup" targetId="6b0a-1371-5928-3820"/>
+            <entryLink import="true" name="Vehicle Upgrades" hidden="false" id="1fb1-01f5-c5ba-1eef" type="selectionEntryGroup" targetId="d75c-a162-bc8f-60f9"/>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Command Vehicle Actions" id="2736-5a82-a2aa-3bce" hidden="false" type="profile" targetId="8bc2-5843-ca96-b11b"/>
+            <infoLink name="(CORE) Flex" id="2154-fbbc-12eb-1259" hidden="false" type="rule" targetId="05cc-45cd-4600-22d8"/>
+            <infoLink name="Command Car" id="a90a-346b-8c59-084d" hidden="false" type="rule" targetId="1cbf-8529-3a35-86c6"/>
+            <infoLink name="Low Profile" id="bcdb-3b52-3631-cdbf" hidden="false" type="rule" targetId="06ae-c996-2397-250a"/>
+            <infoLink name="Rank has its Privileges" id="93ad-2371-0fe2-9e82" hidden="false" type="rule" targetId="7d1b-65ee-7808-b26d"/>
+            <infoLink name="All-Terrain-Vehicle" id="502f-353d-bee8-f1f5" hidden="false" type="rule" targetId="38b4-ccd9-b38d-a70c"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Mk. II &apos;&apos;Bedivere&apos;&apos; Armored Command Car" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="4c9c-eda2-14a9-5d06">
+              <characteristics>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac"/>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14"/>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624"/>
+              </characteristics>
+            </profile>
+            <profile name="Mk. II &apos;&apos;Bedivere&apos;&apos; Armored Command Car" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="7dc3-8b36-980d-0ef0">
+              <characteristics>
+                <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">12&quot;</characteristic>
+                <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">9</characteristic>
+                <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">10</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Munitions" typeId="Points" value="78"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+            <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
+          </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Officer Seniority" hidden="false" id="48f1-eb2b-beeb-1892">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Branch" id="3ea3-d08a-2e7b-bdec" hidden="false" defaultSelectionEntryId="57b0-f4d4-7050-53d7">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dd09-7d11-9b03-97fe" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d7c2-b25b-84bf-0ee7" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Army Officer Seniority" hidden="false" id="e820-cce9-7328-c285" type="selectionEntry" targetId="cadb-378d-321-459d">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1795-95b8-e2fd-511c" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Naval Officer Seniority" hidden="false" id="a098-61cc-d155-c40b" type="selectionEntry" targetId="bb9c-c47e-8887-90ad">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0b0-b802-9f04-b011" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="81ae-a0b0-f2ff-e1c1" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e2f-7d86-4725-feb4" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Pintle Mount" hidden="false" id="48fa-a760-2c0f-3240">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c69b-015e-d1d3-f464" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon Options" id="389a-4a64-d6c9-9ab0" hidden="false" defaultSelectionEntryId="d9b1-a439-ce9b-83bc">
+                  <entryLinks>
+                    <entryLink import="true" name="Bren LMG" hidden="false" id="d9b1-a439-ce9b-83bc" type="selectionEntry" targetId="a1cf-3f1c-ccd0-e488">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="829c-17c5-0113-ff1a" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Twin Vickers K" hidden="false" id="da19-2328-8b53-b726">
+                      <entryLinks>
+                        <entryLink import="true" name="Vickers K" hidden="false" id="6edc-8ebb-2636-1887" type="selectionEntry" targetId="79e1-082e-d92c-73d1">
+                          <constraints>
+                            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="fb82-3985-4b61-c78c-min" includeChildSelections="false"/>
+                            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="fb82-3985-4b61-c78c-max" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc2e-93bf-7988-d1a4" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1b37-c27d-6b42-0029-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b37-c27d-6b42-0029-max" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="Lend-Lease Bedford Command Truck" hidden="false" id="95f5-c41d-72b1-8047">
+          <entryLinks>
+            <entryLink import="true" name="Vehicle Upgrades" hidden="false" id="f558-86e3-1805-b074" type="selectionEntryGroup" targetId="d75c-a162-bc8f-60f9"/>
+            <entryLink import="true" name="Officer Upgrades" hidden="false" id="62ab-0f26-e9fa-6b93" type="selectionEntryGroup" targetId="6b0a-1371-5928-3820"/>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Command Vehicle Actions" id="d1b2-e322-b873-7a6f" hidden="false" type="profile" targetId="8bc2-5843-ca96-b11b"/>
+            <infoLink name="(CORE) Flex" id="0d65-1610-f4d9-c901" hidden="false" type="rule" targetId="05cc-45cd-4600-22d8"/>
+            <infoLink name="Command Car" id="db91-d03d-22fe-5fc5" hidden="false" type="rule" targetId="1cbf-8529-3a35-86c6"/>
+            <infoLink name="Hitch" id="5939-e59e-9006-7c5d" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
+            <infoLink name="Low Profile" id="75cf-ad15-b877-aaa5" hidden="false" type="rule" targetId="06ae-c996-2397-250a"/>
+            <infoLink name="Rank has its Privileges" id="7075-f75e-7081-d5e2" hidden="false" type="rule" targetId="7d1b-65ee-7808-b26d"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Bedford Command Truck" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="3270-9fb8-21fd-bfa1">
+              <characteristics>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Bedford Command Truck</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">BRE, (CORE) Flex, Command, Vehicle</characteristic>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Bedford Command Truck" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="5306-1dbd-7003-da25">
+              <characteristics>
+                <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">10&quot;</characteristic>
+                <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">7</characteristic>
+                <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">7</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="increment" value="1" field="af2e-1c49-9a61-0dba" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="95f5-c41d-72b1-8047" childId="5e78-6c92-e6bf-bf7d" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="c7f9-7a63-2269-6a82" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="95f5-c41d-72b1-8047" childId="0ae0-c2a3-03d0-5d2a" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Munitions" typeId="Points" value="31"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+            <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
+          </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Officer Seniority" hidden="false" id="9d55-66de-e79e-47b5">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Branch" id="fe7c-23d6-6dbb-6eff" hidden="false" defaultSelectionEntryId="57b0-f4d4-7050-53d7">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d3dd-997e-a4c0-d9bc" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2edf-c948-a11c-a456" includeChildSelections="false"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Army Officer Seniority" hidden="false" id="f2c2-949d-19e8-5190" type="selectionEntry" targetId="cadb-378d-321-459d">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5a0-6a4e-a487-6778" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Naval Officer Seniority" hidden="false" id="263e-451e-64f8-6850" type="selectionEntry" targetId="bb9c-c47e-8887-90ad">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66e2-72ae-a127-13c0" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="46b3-f929-0554-2b5e" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b3a-6484-88b7-2ee7" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup name="Recon" id="1b4a-22d8-d4cf-8369" hidden="false">
@@ -3777,6 +4352,7 @@
           </profiles>
           <infoLinks>
             <infoLink name="Recon Vehicle Actions" id="1171-f3ff-35e1-a949" hidden="false" type="profile" targetId="e02c-5a58-9b36-5c37"/>
+            <infoLink name="Intel Gathering" id="fce6-6960-418b-7f92" hidden="false" type="rule" targetId="5845-b3b2-62ef-1d40"/>
           </infoLinks>
           <entryLinks>
             <entryLink import="true" name="Vehicle Upgrades" hidden="false" id="e42f-6f54-4880-fac6" type="selectionEntryGroup" targetId="d75c-a162-bc8f-60f9">
@@ -3857,6 +4433,9 @@
               </constraints>
             </selectionEntry>
           </selectionEntries>
+          <rules>
+            <rule name="New Rule" id="d950-be39-e037-e669" hidden="false"/>
+          </rules>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="IJM Yonki Scout Car Recon Squad" hidden="false" id="e09d-a277-29cd-5242" collective="false">
           <profiles>
@@ -3946,6 +4525,135 @@
             </entryLink>
           </entryLinks>
         </selectionEntry>
+        <selectionEntry type="unit" import="true" name="IJM Teishin Jumptroopers" hidden="false" id="5fa5-57c6-2429-f81a">
+          <infoLinks>
+            <infoLink name="Prototype" id="901a-9a05-f334-626e" hidden="false" type="rule" targetId="b4c0-7c13-2254-8ad1"/>
+            <infoLink name="Recon Troop Actions" id="c0ef-b609-383e-86f6" hidden="false" type="profile" targetId="8759-1f21-a918-3ebe"/>
+          </infoLinks>
+          <profiles>
+            <profile name="IJM Teishin Jumptroopers" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="76d8-6d87-44d1-5225">
+              <characteristics>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac"/>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14"/>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Squad Members" id="2df1-ba28-fc16-53bc" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="model" import="true" name="Teishin Hohei" hidden="false" id="13be-9e43-6473-8421">
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="e203-cf36-c44b-5464" includeChildSelections="false"/>
+                    <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="f876-46b6-4728-550e" includeChildSelections="false"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Weapon Options" id="766c-4c44-4334-785c" hidden="false"/>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="model" import="true" name="Teishin Gunsō" hidden="false" id="7aef-2b97-f03e-d96f">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="46b0-229c-e920-ad83-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46b0-229c-e920-ad83-max" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="45ae-97be-244b-d304" includeChildSelections="false"/>
+                <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="f58b-12c2-8063-12a9" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <rules>
+            <rule name="Fade Away" id="4e15-5d5f-a2c1-d13c" hidden="false">
+              <description>When this unit performs a movement Action that could move them to or past the board edge, you may remove this Unit from the battlefield and place them En Route. They may be set up during the Setup Phase within 4” of the board edge, and 8” away from enemy models.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="Lend-Lease Mk. II &apos;&apos;Bedivere&apos;&apos; Armored Car" hidden="false" id="cd34-6bc6-6612-2ca9">
+          <infoLinks>
+            <infoLink name="Recon Vehicle Actions" id="bbbe-3931-47c6-d5bc" hidden="false" type="profile" targetId="e02c-5a58-9b36-5c37"/>
+            <infoLink name="Intelligence" id="42ca-2425-5429-585b" hidden="false" type="rule" targetId="dc7a-f7c9-a54a-9cbc"/>
+            <infoLink name="Intel Gathering" id="11f9-5e2a-3810-ec14" hidden="false" type="rule" targetId="5845-b3b2-62ef-1d40"/>
+            <infoLink name="All-Terrain-Vehicle" id="c3c6-5da7-9a63-b228" hidden="false" type="rule" targetId="38b4-ccd9-b38d-a70c"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Vehicle Upgrades" hidden="false" id="4922-392d-2f82-b257" type="selectionEntryGroup" targetId="d75c-a162-bc8f-60f9"/>
+          </entryLinks>
+          <profiles>
+            <profile name="Mk. II &apos;&apos;Bedivere&apos;&apos; Armored Car" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="3b1d-8464-59ac-b4b6">
+              <characteristics>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Mk. II &apos;&apos;Bedivere&apos;&apos; Armored Car</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">BRE, (CORE) Recon, (AUX) Armor, Vehicle</characteristic>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Mk. II &apos;&apos;Bedivere&apos;&apos; Armored Car" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="bc55-e50f-98ca-7005">
+              <characteristics>
+                <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">12&quot;</characteristic>
+                <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">9</characteristic>
+                <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">10</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="increment" value="1" field="af2e-1c49-9a61-0dba" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="cd34-6bc6-6612-2ca9" childId="5e78-6c92-e6bf-bf7d" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="c7f9-7a63-2269-6a82" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="cd34-6bc6-6612-2ca9" childId="0ae0-c2a3-03d0-5d2a" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Munitions" typeId="Points" value="78"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+            <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
+          </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Turret" hidden="false" id="d07e-2a32-fe38-f57d">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon Options" id="223a-0abc-2224-ad42" hidden="false" defaultSelectionEntryId="06e2-c899-40e5-3eb7">
+                  <entryLinks>
+                    <entryLink import="true" name="QF 2-Pounder Cannon" hidden="false" id="2ea5-d009-16ed-3aed" type="selectionEntry" targetId="30ca-b957-0491-2416">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b76-8f40-5e5b-9f1b" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink import="true" name="Pom-Pom 20mm Autocannon" hidden="false" id="b11f-4946-2444-b227" type="selectionEntry" targetId="76b2-fb26-aa89-0b35"/>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9a27-163e-94da-b7ad" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4f3-5fc8-5dec-7074" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9e78-0e3c-520b-7698" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8eb8-29ae-5821-cddb" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Besa Machine Gun" hidden="false" id="68d0-8281-160d-6c75" type="selectionEntry" targetId="f5a1-4619-5e12-a3a8">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="13d9-ff73-7bb6-691f" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eaf6-76d3-cb08-617d" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <rules>
+            <rule name="Recce" id="6e4d-037c-d575-be32" hidden="false">
+              <description>When this Unit activates, you may spend a point of Intel to gain a G.R.A.I.L die.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="IJM Type 1 Tekkiba Walker Squad" hidden="false" id="a2d6-d304-0924-1d85"/>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup name="Support" id="d5bb-26ea-7797-ee93" hidden="false">
@@ -4143,6 +4851,11 @@
               </entryLinks>
             </entryLink>
           </entryLinks>
+          <rules>
+            <rule name="New Rule" id="0b82-5dd9-c15a-3447" hidden="false">
+              <description>This Unit may take the Build Action as a Reaction.</description>
+            </rule>
+          </rules>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="IJM Hōshu Heavy Machine Gun Squad" hidden="false" id="e6bb-56e5-ce43-8531" collective="false">
           <profiles>
@@ -4651,6 +5364,21 @@
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry type="unit" import="true" name="IJA Sōkō Sagyō Ki Engineering Vehicle" hidden="false" id="5fab-daf2-2eb4-4e96">
+          <infoLinks>
+            <infoLink name="Prototype" id="6edd-56fb-f5ef-18b8" hidden="false" type="rule" targetId="b4c0-7c13-2254-8ad1"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="IJA Combat Engineers" hidden="false" id="01a1-4e64-8672-2260">
+          <infoLinks>
+            <infoLink name="Prototype" id="5e16-6553-3c51-ebb4" hidden="false" type="rule" targetId="b4c0-7c13-2254-8ad1"/>
+          </infoLinks>
+          <rules>
+            <rule name="Networked Trenches" id="94cf-7d97-d3ee-a570" hidden="false">
+              <description>If this Unit moves less than 5&quot; after having taken the Dig In Reaction or Action, it does not lose the level of cover gained from those Actions.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup name="Transport" id="6b12-1a0b-5144-0451" hidden="false">
@@ -4742,6 +5470,85 @@
               </constraints>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="Lend-Lease Bedford Truck" hidden="false" id="efef-86a4-8f4d-d2fd">
+          <infoLinks>
+            <infoLink name="Transport Vehicle Actions" id="369c-6a3f-567a-3260" hidden="false" targetId="d3bd-9092-41d2-8882" type="profile"/>
+            <infoLink name="Dangerous Bailout" id="89c4-73ce-3ffd-359e" hidden="false" type="rule" targetId="544-9133-e670-6e0c"/>
+            <infoLink name="Hitch" id="f1d9-33b8-e6c4-17a9" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
+            <infoLink name="Supply Gathering" id="97d5-5d86-6487-31f2" hidden="false" targetId="5b95-9cb8-8f48-e3ed" type="rule"/>
+            <infoLink name="Transport" id="693e-f133-bd90-64f6" hidden="false" targetId="73c0-9282-d155-0b35" type="rule">
+              <modifiers>
+                <modifier type="append" value="1" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Prototype" id="6c28-4e37-5d8f-dbe8" hidden="false" type="rule" targetId="b4c0-7c13-2254-8ad1"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Vehicle Upgrades" hidden="false" id="2753-e579-2e90-df6a" type="selectionEntryGroup" targetId="d75c-a162-bc8f-60f9"/>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Transport Type" id="f5ab-b20e-af54-41fe" hidden="false" defaultSelectionEntryId="a412-e146-7f35-8280">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Open Topped" hidden="false" id="b00d-e96d-7147-8fd3">
+                  <infoLinks>
+                    <infoLink name="Open Topped " id="e846-13ba-1969-9abe" hidden="false" type="rule" targetId="6beb-7c97-fe80-09a9">
+                      <modifiers>
+                        <modifier type="append" value="1" field="name"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f93-029c-395f-84cb" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Closed" hidden="false" id="a61e-ef76-8388-fd70">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d03-1fea-8797-91be" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9749-9daa-b67e-7ebf" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ed0-c160-388b-e44b" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <profiles>
+            <profile name="Bedford Truck" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="5260-4075-8954-32a8">
+              <characteristics>
+                <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">10&quot;</characteristic>
+                <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">7</characteristic>
+                <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">7</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="increment" value="1" field="af2e-1c49-9a61-0dba" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="efef-86a4-8f4d-d2fd" childId="5e78-6c92-e6bf-bf7d" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="c7f9-7a63-2269-6a82" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="efef-86a4-8f4d-d2fd" childId="0ae0-c2a3-03d0-5d2a" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+            <profile name="Bedford Truck" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="59f7-fc55-2d68-edd8">
+              <characteristics>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Bedford Truck</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">BRE, Transport, Vehicle</characteristic>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Munitions" typeId="Points" value="31"/>
+            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+            <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -5570,6 +6377,7 @@
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5c19-e3a9-c35f-71e2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                       </constraints>
                     </entryLink>
+                    <entryLink import="true" name="Bayonet" hidden="false" id="324d-6735-5239-6221" type="selectionEntry" targetId="66fd-b75b-f882-3404"/>
                   </entryLinks>
                   <costs>
                     <cost name="Munitions" typeId="Points" value="8"/>
@@ -5647,7 +6455,7 @@
           </costs>
           <rules>
             <rule name="Kessen" id="aeb-da3e-2e48-8b31" hidden="false">
-              <description>If this Unit begins its Activation within Engagement Range of an Enemy unit, it may make a Free Melee Attack Action. (This does not prevent this Unit from Attacking again later in its turn.)</description>
+              <description>If this Unit begins its Activation within Engagement Range of an Enemy Unit, it may make a Free Melee Attack Action. (This does not prevent this Unit from Attacking again later in its turn.)</description>
             </rule>
           </rules>
           <entryLinks>
@@ -5715,7 +6523,7 @@
             <selectionEntry type="upgrade" import="true" name="Kenjutsu" hidden="false" id="00ca-4d2b-e5ba-ee1e">
               <rules>
                 <rule name="Kenjutsu" id="99fe-85e7-830b-8ce0" hidden="false">
-                  <description>Units ordered by this Commander gain +1 AP on all Attacks made with Melee weapons this turn.</description>
+                  <description>When Units ordered by this Commander perform the Fallback Reaction, they may move with no restrictions, and may enter Engagement. This counts as a Movement Action and may trigger the Charge Special Rule. The Unit that triggered the Reaction may select a different target after the Fallback is Resolved.</description>
                 </rule>
               </rules>
               <costs>
@@ -6375,6 +7183,36 @@
               </constraints>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="IJM Imperial Retainers" hidden="false" id="ca41-e100-bd7a-cdd0">
+          <rules>
+            <rule name="The Emperor&apos;s Will" id="3939-362b-abf7-84c5" hidden="false">
+              <description>As a Reaction, this Unit may perform a Free Attack Action targeting the Unit that triggered the Reaction.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink name="Prototype" id="9389-3ee9-497d-761e" hidden="false" type="rule" targetId="b4c0-7c13-2254-8ad1"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="IJA Daiyoroi Heavy Warsuit Squad" hidden="false" id="1d32-f1d1-5f36-5ded">
+          <rules>
+            <rule name="Deashi" id="dec3-b2e5-3b68-08d6" hidden="false">
+              <description>When this Unit performs an Attack action with the Charge Special Rule, after resolving the Attack, roll a D5 for each model in this Unit, and add the total health of this Unit to the result of those rolls. If this number is greater than the total health of the Engaged Unit, you may choose for the Engaged Unit to be moved up to 3&quot; away from this one, in a direction of your choosing, to a valid location.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink name="Prototype" id="40f2-dbec-0b6c-5738" hidden="false" type="rule" targetId="b4c0-7c13-2254-8ad1"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="IJA Gokiri Daiyoroi Superheavy Warsuit" hidden="false" id="7718-4a77-ef2e-02e7">
+          <rules>
+            <rule name="Denshamichi" id="0011-081c-16d1-5ce9" hidden="false">
+              <description>When this Unit ends a Movement Action in base-to-base contact with a Terrain Feature, apply a Bombard Token to that Terrain Feature</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink name="Prototype" id="da0d-9e38-3e83-0fd3" hidden="false" type="rule" targetId="b4c0-7c13-2254-8ad1"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>

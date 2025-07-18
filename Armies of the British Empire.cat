@@ -309,6 +309,7 @@
             <infoLink name="Command Car" id="819a-f86d-9832-ab7b" hidden="false" type="rule" targetId="1cbf-8529-3a35-86c6"/>
             <infoLink name="Low Profile" id="f384-370e-5b30-94d0" hidden="false" type="rule" targetId="06ae-c996-2397-250a"/>
             <infoLink name="Rank has its Privileges" id="caf7-ba54-2650-6cb4" hidden="false" type="rule" targetId="7d1b-65ee-7808-b26d"/>
+            <infoLink name="All-Terrain-Vehicle" id="cf39-5528-ba9c-fe38" hidden="false" type="rule" targetId="38b4-ccd9-b38d-a70c"/>
           </infoLinks>
           <profiles>
             <profile name="Mk. II &apos;&apos;Bedivere&apos;&apos; Armored Command Car" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="c3b7-6b5b-4ee3-20ea">
@@ -333,6 +334,43 @@
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Pintle Mount" hidden="false" id="ff92-d2fd-0870-a726">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2745-b418-ff81-ef00" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon Options" id="7003-c659-3f3c-9b53" hidden="false" defaultSelectionEntryId="1bdd-953a-1f19-6f08">
+                  <entryLinks>
+                    <entryLink import="true" name="Bren LMG" hidden="false" id="1bdd-953a-1f19-6f08" type="selectionEntry" targetId="9138-1b74-f2f0-8736">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b33-30ae-7c0d-f646" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Twin Vickers K" hidden="false" id="f537-95a9-cb2e-7d19">
+                      <entryLinks>
+                        <entryLink import="true" name="Vickers K" hidden="false" id="a5de-b06f-42f7-376d" type="selectionEntry" targetId="14d5-011f-3b8b-e90b">
+                          <constraints>
+                            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="d209-e51d-87fe-86b6-min" includeChildSelections="false"/>
+                            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d209-e51d-87fe-86b6-max" includeChildSelections="false"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1929-8d6a-2eae-ebca" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ba3b-c54e-4734-c59e-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba3b-c54e-4734-c59e-max" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Grenadiers Guard Officer" hidden="false" id="a98d-36ab-dc2e-68df">
           <entryLinks>
@@ -705,6 +743,9 @@
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Infantry Troop Actions" id="c00e-5faf-0644-bb4d" hidden="false" type="profile" targetId="0936-84e8-76d0-501a"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Colonial Rifle Section" hidden="false" id="92e9-bd70-810b-e25a">
           <rules>
@@ -955,6 +996,9 @@
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
+          <infoLinks>
+            <infoLink name="Infantry Troop Actions" id="ecdd-6cc9-28d8-7497" hidden="false" type="profile" targetId="0936-84e8-76d0-501a"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Grenadiers Guard Section" hidden="false" id="8260-80aa-8f89-ff48">
           <selectionEntryGroups>
@@ -1308,6 +1352,9 @@
               <description>Once per round, when this Unit is selected as the target of an Attack, after the Attack is resolved, it may perform a Free Move Action. If it does, it must end its movement closer to the Attacking Unit than it began. If it ends this Move within 6&quot; of an Enemy Unit, it may apply a Suppression Token to one of them.</description>
             </rule>
           </rules>
+          <infoLinks>
+            <infoLink name="Infantry Troop Actions" id="cc9a-90ad-bac4-5983" hidden="false" type="profile" targetId="0936-84e8-76d0-501a"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -1326,6 +1373,18 @@
                 <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">15</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">18</characteristic>
               </characteristics>
+              <modifiers>
+                <modifier type="increment" value="1" field="af2e-1c49-9a61-0dba" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="ba99-861e-14e1-0c81" childId="5e78-6c92-e6bf-bf7d" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="c7f9-7a63-2269-6a82" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="ba99-861e-14e1-0c81" childId="0ae0-c2a3-03d0-5d2a" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </profile>
             <profile name="Mk. IV &apos;&apos;Percival&apos;&apos; Cruiser Tank" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="9adc-7a4b-a394-1600">
               <characteristics>
@@ -1520,6 +1579,18 @@
                 <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba"/>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8"/>
               </characteristics>
+              <modifiers>
+                <modifier type="increment" value="1" field="af2e-1c49-9a61-0dba" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="003b-f786-dc82-821a" childId="5e78-6c92-e6bf-bf7d" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="c7f9-7a63-2269-6a82" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="003b-f786-dc82-821a" childId="0ae0-c2a3-03d0-5d2a" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </profile>
             <profile name="Mk. I &quot;Lancelot&quot; Main Battle Tank" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="241d-482b-771f-ef70">
               <characteristics>
@@ -1580,6 +1651,18 @@
                 <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">18</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">25</characteristic>
               </characteristics>
+              <modifiers>
+                <modifier type="increment" value="1" field="af2e-1c49-9a61-0dba" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="6125-f338-2b93-9226" childId="5e78-6c92-e6bf-bf7d" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="c7f9-7a63-2269-6a82" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="6125-f338-2b93-9226" childId="0ae0-c2a3-03d0-5d2a" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </profile>
             <profile name="Mk. VII &apos;&apos;Gawain&apos;&apos; Infantry Tank" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="2c29-1f9e-d9d4-7119">
               <characteristics>
@@ -1756,6 +1839,18 @@
                 <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba"/>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8"/>
               </characteristics>
+              <modifiers>
+                <modifier type="increment" value="1" field="af2e-1c49-9a61-0dba" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="dd56-48b1-ccb7-298d" childId="5e78-6c92-e6bf-bf7d" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="c7f9-7a63-2269-6a82" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="dd56-48b1-ccb7-298d" childId="0ae0-c2a3-03d0-5d2a" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </profile>
             <profile name="Mk. X &quot;Arthur&quot; Super Heavy Assault Tank" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="0f18-39fc-7d1c-a9e7">
               <characteristics>
@@ -1787,9 +1882,8 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Mechanized" id="9a5b-1080-d07e-dcb8" hidden="false">
       <selectionEntries>
-        <selectionEntry type="unit" import="true" name="Mk. XI &quot;Draig&quot; Universal Carrier " hidden="false" id="c3f4-c32c-06ba-9744">
+        <selectionEntry type="unit" import="true" name="Mk. XI &quot;Draig&quot; Universal Carrier Section" hidden="false" id="c3f4-c32c-06ba-9744">
           <costs>
-            <cost name="Munitions" typeId="Points" value="36"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
@@ -1797,6 +1891,7 @@
           <infoLinks>
             <infoLink name="Mechanized Vehicle Actions" id="3141-44f7-e6f3-daf5" hidden="false" type="profile" targetId="dd9a-09a9-4488-0f28"/>
             <infoLink name="Hitch" id="55ff-8075-94ea-28c2" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
+            <infoLink name="Catastrophic Detonation" id="f9f9-d849-208c-8c98" hidden="false" type="rule" targetId="ed65-6e21-b743-aab2"/>
           </infoLinks>
           <entryLinks>
             <entryLink import="true" name="Vehicle Upgrades" hidden="false" id="6c53-9f33-e42e-3135" type="selectionEntryGroup" targetId="d75c-a162-bc8f-60f9">
@@ -1804,12 +1899,6 @@
                 <entryLink import="true" name="Boiling Vessel" hidden="false" id="ffe2-6d48-a206-1688" type="selectionEntry" targetId="8ebe-8660-f3e0-e9bd"/>
                 <entryLink import="true" name="Lightning Rod" hidden="false" id="33ca-702d-c4ed-ebb5" type="selectionEntry" targetId="823f-cff0-6ffa-5d0c"/>
               </entryLinks>
-            </entryLink>
-            <entryLink import="true" name="No. 2 Dragonfire Flamethrower" hidden="false" id="0cb8-0df9-9d7f-b951" type="selectionEntry" targetId="5094-74cb-ee18-f627">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="989d-4118-32c0-6d41-min" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="989d-4118-32c0-6d41-max" includeChildSelections="false"/>
-              </constraints>
             </entryLink>
           </entryLinks>
           <profiles>
@@ -1820,47 +1909,59 @@
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
               </characteristics>
             </profile>
-            <profile name="Mk. XI &quot;Kay&quot; Universal Carrier" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="1a73-50eb-a9b4-ddf1">
-              <characteristics>
-                <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">10&quot;</characteristic>
-                <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">9</characteristic>
-                <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">6</characteristic>
-              </characteristics>
-            </profile>
           </profiles>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Post Mount" hidden="false" id="ed26-da5f-80e7-ede6" collective="true">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3816-cece-17b0-7ac9" includeChildSelections="false"/>
-              </constraints>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Weapon Options" id="b844-2a41-1f07-feff" hidden="false" defaultSelectionEntryId="5cf9-36e8-5d1e-7306">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Vehicles" id="f582-50d1-9b23-701f" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Mk. XI &quot;Draig&quot; Universal Carrier " hidden="false" id="ab78-0d37-5637-6236">
                   <entryLinks>
-                    <entryLink import="true" name="Vickers HMG" hidden="false" id="192f-bf97-24d8-ff03" type="selectionEntry" targetId="79d1-dcd1-e90d-0dea">
+                    <entryLink import="true" name="No. 2 Dragonfire Flamethrower" hidden="false" id="0cb8-0df9-9d7f-b951" type="selectionEntry" targetId="5094-74cb-ee18-f627">
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26db-8e3d-8045-c9b6" includeChildSelections="false"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="6 KJ Arc Cannon" hidden="false" id="b26b-e539-1d98-77dc" type="selectionEntry" targetId="8d6f-2a48-8b36-cdc7">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c7f-d99b-54b3-a23e" includeChildSelections="false"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink import="true" name="Bren LMG" hidden="false" id="5cf9-36e8-5d1e-7306" type="selectionEntry" targetId="9138-1b74-f2f0-8736">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2df7-6829-5e39-2180" includeChildSelections="false"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="989d-4118-32c0-6d41-min" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="989d-4118-32c0-6d41-max" includeChildSelections="false"/>
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <profiles>
+                    <profile name="Mk. XI &quot;Kay&quot; Universal Carrier" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="1a73-50eb-a9b4-ddf1">
+                      <characteristics>
+                        <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">10&quot;</characteristic>
+                        <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">5</characteristic>
+                        <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">9</characteristic>
+                        <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">6</characteristic>
+                      </characteristics>
+                      <modifiers>
+                        <modifier type="increment" value="1" field="af2e-1c49-9a61-0dba" scope="parent">
+                          <conditions>
+                            <condition type="greaterThan" value="0" field="selections" scope="c3f4-c32c-06ba-9744" childId="5e78-6c92-e6bf-bf7d" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="increment" value="1" field="c7f9-7a63-2269-6a82" scope="parent">
+                          <conditions>
+                            <condition type="greaterThan" value="0" field="selections" scope="c3f4-c32c-06ba-9744" childId="0ae0-c2a3-03d0-5d2a" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </profile>
+                  </profiles>
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aa5f-947e-cd10-1859" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e5d2-ff42-cba9-79db" includeChildSelections="false"/>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="8725-9956-8fed-6da7-min" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8725-9956-8fed-6da7-max" includeChildSelections="false"/>
                   </constraints>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-            </selectionEntry>
-          </selectionEntries>
+                  <costs>
+                    <cost name="Munitions" typeId="Points" value="36"/>
+                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                    <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="515b-e0cd-3774-1e1a-min" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="515b-e0cd-3774-1e1a-max" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="SAS Orbital Dragoon Section" hidden="false" id="964c-ac3f-4809-a123">
           <selectionEntryGroups>
@@ -2098,6 +2199,7 @@
             </infoLink>
             <infoLink name="Safe Bailout" id="87a0-28eb-71fa-b11c" hidden="false" type="rule" targetId="40dd-ac7-61eb-eaf6"/>
             <infoLink name="Hitch" id="065d-3e3c-5c0a-88e4" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
+            <infoLink name="All-Terrain-Vehicle" id="ccce-74eb-2db7-65de" hidden="false" type="rule" targetId="38b4-ccd9-b38d-a70c"/>
           </infoLinks>
           <entryLinks>
             <entryLink import="true" name="Vehicle Upgrades" hidden="false" id="f2ed-a99c-84fb-4fe6" type="selectionEntryGroup" targetId="d75c-a162-bc8f-60f9">
@@ -2122,6 +2224,18 @@
                 <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">11</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">12</characteristic>
               </characteristics>
+              <modifiers>
+                <modifier type="increment" value="1" field="af2e-1c49-9a61-0dba" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="021d-6375-82fa-a88d" childId="5e78-6c92-e6bf-bf7d" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="c7f9-7a63-2269-6a82" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="021d-6375-82fa-a88d" childId="0ae0-c2a3-03d0-5d2a" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </profile>
           </profiles>
           <costs>
@@ -2195,6 +2309,18 @@
                 <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">11</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">12</characteristic>
               </characteristics>
+              <modifiers>
+                <modifier type="increment" value="1" field="af2e-1c49-9a61-0dba" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="9cd2-4d7e-b58d-77fa" childId="5e78-6c92-e6bf-bf7d" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="c7f9-7a63-2269-6a82" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="9cd2-4d7e-b58d-77fa" childId="0ae0-c2a3-03d0-5d2a" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </profile>
           </profiles>
           <costs>
@@ -2440,6 +2566,26 @@
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624"/>
               </characteristics>
             </profile>
+            <profile name="Mk. VIII &quot;Bors&quot; Tank Destroyer" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="c10b-b9e1-15b4-9f38">
+              <characteristics>
+                <characteristic name="Movement" typeId="3e68-f430-0d7c-5747"/>
+                <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82"/>
+                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba"/>
+                <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8"/>
+              </characteristics>
+              <modifiers>
+                <modifier type="increment" value="1" field="af2e-1c49-9a61-0dba" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="26f1-0dc5-4210-f901" childId="5e78-6c92-e6bf-bf7d" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="c7f9-7a63-2269-6a82" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="26f1-0dc5-4210-f901" childId="0ae0-c2a3-03d0-5d2a" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
           </profiles>
           <costs>
             <cost name="Munitions" typeId="Points" value="0"/>
@@ -2530,11 +2676,27 @@
           <selectionEntryGroups>
             <selectionEntryGroup name="Section Members" id="8edd-3c87-941e-ed42" hidden="false">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Regular" hidden="false" id="238f-24cb-80b7-7e6b">
+                <selectionEntry type="upgrade" import="true" name="Recoilless Rifle Team" hidden="false" id="238f-24cb-80b7-7e6b">
                   <constraints>
                     <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="742e-c059-3c45-fd4d-min" includeChildSelections="false"/>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="742e-c059-3c45-fd4d-max" includeChildSelections="false"/>
                   </constraints>
+                  <profiles>
+                    <profile name="Recoilless Rifle Team" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="52fe-17fe-2a70-1dbf">
+                      <characteristics>
+                        <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
+                        <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">4</characteristic>
+                        <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">6</characteristic>
+                        <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">6</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="Munitions" typeId="Points" value="15"/>
+                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
+                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+                    <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -2549,9 +2711,9 @@
           <profiles>
             <profile name="WOMBAT Recoilless Rifle Section" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="eed2-28e3-d4f8-9d55">
               <characteristics>
-                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac"/>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14"/>
-                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624"/>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2x Recoilless Rifle Team</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">BRE,</characteristic>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">50mm</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2935,6 +3097,18 @@
                 <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">14</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">20</characteristic>
               </characteristics>
+              <modifiers>
+                <modifier type="increment" value="1" field="af2e-1c49-9a61-0dba" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="e639-fa06-db54-974d" childId="5e78-6c92-e6bf-bf7d" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="c7f9-7a63-2269-6a82" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="e639-fa06-db54-974d" childId="0ae0-c2a3-03d0-5d2a" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </profile>
           </profiles>
           <selectionEntries>
@@ -3142,7 +3316,7 @@
             <profile name="Mk. X &quot;Catigern&quot; Infantry Coordination Tripod" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="5305-713d-674b-04f4">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2-4x Mk. X &quot;Catigern&quot; Infantry Coordination Tripod</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">BRE, (AUX) Support, (AUX) Infantry, Automaton, Walker</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">BRE, (AUX) Support, (AUX) Infantry, Automaton, Battlesuit, Troop</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">32mm</characteristic>
               </characteristics>
             </profile>
@@ -3155,6 +3329,7 @@
           </costs>
           <infoLinks>
             <infoLink name="Not My Job" id="acd9-3121-e306-8549" hidden="false" type="rule" targetId="824b-bf81-ea20-17d4"/>
+            <infoLink name="Support Troop Actions" id="248c-3a50-bd46-a67b" hidden="false" type="profile" targetId="7959-03e6-fdc4-3adf"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Group" id="9b91-097f-144d-7a67" hidden="false">
@@ -4429,6 +4604,18 @@
                 <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">10</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">12</characteristic>
               </characteristics>
+              <modifiers>
+                <modifier type="increment" value="1" field="af2e-1c49-9a61-0dba" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="cdf6-d1dd-3a96-ef43" childId="5e78-6c92-e6bf-bf7d" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="c7f9-7a63-2269-6a82" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="cdf6-d1dd-3a96-ef43" childId="0ae0-c2a3-03d0-5d2a" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </profile>
           </profiles>
           <costs>
@@ -4504,10 +4691,11 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="SAS Land Rovers" hidden="false" id="9f3b-2aa1-5b1b-261c">
+        <selectionEntry type="unit" import="true" name="SAS Long-Range Patrol Trucks" hidden="false" id="9f3b-2aa1-5b1b-261c">
           <infoLinks>
             <infoLink name="Recon Vehicle Actions" id="a1ee-9d10-7a32-6db7" hidden="false" type="profile" targetId="e02c-5a58-9b36-5c37"/>
             <infoLink name="Intel Gathering" id="9b70-c1b3-a190-7b94" hidden="false" type="rule" targetId="5845-b3b2-62ef-1d40"/>
+            <infoLink name="All-Terrain-Vehicle" id="28e4-673a-97c2-78d3" hidden="false" type="rule" targetId="38b4-ccd9-b38d-a70c"/>
           </infoLinks>
           <rules>
             <rule name="Behind Enemy Lines" id="be59-a328-fcb0-4b2a" hidden="false">
@@ -4523,7 +4711,7 @@
             </entryLink>
           </entryLinks>
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="SAS Land Rover" hidden="false" id="b6c1-cb8f-e9fb-cf31">
+            <selectionEntry type="model" import="true" name="SAS Long-Range Patrol Trucks" hidden="false" id="b6c1-cb8f-e9fb-cf31">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Passenger Weapon" hidden="false" id="a0bb-ff55-e05d-ddf7">
                   <entryLinks>
@@ -4581,7 +4769,7 @@
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f859-234f-f1e4-a310-max" includeChildSelections="false"/>
               </constraints>
               <profiles>
-                <profile name="SAS Land Rover" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="9523-2044-a583-8a66">
+                <profile name="SAS Long-Range Patrol Trucks" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="9523-2044-a583-8a66">
                   <characteristics>
                     <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">10&quot;</characteristic>
                     <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
@@ -4599,9 +4787,9 @@
             </selectionEntry>
           </selectionEntries>
           <profiles>
-            <profile name="SAS Land Rover" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="fba4-0d4f-97c9-d04d">
+            <profile name="SAS Long-Range Patrol Trucks" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="fba4-0d4f-97c9-d04d">
               <characteristics>
-                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2x SAS Land Rovers</characteristic>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2x SAS Long-Range Patrol Trucks</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">BRE, (CORE) Recon, Vehicle</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
               </characteristics>
@@ -4619,6 +4807,7 @@
             <infoLink name="Recon Vehicle Actions" id="3c11-d94f-5890-e761" hidden="false" type="profile" targetId="e02c-5a58-9b36-5c37"/>
             <infoLink name="Intelligence" id="8237-3776-704f-bc32" hidden="false" type="rule" targetId="dc7a-f7c9-a54a-9cbc"/>
             <infoLink name="Intel Gathering" id="33a7-934e-2181-7d4b" hidden="false" type="rule" targetId="5845-b3b2-62ef-1d40"/>
+            <infoLink name="All-Terrain-Vehicle" id="d1ea-7dd1-b094-b55d" hidden="false" type="rule" targetId="38b4-ccd9-b38d-a70c"/>
           </infoLinks>
           <entryLinks>
             <entryLink import="true" name="Vehicle Upgrades" hidden="false" id="49a8-8b64-ef94-490f" type="selectionEntryGroup" targetId="d75c-a162-bc8f-60f9">
@@ -4632,7 +4821,7 @@
             <profile name="Mk. II &apos;&apos;Bedivere&apos;&apos; Armored Car" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="de67-e022-c947-2f57">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Mk. II &apos;&apos;Bedivere&apos;&apos; Armored Car</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">BRE, (CORE) Recon, (AUX) Armor, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">BRE, (CORE) Recon, (AUX) Armor, (AUX) Mechanized, Vehicle</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
               </characteristics>
             </profile>
@@ -4643,6 +4832,18 @@
                 <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">9</characteristic>
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">10</characteristic>
               </characteristics>
+              <modifiers>
+                <modifier type="increment" value="1" field="af2e-1c49-9a61-0dba" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="2691-ce51-4cd1-1461" childId="5e78-6c92-e6bf-bf7d" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="c7f9-7a63-2269-6a82" scope="parent">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="2691-ce51-4cd1-1461" childId="0ae0-c2a3-03d0-5d2a" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </profile>
           </profiles>
           <costs>
@@ -5051,6 +5252,11 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="fae0-4a12-4ae4-5f9b" shared="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="c87d-0c37-d91f-b4cd" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="29bb-b3e2-3fbb-9ad5" shared="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </entryLink>
     <entryLink import="true" name="Mk. III &apos;&apos;Vortimer&apos;&apos; Reconnaissance Tripod" hidden="false" id="1ab3-4728-041d-1653" type="selectionEntry" targetId="cdf6-d1dd-3a96-ef43">
@@ -5068,7 +5274,7 @@
         <categoryLink targetId="b100-ce4e-c964-af8d" id="2356-1182-f1bd-34cc" primary="false" name="BRE"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="SAS Land Rovers" hidden="false" id="ce9c-aeea-7870-7fcb" type="selectionEntry" targetId="9f3b-2aa1-5b1b-261c">
+    <entryLink import="true" name="SAS Long-Range Patrol Trucks" hidden="false" id="ce9c-aeea-7870-7fcb" type="selectionEntry" targetId="9f3b-2aa1-5b1b-261c">
       <categoryLinks>
         <categoryLink targetId="54db-5889-a382-77cb" id="2192-03d2-0f60-e746" primary="true" name="CORE Recon"/>
         <categoryLink targetId="de0d-e12c-a964-4e46" id="1abd-97a4-250d-0410" primary="false" name="Vehicle"/>
@@ -5297,9 +5503,9 @@
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">9</characteristic>
-        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1D5+1</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1D5</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Arc Lightning 6, Innacurate</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Arc Lightning 7, Inaccurate</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Emitter, Energy</characteristic>
       </characteristics>
     </profile>
@@ -5420,7 +5626,7 @@
         <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">2</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Suppressive</characteristic>
-        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Machine Gun, Kinetic</characteristic>
+        <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Machine Gun, Energy</characteristic>
       </characteristics>
     </profile>
     <profile name="QF 6-Pounder Cannon" typeId="Weapon" typeName="Weapon" hidden="false" id="01b3-98f5-9246-0bc1">
@@ -5457,9 +5663,9 @@
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">15</characteristic>
-        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1D5+3</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1D5</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Arc Lightning 5, Inaccurate, Difficult to Use</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Arc Lightning 6, Inaccurate, Difficult to Use</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Emitter, Energy</characteristic>
       </characteristics>
     </profile>
@@ -5467,9 +5673,9 @@
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">12</characteristic>
-        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1D5+2</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1D5</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Arc Lightning 5, Inaccurate, Difficult to Use</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Arc Lightning 6, Inaccurate, Difficult to Use</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Emitter, Energy</characteristic>
       </characteristics>
     </profile>
@@ -5477,9 +5683,9 @@
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">6</characteristic>
-        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1D5</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1D5-1</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
-        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Arc Lightning 7, Inaccurate</characteristic>
+        <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Arc Lightning 8, Inaccurate</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Emitter, Energy</characteristic>
       </characteristics>
     </profile>
@@ -5517,7 +5723,7 @@
       <characteristics>
         <characteristic name="Range" typeId="23fd-52ca-c658-ab9b">24&quot;</characteristic>
         <characteristic name="Hits" typeId="60de-dad6-12a2-68b4">18</characteristic>
-        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1D5+4</characteristic>
+        <characteristic name="Armor Penetration" typeId="a8b4-f834-f9e0-2df8">1D5</characteristic>
         <characteristic name="Damage" typeId="92d5-d0e9-5e47-86ca">3</characteristic>
         <characteristic name="Special Rules" typeId="d007-3244-18f1-86d1">Arc-Lightning 6, Inaccurate, Close In, Difficult to Use</characteristic>
         <characteristic name="Keywords" typeId="bd5a-5880-4285-ad9f">Ranged, Emitter, Energy</characteristic>
@@ -5872,13 +6078,13 @@
         <infoLink name="6 KJ Arc Cannon" id="3c8b-a376-3967-1f2e" hidden="false" type="profile" targetId="e13d-3eb8-2893-c1ac"/>
         <infoLink name="Arc-Lightning" id="aa9c-edd8-5bf4-f987" hidden="false" type="rule" targetId="38d0-e689-0a64-8c94">
           <modifiers>
-            <modifier type="append" value="6" field="name"/>
+            <modifier type="append" value="7" field="name"/>
           </modifiers>
         </infoLink>
         <infoLink name="Inaccurate" id="c5b8-6802-d98a-7b98" hidden="false" type="rule" targetId="3da9-a39d-1d0c-5ea1"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="60"/>
+        <cost name="Munitions" typeId="Points" value="48"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -6027,7 +6233,7 @@
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Vickers K" hidden="false" id="14d5-011f-3b8b-e90b">
+    <selectionEntry type="upgrade" import="true" name="Vickers K" hidden="false" id="14d5-011f-3b8b-e90b" collective="true">
       <infoLinks>
         <infoLink name="Vickers K" id="3a0a-2330-697a-827a" hidden="false" type="profile" targetId="6f37-bb4a-2f5e-48f3"/>
         <infoLink name="Suppressive" id="a576-50d4-4a4e-9ff2" hidden="false" type="rule" targetId="4911-2380-864d-8b44"/>
@@ -6124,12 +6330,16 @@
       <infoLinks>
         <infoLink name="23.7 KJ Arc Launcher" id="8556-eb32-99af-9446" hidden="false" type="profile" targetId="b874-00ad-867e-be1e"/>
         <infoLink name="Inaccurate" id="ddcc-7a5a-bf24-3d59" hidden="false" type="rule" targetId="3da9-a39d-1d0c-5ea1"/>
-        <infoLink name="Arc-Lightning" id="02ed-1aee-74cd-d9a3" hidden="false" type="rule" targetId="38d0-e689-0a64-8c94"/>
+        <infoLink name="Arc-Lightning" id="02ed-1aee-74cd-d9a3" hidden="false" type="rule" targetId="38d0-e689-0a64-8c94">
+          <modifiers>
+            <modifier type="append" value="6" field="name"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Close In" id="78ad-1f88-27be-2582" hidden="false" type="rule" targetId="6f53-dabe-1243-14cf"/>
         <infoLink name="Difficult to Use" id="e173-f4ba-1b9a-f11b" hidden="false" type="rule" targetId="22ca-4520-b3df-c16d"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="237"/>
+        <cost name="Munitions" typeId="Points" value="130"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -6165,13 +6375,13 @@
         <infoLink name="3.3 KJ Arc Rifle" id="24e1-f476-d019-ba88" hidden="false" type="profile" targetId="d269-c8ed-e66c-db7b"/>
         <infoLink name="Arc-Lightning" id="d856-e8c1-f881-8235" hidden="false" type="rule" targetId="38d0-e689-0a64-8c94">
           <modifiers>
-            <modifier type="append" value="7" field="name"/>
+            <modifier type="append" value="8" field="name"/>
           </modifiers>
         </infoLink>
         <infoLink name="Inaccurate" id="c5bb-97f0-f42b-4781" hidden="false" type="rule" targetId="3da9-a39d-1d0c-5ea1"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="33"/>
+        <cost name="Munitions" typeId="Points" value="24"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -6182,14 +6392,14 @@
         <infoLink name="10.1 KJ  Arc Cannon" id="628f-24e6-a85d-c422" hidden="false" type="profile" targetId="fbd4-3867-1ace-ece0"/>
         <infoLink name="Arc-Lightning" id="84ab-23af-29b6-70c6" hidden="false" type="rule" targetId="38d0-e689-0a64-8c94">
           <modifiers>
-            <modifier type="append" value="5" field="name"/>
+            <modifier type="append" value="6" field="name"/>
           </modifiers>
         </infoLink>
         <infoLink name="Inaccurate" id="a7f9-ebe3-bdd3-79b5" hidden="false" type="rule" targetId="3da9-a39d-1d0c-5ea1"/>
         <infoLink name="Difficult to Use" id="4936-539c-ff7e-5f9c" hidden="false" type="rule" targetId="22ca-4520-b3df-c16d"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="101"/>
+        <cost name="Munitions" typeId="Points" value="65"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -6200,14 +6410,14 @@
         <infoLink name="16.2 KJ Arc Cannon" id="9694-393a-f116-8eae" hidden="false" type="profile" targetId="9ca5-5da9-ee81-b91f"/>
         <infoLink name="Arc-Lightning" id="33da-9b45-63cf-6882" hidden="false" type="rule" targetId="38d0-e689-0a64-8c94">
           <modifiers>
-            <modifier type="append" value="5" field="name"/>
+            <modifier type="append" value="6" field="name"/>
           </modifiers>
         </infoLink>
         <infoLink name="Inaccurate" id="c763-9e82-a4cf-3eb7" hidden="false" type="rule" targetId="3da9-a39d-1d0c-5ea1"/>
         <infoLink name="Difficult to Use" id="16b5-755e-6c00-3d7c" hidden="false" type="rule" targetId="22ca-4520-b3df-c16d"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="162"/>
+        <cost name="Munitions" typeId="Points" value="81"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>

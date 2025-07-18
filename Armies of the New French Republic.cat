@@ -2105,7 +2105,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Forward Positions" id="6b04-e4a1-6fdd-cd5f" hidden="false" type="rule" targetId="239f-191a-232-4894"/>
+            <infoLink name="Rapid Deployment" id="6b04-e4a1-6fdd-cd5f" hidden="false" type="rule" targetId="9776-f4fe-ef62-3956"/>
             <infoLink name="Armor Vehicle Actions" id="1464-e149-b76f-b60d" hidden="false" type="profile" targetId="ed5a-9492-6407-a9f1"/>
             <infoLink name="Cook Off" id="4670-6e82-1c99-a687" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
           </infoLinks>
@@ -3872,6 +3872,7 @@
             <infoLink name="Hitch" id="e525-f814-9be2-42c1" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
             <infoLink name="(CORE) Flex" id="4d6a-c49f-8fbc-fd56" hidden="false" type="rule" targetId="05cc-45cd-4600-22d8"/>
             <infoLink name="Low Profile" id="6797-75ec-774f-1f40" hidden="false" type="rule" targetId="06ae-c996-2397-250a"/>
+            <infoLink name="Command Car" id="9374-2c0f-e79d-b695" hidden="false" type="rule" targetId="1cbf-8529-3a35-86c6"/>
           </infoLinks>
           <costs>
             <cost name="Munitions" typeId="Points" value="33"/>
@@ -3885,7 +3886,12 @@
                 <entryLink import="true" name="Overtuned" hidden="false" id="4506-1d24-bb1e-7da5" type="selectionEntry" targetId="2065-730f-51ef-3021"/>
               </entryLinks>
             </entryLink>
-            <entryLink import="true" name="Officer Seniority" hidden="false" id="a2d1-6271-c7e7-79d7" type="selectionEntry" targetId="5354-e9b5-1b87-4595"/>
+            <entryLink import="true" name="Officer Seniority" hidden="false" id="a2d1-6271-c7e7-79d7" type="selectionEntry" targetId="5354-e9b5-1b87-4595">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0280-d8f5-5cc7-a720-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0280-d8f5-5cc7-a720-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
             <entryLink import="true" name="Officer Upgrades" hidden="false" id="f7d1-ff34-f833-f147" type="selectionEntryGroup" targetId="f47a-1969-42c7-e147"/>
           </entryLinks>
         </selectionEntry>
@@ -5289,6 +5295,7 @@
             <infoLink name="Recon Vehicle Actions" id="e81a-bbb3-c6ab-1580" hidden="false" targetId="e02c-5a58-9b36-5c37" type="profile"/>
             <infoLink name="Forward Positions" id="ad6d-65df-3284-bc2e" hidden="false" type="rule" targetId="239f-191a-232-4894"/>
             <infoLink name="Hitch" id="cc21-c95c-9dbe-17fb" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
+            <infoLink name="All-Terrain-Vehicle" id="2cce-f25d-96b9-fe9f" hidden="false" type="rule" targetId="38b4-ccd9-b38d-a70c"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad Members" id="966f-2535-5ec4-fbd3" hidden="false" collective="false" import="true">
@@ -6482,6 +6489,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e0f-f69d-3484-ad09-max" includeChildSelections="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Nominate Field Commander" hidden="false" id="882c-25ce-5e5e-ae7b" type="selectionEntry" targetId="a8f2-8cd0-efc0-4a1b"/>
           </entryLinks>
           <infoLinks>
             <infoLink name="Independent Hero" id="e307-06ca-97c5-dd4f" hidden="false" type="rule" targetId="87d1-b519-3107-ac0d"/>
