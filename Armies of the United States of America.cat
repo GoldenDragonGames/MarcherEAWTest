@@ -46,6 +46,7 @@
         <categoryLink targetId="54db-5889-a382-77cb" id="c44f-74c5-fa4b-fd75" primary="true" name="CORE Recon"/>
         <categoryLink targetId="de0d-e12c-a964-4e46" id="5a99-2dc4-f3a9-7f98" primary="false" name="Vehicle"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="7356-b8d1-9fa7-87bd" primary="false" name="USA"/>
+        <categoryLink targetId="2aa2-d811-87ac-0844" id="ccab-f01d-cf97-63c0" primary="false" name="Scout"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5665-ba3c-23a2-63ed" name="M56 Supply Truck" hidden="false" collective="false" import="true" targetId="2de1-eb8f-0f7b-e991" type="selectionEntry">
@@ -74,16 +75,18 @@
     <entryLink id="7c27-9dfb-6718-09b8" name="M12 Light Anti-Tank Gun Battery" hidden="false" collective="false" import="true" targetId="16de-197d-a058-8363" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="7110-7fe8-80e2-5e81" id="1e1e-e49d-b5e0-a96c" primary="true" name="CORE Support"/>
-        <categoryLink targetId="2450-f84d-0bff-43d8" id="3d93-4bc5-0e1d-4473" primary="false" name="Battery"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="2336-4d9a-7373-9643" primary="false" name="USA"/>
+        <categoryLink targetId="c2bc-81f4-b62b-dc46" id="6d01-d6b3-b894-6330" primary="false" name="Carriage"/>
+        <categoryLink targetId="0210-dcc7-546b-3981" id="a785-7ff4-cdf4-da4d" primary="false" name="Crewed Weapon"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="81a5-3c2b-7d25-f4fa" name="Heavy Machine Gun Squad" hidden="false" collective="false" import="true" targetId="9a9e-6e1a-989a-c109" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="a74d-0d07-e5d9-0032" id="930b-aed7-a397-b190" primary="false" name="AUX Infantry"/>
-        <categoryLink targetId="6dc4-41a4-7144-d10c" id="4fef-2394-58cd-d18d" primary="false" name="Troop"/>
         <categoryLink targetId="7110-7fe8-80e2-5e81" id="90cb-02e9-fc4d-fb2a" primary="true" name="CORE Support"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="e82f-2058-d49f-d207" primary="false" name="USA"/>
+        <categoryLink targetId="6dc4-41a4-7144-d10c" id="7dfe-46ea-293f-6101" primary="false" name="Troop"/>
+        <categoryLink targetId="0210-dcc7-546b-3981" id="4e72-b10e-9f14-c06f" primary="false" name="Crewed Weapon"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="a74d-0d07-e5d9-0032" field="category">
@@ -114,6 +117,7 @@
         <categoryLink targetId="48f5-3131-be0b-5951" id="15e4-3848-67df-1317" primary="true" name="AUX Support"/>
         <categoryLink targetId="239b-db47-17c9-4f36" id="7d80-ea32-29f0-da28" primary="false" name="Automaton"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="9ab1-1c6e-45fb-8afe" primary="false" name="USA"/>
+        <categoryLink targetId="c2bc-81f4-b62b-dc46" id="de99-ecd9-86e8-e850" primary="false" name="Carriage"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="28f9-cbe0-10e3-270f" name="Drop-Trooper Infantry Squad" hidden="false" collective="false" import="true" targetId="95d6-805f-cbf6-cdd7" type="selectionEntry">
@@ -173,6 +177,7 @@
         <categoryLink targetId="54db-5889-a382-77cb" id="15e3-e81a-e479-cb93" primary="true" name="CORE Recon"/>
         <categoryLink targetId="de0d-e12c-a964-4e46" id="c8a7-78b9-43bc-f4d9" primary="false" name="Vehicle"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="bf18-98a6-5cd5-b173" primary="false" name="USA"/>
+        <categoryLink targetId="2aa2-d811-87ac-0844" id="cf44-7698-776d-f3e6" primary="false" name="Scout"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4de9-ce9f-bef5-529a" name="X53 Lynx Battle Walker" hidden="false" collective="false" import="true" targetId="d390-3371-5d0c-7440" type="selectionEntry">
@@ -181,6 +186,7 @@
         <categoryLink targetId="54db-5889-a382-77cb" id="afd0-b8bc-646a-5c51" primary="true" name="CORE Recon"/>
         <categoryLink targetId="de0d-e12c-a964-4e46" id="a40c-d0a2-662c-f1b6" primary="false" name="Vehicle"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="bacf-06be-82f9-489d" primary="false" name="USA"/>
+        <categoryLink targetId="2aa2-d811-87ac-0844" id="f8d1-1153-c90b-c0d1" primary="false" name="Scout"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0af3-609a-6d79-0109" name="Cavalry Bike Squad" hidden="false" collective="false" import="true" targetId="c905-4b27-69d3-1aca" type="selectionEntry">
@@ -198,6 +204,7 @@
         <categoryLink targetId="8679-d614-ae03-de2c" id="bb60-7799-fd40-1641" primary="true" name="CORE Artillery"/>
         <categoryLink targetId="6dc4-41a4-7144-d10c" id="605f-51c9-2721-5c72" primary="false" name="Troop"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="7efb-c7b0-3575-77f3" primary="false" name="USA"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="f271-4c71-7f20-ed3a" primary="false" name="Field Gun"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="a74d-0d07-e5d9-0032" field="category">
@@ -217,6 +224,7 @@
         <categoryLink targetId="8679-d614-ae03-de2c" id="b544-4ceb-adea-91ab" primary="true" name="CORE Artillery"/>
         <categoryLink targetId="c2bc-81f4-b62b-dc46" id="be35-2c1b-c693-2fdb" primary="false" name="Carriage"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="bc51-0530-73d4-ff66" primary="false" name="USA"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="1089-1a28-ce43-b5d4" primary="false" name="Field Gun"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0a09-fb97-d3af-91d8" name="M62 Burro Artillery Tractor" hidden="false" collective="false" import="true" targetId="9fe5-6f3e-c7f7-7cb2" type="selectionEntry">
@@ -273,6 +281,7 @@
         <categoryLink targetId="c2bc-81f4-b62b-dc46" id="a57f-3b76-610a-7e8c" primary="false" name="Carriage"/>
         <categoryLink targetId="7110-7fe8-80e2-5e81" id="0ece-d6c7-e669-5ee5" primary="true" name="CORE Support"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="ef48-0073-53a4-2b8a" primary="false" name="USA"/>
+        <categoryLink targetId="0210-dcc7-546b-3981" id="ca56-11f5-a53f-422b" primary="false" name="Crewed Weapon"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="a74d-0d07-e5d9-0032" field="category">
@@ -311,7 +320,7 @@
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="a45b-c0a0-f3c3-fdf2" primary="true" name="Command"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="0491-19a4-fd53-2003" primary="false" name="USA"/>
-        <categoryLink targetId="6dc4-41a4-7144-d10c" id="2d88-af68-b0c1-fd38" primary="false" name="Troop"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="8be2-374c-f00e-f308" primary="false" name="Attache"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -337,8 +346,8 @@
     <entryLink import="true" name="Mounted Officer" hidden="true" id="54de-296c-3dbf-bfe6" type="selectionEntry" targetId="5dee-8749-c33e-578c">
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="4185-9f86-cc14-b055" primary="true" name="Command"/>
-        <categoryLink targetId="5363-dec4-5b0e-5504" id="7d7a-46ad-1e78-216b" primary="false" name="Mounted"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="66ea-7922-270f-c1e9" primary="false" name="USA"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="e3be-44d8-3f70-154e" primary="false" name="Attache"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -349,7 +358,6 @@
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="force" childId="de0d-e12c-a964-4e46" shared="true"/>
                     <condition type="atLeast" value="1" field="selections" scope="force" childId="c2bc-81f4-b62b-dc46" shared="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2450-f84d-0bff-43d8" shared="true"/>
                   </conditions>
                 </conditionGroup>
                 <conditionGroup type="or">
@@ -372,6 +380,8 @@
         <categoryLink name="Command" hidden="false" id="b247-957e-e5fa-9055" targetId="70eb-c264-a9cb-1bfe" primary="false"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="0cda-797f-d2ee-784a" primary="false" name="USA"/>
         <categoryLink targetId="33a5-8b7e-49bb-c30d" id="eeb0-c2c6-0fe5-bfb7" primary="true" name="Heroes"/>
+        <categoryLink targetId="6dc4-41a4-7144-d10c" id="fe91-4ec6-82ee-4570" primary="false" name="Troop"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="fb43-8a30-a035-7de0" primary="false" name="Attache"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -400,6 +410,7 @@
         <categoryLink targetId="7616-a9f8-6205-af0e" id="4b55-25e0-b361-5977" primary="false" name="Tracked"/>
         <categoryLink targetId="de0d-e12c-a964-4e46" id="aedb-d9bc-60ed-f95d" primary="false" name="Vehicle"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="df93-8029-2dee-8f0a" primary="false" name="USA"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="aa89-2321-225c-a56d" primary="false" name="Field Gun"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="48f5-3131-be0b-5951" field="category">
@@ -414,6 +425,7 @@
         <categoryLink targetId="8679-d614-ae03-de2c" id="134f-a76d-cae6-a82c" primary="true" name="CORE Artillery"/>
         <categoryLink targetId="c2bc-81f4-b62b-dc46" id="7577-620e-6ab2-7e80" primary="false" name="Carriage"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="17c2-fe14-3e99-803a" primary="false" name="USA"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="dab7-14ce-c227-fbfb" primary="false" name="Field Gun"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="M13 Light Rocket Artillery Carriage" hidden="false" id="db7f-cb0e-c97e-870c" type="selectionEntry" targetId="3a10-ede7-b051-8e1f">
@@ -423,6 +435,7 @@
         <categoryLink targetId="48f5-3131-be0b-5951" id="d48d-a14e-bc67-55dc" primary="false" name="AUX Support"/>
         <categoryLink targetId="a74d-0d07-e5d9-0032" id="e059-0dec-8e73-039c" primary="false" name="AUX Infantry"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="a01d-a405-c1b0-2052" primary="false" name="USA"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="2266-7ffb-2871-953f" primary="false" name="Field Gun"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="a74d-0d07-e5d9-0032" field="category">
@@ -444,6 +457,7 @@
         <categoryLink targetId="de0d-e12c-a964-4e46" id="c5c7-c457-d94a-a4fb" primary="false" name="Vehicle"/>
         <categoryLink targetId="6f95-29a9-8d9a-a5fb" id="5ae8-cd20-108c-ccfb" primary="false" name="Superheavy"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="c4a7-f0cb-9b56-ca89" primary="false" name="USA"/>
+        <categoryLink targetId="2aa2-d811-87ac-0844" id="1536-f16a-889c-45f3" primary="false" name="Scout"/>
       </categoryLinks>
       <rules>
         <rule name="Thundering Footfalls" id="fc8c-ea18-a26e-7931" hidden="false">
@@ -583,6 +597,7 @@
         <categoryLink targetId="33a5-8b7e-49bb-c30d" id="9a07-b3e7-e018-540" primary="true" name="Heroes"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="b669-f585-694b-e53d" primary="false" name="USA"/>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="5a4e-6678-db5b-1ec2" primary="false" name="Command"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="6ebc-a630-528f-5fb8" primary="false" name="Attache"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -601,8 +616,8 @@
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="5c73-6c95-6d18-17f5" primary="false" name="Command"/>
         <categoryLink targetId="33a5-8b7e-49bb-c30d" id="5f2e-1a0f-ac7e-263e" primary="true" name="Heroes"/>
-        <categoryLink targetId="6dc4-41a4-7144-d10c" id="cb03-ebcc-c6f7-48a9" primary="false" name="Troop"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="664e-1ec7-8b3c-cde8" primary="false" name="USA"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="ab74-a70f-2a97-7316" primary="false" name="Attache"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -631,6 +646,7 @@
         <categoryLink targetId="de0d-e12c-a964-4e46" id="480d-21cb-714b-4f9a" primary="false" name="Vehicle"/>
         <categoryLink targetId="7616-a9f8-6205-af0e" id="e5df-8f1e-8195-2cef" primary="false" name="Tracked"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="077c-5e5d-7e3b-023e" primary="false" name="USA"/>
+        <categoryLink targetId="239b-db47-17c9-4f36" id="8149-4f2f-f279-7297" primary="false" name="Automaton"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Veteran Infantry Squad" hidden="false" id="a5cc-611d-be9a-4368" type="selectionEntry" targetId="00aa-d9ab-e82e-fb96">
@@ -658,9 +674,8 @@
     <entryLink import="true" name="X19 Badger Hardsuit Officer" hidden="true" id="2449-91ca-9b1e-5e0e" type="selectionEntry" targetId="2f7f-7fe8-a0d5-0487">
       <categoryLinks>
         <categoryLink name="Command" hidden="false" id="9fa4-97bf-9db3-c1e0" targetId="70eb-c264-a9cb-1bfe" primary="true"/>
-        <categoryLink targetId="4ec9-47a4-5562-ea3b" id="370e-cc35-7fe0-d5cd" primary="false" name="Battlesuit"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="17c3-8e95-21a7-6fa9" primary="false" name="USA"/>
-        <categoryLink targetId="6dc4-41a4-7144-d10c" id="c981-9430-3560-23a1" primary="false" name="Troop"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="6a35-e802-0fc2-e7b7" primary="false" name="Attache"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -697,6 +712,7 @@
         <categoryLink targetId="c2bc-81f4-b62b-dc46" id="834f-0a49-c92f-6a7d" primary="false" name="Carriage"/>
         <categoryLink targetId="a74d-0d07-e5d9-0032" id="2e88-4d6b-8d70-872f" primary="false" name="AUX Infantry"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="6e1a-fe2c-93a5-5f0b" primary="false" name="USA"/>
+        <categoryLink targetId="0210-dcc7-546b-3981" id="6b3b-9f60-fa21-1e18" primary="false" name="Crewed Weapon"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="a74d-0d07-e5d9-0032" field="category">
@@ -709,15 +725,17 @@
     <entryLink import="true" name="M133 Towed Anti-Tank Gun Carriage Battery" hidden="false" id="fa3c-259e-d0ba-3e08" collective="false" targetId="f4af-8f40-4198-db7e" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="CORE Support" hidden="false" id="0bdd-2bbe-54d4-cfef" targetId="7110-7fe8-80e2-5e81" primary="true"/>
-        <categoryLink targetId="2450-f84d-0bff-43d8" id="2144-56e7-2c14-39b9" primary="false" name="Battery"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="f161-6f6d-abb6-58b4" primary="false" name="USA"/>
+        <categoryLink targetId="0210-dcc7-546b-3981" id="f75b-b632-3e6f-f240" primary="false" name="Crewed Weapon"/>
+        <categoryLink targetId="c2bc-81f4-b62b-dc46" id="447e-928d-028c-a13f" primary="false" name="Carriage"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="M11 20mm Autocannon Battery" hidden="false" id="a888-d6e2-43b4-9f2d" collective="false" targetId="fc2d-f22f-2ff5-e8b0" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="CORE Support" hidden="false" id="af5d-93f4-ddca-bb54" targetId="7110-7fe8-80e2-5e81" primary="true"/>
-        <categoryLink targetId="2450-f84d-0bff-43d8" id="18d3-75fe-63a8-dd91" primary="false" name="Battery"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="87df-c274-020d-6ebc" primary="false" name="USA"/>
+        <categoryLink targetId="0210-dcc7-546b-3981" id="d945-4dfc-c1e8-c5cd" primary="false" name="Crewed Weapon"/>
+        <categoryLink targetId="c2bc-81f4-b62b-dc46" id="ac3e-a3e5-3016-d217" primary="false" name="Carriage"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="M12 Light Anti-Tank Gun Carriage" hidden="false" id="917d-f236-af20-0b09" collective="false" targetId="567e-e7a1-4a51-5940" type="selectionEntry">
@@ -726,6 +744,7 @@
         <categoryLink name="Carriage" hidden="false" id="9fbc-fa89-f70f-1832" targetId="c2bc-81f4-b62b-dc46" primary="false"/>
         <categoryLink name="AUX Infantry" hidden="false" id="f8bd-495c-de83-436b" targetId="a74d-0d07-e5d9-0032" primary="false"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="1e13-9b5a-b2cd-b569" primary="false" name="USA"/>
+        <categoryLink targetId="0210-dcc7-546b-3981" id="553d-3063-815e-b6e2" primary="false" name="Crewed Weapon"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="a74d-0d07-e5d9-0032" field="category">
@@ -738,8 +757,9 @@
     <entryLink import="true" name="M333 Heavy Howitzer Battery" hidden="false" id="2a9c-f0cc-6975-f550" collective="false" targetId="9265-2145-51a9-bbc5" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="CORE Artillery" hidden="false" id="ecaf-a401-4d0c-d746" targetId="8679-d614-ae03-de2c" primary="true"/>
-        <categoryLink targetId="2450-f84d-0bff-43d8" id="101b-b3ed-8e1b-7c52" primary="false" name="Battery"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="61b8-7829-fa48-80d5" primary="false" name="USA"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="a46f-e925-f0d1-0899" primary="false" name="Field Gun"/>
+        <categoryLink targetId="c2bc-81f4-b62b-dc46" id="af76-5f4f-5496-2b34" primary="false" name="Carriage"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Recoilless Rifle Squad" hidden="false" id="d4c0-8a15-ff49-14a8" collective="false" targetId="2885-59b4-db6b-1e4e" type="selectionEntry">
@@ -748,6 +768,7 @@
         <categoryLink name="Troop" hidden="false" id="ae06-03f0-64c4-2430" targetId="6dc4-41a4-7144-d10c" primary="false"/>
         <categoryLink targetId="7110-7fe8-80e2-5e81" id="ad3a-d67b-5138-dc68" primary="true" name="CORE Support"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="41a4-f50c-384d-6c19" primary="false" name="USA"/>
+        <categoryLink targetId="0210-dcc7-546b-3981" id="8d49-a935-9ce3-8c35" primary="false" name="Crewed Weapon"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="a74d-0d07-e5d9-0032" field="category">
@@ -763,6 +784,7 @@
         <categoryLink name="Troop" hidden="false" id="b201-ebd9-a706-e59c" targetId="6dc4-41a4-7144-d10c" primary="false"/>
         <categoryLink targetId="7110-7fe8-80e2-5e81" id="dc2f-eaac-8d62-a69f" primary="true" name="CORE Support"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="cdc6-2247-9826-36c3" primary="false" name="USA"/>
+        <categoryLink targetId="0210-dcc7-546b-3981" id="99b6-a2da-bd7e-952b" primary="false" name="Crewed Weapon"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="a74d-0d07-e5d9-0032" field="category">
@@ -778,6 +800,7 @@
         <categoryLink name="Troop" hidden="false" id="7116-4c14-e037-a420" targetId="6dc4-41a4-7144-d10c" primary="false"/>
         <categoryLink name="CORE Support" hidden="false" id="163d-bd48-ab5f-1523" targetId="7110-7fe8-80e2-5e81" primary="true"/>
         <categoryLink name="USA" hidden="false" id="b38c-0bb4-c4e3-db62" targetId="4455-94a1-ea5e-b9ec" primary="false"/>
+        <categoryLink targetId="0210-dcc7-546b-3981" id="6c79-cc94-79a8-b673" primary="false" name="Crewed Weapon"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="a74d-0d07-e5d9-0032" field="category">
@@ -830,6 +853,7 @@
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="3722-8b73-e3b4-371f" primary="true" name="Command"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="6f46-797e-6e6e-4c89" primary="false" name="USA"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="4df4-e8c9-77d4-99cd" primary="false" name="Attache"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -858,7 +882,8 @@
       <categoryLinks>
         <categoryLink targetId="8679-d614-ae03-de2c" id="ee1a-d967-f891-efe4" primary="true" name="CORE Artillery"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="0a39-1aaf-6c9b-566c" primary="false" name="USA"/>
-        <categoryLink targetId="2450-f84d-0bff-43d8" id="dd01-c968-5f15-3f23" primary="false" name="Battery"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="3d31-966a-e1a1-3c47" primary="false" name="Field Gun"/>
+        <categoryLink targetId="c2bc-81f4-b62b-dc46" id="bc90-7cf7-23ad-8de9" primary="false" name="Carriage"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="M120 Quad Cannon Carriage" hidden="false" id="17ae-ce14-0f3b-10d9" type="selectionEntry" targetId="d03f-f43e-c120-ae15">
@@ -866,6 +891,7 @@
         <categoryLink targetId="8679-d614-ae03-de2c" id="c468-2c65-0cb0-e1fd" primary="true" name="CORE Artillery"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="b931-f4c2-1427-a1b8" primary="false" name="USA"/>
         <categoryLink targetId="c2bc-81f4-b62b-dc46" id="455e-77a8-92d5-740e" primary="false" name="Carriage"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="837b-3e17-4ff2-ea9c" primary="false" name="Field Gun"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Combat Engineer Officer" hidden="true" id="9d3b-1658-e2ee-8cd2" type="selectionEntry" targetId="1479-daaf-bd1a-467c">
@@ -885,6 +911,7 @@
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="bd1c-6f86-de62-a37b" primary="true" name="Command"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="c0e0-bbb9-af34-2153" primary="false" name="USA"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="617f-8b77-5a64-703b" primary="false" name="Attache"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -894,37 +921,12 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Veteran Infantry Officer" hidden="true" id="d744-0546-3f43-0526" type="selectionEntry" targetId="85d8-07d1-a0c2-6f86">
-      <categoryLinks>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="9135-3f83-56fb-289b" primary="true" name="Command"/>
-        <categoryLink targetId="4455-94a1-ea5e-b9ec" id="06cd-599b-1b3c-d714" primary="false" name="USA"/>
-      </categoryLinks>
-      <modifiers>
-        <modifier type="set" value="false" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="6dc4-41a4-7144-d10c" shared="true" includeChildSelections="true"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="force" childId="26a5-76cb-5d13-b4a7" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="force" childId="7110-7fe8-80e2-5e81" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="force" childId="8679-d614-ae03-de2c" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
     <entryLink import="true" name="M13 Light Rocket Artillery Battery" hidden="false" id="c5d5-c44f-62c8-28ca" type="selectionEntry" targetId="6c39-8dde-1935-c4bb">
       <categoryLinks>
-        <categoryLink targetId="2450-f84d-0bff-43d8" id="6632-e0a6-e6a4-cb72" primary="false" name="Battery"/>
         <categoryLink targetId="4455-94a1-ea5e-b9ec" id="fa5a-5fa3-130d-950f" primary="false" name="USA"/>
         <categoryLink targetId="8679-d614-ae03-de2c" id="e8cb-8dfe-dc32-ad86" primary="true" name="CORE Artillery"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="bac3-be5d-69ed-e362" primary="false" name="Field Gun"/>
+        <categoryLink targetId="c2bc-81f4-b62b-dc46" id="4dd8-8209-1df9-d66e" primary="false" name="Carriage"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -939,7 +941,7 @@
           <selectionEntries>
             <selectionEntry id="0a87-9516-94f9-a6d3" name="C1 - Lieutenant" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="83a5-3994-8814-a0c4" name="Command" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                <infoLink id="83a5-3994-8814-a0c4" name="Officer" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
                   <modifiers>
                     <modifier type="append" field="name" value="1"/>
                   </modifiers>
@@ -954,7 +956,7 @@
             </selectionEntry>
             <selectionEntry id="5aef-b756-3eec-4a8f" name="C2 - Captain" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="58d3-d245-a78d-14a2" name="Command" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                <infoLink id="58d3-d245-a78d-14a2" name="Officer" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
                   <modifiers>
                     <modifier type="append" field="name" value="2"/>
                   </modifiers>
@@ -969,7 +971,7 @@
             </selectionEntry>
             <selectionEntry id="b5cb-0386-1728-6cf7" name="C3 - Major" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="f8a8-1314-577f-113b" name="Command" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                <infoLink id="f8a8-1314-577f-113b" name="Officer" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
                   <modifiers>
                     <modifier type="append" field="name" value="3"/>
                   </modifiers>
@@ -984,7 +986,7 @@
             </selectionEntry>
             <selectionEntry id="ea08-e8e3-eeba-4ab1" name="C4 - Colonel" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="7bf5-dc67-d9e8-375c" name="Command" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                <infoLink id="7bf5-dc67-d9e8-375c" name="Officer" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
                   <modifiers>
                     <modifier type="append" field="name" value="4"/>
                   </modifiers>
@@ -1239,16 +1241,22 @@
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Battle Flag of the Republic" hidden="false" id="f9e4-81c4-d69b-a56b" collective="false">
+    <selectionEntry type="upgrade" import="true" name="Old Glory" hidden="false" id="f9e4-81c4-d69b-a56b" collective="false">
       <infoLinks>
-        <infoLink name="Battle Flag of the Republic" id="336f-6ec4-345c-08fa" hidden="false" targetId="a45e-fe60-ef7e-71b8" type="profile"/>
         <infoLink name="Rally &apos;round the Flag" id="54c4-700c-06af-4371" hidden="false" targetId="fa72-2a0f-e8b0-46c0" type="rule"/>
+        <infoLink name="Old Glory" id="3b1b-f1b6-a78c-c365" hidden="false" type="profile" targetId="2f33-6d15-5cbf-099f"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="0"/>
+        <cost name="Munitions" typeId="Points" value="25"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
+        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
       </costs>
+      <rules>
+        <rule name="The Land of the Free" id="9fba-93cd-5ad9-2308" hidden="false">
+          <description>This Unit may Capture and Hold Contested Objectives.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Battle Mace" hidden="false" id="3e90-89e6-fcce-e905" collective="true">
       <infoLinks>
@@ -2100,7 +2108,7 @@
       <description>This Unit may take the &quot;Rally&quot; action.</description>
     </rule>
     <rule id="b193-2930-d1eb-db82" name="One Track Programming" hidden="false">
-      <description>This model must attack the nearest enemy model.</description>
+      <description>When this Unit makes a Standard Attack Action, it must Attack the nearest eligible Enemy Unit</description>
     </rule>
     <rule id="fc68-0b29-f0a9-6edc" name="Satellite Communication" hidden="false">
       <description>This Unit ignores the requirements for Line of Sight and Range when performing the &quot;Direct Fire&quot; action.</description>
@@ -2951,11 +2959,12 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Veteran Staff Sergeant, 5-9x Veteran Riflemen, 0-2x Specialists, 0-1x Flagbearers, &amp; 0-1x Medics</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Infantry, (AUX) Mechanized, Troop</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">10</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Infantry Troop Actions" id="b5c9-bd5a-935b-334a" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
+            <infoLink name="Troop Actions" id="b5c9-bd5a-935b-334a" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
             <infoLink name="Elite Infantry" id="2592-47cf-1722-e68b" hidden="false" type="rule" targetId="12fb-381c-5514-6d51"/>
             <infoLink name="Veteran NCO" id="237d-cdcf-b225-28eb" hidden="false" type="rule" targetId="bc38-eb87-e51b-7c4c"/>
           </infoLinks>
@@ -3102,29 +3111,6 @@
                     <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
                     <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
                   </costs>
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Old Glory" hidden="false" id="a5c2-ad2c-a875-2975">
-                      <infoLinks>
-                        <infoLink name="Old Glory" id="4fa7-2670-8e7a-25fe" hidden="false" type="profile" targetId="2f33-6d15-5cbf-099f"/>
-                        <infoLink name="Rally &apos;round the Flag" id="d03b-92fb-97b2-7c23" hidden="false" type="rule" targetId="fa72-2a0f-e8b0-46c0"/>
-                      </infoLinks>
-                      <rules>
-                        <rule name="The Land of the Free" id="6d75-5e81-b1f6-3c42" hidden="false">
-                          <description>This Unit may Capture and Hold Contested Objectives.</description>
-                        </rule>
-                      </rules>
-                      <costs>
-                        <cost name="Munitions" typeId="Points" value="25"/>
-                        <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                        <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                        <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2912-eba5-7183-4e90-min" includeChildSelections="false"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2912-eba5-7183-4e90-max" includeChildSelections="false"/>
-                      </constraints>
-                    </selectionEntry>
-                  </selectionEntries>
                   <selectionEntryGroups>
                     <selectionEntryGroup name="Sidearm" id="f3ba-4f53-177e-fc88" hidden="false" defaultSelectionEntryId="9781-1c0f-cad8-b035">
                       <entryLinks>
@@ -3139,6 +3125,14 @@
                       </constraints>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <entryLinks>
+                    <entryLink import="true" name="Old Glory" hidden="false" id="d214-923e-9e05-3f81" type="selectionEntry" targetId="f9e4-81c4-d69b-a56b">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0ed8-9cd9-f2fc-0456-min" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ed8-9cd9-f2fc-0456-max" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
                 </selectionEntry>
                 <selectionEntry type="model" import="true" name="Veteran Rifleman" hidden="false" id="2b6a-0213-3807-88c8" collective="false" defaultAmount="9">
                   <constraints>
@@ -3321,6 +3315,7 @@
           </rules>
           <entryLinks>
             <entryLink import="true" name="Troops Upgrades" hidden="false" id="c8e9-4d50-00f6-7b67" type="selectionEntryGroup" targetId="c42e-5415-a1c5-e2d8"/>
+            <entryLink import="true" name="Designate Command Squad" hidden="false" id="7661-4984-8e54-b411" type="selectionEntry" targetId="b3fb-3e65-7a94-ddb7"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Infantry Squad" hidden="false" id="550f-1a9e-b56d-c261" collective="false">
@@ -3330,17 +3325,18 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Staff Sergeant, 7-9x Riflemen, 0-2x Specialists, &amp; 0-1x Medic</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Infantry, (AUX) Mechanized, Troop</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">10-12</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Infantry Troop Actions" id="3437-64e2-874f-c0a3" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
+            <infoLink name="Troop Actions" id="3437-64e2-874f-c0a3" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad Members" id="0bb8-79d9-53be-d37f" hidden="false" collective="false" import="true" defaultSelectionEntryId="813d-9c62-f970-493c">
               <constraints>
                 <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="3794-d572-ac75-1541-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="3794-d572-ac75-1541-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="12" field="selections" scope="parent" shared="true" id="3794-d572-ac75-1541-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry type="model" import="true" name="Staff Sergeant" hidden="false" id="468e-91a2-8141-e85a" collective="false">
@@ -3695,6 +3691,7 @@
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="47d2-ca58-9375-7bb3" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Squad" hidden="false" id="0f8c-d49b-2410-fe3f" type="selectionEntry" targetId="b3fb-3e65-7a94-ddb7"/>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -3731,13 +3728,14 @@
             <profile name="M82A1 Kodiak Superheavy Tank" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="8f3d-7dc2-17ea-3f1b">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M82A1 Kodiak Superheavy Tank</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Armor, Superheavy, Tracked, Vehicle,</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Armor, Vehicle, Tracked, Superheavy</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Armor Vehicle Actions" id="a20d-c8f4-2cbe-44b2" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
+            <infoLink name="Vehicle Actions" id="a20d-c8f4-2cbe-44b2" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
             <infoLink name="Cumbersome" id="0e58-09f1-4801-809f" hidden="false" targetId="4c9f-32f0-9723-17cb" type="rule"/>
             <infoLink name="Cook Off" id="8d06-ca9e-3051-3538" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
           </infoLinks>
@@ -3921,6 +3919,7 @@
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="6f3f-507e-5faa-6330" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="1491-e86c-cc39-8d58" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="M68 Timberwolf Heavy Tank" hidden="false" id="b2b7-f528-a15a-6e8b" collective="false">
@@ -3948,13 +3947,14 @@
             <profile name="M68 Timberwolf Heavy Tank" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="a260-d7c8-51bd-9d34">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M68 Timberwolf Heavy Tank</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Armor, (AUX) Mechanized,Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Armor, (AUX) Mechanized, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Armor Vehicle Actions" id="a45b-5c4a-92a6-cb2d" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
+            <infoLink name="Vehicle Actions" id="a45b-5c4a-92a6-cb2d" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
             <infoLink name="Cook Off" id="46a7-891d-50e4-12f8" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
           </infoLinks>
           <selectionEntries>
@@ -4196,6 +4196,7 @@
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="66db-5239-616e-d5e4" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="2fb8-8a0f-f66a-0847" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
           <rules>
             <rule name="Wolf Pack" id="bf1c-d427-f309-c918" hidden="false">
@@ -4208,8 +4209,9 @@
             <profile name="M48 Caprina Crocodile" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="3a2b-5c86-e162-2d91">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M48 Caprina Crocodile</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Armor, (AUX) Mechanized, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Armor, (AUX) Mechanized, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="M48 Caprina Crocodile" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="ba08-57d8-e4f7-c642">
@@ -4234,7 +4236,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Armor Vehicle Actions" id="bb65-e2c1-b649-6400" hidden="false" type="profile" targetId="ed5a-9492-6407-a9f1"/>
+            <infoLink name="Vehicle Actions" id="bb65-e2c1-b649-6400" hidden="false" type="profile" targetId="ed5a-9492-6407-a9f1"/>
             <infoLink name="Catastrophic Detonation" id="983c-3698-ede2-6ee2" hidden="false" type="rule" targetId="ed65-6e21-b743-aab2"/>
           </infoLinks>
           <costs>
@@ -4254,6 +4256,7 @@
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="5b37-ab54-294a-407b" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="b8ac-4e62-02db-bfa3" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Turret" hidden="false" id="7a88-fd76-1f58-10e9">
@@ -4358,13 +4361,14 @@
             <profile name="M46 Grizzly Heavy Tank" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="3387-5fb7-77fd-69b9">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M46 Grizzly Heavy Tank</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Armor, (AUX) Mechanized, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Armor, (AUX) Mechanized, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Armor Vehicle Actions" id="cbe8-a1d0-4025-7731" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
+            <infoLink name="Vehicle Actions" id="cbe8-a1d0-4025-7731" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
             <infoLink name="Cook Off" id="c677-c7dc-3ada-78c9" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
           </infoLinks>
           <costs>
@@ -4384,6 +4388,7 @@
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="0e70-fb82-133c-c390" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="bb0e-e747-0d49-5d59" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Bow Weapon" hidden="false" id="5a57-856b-519a-5060">
@@ -4650,13 +4655,14 @@
             <profile name="M40A2 Sherman Medium Tank" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="deb0-9474-0883-25e5">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M40A2 Sherman Medium Tank</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Armor, (AUX) Mechanized, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Armor, (AUX) Mechanized, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Armor Vehicle Actions" id="b1dd-0190-9ab0-d6c6" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
+            <infoLink name="Vehicle Actions" id="b1dd-0190-9ab0-d6c6" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
             <infoLink name="Cook Off" id="ed7e-2af5-97bf-638d" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
           </infoLinks>
           <selectionEntries>
@@ -4895,6 +4901,7 @@
                 </selectionEntry>
               </selectionEntries>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="31a6-ddf7-8aa6-47ff" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="M30A3 Jackrabbit Light Tank" hidden="false" id="67e3-d637-4136-e6de" collective="false">
@@ -4922,13 +4929,14 @@
             <profile name="M30 Jackrabbit Light Tank" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="a265-e0ca-64d1-2665">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M30 Jackrabbit Light Tank</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Armor, (AUX) Mechanized, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Armor, (AUX) Mechanized, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Armor Vehicle Actions" id="335f-2587-7ba1-ff4a" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
+            <infoLink name="Vehicle Actions" id="335f-2587-7ba1-ff4a" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
             <infoLink name="Cook Off" id="a01a-e89c-aadb-6644" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
           </infoLinks>
           <selectionEntries>
@@ -5049,6 +5057,7 @@
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="d850-d2ee-da54-0474" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="24ce-e50d-c315-e360" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -5060,8 +5069,9 @@
             <profile name="M150 Heavy Gun Carriage" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="312b-d1db-143f-f5c9">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M150 Heavy Gun Carriage</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, Carriage</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, Carriage, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="M150 Heavy Gun Carriage" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="d9f3-32b8-b786-239d">
@@ -5080,7 +5090,7 @@
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
           <infoLinks>
-            <infoLink name="Artillery Carriage Actions" id="4234-ed8b-f9c9-b65" hidden="false" type="profile" targetId="8aaf-072f-5000-d2b9"/>
+            <infoLink name="Field Gun Carriage Actions" id="4234-ed8b-f9c9-b65" hidden="false" type="profile" targetId="8aaf-072f-5000-d2b9"/>
             <infoLink name="Cumbersome" id="55f1-0b09-d25c-4d70" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Heavy Carriage" id="d984-a668-41f2-91d4" hidden="false" type="rule" targetId="4d43-378e-5e18-f124"/>
             <infoLink name="Dial In" id="81f4-3341-d3c6-70f4" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
@@ -5092,6 +5102,7 @@
           </infoLinks>
           <entryLinks>
             <entryLink import="true" name="Carriage Upgrades" hidden="false" id="5f29-bfbc-b4b0-3db6" type="selectionEntryGroup" targetId="d2d4-2fae-45fa-6796"/>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="79ff-7788-b048-ae8d" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Cannon Mount" hidden="false" id="f03d-4c7b-5bb1-c7c1">
@@ -5132,8 +5143,9 @@
             <profile name="M333 Heavy Howitzer Battery" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="1f2f-a737-efe7-a7d6">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M333 Heavy Howitzer Carriage</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, Carriage</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, Carriage, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="M333 Heavy Howitzer Carriage" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="029f-db0c-bb40-72ac">
@@ -5148,7 +5160,7 @@
           <infoLinks>
             <infoLink name="Front Facing" id="1a35-b76d-62ae-ac7d" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
             <infoLink name="Deployed Weapon" id="a851-f8f9-0e5b-3e62" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
-            <infoLink name="Artillery Carriage Actions" id="4525-b697-3826-344c" hidden="false" type="profile" targetId="8aaf-072f-5000-d2b9"/>
+            <infoLink name="Field Gun Carriage Actions" id="4525-b697-3826-344c" hidden="false" type="profile" targetId="8aaf-072f-5000-d2b9"/>
             <infoLink name="Cumbersome" id="f3ab-35f4-5e46-450a" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Heavy Carriage" id="3dbc-9403-1e0a-0f96" hidden="false" type="rule" targetId="4d43-378e-5e18-f124"/>
             <infoLink name="Dial In" id="5370-5728-b746-c6be" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
@@ -5177,6 +5189,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Carriage Upgrades" hidden="false" id="c2e4-03cb-ef8f-9aab" type="selectionEntryGroup" targetId="d2d4-2fae-45fa-6796"/>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="f41a-35bc-b64e-9969" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Mortar Squad" hidden="false" id="287a-4b83-58d3-df49" collective="false">
@@ -5184,15 +5197,16 @@
             <profile name="Mortar Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="b8c8-e8f8-2fd0-54a9">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2x Mortar Teams</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, (AUX) Infantry, (AUX) Support, Troops</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, (AUX) Infantry, (AUX) Support, Troop, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">50mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Front Facing" id="0294-7513-ff3b-18a3" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
             <infoLink name="Deployed Weapon" id="8643-f158-d7bf-f648" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
-            <infoLink name="Artillery Troop Actions" id="cf97-6f2f-7621-821f" hidden="false" type="profile" targetId="a630-8180-c3b3-9f81"/>
+            <infoLink name="Field Gun Crewed Weapon Troop Actions" id="cf97-6f2f-7621-821f" hidden="false" type="profile" targetId="a630-8180-c3b3-9f81"/>
             <infoLink name="Cumbersome" id="aca6-3b09-646a-a7cb" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Dial In" id="904f-f777-bb0a-eecc" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
               <modifiers>
@@ -5257,6 +5271,7 @@
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="f100-f89e-488a-8025" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="6c6b-0cc0-56e4-1be8" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="M105 MLRS Caprina" hidden="false" id="5bef-8e07-3925-dce6" collective="false">
@@ -5264,8 +5279,9 @@
             <profile name="M105 MLRS Caprina" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="9350-fc55-765f-4f39">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M105 MLRS Caprina</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, (AUX) Support, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, (AUX) Support, Vehicle, Tracked, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="M105 MLRS Caprina" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="c55c-e7a1-ff5d-8231">
@@ -5290,7 +5306,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Artillery Vehicle Actions" id="5bb3-cb2d-97c4-5298" hidden="false" type="profile" targetId="ad55-69e8-9339-6df7"/>
+            <infoLink name="Field Gun Vehicle Actions" id="5bb3-cb2d-97c4-5298" hidden="false" type="profile" targetId="ad55-69e8-9339-6df7"/>
             <infoLink name="Cumbersome" id="3c61-84c0-a939-66ae" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Cook Off" id="6efc-d062-03e6-912b" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
             <infoLink name="Dial In" id="0b56-2f00-374d-d0de" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
@@ -5312,6 +5328,7 @@
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="7b2b-d8fd-bf62-86db" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="295e-9c94-b23c-51d0" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Turret" hidden="false" id="b46f-c5c4-0b63-2871">
@@ -5389,8 +5406,9 @@
             <profile name="M48D2 &quot;Rolling Tom&quot; Gun Carriage Caprina" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="b7e1-16f0-3d92-b7bf">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M48D2 &quot;Rolling Tom&quot; Gun Carriage Caprina</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, (AUX) Support, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, (AUX) Support, Vehicle, Tracked, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="M48D2 &quot;Rolling Tom&quot; Gun Carriage Caprina" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="2625-33e0-e55e-5a21">
@@ -5415,7 +5433,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Artillery Vehicle Actions" id="dcff-8916-13ee-ff6e" hidden="false" type="profile" targetId="ad55-69e8-9339-6df7"/>
+            <infoLink name="Field Gun Vehicle Actions" id="dcff-8916-13ee-ff6e" hidden="false" type="profile" targetId="ad55-69e8-9339-6df7"/>
             <infoLink name="Cumbersome" id="04e3-0034-eafa-8a58" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Cook Off" id="6842-3fa2-df7e-9009" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
             <infoLink name="Dial In" id="126e-11ae-24b5-0cc3" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
@@ -5437,6 +5455,7 @@
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="7928-2388-d6bd-27f8" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="e7ab-9d25-699e-02b6" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Hull Weapon" hidden="false" id="6049-9b63-185f-62c4">
@@ -5498,14 +5517,15 @@
             <profile name="M13 Light Rocket Artillery Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="402d-8321-7dde-ae30">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">3x M13 Light Rocket Artillery Carriages</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, Battery</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, Carriage, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">3</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Deployed Weapon" id="427f-e5c9-01d9-c802" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
-            <infoLink name="Artillery Carriage Actions" id="defd-7a74-52e9-9e9b" hidden="false" type="profile" targetId="8aaf-072f-5000-d2b9"/>
+            <infoLink name="Field Gun Carriage Actions" id="defd-7a74-52e9-9e9b" hidden="false" type="profile" targetId="8aaf-072f-5000-d2b9"/>
             <infoLink name="Cumbersome" id="e066-b466-6e17-a933" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Dial In" id="8411-0c7d-649f-88a7" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
               <modifiers>
@@ -5567,6 +5587,7 @@
           </costs>
           <entryLinks>
             <entryLink import="true" name="Carriage Upgrades" hidden="false" id="cee7-463a-6447-148a" type="selectionEntryGroup" targetId="d2d4-2fae-45fa-6796"/>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="1d76-6b09-fb46-065a" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="M13 Light Rocket Artillery Carriage" hidden="false" id="3a10-ede7-b051-8e1f" collective="false">
@@ -5574,8 +5595,9 @@
             <profile name="M13 Light Rocket Artillery Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="c0c-ddf5-ddf9-7080">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M13 Light Rocket Artillery Carriage</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, (AUX) Infantry, (AUX) Support, Carriage</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, (AUX) Infantry, (AUX) Support, Carriage, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="M13 Light Rocket Artillery Carriage" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="6eba-b15-30dd-e5b0">
@@ -5589,7 +5611,7 @@
           </profiles>
           <infoLinks>
             <infoLink name="Deployed Weapon" id="8e6-8a92-ac3d-9958" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
-            <infoLink name="Artillery Carriage Actions" id="3c3e-f69f-6ab3-8a64" hidden="false" type="profile" targetId="8aaf-072f-5000-d2b9"/>
+            <infoLink name="Field Gun Carriage Actions" id="3c3e-f69f-6ab3-8a64" hidden="false" type="profile" targetId="8aaf-072f-5000-d2b9"/>
             <infoLink name="Cumbersome" id="d24b-cb2a-010c-1a99" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Dial In" id="0b19-f067-0497-14d6" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
               <modifiers>
@@ -5617,6 +5639,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Carriage Upgrades" hidden="false" id="c087-9fa8-48e4-bf64" type="selectionEntryGroup" targetId="d2d4-2fae-45fa-6796"/>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="7155-6365-552d-310a" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="M333 Heavy Howitzer Battery" hidden="false" id="9265-2145-51a9-bbc5" collective="false">
@@ -5624,15 +5647,16 @@
             <profile name="M333 Heavy Howitzer Battery" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="47b6-fa84-873f-19bc">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">3x M333 Heavy Howitzer Carriages</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, Battery</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, Carriage, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">3</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Front Facing" id="de4b-84be-ae4a-937b" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
             <infoLink name="Deployed Weapon" id="b78d-b3e5-495e-95a6" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
-            <infoLink name="Artillery Carriage Actions" id="0614-a962-9c8a-bbf4" hidden="false" type="profile" targetId="8aaf-072f-5000-d2b9"/>
+            <infoLink name="Field Gun Carriage Actions" id="0614-a962-9c8a-bbf4" hidden="false" type="profile" targetId="8aaf-072f-5000-d2b9"/>
             <infoLink name="Cumbersome" id="6ec3-e34d-d7ac-e241" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Dial In" id="36c8-139d-1710-5829" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
               <modifiers>
@@ -5694,6 +5718,7 @@
           </costs>
           <entryLinks>
             <entryLink import="true" name="Carriage Upgrades" hidden="false" id="a381-534b-f205-6e4a" type="selectionEntryGroup" targetId="d2d4-2fae-45fa-6796"/>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="32f9-cb9c-c62e-b783" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="XM-31 &quot;Honest John&quot; Caprina" hidden="false" id="62da-9811-a3ab-5f1e" collective="false">
@@ -5701,8 +5726,9 @@
             <profile name="XM-31 &quot;Honest John&quot; Caprina" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="e50d-aa30-309b-e8a4">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x XM-31 &quot;Honest John&quot; Caprina</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, Vehicle, Tracked, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="XM-31 &quot;Honest John&quot; Caprina" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="031c-a7bf-183a-60ca">
@@ -5727,7 +5753,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Artillery Vehicle Actions" id="3005-3295-419e-5307" hidden="false" type="profile" targetId="ad55-69e8-9339-6df7"/>
+            <infoLink name="Field Gun Vehicle Actions" id="3005-3295-419e-5307" hidden="false" type="profile" targetId="ad55-69e8-9339-6df7"/>
             <infoLink name="Cumbersome" id="31c4-3d29-ace4-5a60" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Cook Off" id="43a1-175d-c15c-2f27" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
             <infoLink name="Deployed Weapon" id="245f-927c-36cf-d0e2" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
@@ -5749,6 +5775,7 @@
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="1949-b266-0b57-8954" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="963e-cf44-01dc-a983" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Turret" hidden="false" id="7f30-de03-535b-380f">
@@ -5825,11 +5852,12 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M62 Burro Artillery Tractor</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Artillery Vehicle Actions" id="dc04-ad33-b19a-7e91" hidden="false" type="profile" targetId="ad55-69e8-9339-6df7"/>
+            <infoLink name="Vehicle Actions" id="dc04-ad33-b19a-7e91" hidden="false" type="profile" targetId="ed5a-9492-6407-a9f1"/>
             <infoLink name="Hitch" id="e882-693f-e045-8e21" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
             <infoLink name="Forward Observer" id="6f31-07d0-9a60-652d" hidden="false" type="rule" targetId="75bb-9390-ced5-4e8e"/>
             <infoLink name="Cook Off" id="dcb0-5a9b-40fb-b6bb" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
@@ -5930,6 +5958,7 @@
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="3a49-9bf7-7997-4e0e" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="1d6f-8585-bfb4-f727" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="M120 Quad Cannon Battery" hidden="false" id="25e3-2077-7e04-5aae" collective="false">
@@ -5937,15 +5966,16 @@
             <profile name="M120 Quad Cannon Battery" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="c7d4-0bc2-9a13-6de3">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">3x M120 Quad Cannon Carriage</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, Battery</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, Carriage, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">3</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Front Facing" id="cf62-fea7-db1a-e607" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
             <infoLink name="Deployed Weapon" id="28be-efea-7fb9-1c3a" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
-            <infoLink name="Artillery Carriage Actions" id="64cb-a437-1ab3-8550" hidden="false" type="profile" targetId="8aaf-072f-5000-d2b9"/>
+            <infoLink name="Field Gun Carriage Actions" id="64cb-a437-1ab3-8550" hidden="false" type="profile" targetId="8aaf-072f-5000-d2b9"/>
             <infoLink name="Cumbersome" id="8552-09a9-ed93-6e99" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Dial In" id="92b2-9b19-193f-913f" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
               <modifiers>
@@ -6007,6 +6037,7 @@
           </costs>
           <entryLinks>
             <entryLink import="true" name="Carriage Upgrades" hidden="false" id="c0b0-1a8b-92c1-6b38" type="selectionEntryGroup" targetId="d2d4-2fae-45fa-6796"/>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="7b11-30a5-95fa-e0b6" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
           <rules>
             <rule name="Quad Barrels" id="960a-4996-c084-b508" hidden="false">
@@ -6019,8 +6050,9 @@
             <profile name="M120 Quad Cannon Battery" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="e8d6-888e-9453-c918">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M120 Quad Cannon Carriage</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, Carriage</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, Carriage, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="M120 Quad Cannon Carriage" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="3a8e-c6f8-8ea0-3d78">
@@ -6035,7 +6067,7 @@
           <infoLinks>
             <infoLink name="Front Facing" id="d7e6-6521-a67c-04ba" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
             <infoLink name="Deployed Weapon" id="01c8-09aa-1177-68ba" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
-            <infoLink name="Artillery Carriage Actions" id="324f-e88a-431c-03e6" hidden="false" type="profile" targetId="8aaf-072f-5000-d2b9"/>
+            <infoLink name="Field Gun Carriage Actions" id="324f-e88a-431c-03e6" hidden="false" type="profile" targetId="8aaf-072f-5000-d2b9"/>
             <infoLink name="Cumbersome" id="8d3c-8636-56a0-2b9b" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Dial In" id="170b-d4c3-2fff-0cf9" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
               <modifiers>
@@ -6064,6 +6096,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Carriage Upgrades" hidden="false" id="2a1e-74bd-7a02-0a3d" type="selectionEntryGroup" targetId="d2d4-2fae-45fa-6796"/>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="dd69-f4ac-b2d1-5f51" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
           <rules>
             <rule name="Quad Barrels" id="628d-2d4e-0a2f-0168" hidden="false">
@@ -6080,8 +6113,9 @@
             <profile name="X74 Sheridan Heavy Battle Walker" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="30f2-3d19-cc1a-1a39">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x X74 Sheridan Heavy Battle Walker</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Recon, Walker, Vehicle, Superheavy</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Recon, Vehicle, Walker, Superheavy, Scout </characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">110x170mm Oval</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="X74 Sheridan Heavy Battle Walker" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="fb95-3bd5-e60e-d489">
@@ -6106,7 +6140,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Recon Vehicle Actions" id="cfa0-744c-b88f-e169" hidden="false" targetId="e02c-5a58-9b36-5c37" type="profile"/>
+            <infoLink name="Scout Vehicle Actions" id="cfa0-744c-b88f-e169" hidden="false" targetId="e02c-5a58-9b36-5c37" type="profile"/>
             <infoLink name="Crushing Footfalls" id="2d3a-529e-a430-094e" hidden="false" type="rule" targetId="e2e6-8a2b-ce84-8cb4"/>
           </infoLinks>
           <costs>
@@ -6129,6 +6163,7 @@
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="a242-a783-60b9-1a68" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="c0fb-55e0-192a-afc9" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Left Arm" hidden="false" id="dd44-78c1-0f92-c991">
@@ -6273,8 +6308,9 @@
             <profile name="X53 Lynx Battle Walker" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="575c-e3b7-cd24-0d39">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x X53 Lynx Battle Walker</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Recon, Walker, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Recon, Vehicle, Walker, Scout</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="X53 Lynx Battle Walker" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="8267-70ad-3df2-e4a7">
@@ -6299,7 +6335,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Recon Vehicle Actions" id="86f9-f323-b4ca-4256" hidden="false" targetId="e02c-5a58-9b36-5c37" type="profile"/>
+            <infoLink name="Scout Vehicle Actions" id="86f9-f323-b4ca-4256" hidden="false" targetId="e02c-5a58-9b36-5c37" type="profile"/>
             <infoLink name="Light on their Feet" id="88ba-60f0-d18f-4ec9" hidden="false" type="rule" targetId="f708-1439-cbbe-6850"/>
           </infoLinks>
           <costs>
@@ -6314,6 +6350,7 @@
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="9925-ff03-2275-32e5" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="7e6b-eccb-4df2-40a1" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Pintle Mount" hidden="false" id="a8c9-c786-51d2-7462">
@@ -6441,13 +6478,14 @@
             <profile name="X32 Rhea Light Battle Walker" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="0fc1-8e5a-db87-78fc">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2-4x X32 Rhea Light Battle Walkers</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Recon, Walker, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Recon, Vehicle, Walker, Scout</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">60mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">2-4</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Recon Vehicle Actions" id="9247-ae74-1fa0-3fba" hidden="false" targetId="e02c-5a58-9b36-5c37" type="profile"/>
+            <infoLink name="Scout Vehicle Actions" id="9247-ae74-1fa0-3fba" hidden="false" targetId="e02c-5a58-9b36-5c37" type="profile"/>
             <infoLink name="Light on their Feet" id="c436-9026-e0be-4621" hidden="false" type="rule" targetId="f708-1439-cbbe-6850"/>
             <infoLink name="Rapid Deployment" id="2c0f-84af-9ce3-925b" hidden="false" type="rule" targetId="9776-f4fe-ef62-3956"/>
           </infoLinks>
@@ -6463,6 +6501,7 @@
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="c6b5-03d5-272f-ecfa" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="0c12-1039-b627-bd7a" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad Members" id="f2f7-bdb4-5291-4b14" hidden="false">
@@ -6478,7 +6517,7 @@
                         <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">12&quot;</characteristic>
                         <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
                         <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">9</characteristic>
-                        <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">6</characteristic>
+                        <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">8</characteristic>
                       </characteristics>
                       <modifiers>
                         <modifier type="increment" value="1" field="af2e-1c49-9a61-0dba" scope="parent">
@@ -6631,13 +6670,14 @@
             <profile name="Willys GPV Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="86cb-4896-61af-b762">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2x Willys GPVs</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Recon, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Recon, Vehicle, Scout</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Recon Vehicle Actions" id="64cf-a4a1-7502-8a71" hidden="false" targetId="e02c-5a58-9b36-5c37" type="profile"/>
+            <infoLink name="Scout Vehicle Actions" id="64cf-a4a1-7502-8a71" hidden="false" targetId="e02c-5a58-9b36-5c37" type="profile"/>
             <infoLink name="Rapid Deployment" id="b58d-903f-2397-7dbc" hidden="false" type="rule" targetId="9776-f4fe-ef62-3956"/>
             <infoLink name="Hitch" id="9db5-362d-002c-9a06" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
             <infoLink name="Intel Gathering" id="139f-17e6-181b-2d0d" hidden="false" type="rule" targetId="5845-b3b2-62ef-1d40"/>
@@ -6745,6 +6785,7 @@
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="2997-fc99-fd3e-4833" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="fd5f-5a4f-d848-a0ba" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Cavalry Bike Sniper Team" hidden="false" id="c40e-8251-b022-3e0e" collective="false">
@@ -6754,11 +6795,12 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Cavalry Biker Sniper &amp; 1x Cavalry Biker Spotter</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Recon, Cavalry</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">60x35mm Oval</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Recon Cavalry Actions" id="c70a-4e0b-3deb-9fd8" hidden="false" targetId="95c6-33a2-c463-50c9" type="profile"/>
+            <infoLink name="Cavalry Actions" id="c70a-4e0b-3deb-9fd8" hidden="false" targetId="95c6-33a2-c463-50c9" type="profile"/>
             <infoLink name="Not My Job" id="11d8-fdc1-b1b1-b1b6" hidden="false" type="rule" targetId="824b-bf81-ea20-17d4"/>
             <infoLink name="Hunter" id="f620-b9f5-cf42-c2bb" hidden="false" type="rule" targetId="c061-5561-8d2a-8ab3"/>
           </infoLinks>
@@ -6875,6 +6917,7 @@
           </costs>
           <entryLinks>
             <entryLink import="true" name="Cavalry Upgrades" hidden="false" id="dced-ce2d-71d2-76bb" type="selectionEntryGroup" targetId="09bd-0e27-0bcc-e66a"/>
+            <entryLink import="true" name="Designate Command Squad" hidden="false" id="1608-fef0-2e79-e1f4" type="selectionEntry" targetId="b3fb-3e65-7a94-ddb7"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Cavalry Bike Squad" hidden="false" id="c905-4b27-69d3-1aca" collective="false">
@@ -6884,11 +6927,12 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Cavalry Biker Sergeant, 2-4x Cavalry Bike Troopers</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Recon, Cavalry</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">60x35mm Oval</characteristic>
+                <characteristic typeId="79fc-3188-cd1e-2b49" name="Models in Unit"/>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Recon Cavalry Actions" id="c35a-6f49-be1a-2885" hidden="false" targetId="95c6-33a2-c463-50c9" type="profile"/>
+            <infoLink name="Cavalry Actions" id="c35a-6f49-be1a-2885" hidden="false" targetId="95c6-33a2-c463-50c9" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad Members" id="bdaf-f5eb-fa31-2924" hidden="false" collective="false" import="true" defaultSelectionEntryId="a3d5-1954-e1d1-8e7e">
@@ -7014,6 +7058,7 @@
           </rules>
           <entryLinks>
             <entryLink import="true" name="Cavalry Upgrades" hidden="false" id="471d-dd74-42a2-6a84" type="selectionEntryGroup" targetId="09bd-0e27-0bcc-e66a"/>
+            <entryLink import="true" name="Designate Command Squad" hidden="false" id="cbd4-09ad-5662-2751" type="selectionEntry" targetId="b3fb-3e65-7a94-ddb7"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Drop-Trooper Infantry Squad" hidden="false" id="95d6-805f-cbf6-cdd7" collective="false">
@@ -7023,17 +7068,18 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Drop-Trooper Staff Sergeant, 2-9x Drop-Trooper Riflemen, 0-2x Drop-Trooper Specialists</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Recon, (AUX) Infantry, Troop</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">32mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">10-12</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Recon Troop Actions" id="af04-87f1-2ca1-a99f" hidden="false" targetId="8759-1f21-a918-3ebe" type="profile"/>
+            <infoLink name="Troop Actions" id="af04-87f1-2ca1-a99f" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
             <infoLink name="Elite Infantry" id="6bd1-9484-9d90-1b59" hidden="false" type="rule" targetId="12fb-381c-5514-6d51"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad Members" id="2528-28ff-92e4-dfb4" hidden="false" collective="false" import="true" defaultSelectionEntryId="9a54-cc7c-020e-2b00">
               <constraints>
-                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="964e-2be1-73e9-f8e1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="12" field="selections" scope="parent" shared="true" id="964e-2be1-73e9-f8e1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="22ad-b2f8-a405-0c01" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </constraints>
               <selectionEntries>
@@ -7258,25 +7304,10 @@
             <entryLink import="true" name="Troops Upgrades" hidden="false" id="5ea6-5335-245a-608f" type="selectionEntryGroup" targetId="c42e-5415-a1c5-e2d8">
               <entryLinks>
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="6f63-291f-cf1c-341f" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
+                <entryLink import="true" name="Jump Packs" hidden="false" id="6520-13c1-7e0c-507c" type="selectionEntry" targetId="f632-e702-4d46-59da"/>
               </entryLinks>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Jump Packs" hidden="false" id="e7e7-cb0b-ac8b-7172" defaultAmount="1">
-                  <infoLinks>
-                    <infoLink name="Aerial Deployment" id="f3b3-a959-eb9d-2dbe" hidden="false" type="rule" targetId="a61e-7e07-d7da-e915"/>
-                    <infoLink name="Jump-Packs" id="a86f-acec-0351-0c78" hidden="false" targetId="fd2f-2557-0580-c397" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Munitions" typeId="Points" value="20"/>
-                    <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-                    <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-                    <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f228-3732-7223-8673" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntry>
-              </selectionEntries>
             </entryLink>
+            <entryLink import="true" name="Designate Command Squad" hidden="false" id="6106-9c0c-29b5-a453" type="selectionEntry" targetId="b3fb-3e65-7a94-ddb7"/>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -7296,13 +7327,14 @@
             <profile name="T12-W4L33 (WALLY) Demolition Vehicle" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="bbe4-3f51-c1e9-90ee">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x T12-W4L33 (WALLY) Demolition Vehicle</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (AUX) Support, Automaton, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (AUX) Support, Vehicle, Tracked,  Automaton</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Support Vehicle Actions" id="906e-4e6-cdd9-f129" hidden="false" targetId="f3ad-8ceb-aaf2-040d" type="profile"/>
+            <infoLink name="Vehicle Actions" id="906e-4e6-cdd9-f129" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
             <infoLink name="Not My Job" id="519a-dfd2-d29e-4818" hidden="false" type="rule" targetId="824b-bf81-ea20-17d4"/>
           </infoLinks>
           <costs>
@@ -7345,11 +7377,12 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 Rear-Echelon Staff Sergeant &amp; 9 Rear-Echelon Riflemen</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Infantry, Troop, Engineer</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">10</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Support Engineer Troop Actions" id="8ac0-f6d7-be33-5d83" hidden="false" targetId="335b-34df-c974-9c3b" type="profile"/>
+            <infoLink name="Engineer Troop Actions" id="8ac0-f6d7-be33-5d83" hidden="false" targetId="335b-34df-c974-9c3b" type="profile"/>
             <infoLink name="Supply Gathering" id="7091-56fd-3e85-8ed9" hidden="false" type="rule" targetId="5b95-9cb8-8f48-e3ed"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -7445,6 +7478,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="963c-4633-8e6d-9aef" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Squad" hidden="false" id="59d5-1431-5f1c-6b9d" type="selectionEntry" targetId="b3fb-3e65-7a94-ddb7"/>
           </entryLinks>
           <rules>
             <rule name="Stack &apos;em High" id="f6b1-8556-31f8-f809" hidden="false">
@@ -7457,8 +7491,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="M133 Towed Gun Carriage Battery" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="c35e-6d21-76b0-42e8">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M133 Towed Gun Carriage</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Infantry, Carriage</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Infantry, Carriage, Crewed Weapon</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="M133 Towed Gun Squad" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="c594-d90c-b73c-b447">
@@ -7471,9 +7506,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Front Facing" id="b007-7341-c498-268c" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
-            <infoLink name="Deployed Weapon" id="52cf-de3f-037a-0734" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
-            <infoLink name="Support Carriage Actions" id="3916-4f80-b4c2-42da" hidden="false" type="profile" targetId="1761-68e7-b0e6-e086"/>
+            <infoLink name="Carriage Actions" id="3916-4f80-b4c2-42da" hidden="false" type="profile" targetId="1761-68e7-b0e6-e086"/>
           </infoLinks>
           <costs>
             <cost name="Munitions" typeId="Points" value="20"/>
@@ -7489,6 +7522,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
               </constraints>
             </entryLink>
             <entryLink import="true" name="Carriage Upgrades" hidden="false" id="696c-7848-5df0-9098" type="selectionEntryGroup" targetId="d2d4-2fae-45fa-6796"/>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="f4e0-1699-ad91-a123" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Cannon Mount" hidden="false" id="ecb3-6611-2587-44d3">
@@ -7516,15 +7550,16 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="M133 Towed Gun Carriage Battery" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="ad92-caff-a625-eac8">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">3x M133 Towed Gun Carriages</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Infantry, Battery</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Infantry, Carriage, Crewed Weapon</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">3</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Front Facing" id="e7c7-d8eb-2586-4fd0" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
             <infoLink name="Deployed Weapon" id="57de-58a9-0206-e376" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
-            <infoLink name="Support Carriage Actions" id="f8b2-4eec-ba87-f980" hidden="false" type="profile" targetId="1761-68e7-b0e6-e086"/>
+            <infoLink name="Carriage Actions" id="f8b2-4eec-ba87-f980" hidden="false" type="profile" targetId="1761-68e7-b0e6-e086"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad Members" id="89e6-c345-41f9-c162" hidden="false" collective="false" import="true">
@@ -7585,6 +7620,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
           </costs>
           <entryLinks>
             <entryLink import="true" name="Carriage Upgrades" hidden="false" id="71ba-8aad-7a7b-d1dd" type="selectionEntryGroup" targetId="d2d4-2fae-45fa-6796"/>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="76cd-c709-e4ae-d4c7" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="M82A3 Nanook Superheavy Tank" hidden="false" id="5c3a-66bd-2bd9-d6a8" collective="false">
@@ -7617,16 +7653,18 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="M82A3 Nanook Superheavy Tank" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="14c1-22b2-3428-f062">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M82A3 Nanook Superheavy Tank</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Armor, Superheavy, Tracked, Vehicle,</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Armor, Vehicle,Tracked, Superheavy</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Support Vehicle Actions" id="1a55-fbb8-5123-da80" hidden="false" targetId="f3ad-8ceb-aaf2-040d" type="profile"/>
+            <infoLink name="Vehicle Actions" id="1a55-fbb8-5123-da80" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
             <infoLink name="Cumbersome" id="a2cf-fbe2-443-e708" hidden="false" targetId="4c9f-32f0-9723-17cb" type="rule"/>
             <infoLink name="Big Game Hunter" id="51f9-7c9b-557f-f90e" hidden="false" type="rule" targetId="22ef-ed51-bdad-4ad4"/>
             <infoLink name="Cook Off" id="3da2-12f3-b96b-eee1" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
+            <infoLink name="Tank Destroyer" id="129e-c9c7-7108-5ae3" hidden="false" type="rule" targetId="c8ab-8177-6dc3-df26"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Casemate" hidden="false" id="4dc0-1b95-4215-76e6">
@@ -7757,7 +7795,13 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="1575-a5ba-fd3c-66a7" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="7cf2-ed69-6705-889a" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
+          <rules>
+            <rule name="Superheavy Tank Destroyer" id="d272-c584-6e54-2328" hidden="false">
+              <description>This Unit may activate as if it does not have the Cumbersome Special Rule, if it does, it must take the Overwatch Action. When this Unit performs an Overwatch Attack Action, it may choose to allocate only a portion of the Hits from its Casemate Mounted Gun for this Attack. If you do so, that Weapon may be selected in subsequent Attack Actions this round, so long as it has Hits remaining.</description>
+            </rule>
+          </rules>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="M54 Bruin Heavy Tank Destroyer" hidden="false" id="90ac-c797-e0d6-eb11" collective="false">
           <profiles>
@@ -7784,15 +7828,17 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="M54 Bruin Heavy Tank Destroyer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="fe27-a0f4-d4df-8ed3">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M54 Bruin Heavy Tank Destroyer</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Armor, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Armor, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Support Vehicle Actions" id="ec90-dfe-b5a4-13b3" hidden="false" targetId="f3ad-8ceb-aaf2-040d" type="profile"/>
+            <infoLink name="Vehicle Actions" id="ec90-dfe-b5a4-13b3" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
             <infoLink name="Big Game Hunter" id="e210-dcd9-d50-b073" hidden="false" type="rule" targetId="22ef-ed51-bdad-4ad4"/>
             <infoLink name="Cook Off" id="bcfe-57ec-5a13-12b7" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
+            <infoLink name="Tank Destroyer" id="22f9-dbaa-75df-e72b" hidden="false" type="rule" targetId="c8ab-8177-6dc3-df26"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Pintle Mount" hidden="false" id="a020-55c0-9470-8ca7" collective="false">
@@ -7962,6 +8008,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="020a-dff4-8b45-a0b3" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="1eb9-8d51-593d-5d46" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="M12 Light Anti-Tank Gun Battery" hidden="false" id="16de-197d-a058-8363" collective="false">
@@ -7969,14 +8016,14 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="M12 Light Anti-Tank Gun Battery" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="b8dd-0657-df75-6248">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">3x M12 Light Anti-Tank Gun Carriages</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, Battery</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, Carriage, Crewed Weapon</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">60mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">3</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Deployed Weapon" id="a8ff-4b1e-6912-d399" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
-            <infoLink name="Support Carriage Actions" id="7bff-7087-fb86-8fe1" hidden="false" targetId="1761-68e7-b0e6-e086" type="profile"/>
+            <infoLink name="Carriage Actions" id="7bff-7087-fb86-8fe1" hidden="false" targetId="1761-68e7-b0e6-e086" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad Members" id="8eeb-0bfb-b9bb-2930" hidden="false" collective="true" import="true" defaultSelectionEntryId="5f30-0c58-a541-571d">
@@ -8031,6 +8078,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
           </costs>
           <entryLinks>
             <entryLink import="true" name="Carriage Upgrades" hidden="false" id="ddf9-4cc5-f421-fe36" type="selectionEntryGroup" targetId="d2d4-2fae-45fa-6796"/>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="6a5d-5210-b238-a489" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="M12 Light Anti-Tank Gun Carriage" hidden="false" id="567e-e7a1-4a51-5940" collective="false">
@@ -8038,8 +8086,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="M12 Light Anti-Tank Gun Carriage" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="7f35-0766-8229-96c1">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M12 Light Anti-Tank Gun Carriage</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Infantry, Carriage, Towable</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Infantry, Carriage, Crewed Weapon</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">60mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="M12 Light Energy Cannon Squad" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="caf2-7d23-e68b-a305">
@@ -8052,8 +8101,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Deployed Weapon" id="ef5b-1e98-ee28-4ce1" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
-            <infoLink name="Support Carriage Actions" id="eb6d-919e-2d5a-c3e0" hidden="false" targetId="1761-68e7-b0e6-e086" type="profile"/>
+            <infoLink name="Carriage Actions" id="eb6d-919e-2d5a-c3e0" hidden="false" targetId="1761-68e7-b0e6-e086" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="Munitions" typeId="Points" value="11"/>
@@ -8075,6 +8123,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
               </constraints>
             </entryLink>
             <entryLink import="true" name="Carriage Upgrades" hidden="false" id="e574-9974-4063-9673" type="selectionEntryGroup" targetId="d2d4-2fae-45fa-6796"/>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="701e-f307-2cc8-e00c" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="M11 20mm Autocannon Carriage" hidden="false" id="d5ec-7241-2f5b-5a73" collective="false">
@@ -8082,8 +8131,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="M11 20mm Autocannon Carriage" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="0920-7020-1f4e-5a48">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">M11 20mm Autocannon Carriage</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Infantry, Carriage, Towable</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Infantry, Carriage, Crewed Weapon</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">60mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="M11 20mm Autocannon Squad" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="879e-16f3-0c7f-08a8">
@@ -8096,8 +8146,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Deployed Weapon" id="020f-94ce-7f29-2faa" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
-            <infoLink name="Support Carriage Actions" id="9ccb-36d6-68e5-5488" hidden="false" targetId="1761-68e7-b0e6-e086" type="profile"/>
+            <infoLink name="Carriage Actions" id="9ccb-36d6-68e5-5488" hidden="false" targetId="1761-68e7-b0e6-e086" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="Munitions" typeId="Points" value="11"/>
@@ -8119,6 +8168,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
               </constraints>
             </entryLink>
             <entryLink import="true" name="Carriage Upgrades" hidden="false" id="88bb-8dfc-883f-59e2" type="selectionEntryGroup" targetId="d2d4-2fae-45fa-6796"/>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="bd4d-86ce-b302-af17" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="M11 20mm Autocannon Battery" hidden="false" id="fc2d-f22f-2ff5-e8b0" collective="false">
@@ -8126,14 +8176,14 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="M11 20mm Autocannon Battery" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="4151-4d78-b817-0ef5">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">3x M11 20mm Autocannon Carriages</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, Battery</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, Carriage, Crewed Weapon</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">60mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">3</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Deployed Weapon" id="484a-a0f9-f790-72f7" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
-            <infoLink name="Support Carriage Actions" id="ef92-de11-f778-1a17" hidden="false" targetId="1761-68e7-b0e6-e086" type="profile"/>
+            <infoLink name="Carriage Actions" id="ef92-de11-f778-1a17" hidden="false" targetId="1761-68e7-b0e6-e086" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad Members" id="b818-c525-acc1-7611" hidden="false" collective="true" import="true" defaultSelectionEntryId="5f30-0c58-a541-571d">
@@ -8188,6 +8238,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
           </costs>
           <entryLinks>
             <entryLink import="true" name="Carriage Upgrades" hidden="false" id="1e3c-0e3f-6fcf-6c30" type="selectionEntryGroup" targetId="d2d4-2fae-45fa-6796"/>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="6c29-2bc8-4b9c-98f4" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="M6 Autonomous Turret" hidden="false" id="5673-9aa0-43e8-fb96" collective="false">
@@ -8211,8 +8262,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="M6 Autonomous Turret" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="be9e-7817-b10f-7977">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M6 Autonomous Turret</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (AUX) Support, Automaton, Carriage</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (AUX) Support, Carriage, Automaton</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8309,22 +8361,25 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
+          <rules>
+            <rule name="Autonomous Turret" id="9fbf-815f-522e-3244" hidden="false">
+              <description>When this Unit Activates, it may pivot its Turret up to 180 degrees.</description>
+            </rule>
+          </rules>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Automatic Grenade Launcher Squad" hidden="false" id="66f5-1c46-c1f1-502d" collective="false">
           <profiles>
             <profile name="Automatic Grenade Launcher Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="19c0-fb85-592d-54b5">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2x Infantry Heavy Weapon Teams</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Infantry, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Infantry, Troop, Crewed Weapon</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">50mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Deployed Weapon" id="58fd-60d4-ab88-86b5" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
-            <infoLink name="Support Troop Actions" id="1ce3-39ba-a133-4f1d" hidden="false" targetId="7959-03e6-fdc4-3adf" type="profile"/>
-            <infoLink name="Front Facing" id="df81-2058-81f9-51de" hidden="false" type="rule" targetId="a57a-9c2f-704e-9847"/>
-            <infoLink name="Overwatch" id="99de-c94f-7f71-999e" hidden="false" type="rule" targetId="4693-38cf-194e-db7d"/>
+            <infoLink name="Crewed Weapon Troop Actions" id="1ce3-39ba-a133-4f1d" hidden="false" targetId="7959-03e6-fdc4-3adf" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad Members" id="ab07-26f1-74a4-bdbb" hidden="false" collective="true" import="true">
@@ -8383,6 +8438,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="9daa-1db8-0d54-4143" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="b99c-fb29-278c-4ef7" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Combat Engineer Squad" hidden="false" id="edb6-93ec-4edf-b984" collective="false">
@@ -8392,11 +8448,12 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Engineer Staff Sergeant &amp; 4-9x Combat Engineers</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Infantry, Troop, Engineer</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">32mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">5-10</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Support Engineer Troop Actions" id="8a7a-dbdd-8e55-6cc1" hidden="false" targetId="335b-34df-c974-9c3b" type="profile"/>
+            <infoLink name="Engineer Troop Actions" id="8a7a-dbdd-8e55-6cc1" hidden="false" targetId="335b-34df-c974-9c3b" type="profile"/>
             <infoLink name="Logistics" id="5ac0-277d-1f5e-7aad" hidden="false" targetId="c1ce-d022-923f-3147" type="rule"/>
             <infoLink name="Forward Positions" id="26e2-79c2-bfc4-ea2d" hidden="false" type="rule" targetId="239f-191a-232-4894"/>
             <infoLink name="Battlefield Preparation" id="c0af-b9a5-0ebe-554e" hidden="false" type="rule" targetId="ea06-55d8-62e2-4f31"/>
@@ -8418,7 +8475,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                     <profile name="Engineer Staff Sergeant" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="eab4-adc3-1a1c-a81e">
                       <characteristics>
                         <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                        <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
+                        <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
                         <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">6</characteristic>
                         <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">3</characteristic>
                       </characteristics>
@@ -8480,7 +8537,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <costs>
-                    <cost name="Munitions" typeId="Points" value="15"/>
+                    <cost name="Munitions" typeId="Points" value="13"/>
                     <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                     <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
                     <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -8495,14 +8552,14 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                     <profile name="Engineer" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="1e66-1463-f31a-4841">
                       <characteristics>
                         <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                        <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">7</characteristic>
+                        <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
                         <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">6</characteristic>
                         <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="Munitions" typeId="Points" value="15"/>
+                    <cost name="Munitions" typeId="Points" value="13"/>
                     <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
                     <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
                     <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -8614,15 +8671,14 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="Heavy Machine Gun Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="fa0f-b3fd-22fe-cf3c">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2x Infantry Heavy Weapon Teams</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Infantry, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Infantry, Troop, Crewed Weapon</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">50mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Support Troop Actions" id="574f-5d85-9750-f4a4" hidden="false" targetId="7959-03e6-fdc4-3adf" type="profile"/>
-            <infoLink name="Deployed Weapon" id="c6d5-3a0d-6dd3-cc40" hidden="false" type="rule" targetId="49c6-4812-80b8-83cf"/>
-            <infoLink name="Front Facing" id="0f87-8c36-93c5-075d" hidden="false" type="rule" targetId="a57a-9c2f-704e-9847"/>
+            <infoLink name="Crewed Weapon Troop Actions" id="574f-5d85-9750-f4a4" hidden="false" targetId="7959-03e6-fdc4-3adf" type="profile"/>
             <infoLink name="Overwatch" id="e2a1-7dea-efe7-1844" hidden="false" type="rule" targetId="4693-38cf-194e-db7d"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -8682,6 +8738,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="4252-368b-a283-961f" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="0b73-b4fd-b006-b944" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Light Machine Gun Squad" hidden="false" id="4241-1543-7485-bd73" collective="false">
@@ -8689,15 +8746,14 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="Heavy Weapon Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="c4c0-56c1-39c3-e91d">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2x Infantry Heavy Weapon Teams</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Infantry, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Infantry, Troop, Crewed Weapon</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">50mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Support Troop Actions" id="6ea2-20b3-d62d-cb63" hidden="false" targetId="7959-03e6-fdc4-3adf" type="profile"/>
-            <infoLink name="Deployed Weapon" id="4d4e-57a5-a471-9f37" hidden="false" type="rule" targetId="49c6-4812-80b8-83cf"/>
-            <infoLink name="Front Facing" id="aa51-a708-3098-5a0d" hidden="false" type="rule" targetId="a57a-9c2f-704e-9847"/>
+            <infoLink name="Crewed Weapon Troop Actions" id="6ea2-20b3-d62d-cb63" hidden="false" targetId="7959-03e6-fdc4-3adf" type="profile"/>
             <infoLink name="Overwatch" id="ee7a-8465-b17e-2ee0" hidden="false" type="rule" targetId="4693-38cf-194e-db7d"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -8757,6 +8813,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="2002-50e7-c62c-4ba5" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="ee25-33d7-4c7a-41bb" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Recoilless Rifle Squad" hidden="false" id="2885-59b4-db6b-1e4e" collective="false">
@@ -8764,13 +8821,14 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="Recoilless Rifle Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="0c00-7846-8896-5e5b">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2x Infantry Heavy Weapon Teams</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Infantry, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Infantry, Troop, Crewed Weapon</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">50mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Support Troop Actions" id="f8ea-e66c-28ca-5cb6" hidden="false" targetId="7959-03e6-fdc4-3adf" type="profile"/>
+            <infoLink name="Crewed Weapon Troop Actions" id="f8ea-e66c-28ca-5cb6" hidden="false" targetId="7959-03e6-fdc4-3adf" type="profile"/>
             <infoLink name="Deployed Weapon" id="5353-eb18-3b0d-cf52" hidden="false" type="rule" targetId="49c6-4812-80b8-83cf"/>
             <infoLink name="Front Facing" id="4380-af97-2ee8-06ff" hidden="false" type="rule" targetId="a57a-9c2f-704e-9847"/>
             <infoLink name="Overwatch" id="dc8a-d3ed-dd38-7326" hidden="false" type="rule" targetId="4693-38cf-194e-db7d"/>
@@ -8832,6 +8890,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="92d8-ed36-b6f7-a027" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="07ce-66a3-5a38-bfde" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -8863,8 +8922,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="M50 Percheron Halftrack" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="a380-e7f8-7cca-1484">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M50 Percheron Halftrack</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, Tracked, Transport, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, Vehicle, Tracked, Transport</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8976,8 +9036,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="M56 Supply Truck" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="5182-2d5c-a516-acd4">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M56 Supply Truck</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, Transport, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, Vehicle, Transport</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9058,8 +9119,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="C-15 Rock Dove Light Cargo Shuttle" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="ad9c-39a-52c-c557">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x C-15 Rock Dove Light Cargo Shuttle</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, Flying, Transport, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, Vehicle, Flying, Transport</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9114,8 +9176,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="B-47 Starhawk Gunship" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="de57-f469-f7a8-8a7f">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x B-47 Starhawk Gunship</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, Flying, Vehicle, Transport</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, Vehicle, Flying, Transport</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9250,8 +9313,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="Sergeant Douglas Donahue" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="480a-bf6-a1a0-ac6">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Sergeant Douglas Donahue</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Mechanized, (CORE) Infantry, Hero, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Mechanized, (CORE) Infantry, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9278,7 +9342,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
           </selectionEntryGroups>
           <rules>
             <rule name="Color Sergeant" id="2cdb-20d8-c89b-71ef" hidden="false">
-              <description>Troop Units within 6&quot; of this Sergeant Douglas Donahue may take Reactions at a cost of 1 Action instead of 2. If Sergeant Douglas Donahue is your Field Commander, all Units in his platoon may do so, regardless of Range.</description>
+              <description>Troop Units within 6&quot; of  Sergeant Douglas Donahue may take Reactions at a cost of 1 Action instead of 2. If Sergeant Douglas Donahue is your Field Commander, all Units in his platoon may do so, regardless of Range.</description>
             </rule>
           </rules>
           <entryLinks>
@@ -9286,6 +9350,12 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2933-9e14-12c4-5c04-min" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2933-9e14-12c4-5c04-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Old Glory" hidden="false" id="5be0-e33d-bdc1-9047" type="selectionEntry" targetId="f9e4-81c4-d69b-a56b">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bd05-a4a3-b584-acb5-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd05-a4a3-b584-acb5-max" includeChildSelections="false"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -9303,8 +9373,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="General Nicholas Winters" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="d07e-ed8d-962c-622d">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x General Nicholas Winters</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, (AUX) Infantry, Command, Hero, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, Attache, Hero, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9350,13 +9421,14 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="Warrant Officer Jethro Madison" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="fa04-8d00-5747-eb53">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Warrant Officer Jethro Madison</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Infantry, Command, Mounted, Hero, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Recon, Troop/Attache, Hero, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Hero Actions" id="9169-5e0-134c-836e" hidden="false" targetId="ca2a-7f10-72a9-2a56" type="profile"/>
+            <infoLink name="Troop Actions" id="9169-5e0-134c-836e" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
             <infoLink name="Flexible Hero" id="03dd-ab1f-ca86-d2b3" hidden="false" type="rule" targetId="ba04-cce8-3db9-31d4"/>
             <infoLink name="Slippery" id="30e9-e8e4-3bf6-b935" hidden="false" type="rule" targetId="d4e3-7a13-502a-ecd5"/>
             <infoLink name="Veteran Crew" id="af74-9d32-c2b8-60f4" hidden="false" type="rule" targetId="fe62-95d4-4af0-7a99"/>
@@ -9443,6 +9515,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Morale Officer</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Infantry, (AUX) Recon, Character, Command, Support, Troop</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9496,8 +9569,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="Recon Bike Commander" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="d58a-e60-65c9-d931">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Recon Bike Commander</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Recon, Command, Cavalry</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Recon, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">60x35mm Oval</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9570,8 +9644,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="Drop-Trooper Jump-Master" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="0c53-7663-7bbf-260c">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Drop-Trooper Jump-Master</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Infantry, (AUX) Recon, Command, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Infantry, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9643,8 +9718,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="Infantry Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="ccd2-74a4-aaba-2296">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Infantry Officer</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Infantry, (CORE) Support, (CORE) Artillery, Command, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Infantry, (CORE) Support, (CORE) Artillery, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9713,7 +9789,6 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <infoLink name="Veteran Crew" id="14ff-8300-0eba-b5ce" hidden="false" type="rule" targetId="fe62-95d4-4af0-7a99"/>
             <infoLink name="Command Actions" id="0774-a533-5045-0e07" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
             <infoLink name="(CORE) Flex" id="5f92-eb1d-3636-b7e7" hidden="false" type="rule" targetId="05cc-45cd-4600-22d8"/>
-            <infoLink name="Mounted Officer" id="39aa-edf6-18ae-2d73" hidden="false" type="rule" targetId="421e-d2ba-263f-83f2"/>
           </infoLinks>
           <entryLinks>
             <entryLink import="true" name="Officer Seniority" hidden="false" id="26d2-7dd3-aca2-f136" type="selectionEntry" targetId="2a8a-fddf-0126-6a57">
@@ -9723,13 +9798,15 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
               </constraints>
             </entryLink>
             <entryLink import="true" name="Officer Upgrades" hidden="false" id="ada6-fe34-bc21-b0c5" type="selectionEntryGroup" targetId="e22e-b451-8b64-66d8"/>
+            <entryLink import="true" name="Mounted Officer" hidden="false" id="1e5a-f77b-1e08-5f46" type="selectionEntry" targetId="b6e2-dc80-3c48-1dc4"/>
           </entryLinks>
           <profiles>
             <profile name="Mounted Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="f4b4-b693-ed28-f9b4">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">N/A</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Flex, Command, Mounted</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Flex, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">0</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9739,8 +9816,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="X19 Badger Hardsuit Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="ce13-a57e-de39-3381">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x X19 Badger Hardsuit Officer</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Mechanized, Battlesuit, Command</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Mechanized, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">40mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="X19 Badger Hardsuit Officer" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="12fa-44a2-95b0-dc72">
@@ -9856,8 +9934,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="Ranger Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="3dc2-4017-6990-9fd7">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Ranger Officer</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Mechanized, Command</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Mechanized, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">32mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="Ranger Officer" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="3b95-74b1-5b57-cafd">
@@ -9920,8 +9999,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="Willys GPV Staff Car" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="4f2f-8b15-2e64-9bf8">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Willys GPV Staff Car</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Flex, Command, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Flex, Vehicle, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="Willys GPV" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="e7f9-f611-e8c8-f407">
@@ -9947,7 +10027,6 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
           </profiles>
           <infoLinks>
             <infoLink name="Command Vehicle Actions" id="37eb-0a3d-43bf-3407" hidden="false" targetId="8bc2-5843-ca96-b11b" type="profile"/>
-            <infoLink name="Rank has its Privileges" id="edb0-40d8-43ae-5afd" hidden="false" type="rule" targetId="7d1b-65ee-7808-b26d"/>
             <infoLink name="Hitch" id="7fc8-ba8d-0c48-1a91" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
             <infoLink name="(CORE) Flex" id="e2ec-702f-1ef5-fa6c" hidden="false" type="rule" targetId="05cc-45cd-4600-22d8"/>
             <infoLink name="Low Profile" id="a951-f7f5-d61b-40f9" hidden="false" type="rule" targetId="06ae-c996-2397-250a"/>
@@ -9999,13 +10078,14 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="M62 Burro Artillery Tractor" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="640f-1ba4-e80b-5968">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M62 Burro Artillery Tractor</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, Command, Vehicle, Tracked</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Artillery, Vehicle, Tracked, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Artillery Vehicle Actions" id="a338-66d4-d419-7309" hidden="false" type="profile" targetId="ad55-69e8-9339-6df7"/>
+            <infoLink name="Field Gun Vehicle Actions" id="a338-66d4-d419-7309" hidden="false" type="profile" targetId="ad55-69e8-9339-6df7"/>
             <infoLink name="Hitch" id="1e5d-9892-ee03-c177" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
             <infoLink name="Forward Observer" id="39df-289d-4230-2213" hidden="false" type="rule" targetId="75bb-9390-ced5-4e8e"/>
             <infoLink name="Cook Off" id="7eb9-35fa-4724-30cf" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
@@ -10129,8 +10209,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="Combat Engineer Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="b7c0-e73d-fcf7-dffa">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Combat Engineer Officer</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, Command</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">32mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10260,8 +10341,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="Rear-Echelon Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="1e85-5d9b-cd18-380c">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Rear-Echelon Officer</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, Command, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Support, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10271,89 +10353,6 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
           </costs>
-        </selectionEntry>
-        <selectionEntry type="model" import="true" name="Veteran Infantry Officer" hidden="false" id="85d8-07d1-a0c2-6f86" collective="false">
-          <profiles>
-            <profile name="Veteran Infantry Officer" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="380e-9efb-cf16-c10e">
-              <characteristics>
-                <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">4</characteristic>
-                <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">4</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Veteran Infantry Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="6280-cd9f-d1f1-4fe8">
-              <characteristics>
-                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Veteran Infantry Officer</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Infantry, (CORE) Support, (CORE) Artillery, Command, Troop</characteristic>
-                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink name="Command Actions" id="1cb1-a014-cee5-9bba" hidden="false" targetId="237b-8d1e-014e-539d" type="profile"/>
-            <infoLink name="Designated Leader" id="7e10-cfab-e189-d0a4" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
-          </infoLinks>
-          <costs>
-            <cost name="Munitions" typeId="Points" value="14"/>
-            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-            <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
-          </costs>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Sidearm" id="fd60-9420-c433-66e5" hidden="false" defaultSelectionEntryId="aa3e-f161-df92-d964">
-              <entryLinks>
-                <entryLink import="true" name="M1911 Energy Pistol" hidden="false" id="aa3e-f161-df92-d964" type="selectionEntry" targetId="0e45-d997-a2ae-b07d"/>
-                <entryLink import="true" name="M77 Plasma Pistol" hidden="false" id="1448-b0f0-3240-5a4f" type="selectionEntry" targetId="4a8b-3bde-f59d-f8c2"/>
-              </entryLinks>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1a5b-f5f3-dcd8-5800" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f66-8dbc-0b1b-b9e5" includeChildSelections="false"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Weapon" id="0bf0-d37c-03b0-26e5" hidden="false" defaultSelectionEntryId="be6b-fca1-6819-bd51">
-              <entryLinks>
-                <entryLink import="true" name="M10 Thompson SMG" hidden="false" id="7ca3-7baf-85b1-5f9c" collective="false" targetId="1b17-bf28-08c9-f724" type="selectionEntry">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="501c-02b4-bfd3-4ef6" includeChildSelections="false"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="A16 Assault Rifle" hidden="false" id="b0e6-a229-5118-82ee" collective="false" targetId="3ffd-5e8b-6e48-8aaa" type="selectionEntry">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5e7-bf42-a45a-7720" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="M1X1 Garand" hidden="false" id="aa10-ecdd-c046-3638" collective="false" targetId="7e32-9348-35f1-d530" type="selectionEntry">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7977-5ead-3814-9e17" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="M1897 Trench Gun" hidden="false" id="a37f-fb4a-391e-05d0" type="selectionEntry" targetId="1235-a73-7cb5-26b4">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c57-3c40-b6d2-ff1b" includeChildSelections="false"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b0a-8651-e3e4-f481" includeChildSelections="false"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink import="true" name="Officer Seniority" hidden="false" id="c21a-8951-f36a-41c5" type="selectionEntry" targetId="2a8a-fddf-0126-6a57">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="024b-8773-6488-c10e" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5788-2dc4-2102-dddd" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Officer Upgrades" hidden="false" id="5ca2-befb-3756-ab0c" type="selectionEntryGroup" targetId="e22e-b451-8b64-66d8"/>
-            <entryLink import="true" name="CKF Saber" hidden="false" id="053d-ef36-5849-e73e" type="selectionEntry" targetId="0a39-0114-af7b-36fe">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3ebb-7915-29e2-c585" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7eea-4df6-3c74-24f4" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -10458,18 +10457,19 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Ranger Staff Sergeant, 3-7x Rangers, &amp; 1-2x Ranger Specialists</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Mechanized, (AUX) Infantry, (AUX) Recon, Troop</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">32mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">5-12</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Mechanized Troop Actions" id="59ff-c156-9e87-7f7b" hidden="false" targetId="a01c-c851-0047-239a" type="profile"/>
+            <infoLink name="Troop Actions" id="59ff-c156-9e87-7f7b" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
             <infoLink name="Rapid Deployment" id="700e-e28b-bb67-17bd" hidden="false" type="rule" targetId="9776-f4fe-ef62-3956"/>
             <infoLink name="Elite Infantry" id="5e78-5265-1a61-4bdc" hidden="false" type="rule" targetId="12fb-381c-5514-6d51"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad Members" id="cd92-200b-0cb2-e5e3" hidden="false" collective="false" import="true">
               <constraints>
-                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="f76d-bc7f-812c-2c18" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                <constraint type="max" value="12" field="selections" scope="parent" shared="true" id="f76d-bc7f-812c-2c18" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
                 <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="fc3e-9a8e-76ad-a63f"/>
               </constraints>
               <selectionEntries>
@@ -10650,6 +10650,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="f6f1-f20e-7073-5b0b" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Squad" hidden="false" id="050d-84a1-f281-8db3" type="selectionEntry" targetId="b3fb-3e65-7a94-ddb7"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="M82A2 Mukwa Superheavy Transport" hidden="false" id="3d54-589-d733-6445" collective="false">
@@ -10682,13 +10683,14 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="M82A2 Mukwa Superheavy Transport" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="1b0-6a8b-77e4-24b0">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M82A2 Mukwa Superheavy Transport</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Mechanized, (AUX) Armor, Superheavy, Transport, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Mechanized, (AUX) Armor, Vehicle, Tracked, Superheavy, Transport</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Mechanized Vehicle Actions" id="2e6a-8b3-3d00-a00" hidden="false" targetId="dd9a-09a9-4488-0f28" type="profile"/>
+            <infoLink name="Vehicle Actions" id="2e6a-8b3-3d00-a00" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
             <infoLink name="Cumbersome" id="1ca8-7997-fdab-fb17" hidden="false" targetId="4c9f-32f0-9723-17cb" type="rule"/>
             <infoLink name="Transport" id="a967-c93e-f003-c1b6" hidden="false" targetId="73c0-9282-d155-0b35" type="rule">
               <modifiers>
@@ -10883,6 +10885,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="4b09-0829-9dce-b088" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="c2c7-74b3-c3f0-d268" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="M48 Caprina Armored Personnel Carrier" hidden="false" id="3aaa-ae78-4c52-f9c8" collective="false">
@@ -10890,8 +10893,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="M48 Caprina APC" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="1b73-42dd-5bcc-bcdd">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M48 Caprina APC</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Mechanized, Transport, Vehicle, Tracked</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Mechanized, Vehicle, Transport, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="M48 Caprina APC" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="c692-c8b3-9e75-89c8">
@@ -10922,7 +10926,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
               </modifiers>
             </infoLink>
             <infoLink name="Safe Bailout" id="650e-ffcc-412b-1995" hidden="false" type="rule" targetId="40dd-ac7-61eb-eaf6"/>
-            <infoLink name="Mechanized Vehicle Actions" id="8bf9-cf83-9522-1acc" hidden="false" type="profile" targetId="dd9a-09a9-4488-0f28"/>
+            <infoLink name="Vehicle Actions" id="8bf9-cf83-9522-1acc" hidden="false" type="profile" targetId="ed5a-9492-6407-a9f1"/>
           </infoLinks>
           <costs>
             <cost name="Munitions" typeId="Points" value="100"/>
@@ -10936,6 +10940,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="c512-ebc2-facf-b810" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="05c2-3f4d-e847-3992" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Turret" hidden="false" id="cecf-cabf-1bfb-f367">
@@ -11100,11 +11105,12 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1 M39 Buffalo Landing Vehicle</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Mechanized, Vehicle, Tracked, Transport</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Mechanized Vehicle Actions" id="7886-97e6-15a7-ad8a" hidden="false" targetId="dd9a-09a9-4488-0f28" type="profile"/>
+            <infoLink name="Vehicle Actions" id="7886-97e6-15a7-ad8a" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
             <infoLink name="Safe Bailout" id="2ae4-60d7-dda8-b530" hidden="false" type="rule" targetId="40dd-ac7-61eb-eaf6"/>
             <infoLink name="Open Topped " id="071d-1678-ec4c-3e2b" hidden="false" type="rule" targetId="6beb-7c97-fe80-09a9">
               <modifiers>
@@ -11321,6 +11327,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="45f5-15fa-d996-43a3" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="0ed7-df9b-239e-8cc6" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Bow Machine Gun" hidden="false" id="4db8-d473-c578-4167">
@@ -11344,13 +11351,14 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="X19 Badger Personal Hardsuit Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="121a-3eb9-5135-55b3">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x X19 Badger Hardsuit Sergeant, &amp; 1-3x X19 Badger Hardsuits</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Infantry, (AUX) Support, Battlesuit</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Infantry, (AUX) Support, Troop, Battlesuit</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">40mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">2-4</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Mechanized Troop Actions" id="0a2a-83e7-6ef1-612a" hidden="false" targetId="a01c-c851-0047-239a" type="profile"/>
+            <infoLink name="Troop Actions" id="0a2a-83e7-6ef1-612a" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
             <infoLink name="Elite Infantry" id="ac5a-0426-c7cb-0b0f" hidden="false" type="rule" targetId="12fb-381c-5514-6d51"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -11573,6 +11581,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="b168-6660-18ec-e634" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Squad" hidden="false" id="b7a6-e50d-e873-c4a4" type="selectionEntry" targetId="b3fb-3e65-7a94-ddb7"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Distributed Elements" hidden="false" id="008a-fb57-a61c-55bd">
@@ -11618,11 +11627,12 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M56 Fuel Truck</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Mechanized, Vehicle</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Mechanized Vehicle Actions" id="0a65-00a1-ef0b-4ae1" hidden="false" targetId="dd9a-09a9-4488-0f28" type="profile"/>
+            <infoLink name="Vehicle Actions" id="0a65-00a1-ef0b-4ae1" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
             <infoLink name="Logistics" id="d70e-a2c2-f753-a386" hidden="false" targetId="c1ce-d022-923f-3147" type="rule"/>
             <infoLink name="Hitch" id="29cd-8cc9-8225-b5c7" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
             <infoLink name="Catastrophic Detonation" id="753f-eb27-807a-f4d6" hidden="false" type="rule" targetId="ed65-6e21-b743-aab2"/>
@@ -11644,6 +11654,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="e8da-1513-2f21-8ba8" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="c654-3fd4-2aeb-34ae" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="M21 Caprina Multiple Gun Motor Carriage" hidden="false" id="a87f-40de-6e18-15b5" collective="false">
@@ -11651,8 +11662,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="M48 Caprina Multiple Gun Motor Carriage" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="a2d4-521b-a951-1f85">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M48 Caprina Multiple Gun Motor Carriage</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Mechanized, (AUX) Armor, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Mechanized, (AUX) Armor, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="M48 Caprina Multiple Gun Motor Carriage" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="fe09-27e8-1521-677a">
@@ -11677,7 +11689,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Mechanized Vehicle Actions" id="d7de-e652-8ef3-2f86" hidden="false" type="profile" targetId="dd9a-09a9-4488-0f28"/>
+            <infoLink name="Vehicle Actions" id="d7de-e652-8ef3-2f86" hidden="false" type="profile" targetId="ed5a-9492-6407-a9f1"/>
             <infoLink name="Cook Off" id="23cb-fd4f-dc2c-8aa9" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
           </infoLinks>
           <costs>
@@ -11692,6 +11704,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="f4aa-faf3-f236-0761" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="891b-ac4d-f721-65e4" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Hull Weapon" hidden="false" id="34a4-5c10-8a76-1aa1">
@@ -11741,8 +11754,9 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             <profile name="M48 Bison Armored Recovery Vehicle" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="e4db-b224-d6fd-ffd0">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x M48 Bison Armored Recovery Vehicle</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Mechanized, (AUX) Armor, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">USA, (CORE) Mechanized, (AUX) Armor, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="M48 Bison Armored Recovery Vehicle" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="6d51-aed8-45de-87d2">
@@ -11767,7 +11781,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Mechanized Vehicle Actions" id="1dc5-11c2-eae5-c15e" hidden="false" type="profile" targetId="dd9a-09a9-4488-0f28"/>
+            <infoLink name="Vehicle Actions" id="1dc5-11c2-eae5-c15e" hidden="false" type="profile" targetId="ed5a-9492-6407-a9f1"/>
             <infoLink name="Armored Recovery Vehicle" id="2e48-345d-4306-2ab7" hidden="false" type="rule" targetId="3731-64c9-4653-d0bb"/>
             <infoLink name="Prototype" id="56d5-0a68-f126-d308" hidden="false" type="rule" targetId="b4c0-7c13-2254-8ad1"/>
           </infoLinks>
@@ -11783,6 +11797,7 @@ If this model is destroyed as a result of an enemy attack, roll a D10. If the re
                 <entryLink import="true" name="Veteran NCO" hidden="false" id="6381-49d2-736c-6fa4" type="selectionEntry" targetId="33fe-eb6d-9e95-e663"/>
               </entryLinks>
             </entryLink>
+            <entryLink import="true" name="Designate Command Unit" hidden="false" id="1978-3bf9-26a1-5808" type="selectionEntry" targetId="4f50-ceb9-f07a-86c0"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Hull Weapon" hidden="false" id="d9f9-53fd-9d7c-eab7">

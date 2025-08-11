@@ -10,7 +10,7 @@
     <forceEntry id="94df-db09-3266-46a5" name="Zeppelin Task Force" hidden="false">
       <categoryLinks>
         <categoryLink name="Command" hidden="false" id="f002-cc6b-e643-2364" targetId="70eb-c264-a9cb-1bfe"/>
-        <categoryLink name="Heroes" hidden="false" id="537e-e7d7-3fc9-df31" targetId="33a5-8b7e-49bb-c30d"/>
+        <categoryLink name="Hero" hidden="false" id="537e-e7d7-3fc9-df31" targetId="33a5-8b7e-49bb-c30d"/>
         <categoryLink id="96fb-d65a-9c59-07ec" name="CORE Zeppelin" hidden="false" targetId="d3e6-9cfb-4ddb-2020" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7d2-7502-bcb4-ff8a" type="min"/>
@@ -91,13 +91,14 @@
     <entryLink id="3b85-5a90-a23f-9ead" name="21cm Morser Battery" hidden="false" collective="false" import="true" targetId="2b90-28f4-5032-a79e" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="8679-d614-ae03-de2c" id="4004-c598-6d48-6111" primary="true" name="CORE Artillery"/>
-        <categoryLink targetId="2450-f84d-0bff-43d8" id="f6fe-6adf-6ea5-62c4" primary="false" name="Battery"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="89a5-7534-6dee-7f74" primary="false" name="HRE"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="0a92-b7d9-7a5f-ba3b" primary="false" name="Field Gun"/>
+        <categoryLink targetId="c2bc-81f4-b62b-dc46" id="0faa-a533-9b21-748a" primary="false" name="Carriage"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="9e74-e6bf-f27b-1971" name="20M Supply Truck" hidden="false" collective="false" import="true" targetId="d807-88e6-8ddb-912b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6eca-961b-9444-9aec" name="Transports" hidden="false" targetId="d4be-5aad-8560-5720" primary="true"/>
+        <categoryLink id="6eca-961b-9444-9aec" name="Transport" hidden="false" targetId="d4be-5aad-8560-5720" primary="true"/>
         <categoryLink targetId="de0d-e12c-a964-4e46" id="8c99-1d83-98c0-8de1" primary="false" name="Vehicle"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="33a6-b07e-3ce3-b613" primary="false" name="HRE"/>
       </categoryLinks>
@@ -107,7 +108,7 @@
     </entryLink>
     <entryLink id="58be-b27a-eb16-1e49" name="28M Wallenstein Armored Halftrack" hidden="false" collective="false" import="true" targetId="45bb-9f62-bc39-2e51" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="782e-0f0a-9499-12b0" name="Transports" hidden="false" targetId="d4be-5aad-8560-5720" primary="true"/>
+        <categoryLink id="782e-0f0a-9499-12b0" name="Transport" hidden="false" targetId="d4be-5aad-8560-5720" primary="true"/>
         <categoryLink targetId="7616-a9f8-6205-af0e" id="edf1-ea6d-94ee-6f59" primary="false" name="Tracked"/>
         <categoryLink targetId="de0d-e12c-a964-4e46" id="7b4a-cab2-c99d-3268" primary="false" name="Vehicle"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="2c60-c50d-adae-0b5c" primary="false" name="HRE"/>
@@ -133,6 +134,7 @@
         <categoryLink targetId="54db-5889-a382-77cb" id="f138-584f-0906-b2eb" primary="true" name="CORE Recon"/>
         <categoryLink targetId="de0d-e12c-a964-4e46" id="d3ec-693e-f0b1-a6ad" primary="false" name="Vehicle"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="0835-7921-d09c-7356" primary="false" name="HRE"/>
+        <categoryLink targetId="2aa2-d811-87ac-0844" id="4c1c-16fa-12ca-8038" primary="false" name="Scout"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="8136-fed2-db8d-c7a0" field="category">
@@ -185,6 +187,7 @@
         <categoryLink targetId="7616-a9f8-6205-af0e" id="d0d5-fd13-3021-81b0" primary="false" name="Tracked"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="036b-547f-de82-dda7" primary="false" name="HRE"/>
         <categoryLink targetId="de0d-e12c-a964-4e46" id="be0b-cd77-974f-f172" primary="false" name="Vehicle"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="ff9f-7cf4-f650-28eb" primary="false" name="Field Gun"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="8136-fed2-db8d-c7a0" field="category">
@@ -200,6 +203,7 @@
         <categoryLink targetId="6dc4-41a4-7144-d10c" id="7a02-d25b-c9f5-4ed7" primary="false" name="Troop"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="6567-b7b1-2ce4-dc23" primary="false" name="HRE"/>
         <categoryLink targetId="a74d-0d07-e5d9-0032" id="0795-2bb8-ee9f-c455" primary="false" name="AUX Infantry"/>
+        <categoryLink targetId="0210-dcc7-546b-3981" id="aca2-357b-ddaf-5672" primary="false" name="Crewed Weapon"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="85ce-302d-b268-9a78" name="Landwehr Mortar Squad" hidden="false" collective="false" import="true" targetId="a697-173f-1d00-fb5b" type="selectionEntry">
@@ -209,6 +213,7 @@
         <categoryLink targetId="48f5-3131-be0b-5951" id="a78a-3437-c23d-8097" primary="false" name="AUX Support"/>
         <categoryLink targetId="6dc4-41a4-7144-d10c" id="6793-a1d8-24b9-4d22" primary="false" name="Troop"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="7619-ed2d-896b-d7ac" primary="false" name="HRE"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="e979-ecaf-adf4-a305" primary="false" name="Field Gun"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="a74d-0d07-e5d9-0032" field="category">
@@ -245,6 +250,7 @@
         <categoryLink targetId="a74d-0d07-e5d9-0032" id="0995-a189-51bb-0220" primary="false" name="AUX Infantry"/>
         <categoryLink targetId="c2bc-81f4-b62b-dc46" id="6ddc-3efe-c888-9db2" primary="false" name="Carriage"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="220e-035d-ac64-da60" primary="false" name="HRE"/>
+        <categoryLink targetId="0210-dcc7-546b-3981" id="1188-bdc0-21c8-e1ac" primary="false" name="Crewed Weapon"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="a74d-0d07-e5d9-0032" field="category">
@@ -260,6 +266,7 @@
         <categoryLink targetId="48f5-3131-be0b-5951" id="b500-1e53-d552-b6b8" primary="false" name="AUX Support"/>
         <categoryLink targetId="c2bc-81f4-b62b-dc46" id="3d85-daac-1454-184a" primary="false" name="Carriage"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="e778-5a2a-a89e-179a" primary="false" name="HRE"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="7319-8014-ed61-0b58" primary="false" name="Field Gun"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="48f5-3131-be0b-5951" field="category">
@@ -374,9 +381,10 @@
     </entryLink>
     <entryLink id="9377-d93b-c74d-0eca" name="Franz Von Trotta" hidden="true" collective="false" import="true" targetId="d6bb-21c6-c241-bfe6" type="selectionEntry">
       <categoryLinks>
-        <categoryLink targetId="33a5-8b7e-49bb-c30d" id="9a1a-49ad-96bd-08c4" primary="true" name="Heroes"/>
+        <categoryLink targetId="33a5-8b7e-49bb-c30d" id="9a1a-49ad-96bd-08c4" primary="true" name="Hero"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="d5f4-78cf-02bd-d6e1" primary="false" name="HRE"/>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="9fac-83ef-f83a-844c" primary="false" name="Command"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="4be6-f416-a1ba-0a3d" primary="false" name="Attache"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -397,6 +405,7 @@
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="e6a9-61cb-807e-a8ec" primary="true" name="Command"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="f905-9181-abc5-4a8d" primary="false" name="HRE"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="d575-fe41-ac0c-99a1" primary="false" name="Attache"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -423,6 +432,7 @@
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="d0a6-f7b1-9357-72b4" primary="true" name="Command"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="a3d9-9742-0714-c49b" primary="false" name="HRE"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="06c2-4060-6753-bf12" primary="false" name="Attache"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -433,7 +443,6 @@
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="force" childId="de0d-e12c-a964-4e46" shared="true"/>
                     <condition type="atLeast" value="1" field="selections" scope="force" childId="c2bc-81f4-b62b-dc46" shared="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2450-f84d-0bff-43d8" shared="true"/>
                   </conditions>
                 </conditionGroup>
                 <conditionGroup type="or">
@@ -454,7 +463,7 @@
     <entryLink import="true" name="Ritter Class Sturmzeppelin" hidden="false" id="93eb-ef61-d810-203d" collective="false" targetId="68a5-d0c4-b069-0a80" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="CORE Zeppelin" hidden="false" id="deff-dda9-a91e-b872" targetId="d3e6-9cfb-4ddb-2020" primary="false"/>
-        <categoryLink targetId="d4be-5aad-8560-5720" id="5ef7-b309-4aa7-5595" primary="true" name="Transports"/>
+        <categoryLink targetId="d4be-5aad-8560-5720" id="5ef7-b309-4aa7-5595" primary="true" name="Transport"/>
         <categoryLink targetId="b250-bcf3-850c-e556" id="ae90-6627-2449-3648" primary="false" name="Flying"/>
         <categoryLink targetId="de0d-e12c-a964-4e46" id="de95-a719-826f-549a" primary="false" name="Vehicle"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="e160-6b0b-edae-2103" primary="false" name="HRE"/>
@@ -487,9 +496,10 @@
     </entryLink>
     <entryLink import="true" name="Chaim Drescher: The Maccabean Knight" hidden="true" id="c5f0-9ac-bb2-2123" type="selectionEntry" targetId="65f3-ca93-8947-17fd">
       <categoryLinks>
-        <categoryLink targetId="33a5-8b7e-49bb-c30d" id="d1fc-e96b-1f18-a471" primary="true" name="Heroes"/>
+        <categoryLink targetId="33a5-8b7e-49bb-c30d" id="d1fc-e96b-1f18-a471" primary="true" name="Hero"/>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="abd7-0704-7112-1ab4" primary="false" name="Command"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="b064-fdea-57b3-1dd9" primary="false" name="HRE"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="79f0-cd9c-4de6-88c1" primary="false" name="Attache"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -506,7 +516,7 @@
     </entryLink>
     <entryLink import="true" name="Pinzgauer Utility Truck" hidden="false" id="c4ec-fcb9-5f86-4c39" type="selectionEntry" targetId="ed6d-c907-b932-1d25">
       <categoryLinks>
-        <categoryLink targetId="d4be-5aad-8560-5720" id="b2d2-6706-b5ac-f437" primary="true" name="Transports"/>
+        <categoryLink targetId="d4be-5aad-8560-5720" id="b2d2-6706-b5ac-f437" primary="true" name="Transport"/>
         <categoryLink targetId="de0d-e12c-a964-4e46" id="c66e-b784-0420-270d" primary="false" name="Vehicle"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="5e00-7c18-3e95-8a3f" primary="false" name="HRE"/>
       </categoryLinks>
@@ -563,6 +573,7 @@
         <categoryLink targetId="7616-a9f8-6205-af0e" id="5dbd-0ae8-7670-914b" primary="false" name="Tracked"/>
         <categoryLink targetId="de0d-e12c-a964-4e46" id="a3e0-d621-373c-75c6" primary="false" name="Vehicle"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="a2e6-71cc-25d0-325a" primary="false" name="HRE"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="4b96-712f-cc46-c6f6" primary="false" name="Field Gun"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="48f5-3131-be0b-5951" field="category">
@@ -575,8 +586,9 @@
     <entryLink import="true" name="Baron Lajos Dolmán de Szolnok" hidden="true" id="13d7-7662-cb4b-d6c6" type="selectionEntry" targetId="f29d-24f2-1ce9-e727">
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="3a2f-9b2d-8ed8-6656" primary="false" name="Command"/>
-        <categoryLink targetId="33a5-8b7e-49bb-c30d" id="4926-e579-2b57-aefa" primary="true" name="Heroes"/>
+        <categoryLink targetId="33a5-8b7e-49bb-c30d" id="4926-e579-2b57-aefa" primary="true" name="Hero"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="339c-cffd-a18c-51e9" primary="false" name="HRE"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="19c5-d0e9-87f7-3dcd" primary="false" name="Attache"/>
       </categoryLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -596,6 +608,7 @@
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="3d13-828d-8eec-65b1" primary="true" name="Command"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="81a1-52c3-74db-4069" primary="false" name="HRE"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="d8e5-9f04-9378-3547" primary="false" name="Attache"/>
       </categoryLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -611,7 +624,7 @@
     </entryLink>
     <entryLink import="true" name="32M Hunyadi Armored Personnel Carrier" hidden="false" id="f166-f456-331a-68aa" collective="false" targetId="5030-3495-b40b-fc19" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="Transports" hidden="false" id="726c-5776-2a9c-cdc3" targetId="d4be-5aad-8560-5720" primary="false"/>
+        <categoryLink name="Transport" hidden="false" id="726c-5776-2a9c-cdc3" targetId="d4be-5aad-8560-5720" primary="false"/>
         <categoryLink targetId="7616-a9f8-6205-af0e" id="fe83-11fc-5e1d-6a9e" primary="false" name="Tracked"/>
         <categoryLink targetId="de0d-e12c-a964-4e46" id="d79e-b952-ea87-fec4" primary="false" name="Vehicle"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="7ffc-8ec9-e9b4-c5f2" primary="false" name="HRE"/>
@@ -621,8 +634,9 @@
     <entryLink import="true" name="27M Höllenwerfer Battery" hidden="false" id="4b9f-4d25-7d34-af19" collective="false" targetId="29d3-9b34-9029-9322" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="CORE Artillery" hidden="false" id="ffb8-d2d6-4ba7-edf8" targetId="8679-d614-ae03-de2c" primary="true"/>
-        <categoryLink targetId="2450-f84d-0bff-43d8" id="c930-21f3-65ba-d90c" primary="false" name="Battery"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="f33f-daf5-abce-2419" primary="false" name="HRE"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="e62c-178f-96de-d2ee" primary="false" name="Field Gun"/>
+        <categoryLink targetId="c2bc-81f4-b62b-dc46" id="1503-c275-0dc6-d25e" primary="false" name="Carriage"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="21cm Morser Carriage" hidden="false" id="122d-add4-8d44-67e7" collective="false" targetId="6aa0-04c6-a45b-b6c5" type="selectionEntry">
@@ -631,6 +645,7 @@
         <categoryLink name="CORE Artillery" hidden="false" id="02a6-3bfb-3ea5-716f" targetId="8679-d614-ae03-de2c" primary="true"/>
         <categoryLink name="Carriage" hidden="false" id="d574-a237-7022-5516" targetId="c2bc-81f4-b62b-dc46" primary="false"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="41eb-47c9-df96-5a1c" primary="false" name="HRE"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="2d0d-3f1c-b5ed-6819" primary="false" name="Field Gun"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="48f5-3131-be0b-5951" field="category">
@@ -644,8 +659,9 @@
       <categoryLinks>
         <categoryLink name="CORE Support" hidden="false" id="9c03-290e-17ab-a7b2" targetId="7110-7fe8-80e2-5e81" primary="true"/>
         <categoryLink name="AUX Infantry" hidden="false" id="7636-a7e4-23e9-600c" targetId="a74d-0d07-e5d9-0032" primary="false"/>
-        <categoryLink targetId="2450-f84d-0bff-43d8" id="e478-2c91-28e2-198e" primary="false" name="Battery"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="5bf4-27a5-f4ee-8c13" primary="false" name="HRE"/>
+        <categoryLink targetId="0210-dcc7-546b-3981" id="09a9-8c97-ee3d-df95" primary="false" name="Crewed Weapon"/>
+        <categoryLink targetId="c2bc-81f4-b62b-dc46" id="3aac-2adb-e01d-e20a" primary="false" name="Carriage"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Landwehr Automatic Grenade Launcher Squad" hidden="false" id="0b0b-e5e4-490c-4a8c" collective="false" targetId="9bb9-862b-17e6-66a1" type="selectionEntry">
@@ -654,6 +670,7 @@
         <categoryLink name="AUX Infantry" hidden="false" id="0f87-3da8-7e68-fbf2" targetId="a74d-0d07-e5d9-0032" primary="false"/>
         <categoryLink name="Troop" hidden="false" id="bde1-8dc8-7147-ab12" targetId="6dc4-41a4-7144-d10c" primary="false"/>
         <categoryLink name="HRE" hidden="false" id="9770-0745-ddc8-d1da" targetId="496e-47e7-7a85-4016" primary="false"/>
+        <categoryLink targetId="0210-dcc7-546b-3981" id="3373-da13-bed9-4106" primary="false" name="Crewed Weapon"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="a74d-0d07-e5d9-0032" field="category">
@@ -669,6 +686,7 @@
         <categoryLink name="AUX Infantry" hidden="false" id="099c-63e1-473d-667b" targetId="a74d-0d07-e5d9-0032" primary="false"/>
         <categoryLink name="Troop" hidden="false" id="3bf6-dc1c-c165-a302" targetId="6dc4-41a4-7144-d10c" primary="false"/>
         <categoryLink name="HRE" hidden="false" id="6fe4-4886-54f8-e3d1" targetId="496e-47e7-7a85-4016" primary="false"/>
+        <categoryLink targetId="0210-dcc7-546b-3981" id="4241-9da9-b475-b6fc" primary="false" name="Crewed Weapon"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="a74d-0d07-e5d9-0032" field="category">
@@ -684,6 +702,7 @@
         <categoryLink name="AUX Infantry" hidden="false" id="e8e0-fe3a-e079-8423" targetId="a74d-0d07-e5d9-0032" primary="false"/>
         <categoryLink name="Troop" hidden="false" id="3418-d95e-984e-7c0d" targetId="6dc4-41a4-7144-d10c" primary="false"/>
         <categoryLink name="HRE" hidden="false" id="88d6-c9ad-1ba2-bd15" targetId="496e-47e7-7a85-4016" primary="false"/>
+        <categoryLink targetId="0210-dcc7-546b-3981" id="ee1f-e6cb-4e13-93a9" primary="false" name="Crewed Weapon"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="a74d-0d07-e5d9-0032" field="category">
@@ -706,6 +725,7 @@
         <categoryLink name="AUX Infantry" hidden="false" id="40db-25fd-6835-ca5c" targetId="a74d-0d07-e5d9-0032" primary="false"/>
         <categoryLink name="Troop" hidden="false" id="31d4-f803-5a39-0518" targetId="6dc4-41a4-7144-d10c" primary="false"/>
         <categoryLink name="HRE" hidden="false" id="8a83-3416-1d63-c1ab" targetId="496e-47e7-7a85-4016" primary="false"/>
+        <categoryLink targetId="0210-dcc7-546b-3981" id="4730-a0a7-be7a-4e76" primary="false" name="Crewed Weapon"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="a74d-0d07-e5d9-0032" field="category">
@@ -752,6 +772,7 @@
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="8d02-300f-efa9-a61b" primary="true" name="Command"/>
         <categoryLink targetId="496e-47e7-7a85-4016" id="be03-dd92-ce30-2df9" primary="false" name="HRE"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="fada-f68a-1616-e5a0" primary="false" name="Attache"/>
       </categoryLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -765,32 +786,6 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Veteran Landwehr Officer" hidden="true" id="060e-8d89-344d-1fec" type="selectionEntry" targetId="381f-621a-86cd-2dc5">
-      <categoryLinks>
-        <categoryLink targetId="70eb-c264-a9cb-1bfe" id="c334-462f-492c-54c6" primary="true" name="Command"/>
-        <categoryLink targetId="496e-47e7-7a85-4016" id="f94b-3a53-44bb-f9b2" primary="false" name="HRE"/>
-      </categoryLinks>
-      <modifiers>
-        <modifier type="set" value="false" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="6dc4-41a4-7144-d10c" shared="true" includeChildSelections="true"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="force" childId="26a5-76cb-5d13-b4a7" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="force" childId="7110-7fe8-80e2-5e81" shared="true" includeChildSelections="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="force" childId="8679-d614-ae03-de2c" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="f6c7-8ea6-b7ab-64be" name="Officer Seniority" hidden="false" collective="false" import="true" type="upgrade">
@@ -803,7 +798,7 @@
           <selectionEntries>
             <selectionEntry id="21f2-8632-9fc7-d85b" name="C1 - Leutnant" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="633f-8751-04ad-6fde" name="Command" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                <infoLink id="633f-8751-04ad-6fde" name="Officer" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
                   <modifiers>
                     <modifier type="append" field="name" value="1"/>
                   </modifiers>
@@ -818,7 +813,7 @@
             </selectionEntry>
             <selectionEntry id="fa5d-53f8-cc75-e9ca" name="C2 - Hauptmann" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="2531-5e78-e1cc-99d5" name="Command" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                <infoLink id="2531-5e78-e1cc-99d5" name="Officer" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
                   <modifiers>
                     <modifier type="append" field="name" value="2"/>
                   </modifiers>
@@ -833,7 +828,7 @@
             </selectionEntry>
             <selectionEntry id="57fd-e9a3-494a-ffd0" name="C3 - Major" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="ac2c-2a20-7ab3-a124" name="Command" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                <infoLink id="ac2c-2a20-7ab3-a124" name="Officer" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
                   <modifiers>
                     <modifier type="append" field="name" value="3"/>
                   </modifiers>
@@ -848,7 +843,7 @@
             </selectionEntry>
             <selectionEntry id="4e97-8d46-a09e-d1db" name="C4 - Oberst" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="ab25-5dfc-6550-d04a" name="Command" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                <infoLink id="ab25-5dfc-6550-d04a" name="Officer" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
                   <modifiers>
                     <modifier type="append" field="name" value="4"/>
                   </modifiers>
@@ -1183,7 +1178,7 @@
         <infoLink name="Spray" id="be00-3184-5ee0-20a3" hidden="false" type="rule" targetId="b609-fbd4-d0a3-6927"/>
       </infoLinks>
       <costs>
-        <cost name="Munitions" typeId="Points" value="6"/>
+        <cost name="Munitions" typeId="Points" value="12"/>
         <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
         <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
         <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
@@ -2268,13 +2263,14 @@
             <profile name="45M Barbarossa Assault Tank" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="32aa-7659-8405-5139">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 45M Barbarossa Assault Tank</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Armor, (AUX) Mechanized, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Armor, (AUX) Mechanized, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Armor Vehicle Actions" id="7c2e-db40-8c38-0f4b" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
+            <infoLink name="Vehicle Actions" id="7c2e-db40-8c38-0f4b" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
             <infoLink name="Cook Off" id="39a1-287d-8f95-57a6" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
           </infoLinks>
           <selectionEntries>
@@ -2554,11 +2550,12 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 38M Franz Joseph Battle Tank</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Armor, (AUX) Mechanized, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Armor Vehicle Actions" id="0ddd-d16e-42f7-fefb" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
+            <infoLink name="Vehicle Actions" id="0ddd-d16e-42f7-fefb" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
             <infoLink name="Cook Off" id="2f27-419f-87e7-9b7f" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
           </infoLinks>
           <selectionEntries>
@@ -2836,14 +2833,16 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 43M Árpád Tank Hunter</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Armor, (AUX) Support, (AUX) Mechanized, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Armor Vehicle Actions" id="be50-3080-eeea-1616" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
+            <infoLink name="Vehicle Actions" id="be50-3080-eeea-1616" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
             <infoLink name="Big Game Hunter" id="b35c-651a-d235-3385" hidden="false" type="rule" targetId="22ef-ed51-bdad-4ad4"/>
             <infoLink name="Forward Positions" id="fb39-cbeb-6e83-e9b4" hidden="false" type="rule" targetId="239f-191a-232-4894"/>
             <infoLink name="Cook Off" id="f3f8-1fbd-5680-a0c0" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
+            <infoLink name="Tank Destroyer" id="ed04-4250-d1c1-5288" hidden="false" type="rule" targetId="c8ab-8177-6dc3-df26"/>
           </infoLinks>
           <costs>
             <cost name="Munitions" typeId="Points" value="145"/>
@@ -2946,11 +2945,12 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Unteroffizier , 5-9x  Veterans, 0-2x Stabsgrefrieters, 0-1x Flagbearer, &amp; 0-1x Sanitäter</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Infantry, (AUX) Mechanized, Troop</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">10</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Infantry Troop Actions" id="a27b-cefe-f12b-20c3" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
+            <infoLink name="Troop Actions" id="a27b-cefe-f12b-20c3" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
             <infoLink name="Shield Generator" id="f3c5-bb6e-dcb7-951c" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -3358,11 +3358,12 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Tizedes, 7-9x Honvéd, 0-1x MG36 Team</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Infantry, (AUX) Mechanized, Troop</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">10 (9 with team)</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Infantry Troop Actions" id="db9e-1992-9c28-f490" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
+            <infoLink name="Troop Actions" id="db9e-1992-9c28-f490" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
             <infoLink name="Shield Generator" id="c9d6-0ce6-30af-3d20" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -3498,14 +3499,15 @@
           <profiles>
             <profile name="Landwehr Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="09c3-1ea2-655c-d0c6">
               <characteristics>
-                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Unteroffizier, 7-9x Gefreiters, 0-2x Stabsgefreiters, &amp; 0-1x Sanitäter</characteristic>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Unteroffizier, 7-9x Gefreiters, 0-2x Stabsgefreiters, 0-1x MG36 Team, &amp; 0-1x Sanitäter</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Infantry, (AUX) Mechanized, Troop</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">10 (9 with team)</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Infantry Troop Actions" id="6006-27fe-9d09-0a8a" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
+            <infoLink name="Troop Actions" id="6006-27fe-9d09-0a8a" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
             <infoLink name="Shield Generator" id="fed4-f11b-6a59-435b" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -3881,11 +3883,12 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Jäger Unteroffizier, 2-9x Jägers, 0-2x Specialists, 0-2x Scharfschütze</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Recon, (AUX) Infantry, (AUX) Zeppelin, (AUX) Mechanized, Troop</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">32mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">5-10</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Recon Troop Actions" id="889e-4225-00a5-6d16" hidden="false" targetId="8759-1f21-a918-3ebe" type="profile"/>
+            <infoLink name="Troop Actions" id="889e-4225-00a5-6d16" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad Members" id="6c73-2a3e-19a5-8f83" hidden="false" collective="true" import="true" defaultSelectionEntryId="5032-1522-308d-d850">
@@ -4126,11 +4129,12 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Jäger Scharfschützer &amp; 1x Jäger Scharfschütze Spotter</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Recon, (AUX) Infantry, Troop</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">30mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Recon Troop Actions" id="8329-5a41-8d82-e8ce" hidden="false" targetId="8759-1f21-a918-3ebe" type="profile"/>
+            <infoLink name="Troop Actions" id="8329-5a41-8d82-e8ce" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
             <infoLink name="Hunter" id="b04b-96fc-a55-59da" hidden="false" type="rule" targetId="c061-5561-8d2a-8ab3"/>
             <infoLink name="Forward Positions" id="cff5-6c6a-fc33-6bba" hidden="false" type="rule" targetId="239f-191a-232-4894"/>
           </infoLinks>
@@ -4291,11 +4295,12 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Scharfschützer &amp; 1x Scharfschütze Spotter</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Recon, (AUX) Infantry, Troop</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Recon Troop Actions" id="16c1-cc69-250f-b74a" hidden="false" targetId="8759-1f21-a918-3ebe" type="profile"/>
+            <infoLink name="Troop Actions" id="16c1-cc69-250f-b74a" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
             <infoLink name="Not My Job" id="bec-48fd-f5c9-30b3" hidden="false" type="rule" targetId="824b-bf81-ea20-17d4"/>
             <infoLink name="Hunter" id="1556-6182-b061-73ed" hidden="false" type="rule" targetId="c061-5561-8d2a-8ab3"/>
             <infoLink name="Forward Positions" id="a668-37bf-408-ff2f" hidden="false" type="rule" targetId="239f-191a-232-4894"/>
@@ -4453,13 +4458,14 @@
             <profile name="22M Radetzky Armored Car" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="6915-231b-fac1-7e0d">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 22M Radetzky Armored Car</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Recon, (AUX) Armor, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Recon, (AUX) Armor, Vehicle, Scout</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Recon Vehicle Actions" id="11a3-fcaa-87ff-31a7" hidden="false" targetId="e02c-5a58-9b36-5c37" type="profile"/>
+            <infoLink name="Scout Vehicle Actions" id="11a3-fcaa-87ff-31a7" hidden="false" targetId="e02c-5a58-9b36-5c37" type="profile"/>
             <infoLink name="Intel Gathering" id="78a2-33ce-3a2e-f4ca" hidden="false" type="rule" targetId="5845-b3b2-62ef-1d40"/>
           </infoLinks>
           <selectionEntries>
@@ -4522,13 +4528,14 @@
             <profile name="Landwehr Mortar Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="262f-5ce3-9ae9-7538">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2x Landwehr Heavy Weapon Teams</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Artillery, (AUX) Infantry, (AUX) Support, Troops</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Artillery, (AUX) Infantry, (AUX) Support, Troop, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">50mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Artillery Troop Actions" id="6b00-02fb-f729-faba" hidden="false" targetId="a630-8180-c3b3-9f81" type="profile"/>
+            <infoLink name="Field Gun Crewed Weapon Troop Actions" id="6b00-02fb-f729-faba" hidden="false" targetId="a630-8180-c3b3-9f81" type="profile"/>
             <infoLink name="Cumbersome" id="ed28-cf40-c881-4f10" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Dial In" id="c44d-a93a-0184-79f0" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
               <modifiers>
@@ -4624,13 +4631,14 @@
             <profile name="43M Árpád Support Gun" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="c6f4-6503-ee8b-f932">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 43M Árpád Support Gun</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Artillery, (AUX) Armor, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Artillery, (AUX) Armor, Vehicle, Tracked, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Artillery Vehicle Actions" id="f211-525d-f96f-3cc2" hidden="false" targetId="ad55-69e8-9339-6df7" type="profile"/>
+            <infoLink name="Field Gun Vehicle Actions" id="f211-525d-f96f-3cc2" hidden="false" targetId="ad55-69e8-9339-6df7" type="profile"/>
             <infoLink name="Cumbersome" id="b79f-5b10-0c31-46bd" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Cook Off" id="f2cf-38cb-1e46-6cca" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
             <infoLink name="Dial In" id="dfc9-efbb-cf5b-bc4b" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
@@ -4732,13 +4740,14 @@
             <profile name="28M Wallenstein Armored Halftrack Höllenwerfer Carrier" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="6fa9-d2dc-215e-ae18">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 28M Wallenstein Armored Halftrack Höllenwerfer Carrier</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Artillery, (AUX) Support, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Artillery, (AUX) Support, Vehicle, Tracked, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Artillery Vehicle Actions" id="edc9-4e9e-1a64-56d0" hidden="false" targetId="ad55-69e8-9339-6df7" type="profile"/>
+            <infoLink name="Field Gun Vehicle Actions" id="edc9-4e9e-1a64-56d0" hidden="false" targetId="ad55-69e8-9339-6df7" type="profile"/>
             <infoLink name="Cumbersome" id="18d6-0814-4187-2853" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Dial In" id="76ea-d872-1220-5c96" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
               <modifiers>
@@ -4785,8 +4794,9 @@
             <profile name="27M Höllenwerfer Carriage" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="12c4-5a1a-2412-7e4d">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 27M Höllenwerfer Carriage</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Artillery, (AUX) Support, Carriage</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Artillery, (AUX) Support, Carriage, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="27m Höllenwerfer Carriage" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="751b-025e-0c89-a43e">
@@ -4799,7 +4809,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Artillery Carriage Actions" id="ade6-1467-cd39-240a" hidden="false" targetId="8aaf-072f-5000-d2b9" type="profile"/>
+            <infoLink name="Field Gun Carriage Actions" id="ade6-1467-cd39-240a" hidden="false" targetId="8aaf-072f-5000-d2b9" type="profile"/>
             <infoLink name="Cumbersome" id="dfa0-6e3d-3463-0a28" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Dial In" id="4555-2149-2c8f-1116" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
               <modifiers>
@@ -4840,15 +4850,14 @@
             <profile name="21cm Morser Battery" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="7552-5c72-21aa-97ea">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">3x 21cm Morser Carriages</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Artillery, Battery</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Artillery, Carriage, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">3</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Deployed Weapon" id="50df-2dc7-7e06-971a" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
-            <infoLink name="Front Facing" id="6c13-2fa5-2f8c-7323" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
-            <infoLink name="Artillery Carriage Actions" id="6513-e0c5-32c5-e0cf" hidden="false" targetId="8aaf-072f-5000-d2b9" type="profile"/>
+            <infoLink name="Field Gun Carriage Actions" id="6513-e0c5-32c5-e0cf" hidden="false" targetId="8aaf-072f-5000-d2b9" type="profile"/>
             <infoLink name="Cumbersome" id="0ca1-06d4-69c2-6855" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Dial In" id="4671-908b-42af-da42" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
               <modifiers>
@@ -4917,8 +4926,9 @@
             <profile name="21cm Morser Battery" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="9234-1819-ce9f-338c">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 21cm Morser Carriage</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Artillery, (AUX) Support, Carriage</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Artillery, (AUX) Support, Carriage, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="21cm Morser Carriage" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="366a-5eab-7f3f-0966">
@@ -4931,9 +4941,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Deployed Weapon" id="458e-8f1c-1651-4a6a" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
-            <infoLink name="Front Facing" id="98d6-0af7-c62f-8256" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
-            <infoLink name="Artillery Carriage Actions" id="77dd-5b10-f0f7-6365" hidden="false" targetId="8aaf-072f-5000-d2b9" type="profile"/>
+            <infoLink name="Field Gun Carriage Actions" id="77dd-5b10-f0f7-6365" hidden="false" targetId="8aaf-072f-5000-d2b9" type="profile"/>
             <infoLink name="Cumbersome" id="cfe4-f42a-d69f-93a8" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Heavy Carriage" id="3ac3-ed0d-cc31-e7ae" hidden="false" type="rule" targetId="4d43-378e-5e18-f124"/>
             <infoLink name="Dial In" id="8795-ba84-d9f5-aa03" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
@@ -4969,13 +4977,14 @@
             <profile name="27M Höllenwerfer Battery" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="98a3-0bbe-fc1a-0254">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">3x 27M Höllenwerfer Carriages</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Artillery, Battery</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Artillery, Carriage, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">3</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Artillery Carriage Actions" id="3273-c8fa-967a-e28d" hidden="false" targetId="8aaf-072f-5000-d2b9" type="profile"/>
+            <infoLink name="Field Gun Carriage Actions" id="3273-c8fa-967a-e28d" hidden="false" targetId="8aaf-072f-5000-d2b9" type="profile"/>
             <infoLink name="Cumbersome" id="c128-9823-d477-555c" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Dial In" id="cb28-b581-48dd-fad2" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
               <modifiers>
@@ -5062,8 +5071,9 @@
             <profile name="Zeppelinjägermeister" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="9e67-d698-4a29-0202">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Zeppelinjägermeister</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Recon, Command, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Recon, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">32mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5143,8 +5153,9 @@
             <profile name="Mounted Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="df2c-61a8-4820-8b03">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">N/A</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Flex, Command, Mounted</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Flex, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">0</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5154,8 +5165,9 @@
             <profile name="Knecht Battlesuit Commander" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="8688-bc29-5c35-7d32">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Knecht Battlesuit Commander</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Infantry, Battlesuit, Command, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Infantry, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">40mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="Knecht Battlesuit Commander" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="4739-a707-890d-106d">
@@ -5251,8 +5263,9 @@
             <profile name="Landwehr Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="d1b-e9b9-af96-b181">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Landwehr Officer</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Infantry, (CORE) Support, (CORE) Artillery, Command, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Infantry, (CORE) Support, (CORE) Artillery, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5320,14 +5333,14 @@
             <profile name="22M Radetzky Command Car" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="b6ed-8ecf-8757-ada0">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 22M Radetzky Armored Car</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Recon, Command, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Recon, Vehicle, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Transport Vehicle Actions" id="46f5-febf-c483-db79" hidden="false" targetId="d3bd-9092-41d2-8882" type="profile"/>
-            <infoLink name="Rank has its Privileges" id="0ada-b731-c3a9-06b8" hidden="false" type="rule" targetId="7d1b-65ee-7808-b26d"/>
             <infoLink name="Low Profile" id="a71e-9e41-2655-9023" hidden="false" type="rule" targetId="06ae-c996-2397-250a"/>
           </infoLinks>
           <selectionEntries>
@@ -5389,16 +5402,18 @@
             <profile name="Pinzgauer Staff Car" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="5bee-fcb6-e604-9923">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Pinzgauer Staff Car</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Flex, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Flex, Vehicle, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Transport Vehicle Actions" id="6ff9-2dce-bf56-45b3" hidden="false" targetId="d3bd-9092-41d2-8882" type="profile"/>
-            <infoLink name="Rank has its Privileges" id="1a62-81f1-7547-8888" hidden="false" type="rule" targetId="7d1b-65ee-7808-b26d"/>
             <infoLink name="Hitch" id="cfb1-d383-f7d6-e2b5" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
             <infoLink name="Low Profile" id="9e95-ade5-abfa-663e" hidden="false" type="rule" targetId="06ae-c996-2397-250a"/>
+            <infoLink name="(CORE) Flex" id="bf9f-3dac-b902-10c1" hidden="false" type="rule" targetId="05cc-45cd-4600-22d8"/>
+            <infoLink name="Command Car" id="dfb6-6e6b-86c3-6cc1" hidden="false" type="rule" targetId="1cbf-8529-3a35-86c6"/>
           </infoLinks>
           <costs>
             <cost name="Munitions" typeId="Points" value="40"/>
@@ -5422,8 +5437,9 @@
             <profile name="Sturmpioneer Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="9386-da88-b11d-a81a">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Sturmpioneer Officer</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Infantry, Command, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Infantry, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">32mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="Sturmpioneer Officer" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="9832-9f63-a939-3d60">
@@ -5493,8 +5509,9 @@
             <profile name="Panzergrenadier Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="7d34-ab89-2ee1-953f">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Panzergrenadier Officer</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Mechanized, Command, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Mechanized, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">32mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="Panzergrenadier Officer" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="f068-6997-f14e-0fbc">
@@ -5585,8 +5602,9 @@
             <profile name="Honvéd Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="31ac-d8b4-99bb-849b">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Honvéd Officer</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Infantry, Command, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Infantry, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5637,80 +5655,6 @@
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Veteran Landwehr Officer" hidden="false" id="381f-621a-86cd-2dc5" collective="false">
-          <profiles>
-            <profile name="Veteran Landwehr Officer" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="f0a9-0659-d30a-1d40">
-              <characteristics>
-                <characteristic name="Movement" typeId="3e68-f430-0d7c-5747">6&quot;</characteristic>
-                <characteristic name="Evasion Score" typeId="c7f9-7a63-2269-6a82">6</characteristic>
-                <characteristic name="Armor Value" typeId="af2e-1c49-9a61-0dba">4</characteristic>
-                <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">4</characteristic>
-              </characteristics>
-            </profile>
-            <profile name="Veteran Landwehr Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="4ba7-0b8d-7542-77f5">
-              <characteristics>
-                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Veteran Landwehr Officer</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Infantry, (CORE) Support, (CORE) Artillery, Command, Troop</characteristic>
-                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink name="Designated Leader" id="424f-77b7-861f-2ad0" hidden="false" type="rule" targetId="8e52-a616-aab9-73b8"/>
-            <infoLink name="Command Actions" id="f907-8ae5-fd0b-4c41" hidden="false" type="profile" targetId="237b-8d1e-014e-539d"/>
-          </infoLinks>
-          <entryLinks>
-            <entryLink import="true" name="CKF Saber" hidden="false" id="7a8e-761f-d639-830c" collective="false" targetId="116c-4e0a-aadc-0b83" type="selectionEntry">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="79e1-0106-b686-5712" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3118-735a-4ddb-532d" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Officer Seniority" hidden="false" id="8755-4f2c-1403-0ef4" type="selectionEntry" targetId="f6c7-8ea6-b7ab-64be">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0505-8d1b-3d00-ca41" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c546-5d57-e8db-b01c" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
-            <entryLink import="true" name="Officer Upgrades" hidden="false" id="30c8-e78a-e2a5-4684" type="selectionEntryGroup" targetId="a1d5-cf70-3898-0ebb"/>
-          </entryLinks>
-          <costs>
-            <cost name="Munitions" typeId="Points" value="15"/>
-            <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
-            <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
-            <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
-          </costs>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Sidearm" id="3f6a-0d19-c47d-0e46" hidden="false" defaultSelectionEntryId="72cf-19dd-9046-d473">
-              <entryLinks>
-                <entryLink import="true" name="M1922 Steyr-Roth" hidden="false" id="72cf-19dd-9046-d473" type="selectionEntry" targetId="f6b0-733b-4270-9164"/>
-                <entryLink import="true" name="M1933 Magazine-Fed Slug Pistol" hidden="false" id="c0e2-14ae-c359-3b8b" type="selectionEntry" targetId="65f8-cca6-982-44d"/>
-                <entryLink import="true" name="M1936 Plasma Pistol" hidden="false" id="508d-dc2b-7df9-df62" type="selectionEntry" targetId="a111-e815-6c81-e7d7"/>
-              </entryLinks>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9535-0777-8403-39de" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0748-9f2b-6de0-f413" includeChildSelections="false"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Weapon" id="b0ba-2eff-1871-f829" hidden="false">
-              <entryLinks>
-                <entryLink import="true" name="VZ. 38 Heavy Rifle" hidden="false" id="c93c-7368-ad84-d0bd" collective="false" targetId="8da2-f265-a840-eb38" type="selectionEntry">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3931-b128-8807-8f53" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-                  </constraints>
-                </entryLink>
-                <entryLink import="true" name="MP33 SMG" hidden="false" id="f83a-b1e1-f801-8224" type="selectionEntry" targetId="1d72-b2ee-fef5-7d5b">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1ca-0458-d636-766a" includeChildSelections="false"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8805-8ee4-268a-addb" includeChildSelections="false"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup name="Support" id="dff9-79b3-4935-a424" hidden="false">
@@ -5734,6 +5678,7 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Towable Shield Generator</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (AUX) Support, (AUX) Infantry, (AUX) Mechanized, Carriage</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5759,11 +5704,12 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Pioneer Unteroffizier &amp; 4-9x Pioneers</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, CORE Support (AUX) Infantry, Troop, Engineer</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">32mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">5-10</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Support Engineer Troop Actions" id="0523-1d8d-7fe2-3626" hidden="false" targetId="335b-34df-c974-9c3b" type="profile"/>
+            <infoLink name="Engineer Troop Actions" id="0523-1d8d-7fe2-3626" hidden="false" targetId="335b-34df-c974-9c3b" type="profile"/>
             <infoLink name="Forward Positions" id="9574-6387-7355-db86" hidden="false" type="rule" targetId="239f-191a-232-4894"/>
             <infoLink name="Battlefield Preparation" id="b9e2-cea7-6840-2280" hidden="false" type="rule" targetId="ea06-55d8-62e2-4f31"/>
             <infoLink name="Logistics" id="73c1-5f80-5395-0cfd" hidden="false" type="rule" targetId="c1ce-d022-923f-3147"/>
@@ -5904,15 +5850,14 @@
             <profile name="Landwehr Heavy Weapon Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="551f-ae29-df4a-792d">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2x Landwehr Heavy Weapon Teams</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Support, (AUX) Infantry, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Support, (AUX) Infantry, Troop, Crewed Weapon</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">50mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Support Troop Actions" id="4c4f-5213-6166-3626" hidden="false" targetId="7959-03e6-fdc4-3adf" type="profile"/>
-            <infoLink name="Deployed Weapon" id="9c04-fc69-415e-4dcb" hidden="false" type="rule" targetId="49c6-4812-80b8-83cf"/>
-            <infoLink name="Front Facing" id="f6ed-6a6f-6e7f-e859" hidden="false" type="rule" targetId="a57a-9c2f-704e-9847"/>
+            <infoLink name="Crewed Weapon Troop Actions" id="4c4f-5213-6166-3626" hidden="false" targetId="7959-03e6-fdc4-3adf" type="profile"/>
             <infoLink name="Overwatch" id="2d51-e5c1-c3c1-b95b" hidden="false" type="rule" targetId="4693-38cf-194e-db7d"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -5981,8 +5926,9 @@
             <profile name="18M Towed Gun Carriage" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="7904-9e75-7b0f-eb66">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 18M Gun Carriage</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Support, (AUX) Infantry, Towable, Carriage</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Support, (AUX) Infantry, Carriage, Crewed Weapons</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="18M Gun Carriage" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="ca17-26c1-f541-dfaf">
@@ -5995,7 +5941,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Support Carriage Actions" id="3348-56da-ee98-aea5" hidden="false" targetId="1761-68e7-b0e6-e086" type="profile"/>
+            <infoLink name="Carriage Actions" id="3348-56da-ee98-aea5" hidden="false" targetId="1761-68e7-b0e6-e086" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="Munitions" typeId="Points" value="39"/>
@@ -6052,13 +5998,14 @@
             <profile name="18M Towed Gun Carriage Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="83a6-6b43-e410-a5dc">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">3x 18M Gun Carriages</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Support, Battery</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Support, Carriage, Crewed Weapons</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">3</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Support Carriage Actions" id="5ad2-7b41-b8f2-d021" hidden="false" targetId="1761-68e7-b0e6-e086" type="profile"/>
+            <infoLink name="Carriage Actions" id="5ad2-7b41-b8f2-d021" hidden="false" targetId="1761-68e7-b0e6-e086" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad Members" id="cc43-b40c-1859-5cad" hidden="false" collective="false" import="true">
@@ -6140,15 +6087,14 @@
             <profile name="Landwehr Heavy Weapon Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="ff21-5f01-739d-50d0">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2x Landwehr Heavy Weapon Teams</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Support, (AUX) Infantry, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Support, (AUX) Infantry, Troop, Crewed Weapon</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">50mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Support Troop Actions" id="b14f-4fc7-9964-03f7" hidden="false" targetId="7959-03e6-fdc4-3adf" type="profile"/>
-            <infoLink name="Deployed Weapon" id="a2b0-83ff-1015-d95f" hidden="false" type="rule" targetId="49c6-4812-80b8-83cf"/>
-            <infoLink name="Front Facing" id="6ccb-e3a4-a66f-7e01" hidden="false" type="rule" targetId="a57a-9c2f-704e-9847"/>
+            <infoLink name="Crewed Weapon Troop Actions" id="b14f-4fc7-9964-03f7" hidden="false" targetId="7959-03e6-fdc4-3adf" type="profile"/>
             <infoLink name="Overwatch" id="37fb-7d5e-0dee-2134" hidden="false" type="rule" targetId="4693-38cf-194e-db7d"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -6217,15 +6163,14 @@
             <profile name="Landwehr Heavy Weapon Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="c979-f82e-d03c-d613">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2x Landwehr Heavy Weapon Teams</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Support, (AUX) Infantry, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Support, (AUX) Infantry, Troop, Crewed Weapon</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">50mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Support Troop Actions" id="b1ea-ce93-8cf9-92db" hidden="false" targetId="7959-03e6-fdc4-3adf" type="profile"/>
-            <infoLink name="Deployed Weapon" id="5494-1e5a-4c74-cc30" hidden="false" type="rule" targetId="49c6-4812-80b8-83cf"/>
-            <infoLink name="Front Facing" id="4d09-c033-7425-d86b" hidden="false" type="rule" targetId="a57a-9c2f-704e-9847"/>
+            <infoLink name="Crewed Weapon Troop Actions" id="b1ea-ce93-8cf9-92db" hidden="false" targetId="7959-03e6-fdc4-3adf" type="profile"/>
             <infoLink name="Overwatch" id="af7c-3b53-f382-d6ae" hidden="false" type="rule" targetId="4693-38cf-194e-db7d"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -6294,15 +6239,14 @@
             <profile name="Landwehr Heavy Weapon Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="c1de-6f68-93ba-7a0f">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2x Landwehr Heavy Weapon Teams</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Support, (AUX) Infantry, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Support, (AUX) Infantry, Troop, Crewed Weapon</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">50mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Support Troop Actions" id="40bb-6b97-450f-97ce" hidden="false" targetId="7959-03e6-fdc4-3adf" type="profile"/>
-            <infoLink name="Deployed Weapon" id="9621-fc98-ecc8-22df" hidden="false" type="rule" targetId="49c6-4812-80b8-83cf"/>
-            <infoLink name="Front Facing" id="a8fe-cd43-39a4-c174" hidden="false" type="rule" targetId="a57a-9c2f-704e-9847"/>
+            <infoLink name="Crewed Weapon Troop Actions" id="40bb-6b97-450f-97ce" hidden="false" targetId="7959-03e6-fdc4-3adf" type="profile"/>
             <infoLink name="Overwatch" id="fcfc-4b3a-5a69-b01c" hidden="false" type="rule" targetId="4693-38cf-194e-db7d"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -6371,15 +6315,14 @@
             <profile name="Landwehr Heavy Weapon Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="4425-d966-d7ce-a3a9">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2x Landwehr Heavy Weapon Teams</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Support, (AUX) Infantry, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Support, (AUX) Infantry, Troop, Crewed Weapon</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">50mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Support Troop Actions" id="71ef-12d3-ea2d-d576" hidden="false" targetId="7959-03e6-fdc4-3adf" type="profile"/>
-            <infoLink name="Deployed Weapon" id="e7f0-2148-50ff-8e32" hidden="false" type="rule" targetId="49c6-4812-80b8-83cf"/>
-            <infoLink name="Front Facing" id="fc6a-fa00-a3e4-d713" hidden="false" type="rule" targetId="a57a-9c2f-704e-9847"/>
+            <infoLink name="Crewed Weapon Troop Actions" id="71ef-12d3-ea2d-d576" hidden="false" targetId="7959-03e6-fdc4-3adf" type="profile"/>
             <infoLink name="Overwatch" id="85ed-c472-3b36-d316" hidden="false" type="rule" targetId="4693-38cf-194e-db7d"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -6472,8 +6415,9 @@
             <profile name="Ritter Class Sturmzeppelin" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="0976-988a-f133-302c">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Ritter Class Sturmzeppelin</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Zeppelin, Flying, Transport, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Zeppelin, Vehicle, Flying, Transport</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">300x200mm oval</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6647,8 +6591,9 @@
             <profile name="Pinzgauer Utility Truck" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="c5bf-6196-5759-3d8c">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Pinzgauer Utility Truck</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, Transport, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, Vehicle, Transport</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6702,8 +6647,9 @@
             <profile name="28M Wallenstein Armored Halftrack" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="bbc6-3161-ca48-4f10">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 28M Wallenstein Armored Halftrack</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, Tracked, Transport</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, Vehicle, Tracked, Transport</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6801,8 +6747,9 @@
             <profile name="20M Supply Truck" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="8adb-679f-2104-afb4">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 20M Supply Truck</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, Transport, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, Vehicle, Transport</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6871,8 +6818,9 @@
             <profile name="Franz Von Trotta" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="2709-2181-6c44-0759">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Franz Von Trotta</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Infantry, (AUX) Recon, Hero, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Infantry, (AUX) Recon, Attache, Hero, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">32mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6927,8 +6875,9 @@
             <profile name="Chaim Drescher: The Maccabean Knight" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="b90f-791b-54f9-6ff8">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Chaim Drescher: The Maccabean Knight</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Mechanized, (AUX) Infantry, Battlesuit, Hero, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Mechanized, (AUX) Infantry, Troop, Battlesuit, Hero</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">40mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="Chaim Drescher: The Maccabean Knight" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="6534-1db1-aa22-7f36">
@@ -7007,8 +6956,9 @@
             <profile name="Baron Lajos Dolmán de Szolnok" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="9e96-f960-6919-17ba">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Baron Lajos Dolmán de Szolnok</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Armor, (CORE) Mechanized, Hero</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Armor, (CORE) Mechanized, Troop/Attache, Hero, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7028,7 +6978,7 @@
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="C2 - Hauptmann" hidden="false" id="3e2e-64ec-5ae8-5ffe" collective="false">
               <infoLinks>
-                <infoLink name="Command" id="6c7a-ebd9-b369-619f" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                <infoLink name="Officer" id="6c7a-ebd9-b369-619f" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
                   <modifiers>
                     <modifier type="append" value="2" field="name"/>
                   </modifiers>
@@ -7076,8 +7026,9 @@
             <profile name="Graf Class Panzerzeppelin" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="e392-e39b-ac3a-b39d">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Graf Class Panzerzeppelin</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Zeppelin, Flying, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Zeppelin, Vehicle, Flying</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">300x200mm oval</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="Graf Class Panzerzeppelin" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="fc5d-ac90-9949-d482">
@@ -7173,7 +7124,7 @@
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="C1 - Leutnant" hidden="false" id="9363-a4d2-d816-2781" collective="false">
                       <infoLinks>
-                        <infoLink name="Command" id="5822-0a4b-7e5f-b56c" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                        <infoLink name="Officer" id="5822-0a4b-7e5f-b56c" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
                           <modifiers>
                             <modifier type="append" value="1" field="name"/>
                           </modifiers>
@@ -7187,7 +7138,7 @@
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="C2 - Hauptmann" hidden="false" id="915a-a57f-6bf2-7de8" collective="false">
                       <infoLinks>
-                        <infoLink name="Command" id="ff4d-ca95-18f0-7abd" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                        <infoLink name="Officer" id="ff4d-ca95-18f0-7abd" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
                           <modifiers>
                             <modifier type="append" value="2" field="name"/>
                           </modifiers>
@@ -7201,7 +7152,7 @@
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="C3 - Major" hidden="false" id="0132-a695-3184-2bfb" collective="false">
                       <infoLinks>
-                        <infoLink name="Command" id="aeee-f4f2-60ac-e01b" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                        <infoLink name="Officer" id="aeee-f4f2-60ac-e01b" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
                           <modifiers>
                             <modifier type="append" value="3" field="name"/>
                           </modifiers>
@@ -7215,7 +7166,7 @@
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="C4 - Oberst" hidden="false" id="392c-c1f1-19d6-c89d" collective="false">
                       <infoLinks>
-                        <infoLink name="Command" id="a063-7879-356d-41b4" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                        <infoLink name="Officer" id="a063-7879-356d-41b4" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
                           <modifiers>
                             <modifier type="append" value="4" field="name"/>
                           </modifiers>
@@ -7229,7 +7180,7 @@
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="C5 - Feldmarschall-Leutnant" hidden="false" id="48d2-a246-ab47-4a60" collective="false">
                       <infoLinks>
-                        <infoLink name="Command" id="d9e5-785b-4077-aa09" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                        <infoLink name="Officer" id="d9e5-785b-4077-aa09" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
                           <modifiers>
                             <modifier type="append" value="5" field="name"/>
                           </modifiers>
@@ -7243,7 +7194,7 @@
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="C6 - Feldmarschall" hidden="false" id="299d-6d5e-85df-7a20" collective="false">
                       <infoLinks>
-                        <infoLink name="Command" id="dc43-26a6-46c3-5177" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                        <infoLink name="Officer" id="dc43-26a6-46c3-5177" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
                           <modifiers>
                             <modifier type="append" value="6" field="name"/>
                           </modifiers>
@@ -7475,11 +7426,12 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 20M Ambulance</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Mechanized, Vehicle</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Mechanized Vehicle Actions" id="9c99-7cb4-0599-4ce0" hidden="false" targetId="dd9a-09a9-4488-0f28" type="profile"/>
+            <infoLink name="Vehicle Actions" id="9c99-7cb4-0599-4ce0" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
             <infoLink name="Not My Job" id="ebef-fa50-1e78-4a40" hidden="false" type="rule" targetId="824b-bf81-ea20-17d4"/>
             <infoLink name="Hippocratic Oath" id="4059-0592-61b1-d8cc" hidden="false" type="rule" targetId="14f0-63cf-f0f4-79b4"/>
             <infoLink name="Dishonorable Conduct" id="e559-0543-a827-d2e0" hidden="false" type="rule" targetId="bc57-9a28-d90d-c8b6"/>
@@ -7504,13 +7456,14 @@
             <profile name="Panzergrenadier Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="2620-cf3f-cc5b-e315">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Panzergrenadier Unteroffizier. &amp; 4-9x Panzergrenadiers</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Mechanized, (AUX) Infantry, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Mechanized, (AUX) Infantry, Troop, Veteran</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">32mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">5-10</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Mechanized Troop Actions" id="1f4c-b103-aa4f-8fc6" hidden="false" targetId="a01c-c851-0047-239a" type="profile"/>
+            <infoLink name="Troop Actions" id="1f4c-b103-aa4f-8fc6" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
             <infoLink name="Elite Infantry" id="6bd9-e1ca-e331-6110" hidden="false" type="rule" targetId="12fb-381c-5514-6d51"/>
             <infoLink name="On Assignment" id="a4ca-2710-55e0-6ea4" hidden="false" type="rule" targetId="e2b8-2d66-35a1-c0c3"/>
           </infoLinks>
@@ -7664,13 +7617,14 @@
             <profile name="Knecht Battlesuit Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="b953-2552-4e76-4ed2">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Knecht Battlesuit Offizier &amp; 1-3x Knecht Battlesuits</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Mechanized, (AUX) Infantry, Battlesuit, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Mechanized, (AUX) Infantry, Troop, Battlesuit</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">40mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">2-4</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Mechanized Troop Actions" id="de39-42f3-723b-4f0d" hidden="false" targetId="a01c-c851-0047-239a" type="profile"/>
+            <infoLink name="Troop Actions" id="de39-42f3-723b-4f0d" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
             <infoLink name="Bulwark" id="8c04-c6f5-c475-87ca" hidden="false" type="rule" targetId="4946-e1a2-4529-60dc">
               <modifiers>
                 <modifier type="append" value="1" field="name"/>
@@ -7858,13 +7812,14 @@
             <profile name="32M Hunyadi Armored Personnel Carrier" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="aff1-5145-b08a-e9e3">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 32M Hunyadi Armored Personnel Carrier</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Mechanized, Tracked, Transport, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Mechanized, Vehicle, Tracked, Transport</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Mechanized Vehicle Actions" id="ee51-f845-bbc9-0f5d" hidden="false" targetId="dd9a-09a9-4488-0f28" type="profile"/>
+            <infoLink name="Vehicle Actions" id="ee51-f845-bbc9-0f5d" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
             <infoLink name="Transport" id="b0f4-095b-56fe-248c" hidden="false" targetId="73c0-9282-d155-0b35" type="rule">
               <modifiers>
                 <modifier type="append" value="2" field="name"/>
@@ -8037,13 +7992,14 @@
             <profile name="32M Bergepanzer Armored Recovery Vehicle" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="dc91-bb42-b675-6a26">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 32M Bergepanzer Armored Recovery Vehicle</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Mechanized, (AUX) Armor, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Mechanized, (AUX) Armor, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Mechanized Vehicle Actions" id="8cc1-73e2-f0dd-38e3" hidden="false" targetId="dd9a-09a9-4488-0f28" type="profile"/>
+            <infoLink name="Vehicle Actions" id="8cc1-73e2-f0dd-38e3" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
             <infoLink name="Armored Recovery Vehicle" id="c2aa-41df-337d-a0cd" hidden="false" type="rule" targetId="3731-64c9-4653-d0bb"/>
             <infoLink name="Prototype" id="0983-c802-ca80-3e17" hidden="false" type="rule" targetId="b4c0-7c13-2254-8ad1"/>
             <infoLink name="Hitch" id="2798-a607-62cf-5a65" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
@@ -8137,13 +8093,14 @@
             <profile name="28M Wallenstein Armored Halftrack Gun Carrier" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="a70e-c7a3-8588-9031">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 28M Wallenstein Armored Halftrack Gun Carrier</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Mechanized, (AUX Armor) Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Mechanized, (AUX) Armor, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Mechanized Vehicle Actions" id="3a4d-a71e-d6af-77b4" hidden="false" targetId="dd9a-09a9-4488-0f28" type="profile"/>
+            <infoLink name="Vehicle Actions" id="3a4d-a71e-d6af-77b4" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="Munitions" typeId="Points" value="83"/>

@@ -11,7 +11,7 @@
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="C4 - Polkovnik" hidden="false" id="0849-135a-ab5a-c512" collective="false">
               <infoLinks>
-                <infoLink name="Command" id="6212-9ee6-a4a7-b205" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                <infoLink name="Officer" id="6212-9ee6-a4a7-b205" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
                   <modifiers>
                     <modifier type="append" value="4" field="name"/>
                   </modifiers>
@@ -32,7 +32,7 @@
                 <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Command" id="50e7-d0c2-0834-3b81" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                <infoLink name="Officer" id="50e7-d0c2-0834-3b81" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
                   <modifiers>
                     <modifier type="append" value="3" field="name"/>
                   </modifiers>
@@ -47,7 +47,7 @@
                 <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Command" id="b8a0-e79b-4ccf-4ab1" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                <infoLink name="Officer" id="b8a0-e79b-4ccf-4ab1" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
                   <modifiers>
                     <modifier type="append" value="2" field="name"/>
                   </modifiers>
@@ -62,7 +62,7 @@
                 <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Command" id="a35e-e344-b2b8-a96f" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
+                <infoLink name="Officer" id="a35e-e344-b2b8-a96f" hidden="false" targetId="2f38-62b3-ba2d-80c4" type="rule">
                   <modifiers>
                     <modifier type="append" value="1" field="name"/>
                   </modifiers>
@@ -1599,6 +1599,7 @@
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="26e4-4a63-6d92-582d" primary="true" name="Command"/>
         <categoryLink targetId="51a0-4deb-b01b-931e" id="9d00-9ab8-d3c3-a9e0" primary="false" name="RUS"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="6f0b-7ad8-286b-8a38" primary="false" name="Attache"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -1628,7 +1629,7 @@
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="5406-cc5f-5a29-8afc" primary="true" name="Command"/>
         <categoryLink targetId="51a0-4deb-b01b-931e" id="7380-e6db-e310-f3f5" primary="false" name="RUS"/>
-        <categoryLink targetId="5363-dec4-5b0e-5504" id="7b14-7e42-09a6-1807" primary="false" name="Mounted"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="8bd6-474c-d516-e2af" primary="false" name="Attache"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -1639,7 +1640,6 @@
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="force" childId="de0d-e12c-a964-4e46" shared="true"/>
                     <condition type="atLeast" value="1" field="selections" scope="force" childId="c2bc-81f4-b62b-dc46" shared="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2450-f84d-0bff-43d8" shared="true"/>
                   </conditions>
                 </conditionGroup>
                 <conditionGroup type="or">
@@ -1661,6 +1661,7 @@
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="244c-760f-012e-2dae" primary="true" name="Command"/>
         <categoryLink targetId="51a0-4deb-b01b-931e" id="ab71-df26-43c0-e8c9" primary="false" name="RUS"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="6302-c7aa-8265-0e80" primary="false" name="Attache"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -1674,6 +1675,7 @@
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="c908-80f1-f3a4-c54d" primary="true" name="Command"/>
         <categoryLink targetId="51a0-4deb-b01b-931e" id="05e8-bdae-d8fa-b372" primary="false" name="RUS"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="beca-5198-1e53-6636" primary="false" name="Attache"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -1692,9 +1694,10 @@
     </entryLink>
     <entryLink import="true" name="Lieutenant Lyudmila Pavlichenko" hidden="false" id="63e8-7d59-5073-6490" type="selectionEntry" targetId="f4fb-d2ad-c88e-af98">
       <categoryLinks>
-        <categoryLink targetId="33a5-8b7e-49bb-c30d" id="3145-b499-324c-6ec5" primary="true" name="Heroes"/>
+        <categoryLink targetId="33a5-8b7e-49bb-c30d" id="3145-b499-324c-6ec5" primary="true" name="Hero"/>
         <categoryLink targetId="51a0-4deb-b01b-931e" id="d103-4cdd-a65b-2be7" primary="false" name="RUS"/>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="1528-8ebf-5bfc-4d24" primary="false" name="Command"/>
+        <categoryLink targetId="6dc4-41a4-7144-d10c" id="1e55-7728-f31f-1f8b" primary="false" name="Troop"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -1797,11 +1800,12 @@
         <categoryLink targetId="51a0-4deb-b01b-931e" id="c6d3-9561-1c89-d14c" primary="false" name="RUS"/>
         <categoryLink targetId="de0d-e12c-a964-4e46" id="c6fd-c478-b4a1-e77f" primary="false" name="Vehicle"/>
         <categoryLink targetId="7616-a9f8-6205-af0e" id="782b-55a5-8177-3e9e" primary="false" name="Tracked"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="3749-da4e-544c-423c" primary="false" name="Field Gun"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="AT-28 Heavy Tractor Troop Carrier" hidden="false" id="cb4d-3e44-3ed1-a7c2" type="selectionEntry" targetId="4f7f-122f-e70f-df51">
       <categoryLinks>
-        <categoryLink targetId="d4be-5aad-8560-5720" id="6ecd-70d7-5cbb-5664" primary="true" name="Transports"/>
+        <categoryLink targetId="d4be-5aad-8560-5720" id="6ecd-70d7-5cbb-5664" primary="true" name="Transport"/>
         <categoryLink targetId="51a0-4deb-b01b-931e" id="e699-ad40-9ed0-5c4c" primary="false" name="RUS"/>
         <categoryLink targetId="de0d-e12c-a964-4e46" id="810e-80e2-0e21-097a" primary="false" name="Vehicle"/>
         <categoryLink targetId="7616-a9f8-6205-af0e" id="7ed8-a5de-6724-e873" primary="false" name="Tracked"/>
@@ -1813,6 +1817,7 @@
         <categoryLink targetId="51a0-4deb-b01b-931e" id="1c43-89db-e132-0202" primary="false" name="RUS"/>
         <categoryLink targetId="de0d-e12c-a964-4e46" id="03f7-9146-fcbb-f480" primary="false" name="Vehicle"/>
         <categoryLink targetId="7616-a9f8-6205-af0e" id="8874-6d59-8344-f782" primary="false" name="Tracked"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="0ff6-5f74-bdb9-4b0c" primary="false" name="Field Gun"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Guards Grenadiers Squad" hidden="false" id="1fdb-0fb8-9f1c-2037" type="selectionEntry" targetId="d444-2ca9-0241-647d">
@@ -1838,9 +1843,10 @@
     <entryLink import="true" name="Snowbringer Starets Sleigh" hidden="true" id="bfc0-87a4-9c5b-9b15" type="selectionEntry" targetId="ba46-99fa-4562-f72a">
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="a059-33d9-373f-7073" primary="true" name="Command"/>
-        <categoryLink targetId="33a5-8b7e-49bb-c30d" id="0177-ccbd-78f4-c81a" primary="false" name="Heroes"/>
+        <categoryLink targetId="33a5-8b7e-49bb-c30d" id="0177-ccbd-78f4-c81a" primary="false" name="Hero"/>
         <categoryLink targetId="71cc-1c64-2438-4030" id="67f9-db99-bd59-afab" primary="false" name="Cavalry"/>
         <categoryLink targetId="51a0-4deb-b01b-931e" id="ce4e-808d-5fd2-fdd6" primary="false" name="RUS"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="e361-ffe1-84d1-a7aa" primary="false" name="Attache"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -1913,6 +1919,11 @@
             <condition type="instanceOf" value="1" field="selections" scope="force" childId="fae0-4a12-4ae4-5f9b" shared="true"/>
           </conditions>
         </modifier>
+        <modifier type="set-primary" value="c87d-0c37-d91f-b4cd" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="force" childId="29bb-b3e2-3fbb-9ad5" shared="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </entryLink>
     <entryLink import="true" name="OT-39 &quot;Ul. Olga&quot; Engineering Vehicle" hidden="false" id="e141-feeb-a0c5-aac5" type="selectionEntry" targetId="b9e7-6b2e-11be-58a6">
@@ -1944,7 +1955,7 @@
         <categoryLink targetId="7616-a9f8-6205-af0e" id="76c2-ae17-1d11-6acf" primary="false" name="Tracked"/>
         <categoryLink targetId="de0d-e12c-a964-4e46" id="44a5-854b-1d65-3826" primary="false" name="Vehicle"/>
         <categoryLink targetId="51a0-4deb-b01b-931e" id="6524-66bc-4cce-c3a3" primary="false" name="RUS"/>
-        <categoryLink targetId="d4be-5aad-8560-5720" id="4d42-36c4-9cef-2e0d" primary="false" name="Transports"/>
+        <categoryLink targetId="d4be-5aad-8560-5720" id="4d42-36c4-9cef-2e0d" primary="false" name="Transport"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="BA-36 Armored Scout Car" hidden="false" id="9d8c-2d42-bb7d-3267" type="selectionEntry" targetId="6979-d55d-d736-ec64">
@@ -1954,6 +1965,7 @@
         <categoryLink targetId="54db-5889-a382-77cb" id="11a9-84b4-c383-31ba" primary="true" name="CORE Recon"/>
         <categoryLink targetId="c87d-0c37-d91f-b4cd" id="e009-dab4-cc4e-fc9c" primary="false" name="AUX Mechanized"/>
         <categoryLink targetId="a74d-0d07-e5d9-0032" id="ad9f-7b68-e174-843f" primary="false" name="AUX Infantry"/>
+        <categoryLink targetId="2aa2-d811-87ac-0844" id="6ca5-ecee-68e8-a8d0" primary="false" name="Scout"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="c87d-0c37-d91f-b4cd" field="category">
@@ -1974,6 +1986,7 @@
         <categoryLink targetId="51a0-4deb-b01b-931e" id="b8bc-36be-4c19-b4d1" primary="false" name="RUS"/>
         <categoryLink targetId="de0d-e12c-a964-4e46" id="0950-bb03-be6b-9454" primary="false" name="Vehicle"/>
         <categoryLink targetId="7da2-822e-291f-eccc" id="f15a-4783-be85-0cd3" primary="false" name="Walker"/>
+        <categoryLink targetId="2aa2-d811-87ac-0844" id="09b9-de34-723d-30bb" primary="false" name="Scout"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="BS-44 &quot;Tachanka&quot; Armored Walker" hidden="false" id="a033-fc6f-0a79-5508" type="selectionEntry" targetId="1eb7-e9b5-b50a-1027">
@@ -1982,6 +1995,7 @@
         <categoryLink targetId="7da2-822e-291f-eccc" id="71f7-6430-caac-8593" primary="false" name="Walker"/>
         <categoryLink targetId="54db-5889-a382-77cb" id="1671-e8cb-6cb2-4667" primary="true" name="CORE Recon"/>
         <categoryLink targetId="de0d-e12c-a964-4e46" id="c368-78fc-9026-e701" primary="false" name="Vehicle"/>
+        <categoryLink targetId="2aa2-d811-87ac-0844" id="7e06-1c66-bf35-b816" primary="false" name="Scout"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Oprichniki Manhunters" hidden="false" id="c123-7a5b-e01d-3da2" type="selectionEntry" targetId="794c-0496-7ab6-c0bb">
@@ -2027,6 +2041,7 @@
         <categoryLink targetId="368f-586d-f503-841e" id="c711-af69-7f8f-7e9e" primary="true" name="CORE Rail"/>
         <categoryLink targetId="51a0-4deb-b01b-931e" id="8bc1-d6a2-af4e-5260" primary="false" name="RUS"/>
         <categoryLink targetId="de0d-e12c-a964-4e46" id="e05f-5f7a-3a93-f000" primary="false" name="Vehicle"/>
+        <categoryLink targetId="6f95-29a9-8d9a-a5fb" id="93c7-e099-b534-d978" primary="false" name="Superheavy"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Towed Cloud Engine" hidden="false" id="c71e-e3bb-b974-d257" type="selectionEntry" targetId="372f-16e0-7235-5a6f">
@@ -2086,6 +2101,7 @@
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="39dc-5281-4ab1-63b0" primary="true" name="Command"/>
         <categoryLink targetId="51a0-4deb-b01b-931e" id="15f5-e3bb-873f-0309" primary="false" name="RUS"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="b9c1-4290-3031-0645" primary="false" name="Attache"/>
       </categoryLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -2107,7 +2123,7 @@
     </entryLink>
     <entryLink import="true" name="Lend-Lease 20M Supply Truck" hidden="false" id="920f-3339-2ac7-3f0a" collective="false" targetId="ea84-dc9c-5bb1-2755" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="Transports" hidden="false" id="b33d-ef3b-cb16-c5f6" targetId="d4be-5aad-8560-5720" primary="true"/>
+        <categoryLink name="Transport" hidden="false" id="b33d-ef3b-cb16-c5f6" targetId="d4be-5aad-8560-5720" primary="true"/>
         <categoryLink name="Vehicle" hidden="false" id="eb6a-4cdf-420d-0a41" targetId="de0d-e12c-a964-4e46" primary="false"/>
       </categoryLinks>
       <infoLinks>
@@ -2116,7 +2132,7 @@
     </entryLink>
     <entryLink import="true" name="Lend-Lease 28M Wallenstein Armored Halftrack" hidden="false" id="a376-c221-dd4a-9434" collective="false" targetId="9328-6097-5d74-2e3b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="Transports" hidden="false" id="6c3c-5cd0-4a86-cd4d" targetId="d4be-5aad-8560-5720" primary="true"/>
+        <categoryLink name="Transport" hidden="false" id="6c3c-5cd0-4a86-cd4d" targetId="d4be-5aad-8560-5720" primary="true"/>
         <categoryLink name="Tracked" hidden="false" id="f8a7-ac58-6b84-e0c9" targetId="7616-a9f8-6205-af0e" primary="false"/>
         <categoryLink name="Vehicle" hidden="false" id="ac20-8106-8619-b262" targetId="de0d-e12c-a964-4e46" primary="false"/>
       </categoryLinks>
@@ -2140,6 +2156,7 @@
         <categoryLink name="CORE Artillery" hidden="false" id="0b71-5473-abfd-a629" targetId="8679-d614-ae03-de2c" primary="true"/>
         <categoryLink name="Tracked" hidden="false" id="fa8c-b18f-c9e9-ff79" targetId="7616-a9f8-6205-af0e" primary="false"/>
         <categoryLink name="Vehicle" hidden="false" id="72a7-e12f-0824-a608" targetId="de0d-e12c-a964-4e46" primary="false"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="8ca7-95da-eaa7-7a17" primary="false" name="Field Gun"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="48f5-3131-be0b-5951" field="category">
@@ -2158,7 +2175,8 @@
     <entryLink import="true" name="Lend-Lease 21cm Morser Battery" hidden="false" id="16b0-0ffb-6828-9086" collective="false" targetId="77fa-1dd3-09dd-fc0d" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="CORE Artillery" hidden="false" id="a1dd-64d3-4db0-68a1" targetId="8679-d614-ae03-de2c" primary="true"/>
-        <categoryLink name="Battery" hidden="false" id="4498-b016-c104-cfa1" targetId="2450-f84d-0bff-43d8" primary="false"/>
+        <categoryLink targetId="c2bc-81f4-b62b-dc46" id="4048-37fd-3dc4-4f0f" primary="false" name="Carriage"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="51aa-78a9-5588-2923" primary="false" name="Field Gun"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Lend-Lease 21cm Morser Carriage" hidden="false" id="f78c-f30e-1f39-5157" collective="false" targetId="a7c0-3180-f4c3-b748" type="selectionEntry">
@@ -2166,6 +2184,7 @@
         <categoryLink name="AUX Support" hidden="false" id="547f-e6b8-f492-e37e" targetId="48f5-3131-be0b-5951" primary="false"/>
         <categoryLink name="CORE Artillery" hidden="false" id="39f5-c904-0659-ac95" targetId="8679-d614-ae03-de2c" primary="true"/>
         <categoryLink name="Carriage" hidden="false" id="3600-ac4b-b8dd-44d3" targetId="c2bc-81f4-b62b-dc46" primary="false"/>
+        <categoryLink targetId="6458-4093-473e-e12f" id="48a1-82d0-8705-ebf2" primary="false" name="Field Gun"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set-primary" value="48f5-3131-be0b-5951" field="category">
@@ -2179,6 +2198,7 @@
       <categoryLinks>
         <categoryLink targetId="51a0-4deb-b01b-931e" id="0717-4d67-f31f-b078" primary="false" name="RUS"/>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="f6db-ac75-c2e9-3846" primary="true" name="Command"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="178e-58d8-a0ae-5c55" primary="false" name="Attache"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -2192,6 +2212,7 @@
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="5c36-282f-18f1-00e8" primary="true" name="Command"/>
         <categoryLink targetId="51a0-4deb-b01b-931e" id="4dac-ab7f-5f6d-9a99" primary="false" name="RUS"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="0412-850e-5848-b4a6" primary="false" name="Attache"/>
       </categoryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -2205,6 +2226,7 @@
       <categoryLinks>
         <categoryLink targetId="70eb-c264-a9cb-1bfe" id="b270-f21b-d9f7-fb92" primary="true" name="Command"/>
         <categoryLink targetId="51a0-4deb-b01b-931e" id="d12a-ce74-8f3e-8143" primary="false" name="RUS"/>
+        <categoryLink targetId="6cee-690d-b6de-aa15" id="654d-2e51-34d5-af84" primary="false" name="Attache"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="BA-36 Armored Command Car" hidden="false" id="6d6c-c637-4d4b-7e82" type="selectionEntry" targetId="0ea0-df92-fd1a-52d6">
@@ -2223,7 +2245,7 @@
       <description>Each individual weapon in this Unit with Enhanced Plasma applies a Slag Token, as if it were a separate instance of Slag.</description>
     </rule>
     <rule name="Novaya Zemlya Cloud Engine" id="ffea-d5ff-f989-1a15" hidden="false">
-      <description>This Unit may take the Freeze Action. Units within X inches of this model are subject to the effects of one additional category level of the Blizzard.</description>
+      <description>This Unit may take the Freeze Action as a Standard Action. Units within X inches of this model are subject to the effects of one additional category level of the Blizzard.</description>
     </rule>
     <rule name="Blessed Relic" id="6ba4-7959-19ce-304b" hidden="false">
       <description>Whenever this Unit would receive a Suppression Token, roll a D10, on a roll of 7+, that token is not applied.</description>
@@ -2232,7 +2254,7 @@
       <description>When making an attack action with this weapon at less than half of its maximum range, this unit gains an Aim Token.</description>
     </rule>
     <rule name="Freeze" id="f31c-1dc3-9251-1d62" hidden="false">
-      <description>As a standard Action, this unit may attempt to intensify the Blizzard to the next Category. If it does, roll a D10, then consult the Blizzard Chart. You may reroll failed rolls once for every Freeze Action that has been taken this round. To take this action, for every Category Level of the Blizzard, this Unit must be 6&quot; away from all other units that may take this action. The Blizzard may not gain more than one Category Level per round.</description>
+      <description>This unit may attempt to intensify the Blizzard to the next Category. If it does, roll a D10, then consult the Blizzard Chart. You may reroll failed rolls once for every Freeze Action that has been taken this round. To take this action, for every Category Level of the Blizzard, this Unit must be 6&quot; away from all other units that may take this action. The Blizzard may not gain more than one Category Level per round.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntryGroups>
@@ -2270,11 +2292,12 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x T-30 &quot;Ul. Dmitry&quot; Battle Tank</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Armor, (AUX) Mechanized, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Armor Vehicle Actions" id="ed56-1d75-eb7e-9e50" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
+            <infoLink name="Vehicle Actions" id="ed56-1d75-eb7e-9e50" hidden="false" targetId="ed5a-9492-6407-a9f1" type="profile"/>
             <infoLink name="Cook Off" id="394d-dac7-18a1-1692" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
           </infoLinks>
           <selectionEntries>
@@ -2699,11 +2722,12 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x T-40 &quot;Ul. Mikhail&quot; Heavy Tank</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Armor, (AUX) Mechanized, Tracked, Vehicle</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Armor Vehicle Actions" id="ab0e-5961-aed7-e8c9" hidden="false" type="profile" targetId="ed5a-9492-6407-a9f1"/>
+            <infoLink name="Vehicle Actions" id="ab0e-5961-aed7-e8c9" hidden="false" type="profile" targetId="ed5a-9492-6407-a9f1"/>
             <infoLink name="Catastrophic Detonation" id="96f5-6843-6121-d3ca" hidden="false" type="rule" targetId="ed65-6e21-b743-aab2"/>
           </infoLinks>
           <rules>
@@ -2773,13 +2797,14 @@
             <profile name="AT-28 &quot;Katyusha&quot;" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="e12d-16dd-6594-d744">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x AT-28 &quot;Katyusha&quot;</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Artillery, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Artillery, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Artillery Vehicle Actions" id="a0d8-a83d-723f-efaf" hidden="false" type="profile" targetId="ad55-69e8-9339-6df7"/>
+            <infoLink name="Field Gun Vehicle Actions" id="a0d8-a83d-723f-efaf" hidden="false" type="profile" targetId="ad55-69e8-9339-6df7"/>
             <infoLink name="Dial In" id="f0cf-ec2e-ff3a-0277" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
               <modifiers>
                 <modifier type="append" value="16" field="name"/>
@@ -2828,7 +2853,7 @@
             </selectionEntry>
           </selectionEntries>
           <infoLinks>
-            <infoLink name="Artillery Vehicle Actions" id="9c94-905a-9cac-0df5" hidden="false" type="profile" targetId="ad55-69e8-9339-6df7"/>
+            <infoLink name="Field Gun Vehicle Actions" id="9c94-905a-9cac-0df5" hidden="false" type="profile" targetId="ad55-69e8-9339-6df7"/>
             <infoLink name="Dial In" id="b8d5-0c7a-c197-fbd3" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
               <modifiers>
                 <modifier type="append" value="18" field="name"/>
@@ -2852,8 +2877,9 @@
             <profile name=" U-19 &quot;Ul. Barbara&quot; Motorized Howitzer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="76e0-3b25-b79e-22b4">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x  U-19 &quot;Ul. Barbara&quot; Motorized Howitzer</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Artillery, Vehicle, Tracked</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Artillery, Carriage, Tracked, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2888,13 +2914,14 @@
             <profile name="28M Wallenstein Armored Halftrack Höllenwerfer Carrier" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="4dad-ac3f-3783-0f0b">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 28M Wallenstein Armored Halftrack Höllenwerfer Carrier</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Artillery, (AUX) Support, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Artillery, (AUX) Support, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Artillery Vehicle Actions" id="f750-496f-6f1d-bed7" hidden="false" targetId="ad55-69e8-9339-6df7" type="profile"/>
+            <infoLink name="Field Gun Vehicle Actions" id="f750-496f-6f1d-bed7" hidden="false" targetId="ad55-69e8-9339-6df7" type="profile"/>
             <infoLink name="Shield Generator" id="cd23-5cc2-af64-3a9b" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
               <modifiers>
                 <modifier type="append" value="2" field="name"/>
@@ -2943,15 +2970,16 @@
             <profile name="21cm Morser Battery" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="7e78-ccc8-3a5c-8031">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">3x 21cm Morser Carriages</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Artillery, Battery</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Artillery, Carriage, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">3</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Deployed Weapon" id="501c-20f6-a5cb-ed78" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
             <infoLink name="Front Facing" id="6b32-f84b-8bff-6533" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
-            <infoLink name="Artillery Carriage Actions" id="9de4-8cca-5f42-7054" hidden="false" targetId="8aaf-072f-5000-d2b9" type="profile"/>
+            <infoLink name="Field Gun Carriage Actions" id="9de4-8cca-5f42-7054" hidden="false" targetId="8aaf-072f-5000-d2b9" type="profile"/>
             <infoLink name="Cumbersome" id="0791-b011-a14e-6ebc" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Dial In" id="da94-052d-922b-a6e9" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
               <modifiers>
@@ -3020,8 +3048,9 @@
             <profile name="21cm Morser Battery" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="cdc2-ea04-72be-eb2e">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 21cm Morser Carriage</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Artillery, (AUX) Support, Carriage</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Artillery, (AUX) Support, Carriage, Field Gun</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="21cm Morser Carriage" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="18a4-e9aa-b33c-35d2">
@@ -3036,7 +3065,7 @@
           <infoLinks>
             <infoLink name="Deployed Weapon" id="2497-873d-bbdb-fda0" hidden="false" targetId="49c6-4812-80b8-83cf" type="rule"/>
             <infoLink name="Front Facing" id="4a1f-b3a3-4933-abad" hidden="false" targetId="a57a-9c2f-704e-9847" type="rule"/>
-            <infoLink name="Artillery Carriage Actions" id="becf-dd92-d21b-fd49" hidden="false" targetId="8aaf-072f-5000-d2b9" type="profile"/>
+            <infoLink name="Field Gun Carriage Actions" id="becf-dd92-d21b-fd49" hidden="false" targetId="8aaf-072f-5000-d2b9" type="profile"/>
             <infoLink name="Cumbersome" id="6344-c25a-2e94-4c9a" hidden="false" type="rule" targetId="4c9f-32f0-9723-17cb"/>
             <infoLink name="Heavy Carriage" id="699d-0972-ff2b-a5c1" hidden="false" type="rule" targetId="4d43-378e-5e18-f124"/>
             <infoLink name="Dial In" id="eb47-e183-273c-caa6" hidden="false" type="rule" targetId="1cc7-7e82-f9f9-df65">
@@ -3084,8 +3113,9 @@
             <profile name="Guards Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="3b78-cd61-13f4-7181">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Guards Officer</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Infantry, Command, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Infantry, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3149,8 +3179,9 @@
             <profile name="Mounted Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="3ad6-5ab7-e85b-8fbc">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">N/A</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Flex, Command, Mounted</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Flex, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">0</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3160,8 +3191,9 @@
             <profile name="Pravoslavny Kapellan" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="f4c5-9d4c-ac44-2a43">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1-4 Pravoslavny Kapellan</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Infantry, (AUX) Recon, Command, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Infantry, (AUX) Recon, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">32mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1-4</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3268,8 +3300,9 @@
             <profile name="Corporate Mercenary Officers" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="3d5d-9875-76a8-5669">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1-4x Corporate Mercenary Officers</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Infantry, Command, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Infantry, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">32mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3378,8 +3411,9 @@
             <profile name="Snowbringer Starets" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="bf5a-a5e7-129f-dce6">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Snowbringer Starets Sleigh</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Recon, Command, Cavalry</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Recon, Cavalry, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">120x92mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3460,8 +3494,9 @@
             <profile name="Oprichnik Huntsmaster" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="69ec-bfa9-f292-286a">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Oprichnik Huntsmaster</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Recon, Command, Battlesuit, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Recon, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">40mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3496,8 +3531,9 @@
             <profile name="Pinzgauer Staff Car" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="b4ba-295f-ed1c-3a38">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Pinzgauer Staff Car</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Flex, Command, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Flex, Vehicle, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3508,7 +3544,6 @@
                 <modifier type="append" value="3" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Rank has its Privileges" id="e282-32e9-5615-625a" hidden="false" type="rule" targetId="7d1b-65ee-7808-b26d"/>
             <infoLink name="Hitch" id="c112-d31e-d249-04ad" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
             <infoLink name="Low Profile" id="740f-e163-03c8-cd03" hidden="false" type="rule" targetId="06ae-c996-2397-250a"/>
           </infoLinks>
@@ -3544,8 +3579,9 @@
             <profile name="Assault Engineer-Sapper Officer" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="3ae3-4dc8-7d18-51ad">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Assault Engineer-Sapper Officer</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Support, Command, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Support, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="Assault Engineer-Sapper" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="774c-7346-99b2-c939">
@@ -3632,8 +3668,9 @@
             <profile name="Cossack Hetman" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="655c-fe5e-a725-457e">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Cossack Hetman</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Recon, Command, Cavalry</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Recon, Attache, Command</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">60x35mm Oval</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3757,6 +3794,14 @@
                 <characteristic name="Hit Points" typeId="190f-e5ac-64bb-efa8">5</characteristic>
               </characteristics>
             </profile>
+            <profile name="Streltsy Sotnik" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="7bbe-593b-d057-bec1">
+              <characteristics>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Streltsy Sotnik</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Support, Attache, Command</characteristic>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">35x60mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
           <costs>
             <cost name="Munitions" typeId="Points" value="19"/>
@@ -3784,11 +3829,10 @@
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
           <infoLinks>
-            <infoLink name="Recon Vehicle Actions" id="8b4c-ba35-cec2-1a2e" hidden="false" type="profile" targetId="e02c-5a58-9b36-5c37"/>
+            <infoLink name="Scout Vehicle Actions" id="8b4c-ba35-cec2-1a2e" hidden="false" type="profile" targetId="e02c-5a58-9b36-5c37"/>
             <infoLink name="Intelligence" id="172f-c543-8fe1-afc4" hidden="false" type="rule" targetId="dc7a-f7c9-a54a-9cbc"/>
             <infoLink name="(CORE) Flex" id="05ea-ebc4-0290-f0a4" hidden="false" type="rule" targetId="05cc-45cd-4600-22d8"/>
             <infoLink name="Low Profile" id="5ecb-ba10-7fb8-a46d" hidden="false" type="rule" targetId="06ae-c996-2397-250a"/>
-            <infoLink name="Rank has its Privileges" id="ed52-8402-e1d4-424b" hidden="false" type="rule" targetId="7d1b-65ee-7808-b26d"/>
             <infoLink name="Command Car" id="f748-527d-a824-a0d1" hidden="false" type="rule" targetId="1cbf-8529-3a35-86c6"/>
             <infoLink name="All-Terrain-Vehicle" id="d1da-5c88-c8be-d637" hidden="false" type="rule" targetId="38b4-ccd9-b38d-a70c"/>
           </infoLinks>
@@ -3840,6 +3884,7 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x BA-36 Armored Command Car</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Recon, (AUX) Mechanized, (AUX) Infantry, Vehicle</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3855,11 +3900,12 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Yefreitor, 3-19x Ryadovoy, &amp; 0-6x Ryadovoy Specialists</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Infantry, (AUX) Mechanized, (AUX) Armor, Troop</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">10-20</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Infantry Troop Actions" id="8a37-38f4-a531-e09f" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
+            <infoLink name="Troop Actions" id="8a37-38f4-a531-e09f" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad Members" id="2b45-43ce-7c0d-da0a" hidden="false" collective="false" import="true" defaultSelectionEntryId="72d4-37d8-9d36-a3b5">
@@ -4719,7 +4765,7 @@
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
           <infoLinks>
-            <infoLink name="Infantry Troop Actions" id="3ee1-e868-92ec-f79e" hidden="false" type="profile" targetId="0936-84e8-76d0-501a"/>
+            <infoLink name="Troop Actions" id="3ee1-e868-92ec-f79e" hidden="false" type="profile" targetId="0936-84e8-76d0-501a"/>
           </infoLinks>
           <profiles>
             <profile name="Guards Grenadiers Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="8478-524e-993f-196c">
@@ -4727,6 +4773,7 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Grenader Yefreitor, 5-9 Grenader, &amp; 0-4 Grenader Specialists</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Infantry, (AUX) Mechanized, (AUX) Armor, Troop</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">10</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4747,11 +4794,12 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Cossak Starshina, 2-4x Cossack Vsadniki</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Recon, Cavalry</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">60x35mm Oval</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Recon Cavalry Actions" id="e64a-34d7-825d-ac13" hidden="false" targetId="95c6-33a2-c463-50c9" type="profile"/>
+            <infoLink name="Cavalry Actions" id="e64a-34d7-825d-ac13" hidden="false" targetId="95c6-33a2-c463-50c9" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad Members" id="2b54-a5a2-7db5-493a" hidden="false" collective="false" import="true" defaultSelectionEntryId="a3d5-1954-e1d1-8e7e">
@@ -4866,7 +4914,7 @@
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Oprichniki Manhunters" hidden="false" id="794c-0496-7ab6-c0bb">
           <infoLinks>
-            <infoLink name="Recon Troop Actions" id="cef3-548f-f946-fb17" hidden="false" type="profile" targetId="8759-1f21-a918-3ebe"/>
+            <infoLink name="Troop Actions" id="cef3-548f-f946-fb17" hidden="false" type="profile" targetId="0936-84e8-76d0-501a"/>
             <infoLink name="On Assignment" id="da5e-7f47-a59e-ed1b" hidden="false" type="rule" targetId="e2b8-2d66-35a1-c0c3"/>
             <infoLink name="Prototype" id="f9b3-a840-16a1-5d91" hidden="false" type="rule" targetId="b4c0-7c13-2254-8ad1"/>
           </infoLinks>
@@ -4970,8 +5018,9 @@
             <profile name="Oprichniki Manhunters" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="ac08-4e19-fac8-1a88">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Oprichnik Hunt Leader &amp; 2x Oprichniki Huntsmen</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Recon, (AUX) Infantry, (AUX) Mechanized, Battlesuit, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Recon, (AUX) Infantry, (AUX) Mechanized, Troop, Battlesuit</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">40mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">3</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4995,7 +5044,7 @@
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
           <infoLinks>
-            <infoLink name="Recon Vehicle Actions" id="c6f4-493c-38dc-df72" hidden="false" type="profile" targetId="e02c-5a58-9b36-5c37"/>
+            <infoLink name="Scout Vehicle Actions" id="c6f4-493c-38dc-df72" hidden="false" type="profile" targetId="e02c-5a58-9b36-5c37"/>
             <infoLink name="Bulwark" id="4619-413d-9df5-8c30" hidden="false" type="rule" targetId="4946-e1a2-4529-60dc">
               <modifiers>
                 <modifier type="append" value="1" field="name"/>
@@ -5171,8 +5220,9 @@
             <profile name="BS-44 &quot;Tachanka&quot; Armored Walker" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="5250-3afd-394e-f0a2">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x BS-44 &quot;Tachanka&quot; Armored Walker</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Recon, Walker, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Recon, Vehicle, Walker, Scout</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">100mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5194,7 +5244,7 @@
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
           <infoLinks>
-            <infoLink name="Recon Vehicle Actions" id="ac59-72ea-3115-0d0c" hidden="false" type="profile" targetId="e02c-5a58-9b36-5c37"/>
+            <infoLink name="Scout Vehicle Actions" id="ac59-72ea-3115-0d0c" hidden="false" type="profile" targetId="e02c-5a58-9b36-5c37"/>
             <infoLink name="Intelligence" id="ab17-d8ff-ea04-8be6" hidden="false" type="rule" targetId="dc7a-f7c9-a54a-9cbc"/>
             <infoLink name="All-Terrain-Vehicle" id="6d75-9630-c88f-7055" hidden="false" type="rule" targetId="38b4-ccd9-b38d-a70c"/>
           </infoLinks>
@@ -5296,8 +5346,9 @@
             <profile name="BA-36 Armored Scout Car" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="0755-10e1-e904-f724">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x BA-36 Armored Car</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Recon, (AUX) Mechanized, (AUX) Infantry, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Recon, (AUX) Mechanized, (AUX) Infantry, Vehicle, Scout</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5317,7 +5368,7 @@
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
           <infoLinks>
-            <infoLink name="Recon Vehicle Actions" id="6a2a-9abf-7f63-3e1d" hidden="false" type="profile" targetId="e02c-5a58-9b36-5c37"/>
+            <infoLink name="Scout Vehicle Actions" id="6a2a-9abf-7f63-3e1d" hidden="false" type="profile" targetId="e02c-5a58-9b36-5c37"/>
             <infoLink name="Bulwark" id="e831-2b90-8b88-6afd" hidden="false" type="rule" targetId="4946-e1a2-4529-60dc">
               <modifiers>
                 <modifier type="append" value="1" field="name"/>
@@ -5425,7 +5476,7 @@
               </profiles>
               <constraints>
                 <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="a319-8cdb-56b4-b0a4-min" includeChildSelections="false"/>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a319-8cdb-56b4-b0a4-max" includeChildSelections="false"/>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="a319-8cdb-56b4-b0a4-max" includeChildSelections="false"/>
               </constraints>
               <costs>
                 <cost name="Munitions" typeId="Points" value="42"/>
@@ -5438,9 +5489,10 @@
           <profiles>
             <profile name="BS-41 &quot;Ul. Ilya&quot; Light Recon Walker Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="f60d-d5c0-a7b1-00af">
               <characteristics>
-                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2x BS-41 &quot;Ul. Ilya&quot; Light Recon Walkers</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Recon, Walker, Vehicle</characteristic>
-                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">60mm</characteristic>
+                <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">2-4x BS-41 &quot;Ul. Ilya&quot; Light Recon Walkers</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Recon, Vehicle, Walker, Scout</characteristic>
+                <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">80mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">2</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5590,11 +5642,12 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Desyatnik, 2x Stelets</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Support, (AUX) Infantry, (AUX) Mechanized, Troop</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">35x60mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">3</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Support Troop Actions" id="a0f6-428a-80d6-99d2" hidden="false" type="profile" targetId="7959-03e6-fdc4-3adf"/>
+            <infoLink name="Crewed Weapon Troop Actions" id="a0f6-428a-80d6-99d2" hidden="false" type="profile" targetId="7959-03e6-fdc4-3adf"/>
             <infoLink name="Elite Infantry" id="7030-d8cf-e733-2d3a" hidden="false" type="rule" targetId="12fb-381c-5514-6d51"/>
             <infoLink name="Overwatch" id="849c-d632-7330-1201" hidden="false" type="rule" targetId="4693-38cf-194e-db7d"/>
             <infoLink name="Prototype" id="5e12-f7a2-2cd0-2ab2" hidden="false" type="rule" targetId="b4c0-7c13-2254-8ad1"/>
@@ -5639,8 +5692,9 @@
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
           <infoLinks>
-            <infoLink name="Support Vehicle Actions" id="e3d7-bef2-3057-aae1" hidden="false" type="profile" targetId="f3ad-8ceb-aaf2-040d"/>
+            <infoLink name="Vehicle Actions" id="e3d7-bef2-3057-aae1" hidden="false" type="profile" targetId="ed5a-9492-6407-a9f1"/>
             <infoLink name="Cook Off" id="b803-337f-75aa-b23f" hidden="false" type="rule" targetId="218f-bd27-8f75-09f4"/>
+            <infoLink name="Tank Destroyer" id="795b-ccd1-1a87-a58c" hidden="false" type="rule" targetId="c8ab-8177-6dc3-df26"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Casemate" hidden="false" id="4669-274a-13e4-fec3">
@@ -5725,6 +5779,7 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x SU-38 &quot;Ul. Georg&quot; Tank Destroyer</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Support, (AUX) Armor, (AUX) Mechanized, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6044,18 +6099,18 @@
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
           <infoLinks>
-            <infoLink name="Support Engineer Troop Actions" id="99eb-bcee-921c-d2e0" hidden="false" type="profile" targetId="335b-34df-c974-9c3b"/>
+            <infoLink name="Engineer Troop Actions" id="99eb-bcee-921c-d2e0" hidden="false" type="profile" targetId="335b-34df-c974-9c3b"/>
             <infoLink name="Battlefield Preparation" id="d0e6-1689-b5bf-a7b9" hidden="false" type="rule" targetId="ea06-55d8-62e2-4f31"/>
             <infoLink name="Forward Positions" id="73f1-8114-1d04-3fff" hidden="false" type="rule" targetId="239f-191a-232-4894"/>
             <infoLink name="Logistics" id="62eb-e6bb-af74-1988" hidden="false" type="rule" targetId="c1ce-d022-923f-3147"/>
-            <infoLink name="Prototype" id="e778-754c-9d86-3ced" hidden="false" type="rule" targetId="b4c0-7c13-2254-8ad1"/>
           </infoLinks>
           <profiles>
             <profile name="Assault Engineer-Sapper Squad" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="ce2e-2a38-cdd8-bffd">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Assault Engineer-Sapper Yefrietor, 5-9x Assault Engineer-Sappers, 0-4x  Assault Engineer-Sapper Specialists</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Support, (AUX) Infantry, (AUX) Mechanized, (AUX) Rail, Engineer, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Support, (AUX) Infantry, (AUX) Mechanized, (AUX) Rail, Troop, Engineer</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">25mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">10</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6065,8 +6120,9 @@
             <profile name="OT-39 &quot;Ul. Olga&quot; Engineering Vehicle" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="f204-e554-da15-ac8f">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x OT-39 &quot;Ul. Olga&quot; Engineering Vehicle</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Support, (AUX) Armor, (AUX) Mechanized, Engineer, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Support, (AUX) Armor, (AUX) Mechanized, Engineer, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="OT-39 &quot;Ul. Olga&quot; Engineering Vehicle" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="d802-2027-58f8-60cd">
@@ -6118,7 +6174,7 @@
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
           <infoLinks>
-            <infoLink name="Support Engineer Vehicle Actions" id="922b-c476-17f1-1e08" hidden="false" type="profile" targetId="ba32-3e2e-765c-654b"/>
+            <infoLink name="Engineer Vehicle Actions" id="922b-c476-17f1-1e08" hidden="false" type="profile" targetId="ba32-3e2e-765c-654b"/>
             <infoLink name="Catastrophic Detonation" id="91a8-a948-7cf4-deed" hidden="false" type="rule" targetId="ed65-6e21-b743-aab2"/>
             <infoLink name="Prototype" id="7e97-6f5b-8048-022e" hidden="false" type="rule" targetId="b4c0-7c13-2254-8ad1"/>
           </infoLinks>
@@ -6179,8 +6235,9 @@
             <profile name="AT-28 Cloud Engine" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="430d-e2b7-871c-9455">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x AT-28 Cloud Engine</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Support, (AUX) Armor, (AUX) Artillery, (AUX) Infantry, (AUX) Recon, (AUX) Mechanized, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Support, (AUX) Armor, (AUX) Artillery, (AUX) Infantry, (AUX) Recon, (AUX) Mechanized, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6191,7 +6248,8 @@
                 <modifier type="append" value="20" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Support Vehicle Actions" id="46fe-5e0d-0d1f-0e27" hidden="false" type="profile" targetId="f3ad-8ceb-aaf2-040d"/>
+            <infoLink name="Vehicle Actions" id="46fe-5e0d-0d1f-0e27" hidden="false" type="profile" targetId="ed5a-9492-6407-a9f1"/>
+            <infoLink name="Freeze" id="0a20-ed45-dd43-aeb4" hidden="false" type="rule" targetId="f31c-1dc3-9251-1d62"/>
           </infoLinks>
           <costs>
             <cost name="Munitions" typeId="Points" value="50"/>
@@ -6216,6 +6274,7 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Towed Cloud Engine</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (AUX) Infantry, (AUX) Armor, (AUX) Recon, (AUX) Mechanized, (AUX) Support, (AUX) Artillery, Carriage</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="Towed Cloud Engine" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="b204-e5a9-a978-2027">
@@ -6235,6 +6294,7 @@
               </modifiers>
             </infoLink>
             <infoLink name="Prototype" id="f3ce-f8cf-cad6-a7d7" hidden="false" type="rule" targetId="b4c0-7c13-2254-8ad1"/>
+            <infoLink name="Freeze" id="046a-764b-ceda-e5bc" hidden="false" type="rule" targetId="f31c-1dc3-9251-1d62"/>
           </infoLinks>
           <costs>
             <cost name="Munitions" typeId="Points" value="40"/>
@@ -6242,6 +6302,11 @@
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="0"/>
           </costs>
+          <rules>
+            <rule name="Towed Cloud Engine" id="cfd1-8fcd-4058-4332" hidden="false">
+              <description>Once per Round, a Friendly Unit within 3&quot; of this one may choose to Activate the Cloud Engine, if it does, immediately perform a free Freeze Action.</description>
+            </rule>
+          </rules>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -6258,7 +6323,7 @@
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
           <infoLinks>
-            <infoLink name="Mechanized Troop Actions" id="26a2-8ddc-4f75-f9ad" hidden="false" type="profile" targetId="a01c-c851-0047-239a"/>
+            <infoLink name="Troop Actions" id="26a2-8ddc-4f75-f9ad" hidden="false" type="profile" targetId="0936-84e8-76d0-501a"/>
             <infoLink name="Bulwark" id="2360-7d3c-61b6-618e" hidden="false" type="rule" targetId="4946-e1a2-4529-60dc">
               <modifiers>
                 <modifier type="append" value="1" field="name"/>
@@ -6471,6 +6536,7 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Druzhina Yefreitor &amp; 1-3x Druzhina</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Mechanized, (AUX) Infantry, Battlesuit, Troop</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">40mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">2-4</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6504,6 +6570,7 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x BTR- 39 &quot;Ul. Evgeniy&quot; Armored Personnel Carrier</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Mechanized, Transport, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="BTR- 39 &quot;Ul. Evgeniy&quot; Armored Personnel Carrier" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="0599-a36d-9be1-3d21">
@@ -6533,7 +6600,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Mechanized Vehicle Actions" id="0eb0-f5f2-31b1-8519" hidden="false" type="profile" targetId="dd9a-09a9-4488-0f28"/>
+            <infoLink name="Troop Actions" id="0eb0-f5f2-31b1-8519" hidden="false" type="profile" targetId="0936-84e8-76d0-501a"/>
             <infoLink name="Transport" id="5a4c-6da0-6734-9ee9" hidden="false" type="rule" targetId="73c0-9282-d155-0b35">
               <modifiers>
                 <modifier type="append" value="1" field="name"/>
@@ -6658,6 +6725,7 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x BTR- 39 Armored Recovery Vehicle</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Mechanized, Transport, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
             <profile name="BTR- 39 Armored Recovery Vehicle" typeId="d3fb-06f3-cc24-ab32" typeName="Model" hidden="false" id="1c74-7eeb-9afe-f720">
@@ -6687,7 +6755,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Mechanized Vehicle Actions" id="6359-55b3-01df-d445" hidden="false" type="profile" targetId="dd9a-09a9-4488-0f28"/>
+            <infoLink name="Troop Actions" id="6359-55b3-01df-d445" hidden="false" type="profile" targetId="0936-84e8-76d0-501a"/>
             <infoLink name="Armored Recovery Vehicle" id="1b68-fa72-b029-292c" hidden="false" type="rule" targetId="3731-64c9-4653-d0bb"/>
             <infoLink name="Hitch" id="d6f8-da0d-29ee-54e2" hidden="false" type="rule" targetId="320a-d3d0-cf35-7d83"/>
             <infoLink name="Prototype" id="1dae-2516-d6b2-6977" hidden="false" type="rule" targetId="b4c0-7c13-2254-8ad1"/>
@@ -7196,7 +7264,7 @@
           </entryLinks>
           <rules>
             <rule name="Private Military Contractors" id="e71c-f244-41f4-6952" hidden="false">
-              <description>Once per Activation, you may spend Supply Points to have this Unit perform extra Free Actions.
+              <description>Once per Activation, you may spend Supply Points to have this Unit perform extra Free Actions. When performed, these Actions are treated as if this is the first time this Activation they have been used.
 1 SP: Dash
 2 SP: Aim
 3 SP: Move
@@ -7209,11 +7277,12 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Contractor Squad Leader, 1-9x Contractor Rifleman, 0-1x Contractor Medic, 0-4x Contractor Specialists</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Mechanized, (CORE) Infantry, (CORE) Recon, Troop</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">32mm</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">5-10</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Mechanized Troop Actions" id="2467-4fe4-6f92-c2ff" hidden="false" type="profile" targetId="a01c-c851-0047-239a"/>
+            <infoLink name="Troop Actions" id="2467-4fe4-6f92-c2ff" hidden="false" type="profile" targetId="0936-84e8-76d0-501a"/>
             <infoLink name="Elite Infantry" id="237e-baf3-4bed-50d1" hidden="false" type="rule" targetId="12fb-381c-5514-6d51"/>
             <infoLink name="Prototype" id="22c6-4526-3cc4-1c2b" hidden="false" type="rule" targetId="b4c0-7c13-2254-8ad1"/>
             <infoLink name="On Assignment" id="88a3-d733-15ca-c7f5" hidden="false" type="rule" targetId="e2b8-2d66-35a1-c0c3"/>
@@ -7251,11 +7320,12 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 20M Ambulance</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Mechanized, Vehicle</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Mechanized Vehicle Actions" id="373d-5587-3d5c-4c74" hidden="false" targetId="dd9a-09a9-4488-0f28" type="profile"/>
+            <infoLink name="Troop Actions" id="373d-5587-3d5c-4c74" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
             <infoLink name="Not My Job" id="65c2-f1af-59da-15d1" hidden="false" type="rule" targetId="824b-bf81-ea20-17d4"/>
             <infoLink name="Shield Generator" id="f03f-cee0-41f8-a8bf" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
               <modifiers>
@@ -7317,11 +7387,12 @@
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 28M Wallenstein Armored Halftrack Gun Carrier</characteristic>
                 <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, (CORE) Mechanized, (AUX) Armor, Tracked, Vehicle</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Mechanized Vehicle Actions" id="4591-4b80-8dfa-f076" hidden="false" targetId="dd9a-09a9-4488-0f28" type="profile"/>
+            <infoLink name="Troop Actions" id="4591-4b80-8dfa-f076" hidden="false" targetId="0936-84e8-76d0-501a" type="profile"/>
             <infoLink name="Shield Generator" id="a6f7-d337-3706-b35b" hidden="false" targetId="6db2-42c0-b23d-3b14" type="rule">
               <modifiers>
                 <modifier type="append" value="2" field="name"/>
@@ -7388,14 +7459,15 @@
             <profile name="Lieutenant Lyudmila Pavlichenko" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="220d-6e66-e322-f19a">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Lieutenant Lyudmila Pavlichenko</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Recon, (CORE) Recon, Hero, Troop</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Recon, (CORE) Recon, Troop, Hero</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">60x35mm Oval</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Intelligence" id="5ec3-dbe9-04c8-df4b" hidden="false" type="rule" targetId="dc7a-f7c9-a54a-9cbc"/>
-            <infoLink name="Hero Actions" id="a73a-7270-db6c-9fac" hidden="false" type="profile" targetId="ca2a-7f10-72a9-2a56"/>
+            <infoLink name="Troop Actions" id="a73a-7270-db6c-9fac" hidden="false" type="profile" targetId="0936-84e8-76d0-501a"/>
             <infoLink name="Independent Hero" id="b55a-3852-2aa4-c880" hidden="false" type="rule" targetId="87d1-b519-3107-ac0d"/>
             <infoLink name="Forward Positions" id="0f5a-27df-b986-983e" hidden="false" type="rule" targetId="239f-191a-232-4894"/>
           </infoLinks>
@@ -7409,14 +7481,14 @@
             <entryLink import="true" name="Nominate Field Commander" hidden="false" id="9bf1-e2b5-cf50-abe3" type="selectionEntry" targetId="a8f2-8cd0-efc0-4a1b"/>
           </entryLinks>
           <costs>
-            <cost name="Munitions" typeId="Points" value="49"/>
+            <cost name="Munitions" typeId="Points" value="59"/>
             <cost name="Supply" typeId="284c-5503-e866-a2e0" value="0"/>
             <cost name="Intel" typeId="2f82-38f2-c47a-db0a" value="0"/>
             <cost name="Activations" typeId="a4ae-e848-77a7-6d45" value="1"/>
           </costs>
           <rules>
             <rule name="Lady Death" id="b459-654c-3329-a4cc" hidden="false">
-              <description>When Lieutenant Lyudmila Pavlichenko deals damage to a Vehicle Unit with a Commander Mounted, if she deals 7 or more damage, remove that Commander from the Vehicle, they are destroyed. The Attacked Vehicle retains Veteran Crew even if the Commander is removed. If Lieutenant Lyudmila Pavlichenko is your Field Commander, when a Unit in your Army attacks with a Weapon with Critical Shot, it triggers on an 8, 9, or 10.</description>
+              <description>When Lieutenant Lyudmila Pavlichenko deals damage to a Vehicle Unit with a Commander Mounted, if she deals 7 or more damage, remove that Commander from the Vehicle, they are destroyed. The Attacked Vehicle retains Veteran Crew even if the Commander is removed. If Lieutenant Lyudmila Pavlichenko is your Field Commander, when a Unit in your Army attacks with a Weapon with Critical Shot, it triggers on a 9 or 10.</description>
             </rule>
           </rules>
           <constraints>
@@ -7472,8 +7544,9 @@
             <profile name="AT-28 Heavy Tractor Troop Carrier" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="cba9-5ada-668f-64e4">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x AT-28 Heavy Tractor Troop Carrier</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, Transport, Tracked, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, Transport, Vehicle, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7545,8 +7618,9 @@
             <profile name="28M Wallenstein Armored Halftrack" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="2c81-df26-bbc2-014b">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 28M Wallenstein Armored Halftrack</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, Tracked, Transport</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, Transport, Tracked</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7652,8 +7726,9 @@
             <profile name="20M Supply Truck" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="901f-42a6-a92e-b1d0">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x 20M Supply Truck</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, Transport, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">HRE, Vehicle, Transport</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7898,7 +7973,6 @@
                     <entryLink import="true" name="Officer Upgrades" hidden="false" id="9f17-3b9c-ad21-7493" type="selectionEntryGroup" targetId="76a7-ae12-5d20-f79a"/>
                   </entryLinks>
                   <infoLinks>
-                    <infoLink name="Rank has its Privileges" id="7648-0ad9-5171-1fa5" hidden="false" type="rule" targetId="7d1b-65ee-7808-b26d"/>
                     <infoLink name="Command Car" id="f35e-f590-b970-a15b" hidden="false" type="rule" targetId="1cbf-8529-3a35-86c6"/>
                   </infoLinks>
                   <costs>
@@ -8314,8 +8388,9 @@ Additional Rail Segments may be built by Engineer Units at the cost of 2SP per R
             <profile name="BP-21 &quot;Gulyay-Gorod&quot; Armored Train" typeId="0322-11e4-8667-bbe3" typeName="Unit Composition" hidden="false" id="4601-82fe-1d3f-65a7">
               <characteristics>
                 <characteristic name="Composition" typeId="1f57-7b47-fc27-63ac">1x Engine &amp; 2-4x Cars</characteristic>
-                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Rail, Vehicle</characteristic>
+                <characteristic name="Keywords" typeId="8b2b-8745-edb5-df14">RUS, (CORE) Rail, Vehicle, Superheavy</characteristic>
                 <characteristic name="Base Size" typeId="d264-e5f6-d2b5-2624">N/A</characteristic>
+                <characteristic name="Models in Unit" typeId="79fc-3188-cd1e-2b49">3-5</characteristic>
               </characteristics>
             </profile>
           </profiles>
